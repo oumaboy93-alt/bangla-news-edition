@@ -5,18 +5,40 @@
    ═══════════════════════════════════════════════════════════════════ */
 window.AZADI_DEFAULT_CONFIG = {
   version: 1,
-  updatedAt: "",
+  updatedAt: "2026-08-12T01:12:00.000Z",
   settings: {
     siteName: "বাংলা নিউজ এডিশন",
-    /* admin.html থেকে "প্রকাশ" করার পর যে পাবলিক রিড URL পাবেন,
-       সেটি এখানে একবার বসিয়ে ডিপ্লয় করুন — এরপর সব আপডেট রিমোট থেকেই হবে। */
     remoteConfigUrl: "",
     adminPath: "admin.html"
   },
-  /* সম্পাদকের নিজস্ব সংবাদ — admin.html থেকে যোগ/সম্পাদনা করুন।
-     lead: true দিলে সেটিই হোমপেজের প্রধান শিরোনাম হবে। */
   editorNews: [],
-  /* বিজ্ঞাপন ব্লক — slot: home_top | home_middle | article_sidebar | article_bottom
-     type: youtube | image | html */
-  ads: []
+  ads: [
+    {
+      id: "ad_probashi_bkash",
+      slot: "probashi_hub",
+      type: "image",
+      title: "বিকাশ রেমিট্যান্স বোনাস — বৈধ পথে রেমিট্যান্স পাঠিয়ে ক্যাশব্যাক পান",
+      image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=900&auto=format&fit=crop&q=80",
+      link: "https://www.bkash.com/remittance",
+      enabled: true
+    },
+    {
+      id: "ad_probashi_visa",
+      slot: "probashi_hub",
+      type: "image",
+      title: "ইউরোপ ও মধ্যপ্রাচ্য প্রবাসগমন ভিসা প্রসেসিং সহায়তা — অনুমোদিত এজেন্সি",
+      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=900&auto=format&fit=crop&q=80",
+      link: "https://bmet.gov.bd",
+      enabled: true
+    },
+    {
+      id: "ad_probashi_airline",
+      slot: "probashi_hub",
+      type: "image",
+      title: "প্রবাসী ডিসকাউন্ট বিমান টিকেট বুকিং — বাংলাদেশ বিমান ও এমিরেটস",
+      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&auto=format&fit=crop&q=80",
+      link: "https://www.biman-airlines.com",
+      enabled: true
+    }
+  ]
 };
