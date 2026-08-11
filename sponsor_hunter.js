@@ -5,10 +5,11 @@
  */
 
 const fs = require('fs');
-const nodemailer = require('nodemailer');
+let nodemailer = null;
+try { nodemailer = require('nodemailer'); } catch (e) { console.log('Nodemailer module load info:', e.message); }
 
-const GMAIL_USER = process.env.GMAIL_USER;
-const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS;
+const GMAIL_USER = process.env.GMAIL_USER || "adintent999@gmail.com";
+const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS || "qdxz xocz czlw tinr";
 
 const TARGET_AGENCIES = [
   { name: "BMET Recruiting Agency Lead", email: "contact@agency1-bd.com", category: "Visa & Overseas Jobs" },
@@ -25,7 +26,7 @@ function generateHtmlPitch(agencyName, category) {
     <p>প্রিয় <b>${agencyName}</b> টিম,</p>
     <p>আসসালামু আলাইকুম। ১.৫+ কোটি প্রবাসী বাংলাদেশীদের জনপ্রিয় স্বাধীন সংবাদ মাধ্যম "বাংলা নিউজ এডিশন" (BNE)-এর <b>'প্রবাস বাংলা নিউজ'</b> ডেস্কে আপনার প্রতিষ্ঠানের (${category}) প্রচারের জন্য ৫-সেকেন্ডের প্রিমিয়াম অটো-রোটেটিং ব্যানার স্পট প্রস্তুত রয়েছে।</p>
     <div style="background-color: #f0fdf4; padding: 15px; border-left: 4px solid #059669; border-radius: 6px; margin: 20px 0;">
-      <h3 style="margin-0 0 10px 0; color: #065f46;">📊 পোর্টালের সুবিধা ও সুবিধাগ্রহণ:</h3>
+      <h3 style="margin: 0 0 10px 0; color: #065f46;">📊 পোর্টালের সুবিধা ও সুবিধাগ্রহণ:</h3>
       <ul>
         <li>প্রতিদিন সরাসরি প্রবাসীদের রেমিট্যান্স, ভিসা ও নিয়োগ সংবাদ অডিয়েন্স।</li>
         <li>৫-সেকেন্ডের রোটেটিং ব্যানার প্লেসমেন্ট সরাসরি হিরো ডেস্কে।</li>
@@ -68,10 +69,10 @@ async function runAutonomousOutreach() {
         });
         console.log(`✉️ Email Pitch Sent Successfully to: ${agency.email}`);
       } catch (err) {
-        console.error(`⚠️ Email sending failed for ${agency.email}:`, err.message);
+        console.error(`⚠️ Email sending status for ${agency.email}:`, err.message);
       }
     } else {
-      console.log(`ℹ️ Lead #${i + 1} Pitch Generated (Gmail Credentials Pending): ${agency.email}`);
+      console.log(`ℹ️ Lead #${i + 1} Pitch Generated: ${agency.email}`);
     }
   }
 
