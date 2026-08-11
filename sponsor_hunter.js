@@ -6,10 +6,10 @@
 
 const fs = require('fs');
 let nodemailer = null;
-try { nodemailer = require('nodemailer'); } catch (e) { console.log('Nodemailer module load info:', e.message); }
+try { nodemailer = require('nodemailer'); } catch (e) { console.log('Nodemailer info:', e.message); }
 
-const GMAIL_USER = process.env.GMAIL_USER || "adintent999@gmail.com";
-const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS || "qdxz xocz czlw tinr";
+const GMAIL_USER = process.env.GMAIL_USER;
+const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS;
 
 const TARGET_AGENCIES = [
   { name: "BMET Recruiting Agency Lead", email: "contact@agency1-bd.com", category: "Visa & Overseas Jobs" },
@@ -54,7 +54,7 @@ async function runAutonomousOutreach() {
     const htmlPitch = generateHtmlPitch(agency.name, agency.category);
     leads.push({ id: i + 1, agency: agency.name, email: agency.email, category: agency.category });
 
-    if (GMAIL_USER && GMAIL_APP_PASS) {
+    if (GMAIL_USER && GMAIL_APP_PASS && nodemailer) {
       try {
         const transporter = nodemailer.createTransport({
           service: 'gmail',
