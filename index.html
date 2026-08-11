@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>প্রবাসী নিউজ এডিশন — প্রবাস বাংলা নিউজ পোর্টাল</title>
+  <meta name="description" content="প্রবাসী নিউজ এডিশন — বিশ্বজুড়ে বসবাসরত প্রবাসী এবং প্রবাসগমনেচ্ছু বাংলাদেশীদের জন্য বিশেষায়িত তথ্য, রেমিট্যান্স, ভিসা গাইড ও লাইভ সংবাদ পোর্টাল।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-left">
+          <span class="live-dot-wrap"><span class="live-dot"></span> লাইভ আপডেট</span>
+          <span class="topbar-tagline">| বিশ্বজুড়ে প্রবাসীদের আস্থা ও নিরপেক্ষ খবরের বিশ্বস্ত ঠিকানা</span>
+        </div>
+        <div class="topbar-right">
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener" title="Facebook" class="social-icon fb"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" title="YouTube" class="social-icon yt"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" title="Twitter/X" class="social-icon tw"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="masthead">
+      <div class="container masthead-grid">
+        <!-- কলাম ১: বামে এডিটরিয়াল তারিখ ও লোকেশন সেকশন -->
+        <div class="masthead-col left-col">
+          <div class="date-widget">
+            <span class="icon">📅</span>
+            <div class="date-details">
+              <span id="today-date" class="date-main">লোডিং...</span>
+              <span class="location">ঢাকা, বাংলাদেশ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- কলাম ২: সেন্টারে মাস্টার ব্র্যান্ড লোগো (BNE ক্র্যাস্ট + টাইপোগ্রাফি) -->
+        <div class="masthead-col center-col">
+          <a href="#/" class="master-logo-link" title="বাংলা নিউজ এডিশন">
+            <div class="bne-crest">BNE</div>
+            <div class="brand-text-block">
+              <span class="eng-title">BANGLA NEWS EDITION</span>
+              <span class="bng-title">বাংলা নিউজ এডিশন</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- কলাম ৩: ডানে লাইভ ডিজিটাল ঘড়ি + সার্চ বক্স -->
+        <div class="masthead-col right-col">
+          <div class="live-clock-card">
+            <span class="clock-label">লাইভ সময়</span>
+            <span id="live-time" class="clock-time">--:--:--</span>
+          </div>
+          <form id="search-form" class="search-box">
+            <input type="text" id="search-input" placeholder="খুঁজুন..." />
+            <button type="submit" aria-label="খুঁজুন">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- মূল লাল-সবুজ সমন্বিত নেভিগেশন বার -->
+    <nav class="mainnav">
+      <div class="container mainnav-inner">
+        <ul id="nav-list">
+          <li><a href="#/" data-nav="home" class="active">প্রচ্ছদ</a></li>
+          <li><a href="#/category/জাতীয়" data-nav="জাতীয়">জাতীয়</a></li>
+          <li><a href="#/category/রাজনীতি" data-nav="রাজনীতি">রাজনীতি</a></li>
+          <li><a href="#/category/সারাদেশ" data-nav="সারাদেশ">সারাদেশ</a></li>
+          <li><a href="#/category/অর্থনীতি" data-nav="অর্থনীতি">অর্থনীতি</a></li>
+          <li><a href="#/category/আন্তর্জাতিক" data-nav="আন্তর্জাতিক">আন্তর্জাতিক</a></li>
+          <li><a href="#/desk/probashi-bangla-news" data-nav="probashi-desk" class="nav-highlight">✈️ প্রবাস বাংলা নিউজ</a></li>
+          <li><a href="#/category/খেলা" data-nav="খেলা">খেলা</a></li>
+          <li><a href="#/category/বিনোদন" data-nav="বিনোদন">বিনোদন</a></li>
+          <li><a href="#/category/শিক্ষা" data-nav="শিক্ষা">শিক্ষা</a></li>
+          <li><a href="#/category/চাকরি" data-nav="চাকরি">চাকরি</a></li>
+          <li><a href="#/category/প্রবাস" data-nav="প্রবাস">প্রবাস</a></li>
+          <li><a href="#/category/ধর্ম" data-nav="ধর্ম">ধর্ম</a></li>
+          <li><a href="#/category/স্বাস্থ্য" data-nav="স্বাস্থ্য">স্বাস্থ্য</a></li>
+          <li><a href="#/category/প্রযুক্তি" data-nav="প্রযুক্তি">প্রযুক্তি</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ব্রেকিং টিওকার -->
+    <div class="ticker" id="ticker-wrap" hidden>
+      <span class="ticker-label">সর্বশেষ</span>
+      <div class="ticker-track"><div class="ticker-move" id="ticker"></div></div>
+    </div>
+  </header>
+
+  <div class="statusbar container" id="statusbar">
+    <span class="spinner"></span> খবরাখবর লোড করা হচ্ছে…
+  </div>
+
+  <main class="container" id="app">
+    <div class="skeleton-grid" id="skeleton">
+      <div class="skeleton hero-skel"></div>
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-brand">বাংলা নিউজ এডিশন</h3>
+        <p>বস্তুনিষ্ঠ, বস্তুভিত্তিক ও সত্য সংবাদের অঙ্গীকার। বিশ্বজুড়ে বাংলাদেশী ও প্রবাসীদের জন্য সর্বশেষ সংবাদ ও তথ্য পরিবেশন।</p>
+      </div>
+      <div>
+        <h4>বিভাগসমূহ</h4>
+        <ul id="footer-cats"></ul>
+      </div>
+      <div class="admin-only">
+        <h4>সংবাদ সিস্টেম</h4>
+        <ul id="footer-sources"></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span id="footer-year"></span> · বাংলা নিউজ এডিশন (BNE) · সর্বস্বত্ব সংরক্ষিত
+      </div>
+    </div>
+  </footer>
+
+  <script src="site-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

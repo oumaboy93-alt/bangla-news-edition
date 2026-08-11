@@ -1,0 +1,29 @@
+# দৈনিক আজাদী মুভমেন্ট — স্ট্যাটিক সংস্করণ
+# এই ফোল্ডারটিই সরাসরি Netlify-তে ড্র্যাগ-অ্যান্ড-ড্রপ করুন, অথবা রিপো কানেক্ট করে
+# publish directory = static-site দিন। কোনো build command লাগে না।
+
+[build]
+  publish = "."
+  command = "echo 'static site — no build needed'"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
