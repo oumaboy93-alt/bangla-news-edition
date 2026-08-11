@@ -1,0 +1,31 @@
+name: Automated Sponsor Hunter Lead Generator
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at midnight
+  workflow_dispatch:
+
+jobs:
+  sponsor-hunter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Execute Sponsor Hunter Bot
+        run: node static-site/sponsor_hunter.js
+
+      - name: Commit Generated Sponsor Leads
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add static-site/sponsor_leads_outreach.json || true
+          git commit -m "chore: auto-update sponsor outreach leads [skip ci]" || true
+          git push || true
