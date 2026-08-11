@@ -9,6 +9,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="বাংলা নিউজ এডিশন — BANGLA NEWS EDITION" />
+  <meta property="og:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।" />
+  <meta property="og:url" content="https://bangla-news-edition-247.netlify.app/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "Bangla News Edition",
+    "url": "https://bangla-news-edition-247.netlify.app/",
+    "logo": "https://bangla-news-edition-247.netlify.app/images/bne-logo.png",
+    "sameAs": [
+      "https://facebook.com",
+      "https://youtube.com",
+      "https://twitter.com"
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -135,5 +153,16 @@
 
   <script src="site-config.js"></script>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('admin-sw.js').then(function(reg) {
+          console.log('BNE ServiceWorker registered:', reg.scope);
+        }).catch(function(err) {
+          console.log('BNE ServiceWorker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

@@ -152,8 +152,34 @@ function adHtml(ad) {
 function renderAdSlot(slot) {
   var list = (siteConfig.ads || []).filter(function (a) { return a && a.enabled !== false && a.slot === slot; });
   if (!list.length) return "";
+  
+  if (list.length > 1) {
+    var slotId = 'ad-rotator-' + slot;
+    setTimeout(function() { startAdRotator(slotId, list.length); }, 500);
+    return '<div class="ad-slot ad-' + slot + ' ad-rotator-container" id="' + slotId + '">' +
+      list.map(function(ad, idx) {
+        return '<div class="rotator-item ' + (idx === 0 ? 'active' : 'hidden') + '" data-idx="' + idx + '">' + adHtml(ad) + '</div>';
+      }).join("") +
+      '</div>';
+  }
+  
   var html = list.map(adHtml).join("");
   return html ? '<div class="ad-slot ad-' + slot + '">' + html + "</div>" : "";
+}
+
+function startAdRotator(containerId, count) {
+  var current = 0;
+  setInterval(function() {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    var items = container.querySelectorAll('.rotator-item');
+    if (!items.length) return;
+    items[current].classList.add('hidden');
+    items[current].classList.remove('active');
+    current = (current + 1) % items.length;
+    items[current].classList.remove('hidden');
+    items[current].classList.add('active');
+  }, 5000);
 }
 
 /* ── ইউটিলিটি ──────────────────────────────────────────────────── */
