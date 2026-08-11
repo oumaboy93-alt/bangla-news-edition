@@ -456,6 +456,7 @@ function sectionHead(title, href) {
 }
 
 function renderHome(app) {
+  document.title = "বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা | BANGLA NEWS EDITION";
   var arts = state.articles.slice();
   if (!arts.length) {
     app.innerHTML = '<div class="empty">এই মুহূর্তে কোনো সংবাদ নেই — কয়েক সেকেন্ড পর স্বয়ংক্রিয়ভাবে চলে আসবে।<br><br><button class="btn" onclick="location.reload()">রিফ্রেশ করুন</button></div>';
@@ -490,6 +491,7 @@ function renderHome(app) {
 }
 
 function renderCategory(app, name) {
+  document.title = escapeHtml(name) + " — বাংলা নিউজ এডিশন | BANGLA NEWS EDITION";
   var items = state.articles.filter(function (a) { return a.category === name; });
   app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / ' + escapeHtml(name) + "</div>" +
     "<h1>" + escapeHtml(name) + "</h1><p>মোট " + bn(items.length) + "টি সংবাদ</p></div>" +
@@ -501,9 +503,11 @@ function renderCategory(app, name) {
 function renderArticle(app, id) {
   var a = state.byId[id];
   if (!a) {
+    document.title = "সংবাদ পাওয়া যায়নি — বাংলা নিউজ এডিশন";
     app.innerHTML = '<div class="empty"><h2 style="margin-bottom:.6rem">সংবাদটি পাওয়া যায়নি</h2>ফিড হালনাগাদ হওয়ায় লিংকটি পুরনো হয়ে থাকতে পারে।<br><br><a class="btn" href="#/">← প্রচ্ছদে ফিরুন</a></div>';
     return;
   }
+  document.title = escapeHtml(a.title) + " — বাংলা নিউজ এডিশন";
   var related = state.articles.filter(function (x) { return x.category === a.category && x.id !== a.id; }).slice(0, 5);
   var body = a.paragraphs.length
     ? a.paragraphs.map(function (p) { return "<p>" + escapeHtml(p) + "</p>"; }).join("")
@@ -543,6 +547,7 @@ function isProbashiArticle(article) {
 }
 
 function renderProbashiDesk(app, subFilter) {
+  document.title = "প্রবাস বাংলা নিউজ — বাংলা নিউজ এডিশন | BANGLA NEWS EDITION";
   var expatArticles = state.articles.filter(isProbashiArticle);
   if (!expatArticles.length) {
     expatArticles = state.articles.filter(function(a) { return a.category === "প্রবাস" || a.category === "আন্তর্জাতিক"; });
@@ -559,8 +564,8 @@ function renderProbashiDesk(app, subFilter) {
   if (!filtered.length) filtered = expatArticles;
 
   var html = '<div class="probashi-desk-banner">' +
-    '<h2>✈️ প্রবাস বাংলা নিউজ ডেস্ক — প্রবাসীদের আস্থা</h2>' +
-    '<p>বিশ্বজুড়ে বসবাসরত প্রবাসী এবং প্রবাসগমনেচ্ছু বাংলাদেশীদের জন্য বিশেষায়িত খবর, ভিসা আপডেট, বৈধ উপায়ে রেমিট্যান্স পাঠানো, বিএমইটি ও প্রবাসী কার্ড সুবিধা এবং প্রতারণা থেকে বাঁচার দিকনির্দেশনা।</p>' +
+    '<h2>✈️ প্রবাস বাংলা নিউজ ডেস্ক — প্রবাসীদের আস্থা ও বিশ্বস্ত খবরের ঠিকানা</h2>' +
+    '<p>বিশ্বজুড়ে বসবাসরত প্রবাসী এবং প্রবাসগমনেচ্ছু বাংলাদেশীদের জন্য বিশেষায়িত খবর, বৈধ উপায়ে রেমিট্যান্স তথ্য, ভিসা আপডেট, বিএমইটি স্মার্ট প্রবাসী কার্ড গাইড ও বিশেষ নিয়োগ বিজ্ঞপ্তি।</p>' +
     '<div class="probashi-filter-bar">' +
       '<a href="#/desk/probashi-bangla-news" class="probashi-filter-btn ' + (!subFilter || subFilter === 'all' ? 'active' : '') + '">সব প্রবাস সংবাদ (' + bn(expatArticles.length) + ')</a>' +
       '<a href="#/desk/probashi-bangla-news/remittance" class="probashi-filter-btn ' + (subFilter === 'remittance' ? 'active' : '') + '">💵 রেমিট্যান্স ও ব্যাংকিং</a>' +
@@ -568,6 +573,7 @@ function renderProbashiDesk(app, subFilter) {
       '<a href="#/desk/probashi-bangla-news/welfare" class="probashi-filter-btn ' + (subFilter === 'welfare' ? 'active' : '') + '">📜 বিএমইটি ও স্মার্ট প্রবাসী কার্ড</a>' +
     '</div></div>';
 
+  html += renderAdSlot("probashi_hub");
   html += renderAdSlot("probashi_top");
   html += '<div class="grid cols-3" style="margin-top:1.2rem">' +
     (filtered.length ? filtered.map(cardHtml).join("") : '<div class="empty">এই মুহূর্তে প্রবাস সংবাদের ফিল্টারে কোনো খবর নেই।</div>') +
