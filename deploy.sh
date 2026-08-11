@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Bangla News Edition (BNE) - 100% Automated Deployment Script
+# Bangla News Edition (BNE) - Automated Deployment Script
 # ==============================================================================
 set -e
 
@@ -26,7 +26,7 @@ cd "$PROJECT_DIR"
 echo -e "${GREEN}📂 Working Directory:${NC} $PROJECT_DIR"
 
 # ------------------------------------------------------------------------------
-# STEP 1: GITHUB SYNC & PUSH
+# STEP 1: GITHUB CODE SYNC
 # ------------------------------------------------------------------------------
 echo ""
 echo -e "${YELLOW}--- [STEP 1/2] GITHUB CODE SYNC ---${NC}"
@@ -47,12 +47,12 @@ echo ""
 echo -e "${YELLOW}--- [STEP 2/2] NETLIFY PRODUCTION DEPLOYMENT ---${NC}"
 
 if ! netlify status &> /dev/null; then
-    echo -e "${CYAN}🌐 Logging into Netlify...${NC}"
+    echo -e "${CYAN}🌐 Opening Netlify Login...${NC}"
     netlify login
 fi
 
 echo -e "${CYAN}🚀 Deploying portal live to Netlify Production...${NC}"
-netlify deploy --dir="$PROJECT_DIR" --prod
+netlify deploy --prod
 
 echo ""
 echo -e "${GREEN}======================================================"
