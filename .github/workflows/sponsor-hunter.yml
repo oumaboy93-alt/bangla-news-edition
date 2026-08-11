@@ -19,7 +19,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Execute Sponsor Hunter Bot
+      - name: Install Dependencies
+        run: npm install nodemailer
+
+      - name: Execute Sponsor Hunter & Autonomous Outreach Bot
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
         run: node static-site/sponsor_hunter.js
 
       - name: Commit Generated Sponsor Leads
