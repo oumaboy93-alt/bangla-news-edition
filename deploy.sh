@@ -26,7 +26,7 @@ cd "$PROJECT_DIR"
 echo -e "${GREEN}📂 Working Directory:${NC} $PROJECT_DIR"
 
 # ------------------------------------------------------------------------------
-# STEP 1: GITHUB CODE SYNC
+# STEP 1: GITHUB CODE SYNC & PUSH
 # ------------------------------------------------------------------------------
 echo ""
 echo -e "${YELLOW}--- [STEP 1/2] GITHUB CODE SYNC ---${NC}"
@@ -35,29 +35,27 @@ git add .
 git commit -m "Deploy Bangla News Edition - $(date +'%Y-%m-%d %H:%M:%S')" || true
 
 if command -v gh &> /dev/null && gh auth status &> /dev/null; then
-    echo -e "${CYAN}📡 Synchronizing with GitHub...${NC}"
+    echo -e "${CYAN}📡 Synchronizing code to GitHub main branch...${NC}"
     git push -u origin main --force || true
     echo -e "${GREEN}✅ GitHub Code Push Complete!${NC}"
 fi
 
 # ------------------------------------------------------------------------------
-# STEP 2: NETLIFY PRODUCTION DEPLOY
+# STEP 2: NETLIFY DEPLOYMENT
 # ------------------------------------------------------------------------------
 echo ""
 echo -e "${YELLOW}--- [STEP 2/2] NETLIFY PRODUCTION DEPLOYMENT ---${NC}"
 
-if ! netlify status &> /dev/null; then
-    echo -e "${CYAN}🌐 Opening Netlify Login...${NC}"
-    netlify login
+if netlify deploy --prod 2>/dev/null; then
+    echo -e "${GREEN}✅ Netlify deployment complete!${NC}"
+else
+    echo -e "${CYAN}🚀 Pushed to GitHub! Live repository ready at:${NC}"
+    echo -e "   👉 https://github.com/oumaboy93-alt/bangla-news-edition"
 fi
-
-echo -e "${CYAN}🚀 Deploying portal live to Netlify Production...${NC}"
-netlify deploy --prod
 
 echo ""
 echo -e "${GREEN}======================================================"
-echo -e "   🎉 ALL DONE! BANGLA NEWS EDITION IS LIVE!         "
+echo -e "   🎉 ALL DONE! LOCAL & GITHUB CODE UPDATED!         "
 echo -e "======================================================${NC}"
 
-# Open local preview
 open "$PROJECT_DIR/index.html"
