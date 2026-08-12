@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <title>কাস্টমাইজেশন সেন্টার — বাংলা নিউজ এডিশন</title>
-  <link rel="manifest" href="admin-manifest.webmanifest" />
+  <link rel="manifest" href="admin-manifest.json" />
+  <link rel="apple-touch-icon" href="images/admin-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="icon" href="images/admin-icon.png" />
-  <meta name="theme-color" content="#064e3b" />
+  <meta name="theme-color" content="#0f172a" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -90,10 +93,13 @@
   <header>
     <div class="container">
       <div>
-        <h1>⚙️ কাস্টমাইজেশন সেন্টার</h1>
-        <div class="sub">বাংলা নিউজ এডিশন — শুধুমাত্র অ্যাডমিন</div>
+        <h1>⚙️ কাস্টমাইজেশন সেন্টার (PWA)</h1>
+        <div class="sub">বাংলা নিউজ এডিশন — স্মার্ট অ্যাডমিন কন্ট্রোল</div>
       </div>
-      <button class="btn ghost sm" id="btn-lock">🔒 লক</button>
+      <div style="display:flex;gap:0.5rem;align-items:center;">
+        <button class="btn sm" style="background:#047857;" onclick="openQrModal()">📱 Share (QR)</button>
+        <button class="btn ghost sm" id="btn-lock">🔒 লক</button>
+      </div>
     </div>
   </header>
 
@@ -250,6 +256,22 @@
       </div>
     </section>
   </main>
+<!-- ═══ Sponsor Pitch QR Modal ═══ -->
+<div id="qr-modal" class="bne-modal-overlay hidden" style="position:fixed;inset:0;background:rgba(15,23,42,0.85);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;z-index:9999;padding:1rem;">
+  <div style="background:#fff;border-radius:16px;padding:1.5rem;width:100%;max-width:340px;box-shadow:0 20px 40px rgba(0,0,0,0.3);text-align:center;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+      <h3 style="color:#0f172a;font-size:1.05rem;margin:0;">📱 স্পন্সর পিচ কিউআর কোড</h3>
+      <button onclick="closeQrModal()" class="btn ghost sm" style="font-size:1.1rem;padding:0.2rem 0.5rem;border-radius:50%;">&times;</button>
+    </div>
+    <p style="font-size:0.78rem;color:#64748b;margin-bottom:1rem;line-height:1.6;">যেকোনো স্মার্টফোন দিয়ে স্ক্যান করলেই সরাসরি বাংলা নিউজ এডিশন পোর্টাল চালু হবে।</p>
+    <div style="padding:1rem;background:#f8fafc;border-radius:12px;border:1px solid #e2e8f0;display:inline-block;">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://bangla-news-edition-247.netlify.app" alt="BNE Portal QR Code" style="width:200px;height:200px;display:block;margin:0 auto;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);" />
+      <div style="margin-top:0.8rem;font-size:0.82rem;font-weight:700;color:#047857;word-break:break-all;">bangla-news-edition-247.netlify.app</div>
+    </div>
+    <div style="margin-top:1.2rem;">
+      <button onclick="closeQrModal()" class="btn" style="background:#0f172a;width:100%;padding:0.65rem;">বন্ধ করুন [✕]</button>
+    </div>
+  </div>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -370,8 +392,18 @@ $("n-save").addEventListener("click", function () {
 function resetNewsForm() { $("n-id").value = ""; $("n-title").value = ""; $("n-img").value = ""; $("n-lead").value = ""; $("n-body").value = ""; $("news-form-title").textContent = "নতুন সংবাদ লিখুন"; }
 $("n-reset").addEventListener("click", resetNewsForm);
 
-/* ── বিজ্ঞাপন CRUD ── */
-var SLOT_LABELS = { home_top: "হোম — হিরোর নিচে", home_middle: "হোম — মাঝামাঝি", article_sidebar: "আর্টিকেল — সাইডবার", article_bottom: "আর্টিকেল — শেষে" };
+/* ── Sponsor Pitch QR Engine ── */
+window.openQrModal = function () {
+  var modal = $("qr-modal");
+  if (modal) modal.classList.remove("hidden");
+};
+window.closeQrModal = function () {
+  var modal = $("qr-modal");
+  if (modal) modal.classList.add("hidden");
+};
+
+/* ── বিজ্ঞাপন CRUD & Kill Switch Dashboard ── */
+var SLOT_LABELS = { home_top: "হোম — হিরোর নিচে", home_middle: "হোম — মাঝামাঝি", probashi_hub: "প্রবাস বাংলা নিউজ ডেস্ক", article_sidebar: "আর্টিকেল — সাইডবার", article_bottom: "আর্টিকেল — শেষে" };
 var TYPE_LABELS = { youtube: "ইউটিউব", image: "ইমেজ", html: "HTML" };
 function adFields() {
   var t = $("a-type").value;
@@ -384,11 +416,14 @@ function renderAds() {
   var list = $("ads-list");
   if (!draft.ads.length) { list.innerHTML = '<div style="font-size:.82rem;color:var(--s5)">এখনো কোনো বিজ্ঞাপন নেই।</div>'; return; }
   list.innerHTML = draft.ads.map(function (a) {
-    return '<div class="item"><div class="info"><b>' + esc(a.title || TYPE_LABELS[a.type] + " বিজ্ঞাপন") + "</b><span>" +
+    var thumbHtml = a.image ? '<img src="' + esc(a.image) + '" style="width:70px;height:50px;object-fit:cover;border-radius:6px;border:1px solid #cbd5e1;" />' : '<div style="width:70px;height:50px;background:#e2e8f0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;">📢</div>';
+    return '<div class="item" style="display:flex;align-items:center;gap:0.8rem;padding:0.8rem;background:#fff;border-radius:10px;border:1px solid #e2e8f0;margin-bottom:0.6rem;">' +
+      thumbHtml +
+      '<div class="info" style="flex:1;"><b>' + esc(a.title || TYPE_LABELS[a.type] + " বিজ্ঞাপন") + "</b><span style='font-size:0.75rem;color:#64748b;display:block;'>" +
       TYPE_LABELS[a.type] + " · " + (SLOT_LABELS[a.slot] || a.slot) + ' · <span class="pill' + (a.enabled === false ? " off" : "") + '">' +
       (a.enabled === false ? "ড্রাফট" : "সক্রিয়") + "</span></span></div>" +
-      '<div class="acts"><button class="btn ghost sm" onclick="editAd(\'' + a.id + '\')">✏️</button>' +
-      '<button class="btn danger sm" onclick="delAd(\'' + a.id + '\')">🗑️</button></div></div>';
+      '<div class="acts" style="display:flex;gap:0.4rem;"><button class="btn ghost sm" onclick="editAd(\'' + a.id + '\')">✏️ এডিট</button>' +
+      '<button class="btn danger sm" style="background:#dc2626;color:#fff;" onclick="killAd(\'' + a.id + '\')">🗑️ Kill Ad (ডিলেট)</button></div></div>';
   }).join("");
 }
 window.editAd = function (id) {
@@ -399,10 +434,19 @@ window.editAd = function (id) {
   $("a-link").value = a.link || ""; $("a-html").value = a.html || "";
   $("ad-form-title").textContent = "বিজ্ঞাপন সম্পাদনা"; adFields(); window.scrollTo(0, 0);
 };
-window.delAd = function (id) {
-  if (!confirm("বিজ্ঞাপনটি মুছবেন?")) return;
+window.killAd = function (id) {
+  if (!confirm("আপনি কি বিজ্ঞাপনটি মুছে সরাসরি লাইভ পোর্টালে প্রকাশ করতে চান?")) return;
   draft.ads = draft.ads.filter(function (x) { return x.id !== id; });
-  saveDraft(); renderAds(); toast("মুছে ফেলা হয়েছে");
+  saveDraft(); renderAds(); toast("বিজ্ঞাপন মুছে ফেলা হয়েছে");
+
+  if (sync.backend === "github_api" && sync.ghToken) {
+    toast("গিটহাব এপিআই দিয়ে সাইটে আপলোড হচ্ছে…");
+    publishGithubApi().then(function () {
+      toast("লাইভ পোর্টাল থেকে বিজ্ঞাপন সফলভাবে মুছে ফেলা হয়েছে ✔");
+    }).catch(function (e) {
+      toast("লাইভ সিংক ব্যর্থ: " + e.message);
+    });
+  }
 };
 $("a-save").addEventListener("click", function () {
   var t = $("a-type").value;
