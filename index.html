@@ -216,16 +216,5 @@
 
   <script src="site-config.js"></script>
   <script src="app.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('admin-sw.js').then(function(reg) {
-          console.log('BNE ServiceWorker registered:', reg.scope);
-        }).catch(function(err) {
-          console.log('BNE ServiceWorker registration failed:', err);
-        });
-      });
-    }
-  </script>
 </body>
 </html>

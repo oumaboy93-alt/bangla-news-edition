@@ -4,7 +4,7 @@
   "description": "বাংলা নিউজ এডিশন (BNE) স্মার্ট মোবাইল অ্যাডমিন কন্ট্রোল প্যানেল",
   "start_url": "admin.html",
   "scope": "./",
-  "id": "bne-admin-app-v2",
+  "id": "bne-admin-app-isolated-v3",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0f172a",

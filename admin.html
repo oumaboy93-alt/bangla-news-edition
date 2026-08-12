@@ -97,6 +97,7 @@
         <div class="sub">বাংলা নিউজ এডিশন — স্মার্ট অ্যাডমিন কন্ট্রোল</div>
       </div>
       <div style="display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+        <span id="pwa-diag-badge" style="font-size:0.72rem;padding:0.25rem 0.6rem;border-radius:99px;background:#1e293b;color:#94a3b8;font-weight:600;">🔍 PWA Diag: Checking…</span>
         <button id="pwa-install-btn" class="btn sm" style="display:none;background:#2563eb;color:#fff;font-weight:700;" onclick="triggerPwaInstall()">📲 অ্যাপ ইনস্টল করুন</button>
         <button class="btn sm" style="background:#047857;" onclick="openQrModal()">📱 Share (QR)</button>
         <button class="btn ghost sm" id="btn-lock">🔒 লক</button>
@@ -656,12 +657,47 @@ window.triggerPwaInstall = function () {
   });
 };
 
+/* ── Anti-Hallucination PWA Diagnostic Engine ── */
+function runPwaDiagnostics() {
+  var badge = document.getElementById("pwa-diag-badge");
+  if (!badge) return;
+
+  if (!("serviceWorker" in navigator)) {
+    badge.style.background = "#fee2e2";
+    badge.style.color = "#991b1b";
+    badge.innerHTML = "🔴 PWA Status: ServiceWorker Unsupported";
+    return;
+  }
+
+  navigator.serviceWorker.getRegistrations().then(function (regs) {
+    var adminSw = regs.find(function (r) {
+      return r.active && (r.active.scriptURL.includes("sw-admin.js") || r.active.scriptURL.includes("sw.js"));
+    });
+
+    if (adminSw) {
+      badge.style.background = "#d1fae5";
+      badge.style.color = "#065f46";
+      badge.innerHTML = "🟢 PWA Status: Isolated SW Active";
+    } else {
+      badge.style.background = "#fef3c7";
+      badge.style.color = "#92400e";
+      badge.innerHTML = "🟡 PWA Status: Registering SW…";
+    }
+  }).catch(function () {
+    badge.style.background = "#fee2e2";
+    badge.style.color = "#991b1b";
+    badge.innerHTML = "🔴 PWA Status: SW Registration Error";
+  });
+}
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
-    navigator.serviceWorker.register("sw.js", { scope: "./" }).then(function (reg) {
-      console.log("BNE True PWA Service Worker Registered:", reg.scope);
+    navigator.serviceWorker.register("sw-admin.js", { scope: "./" }).then(function (reg) {
+      console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
+      setTimeout(runPwaDiagnostics, 1000);
     }).catch(function (err) {
       console.log("Service Worker Registration Note:", err);
+      runPwaDiagnostics();
     });
   });
 }
@@ -669,6 +705,7 @@ if ("serviceWorker" in navigator) {
 loadAll();
 initGate();
 adFields();
+runPwaDiagnostics();
 </script>
 </body>
 </html>
