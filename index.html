@@ -160,18 +160,21 @@
     </div>
   </footer>
 
-  <!-- ═══ BNE In-App Branded News Reader Modal ═══ -->
+  <!-- ═══ BNE Native Readability Extractor Reader Modal (Zero iFrames) ═══ -->
   <div id="bne-reader-modal" class="bne-modal-overlay hidden">
     <div class="bne-modal-container">
       <div class="bne-modal-header">
         <div class="bne-modal-brand">
           <span class="bne-modal-logo">BNE</span>
-          <span id="bne-reader-title" class="bne-modal-title">বাংলা নিউজ এডিশন — ইন-অ্যাপ সংবাদ পাঠক</span>
+          <span id="bne-reader-title" class="bne-modal-title">বাংলা নিউজ এডিশন — নেটিভ সংবাদ পাঠক</span>
         </div>
-        <button class="bne-modal-close" onclick="closeBneInAppReader()" title="বন্ধ করুন [X]">&times; বন্ধ করুন</button>
+        <button class="bne-modal-close" onclick="closeBneInAppReader()" title="বন্ধ করুন [✕]">&times; বন্ধ করুন [✕]</button>
       </div>
       <div class="bne-modal-body">
-        <iframe id="bne-reader-iframe" src="about:blank" title="BNE News Reader"></iframe>
+        <div id="bne-reader-loader" class="bne-reader-loader">
+          <span class="spinner"></span> মূল সংবাদের টেক্সট ও ছবি এক্সট্র্যাক্ট করা হচ্ছে…
+        </div>
+        <div id="bne-reader-content" class="bne-native-reader-content hidden"></div>
       </div>
     </div>
   </div>

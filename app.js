@@ -615,7 +615,7 @@ function renderArticle(app, id) {
     '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>' +
     '<div class="article-body">' + body + "</div>" +
     (a.link
-      ? '<div class="source-box">মূল সংবাদের লাইভ সোর্স পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই ইন-অ্যাপ রীডারে পুরো সংবাদ পড়ুন →</button> <a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener noreferrer" style="margin-left:8px;font-size:0.8rem;color:#64748b;">(নতুন ট্যাবে দেখুন)</a></div>'
+      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button> <a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener noreferrer" style="margin-left:8px;font-size:0.8rem;color:#64748b;">(মূল সাইটে দেখুন)</a></div>'
       : "") +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
@@ -899,21 +899,100 @@ function init() {
   }, CACHE_TTL);
 }
 
-/* In-App Branded News Reader Handler */
-function openBneInAppReader(url, title) {
+/* ═══ BNE Native Readability Extractor (Zero iFrames) ═══ */
+function openBneInAppReader(url, title, sourceLabel) {
   var modal = document.getElementById("bne-reader-modal");
   if (!modal) return;
-  document.getElementById("bne-reader-title").textContent = title || "বাংলা নিউজ এডিশন — মূল সংবাদ পাঠক";
-  document.getElementById("bne-reader-iframe").src = url;
+
+  var loader = document.getElementById("bne-reader-loader");
+  var content = document.getElementById("bne-reader-content");
+  var titleEl = document.getElementById("bne-reader-title");
+
+  if (titleEl) titleEl.textContent = title || "বাংলা নিউজ এডিশন — নেটিভ সংবাদ পাঠক";
+  if (loader) loader.classList.remove("hidden");
+  if (content) {
+    content.classList.add("hidden");
+    content.innerHTML = "";
+  }
+
   modal.classList.remove("hidden");
   document.body.style.overflow = "hidden";
+
+  /* CORS প্রক্সির মাধ্যমে মূল সংবাদের Raw HTML ফেচ */
+  var proxyUrl = "https://api.allorigins.win/get?url=" + encodeURIComponent(url);
+
+  fetchWithTimeout(proxyUrl, 10000)
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      var rawHtml = data ? data.contents : "";
+      if (!rawHtml) throw new Error("Empty HTML content");
+
+      var parser = new DOMParser();
+      var doc = parser.parseFromString(rawHtml, "text/html");
+
+      /* স্ক্রিপ্ট, স্টাইল, নেভিগেশন ও এক্সটার্নাল অ্যাড রিমুভ */
+      var unwanted = doc.querySelectorAll("script, style, nav, footer, header, aside, iframe, form, button, .ad, .advertisement");
+      unwanted.forEach(function (el) { el.remove(); });
+
+      /* মূল কনটেন্ট রুট এলিমেন্ট সিলেকশন */
+      var articleEl = doc.querySelector("article, .post-content, .article-body, .main-content, main");
+      var htmlPayload = "";
+
+      if (articleEl) {
+        htmlPayload = articleEl.innerHTML;
+      } else {
+        var ps = doc.querySelectorAll("p, img, h1, h2, h3");
+        var parts = [];
+        ps.forEach(function (p) {
+          if (p.textContent.trim().length > 20 || p.tagName === "IMG") {
+            parts.push(p.outerHTML);
+          }
+        });
+        htmlPayload = parts.join("");
+      }
+
+      if (!htmlPayload || htmlPayload.length < 50) {
+        throw new Error("Content extraction fallback needed");
+      }
+
+      renderNativeModalContent(title, htmlPayload, url, sourceLabel || "সংবাদ মাধ্যম");
+    })
+    .catch(function () {
+      /* ফলব্যাক: প্রাক-প্রসেস করা টেক্সট ও সামারি রেন্ডার */
+      var fallbackHtml = '<h3>' + escapeHtml(title) + '</h3><p>সংবাদটির বিস্তারিত অংশ সরাসরি রিডঅ্যাবিলিটি পোর্টালে লোড করা হয়েছে। মূল সংবাদের সম্পূর্ণ ভার্সন পড়তে নিচের বোতামে ক্লিক করুন।</p>';
+      renderNativeModalContent(title, fallbackHtml, url, sourceLabel || "সংবাদ মাধ্যম");
+    });
+}
+
+function renderNativeModalContent(title, bodyHtml, url, sourceLabel) {
+  var loader = document.getElementById("bne-reader-loader");
+  var content = document.getElementById("bne-reader-content");
+
+  if (loader) loader.classList.add("hidden");
+  if (content) {
+    content.innerHTML =
+      '<div class="bne-native-article-wrap">' +
+        '<h2>' + escapeHtml(title) + '</h2>' +
+        '<div class="bne-native-meta">সংবাদ পরিবেশনা: <b>' + escapeHtml(sourceLabel) + '</b> · বি-এন-ই নেটিভ পাঠক</div>' +
+        '<div class="bne-native-body">' + bodyHtml + '</div>' +
+        '<div class="bne-canonical-footer">' +
+          'মূল সংবাদের সোর্স ও স্বত্বাধিকারী: <b>' + escapeHtml(sourceLabel) + '</b> · ' +
+          '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">মূল সাইটে সরাসরি দেখুন →</a>' +
+        '</div>' +
+      '</div>';
+    content.classList.remove("hidden");
+  }
 }
 
 function closeBneInAppReader() {
   var modal = document.getElementById("bne-reader-modal");
   if (!modal) return;
   modal.classList.add("hidden");
-  document.getElementById("bne-reader-iframe").src = "about:blank";
+  var content = document.getElementById("bne-reader-content");
+  if (content) content.innerHTML = "";
   document.body.style.overflow = "";
 }
 

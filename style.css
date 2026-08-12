@@ -304,3 +304,64 @@ body.show-admin span.admin-only { display: inline-block !important; }
 .bne-popup-ad-box { background: #fff; width: 90vw; max-width: 460px; border-radius: 12px; overflow: hidden; box-shadow: 0 16px 36px rgba(0,0,0,.25); border: 2px solid var(--green-700); }
 .bne-popup-ad-body img { width: 100%; height: 220px; object-fit: cover; display: block; }
 
+/* ── BNE Native Readability Extractor Typography (Zero iFrames) ── */
+.bne-reader-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 3rem 1.5rem;
+  font-size: 0.95rem;
+  color: var(--green-800);
+  font-weight: 600;
+}
+.bne-native-reader-content {
+  padding: 1.5rem;
+  overflow-y: auto;
+  height: 100%;
+  background: #ffffff;
+}
+.bne-native-article-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+.bne-native-article-wrap h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--slate-900);
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+.bne-native-meta {
+  font-size: 0.8rem;
+  color: var(--slate-500);
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--slate-200);
+}
+.bne-native-body {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #1e293b;
+}
+.bne-native-body p {
+  margin-bottom: 1.2rem;
+}
+.bne-native-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.2rem 0;
+}
+.bne-canonical-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-left: 4px solid var(--green-700);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: var(--slate-600);
+}
+
