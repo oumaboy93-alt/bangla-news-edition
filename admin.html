@@ -198,10 +198,18 @@
         <h2>২️⃣ লাইভ প্রকাশ — সব ভিজিটরের জন্য</h2>
         <label>ব্যাকএন্ড</label>
         <select id="s-backend">
-          <option value="gist">GitHub Gist (ফ্রি, প্রস্তাবিত)</option>
+          <option value="github_api">GitHub Direct REST API (Repo Commit & Netlify Auto-Build)</option>
+          <option value="gist">GitHub Gist (ফ্রি)</option>
           <option value="jsonbin">JSONBin.io (ফ্রি)</option>
         </select>
-        <div id="s-f-gist">
+        <div id="s-f-github_api">
+          <label>GitHub Repository (Owner/Repo)</label>
+          <input id="s-gh-repo" placeholder="oumaboy93-alt/bangla-news-edition" value="oumaboy93-alt/bangla-news-edition" />
+          <label>GitHub Personal Access Token (PAT) *</label>
+          <input type="password" id="s-gh-token" placeholder="ghp_… বা github_pat_…" />
+          <div class="note">GitHub → Settings → Developer settings → Personal access tokens → <b>repo স্কোপ</b> দিয়ে টোকেন বানান। প্রকাশের সাথে সাথে <code>data/bne-config.json</code> ফাইলে সরাসরি কমিট হবে এবং Netlify স্বয়ংক্রিয়ভাবে লাইভ আপডেট করবে। টোকেন শুধুই আপনার ডিভাইসে সুরক্ষিত থাকবে।</div>
+        </div>
+        <div id="s-f-gist" class="hidden">
           <label>Gist ID</label><input id="s-gist-id" placeholder="যেমন: a1b2c3d4e5…" />
           <label>GitHub Token (শুধু gist স্কোপ)</label><input type="password" id="s-gist-token" placeholder="ghp_… বা github_pat_…" />
           <div class="note">GitHub → Settings → Developer settings → Personal access tokens → <b>শুধু gist স্কোপ</b> দিয়ে টোকেন বানান। এরপর gist.github.com-এ <code>azadi-config.json</code> নামে একটি <b>public</b> gist তৈরি করে তার ID এখানে দিন। টোকেন শুধু এই ডিভাইসের localStorage-এ থাকে — কনফিগে কখনো প্রকাশ হয় না।</div>
@@ -421,23 +429,72 @@ $("btn-preview-clear").addEventListener("click", function () {
 });
 $("s-backend").addEventListener("change", function () {
   sync.backend = this.value; saveSync();
+  $("s-f-github_api").classList.toggle("hidden", sync.backend !== "github_api");
   $("s-f-gist").classList.toggle("hidden", sync.backend !== "gist");
   $("s-f-jsonbin").classList.toggle("hidden", sync.backend !== "jsonbin");
 });
 function fillSync() {
-  $("s-backend").value = sync.backend;
-  $("s-gist-id").value = sync.gistId; $("s-gist-token").value = sync.gistToken;
-  $("s-bin-id").value = sync.binId; $("s-bin-key").value = sync.binKey;
+  $("s-backend").value = sync.backend || "github_api";
+  if ($("s-gh-repo")) $("s-gh-repo").value = sync.ghRepo || "oumaboy93-alt/bangla-news-edition";
+  if ($("s-gh-token")) $("s-gh-token").value = sync.ghToken || "";
+  $("s-gist-id").value = sync.gistId || ""; $("s-gist-token").value = sync.gistToken || "";
+  $("s-bin-id").value = sync.binId || ""; $("s-bin-key").value = sync.binKey || "";
+  $("s-f-github_api").classList.toggle("hidden", sync.backend !== "github_api");
   $("s-f-gist").classList.toggle("hidden", sync.backend !== "gist");
   $("s-f-jsonbin").classList.toggle("hidden", sync.backend !== "jsonbin");
 }
-["s-gist-id", "s-gist-token", "s-bin-id", "s-bin-key"].forEach(function (id) {
-  $(id).addEventListener("change", function () {
-    sync.gistId = $("s-gist-id").value.trim(); sync.gistToken = $("s-gist-token").value.trim();
-    sync.binId = $("s-bin-id").value.trim(); sync.binKey = $("s-bin-key").value.trim();
-    saveSync();
-  });
+["s-gh-repo", "s-gh-token", "s-gist-id", "s-gist-token", "s-bin-id", "s-bin-key"].forEach(function (id) {
+  var el = $(id);
+  if (el) {
+    el.addEventListener("change", function () {
+      if ($("s-gh-repo")) sync.ghRepo = $("s-gh-repo").value.trim();
+      if ($("s-gh-token")) sync.ghToken = $("s-gh-token").value.trim();
+      sync.gistId = $("s-gist-id").value.trim(); sync.gistToken = $("s-gist-token").value.trim();
+      sync.binId = $("s-bin-id").value.trim(); sync.binKey = $("s-bin-key").value.trim();
+      saveSync();
+    });
+  }
 });
+
+function publishGithubApi() {
+  var repo = (sync.ghRepo || "oumaboy93-alt/bangla-news-edition").trim();
+  var token = (sync.ghToken || "").trim();
+  if (!token) { toast("GitHub PAT Token দিন"); return Promise.reject(new Error("missing")); }
+
+  var path = "data/bne-config.json";
+  var apiUrl = "https://api.github.com/repos/" + repo + "/contents/" + path;
+
+  return fetch(apiUrl, {
+    headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" }
+  }).then(function (res) {
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error("GitHub Repo Fetch HTTP " + res.status);
+    return res.json();
+  }).then(function (fileData) {
+    var sha = fileData ? fileData.sha : undefined;
+    var jsonStr = JSON.stringify(draft, null, 2);
+    var bytes = new TextEncoder().encode(jsonStr);
+    var binStr = Array.from(bytes, function (byte) { return String.fromCharCode(byte); }).join("");
+    var contentB64 = btoa(binStr);
+
+    var body = {
+      message: "Admin CMS Update: Sync bne-config.json via GitHub REST API",
+      content: contentB64
+    };
+    if (sha) body.sha = sha;
+
+    return fetch(apiUrl, {
+      method: "PUT",
+      headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json", "Content-Type": "application/json" },
+      body: JSON.stringify(body)
+    });
+  }).then(function (res) {
+    if (!res.ok) throw new Error("GitHub Commit HTTP " + res.status);
+    return res.json();
+  }).then(function () {
+    return "https://raw.githubusercontent.com/" + repo + "/main/data/bne-config.json";
+  });
+}
 
 function publishGist() {
   if (!sync.gistId || !sync.gistToken) { toast("Gist ID ও Token দিন"); return Promise.reject(new Error("missing")); }
@@ -468,7 +525,10 @@ function publishJsonbin() {
 }
 $("btn-publish").addEventListener("click", function () {
   var btn = this; btn.disabled = true; btn.textContent = "প্রকাশ হচ্ছে…";
-  var p = sync.backend === "gist" ? publishGist() : publishJsonbin();
+  var p;
+  if (sync.backend === "github_api") p = publishGithubApi();
+  else if (sync.backend === "gist") p = publishGist();
+  else p = publishJsonbin();
   p.then(function (readUrl) {
     sync.readUrl = readUrl; saveSync();
     draft.settings.remoteConfigUrl = readUrl; saveDraft();

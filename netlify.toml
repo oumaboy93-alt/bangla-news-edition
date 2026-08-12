@@ -1,6 +1,4 @@
-# দৈনিক আজাদী মুভমেন্ট — স্ট্যাটিক সংস্করণ
-# এই ফোল্ডারটিই সরাসরি Netlify-তে ড্র্যাগ-অ্যান্ড-ড্রপ করুন, অথবা রিপো কানেক্ট করে
-# publish directory = static-site দিন। কোনো build command লাগে না।
+# বাংলা নিউজ এডিশন (BNE) — Netlify কনফিগারেশন
 
 [build]
   publish = "."
@@ -12,6 +10,17 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Netlify Deploy Previews & Duplicate Domain Indexing Fix for AdSense
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "index, follow"
+
+[[headers]]
+  for = "/preview/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 
 [[headers]]
   for = "/images/*"

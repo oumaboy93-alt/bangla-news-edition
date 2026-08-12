@@ -973,13 +973,20 @@ function renderNativeModalContent(title, bodyHtml, url, sourceLabel) {
 
   if (loader) loader.classList.add("hidden");
   if (content) {
+    var editorialBox =
+      '<div class="bne-editorial-note-box" style="background:#f0fdf4;border:1px solid #bbf7d0;border-left:4px solid #16a34a;padding:1rem;border-radius:6px;margin-bottom:1.2rem;font-size:0.88rem;color:#166534;line-height:1.6;">' +
+        '<b>📝 বি-এন-ই এডিটরিয়াল নোট:</b> এই সংবাদটি স্বয়ংক্রিয়ভাবে সংগৃহীত এবং আমাদের সম্পাদকীয় নীতি অনুযায়ী ফিল্টারকৃত। মূল সোর্স: <b>' + escapeHtml(sourceLabel) + '</b>।' +
+        (url ? ' <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener" style="color:#047857;font-weight:600;text-decoration:underline;">[মূল সোর্সে দেখুন ↗]</a>' : '') +
+      '</div>';
+
     content.innerHTML =
       '<div class="bne-native-article-wrap">' +
         '<h2>' + escapeHtml(title) + '</h2>' +
-        '<div class="bne-native-meta">সংবাদ পরিবেশনা: <b>' + escapeHtml(sourceLabel) + '</b> · বি-এন-ই সার্বজনীন ডিজিটাল আর্কাইভ</div>' +
+        '<div class="bne-native-meta">সংবাদ পরিবেশনা: <b>' + escapeHtml(sourceLabel) + '</b> · বি-এন-ই কিউরেটেড প্রকাশনা</div>' +
+        editorialBox +
         '<div class="bne-native-body">' + bodyHtml + '</div>' +
         '<div class="bne-canonical-footer">' +
-          'সংবাদ সুত্র ও পোর্টালে তথ্য ভাণ্ডার: <b>' + escapeHtml(sourceLabel) + '</b> · বাংলা নিউজ এডিশন নেটিভ ডিজিটাল পাঠক' +
+          'সংবাদ সুত্র ও পোর্টালে তথ্য ভাণ্ডার: <b>' + escapeHtml(sourceLabel) + '</b> · বাংলা নিউজ এডিশন ডিজিটাল কিউরেটর আর্কাইভ' +
         '</div>' +
       '</div>';
     content.classList.remove("hidden");

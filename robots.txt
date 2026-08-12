@@ -1,0 +1,8 @@
+# robots.txt for Bangla News Edition (BNE)
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /admin-sw.js
+Disallow: /preview/
+
+Sitemap: https://bangla-news-edition-247.netlify.app/sitemap.xml
