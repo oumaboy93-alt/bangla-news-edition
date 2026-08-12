@@ -546,7 +546,7 @@ function renderArticle(app, id) {
     '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>' +
     '<div class="article-body">' + body + "</div>" +
     (a.link
-      ? '<div class="source-box">বিস্তারিত সংবাদের জন্য: <a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(a.sourceLabel) + " →</a></div>"
+      ? '<div class="source-box">মূল সংবাদের লাইভ সোর্স পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই ইন-অ্যাপ রীডারে পুরো সংবাদ পড়ুন →</button> <a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener noreferrer" style="margin-left:8px;font-size:0.8rem;color:#64748b;">(নতুন ট্যাবে দেখুন)</a></div>'
       : "") +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
@@ -817,6 +817,53 @@ function init() {
       refreshAll(true).then(function () { applyEditorNews(); render(); });
     });
   }, CACHE_TTL);
+}
+
+  /* ═══ BNE Global Smart Ad Manager & In-App Reader ═══ */
+  initGlobalAdManager();
+}
+
+/* In-App Branded News Reader Handler */
+function openBneInAppReader(url, title) {
+  var modal = document.getElementById("bne-reader-modal");
+  if (!modal) return;
+  document.getElementById("bne-reader-title").textContent = title || "বাংলা নিউজ এডিশন — মূল সংবাদ পাঠক";
+  document.getElementById("bne-reader-iframe").src = url;
+  modal.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+}
+
+function closeBneInAppReader() {
+  var modal = document.getElementById("bne-reader-modal");
+  if (!modal) return;
+  modal.classList.add("hidden");
+  document.getElementById("bne-reader-iframe").src = "about:blank";
+  document.body.style.overflow = "";
+}
+
+/* Global Smart Ad Engine Handlers */
+function closeStickyBottomAd() {
+  var ad = document.getElementById("bne-sticky-bottom-ad");
+  if (ad) ad.classList.add("hidden");
+}
+
+function closeScrollPopupAd() {
+  var modal = document.getElementById("bne-scroll-popup-ad");
+  if (modal) modal.classList.add("hidden");
+  sessionStorage.setItem("bne_popup_dismissed", "true");
+}
+
+function initGlobalAdManager() {
+  /* 5-second scroll trigger for interstitial ad popup */
+  var popupTriggered = false;
+  window.addEventListener("scroll", function () {
+    if (popupTriggered || sessionStorage.getItem("bne_popup_dismissed")) return;
+    popupTriggered = true;
+    setTimeout(function () {
+      var modal = document.getElementById("bne-scroll-popup-ad");
+      if (modal) modal.classList.remove("hidden");
+    }, 5000);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);

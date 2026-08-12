@@ -19,18 +19,23 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Execute Social Auto-Post
+      - name: Execute Social Auto-Post & Diagnostic Logger
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-        run: node auto_social_poster.js
+        run: |
+          if [ -f "static-site/auto_social_poster.js" ]; then
+            node static-site/auto_social_poster.js
+          else
+            node auto_social_poster.js
+          fi
 
       - name: Commit Last Posted Cache
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add last_posted.json || true
+          git add static-site/last_posted.json last_posted.json || true
           git commit -m "chore: update last posted social cache [skip ci]" || true
           git push || true

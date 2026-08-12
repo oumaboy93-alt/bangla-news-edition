@@ -160,6 +160,54 @@
     </div>
   </footer>
 
+  <!-- ═══ BNE In-App Branded News Reader Modal ═══ -->
+  <div id="bne-reader-modal" class="bne-modal-overlay hidden">
+    <div class="bne-modal-container">
+      <div class="bne-modal-header">
+        <div class="bne-modal-brand">
+          <span class="bne-modal-logo">BNE</span>
+          <span id="bne-reader-title" class="bne-modal-title">বাংলা নিউজ এডিশন — ইন-অ্যাপ সংবাদ পাঠক</span>
+        </div>
+        <button class="bne-modal-close" onclick="closeBneInAppReader()" title="বন্ধ করুন [X]">&times; বন্ধ করুন</button>
+      </div>
+      <div class="bne-modal-body">
+        <iframe id="bne-reader-iframe" src="about:blank" title="BNE News Reader"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ Global Smart Ad Engine: Sticky Bottom Floating Banner ═══ -->
+  <div id="bne-sticky-bottom-ad" class="bne-sticky-bottom-ad">
+    <div class="bne-ad-header">
+      <span>📢 স্পন্সরড বিজ্ঞাপন | BANGLA NEWS EDITION</span>
+      <button class="bne-ad-close" onclick="closeStickyBottomAd()">&times;</button>
+    </div>
+    <div class="bne-ad-content">
+      <a href="https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news" target="_blank" rel="noopener">
+        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=900&auto=format&fit=crop&q=80" alt="bKash Remittance Sponsor" />
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══ Global Smart Ad Engine: Scroll Interstitial Popup Modal ═══ -->
+  <div id="bne-scroll-popup-ad" class="bne-modal-overlay hidden">
+    <div class="bne-popup-ad-box">
+      <div class="bne-ad-header">
+        <span>✈️ প্রবাস বাংলা নিউজ — বিশেষ স্পন্সরড বিজ্ঞপ্তি</span>
+        <button class="bne-ad-close" onclick="closeScrollPopupAd()">&times;</button>
+      </div>
+      <div class="bne-popup-ad-body">
+        <a href="https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news" target="_blank" rel="noopener">
+          <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop&q=80" alt="Visa Processing Sponsor" />
+        </a>
+        <div style="padding:10px;text-align:center;background:#f8fafc;">
+          <h4 style="margin:0 0 4px;color:#047857;">ইউরোপ ও মধ্যপ্রাচ্য প্রবাসগমন ভিসা সহায়তা</h4>
+          <p style="margin:0;font-size:0.8rem;color:#64748b;">বিএমইটি নিবন্ধিত অনুমোদিত এজেন্সির বিশেষ সেবা নিন</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="site-config.js"></script>
   <script src="app.js"></script>
   <script>
