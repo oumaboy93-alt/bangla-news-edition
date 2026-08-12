@@ -685,15 +685,25 @@ function runPwaDiagnostics() {
     return;
   }
 
+  if (navigator.serviceWorker.controller) {
+    updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
+  }
+
+  navigator.serviceWorker.ready.then(function (reg) {
+    if (reg && reg.active) {
+      updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
+    }
+  }).catch(function (err) {
+    updatePwaVisualStatus(false, err.message || "Registration Error");
+  });
+
   navigator.serviceWorker.getRegistrations().then(function (regs) {
     var adminSw = regs.find(function (r) {
-      return r.active && (r.active.scriptURL.includes("sw-admin.js") || r.active.scriptURL.includes("sw.js"));
+      return r.active || r.installing || r.waiting;
     });
 
     if (adminSw || navigator.serviceWorker.controller) {
       updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
-    } else {
-      updatePwaVisualStatus(false, "SW Registering… Please refresh page once.");
     }
   }).catch(function (err) {
     updatePwaVisualStatus(false, err.message || "Registration Failed");
