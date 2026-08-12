@@ -833,34 +833,41 @@ function init() {
     }
   });
 
-  /* কনফিগ লোড অর্ডার: ডিফল্ট → রিমোট (Gist/JSONBin) → লোকাল প্রিভিউ */
-  var configReady = fetchRemoteConfig().then(function () {
+  /* ⚡ আনকন্ডিশনাল ইনস্ট্যান্ট রেন্ডার (0ms) — ইনফিনিট লোডিং লুপ প্রতিরোধ */
+  var skElement = document.getElementById("skeleton");
+  if (skElement) skElement.remove();
+  var sbElement = document.getElementById("statusbar");
+  if (sbElement) sbElement.style.display = "none";
+
+  loadCache();
+  render();
+
+  /* ব্যাকগ্রাউন্ডে রিমোট কনফিগ ও ফিড ফেচ (UI আনব্লক রেখে) */
+  fetchRemoteConfig().then(function () {
     loadLocalConfigPreview();
     applyEditorNews();
+    render();
+  }).catch(function (e) {
+    console.log("Config fetch note:", e);
   });
 
-  var hasCache = loadCache();
-  if (hasCache) {
-    var sk0 = document.getElementById("skeleton");
-    if (sk0) sk0.remove();
-    configReady.then(render);
-    setStatus("ok", "ক্যাশ থেকে দেখানো হচ্ছে (" + timeAgo(state.lastUpdate) + " হালনাগাদ) — ব্যাকগ্রাউন্ডে নতুন খবর আসছে…");
-    refreshAll(true).then(function () { applyEditorNews(); render(); });
-  } else {
-    Promise.all([configReady, refreshAll(false)]).then(function () {
-      var sk = document.getElementById("skeleton");
-      if (sk) sk.remove();
+  try {
+    refreshAll(true).then(function () {
       applyEditorNews();
       render();
+    }).catch(function (e) {
+      console.log("Background feed refresh note:", e);
     });
+  } catch (e) {
+    console.log("Feed refresh exception:", e);
   }
 
-  /* ট্যাব খোলা থাকলেও প্রতি ৫ মিনিটে স্বয়ংক্রিয় হালনাগাদ (কনফিগসহ) */
+  /* ট্যাব খোলা থাকলেও প্রতি ৫ মিনিটে ব্যাকগ্রাউন্ড হালনাগাদ */
   setInterval(function () {
     fetchRemoteConfig().then(function () {
       loadLocalConfigPreview();
       refreshAll(true).then(function () { applyEditorNews(); render(); });
-    });
+    }).catch(function () {});
   }, CACHE_TTL);
 }
 
@@ -889,7 +896,7 @@ function closeBneInAppReader() {
 /* Global Smart Ad Engine Handlers */
 function closeStickyBottomAd() {
   var ad = document.getElementById("bne-sticky-bottom-ad");
-  if (ad) ad.classList.add("hidden");
+  if (ad) ad.remove();
 }
 
 function closeScrollPopupAd() {
