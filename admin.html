@@ -679,52 +679,36 @@ window.triggerPwaInstall = function () {
   });
 };
 
-function runPwaDiagnostics() {
+/* ── Phase 19 Protocol & Origin Guard PWA Engine ── */
+function runPwaRegistration() {
   if (!("serviceWorker" in navigator)) {
     updatePwaVisualStatus(false, "ServiceWorker Unsupported");
     return;
   }
 
-  if (navigator.serviceWorker.controller) {
-    updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
+  /* Protocol Guard: SW requires HTTP/HTTPS (local file:// has 'null' origin) */
+  var isSecureOrigin = window.location.protocol.startsWith("http") || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+  if (!isSecureOrigin) {
+    updatePwaVisualStatus(false, "Service Worker requires HTTPS/HTTP web server (file:// has null origin).");
+    return;
   }
 
-  navigator.serviceWorker.ready.then(function (reg) {
-    if (reg && reg.active) {
-      updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
-    }
-  }).catch(function (err) {
-    updatePwaVisualStatus(false, err.message || "Registration Error");
-  });
-
-  navigator.serviceWorker.getRegistrations().then(function (regs) {
-    var adminSw = regs.find(function (r) {
-      return r.active || r.installing || r.waiting;
-    });
-
-    if (adminSw || navigator.serviceWorker.controller) {
-      updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
-    }
+  navigator.serviceWorker.register("./sw-admin.js", { scope: "./" }).then(function (reg) {
+    console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
+    updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
   }).catch(function (err) {
     updatePwaVisualStatus(false, err.message || "Registration Failed");
   });
 }
 
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker.register("sw-admin.js", { scope: "./" }).then(function (reg) {
-      console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
-      setTimeout(runPwaDiagnostics, 800);
-    }).catch(function (err) {
-      updatePwaVisualStatus(false, err.message || "SW Register Error");
-    });
-  });
+  window.addEventListener("load", runPwaRegistration);
 }
 
 loadAll();
 initGate();
 adFields();
-runPwaDiagnostics();
+runPwaRegistration();
 </script>
 </body>
 </html>
