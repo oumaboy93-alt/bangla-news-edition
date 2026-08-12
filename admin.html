@@ -693,7 +693,7 @@ function runPwaRegistration() {
     return;
   }
 
-  navigator.serviceWorker.register("./sw-admin.js", { scope: "./" }).then(function (reg) {
+  navigator.serviceWorker.register("./sw-admin.js", { scope: "./admin.html" }).then(function (reg) {
     console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
     updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
   }).catch(function (err) {
