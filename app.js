@@ -615,7 +615,7 @@ function renderArticle(app, id) {
     '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>' +
     '<div class="article-body">' + body + "</div>" +
     (a.link
-      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button> <a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener noreferrer" style="margin-left:8px;font-size:0.8rem;color:#64748b;">(মূল সাইটে দেখুন)</a></div>'
+      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
       : "") +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
@@ -975,8 +975,7 @@ function renderNativeModalContent(title, bodyHtml, url, sourceLabel) {
   if (content) {
     var editorialBox =
       '<div class="bne-editorial-note-box" style="background:#f0fdf4;border:1px solid #bbf7d0;border-left:4px solid #16a34a;padding:1rem;border-radius:6px;margin-bottom:1.2rem;font-size:0.88rem;color:#166534;line-height:1.6;">' +
-        '<b>📝 বি-এন-ই এডিটরিয়াল নোট:</b> এই সংবাদটি স্বয়ংক্রিয়ভাবে সংগৃহীত এবং আমাদের সম্পাদকীয় নীতি অনুযায়ী ফিল্টারকৃত। মূল সোর্স: <b>' + escapeHtml(sourceLabel) + '</b>।' +
-        (url ? ' <a href="' + escapeHtml(url) + '" target="_blank" rel="noopener" style="color:#047857;font-weight:600;text-decoration:underline;">[মূল সোর্সে দেখুন ↗]</a>' : '') +
+        '<b>📝 বি-এন-ই এডিটরিয়াল নোট:</b> এই সংবাদটি স্বয়ংক্রিয়ভাবে সংগৃহীত এবং আমাদের সম্পাদকীয় নীতি অনুযায়ী ফিল্টারকৃত। সংবাদের মূল সোর্স: <b>' + escapeHtml(sourceLabel) + '</b>। (বি-এন-ই নেটিভ ইন-অ্যাপ প্রকাশনা)' +
       '</div>';
 
     content.innerHTML =
