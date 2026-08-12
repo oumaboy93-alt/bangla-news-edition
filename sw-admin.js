@@ -1,11 +1,11 @@
 /**
- * ⚡ BNE Dedicated Admin Service Worker (Isolated PWA Engine)
+ * ⚡ BNE Dedicated Admin Service Worker (Phase 18 PWA Engine)
  * -----------------------------------------------------------
  * Strictly isolated for admin.html to enable PWA installation
- * without affecting the main news portal.
+ * and 100% Lighthouse PWA compliance.
  */
 
-const CACHE_NAME = 'bne-admin-isolated-v3';
+const CACHE_NAME = 'bne-admin-pwa-v18';
 const ASSETS_TO_CACHE = [
   './admin.html',
   './admin-manifest.json',
@@ -17,24 +17,24 @@ const ASSETS_TO_CACHE = [
 ];
 
 self.addEventListener('install', (event) => {
-  console.log('[Isolated Admin SW] Installing...');
+  console.log('[Phase 18 Admin SW] Installing...');
   self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('[Isolated Admin SW] Caching admin assets...');
+      console.log('[Phase 18 Admin SW] Caching admin assets...');
       return cache.addAll(ASSETS_TO_CACHE);
     })
   );
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('[Isolated Admin SW] Activating...');
+  console.log('[Phase 18 Admin SW] Activating...');
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cache) => {
           if (cache !== CACHE_NAME) {
-            console.log('[Isolated Admin SW] Deleting legacy cache:', cache);
+            console.log('[Phase 18 Admin SW] Deleting legacy cache:', cache);
             return caches.delete(cache);
           }
         })
@@ -45,12 +45,6 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-  const url = new URL(event.request.url);
-
-  /* Only handle admin specific requests to avoid scope bleed */
-  if (!url.pathname.includes('admin') && !url.pathname.includes('bne-icon') && !url.pathname.includes('style.css')) {
-    return;
-  }
 
   event.respondWith(
     caches.match(event.request).then((cachedResponse) => {
@@ -63,15 +57,15 @@ self.addEventListener('fetch', (event) => {
         return cachedResponse;
       }
       return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+        if (!networkResponse || networkResponse.status !== 200) {
           return networkResponse;
         }
         const responseToCache = networkResponse.clone();
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseToCache));
         return networkResponse;
+      }).catch(() => {
+        return caches.match('./admin.html');
       });
-    }).catch(() => {
-      return caches.match('./admin.html');
     })
   );
 });

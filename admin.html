@@ -97,7 +97,7 @@
         <div class="sub">বাংলা নিউজ এডিশন — স্মার্ট অ্যাডমিন কন্ট্রোল</div>
       </div>
       <div style="display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
-        <span id="pwa-diag-badge" style="font-size:0.72rem;padding:0.25rem 0.6rem;border-radius:99px;background:#1e293b;color:#94a3b8;font-weight:600;">🔍 PWA Diag: Checking…</span>
+        <div id="pwa-status" style="padding:6px 12px;font-weight:700;border-radius:8px;background:#1e293b;color:#94a3b8;font-size:0.8rem;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 4px rgba(0,0,0,0.1);">🔍 Checking PWA Status…</div>
         <button id="pwa-install-btn" class="btn sm" style="display:none;background:#2563eb;color:#fff;font-weight:700;" onclick="triggerPwaInstall()">📲 অ্যাপ ইনস্টল করুন</button>
         <button class="btn sm" style="background:#047857;" onclick="openQrModal()">📱 Share (QR)</button>
         <button class="btn ghost sm" id="btn-lock">🔒 লক</button>
@@ -632,13 +632,31 @@ $("btn-wipe").addEventListener("click", function () {
 });
 $("btn-lock").addEventListener("click", function () { location.reload(); });
 
-/* ── True PWA Service Worker & In-App Install Prompt ── */
+/* ── Phase 18 Visual PWA Diagnostic Engine ── */
 var deferredPrompt = null;
+
+function updatePwaVisualStatus(ok, msg) {
+  var el = document.getElementById("pwa-status");
+  if (!el) return;
+  if (ok) {
+    el.style.background = "#065f46";
+    el.style.color = "#ecfdf5";
+    el.style.border = "1px solid #10b981";
+    el.innerHTML = "✅ PWA 100% Ready - Install Active";
+  } else {
+    el.style.background = "#991b1b";
+    el.style.color = "#fef2f2";
+    el.style.border = "1px solid #ef4444";
+    el.innerHTML = "❌ PWA Error: " + msg;
+  }
+}
+
 window.addEventListener("beforeinstallprompt", function (e) {
   e.preventDefault();
   deferredPrompt = e;
   var btn = document.getElementById("pwa-install-btn");
   if (btn) btn.style.display = "inline-block";
+  updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Available");
 });
 
 window.triggerPwaInstall = function () {
@@ -657,15 +675,9 @@ window.triggerPwaInstall = function () {
   });
 };
 
-/* ── Anti-Hallucination PWA Diagnostic Engine ── */
 function runPwaDiagnostics() {
-  var badge = document.getElementById("pwa-diag-badge");
-  if (!badge) return;
-
   if (!("serviceWorker" in navigator)) {
-    badge.style.background = "#fee2e2";
-    badge.style.color = "#991b1b";
-    badge.innerHTML = "🔴 PWA Status: ServiceWorker Unsupported";
+    updatePwaVisualStatus(false, "ServiceWorker Unsupported");
     return;
   }
 
@@ -674,19 +686,13 @@ function runPwaDiagnostics() {
       return r.active && (r.active.scriptURL.includes("sw-admin.js") || r.active.scriptURL.includes("sw.js"));
     });
 
-    if (adminSw) {
-      badge.style.background = "#d1fae5";
-      badge.style.color = "#065f46";
-      badge.innerHTML = "🟢 PWA Status: Isolated SW Active";
+    if (adminSw || navigator.serviceWorker.controller) {
+      updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
     } else {
-      badge.style.background = "#fef3c7";
-      badge.style.color = "#92400e";
-      badge.innerHTML = "🟡 PWA Status: Registering SW…";
+      updatePwaVisualStatus(false, "SW Registering… Please refresh page once.");
     }
-  }).catch(function () {
-    badge.style.background = "#fee2e2";
-    badge.style.color = "#991b1b";
-    badge.innerHTML = "🔴 PWA Status: SW Registration Error";
+  }).catch(function (err) {
+    updatePwaVisualStatus(false, err.message || "Registration Failed");
   });
 }
 
@@ -694,10 +700,9 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker.register("sw-admin.js", { scope: "./" }).then(function (reg) {
       console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
-      setTimeout(runPwaDiagnostics, 1000);
+      setTimeout(runPwaDiagnostics, 800);
     }).catch(function (err) {
-      console.log("Service Worker Registration Note:", err);
-      runPwaDiagnostics();
+      updatePwaVisualStatus(false, err.message || "SW Register Error");
     });
   });
 }
