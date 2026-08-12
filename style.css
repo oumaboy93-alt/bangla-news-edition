@@ -25,7 +25,7 @@ img { max-width: 100%; display: block; }
 .container { max-width: 80rem; margin: 0 auto; padding: 0 1rem; width: 100%; }
 
 /* ── হেডার ── */
-.site-header { position: sticky; top: 0; z-index: 50; box-shadow: 0 4px 18px rgba(0,0,0,.15); background: #fff; }
+.site-header { position: relative; z-index: 50; box-shadow: 0 4px 18px rgba(0,0,0,.08); background: #fff; }
 .topbar { background: var(--green-950); color: #e2e8f0; font-size: .75rem; border-bottom: 1px solid rgba(255,255,255,.08); }
 .topbar-inner { display: flex; justify-content: space-between; align-items: center; padding: .35rem 1rem; }
 .topbar-left { display: flex; align-items: center; gap: .6rem; }
@@ -237,14 +237,14 @@ body.show-admin span.admin-only { display: inline-block !important; }
 .bne-modal-body { flex: 1; position: relative; background: #f8fafc; }
 .bne-modal-body iframe { width: 100%; height: 100%; border: none; }
 
-/* Sticky Bottom Floating Banner */
-.bne-sticky-bottom-ad { position: fixed; bottom: 0; left: 0; right: 0; z-index: 9990; background: #fff; border-top: 2px solid var(--green-800); box-shadow: 0 -4px 20px rgba(0,0,0,.15); display: flex; flex-direction: column; max-height: 120px; transition: transform .3s; }
+/* Sticky Bottom Floating Banner Badge (No wide white side gaps) */
+.bne-sticky-bottom-ad { position: fixed; bottom: 16px; right: 16px; z-index: 9990; background: #ffffff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.25); border: 2px solid var(--green-700); overflow: hidden; max-width: 360px; width: calc(100vw - 32px); display: flex; flex-direction: column; transition: opacity .3s, transform .3s; }
 .bne-sticky-bottom-ad.hidden { display: none !important; }
-.bne-ad-header { background: var(--slate-800); color: #cbd5e1; font-size: .68rem; font-weight: 600; padding: .25rem .75rem; display: flex; align-items: center; justify-content: space-between; }
-.bne-ad-close { background: none; border: none; color: #fff; font-size: 1rem; cursor: pointer; padding: 0 .2rem; line-height: 1; }
-.bne-ad-close:hover { color: #ef4444; }
-.bne-ad-content { display: flex; justify-content: center; align-items: center; padding: .4rem; background: #f1f5f9; overflow: hidden; }
-.bne-ad-content img { max-height: 70px; width: auto; max-width: 100%; object-fit: contain; border-radius: 4px; }
+.bne-ad-header { background: var(--green-950); color: #fef08a; font-size: .68rem; font-weight: 700; padding: .3rem .6rem; display: flex; align-items: center; justify-content: space-between; }
+.bne-ad-close { background: rgba(255,255,255,.2); border: none; color: #fff; font-size: .75rem; font-weight: bold; cursor: pointer; padding: .1rem .45rem; border-radius: 99px; line-height: 1; transition: background .2s; }
+.bne-ad-close:hover { background: #dc2626; color: #fff; }
+.bne-ad-content { display: block; padding: 0; background: #0f172a; }
+.bne-ad-content img { width: 100%; height: auto; max-height: 140px; object-fit: cover; display: block; border-radius: 0 0 10px 10px; }
 
 /* Scroll Interstitial Popup */
 .bne-popup-ad-box { background: #fff; width: 90vw; max-width: 460px; border-radius: 12px; overflow: hidden; box-shadow: 0 16px 36px rgba(0,0,0,.25); border: 2px solid var(--green-700); }

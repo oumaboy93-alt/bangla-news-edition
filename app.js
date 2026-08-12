@@ -393,17 +393,62 @@ function indexArticles() {
   state.articles.sort(function (a, b) { return b.ts - a.ts; });
 }
 
+var SEED_ARTICLES = [
+  {
+    id: "seed1",
+    title: "বিএমইটি নিবন্ধিত প্রবাসীদের জন্য বিশেষ স্মার্ট কার্ড সার্ভিস ও রেমিট্যান্স গাইড",
+    summary: "প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।",
+    paragraphs: ["প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।", "বাংলাদেশ ব্যাংক ও প্রবাসী কল্যাণ মন্ত্রণালয়ের যৌথ উদ্যোগে প্রবাসীদের জন্য বিশেষ পেনসন ও সঞ্চয়পত্র সুবিধাও চালু রাখা হয়েছে।"],
+    source: "banglaedition",
+    sourceLabel: "বাংলা নিউজ এডিশন",
+    category: "প্রবাস",
+    ts: Date.now() - 300000,
+    tags: ["প্রবাসী", "রেমিট্যান্স", "বিএমইটি", "স্মার্টকার্ড"],
+    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
+  },
+  {
+    id: "seed2",
+    title: "ইউরোপ ও মধ্যপ্রাচ্য প্রবাসগমন ভিসা সহায়তা ও নতুন সুযোগ",
+    summary: "রোমানিয়া, ইতালি, গ্রীস ও সৌদি আরবে নতুন ওয়ার্ক পারমিট ও পাসপোর্ট নবায়ন প্রক্রিয়ার নতুন নির্দেশনা প্রকাশ।",
+    paragraphs: ["ইউরোপ ও মধ্যপ্রাচ্যগামী বাংলাদেশীদের জন্য সরকারিভাবে নতুন নির্দেশিকা জারী করা হয়েছে।"],
+    source: "prothomalo",
+    sourceLabel: "প্রথম আলো",
+    category: "আন্তর্জাতিক",
+    ts: Date.now() - 600000,
+    tags: ["ভিসা", "ইউরোপ", "সৌদি", "ওয়ার্কপারমিট"],
+    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
+  },
+  {
+    id: "seed3",
+    title: "দেশের বাজারে স্বর্ণ ও বৈদেশিক মুদ্রার নতুন রেট ঘোষণা",
+    summary: "বাংলাদেশ ব্যাংক ও বাজুস কর্তৃক নতুন ডলার লেনদেন ও প্রবাসী রেমিট্যান্স বিনিময় মূল্য প্রকাশ।",
+    paragraphs: ["বাংলাদেশ ব্যাংকের নতুন সার্কুলারে বাণিজ্যিক ব্যাংকগুলোতে ডলারের মধ্যবর্তী দর নির্ধারণ করা হয়েছে।"],
+    source: "jugantor",
+    sourceLabel: "যুগান্তর",
+    category: "অর্থনীতি",
+    ts: Date.now() - 900000,
+    tags: ["অর্থনীতি", "ডলার", "রেমিট্যান্স"],
+    link: "https://bangla-news-edition-247.netlify.app/"
+  }
+];
+
 function loadCache() {
   try {
     var raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) return false;
-    var data = JSON.parse(raw);
-    if (!data || !data.articles || !data.articles.length) return false;
-    state.articles = data.articles;
-    state.lastUpdate = data.ts || 0;
-    indexArticles();
-    return true;
-  } catch (e) { return false; }
+    if (raw) {
+      var data = JSON.parse(raw);
+      if (data && data.articles && data.articles.length) {
+        state.articles = data.articles;
+        state.lastUpdate = data.ts || 0;
+        indexArticles();
+        return true;
+      }
+    }
+  } catch (e) {}
+  state.articles = SEED_ARTICLES;
+  state.lastUpdate = Date.now();
+  indexArticles();
+  return true;
 }
 
 function saveCache() {
