@@ -9,7 +9,7 @@ const fs = require('fs');
 const https = require('https');
 
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8901003446:AAHamIJLa2157C1O9ZzhvTZUQ314JZK2wmE";
-const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "@banglanewsedition";
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "@bne0999";
 const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || "EAAMlznJ7GXABSJTpesqX6duD7ZB23kviIAK6QuUnwxzfN2u1KAayvhQ4JC0VkCKBCzhxdXRI6YGJxmfbuoZBMTDfiHTusa3mozzVRDt2D5qr7TInpcKo9m4WnPsz2k9ZABOOruoyvXNOVEYSS5fKMZA7Vh33ZAPbZCjPbiJAkh8EmmySVsqPks8ioZC2P7dmPlUQRUVywtSGLAzwE4FVNU2WJXw2C1cKslZCZBfbq2jB7arKSkMf4ZCarTJunzhJwwruumSiKXfDsFAHFwzihxZBaub";
 const FB_PAGE_ID = process.env.FB_PAGE_ID || "me";
 
