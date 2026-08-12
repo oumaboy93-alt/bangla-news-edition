@@ -23,6 +23,7 @@ body { font-family: var(--font-sans); background: var(--stone-100); color: var(-
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 .container { max-width: 80rem; margin: 0 auto; padding: 0 1rem; width: 100%; }
+#app, main.container { min-height: 100vh !important; }
 
 /* ── হেডার ── */
 .site-header { position: relative; z-index: 50; box-shadow: 0 4px 18px rgba(0,0,0,.08); background: #fff; }
