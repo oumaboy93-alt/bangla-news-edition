@@ -630,9 +630,15 @@ $("btn-wipe").addEventListener("click", function () {
 });
 $("btn-lock").addEventListener("click", function () { location.reload(); });
 
-/* ── PWA ── */
-if ("serviceWorker" in navigator && location.protocol === "https:") {
-  navigator.serviceWorker.register("admin-sw.js").catch(function () {});
+/* ── True PWA Service Worker Registration ── */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js", { scope: "./" }).then(function (reg) {
+      console.log("BNE True PWA Service Worker Registered:", reg.scope);
+    }).catch(function (err) {
+      console.log("Service Worker Registration Note:", err);
+    });
+  });
 }
 
 loadAll();
