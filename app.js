@@ -393,41 +393,77 @@ function indexArticles() {
   state.articles.sort(function (a, b) { return b.ts - a.ts; });
 }
 
-var SEED_ARTICLES = [
+var HARDCODED_ADSENSE_FALLBACK_ARTICLES = [
   {
-    id: "seed1",
+    id: "fallback_probashi_1",
     title: "বিএমইটি নিবন্ধিত প্রবাসীদের জন্য বিশেষ স্মার্ট কার্ড সার্ভিস ও রেমিট্যান্স গাইড",
     summary: "প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।",
     paragraphs: ["প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।", "বাংলাদেশ ব্যাংক ও প্রবাসী কল্যাণ মন্ত্রণালয়ের যৌথ উদ্যোগে প্রবাসীদের জন্য বিশেষ পেনসন ও সঞ্চয়পত্র সুবিধাও চালু রাখা হয়েছে।"],
     source: "banglaedition",
     sourceLabel: "বাংলা নিউজ এডিশন",
     category: "প্রবাস",
-    ts: Date.now() - 300000,
+    ts: Date.now() - 120000,
     tags: ["প্রবাসী", "রেমিট্যান্স", "বিএমইটি", "স্মার্টকার্ড"],
     link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
   },
   {
-    id: "seed2",
+    id: "fallback_visa_2",
     title: "ইউরোপ ও মধ্যপ্রাচ্য প্রবাসগমন ভিসা সহায়তা ও নতুন সুযোগ",
     summary: "রোমানিয়া, ইতালি, গ্রীস ও সৌদি আরবে নতুন ওয়ার্ক পারমিট ও পাসপোর্ট নবায়ন প্রক্রিয়ার নতুন নির্দেশনা প্রকাশ।",
     paragraphs: ["ইউরোপ ও মধ্যপ্রাচ্যগামী বাংলাদেশীদের জন্য সরকারিভাবে নতুন নির্দেশিকা জারী করা হয়েছে।"],
     source: "prothomalo",
     sourceLabel: "প্রথম আলো",
     category: "আন্তর্জাতিক",
-    ts: Date.now() - 600000,
+    ts: Date.now() - 300000,
     tags: ["ভিসা", "ইউরোপ", "সৌদি", "ওয়ার্কপারমিট"],
     link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
   },
   {
-    id: "seed3",
+    id: "fallback_econ_3",
     title: "দেশের বাজারে স্বর্ণ ও বৈদেশিক মুদ্রার নতুন রেট ঘোষণা",
     summary: "বাংলাদেশ ব্যাংক ও বাজুস কর্তৃক নতুন ডলার লেনদেন ও প্রবাসী রেমিট্যান্স বিনিময় মূল্য প্রকাশ।",
     paragraphs: ["বাংলাদেশ ব্যাংকের নতুন সার্কুলারে বাণিজ্যিক ব্যাংকগুলোতে ডলারের মধ্যবর্তী দর নির্ধারণ করা হয়েছে।"],
     source: "jugantor",
     sourceLabel: "যুগান্তর",
     category: "অর্থনীতি",
-    ts: Date.now() - 900000,
+    ts: Date.now() - 600000,
     tags: ["অর্থনীতি", "ডলার", "রেমিট্যান্স"],
+    link: "https://bangla-news-edition-247.netlify.app/"
+  },
+  {
+    id: "fallback_national_4",
+    title: "জাতীয় উন্নয়ন প্রকল্প ও নতুন কর্মসংস্থান উদ্যোগ বাস্তবায়নের রূপরেখা",
+    summary: "দেশের শিল্পাঞ্চল ও হাইটেক পার্কগুলোতে তরুণদের কর্মসংস্থান সৃষ্টির লক্ষ্যে নতুন কর্মসূচির শুভ উদ্বোধন।",
+    paragraphs: ["প্রযুক্তি ও হাইটেক পার্কগুলোতে নতুন বিনিয়োগ ও স্টার্টআপদের জন্য সরকারি সহায়তার উদ্যোগ নেওয়া হয়েছে।"],
+    source: "ittefaq",
+    sourceLabel: "ইত্তেফাক",
+    category: "জাতীয়",
+    ts: Date.now() - 900000,
+    tags: ["জাতীয়", "উন্নয়ন", "কর্মসংস্থান"],
+    link: "https://bangla-news-edition-247.netlify.app/"
+  },
+  {
+    id: "fallback_sports_5",
+    title: "আইসিসি চ্যাম্পিয়ন্স ট্রফিতে বাংলাদেশের দল ঘোষণা ও প্রস্তুতি ম্যাচ",
+    summary: "আন্তর্জাতিক ক্রিকেট কাউন্সিলের মেগা ইভেন্ট উপলক্ষে বাংলাদেশ জাতীয় ক্রিকেট দলের স্কোয়াড চূড়ান্ত।",
+    paragraphs: ["বাংলাদেশ ক্রিকেট বোর্ড (বিসিবি) আসন্ন টুর্নামেন্টের জন্য অনুশীলন ক্যাম্প ও প্রস্তুতি ম্যাচের দিনক্ষণ ঘোষণা করেছে।"],
+    source: "somoynews",
+    sourceLabel: "সময় নিউজ",
+    category: "খেলা",
+    ts: Date.now() - 1200000,
+    tags: ["খেলা", "ক্রিকেট", "বিসিবি"],
+    link: "https://bangla-news-edition-247.netlify.app/"
+  },
+  {
+    id: "fallback_tech_6",
+    title: "কৃত্রিম বুদ্ধিমত্তা ও ফ্রিল্যান্সিং খাতে নতুন জাতীয় প্রশিক্ষণ নীতিমালা",
+    summary: "তরুণ সমাজকে ডিজিটাল দক্ষতায় উন্নত করতে জাতীয় স্তরে এআই ও কোডিং বুট ক্যাম্প চালুর সিদ্বান্ত।",
+    paragraphs: ["তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ ফ্রিল্যান্সারদের জন্য ব্যাংক পেমেন্ট গেটওয়ে সহজীকরণের প্রস্তাব পেশ করেছে।"],
+    source: "banglatribune",
+    sourceLabel: "বাংলা ট্রিবিউন",
+    category: "প্রযুক্তি",
+    ts: Date.now() - 1500000,
+    tags: ["প্রযুক্তি", "এআই", "ফ্রিল্যান্সিং"],
     link: "https://bangla-news-edition-247.netlify.app/"
   }
 ];
@@ -445,7 +481,7 @@ function loadCache() {
       }
     }
   } catch (e) {}
-  state.articles = SEED_ARTICLES;
+  state.articles = HARDCODED_ADSENSE_FALLBACK_ARTICLES.slice();
   state.lastUpdate = Date.now();
   indexArticles();
   return true;
@@ -834,13 +870,24 @@ function init() {
   });
 
   /* ⚡ আনকন্ডিশনাল ইনস্ট্যান্ট রেন্ডার (0ms) — ইনফিনিট লোডিং লুপ প্রতিরোধ */
-  var skElement = document.getElementById("skeleton");
-  if (skElement) skElement.remove();
-  var sbElement = document.getElementById("statusbar");
-  if (sbElement) sbElement.style.display = "none";
-
-  loadCache();
-  render();
+  try {
+    loadCache();
+    if (!state.articles || !state.articles.length) {
+      state.articles = HARDCODED_ADSENSE_FALLBACK_ARTICLES.slice();
+      indexArticles();
+    }
+    render();
+  } catch (err) {
+    console.error("BNE Crash Recovery Triggered:", err);
+    state.articles = HARDCODED_ADSENSE_FALLBACK_ARTICLES.slice();
+    indexArticles();
+    try { render(); } catch (e) {}
+  } finally {
+    var skElement = document.getElementById("skeleton");
+    if (skElement) skElement.remove();
+    var sbElement = document.getElementById("statusbar");
+    if (sbElement) sbElement.remove();
+  }
 
   /* ব্যাকগ্রাউন্ডে রিমোট কনফিগ ও ফিড ফেচ (UI আনব্লক রেখে) */
   fetchRemoteConfig().then(function () {
