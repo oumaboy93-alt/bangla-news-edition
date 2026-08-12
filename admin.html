@@ -96,7 +96,8 @@
         <h1>⚙️ কাস্টমাইজেশন সেন্টার (PWA)</h1>
         <div class="sub">বাংলা নিউজ এডিশন — স্মার্ট অ্যাডমিন কন্ট্রোল</div>
       </div>
-      <div style="display:flex;gap:0.5rem;align-items:center;">
+      <div style="display:flex;gap:0.5rem;align-items:center;flex-wrap:wrap;">
+        <button id="pwa-install-btn" class="btn sm" style="display:none;background:#2563eb;color:#fff;font-weight:700;" onclick="triggerPwaInstall()">📲 অ্যাপ ইনস্টল করুন</button>
         <button class="btn sm" style="background:#047857;" onclick="openQrModal()">📱 Share (QR)</button>
         <button class="btn ghost sm" id="btn-lock">🔒 লক</button>
       </div>
@@ -630,7 +631,31 @@ $("btn-wipe").addEventListener("click", function () {
 });
 $("btn-lock").addEventListener("click", function () { location.reload(); });
 
-/* ── True PWA Service Worker Registration ── */
+/* ── True PWA Service Worker & In-App Install Prompt ── */
+var deferredPrompt = null;
+window.addEventListener("beforeinstallprompt", function (e) {
+  e.preventDefault();
+  deferredPrompt = e;
+  var btn = document.getElementById("pwa-install-btn");
+  if (btn) btn.style.display = "inline-block";
+});
+
+window.triggerPwaInstall = function () {
+  if (!deferredPrompt) {
+    toast("ব্রাউজার মেনু থেকে 'Install App' নির্বাচন করুন অথবা অ্যাপ ইনস্টল সম্পন্ন ✔");
+    return;
+  }
+  deferredPrompt.prompt();
+  deferredPrompt.userChoice.then(function (choiceResult) {
+    if (choiceResult.outcome === "accepted") {
+      toast("অ্যাপ ইনস্টলেশন সফল হয়েছে! ✔");
+      var btn = document.getElementById("pwa-install-btn");
+      if (btn) btn.style.display = "none";
+    }
+    deferredPrompt = null;
+  });
+};
+
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker.register("sw.js", { scope: "./" }).then(function (reg) {
