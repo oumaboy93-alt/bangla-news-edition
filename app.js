@@ -976,11 +976,10 @@ function renderNativeModalContent(title, bodyHtml, url, sourceLabel) {
     content.innerHTML =
       '<div class="bne-native-article-wrap">' +
         '<h2>' + escapeHtml(title) + '</h2>' +
-        '<div class="bne-native-meta">সংবাদ পরিবেশনা: <b>' + escapeHtml(sourceLabel) + '</b> · বি-এন-ই নেটিভ পাঠক</div>' +
+        '<div class="bne-native-meta">সংবাদ পরিবেশনা: <b>' + escapeHtml(sourceLabel) + '</b> · বি-এন-ই সার্বজনীন ডিজিটাল আর্কাইভ</div>' +
         '<div class="bne-native-body">' + bodyHtml + '</div>' +
         '<div class="bne-canonical-footer">' +
-          'মূল সংবাদের সোর্স ও স্বত্বাধিকারী: <b>' + escapeHtml(sourceLabel) + '</b> · ' +
-          '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">মূল সাইটে সরাসরি দেখুন →</a>' +
+          'সংবাদ সুত্র ও পোর্টালে তথ্য ভাণ্ডার: <b>' + escapeHtml(sourceLabel) + '</b> · বাংলা নিউজ এডিশন নেটিভ ডিজিটাল পাঠক' +
         '</div>' +
       '</div>';
     content.classList.remove("hidden");
@@ -1009,7 +1008,36 @@ function closeScrollPopupAd() {
 }
 
 function initGlobalAdManager() {
-  /* 5-second scroll trigger for interstitial ad popup */
+  var activeAds = (siteConfig.ads || []).filter(function (a) { return a.enabled && a.type === "image"; });
+  if (!activeAds.length) {
+    if (window.AZADI_DEFAULT_CONFIG && window.AZADI_DEFAULT_CONFIG.ads) {
+      activeAds = window.AZADI_DEFAULT_CONFIG.ads.filter(function (a) { return a.enabled && a.type === "image"; });
+    }
+  }
+
+  var selectedAd = activeAds[0] || {
+    title: "AD International Enterprises — PU Technology & Anti-Rust",
+    image: "images/ad_int_poster.jpg",
+    link: "#/desk/probashi-bangla-news"
+  };
+
+  var existing = document.getElementById("bne-sticky-bottom-ad");
+  if (existing) existing.remove();
+
+  var adContainer = document.createElement("div");
+  adContainer.id = "bne-sticky-bottom-ad";
+  adContainer.className = "bne-sticky-bottom-ad";
+  adContainer.innerHTML =
+    '<button class="bne-ad-close-btn" onclick="closeStickyBottomAd()" title="বিজ্ঞাপন বন্ধ করুন [✕]">✕</button>' +
+    '<div class="bne-ad-tag-label">📢 স্পন্সরড বিজ্ঞাপন | BNE</div>' +
+    '<div class="bne-ad-content">' +
+      '<a href="' + escapeHtml(selectedAd.link || "#/desk/probashi-bangla-news") + '">' +
+        '<img src="' + escapeHtml(selectedAd.image) + '" alt="' + escapeHtml(selectedAd.title) + '" />' +
+      '</a>' +
+    '</div>';
+
+  document.body.appendChild(adContainer);
+
   var popupTriggered = false;
   window.addEventListener("scroll", function () {
     if (popupTriggered || sessionStorage.getItem("bne_popup_dismissed")) return;
