@@ -1,8 +1,10 @@
 /**
- * 🤖 BNE AUTONOMOUS SOCIAL POSTER ENGINE & RICH MEDIA BOT (V3)
+ * 🤖 BNE DYNAMIC HEADLINE SOCIAL POSTER ENGINE V4
  * -----------------------------------------------------------
- * Automatically posts latest BNE news to Telegram Channel (@bne0999) & Facebook Page
- * with guaranteed thumbnail preview images and anti-duplicate tracking.
+ * Dynamically fetches the LATEST TOP BREAKING HEADLINE news,
+ * extracts its exact title, summary, thumbnail preview image,
+ * and creates a direct deep-link to that exact news story on the BNE Portal.
+ * Posts automatically to Telegram (@bne0999) & Facebook Page.
  */
 
 const fs = require('fs');
@@ -15,24 +17,15 @@ const FB_PAGE_ID = process.env.FB_PAGE_ID || "me";
 
 const FORCE_MODE = process.argv.includes('--force');
 
-const FALLBACK_NEWS = [
-  {
-    title: "বিএমইটি নিবন্ধিত প্রবাসীদের জন্য বিশেষ স্মার্ট কার্ড সার্ভিস ও রেমিট্যান্স গাইড",
-    description: "প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও নতুন ডিজিটাল পাসপোর্ট সেবা চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা অব্যাহত।",
-    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news",
-    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&auto=format&fit=crop&q=80"
-  },
-  {
-    title: "প্রবাসী কল্যাণ ব্যাংক থেকে সহজ শর্তে নতুন ঋণ সহায়তা ঘোষণা",
-    description: "বিদেশগামী কর্মী ও প্রবাসফেরত উদ্যোক্তাদের পুনরেকত্রীকরণে সহজ শর্তে ২ লাখ থেকে ৫ লাখ টাকা পর্যন্ত বিশেষ ঋণ সুবিধা দিচ্ছে ব্যাংক।",
-    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news",
-    image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&auto=format&fit=crop&q=80"
-  }
+const RSS_FEEDS = [
+  "https://www.banglaedition.com/feed/",
+  "https://www.prothomalo.com/feed"
 ];
 
-function fetchFeed(url) {
+function fetchSingleFeed(url) {
   return new Promise((resolve) => {
-    https.get(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`, (res) => {
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`;
+    https.get(apiUrl, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
@@ -42,12 +35,16 @@ function fetchFeed(url) {
             return resolve(parsed.items);
           }
         } catch (e) {}
-        resolve(FALLBACK_NEWS);
+        resolve([]);
       });
-    }).on('error', () => {
-      resolve(FALLBACK_NEWS);
-    });
+    }).on('error', () => resolve([]));
   });
+}
+
+function extractImageFromContent(htmlContent) {
+  if (!htmlContent) return null;
+  const match = htmlContent.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return match ? match[1] : null;
 }
 
 function sendTelegramPhoto(captionText, imageUrl) {
@@ -73,7 +70,7 @@ function sendTelegramPhoto(captionText, imageUrl) {
           console.log(`✅ [Telegram Success 200]: Rich Media Photo Post published to ${TELEGRAM_CHAT_ID}`);
           resolve(true);
         } else {
-          console.error(`⚠️ [Telegram Photo Error ${res.statusCode}]: ${body}`);
+          console.error(`⚠️ [Telegram Photo Warning ${res.statusCode}]: ${body}`);
           resolve(false);
         }
       });
@@ -109,7 +106,7 @@ function sendTelegramMessage(captionText) {
       res.on('data', chunk => body += chunk);
       res.on('end', () => {
         if (res.statusCode === 200) {
-          console.log(`✅ [Telegram Success 200]: Text Post published to ${TELEGRAM_CHAT_ID}`);
+          console.log(`✅ [Telegram Message Success 200]: Text Post published to ${TELEGRAM_CHAT_ID}`);
           resolve(true);
         } else {
           console.error(`❌ [Telegram Message Error ${res.statusCode}]: ${body}`);
@@ -130,7 +127,7 @@ function sendTelegramMessage(captionText) {
 
 function postFacebook(message, link) {
   if (!FB_PAGE_TOKEN) {
-    console.log("ℹ️ [Facebook Notice]: FB_PAGE_TOKEN environment secret is not set. Set FB_PAGE_TOKEN in GitHub Repository Secrets to auto-post to Facebook Page.");
+    console.log("ℹ️ [Facebook Notice]: FB_PAGE_TOKEN environment secret is not set. Add FB_PAGE_TOKEN in GitHub Secrets to auto-post to Facebook Page.");
     return;
   }
   const payload = JSON.stringify({ message: message, link: link, access_token: FB_PAGE_TOKEN });
@@ -144,7 +141,7 @@ function postFacebook(message, link) {
     res.on('data', chunk => body += chunk);
     res.on('end', () => {
       if (res.statusCode === 200) {
-        console.log(`✅ [Facebook Success 200]: Post published to Facebook Page`);
+        console.log(`✅ [Facebook Success 200]: Headline Post published to Facebook Page`);
       } else {
         console.error(`❌ [Facebook Error ${res.statusCode}]: ${body}`);
       }
@@ -157,12 +154,30 @@ function postFacebook(message, link) {
 
 async function runAutoPost() {
   console.log("==================================================");
-  console.log("🚀 BNE RICH MEDIA SOCIAL POSTER ENGINE V3 RUNNING");
+  console.log("🚀 BNE DYNAMIC BREAKING HEADLINE POSTER V4 RUNNING");
   console.log("==================================================");
 
   try {
-    const items = await fetchFeed("https://www.banglaedition.com/feed/");
-    const latest = items[0] || FALLBACK_NEWS[0];
+    let items = [];
+    for (const feedUrl of RSS_FEEDS) {
+      const feedItems = await fetchSingleFeed(feedUrl);
+      if (feedItems && feedItems.length) {
+        items = items.concat(feedItems);
+      }
+    }
+
+    /* Fallback Headline if feeds fail */
+    if (!items.length) {
+      items = [{
+        title: "বিএমইটি নিবন্ধিত প্রবাসীদের জন্য বিশেষ স্মার্ট কার্ড সার্ভিস ও রেমিট্যান্স গাইড",
+        description: "প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও নতুন ডিজিটাল পাসপোর্ট সেবা চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা অব্যাহত।",
+        link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news",
+        thumbnail: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&auto=format&fit=crop&q=80"
+      }];
+    }
+
+    const latest = items[0];
+    const headlineTitle = latest.title;
 
     const postedFile = './last_posted.json';
     let lastPosted = {};
@@ -171,44 +186,47 @@ async function runAutoPost() {
     }
 
     /* Anti-Duplicate Check unless --force is passed */
-    if (!FORCE_MODE && lastPosted && (lastPosted.title === latest.title)) {
-      console.log(`ℹ️ [Anti-Duplicate Skip]: "${latest.title}" is already posted. Use --force to override.`);
+    if (!FORCE_MODE && lastPosted && lastPosted.title === headlineTitle) {
+      console.log(`ℹ️ [Anti-Duplicate Skip]: Top Headline "${headlineTitle}" is already posted to Telegram.`);
       return;
     }
 
-    const cleanDesc = (latest.description || latest.summary || "").replace(/<[^>]*>?/gm, '').slice(0, 160);
-    const targetLink = "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news";
+    const cleanSummary = (latest.description || latest.content || "").replace(/<[^>]*>?/gm, '').slice(0, 165);
+    const slugId = encodeURIComponent(headlineTitle);
+    const targetNewsLink = `https://bangla-news-edition-247.netlify.app/#/news/${slugId}`;
 
-    const caption = `📰 <b>${latest.title}</b>\n\n${cleanDesc}...\n\n🔗 <b>বি-এন-ই পোর্টালে সম্পূর্ণ সংবাদটি পড়তে নিচে ক্লিক করুন:</b>\n${targetLink}`;
+    const caption = `💥 <b>[ব্রেকিং নিউজ হেডলাইন]</b>\n\n📰 <b>${headlineTitle}</b>\n\n${cleanSummary}...\n\n🔗 <b>বি-এন-ই পোর্টালে সরাসরি সংবাদটি পড়তে ক্লিক করুন:</b>\n${targetNewsLink}`;
 
-    let imgUrl = latest.image;
+    let imgUrl = latest.thumbnail;
     if (!imgUrl && latest.enclosure && latest.enclosure.link) imgUrl = latest.enclosure.link;
-    if (!imgUrl && latest.thumbnail) imgUrl = latest.thumbnail;
+    if (!imgUrl) imgUrl = extractImageFromContent(latest.content || latest.description);
     if (!imgUrl) imgUrl = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80";
 
-    console.log(`📌 Publishing Post: "${latest.title}"`);
-    console.log(`📸 Image URL: ${imgUrl}`);
+    console.log(`📌 Dynamic Top Headline: "${headlineTitle}"`);
+    console.log(`📸 Extracted Photo URL: ${imgUrl}`);
+    console.log(`🔗 Target Portal URL: ${targetNewsLink}`);
 
-    /* Try sending photo first */
+    /* Dispatch to Telegram */
     let photoSuccess = await sendTelegramPhoto(caption, imgUrl);
     if (!photoSuccess) {
-      console.log("🔄 Retrying with fallback rich text message...");
+      console.log("🔄 Retrying photo dispatch with fallback rich text...");
       await sendTelegramMessage(caption);
     }
 
-    postFacebook(`${latest.title}\n\n${cleanDesc}...\n\nবিস্তারিত পড়তে দেখুন: ${targetLink}`, targetLink);
+    /* Dispatch to Facebook */
+    postFacebook(`💥 [ব্রেকিং নিউজ] ${headlineTitle}\n\n${cleanSummary}...\n\nবিস্তারিত বি-এন-ই পোর্টালে পড়ুন: ${targetNewsLink}`, targetNewsLink);
 
     fs.writeFileSync(postedFile, JSON.stringify({
-      title: latest.title,
-      link: targetLink,
+      title: headlineTitle,
+      link: targetNewsLink,
       date: new Date().toISOString()
     }, null, 2));
 
     console.log("==================================================");
-    console.log("🎉 DISPATCH COMPLETE");
+    console.log("🎉 BREAKING HEADLINE DISPATCH COMPLETE");
     console.log("==================================================");
   } catch (err) {
-    console.error("❌ Auto-post execution error:", err);
+    console.error("❌ Headline Auto-post execution error:", err);
   }
 }
 
