@@ -151,7 +151,16 @@ function adHtml(ad) {
 
 function renderAdSlot(slot) {
   var list = (siteConfig.ads || []).filter(function (a) { return a && a.enabled !== false && a.slot === slot; });
-  if (!list.length) return "";
+  
+  /* Fallback: Render Official Google AdSense Unit (Publisher: ca-pub-8292591084993652) */
+  if (!list.length) {
+    var adsenseUnit = '<div class="ad-block ad-adsense-block" style="margin:1rem 0;text-align:center;">' +
+      '<span class="ad-tag">স্পনসর্ড বিজ্ঞাপন</span>' +
+      '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8292591084993652" data-ad-format="auto" data-full-width-responsive="true"></ins>' +
+      '<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>' +
+      '</div>';
+    return '<div class="ad-slot ad-' + slot + '">' + adsenseUnit + '</div>';
+  }
   
   if (list.length > 1) {
     var slotId = 'ad-rotator-' + slot;
@@ -617,6 +626,9 @@ function renderArticle(app, id) {
     (a.link
       ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
       : "") +
+    '<div class="social-share-bar" style="margin:1rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;">' +
+      '<a href="https://t.me/share/url?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(a.title) + '" target="_blank" rel="noopener" style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">✈️ টেলিগ্রামে শেয়ার করুন (@bne0999)</a>' +
+    '</div>' +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
     "</article><aside>" + renderAdSlot("article_sidebar") + sectionHead("সম্পর্কিত সংবাদ") +
