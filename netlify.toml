@@ -1,38 +1,35 @@
-# বাংলা নিউজ এডিশন (BNE) — Netlify কনফিগারেশন
-
 [build]
   publish = "."
-  command = "echo 'static site — no build needed'"
+
+[[redirects]]
+  from = "/news/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/category/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/desk/*"
+  to = "/index.html"
+  status = 200
 
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
+    X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-
-# Netlify Deploy Previews & Duplicate Domain Indexing Fix for AdSense
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "index, follow"
 
 [[headers]]
-  for = "/preview/*"
+  for = "/admin-manifest.json"
   [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+    Content-Type = "application/manifest+json"
+    Access-Control-Allow-Origin = "*"
 
 [[headers]]
-  for = "/images/*"
+  for = "/sw-admin.js"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "/index.html"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-
-[[headers]]
-  for = "/app.js"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
+    Content-Type = "application/javascript"
+    Service-Worker-Allowed = "/admin.html"

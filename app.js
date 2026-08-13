@@ -1058,6 +1058,15 @@ function initGlobalAdManager() {
 
   var popupTriggered = false;
   window.addEventListener("scroll", function () {
+    /* 🔴 Reading Progress Bar Logic */
+    var progressBar = document.getElementById("bne-progress-bar");
+    if (progressBar) {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (height > 0) ? (winScroll / height) * 100 : 0;
+      progressBar.style.width = scrolled + "%";
+    }
+
     if (popupTriggered || sessionStorage.getItem("bne_popup_dismissed")) return;
     popupTriggered = true;
     setTimeout(function () {
@@ -1065,6 +1074,57 @@ function initGlobalAdManager() {
       if (modal) modal.classList.remove("hidden");
     }, 5000);
   });
+}
+
+/* 🌓 Theme & Mobile Drawer Initializer */
+function initUiInteractions() {
+  /* Restore Saved Theme */
+  var savedTheme = localStorage.getItem("bne-theme");
+  if (savedTheme === "dark" || (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("force-dark");
+    document.body.classList.add("force-dark");
+  }
+
+  var themeBtn = document.getElementById("theme-toggle-btn");
+  if (themeBtn) {
+    themeBtn.addEventListener("click", function() {
+      var isDark = document.documentElement.classList.toggle("force-dark");
+      document.body.classList.toggle("force-dark");
+      localStorage.setItem("bne-theme", isDark ? "dark" : "light");
+    });
+  }
+
+  /* Mobile Drawer Toggle */
+  var menuBtn = document.getElementById("mobile-menu-btn");
+  var drawer = document.getElementById("mobile-drawer");
+  var overlay = document.getElementById("drawer-overlay");
+  var closeBtn = document.getElementById("drawer-close-btn");
+
+  function openDrawer() {
+    if (drawer) drawer.classList.add("active");
+    if (overlay) overlay.classList.add("active");
+  }
+  function closeDrawer() {
+    if (drawer) drawer.classList.remove("active");
+    if (overlay) overlay.classList.remove("active");
+  }
+
+  if (menuBtn) menuBtn.addEventListener("click", openDrawer);
+  if (closeBtn) closeBtn.addEventListener("click", closeDrawer);
+  if (overlay) overlay.addEventListener("click", closeDrawer);
+
+  /* Close drawer on nav link click */
+  if (drawer) {
+    drawer.querySelectorAll("a").forEach(function(link) {
+      link.addEventListener("click", closeDrawer);
+    });
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initUiInteractions);
+} else {
+  initUiInteractions();
 }
 
 document.addEventListener("DOMContentLoaded", init);
