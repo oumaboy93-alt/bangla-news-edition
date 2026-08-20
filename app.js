@@ -711,7 +711,7 @@ function renderArticle(app, id) {
     '<a href="' + fbUrl2 + '" target="_blank" rel="noopener" style="background:#1877f2;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">📘 Facebook</a>' +
     '<a href="' + waUrl2 + '" target="_blank" rel="noopener" style="background:#25d366;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">💬 WhatsApp</a>' +
     '<a href="' + tgUrl2 + '" target="_blank" rel="noopener" style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">✈️ Telegram</a>' +
-    '<button onclick="bneShareCopyLink(this,'' + shareUrl2 + '')" style="background:#64748b;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:5px;">🔗 লিংক কপি</button>' +
+    '<button onclick="bneShareCopyLink(this, \'' + shareUrl2 + '\')" style="background:#64748b;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:5px;">🔗 লিংক কপি</button>' +
     '</div>';
 })() +
     renderAdSlot("article_bottom") +
