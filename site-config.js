@@ -4,7 +4,7 @@
    (GitHub Gist / JSONBin) এই ডিফল্টকে ওভাররাইড করে — সাইট রি-ডিপ্লয় লাগে না।
    ═══════════════════════════════════════════════════════════════════ */
 window.AZADI_DEFAULT_CONFIG = {
-  version: 4,
+  version: 5,
   updatedAt: new Date().toISOString(),
   settings: {
     siteName: "বাংলা নিউজ এডিশন",
@@ -28,7 +28,7 @@ window.AZADI_DEFAULT_CONFIG = {
 
 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি:
 - পদ সংখ্যা: ২০০ জন (পুরুষ/নারী)।
-- মেয়ার্দ: ৪ বছরের ট্রেইনি ভিসা।
+- মেয়াদ: ৪ বছরের ট্রেইনি ভিসা।
 - সুবিধা: আন্তর্জাতিক মানের ট্রেনিং ও সার্টিফিকেট প্রদান।
 - মাসিক বেতন: ৫০,০০০ টাকা (BDT)।
 
@@ -58,48 +58,39 @@ THY International AD International Ent.
   ],
   ads: [
     {
-      id: "ad_overseas_campaign",
+      id: "ad_overseas_campaign_hub",
       slot: "probashi_hub",
       type: "image",
-      title: "PREMIUM OVERSEAS JOBS — THY International AD International Ent.",
+      title: "PREMIUM OVERSEAS RECRUITMENT 2026 — THY International & AD International Ent.",
       image: "images/overseas-campaign.webp",
-      link: "#/desk/probashi-bangla-news",
+      link: "#/news/thy-recruitment-2026",
+      enabled: true
+    },
+    {
+      id: "ad_overseas_campaign_top",
+      slot: "home_top",
+      type: "image",
+      title: "PREMIUM OVERSEAS RECRUITMENT 2026 — চীন, লাওস, আলজেরিয়া ও ইরাকে নিয়োগ",
+      image: "images/overseas-campaign.webp",
+      link: "#/news/thy-recruitment-2026",
+      enabled: true
+    },
+    {
+      id: "ad_overseas_campaign_middle",
+      slot: "home_middle",
+      type: "image",
+      title: "THY International AD International Ent. — সরাসরি সরকারি নিবন্ধিত ভিসা ও নিয়োগ",
+      image: "images/overseas-campaign.webp",
+      link: "#/news/thy-recruitment-2026",
       enabled: true
     },
     {
       id: "ad_int_poster",
       slot: "probashi_hub",
       type: "image",
-      title: "AD International Enterprises — ১৫ বছর মেয়াদবর্ধক PU প্রযুক্তি, মরিচা প্রতিরোধ ও ২০% তাপ প্রতিরোধক প্রাইমার",
+      title: "AD International Enterprises — ১৫ বছর মেয়াদবর্ধক PU প্রযুক্তি",
       image: "images/ad_int_poster.jpg",
-      link: "#/desk/probashi-bangla-news",
-      enabled: true
-    },
-    {
-      id: "ad_imp_exp_logo",
-      slot: "probashi_hub",
-      type: "image",
-      title: "AD Imp. & Exp. — সফল বাণিজ্যের বিশ্বস্ত বন্ধন",
-      image: "images/ad_imp_exp_logo.jpg",
-      link: "#/desk/probashi-bangla-news",
-      enabled: true
-    },
-    {
-      id: "ad_int_ceo",
-      slot: "home_top",
-      type: "image",
-      title: "AD International — আধুনিক প্রযুক্তির সেবা যাবে ঘরে ঘরে",
-      image: "images/ad_int_ceo.jpg",
-      link: "#/desk/probashi-bangla-news",
-      enabled: true
-    },
-    {
-      id: "ad_int_founders",
-      slot: "home_middle",
-      type: "image",
-      title: "AD International — আমাদের প্রতিষ্ঠাতা টিম ও আন্তর্জাতিক বাণিজ্য সেবা",
-      image: "images/ad_int_founders.jpg",
-      link: "#/desk/probashi-bangla-news",
+      link: "#/news/thy-recruitment-2026",
       enabled: true
     }
   ]
