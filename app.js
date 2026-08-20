@@ -692,11 +692,18 @@ function renderArticle(app, id) {
     ? a.paragraphs.map(function (p) { return "<p>" + escapeHtml(p) + "</p>"; }).join("")
     : "<p>" + escapeHtml(a.summary) + "</p>";
 
+  var figureHtml = a.id === "thy-recruitment-2026"
+    ? '<div style="display:grid;gap:1rem;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));margin-top:1.2rem;">' +
+        '<figure style="margin:0;"><img src="images/overseas-campaign.webp" alt="Recruitment Photo Banner" style="width:100%;border-radius:10px;"></figure>' +
+        '<figure style="margin:0;"><img src="images/overseas-campaign-poster.webp" alt="Recruitment Infographic Poster" style="width:100%;border-radius:10px;"></figure>' +
+      '</div>'
+    : '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>';
+
   app.innerHTML = '<div class="article-wrap"><article class="article">' +
     '<div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / <a href="#/category/' + encodeURIComponent(a.category) + '">' + escapeHtml(a.category) + "</a></div>" +
     badgeHtml(a.category) + "<h1>" + escapeHtml(a.title) + "</h1>" +
     '<div class="meta-row"><span class="src">' + escapeHtml(a.sourceLabel) + "</span><span>" + timeAgo(a.ts) + "</span></div>" +
-    '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>' +
+    figureHtml +
     '<div class="article-body">' + body + "</div>" +
     (a.link
       ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
@@ -1107,7 +1114,7 @@ function closeStickyBottomAd() {
 function closeScrollPopupAd() {
   var modal = document.getElementById("bne-scroll-popup-ad");
   if (modal) modal.classList.add("hidden");
-  sessionStorage.setItem("bne_popup_dismissed", "true");
+  sessionStorage.setItem("recruitment_ad_dismissed", "true");
 }
 
 function initGlobalAdManager() {
@@ -1151,14 +1158,15 @@ function initGlobalAdManager() {
       var scrolled = (height > 0) ? (winScroll / height) * 100 : 0;
       progressBar.style.width = scrolled + "%";
     }
+  });
 
-    if (popupTriggered || sessionStorage.getItem("bne_popup_dismissed")) return;
-    popupTriggered = true;
+  // Auto-Popup recruitment campaign interstitial ad 3 seconds after page load
+  if (!sessionStorage.getItem("recruitment_ad_dismissed")) {
     setTimeout(function () {
       var modal = document.getElementById("bne-scroll-popup-ad");
       if (modal) modal.classList.remove("hidden");
-    }, 5000);
-  });
+    }, 3000);
+  }
 }
 
 /* 🌓 Theme & Mobile Drawer Initializer */
