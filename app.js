@@ -534,6 +534,48 @@ function setStatus(kind, msg) {
   bar.innerHTML = (kind === "loading" ? '<span class="spinner"></span> ' : "") + escapeHtml(msg);
 }
 
+/* ── ডায়নামিক OG / সোশ্যাল মেটা আপডেটর ───────────────────────── */
+var OG_DEFAULTS = {
+  title: 'বাংলা নিউজ এডিশন — BANGLA NEWS EDITION',
+  desc: 'জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।',
+  image: 'https://bangla-news-edition-247.netlify.app/images/bne-og-cover.jpg',
+  url: 'https://bangla-news-edition-247.netlify.app/'
+};
+
+function setMeta(property, content) {
+  var isOg = property.indexOf('og:') === 0;
+  var attr = isOg ? 'property' : 'name';
+  var el = document.querySelector('meta[' + attr + '="' + property + '"]');
+  if (!el) { el = document.createElement('meta'); el.setAttribute(attr, property); document.head.appendChild(el); }
+  el.setAttribute('content', content);
+}
+
+function updateOgMeta(article) {
+  var title = (article.title || OG_DEFAULTS.title) + ' — বাংলা নিউজ এডিশন';
+  var desc = article.summary || OG_DEFAULTS.desc;
+  var image = article.image || catMeta(article.category).img;
+  if (!image || image.indexOf('http') !== 0) image = OG_DEFAULTS.image;
+  var url = 'https://bangla-news-edition-247.netlify.app/#/news/' + encodeURIComponent(article.id);
+  setMeta('og:title', title); setMeta('og:description', desc);
+  setMeta('og:image', image); setMeta('og:url', url); setMeta('og:type', 'article');
+  setMeta('twitter:title', title); setMeta('twitter:description', desc.slice(0, 200)); setMeta('twitter:image', image);
+}
+
+function resetOgMeta() {
+  setMeta('og:title', OG_DEFAULTS.title); setMeta('og:description', OG_DEFAULTS.desc);
+  setMeta('og:image', OG_DEFAULTS.image); setMeta('og:url', OG_DEFAULTS.url); setMeta('og:type', 'website');
+  setMeta('twitter:title', OG_DEFAULTS.title); setMeta('twitter:description', OG_DEFAULTS.desc); setMeta('twitter:image', OG_DEFAULTS.image);
+}
+
+function bneShareCopyLink(btn, url) {
+  try {
+    navigator.clipboard.writeText(url).then(function() {
+      var orig = btn.textContent; btn.textContent = '✅ কপি হয়েছে!';
+      setTimeout(function() { btn.textContent = orig; }, 2000);
+    });
+  } catch(e) { window.prompt('এই লিংকটি কপি করুন:', url); }
+}
+
 /* ── রেন্ডারিং ─────────────────────────────────────────────────── */
 function imgOf(a) { return a.image || catMeta(a.category).img; }
 
@@ -561,6 +603,7 @@ function sectionHead(title, href) {
 
 function renderHome(app) {
   document.title = "বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা | BANGLA NEWS EDITION";
+  resetOgMeta();
   var arts = state.articles.slice();
   if (!arts.length) {
     app.innerHTML = '<div class="empty">এই মুহূর্তে কোনো সংবাদ নেই — কয়েক সেকেন্ড পর স্বয়ংক্রিয়ভাবে চলে আসবে।<br><br><button class="btn" onclick="location.reload()">রিফ্রেশ করুন</button></div>';
@@ -608,10 +651,13 @@ function renderArticle(app, id) {
   var a = state.byId[id];
   if (!a) {
     document.title = "সংবাদ পাওয়া যায়নি — বাংলা নিউজ এডিশন";
+    resetOgMeta();
     app.innerHTML = '<div class="empty"><h2 style="margin-bottom:.6rem">সংবাদটি পাওয়া যায়নি</h2>ফিড হালনাগাদ হওয়ায় লিংকটি পুরনো হয়ে থাকতে পারে।<br><br><a class="btn" href="#/">← প্রচ্ছদে ফিরুন</a></div>';
     return;
   }
   document.title = escapeHtml(a.title) + " — বাংলা নিউজ এডিশন";
+  /* Dynamic social meta for Facebook/WhatsApp/Telegram share preview */
+  updateOgMeta(a);
   var related = state.articles.filter(function (x) { return x.category === a.category && x.id !== a.id; }).slice(0, 5);
   var body = a.paragraphs.length
     ? a.paragraphs.map(function (p) { return "<p>" + escapeHtml(p) + "</p>"; }).join("")
@@ -626,9 +672,19 @@ function renderArticle(app, id) {
     (a.link
       ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
       : "") +
-    '<div class="social-share-bar" style="margin:1rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;">' +
-      '<a href="https://t.me/share/url?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(a.title) + '" target="_blank" rel="noopener" style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.85rem;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">✈️ টেলিগ্রামে শেয়ার করুন (@bne0999)</a>' +
-    '</div>' +
+    (function() {
+  var shareUrl2 = 'https://bangla-news-edition-247.netlify.app/#/news/' + encodeURIComponent(a.id);
+  var fbUrl2 = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl2);
+  var waUrl2 = 'https://wa.me/?text=' + encodeURIComponent(a.title + ' — বাংলা নিউজ এডিশন পড়ুন: ' + shareUrl2);
+  var tgUrl2 = 'https://t.me/share/url?url=' + encodeURIComponent(shareUrl2) + '&text=' + encodeURIComponent(a.title);
+  return '<div class="social-share-bar" style="margin:1.2rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;">' +
+    '<span style="font-size:0.82rem;font-weight:700;color:#64748b;margin-right:2px;">📤 শেয়ার করুন:</span>' +
+    '<a href="' + fbUrl2 + '" target="_blank" rel="noopener" style="background:#1877f2;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">📘 Facebook</a>' +
+    '<a href="' + waUrl2 + '" target="_blank" rel="noopener" style="background:#25d366;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">💬 WhatsApp</a>' +
+    '<a href="' + tgUrl2 + '" target="_blank" rel="noopener" style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">✈️ Telegram</a>' +
+    '<button onclick="bneShareCopyLink(this,'' + shareUrl2 + '')" style="background:#64748b;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:5px;">🔗 লিংক কপি</button>' +
+    '</div>';
+})() +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
     "</article><aside>" + renderAdSlot("article_sidebar") + sectionHead("সম্পর্কিত সংবাদ") +

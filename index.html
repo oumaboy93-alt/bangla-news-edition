@@ -10,21 +10,47 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://bangla-news-edition-247.netlify.app/" />
-  <!-- Google AdSense Official Tag (Publisher: pub-8292591084993652) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8292591084993652" crossorigin="anonymous"></script>
+  <!-- Google AdSense Official Tag (Publisher: from site-config.js) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" id="adsense-script" crossorigin="anonymous"></script>
   <!-- Google Analytics 4 (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=" id="ga4-script"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
+    gtag('config', '');
+  </script>
+  <script>
+    // Initialize GA4 and AdSense from site-config.js after it loads
+    window.addEventListener('DOMContentLoaded', function() {
+      if (window.AZADI_DEFAULT_CONFIG?.settings) {
+        var ga4Id = window.AZADI_DEFAULT_CONFIG.settings.ga4MeasurementId;
+        var adsenseId = window.AZADI_DEFAULT_CONFIG.settings.adsensePublisherId;
+        if (ga4Id && ga4Id !== 'G-XXXXXXXXXX') {
+          document.getElementById('ga4-script').src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id;
+          gtag('config', ga4Id);
+        }
+        if (adsenseId && adsenseId !== 'ca-pub-PLACEHOLDER') {
+          document.getElementById('adsense-script').src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsenseId;
+        }
+      }
+    });
   </script>
   <meta name="google-site-verification" content="google19571efd052572b7" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="বাংলা নিউজ এডিশন | BANGLA NEWS EDITION" />
   <meta property="og:title" content="বাংলা নিউজ এডিশন — BANGLA NEWS EDITION" />
-  <meta property="og:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।" />
+  <meta property="og:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল। বিশ্বজুড়ে বাংলাদেশীদের জন্য সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা।" />
   <meta property="og:url" content="https://bangla-news-edition-247.netlify.app/" />
+  <meta property="og:image" content="https://bangla-news-edition-247.netlify.app/images/bne-og-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="বাংলা নিউজ এডিশন — BANGLA NEWS EDITION" />
+  <meta name="twitter:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।" />
+  <meta name="twitter:image" content="https://bangla-news-edition-247.netlify.app/images/bne-og-cover.jpg" />
+  <meta name="twitter:site" content="@bne0999" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -216,6 +242,9 @@
         </div>
       </div>
     </div>
+    </div>
+  </div>
+
   <!-- 📱 Mobile Drawer Navigation Menu -->
   <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
   <aside class="mobile-drawer" id="mobile-drawer">
