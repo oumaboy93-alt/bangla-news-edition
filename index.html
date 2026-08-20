@@ -21,6 +21,16 @@
     gtag('config', '');
   </script>
   <script>
+    // Force unregister any service worker registered on root scope (clear cache for updates)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (var i = 0; i < registrations.length; i++) {
+          registrations[i].unregister();
+        }
+      });
+    }
+  </script>
+  <script>
     // Initialize GA4 and AdSense from site-config.js after it loads
     window.addEventListener('DOMContentLoaded', function() {
       if (window.AZADI_DEFAULT_CONFIG?.settings) {
