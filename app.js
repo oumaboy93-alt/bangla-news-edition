@@ -398,8 +398,12 @@ var state = { articles: [], byId: {}, lastUpdate: 0, sourceStatus: {} };
 
 function indexArticles() {
   state.byId = {};
+  var recArt = {"id":"thy-recruitment-2026","title":"চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.","summary":"চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।","paragraphs":["চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।","🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি (বিশেষ অফার): ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। ট্রেইনি অবস্থায় সর্বনিম্ন বেতন ৫০,০০০ টাকা। ২ বছর কাজ সম্পন্ন করার পর আন্তর্জাতিক মানের কাজের অভিজ্ঞতার প্রাতিষ্ঠানিক সার্টিফিকেট প্রদান করা হবে।","🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ( USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। কোম্পানি ফ্রি খাবার ও বাসস্থান বহন করিবে।","🇩🇿 ৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা আবশ্যক।","🇮🇶 ৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।","📍 যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"],"image":"images/overseas-campaign.webp","source":"banglaedition","sourceLabel":"সম্পাদকীয় বিশেষ প্রকাশনা","category":"প্রবাস","lead":true,"ts":1787202733917,"tags":["নিয়োগ","প্রবাস","চীন","লাওস","আলজেরিয়া","ইরাক","THY_International"],"link":"https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"};
+  state.byId[recArt.id] = recArt;
+  var hasRec = state.articles.some(function(a){ return a.id === recArt.id; });
+  if (!hasRec) state.articles.unshift(recArt);
   state.articles.forEach(function (a) { state.byId[a.id] = a; });
-  state.articles.sort(function (a, b) { return b.ts - a.ts; });
+  state.articles.sort(function (a, b) { if (a.id === recArt.id) return -1; if (b.id === recArt.id) return 1; return b.ts - a.ts; });
 }
 
 var SEED_ARTICLES = [
@@ -670,6 +674,10 @@ function renderCategory(app, name) {
 
 function renderArticle(app, id) {
   var a = state.byId[id];
+  if (!a && (id === "thy-recruitment-2026" || id.indexOf("thy") !== -1 || id.indexOf("recruitment") !== -1)) {
+    a = {"id":"thy-recruitment-2026","title":"চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.","summary":"চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।","paragraphs":["চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।","🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি (বিশেষ অফার): ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। ট্রেইনি অবস্থায় সর্বনিম্ন বেতন ৫০,০০০ টাকা। ২ বছর কাজ সম্পন্ন করার পর আন্তর্জাতিক মানের কাজের অভিজ্ঞতার প্রাতিষ্ঠানিক সার্টিফিকেট প্রদান করা হবে।","🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ( USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। কোম্পানি ফ্রি খাবার ও বাসস্থান বহন করিবে।","🇩🇿 ৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা আবশ্যক।","🇮🇶 ৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।","📍 যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"],"image":"images/overseas-campaign.webp","source":"banglaedition","sourceLabel":"সম্পাদকীয় বিশেষ প্রকাশনা","category":"প্রবাস","lead":true,"ts":1787202733917,"tags":["নিয়োগ","প্রবাস","চীন","লাওস","আলজেরিয়া","ইরাক","THY_International"],"link":"https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"};
+    state.byId[a.id] = a;
+  }
   if (!a) {
     document.title = "সংবাদ পাওয়া যায়নি — বাংলা নিউজ এডিশন";
     resetOgMeta();
