@@ -1,47 +1,76 @@
 {
-  "version": 3,
-  "updatedAt": "2026-08-13T02:25:00.000Z",
+  "version": 6,
+  "updatedAt": "2026-08-22T08:18:00.000Z",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
     "remoteConfigUrl": "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
     "adminPath": "admin.html"
   },
-  "editorNews": [],
+  "editorNews": [
+    {
+      "id": "thy-recruitment-2026",
+      "title": "চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.",
+      "category": "প্রবাস",
+      "lead": true,
+      "image": "images/overseas-campaign.webp",
+      "publishedAt": "2026-08-22T08:18:00.000Z",
+      "tags": ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
+      "body": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।\n\n🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি (বিশেষ অফার):\n- পদ সংখ্যা: ২০০ জন (পুরুষ/নারী)।\n- ভিসার ধরন: ৪ বছরের ট্রেইনি visa (আন্তর্জাতিক মানের কাজের মূল্যায়ন)।\n- বিশেষ সুযোগ: ২ বছর পর আন্তর্জাতিক মানের কাজের অভিজ্ঞতার প্রাতিষ্ঠানিক সার্টিফিকেট প্রদান করা হবে, যা ভবিষ্যতে ইউরোপ বা যেকোনো দেশে পেশাদার মূল্যায়ন হিসেবে গণ্য হবে।\n- ট্রেইনি অবস্থায় সর্বনিম্ন মাসিক বেতন: ৫০,০০০ টাকা (BDT)।\n\n🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION:\n- কোম্পানির নাম: CHINA HUNAN CONSTRUCTION।\n- কাজের ধরণ: কনস্ট্রাকশন মেগা প্রজেক্ট।\n- মাসিক বেতন: ৪৫০ ডলার ($450 USD)।\n- ডিউটি সময়: ৯ ঘণ্টা (ওভারটাইম সুবিধা)।\n- বয়সসীমা: ২০ থেকে ৪৫ বছর।\n- সুবিধা: সম্পূর্ণ ফ্রি খাবার ও বাসস্থান কোম্পানি বহন করিবে (লাওসের শ্রম আইন অনুযায়ী সুবিধা)।\n\n🇩🇿 ৩. আলজেরিয়া (Algeria) — কারিগরি ও দক্ষ পদ (২ বছরের অভিজ্ঞতা আবশ্যক):\n- কার্পেন্টার: ২০ জন (মাসিক বেতন: $৫৫0 USD)\n- স্টিলওয়ার্কার: ১০ জন (মাসিক বেতন: $৫৫0 USD)\n- ব্রিকলেয়ার: ১০ জন (মাসিক বেতন: $৫৫0 USD)\n- ট্রান্সলেটর: ১ জন (মাসিক বেতন: $৮০০ USD)\n- শেফ / বাবুর্চি: ১ জন (মাসিক বেতন: $৪৫০ USD)\n\n🇮🇶 ৪. ইরাক (Iraq) — ওয়েল্ডিং ও রাজমিস্ত্রি:\n- সাধারণ ওয়েল্ডার: ৫ জন (মাসিক বেতন: $৫৫০ USD)\n- ব্রিকলেয়ার / রাজমিস্ত্রি: ৫ জন (মাসিক বেতন: $৫০০ USD)\n\n📍 কোম্পানির অফিসের ঠিকানা ও সরাসরি ক্লায়েন্ট তথ্য সংযোগ:\nTHY International AD International Ent.\nএম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা, বাংলাদেশ।\nজরুরি কল / হটলাইন: সাগর — +8801791520269"
+    }
+  ],
   "ads": [
     {
-      "id": "ad_int_poster",
+      "id": "ad_overseas_campaign_hub",
       "slot": "probashi_hub",
       "type": "image",
-      "title": "AD International Enterprises — ১৫ বছর মেয়াদবর্ধক PU প্রযুক্তি, মরিচা প্রতিরোধ ও ২০% তাপ প্রতিরোধক প্রাইমার",
-      "image": "images/ad_int_poster.jpg",
-      "link": "#/desk/probashi-bangla-news",
+      "title": "URGENT OVERSEAS RECRUITMENT NOTICE 2026 — THY International AD International Ent.",
+      "image": "images/overseas-campaign.webp",
+      "link": "#/news/thy-recruitment-2026",
       "enabled": true
     },
     {
-      "id": "ad_imp_exp_logo",
+      "id": "ad_overseas_campaign_poster_hub",
       "slot": "probashi_hub",
       "type": "image",
-      "title": "AD Imp. & Exp. — সফল বাণিজ্যের বিশ্বস্ত বন্ধন",
-      "image": "images/ad_imp_exp_logo.jpg",
-      "link": "#/desk/probashi-bangla-news",
+      "title": "URGENT RECRUITMENT NOTICE 2026 — China, Laos, Algeria, Iraq Infographic Poster",
+      "image": "images/overseas-campaign-poster.webp",
+      "link": "#/news/thy-recruitment-2026",
       "enabled": true
     },
     {
-      "id": "ad_int_ceo",
+      "id": "ad_overseas_campaign_top",
       "slot": "home_top",
       "type": "image",
-      "title": "AD International — আধুনিক প্রযুক্তির সেবা যাবে ঘরে ঘরে",
-      "image": "images/ad_int_ceo.jpg",
-      "link": "#/desk/probashi-bangla-news",
+      "title": "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক (THY International)",
+      "image": "images/overseas-campaign.webp",
+      "link": "#/news/thy-recruitment-2026",
       "enabled": true
     },
     {
-      "id": "ad_int_founders",
+      "id": "ad_overseas_campaign_middle",
       "slot": "home_middle",
       "type": "image",
-      "title": "AD International — আমাদের প্রতিষ্ঠাতা টিম ও আন্তর্জাতিক বাণিজ্য সেবা",
-      "image": "images/ad_int_founders.jpg",
-      "link": "#/desk/probashi-bangla-news",
+      "title": "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — THY International AD International Ent.",
+      "image": "images/overseas-campaign.webp",
+      "link": "#/news/thy-recruitment-2026",
+      "enabled": true
+    },
+    {
+      "id": "ad_overseas_campaign_poster_middle",
+      "slot": "home_middle",
+      "type": "image",
+      "title": "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক ইনফোগ্রাফিক পোস্টার",
+      "image": "images/overseas-campaign-poster.webp",
+      "link": "#/news/thy-recruitment-2026",
+      "enabled": true
+    },
+    {
+      "id": "ad_int_poster",
+      "slot": "probashi_top",
+      "type": "image",
+      "title": "AD International Enterprises — ১৫ বছর মেয়াদবর্ধক PU প্রযুক্তি ও মরিচা প্রতিরোধ সমাধান",
+      "image": "images/ad_int_poster.jpg",
+      "link": "#/news/thy-recruitment-2026",
       "enabled": true
     }
   ]
