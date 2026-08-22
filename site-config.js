@@ -66,6 +66,15 @@ THY International AD International Ent.
       enabled: true
     },
     {
+      id: "ad_overseas_campaign_poster_hub",
+      slot: "probashi_hub",
+      type: "image",
+      title: "URGENT RECRUITMENT NOTICE 2026 — China, Laos, Algeria, Iraq Infographic Poster",
+      image: "images/overseas-campaign-poster.webp",
+      link: "#/news/thy-recruitment-2026",
+      enabled: true
+    },
+    {
       id: "ad_overseas_campaign_top",
       slot: "home_top",
       type: "image",
@@ -80,6 +89,15 @@ THY International AD International Ent.
       type: "image",
       title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — THY International AD International Ent.",
       image: "images/overseas-campaign.webp",
+      link: "#/news/thy-recruitment-2026",
+      enabled: true
+    },
+    {
+      id: "ad_overseas_campaign_poster_middle",
+      slot: "home_middle",
+      type: "image",
+      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক ইনফোগ্রাফিক পোস্টার",
+      image: "images/overseas-campaign-poster.webp",
       link: "#/news/thy-recruitment-2026",
       enabled: true
     },
