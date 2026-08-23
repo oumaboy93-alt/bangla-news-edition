@@ -14,14 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <!-- Google Analytics 4 (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script>
+  <!-- অ্যাডমিন প্যানেল noindex — GA4 এখানে বাদ (ডেটা দূষণ প্রতিরোধ) -->
   <style>
     :root { --g9:#064e3b; --g8:#065f46; --g7:#047857; --g1:#d1fae5; --red:#dc2626; --s9:#0f172a; --s6:#475569; --s5:#64748b; --s2:#e2e8f0; --bg:#f5f5f4; }
     * { margin:0; padding:0; box-sizing:border-box; font-family:"Noto Sans Bengali",sans-serif; }
@@ -124,9 +117,10 @@
         <div class="row c3">
           <div><label>বিভাগ</label>
             <select id="n-cat">
-              <option>জাতীয়</option><option>আন্তর্জাতিক</option><option>রাজনীতি</option><option>অর্থনীতি</option>
-              <option>খেলা</option><option>বিনোদন</option><option>প্রযুক্তি</option><option>স্বাস্থ্য</option>
-              <option>প্রবাস</option><option>প্রবাস বাংলা নিউজ</option>
+              <option>জাতীয়</option><option>রাজনীতি</option><option>সারাদেশ</option><option>অর্থনীতি</option>
+              <option>আন্তর্জাতিক</option><option>খেলা</option><option>বিনোদন</option><option>শিক্ষা</option>
+              <option>চাকরি</option><option>প্রবাস</option><option>ধর্ম</option><option>স্বাস্থ্য</option>
+              <option>প্রযুক্তি</option>
             </select>
           </div>
           <div><label>ছবির URL (ঐচ্ছিক)</label><input id="n-img" placeholder="https://…jpg" /></div>
@@ -317,6 +311,15 @@ function initGate() {
     setTimeout(unlock, 100);
     return;
   }
+  if (stored) {
+    // পাসওয়ার্ড সিক্রেট দিয়ে আগেই চিহ্নিত হলে স্বয়ংক্রিয় আনলক
+    if (stored === "382218") {
+      setTimeout(unlock, 100);
+      return;
+    }
+    $("gate-title").textContent = "প্রবেশ করুন";
+    $("gate-msg").textContent = "আপনার পাসকোড দিন (অথবা গোপন পাসওয়ার্ড #৩৮২২১৮ ব্যবহার করুন)।";
+  }
   if (stored === "382218" || stored) {
     // পাসওয়ার্ড সিক্রেট দিয়ে আগেই চিহ্নিত হলে স্বয়ংক্রিয় আনলক
     if (stored === "382218") {
@@ -349,7 +352,6 @@ function initGate() {
   $("gate-pass").addEventListener("keydown", function (e) { if (e.key === "Enter") go(); });
 }
 function unlock() { $("gate").classList.add("hidden"); $("shell").classList.remove("hidden"); renderNews(); renderAds(); fillSync(); }
-$("btn-lock") && null;
 
 /* ── ট্যাব ── */
 document.querySelectorAll(".tabs button").forEach(function (b) {
@@ -693,8 +695,9 @@ function runPwaRegistration() {
     return;
   }
 
-  navigator.serviceWorker.register("./sw-admin.js", { scope: "./admin.html" }).then(function (reg) {
-    console.log("BNE Dedicated Admin Service Worker Registered:", reg.scope);
+  /* মেইন-সাইট sw.js রেজিস্টার (ডিফল্ট scope = রুট; ভুল scope "./admin.html" বাদ) */
+  navigator.serviceWorker.register("./sw.js").then(function (reg) {
+    console.log("BNE Service Worker Registered:", reg.scope);
     updatePwaVisualStatus(true, "✅ PWA 100% Ready - Install Active");
   }).catch(function (err) {
     updatePwaVisualStatus(false, err.message || "Registration Failed");
@@ -708,7 +711,6 @@ if ("serviceWorker" in navigator) {
 loadAll();
 initGate();
 adFields();
-runPwaRegistration();
 </script>
 </body>
 </html>

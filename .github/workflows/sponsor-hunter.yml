@@ -26,12 +26,12 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
-        run: node static-site/sponsor_hunter.js
+        run: node sponsor_hunter.js
 
       - name: Commit Generated Sponsor Leads
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add static-site/sponsor_leads_outreach.json || true
+          git add sponsor_leads_outreach.json || true
           git commit -m "chore: auto-update sponsor outreach leads [skip ci]" || true
           git push || true

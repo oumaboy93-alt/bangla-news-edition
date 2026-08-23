@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 * * * *' # Runs every 1 hour
+    - cron: '*/30 * * * *' # প্রতি ৩০ মিনিটে — নতুন সংবাদ টেলিগ্রাম + ফেসবুক পেজে (প্রিভিউসহ)
   workflow_dispatch:
 
 jobs:
@@ -19,23 +19,20 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Execute Social Auto-Post & Diagnostic Logger
+      - name: Execute Dual Dispatch Social Poster (Telegram + Facebook)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-        run: |
-          if [ -f "static-site/auto_social_poster.js" ]; then
-            node static-site/auto_social_poster.js
-          else
-            node auto_social_poster.js
-          fi
+          FB_POST_MODE: ${{ secrets.FB_POST_MODE }}
+          MAX_POSTS_PER_RUN: ${{ secrets.MAX_POSTS_PER_RUN }}
+        run: node auto_social_poster.js
 
       - name: Commit Last Posted Cache
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add static-site/last_posted.json last_posted.json || true
+          git add last_posted.json || true
           git commit -m "chore: update last posted social cache [skip ci]" || true
           git push || true

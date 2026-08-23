@@ -1,17 +1,17 @@
 /* ══════════════════════════════════════════════════════════════════
    বাংলা নিউজ এডিশন — সাইট কনফিগারেশন (সম্পাদকীয় সংবাদ + বিজ্ঞাপন + অ্যানালিটিক্স)
    এই ফাইলের মান হলো "ডিফল্ট"। admin.html থেকে প্রকাশ করলে রিমোট কনফিগ
-   (GitHub Gist / JSONBin) এই ডিফল্টকে ওভাররাইড করে — সাইট রি-ডিপ্লয় লাগে না।
+   (GitHub Gist / JSONBin / GitHub repo) এই ডিফল্টকে ওভাররাইড করে — সাইট রি-ডিপ্লয় লাগে না।
    ═══════════════════════════════════════════════════════════════════ */
 window.AZADI_DEFAULT_CONFIG = {
-  version: 5,
-  updatedAt: new Date().toISOString(),
+  version: 6,
+  updatedAt: "2026-08-22T08:18:00.000Z",
   settings: {
     siteName: "বাংলা নিউজ এডিশন",
-    remoteConfigUrl: "",
+    remoteConfigUrl: "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
     adminPath: "admin.html",
     ga4MeasurementId: "G-XXXXXXXXXX",
-    adsensePublisherId: "ca-pub-8292591084993652",
+    adsensePublisherId: "ca-pub-8292591084993652"
   },
   editorNews: [
     {
@@ -20,7 +20,7 @@ window.AZADI_DEFAULT_CONFIG = {
       category: "প্রবাস",
       lead: true,
       image: "images/overseas-campaign.webp",
-      publishedAt: new Date().toISOString(),
+      publishedAt: "2026-08-22T08:18:00.000Z",
       tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
       body: `চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।
 
@@ -40,14 +40,14 @@ window.AZADI_DEFAULT_CONFIG = {
 
 🇩🇿 ৩. আলজেরিয়া (Algeria) — কারিগরি ও দক্ষ পদ (২ বছরের অভিজ্ঞতা আবশ্যক):
 - কার্পেন্টার: ২০ জন (মাসিক বেতন: $৫৫0 USD)
-- স্টিলওয়ার্কার: ১০ জন (মাসিক বেতন: $৫৫0 USD)
-- ব্রিকলেয়ার: ১০ জন (মাসিক বেতন: $৫৫0 USD)
+- স্টিলওয়ার্কার: ১০ জন (মাসিক বেতন: $৫৫0 USD)
+- ব্রিকলেয়ার: ১০ জন (মাসিক বেতন: $৫৫0 USD)
 - ট্রান্সলেটর: ১ জন (মাসিক বেতন: $৮০০ USD)
 - শেফ / বাবুর্চি: ১ জন (মাসিক বেতন: $৪৫০ USD)
 
-🇮🇶 ৪. ইরাক (Iraq) — ওয়েল্ডিং ও রাজমিস্ত্রি:
-- সাধারণ ওয়েল্ডার: ৫ জন (মাসিক বেতন: $৫৫০ USD)
-- ব্রিকলেয়ার / রাজমিস্ত্রি: ৫ জন (মাসিক বেতন: $৫০০ USD)
+🇮🇶 ৪. ইরাক (Iraq) — ওয়েল্ডিং ও রাজমিস্ত্রি:
+- সাধারণ ওয়েল্ডার: ৫ জন (মাসিক বেতন: $৫৫০ USD)
+- ব্রিকলেয়ার / রাজমিস্ত্রি: ৫ জন (মাসিক বেতন: $৫০০ USD)
 
 📍 কোম্পানির অফিসের ঠিকানা ও সরাসরি ক্লায়েন্ট তথ্য সংযোগ:
 THY International AD International Ent.
@@ -78,7 +78,7 @@ THY International AD International Ent.
       id: "ad_overseas_campaign_top",
       slot: "home_top",
       type: "image",
-      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক (THY International)",
+      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক (THY International)",
       image: "images/overseas-campaign.webp",
       link: "#/news/thy-recruitment-2026",
       enabled: true
@@ -87,7 +87,7 @@ THY International AD International Ent.
       id: "ad_overseas_campaign_middle",
       slot: "home_middle",
       type: "image",
-      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — THY International AD International Ent.",
+      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — THY International AD International Ent.",
       image: "images/overseas-campaign.webp",
       link: "#/news/thy-recruitment-2026",
       enabled: true
@@ -96,7 +96,7 @@ THY International AD International Ent.
       id: "ad_overseas_campaign_poster_middle",
       slot: "home_middle",
       type: "image",
-      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক ইনফোগ্রাফিক পোস্টার",
+      title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক ইনফোগ্রাফিক পোস্টার",
       image: "images/overseas-campaign-poster.webp",
       link: "#/news/thy-recruitment-2026",
       enabled: true

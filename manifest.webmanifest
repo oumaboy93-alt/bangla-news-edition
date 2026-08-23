@@ -1,0 +1,27 @@
+{
+  "name": "বাংলা নিউজ এডিশন — BANGLA NEWS EDITION",
+  "short_name": "BNE",
+  "description": "জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল। বিশ্বজুড়ে বাংলাদেশীদের জন্য সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা।",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "bne-main-pwa-v1",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f4",
+  "theme_color": "#991b1b",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "images/bne-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/bne-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

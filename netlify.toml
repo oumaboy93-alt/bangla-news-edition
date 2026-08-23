@@ -29,7 +29,7 @@
     Access-Control-Allow-Origin = "*"
 
 [[headers]]
-  for = "/sw-admin.js"
+  for = "/manifest.webmanifest"
   [headers.values]
-    Content-Type = "application/javascript"
-    Service-Worker-Allowed = "/admin.html"
+    Content-Type = "application/manifest+json"
+    Cache-Control = "public, max-age=3600"

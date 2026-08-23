@@ -11,6 +11,9 @@ try { nodemailer = require('nodemailer'); } catch (e) { console.log('Nodemailer 
 const GMAIL_USER = process.env.GMAIL_USER;
 const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS;
 
+/* ⚠️ সতর্কতা: নিচের ইমেইলগুলো প্লেসহোল্ডার (ডেমো) — লাইভ আউটরিচের আগে
+   এগুলোকে আপনার আসল সম্ভাব্য স্পনসর/ক্লায়েন্টদের ইমেইল দিয়ে বদলান,
+   অন্যথায় ইমেইল হার্ড-বাউন্স হবে। */
 const TARGET_AGENCIES = [
   { name: "BMET Recruiting Agency Lead", email: "contact@agency1-bd.com", category: "Visa & Overseas Jobs" },
   { name: "Expat Travel & Flight Agency", email: "info@expattravelbd.com", category: "Flight & Airlines Booking" },

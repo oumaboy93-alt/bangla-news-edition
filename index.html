@@ -10,39 +10,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://bangla-news-edition-247.netlify.app/" />
-  <!-- Google AdSense Official Tag (Publisher: from site-config.js) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" id="adsense-script" crossorigin="anonymous"></script>
-  <!-- Google Analytics 4 (GA4) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=" id="ga4-script"></script>
+  <!-- PWA / ব্রাউজার মেটা -->
+  <meta name="theme-color" content="#991b1b" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="images/bne-icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '');
-  </script>
-  <script>
-    // Force unregister any service worker registered on root scope (clear cache for updates)
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        for (var i = 0; i < registrations.length; i++) {
-          registrations[i].unregister();
-        }
-      });
-    }
-  </script>
-  <script>
-    // Initialize GA4 and AdSense from site-config.js after it loads
-    window.addEventListener('DOMContentLoaded', function() {
-      if (window.AZADI_DEFAULT_CONFIG?.settings) {
-        var ga4Id = window.AZADI_DEFAULT_CONFIG.settings.ga4MeasurementId;
-        var adsenseId = window.AZADI_DEFAULT_CONFIG.settings.adsensePublisherId;
-        if (ga4Id && ga4Id !== 'G-XXXXXXXXXX') {
-          document.getElementById('ga4-script').src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id;
-          gtag('config', ga4Id);
-        }
-        if (adsenseId && adsenseId !== 'ca-pub-PLACEHOLDER') {
-          document.getElementById('adsense-script').src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adsenseId;
-        }
+    /* GA4 + AdSense — site-config.js থেকে কন্ডিশনাল লোডার (প্লেসহোল্ডার ID থাকলে লোড হয় না) */
+    window.addEventListener('DOMContentLoaded', function () {
+      var cfg = window.AZADI_DEFAULT_CONFIG && window.AZADI_DEFAULT_CONFIG.settings;
+      if (!cfg) return;
+      var ga4Id = cfg.ga4MeasurementId;
+      if (ga4Id && ga4Id !== 'G-XXXXXXXXXX') {
+        var g = document.createElement('script');
+        g.async = true;
+        g.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id;
+        document.head.appendChild(g);
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { dataLayer.push(arguments); };
+        gtag('js', new Date());
+        gtag('config', ga4Id);
+      }
+      var adId = cfg.adsensePublisherId;
+      if (adId && adId !== 'ca-pub-PLACEHOLDER') {
+        var a = document.createElement('script');
+        a.async = true;
+        a.crossOrigin = 'anonymous';
+        a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adId;
+        document.head.appendChild(a);
       }
     });
   </script>
@@ -278,6 +274,14 @@
     </ul>
   </aside>
 
+  <script>
+    /* মেইন-সাইট সার্ভিস ওয়ার্কার — অফলাইন ক্যাশ ও PWA ইনস্টল সাপোর্ট */
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./sw.js').catch(function () {});
+      });
+    }
+  </script>
   <script src="site-config.js"></script>
   <script src="app.js"></script>
 </body>

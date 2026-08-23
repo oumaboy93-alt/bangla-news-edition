@@ -104,8 +104,11 @@ function applyEditorNews() {
     if (!n || !n.title) return;
     var plain = String(n.body || "").trim();
     var ts = n.publishedAt && !isNaN(Date.parse(n.publishedAt)) ? Date.parse(n.publishedAt) : Date.now();
+    var newId = n.id || hashId(n.title);
+    /* একই id-র আগের কপি সরাও (সদৃশ কার্ড প্রতিরোধ) */
+    state.articles = state.articles.filter(function (a) { return a.id !== newId; });
     state.articles.push({
-      id: "ed-" + (n.id || hashId(n.title)),
+      id: newId,
       title: n.title,
       link: "",
       summary: plain.length > 220 ? plain.slice(0, 220).replace(/\s+\S*$/, "") + "…" : plain,
@@ -115,7 +118,7 @@ function applyEditorNews() {
       source: "editor",
       sourceLabel: "সম্পাদকীয় ডেস্ক",
       category: n.category || "জাতীয়",
-      tags: n.tags || [],
+      tags: (n.tags && n.tags.length) ? n.tags : extractTags(n.title + " " + plain),
       lead: !!n.lead
     });
   });
@@ -152,11 +155,12 @@ function adHtml(ad) {
 function renderAdSlot(slot) {
   var list = (siteConfig.ads || []).filter(function (a) { return a && a.enabled !== false && a.slot === slot; });
   
-  /* Fallback: Render Official Google AdSense Unit (Publisher: ca-pub-8292591084993652) */
+  /* Fallback: Render Official Google AdSense Unit (Publisher from site config) */
   if (!list.length) {
+    var pubId = (siteConfig.settings && siteConfig.settings.adsensePublisherId) || "ca-pub-8292591084993652";
     var adsenseUnit = '<div class="ad-block ad-adsense-block" style="margin:1rem 0;text-align:center;">' +
-      '<span class="ad-tag">স্পনসর্ড বিজ্ঞাপন</span>' +
-      '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8292591084993652" data-ad-format="auto" data-full-width-responsive="true"></ins>' +
+      '<span class="ad-tag">স্পনর্সড বিজ্ঞাপন</span>' +
+      '<ins class="adsbygoogle" style="display:block" data-ad-client="' + escapeHtml(pubId) + '" data-ad-format="auto" data-full-width-responsive="true"></ins>' +
       '<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>' +
       '</div>';
     return '<div class="ad-slot ad-' + slot + '">' + adsenseUnit + '</div>';
@@ -176,9 +180,12 @@ function renderAdSlot(slot) {
   return html ? '<div class="ad-slot ad-' + slot + '">' + html + "</div>" : "";
 }
 
+var adRotators = {};
 function startAdRotator(containerId, count) {
+  /* একই স্লটে ডুপ্লিকেট interval প্রতিরোধ (রিরেন্ডারে লিক হয় না) */
+  if (adRotators[containerId]) clearInterval(adRotators[containerId]);
   var current = 0;
-  setInterval(function() {
+  adRotators[containerId] = setInterval(function() {
     var container = document.getElementById(containerId);
     if (!container) return;
     var items = container.querySelectorAll('.rotator-item');
@@ -205,6 +212,20 @@ function stripTags(html) {
   var div = document.createElement("div");
   div.innerHTML = String(html || "");
   return (div.textContent || "").replace(/\s+/g, " ").trim();
+}
+
+/* বাক্য বিভাজন — lookbehind ছাড়া (পুরনো Safari/WebKit-এ SyntaxError এড়াতে) */
+function splitSentences(plain) {
+  if (!plain) return [];
+  var parts = [], re = /([^।!?]+[।!?]+)\s*/g, m, last = 0;
+  while ((m = re.exec(plain)) && parts.length < 80) {
+    var s = m[1].trim();
+    if (s.length > 1) parts.push(s);
+    last = re.lastIndex;
+  }
+  var rest = plain.slice(last).trim();
+  if (rest.length > 1) parts.push(rest);
+  return parts;
 }
 
 function timeAgo(ts) {
@@ -315,7 +336,7 @@ function parseJsonFeed(items, sourceKey) {
       title: title,
       link: link,
       summary: plain.length > 220 ? plain.slice(0, 220).replace(/\s+\S*$/, "") + "…" : plain,
-      paragraphs: plain ? plain.split(/(?<=[।!?])\s+/).filter(function (p) { return p.length > 1; }) : [],
+      paragraphs: splitSentences(plain),
       image: image,
       ts: ts,
       source: sourceKey,
@@ -381,7 +402,7 @@ function parseFeed(xmlText, sourceKey) {
       title: title,
       link: link,
       summary: plain.length > 220 ? plain.slice(0, 220).replace(/\s+\S*$/, "") + "…" : plain,
-      paragraphs: plain ? plain.split(/(?<=[।!?])\s+/).filter(function (p) { return p.length > 1; }) : [],
+      paragraphs: splitSentences(plain),
       image: extractImage(el, desc),
       ts: ts,
       source: sourceKey,
@@ -398,97 +419,35 @@ var state = { articles: [], byId: {}, lastUpdate: 0, sourceStatus: {} };
 
 function indexArticles() {
   state.byId = {};
-  var recArt = {"id":"thy-recruitment-2026","title":"চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.","summary":"চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।","paragraphs":["চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।","🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি (বিশেষ অফার): ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। ট্রেইনি অবস্থায় সর্বনিম্ন বেতন ৫০,০০০ টাকা। ২ বছর কাজ সম্পন্ন করার পর আন্তর্জাতিক মানের কাজের অভিজ্ঞতার প্রাতিষ্ঠানিক সার্টিফিকেট প্রদান করা হবে।","🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ( USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। কোম্পানি ফ্রি খাবার ও বাসস্থান বহন করিবে।","🇩🇿 ৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা আবশ্যক।","🇮🇶 ৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।","📍 যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"],"image":"images/overseas-campaign.webp","source":"banglaedition","sourceLabel":"সম্পাদকীয় বিশেষ প্রকাশনা","category":"প্রবাস","lead":true,"ts":1787202733917,"tags":["নিয়োগ","প্রবাস","চীন","লাওস","আলজেরিয়া","ইরাক","THY_International"],"link":"https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"};
-  state.byId[recArt.id] = recArt;
-  var hasRec = state.articles.some(function(a){ return a.id === recArt.id; });
-  if (!hasRec) state.articles.unshift(recArt);
   state.articles.forEach(function (a) { state.byId[a.id] = a; });
-  state.articles.sort(function (a, b) { if (a.id === recArt.id) return -1; if (b.id === recArt.id) return 1; return b.ts - a.ts; });
+  state.articles.sort(function (a, b) { return b.ts - a.ts; });
 }
 
-var SEED_ARTICLES = [
-  {
-    id: "thy-recruitment-2026",
-    title: "চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.",
-    summary: "চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।",
-    paragraphs: [
-      "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।",
-      "১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি: ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। আন্তর্জাতিক মানের ট্রেনিং ও সার্টিফিকেট। বেতন: ৫০,০০০ টাকা।",
-      "২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ($450 USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। ফ্রি খাবার ও বাসস্থান।",
-      "৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা প্রয়োজন।",
-      "৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।",
-      "যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"
-    ],
-    image: "images/overseas-campaign.webp",
-    source: "banglaedition",
-    sourceLabel: "সম্পাদকীয় বিশেষ প্রকাশনা",
-    category: "প্রবাস",
-    lead: true,
-    ts: Date.now(),
-    tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
-    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
-  },
-  {
-    id: "seed1",
-    title: "বিএমইটি নিবন্ধিত প্রবাসীদের জন্য বিশেষ স্মার্ট কার্ড সার্ভিস ও রেমিট্যান্স গাইড",
-    summary: "প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।",
-    paragraphs: ["প্রবাসী বাংলাদেশীদের সুবিধার্থে বিএমইটি ও পাসপোর্ট সেবায় নতুন ডিজিটাল পোর্টাল চালু হয়েছে। বৈধ ব্যাংকিং চ্যানেলে রেমিট্যান্স প্রেরণে ২.৫% প্রণোদনা বোনাস অব্যহত।", "বাংলাদেশ ব্যাংক ও প্রবাসী কল্যাণ মন্ত্রণালয়ের যৌথ উদ্যোগে প্রবাসীদের জন্য বিশেষ পেনসন ও সঞ্চয়পত্র সুবিধাও চালু রাখা হয়েছে।"],
-    source: "banglaedition",
-    sourceLabel: "বাংলা নিউজ এডিশন",
-    category: "প্রবাস",
-    ts: Date.now() - 300000,
-    tags: ["প্রবাসী", "রেমিট্যান্স", "বিএমইটি", "স্মার্টকার্ড"],
-    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
-  },
-  {
-    id: "seed2",
-    title: "ইউরোপ ও মধ্যপ্রাচ্য প্রবাসগমন ভিসা সহায়তা ও নতুন সুযোগ",
-    summary: "রোমানিয়া, ইতালি, গ্রীস ও সৌদি আরবে নতুন ওয়ার্ক পারমিট ও পাসপোর্ট নবায়ন প্রক্রিয়ার নতুন নির্দেশনা প্রকাশ।",
-    paragraphs: ["ইউরোপ ও মধ্যপ্রাচ্যগামী বাংলাদেশীদের জন্য সরকারিভাবে নতুন নির্দেশিকা জারী করা হয়েছে।"],
-    source: "prothomalo",
-    sourceLabel: "প্রথম আলো",
-    category: "আন্তর্জাতিক",
-    ts: Date.now() - 600000,
-    tags: ["ভিসা", "ইউরোপ", "সৌদি", "ওয়ার্কপারমিট"],
-    link: "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news"
-  },
-  {
-    id: "seed3",
-    title: "দেশের বাজারে স্বর্ণ ও বৈদেশিক মুদ্রার নতুন রেট ঘোষণা",
-    summary: "বাংলাদেশ ব্যাংক ও বাজুস কর্তৃক নতুন ডলার লেনদেন ও প্রবাসী রেমিট্যান্স বিনিময় মূল্য প্রকাশ।",
-    paragraphs: ["বাংলাদেশ ব্যাংকের নতুন সার্কুলারে বাণিজ্যিক ব্যাংকগুলোতে ডলারের মধ্যবর্তী দর নির্ধারণ করা হয়েছে।"],
-    source: "jugantor",
-    sourceLabel: "যুগান্তর",
-    category: "অর্থনীতি",
-    ts: Date.now() - 900000,
-    tags: ["অর্থনীতি", "ডলার", "রেমিট্যান্স"],
-    link: "https://bangla-news-edition-247.netlify.app/"
-  },
-  {
-    id: "seed4",
-    title: "জাতীয় ক্রিকেট দলের আসন্ন সিরিজের সময়সূচী চূড়ান্ত",
-    summary: "বাংলাদেশ ক্রিকেট বোর্ড (BCB) কর্তৃক নতুন আন্তর্জাতিক সিরিজের ভেন্যু ও দল ঘোষণা।",
-    paragraphs: ["বাংলাদেশ জাতীয় দলের প্রধান নির্বাচক কমিটির মিটিং শেষে স্কোয়াড প্রকাশ করা হয়েছে।"],
-    source: "somoynews",
-    sourceLabel: "সময় নিউজ",
-    category: "খেলা",
-    ts: Date.now() - 1200000,
-    tags: ["খেলা", "ক্রিকেট", "বিসিবি"],
-    link: "https://bangla-news-edition-247.netlify.app/"
-  },
-  {
-    id: "seed5",
-    title: "হাইটেক পার্কে তৈরি হচ্ছে প্রবাসীদের জন্য বিশেষ ফ্রিল্যান্সিং হ্যাব",
-    summary: "তথ্যপ্রযুক্তি বিভাগ থেকে রেমিট্যান্স যোদ্ধাদের জন্য ডিজিটাল স্কিল ও ফ্রিল্যান্সিং প্রশিক্ষণের উদ্যোগ।",
-    paragraphs: ["হাইটেক পার্ক অথরিটি ও আইসিটি ডিভিশনের যৌথ উদ্যোগে নতুন প্রশিক্ষণ কোর্স শুরু হতে যাচ্ছে।"],
-    source: "banglatribune",
-    sourceLabel: "বাংলা ট্রিবিউন",
-    category: "প্রযুক্তি",
-    ts: Date.now() - 1500000,
-    tags: ["প্রযুক্তি", "ফ্রিল্যান্সিং", "আইসিটি"],
-    link: "https://bangla-news-edition-247.netlify.app/"
-  }
-];
+/* ═══ সম্পাদকীয় লিড (নিয়োগ ক্যাম্পেইন) — এক জায়গায় সংজ্ঞায়িত ═══ */
+var RECRUITMENT_ARTICLE = {
+  id: "thy-recruitment-2026",
+  title: "চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.",
+  summary: "চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।",
+  paragraphs: [
+    "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।",
+    "🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি: ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। আন্তর্জাতিক মানের ট্রেনিং ও সার্টিফিকেট। বেতন: ৫০,০০০ টাকা।",
+    "🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ($450 USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। ফ্রি খাবার ও বাসস্থান।",
+    "🇩🇿 ৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা প্রয়োজন।",
+    "🇮🇶 ৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।",
+    "📍 যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"
+  ],
+  image: "images/overseas-campaign.webp",
+  source: "editor",
+  sourceLabel: "সম্পাদকীয় বিশেষ প্রকাশনা",
+  category: "প্রবাস",
+  lead: true,
+  ts: Date.now(),
+  tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
+  link: "https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"
+};
+
+/* শুধু সম্পাদকীয় সিড (ফেব্রিকেটেড জাল নিউজ সম্পূর্ণ বাদ — আসল ফিড রিফ্রেশে মার্জ হয়) */
+var SEED_ARTICLES = [RECRUITMENT_ARTICLE];
 
 function loadCache() {
   try {
@@ -560,12 +519,30 @@ function setStatus(kind, msg) {
 }
 
 /* ── ডায়নামিক OG / সোশ্যাল মেটা আপডেটর ───────────────────────── */
+var SITE_ORIGIN = 'https://bangla-news-edition-247.netlify.app';
 var OG_DEFAULTS = {
   title: 'বাংলা নিউজ এডিশন — BANGLA NEWS EDITION',
   desc: 'জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।',
-  image: 'https://bangla-news-edition-247.netlify.app/images/bne-og-cover.jpg',
-  url: 'https://bangla-news-edition-247.netlify.app/'
+  image: SITE_ORIGIN + '/images/bne-og-cover.jpg',
+  url: SITE_ORIGIN + '/'
 };
+
+/* লাইভ হোস্ট হলে location-ভিত্তিক URL, নাহলে প্রোডাকশন ডোমেইন (ফলব্যাক) */
+function siteOrigin() {
+  if (location.protocol.indexOf('http') === 0) return location.origin;
+  return SITE_ORIGIN;
+}
+function sitePath() {
+  var p = location.pathname.replace(/\/[^/]*$/, '/');
+  return p || '/';
+}
+function absoluteUrl(rel) {
+  if (/^https?:/.test(rel)) return rel;
+  return siteOrigin() + sitePath() + String(rel || '').replace(/^\.?\//, '');
+}
+function articleUrl(a) {
+  return siteOrigin() + sitePath() + '#/news/' + encodeURIComponent(a.id);
+}
 
 function setMeta(property, content) {
   var isOg = property.indexOf('og:') === 0;
@@ -575,21 +552,48 @@ function setMeta(property, content) {
   el.setAttribute('content', content);
 }
 
+/* NewsArticle JSON-LD (সার্চ ইঞ্জিনের জন্য) */
+function setArticleLd(article) {
+  var el = document.getElementById('bne-article-ld');
+  if (!el) { el = document.createElement('script'); el.id = 'bne-article-ld'; el.type = 'application/ld+json'; document.head.appendChild(el); }
+  var ld = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: article.title,
+    description: article.summary,
+    image: absoluteUrl(article.image || catMeta(article.category).img),
+    datePublished: new Date(article.ts).toISOString(),
+    dateModified: new Date(article.ts).toISOString(),
+    url: articleUrl(article),
+    author: { '@type': 'Organization', name: 'বাংলা নিউজ এডিশন' },
+    publisher: { '@type': 'Organization', name: 'বাংলা নিউজ এডিশন', logo: { '@type': 'ImageObject', url: absoluteUrl('images/bne-logo.png') } },
+    mainEntityOfPage: articleUrl(article)
+  };
+  el.textContent = JSON.stringify(ld);
+}
+
+function removeArticleLd() {
+  var el = document.getElementById('bne-article-ld');
+  if (el) el.remove();
+}
+
 function updateOgMeta(article) {
   var title = (article.title || OG_DEFAULTS.title) + ' — বাংলা নিউজ এডিশন';
   var desc = article.summary || OG_DEFAULTS.desc;
   var image = article.image || catMeta(article.category).img;
   if (!image || image.indexOf('http') !== 0) image = OG_DEFAULTS.image;
-  var url = 'https://bangla-news-edition-247.netlify.app/#/news/' + encodeURIComponent(article.id);
+  var url = articleUrl(article);
   setMeta('og:title', title); setMeta('og:description', desc);
   setMeta('og:image', image); setMeta('og:url', url); setMeta('og:type', 'article');
   setMeta('twitter:title', title); setMeta('twitter:description', desc.slice(0, 200)); setMeta('twitter:image', image);
+  setArticleLd(article);
 }
 
 function resetOgMeta() {
   setMeta('og:title', OG_DEFAULTS.title); setMeta('og:description', OG_DEFAULTS.desc);
   setMeta('og:image', OG_DEFAULTS.image); setMeta('og:url', OG_DEFAULTS.url); setMeta('og:type', 'website');
   setMeta('twitter:title', OG_DEFAULTS.title); setMeta('twitter:description', OG_DEFAULTS.desc); setMeta('twitter:image', OG_DEFAULTS.image);
+  removeArticleLd();
 }
 
 function bneShareCopyLink(btn, url) {
@@ -672,10 +676,29 @@ function renderCategory(app, name) {
       : '<div class="empty">এই বিভাগে এখনো সংবাদ আসেনি — একটু পরে রিফ্রেশ করুন।</div>');
 }
 
+function renderSearch(app, q) {
+  q = String(q || "").trim();
+  document.title = (q ? "“" + q + "” — " : "") + "খোঁজার ফলাফল — বাংলা নিউজ এডিশন";
+  resetOgMeta();
+  var items = [];
+  if (q) {
+    var lq = q.toLowerCase();
+    items = state.articles.filter(function (a) {
+      return (a.title + " " + (a.summary || "") + " " + (a.tags || []).join(" ")).toLowerCase().indexOf(lq) !== -1;
+    });
+  }
+  app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / খোঁজার ফলাফল</div>' +
+    "<h1>" + (q ? "“" + escapeHtml(q) + "”" : "খোঁজার ফলাফল") + "</h1>" +
+    "<p>মোট " + bn(items.length) + "টি সংবাদ পাওয়া গেছে</p></div>" +
+    (items.length
+      ? '<div class="grid cols-3">' + items.map(cardHtml).join("") + "</div>"
+      : '<div class="empty">“<b>' + escapeHtml(q) + '</b>” — এই শব্দের সাথে মিলে যাওয়া কোনো সংবাদ পাওয়া যায়নি।<br><br><a class="btn" href="#/">← প্রচ্ছদে ফিরুন</a></div>');
+}
+
 function renderArticle(app, id) {
   var a = state.byId[id];
   if (!a && (id === "thy-recruitment-2026" || id.indexOf("thy") !== -1 || id.indexOf("recruitment") !== -1)) {
-    a = {"id":"thy-recruitment-2026","title":"চীন, লাওস, আলজেরিয়া ও ইরাকে বিশাল নিয়োগ বিজ্ঞপ্তি — THY International AD International Ent.","summary":"চীন (গার্মেন্টস ট্রেইনি ৫০,০০০ টাকা), লাওস ($৪৫০), আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মী নিয়োগ। ফ্রি খাবার ও বাসস্থানসহ সরকারি অনূমোদিত ভিসার সম্পূর্ণ আবেদন পদ্ধতি।","paragraphs":["চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.।","🇨🇳 ১. চীন (China) — গার্মেন্টস সুইং ট্রেইনি (বিশেষ অফার): ২০০ জন। ৪ বছরের ট্রেইনি ভিসা। ট্রেইনি অবস্থায় সর্বনিম্ন বেতন ৫০,০০০ টাকা। ২ বছর কাজ সম্পন্ন করার পর আন্তর্জাতিক মানের কাজের অভিজ্ঞতার প্রাতিষ্ঠানিক সার্টিফিকেট প্রদান করা হবে।","🇱🇦 ২. লাওস (Laos) — CHINA HUNAN CONSTRUCTION: কনস্ট্রাকশন কাজ। বেতন: ৪৫০ ডলার ( USD)। ডিউটি: ৯ ঘণ্টা। বয়স: ২০-৪৫ বছর। কোম্পানি ফ্রি খাবার ও বাসস্থান বহন করিবে।","🇩🇿 ৩. আলজেরিয়া (Algeria): কার্পেন্টার (২০ জন, $৫৫0), স্টিলওয়ার্কার (১০ জন, $৫৫0), ব্রিকলেয়ার (১০ জন, $৫৫0), ট্রান্সলেটর (১ জন, $৮০০), শেফ (১ জন, $৪৫০)। ২ বছরের অভিজ্ঞতা আবশ্যক।","🇮🇶 ৪. ইরাক (Iraq): সাধারণ ওয়েল্ডার (৫ জন, $৫৫0), ব্রিকলেয়ার (৫ জন, $৫০০)।","📍 যোগাযোগের ঠিকানা: THY International AD International Ent., এম এম কমপ্লেক্স, লিফট-৭ (পল্লবী মেট্রোস্টেশন সংলগ্ন), মিরপুর ২/১১, ঢাকা। মোবাইল: সাগর — +8801791520269"],"image":"images/overseas-campaign.webp","source":"banglaedition","sourceLabel":"সম্পাদকীয় বিশেষ প্রকাশনা","category":"প্রবাস","lead":true,"ts":1787202733917,"tags":["নিয়োগ","প্রবাস","চীন","লাওস","আলজেরিয়া","ইরাক","THY_International"],"link":"https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"};
+    a = RECRUITMENT_ARTICLE;
     state.byId[a.id] = a;
   }
   if (!a) {
@@ -709,7 +732,7 @@ function renderArticle(app, id) {
       ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
       : "") +
     (function() {
-  var shareUrl2 = 'https://bangla-news-edition-247.netlify.app/#/news/' + encodeURIComponent(a.id);
+  var shareUrl2 = articleUrl(a);
   var fbUrl2 = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl2);
   var waUrl2 = 'https://wa.me/?text=' + encodeURIComponent(a.title + ' — বাংলা নিউজ এডিশন পড়ুন: ' + shareUrl2);
   var tgUrl2 = 'https://t.me/share/url?url=' + encodeURIComponent(shareUrl2) + '&text=' + encodeURIComponent(a.title);
@@ -809,6 +832,7 @@ function parseRoute() {
   var m;
   if ((m = h.match(/^#\/news\/(.+)$/))) return { page: "news", param: m[1] };
   if ((m = h.match(/^#\/category\/(.+)$/))) return { page: "category", param: m[1] };
+  if ((m = h.match(/^#\/search\/(.+)$/))) return { page: "search", param: m[1] };
   if ((m = h.match(/^#\/desk\/probashi-bangla-news(?:\/(.+))?$/)) || h === "#/probashi") {
     return { page: "probashi-desk", param: m ? m[1] : null };
   }
@@ -870,6 +894,7 @@ function render() {
   var route = parseRoute();
   if (route.page === "news") renderArticle(app, route.param);
   else if (route.page === "category") renderCategory(app, route.param);
+  else if (route.page === "search") renderSearch(app, route.param);
   else if (route.page === "probashi-desk") renderProbashiDesk(app, route.param);
   else renderHome(app);
   renderTicker();
@@ -944,8 +969,9 @@ function init() {
         return;
       }
 
-      state.searchQuery = q;
-      render();
+      /* সার্চ রুটে নেভিগেট (hashchange → render) */
+      location.hash = "#/search/" + encodeURIComponent(q);
+      if (input) input.blur();
     });
   }
 
@@ -969,6 +995,7 @@ function init() {
     if (sbElement) sbElement.style.display = "none";
 
     loadCache();
+    applyEditorNews(); /* ক্যাশ/ফিড যাই হোক, সম্পাদকীয় লিড সর্বদা দৃশ্যমান */
     render();
 
     fetchRemoteConfig().then(function () {
