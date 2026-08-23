@@ -39,6 +39,13 @@
         a.crossOrigin = 'anonymous';
         a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adId;
         document.head.appendChild(a);
+        /* P7: AdSense Auto Ads (anchor/মিডিয়া-অ্যাড) — কনফিগে true করলেই চালু */
+        if (cfg.adsenseAutoAds === true) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: adId,
+            enable_page_level_ads: true
+          });
+        }
       }
     });
   </script>
@@ -74,6 +81,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#app">মূল কনটেন্টে যান</a>
   <div id="bne-progress-bar"></div>
   <header class="site-header">
     <div class="topbar">
@@ -188,6 +196,15 @@
         <h4>সংবাদ সিস্টেম</h4>
         <ul id="footer-sources"></ul>
       </div>
+      <div>
+        <h4>নিউজলেটার</h4>
+        <p style="font-size:0.85rem;color:#94a3b8;line-height:1.6;">দৈনিক সেরা ৫ সংবাদ ইমেইলে পেতে সাবস্ক্রাইব করুন।</p>
+        <form id="newsletter-form" style="display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap;">
+          <input type="email" id="newsletter-email" required placeholder="আপনার ইমেইল" aria-label="ইমেইল ঠিকানা" style="flex:1;min-width:170px;padding:.55rem .7rem;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#f1f5f9;font-size:.85rem;" />
+          <button type="submit" class="btn" style="padding:.55rem 1rem;white-space:nowrap;">সাবস্ক্রাইব</button>
+        </form>
+        <p id="newsletter-msg" style="font-size:0.8rem;margin-top:.5rem;min-height:1.2em;" role="status"></p>
+      </div>
     </div>
     <div class="footer-bottom">
       <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
@@ -282,7 +299,32 @@
       });
     }
   </script>
+  <script>
+    /* নিউজলেটার সাবস্ক্রাইব (P4) — /api/newsletter ফাংশনে POST, গ্রেসফুল ডিগ্রেডেশন */
+    window.addEventListener('DOMContentLoaded', function () {
+      var form = document.getElementById('newsletter-form');
+      var msg = document.getElementById('newsletter-msg');
+      if (!form || !msg) return;
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = document.getElementById('newsletter-email').value.trim();
+        if (!email) return;
+        msg.textContent = '⏳ সাবস্ক্রাইব হচ্ছে…';
+        fetch('/api/newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email })
+        }).then(function (res) { return res.json(); }).then(function (data) {
+          msg.textContent = data && data.ok ? '✅ ' + (data.message || 'সাবস্ক্রাইব সম্পন্ন।') : '⚠️ ' + (data && data.message || 'আবার চেষ্টা করুন।');
+          if (data && data.ok) form.reset();
+        }).catch(function () {
+          msg.textContent = '⚠️ নেটওয়ার্ক সমস্যা — পরে আবার চেষ্টা করুন।';
+        });
+      });
+    });
+  </script>
   <script src="site-config.js"></script>
+  <script src="core.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

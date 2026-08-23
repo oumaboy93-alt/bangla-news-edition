@@ -1,0 +1,43 @@
+name: CI — Quality Gate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: JS Syntax Check (সব .js)
+        run: |
+          set -e
+          for f in $(find . -name '*.js' -not -path './node_modules/*' -not -path './.git/*'); do
+            node --check "$f" || { echo "সিনট্যাক্স ব্যর্থ: $f"; exit 1; }
+          done
+          echo "✅ সব JS সিনট্যাক্স ঠিক"
+
+      - name: JSON Validation
+        run: |
+          node -e "
+            const fs = require('fs');
+            const files = ['data/bne-config.json','admin-manifest.json','admin-manifest.webmanifest','manifest.webmanifest','last_posted.json','sponsor_leads_outreach.json'];
+            for (const f of files) { if (fs.existsSync(f)) JSON.parse(fs.readFileSync(f, 'utf8')); }
+            console.log('✅ সব JSON বৈধ');
+          "
+
+      - name: Unit Tests (Core Logic)
+        run: node tests/core.test.js
+
+      - name: Secret Scan (gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

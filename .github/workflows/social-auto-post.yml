@@ -23,10 +23,12 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_POST_MODE: ${{ secrets.FB_POST_MODE }}
           MAX_POSTS_PER_RUN: ${{ secrets.MAX_POSTS_PER_RUN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: node auto_social_poster.js
 
       - name: Commit Last Posted Cache

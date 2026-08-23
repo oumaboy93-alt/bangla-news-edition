@@ -11,7 +11,8 @@ window.AZADI_DEFAULT_CONFIG = {
     remoteConfigUrl: "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
     adminPath: "admin.html",
     ga4MeasurementId: "G-XXXXXXXXXX",
-    adsensePublisherId: "ca-pub-8292591084993652"
+    adsensePublisherId: "ca-pub-8292591084993652",
+    adsenseAutoAds: false
   },
   editorNews: [
     {

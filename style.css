@@ -449,4 +449,86 @@ body.force-dark .ad-block {
   border-color: #334155 !important;
 }
 
+/* ═══ P8: অ্যাক্সেসিবিলিটি ও ডার্ক-মোড কভারেজ সম্পূর্ণকরণ ═══ */
+
+/* Skip-link — কিবোর্ড/স্ক্রিন-রিডার ব্যবহারকারীদের জন্য */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  background: #047857;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
+
+/* কিবোর্ড-ফোকাস দৃশ্যমান (মাউস ক্লিকে নয়) */
+:focus-visible {
+  outline: 3px solid #10b981;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ডার্ক-মোড গ্যাপ: বাকি কম্পোনেন্টগুলোও কভার */
+body.force-dark .probashi-desk-banner,
+body.force-dark .page-title,
+body.force-dark .section-head,
+body.force-dark .bne-sticky-bottom-ad,
+body.force-dark .bne-scroll-popup-ad,
+body.force-dark .social-share-bar,
+body.force-dark .ad-slot,
+body.force-dark .search-box input,
+body.force-dark .newsletter-box {
+  background-color: #111827 !important;
+  color: #e2e8f0 !important;
+  border-color: #1f2937 !important;
+}
+body.force-dark .probashi-filter-btn {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+}
+body.force-dark .probashi-filter-btn.active {
+  background: #047857 !important;
+  color: #fff !important;
+}
+body.force-dark .tags span {
+  background: #1e293b !important;
+  color: #94a3b8 !important;
+}
+body.force-dark .footer-bottom {
+  background-color: #0b1220 !important;
+}
+body.force-dark #newsletter-form input {
+  background: #0f172a !important;
+  color: #f1f5f9 !important;
+  border-color: #334155 !important;
+}
+
+/* motion-পছন্দকারী ব্যবহারকারীদের জন্য অ্যানিমেশন বন্ধ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* নিউজলেটার/ডেস্ক কম্পোনেন্ট হালকা থিমেও সামঞ্জস্যপূর্ণ */
+#newsletter-form input {
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #0f172a;
+}
+
 

@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  functions = "netlify/functions"
 
 [[redirects]]
   from = "/news/*"
@@ -12,8 +13,18 @@
   status = 200
 
 [[redirects]]
+  from = "/search/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
   from = "/desk/*"
   to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
   status = 200
 
 [[headers]]

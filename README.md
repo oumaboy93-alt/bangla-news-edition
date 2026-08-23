@@ -44,8 +44,21 @@ GitHub Actions প্রতি ৩০ মিনিটে নতুন সংব�
 **চালু করতে (১৫ মিনিট):**
 1. [FB_SETUP_GUIDE.md](FB_SETUP_GUIDE.md) অনুসরণ করে ফেসবুক **Page Access Token** নিন
 2. GitHub রিপোতে এই **Secrets** যোগ করুন: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
-   `FB_PAGE_TOKEN`, `FB_PAGE_ID` (ঐচ্ছিক: `FB_POST_MODE`, `MAX_POSTS_PER_RUN`)
-3. শেষ — পরের ৩০ মিনিটের রান থেকেই পেজে অটো-পোস্ট শুরু
+   `FB_PAGE_TOKEN`, `FB_PAGE_ID`
+3. ঐচ্ছিক: `FB_POST_MODE` (link/photo), `MAX_POSTS_PER_RUN`, `IG_USER_ID` (ইনস্টাগ্রাম),
+   `TELEGRAM_ADMIN_CHAT_ID` (টোকেন অ্যালার্ট), `EMAIL_OCTOPUS_API_KEY`/`EMAIL_OCTOPUS_LIST_ID` (নিউজলেটার)
+4. শেষ — পরের ৩০ মিনিটের রান থেকেই পেজে অটো-পোস্ট শুরু
+
+## 🏗️ সার্ভার-সাইড ফাংশন (Netlify Functions — P2/P4/P5)
+
+`netlify/functions/` ফোল্ডারে ডিপ্লয়-রেডি ফাংশন — Netlify-এ আপলোড হলেই `/api/*` পাথে কাজ করে:
+
+| ফাংশন | কাজ | env |
+|--------|-----|-----|
+| `/api/rss-proxy` | ৯টি ফিড সার্ভার-সাইড ফেচ + CDN-ক্যাশ (app.js প্রথমে এটি ট্রাই করে, ব্যর্থে ক্লায়েন্ট চেইন) | — |
+| `/api/sitemap.xml` | লাইভ আর্টিকেল URL সহ ডাইনামিক sitemap | `SITE_URL` |
+| `/api/newsletter` | নিউজলেটার সাবস্ক্রাইব (ফুটারের ফর্ম থেকে) | `EMAIL_OCTOPUS_API_KEY`, `EMAIL_OCTOPUS_LIST_ID` |
+| `/api/admin-auth` | সার্ভার-সাইড অ্যাডমিন লগইন (HttpOnly কুকি সেশন) | `ADMIN_PASS`, `ADMIN_SESSION_SECRET` |
 
 ## ফাইল গঠন
 

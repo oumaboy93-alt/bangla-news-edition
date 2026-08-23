@@ -7,12 +7,13 @@
  * - Cross-origin (RSS/proxy) requests স্পর্শ করে না
  */
 
-const CACHE_NAME = 'bne-main-v1';
+const CACHE_NAME = 'bne-main-v2';
 const PRECACHE_ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './core.js',
   './site-config.js',
   './about-us.html',
   './privacy-policy.html',

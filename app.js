@@ -27,36 +27,13 @@ var PROXIES = [
   function (u) { return "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(u); }
 ];
 
-var CATEGORIES = [
-  { name: "জাতীয়", badge: "", img: "images/national.jpg" },
-  { name: "রাজনীতি", badge: "b-red", img: "images/politics.jpg" },
-  { name: "সারাদেশ", badge: "b-teal", img: "images/national.jpg" },
-  { name: "অর্থনীতি", badge: "b-amber", img: "images/economy.jpg" },
-  { name: "আন্তর্জাতিক", badge: "b-sky", img: "images/international.jpg" },
-  { name: "খেলা", badge: "b-indigo", img: "images/sports.jpg" },
-  { name: "বিনোদন", badge: "b-fuchsia", img: "images/entertainment.jpg" },
-  { name: "শিক্ষা", badge: "b-cyan", img: "images/technology.jpg" },
-  { name: "চাকরি", badge: "b-amber", img: "images/economy.jpg" },
-  { name: "প্রবাস", badge: "b-sky", img: "images/international.jpg" },
-  { name: "ধর্ম", badge: "b-teal", img: "images/national.jpg" },
-  { name: "স্বাস্থ্য", badge: "b-teal", img: "images/health.jpg" },
-  { name: "প্রযুক্তি", badge: "b-cyan", img: "images/technology.jpg" }
-];
-
-var CATEGORY_KEYWORDS = [
-  { category: "খেলা", keywords: ["ক্রিকেট", "ফুটবল", "খেলা", "টাইগার", "ম্যাচ", "সিরিজ", "টুর্নামেন্ট", "অলিম্পিক", "বিপিএল", "উইকেট", "গোল"] },
-  { category: "আন্তর্জাতিক", keywords: ["যুক্তরাষ্ট্র", "ভারত", "চীন", "রাশিয়া", "ইউক্রেন", "গাজা", "ইসরায়েল", "ফিলিস্তিন", "জাতিসংঘ", "আন্তর্জাতিক", "বিশ্ব", "পাকিস্তান", "ইরান", "যুক্তরাজ্য", "মিয়ানমার"] },
-  { category: "অর্থনীতি", keywords: ["অর্থনীতি", "রপ্তানি", "রেমিট্যান্স", "ব্যাংক", "শেয়ারবাজার", "মূল্যস্ফীতি", "বাজেট", "ডলার", "বিনিয়োগ", "রিজার্ভ", "পুঁজিবাজার", "টাকা"] },
-  { category: "রাজনীতি", keywords: ["নির্বাচন", "রাজনীতি", "বিএনপি", "আওয়ামী", "জামায়াত", "সংসদ", "মন্ত্রণালয়", "উপদেষ্টা", "সরকার", "ভোট", "মনোনয়ন"] },
-  { category: "প্রযুক্তি", keywords: ["প্রযুক্তি", "ইন্টারনেট", "স্মার্টফোন", "এআই", "কৃত্রিম বুদ্ধিমত্তা", "সাইবার", "অ্যাপ", "গুগল", "ফেসবুক", "সফটওয়্যার", "স্টার্টআপ"] },
-  { category: "বিনোদন", keywords: ["সিনেমা", "নাটক", "চলচ্চিত্র", "অভিনেতা", "অভিনেত্রী", "গান", "শিল্পী", "বিনোদন", "ওটিটি", "তারকা", "কনসার্ট"] },
-  { category: "স্বাস্থ্য", keywords: ["স্বাস্থ্য", "হাসপাতাল", "ডেঙ্গু", "চিকিৎসা", "রোগ", "টিকা", "ভাইরাস", "ওষুধ", "ডাক্তার", "করোনা"] },
-  { category: "সারাদেশ", keywords: ["জেলা", "থানা", "উপজেলা", "উপপ্রতিনিধি", "প্রতিনিধি", "গ্রাম", "মেডিসিন", "দুর্ঘটনা", "সারাদেশ"] },
-  { category: "শিক্ষা", keywords: ["শিক্ষা", "বিশ্ববিদ্যালয়", "পরীক্ষা", "এসএসসি", "এইচএসসি", "ছাত্র", "শিক্ষার্থী", "শিক্ষক", "কলেজ", "স্কুল", "বুয়েট", "ঢাবি"] },
-  { category: "চাকরি", keywords: ["চাকরি", "নিয়োগ", "বিসিএস", "নিয়োগ", "চাকরীর", "আবেদন", "পদ", "বেতন"] },
-  { category: "প্রবাস", keywords: ["প্রবাস", "প্রবাসী", "রেমিট্যান্স", "মালয়েশিয়া", "সৌদি", "দুবাই", "কাতার", "ওমান", "মধ্যপ্রাচ্য"] },
-  { category: "ধর্ম", keywords: ["ধর্ম", "ইসলাম", "হজ", "ওমরাহ", "নামাজ", "রোজা", "মসজিদ", "মক্কা", "মদিনা", "কুরআন", "হাদিস"] }
-];
+/* core.js থেকে pure ফাংশন আলিয়াস (index.html-এ core.js app.js-এর আগে লোড হয় — টেস্টযোগ্যতা ও এক-সোর্স) */
+var CORE = window.BNE_CORE || {};
+var CATEGORIES = CORE.CATEGORIES, CATEGORY_KEYWORDS = CORE.CATEGORY_KEYWORDS;
+var bn = CORE.bn, escapeHtml = CORE.escapeHtml, splitSentences = CORE.splitSentences;
+var hashId = CORE.hashId, categorize = CORE.categorize, extractTags = CORE.extractTags;
+var catMeta = CORE.catMeta, timeAgo = CORE.timeAgo;
+var SOURCE_WEIGHTS = CORE.SOURCE_WEIGHTS, breakingScore = CORE.breakingScore;
 
 var CACHE_KEY = "azadi_static_cache_v1";
 var CACHE_TTL = 5 * 60 * 1000; // ৫ মিনিট — এর মধ্যে রিফ্রেশ হলে ক্যাশ দেখিয়ে ব্যাকগ্রাউন্ডে হালনাগাদ
@@ -142,7 +119,7 @@ function adHtml(ad) {
     if (!ad.image) return "";
     var img = '<img loading="lazy" src="' + escapeHtml(ad.image) + '" alt="' + escapeHtml(ad.title || "বিজ্ঞাপন") + '">';
     inner = ad.link
-      ? '<a href="' + escapeHtml(ad.link) + '" target="_blank" rel="noopener sponsored">' + img + "</a>"
+      ? '<a href="' + escapeHtml(resolveHref(ad.link)) + '" target="_blank" rel="noopener sponsored">' + img + "</a>"
       : img;
   } else if (ad.type === "html") {
     inner = ad.html || ""; /* অ্যাডমিন-প্রদত্ত trusted মার্কআপ */
@@ -198,77 +175,11 @@ function startAdRotator(containerId, count) {
   }, 5000);
 }
 
-/* ── ইউটিলিটি ──────────────────────────────────────────────────── */
-var BN = { 0: "০", 1: "১", 2: "২", 3: "৩", 4: "৪", 5: "৫", 6: "৬", 7: "৭", 8: "৮", 9: "৯" };
-function bn(n) { return String(n).replace(/[0-9]/g, function (d) { return BN[d]; }); }
-
-function escapeHtml(s) {
-  return String(s || "").replace(/[&<>"']/g, function (c) {
-    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
-  });
-}
-
+/* ── ইউটিলিটি (pure ফাংশন core.js-এ; DOM-নির্ভর নিচে) ──────────── */
 function stripTags(html) {
   var div = document.createElement("div");
   div.innerHTML = String(html || "");
   return (div.textContent || "").replace(/\s+/g, " ").trim();
-}
-
-/* বাক্য বিভাজন — lookbehind ছাড়া (পুরনো Safari/WebKit-এ SyntaxError এড়াতে) */
-function splitSentences(plain) {
-  if (!plain) return [];
-  var parts = [], re = /([^।!?]+[।!?]+)\s*/g, m, last = 0;
-  while ((m = re.exec(plain)) && parts.length < 80) {
-    var s = m[1].trim();
-    if (s.length > 1) parts.push(s);
-    last = re.lastIndex;
-  }
-  var rest = plain.slice(last).trim();
-  if (rest.length > 1) parts.push(rest);
-  return parts;
-}
-
-function timeAgo(ts) {
-  var s = Math.max(1, Math.floor((Date.now() - ts) / 1000));
-  if (s < 60) return bn(s) + " সেকেন্ড আগে";
-  var m = Math.floor(s / 60);
-  if (m < 60) return bn(m) + " মিনিট আগে";
-  var h = Math.floor(m / 60);
-  if (h < 24) return bn(h) + " ঘণ্টা আগে";
-  var d = Math.floor(h / 24);
-  if (d < 30) return bn(d) + " দিন আগে";
-  return new Intl.DateTimeFormat("bn-BD", { day: "numeric", month: "long", year: "numeric" }).format(new Date(ts));
-}
-
-function hashId(str) {
-  var h = 0;
-  for (var i = 0; i < str.length; i++) { h = (h << 5) - h + str.charCodeAt(i); h |= 0; }
-  return Math.abs(h).toString(36);
-}
-
-function categorize(text) {
-  var best = "জাতীয়", score = 0;
-  CATEGORY_KEYWORDS.forEach(function (grp) {
-    var s = 0;
-    grp.keywords.forEach(function (kw) { if (text.indexOf(kw) !== -1) s++; });
-    if (s > score) { score = s; best = grp.category; }
-  });
-  return best;
-}
-
-function extractTags(text) {
-  var tags = [];
-  CATEGORY_KEYWORDS.forEach(function (grp) {
-    grp.keywords.forEach(function (kw) {
-      if (tags.length < 5 && text.indexOf(kw) !== -1 && tags.indexOf(kw) === -1) tags.push(kw);
-    });
-  });
-  return tags;
-}
-
-function catMeta(name) {
-  for (var i = 0; i < CATEGORIES.length; i++) if (CATEGORIES[i].name === name) return CATEGORIES[i];
-  return CATEGORIES[0];
 }
 
 /* ── ফেচ + পার্স ইঞ্জিন ────────────────────────────────────────── */
@@ -483,22 +394,60 @@ function mergeArticles(items) {
   return added;
 }
 
+/* P2: সার্ভার-সাইড ইনজেশন (Netlify Function /api/rss-proxy) — প্রথম চেষ্টা; ব্যর্থে ক্লায়েন্ট চেইন */
+function fetchViaServerProxy() {
+  if (!isHttpHost()) return Promise.reject(new Error("শুধু http হোস্টে"));
+  return fetchWithTimeout("/api/rss-proxy", 25000).then(function (res) {
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }).then(function (data) {
+    if (!data || !Array.isArray(data.items) || !data.items.length) throw new Error("খালি প্রক্সি রেসপন্স");
+    return data.items.map(function (it) {
+      if (!it || !it.link || !it.title) return null;
+      var plain = String(it.summary || "");
+      var fullText = it.title + " " + plain;
+      return {
+        id: hashId(it.link),
+        title: it.title,
+        link: it.link,
+        summary: plain.length > 220 ? plain.slice(0, 220).replace(/\s+\S*$/, "") + "…" : plain,
+        paragraphs: splitSentences(plain),
+        image: it.image || null,
+        ts: it.ts || Date.now(),
+        source: it.source || "banglaedition",
+        sourceLabel: (SOURCES[it.source] && SOURCES[it.source].label) || "সংবাদ সূত্র",
+        category: categorize(fullText),
+        tags: extractTags(fullText)
+      };
+    }).filter(function (x) { return !!x; });
+  });
+}
+
 function refreshAll(background) {
   var keys = Object.keys(SOURCES);
   setStatus("loading", "সংবাদ সূত্রগুলো থেকে সর্বশেষ খবর আনা হচ্ছে…");
-  return Promise.allSettled(
-    keys.map(function (key) {
-      return fetchFeedItems(key).then(function (items) {
-        state.sourceStatus[key] = items.length ? "ok" : "empty";
-        return items;
-      }).catch(function () {
-        state.sourceStatus[key] = "fail";
-        return [];
-      });
-    })
-  ).then(function (results) {
-    var all = [];
-    results.forEach(function (r) { if (r.status === "fulfilled") all = all.concat(r.value); });
+
+  return fetchViaServerProxy().then(function (proxyItems) {
+    keys.forEach(function (k) { state.sourceStatus[k] = "ok"; });
+    return proxyItems;
+  }).catch(function () {
+    /* গ্রেসফুল ডিগ্রেডেশন → ক্লায়েন্ট-সাইড rss2json/প্রক্সি চেইন */
+    return Promise.allSettled(
+      keys.map(function (key) {
+        return fetchFeedItems(key).then(function (items) {
+          state.sourceStatus[key] = items.length ? "ok" : "empty";
+          return items;
+        }).catch(function () {
+          state.sourceStatus[key] = "fail";
+          return [];
+        });
+      })
+    ).then(function (results) {
+      var all = [];
+      results.forEach(function (r) { if (r.status === "fulfilled") all = all.concat(r.value); });
+      return all;
+    });
+  }).then(function (all) {
     var added = mergeArticles(all);
     state.lastUpdate = Date.now();
     saveCache();
@@ -527,9 +476,10 @@ var OG_DEFAULTS = {
   url: SITE_ORIGIN + '/'
 };
 
-/* লাইভ হোস্ট হলে location-ভিত্তিক URL, নাহলে প্রোডাকশন ডোমেইন (ফলব্যাক) */
+/* ── URL হেল্পার (রিয়েল-পাথ + hash fallback — P1 SEO) ──────────── */
+function isHttpHost() { return location.protocol.indexOf('http') === 0; }
 function siteOrigin() {
-  if (location.protocol.indexOf('http') === 0) return location.origin;
+  if (isHttpHost()) return location.origin;
   return SITE_ORIGIN;
 }
 function sitePath() {
@@ -540,8 +490,41 @@ function absoluteUrl(rel) {
   if (/^https?:/.test(rel)) return rel;
   return siteOrigin() + sitePath() + String(rel || '').replace(/^\.?\//, '');
 }
-function articleUrl(a) {
-  return siteOrigin() + sitePath() + '#/news/' + encodeURIComponent(a.id);
+
+/* http হোস্টে রিয়েল-পাথ (গুগল-ইনডেক্সযোগ্য), file://-এ hash — দুই-ই কাজ করে */
+function newsHref(id) { return isHttpHost() ? '/news/' + encodeURIComponent(id) : '#/news/' + encodeURIComponent(id); }
+function catHref(name) { return isHttpHost() ? '/category/' + encodeURIComponent(name) : '#/category/' + encodeURIComponent(name); }
+function searchHref(q) { return isHttpHost() ? '/search/' + encodeURIComponent(q) : '#/search/' + encodeURIComponent(q); }
+function deskHref(sub) { return isHttpHost() ? '/desk/probashi-bangla-news' + (sub ? '/' + sub : '') : '#/desk/probashi-bangla-news' + (sub ? '/' + sub : ''); }
+function homeHref() { return isHttpHost() ? '/' : '#/'; }
+function articleUrl(a) { return siteOrigin() + (isHttpHost() ? '/news/' : sitePath() + '#/news/') + encodeURIComponent(a.id); }
+
+/* "#/..." অথবা রিয়েল-পাথ href → হোস্ট-উপযোগী href */
+function resolveHref(href) {
+  href = String(href || '');
+  if (href.indexOf('#/') === 0) {
+    var rest = href.slice(2);
+    if (!isHttpHost()) return href;
+    if (rest.indexOf('news/') === 0) return '/news/' + rest.slice(5);
+    if (rest.indexOf('category/') === 0) return '/category/' + rest.slice(9);
+    if (rest.indexOf('search/') === 0) return '/search/' + rest.slice(7);
+    if (rest.indexOf('desk/probashi-bangla-news') === 0) return '/desk/probashi-bangla-news' + rest.slice(22);
+    if (rest === '' || rest === '/') return '/';
+    return href;
+  }
+  return href;
+}
+
+/* SPA নেভিগেশন: http হোস্টে pushState, file://-এ hash */
+function navigate(href) {
+  href = resolveHref(href);
+  if (isHttpHost() && href.charAt(0) === '/') {
+    history.pushState({}, '', href);
+    render();
+    window.scrollTo(0, 0);
+  } else {
+    location.hash = href.replace(/^\/+/, '#/');
+  }
 }
 
 function setMeta(property, content) {
@@ -577,6 +560,42 @@ function removeArticleLd() {
   if (el) el.remove();
 }
 
+/* ── SEO হেল্পার (P1): canonical + robots + BreadcrumbList ──────── */
+function setCanonical(url) {
+  var el = document.querySelector('link[rel="canonical"]');
+  if (!el) { el = document.createElement('link'); el.rel = 'canonical'; document.head.appendChild(el); }
+  el.href = url;
+}
+function setRobots(content) {
+  var el = document.querySelector('meta[name="robots"]');
+  if (!el) { el = document.createElement('meta'); el.name = 'robots'; document.head.appendChild(el); }
+  el.setAttribute('content', content);
+}
+function setBreadcrumbLd(items) {
+  var el = document.getElementById('bne-breadcrumb-ld');
+  if (!el) { el = document.createElement('script'); el.id = 'bne-breadcrumb-ld'; el.type = 'application/ld+json'; document.head.appendChild(el); }
+  el.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: (items || []).map(function (it, i) {
+      return { '@type': 'ListItem', position: i + 1, name: it.name, item: it.url };
+    })
+  });
+}
+function removeBreadcrumbLd() {
+  var el = document.getElementById('bne-breadcrumb-ld');
+  if (el) el.remove();
+}
+function breadcrumbItem(name, url) { return { name: name, url: url }; }
+
+/* রিয়েল-পাথ বা hash href → পরম canonical URL */
+function canonicalFor(href) {
+  href = String(href || '');
+  if (href.charAt(0) === '/') return siteOrigin() + href;
+  if (href.indexOf('#/') === 0) return siteOrigin() + sitePath() + href.slice(1);
+  return href;
+}
+
 function updateOgMeta(article) {
   var title = (article.title || OG_DEFAULTS.title) + ' — বাংলা নিউজ এডিশন';
   var desc = article.summary || OG_DEFAULTS.desc;
@@ -586,6 +605,13 @@ function updateOgMeta(article) {
   setMeta('og:title', title); setMeta('og:description', desc);
   setMeta('og:image', image); setMeta('og:url', url); setMeta('og:type', 'article');
   setMeta('twitter:title', title); setMeta('twitter:description', desc.slice(0, 200)); setMeta('twitter:image', image);
+  setCanonical(url);
+  setRobots('index, follow');
+  setBreadcrumbLd([
+    breadcrumbItem('প্রচ্ছদ', OG_DEFAULTS.url),
+    breadcrumbItem(article.category, canonicalFor(catHref(article.category))),
+    breadcrumbItem(article.title, url)
+  ]);
   setArticleLd(article);
 }
 
@@ -593,7 +619,10 @@ function resetOgMeta() {
   setMeta('og:title', OG_DEFAULTS.title); setMeta('og:description', OG_DEFAULTS.desc);
   setMeta('og:image', OG_DEFAULTS.image); setMeta('og:url', OG_DEFAULTS.url); setMeta('og:type', 'website');
   setMeta('twitter:title', OG_DEFAULTS.title); setMeta('twitter:description', OG_DEFAULTS.desc); setMeta('twitter:image', OG_DEFAULTS.image);
+  setCanonical(OG_DEFAULTS.url);
+  setRobots('index, follow');
   removeArticleLd();
+  removeBreadcrumbLd();
 }
 
 function bneShareCopyLink(btn, url) {
@@ -613,21 +642,56 @@ function badgeHtml(cat) {
 }
 
 function cardHtml(a) {
-  return '<a class="card" href="#/news/' + a.id + '">' +
-    '<span class="thumb"><img loading="lazy" src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'">' + badgeHtml(a.category) + "</span>" +
+  return '<a class="card" href="' + newsHref(a.id) + '">' +
+    '<span class="thumb"><img loading="lazy" src="' + escapeHtml(imgOf(a)) + '" alt="' + escapeHtml(a.title) + '" onerror="this.src=\'' + catMeta(a.category).img + '\'">' + badgeHtml(a.category) + "</span>" +
     '<span class="body"><h3>' + escapeHtml(a.title) + "</h3><p>" + escapeHtml(a.summary) + "</p>" +
     '<span class="meta"><span>' + timeAgo(a.ts) + "</span><span>" + escapeHtml(a.sourceLabel) + "</span></span></span></a>";
 }
 
 function cardSmHtml(a) {
-  return '<a class="card-sm" href="#/news/' + a.id + '">' +
-    '<img loading="lazy" src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'">' +
+  return '<a class="card-sm" href="' + newsHref(a.id) + '">' +
+    '<img loading="lazy" src="' + escapeHtml(imgOf(a)) + '" alt="' + escapeHtml(a.title) + '" onerror="this.src=\'' + catMeta(a.category).img + '\'">' +
     '<span><span class="cat">' + escapeHtml(a.category) + "</span><h3>" + escapeHtml(a.title) + '</h3><div class="meta">' + timeAgo(a.ts) + "</div></span></a>";
 }
 
 function sectionHead(title, href) {
   return '<div class="section-head"><h2>' + escapeHtml(title) + "</h2>" +
     (href ? '<a href="' + href + '">সব দেখুন →</a>' : "") + "</div>";
+}
+
+/* ═══ P6: রিড-হিস্টরি ও রেকমেন্ডেশন (প্রাইভেসি-ফার্স্ট, লোকাল; ব্রেকিং-স্কোর core.js-এ) ═══ */
+var HISTORY_KEY = "bne_read_history";
+function getReadHistory() {
+  try { var raw = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"); return Array.isArray(raw) ? raw : []; }
+  catch (e) { return []; }
+}
+function recordRead(id) {
+  try {
+    var h = getReadHistory().filter(function (x) { return x !== id; });
+    h.unshift(id);
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(h.slice(0, 30)));
+  } catch (e) {}
+}
+/* পড়ার ইতিহাস থেকে ক্যাটাগরি+ট্যাগ মিলিয়ে ৪টি ব্যক্তিগত পছন্দ */
+function personalPicks(arts) {
+  var hist = getReadHistory();
+  if (hist.length < 3) return [];
+  var readSet = new Set(hist);
+  var cats = {}, tags = {};
+  hist.slice(0, 8).forEach(function (id) {
+    var a = state.byId[id];
+    if (!a) return;
+    cats[a.category] = (cats[a.category] || 0) + 1;
+    (a.tags || []).forEach(function (t) { tags[t] = (tags[t] || 0) + 1; });
+  });
+  var recs = arts.filter(function (a) {
+    if (readSet.has(a.id)) return false;
+    var score = (cats[a.category] || 0) * 2;
+    (a.tags || []).forEach(function (t) { if (tags[t]) score += tags[t]; });
+    return score >= 2;
+  });
+  recs.sort(function (a, b) { return breakingScore(b) - breakingScore(a); });
+  return recs.slice(0, 4);
 }
 
 function renderHome(app) {
@@ -638,14 +702,24 @@ function renderHome(app) {
     app.innerHTML = '<div class="empty">এই মুহূর্তে কোনো সংবাদ নেই — কয়েক সেকেন্ড পর স্বয়ংক্রিয়ভাবে চলে আসবে।<br><br><button class="btn" onclick="location.reload()">রিফ্রেশ করুন</button></div>';
     return;
   }
-  /* সম্পাদক-নির্ধারিত লিড থাকলে সেটিই প্রধান শিরোনাম */
+  /* সম্পাদক-নির্ধারিত লিড আগে; নাহলে ব্রেকিং-স্কোরে সেরা (P6) */
+  var leadIdx = -1;
   for (var li = 0; li < arts.length; li++) {
-    if (arts[li].lead) { arts.unshift(arts.splice(li, 1)[0]); break; }
+    if (arts[li].lead) { leadIdx = li; break; }
   }
+  if (leadIdx === -1) {
+    var pool = Math.min(arts.length, 25), best = 0, bestScore = -1;
+    for (var pi = 0; pi < pool; pi++) {
+      var sc = breakingScore(arts[pi]);
+      if (sc > bestScore) { bestScore = sc; best = pi; }
+    }
+    leadIdx = best;
+  }
+  arts.unshift(arts.splice(leadIdx, 1)[0]);
   var lead = arts[0], side = arts.slice(1, 5), grid = arts.slice(5, 14);
   var html = '<section class="hero">' +
-    '<a class="hero-lead" href="#/news/' + lead.id + '">' +
-    '<img src="' + escapeHtml(imgOf(lead)) + '" alt="" onerror="this.src=\'' + catMeta(lead.category).img + '\'">' +
+    '<a class="hero-lead" href="' + newsHref(lead.id) + '">' +
+    '<img src="' + escapeHtml(imgOf(lead)) + '" alt="' + escapeHtml(lead.title) + '" onerror="this.src=\'' + catMeta(lead.category).img + '\'">' +
     '<span class="overlay"></span><span class="content">' + badgeHtml(lead.category) +
     "<h1>" + escapeHtml(lead.title) + '</h1><div class="meta">' + timeAgo(lead.ts) + " · " + escapeHtml(lead.sourceLabel) + "</div></span></a>" +
     '<div class="hero-side">' + side.map(cardSmHtml).join("") + "</div></section>";
@@ -655,12 +729,19 @@ function renderHome(app) {
   html += '<section class="section">' + sectionHead("সর্বশেষ সংবাদ") +
     '<div class="grid cols-3">' + grid.map(cardHtml).join("") + "</div></section>";
 
+  /* P6: ব্যক্তিগত পছন্দ — পড়ার ইতিহাসের ভিত্তিতে (প্রাইভেসি-ফার্স্ট) */
+  var picks = personalPicks(arts);
+  if (picks.length >= 3) {
+    html += '<section class="section">' + sectionHead("আপনার জন্য") +
+      '<div class="grid cols-4">' + picks.map(cardSmHtml).join("") + "</div></section>";
+  }
+
   html += renderAdSlot("home_middle");
 
   CATEGORIES.forEach(function (cat) {
     var items = arts.filter(function (a) { return a.category === cat.name; }).slice(0, 4);
     if (!items.length) return;
-    html += '<section class="section">' + sectionHead(cat.name, "#/category/" + encodeURIComponent(cat.name)) +
+    html += '<section class="section">' + sectionHead(cat.name, catHref(cat.name)) +
       '<div class="grid cols-4">' + items.map(cardSmHtml).join("") + "</div></section>";
   });
   app.innerHTML = html;
@@ -668,8 +749,14 @@ function renderHome(app) {
 
 function renderCategory(app, name) {
   document.title = escapeHtml(name) + " — বাংলা নিউজ এডিশন | BANGLA NEWS EDITION";
+  resetOgMeta();
+  setCanonical(canonicalFor(catHref(name)));
+  setBreadcrumbLd([
+    breadcrumbItem('প্রচ্ছদ', OG_DEFAULTS.url),
+    breadcrumbItem(name, canonicalFor(catHref(name)))
+  ]);
   var items = state.articles.filter(function (a) { return a.category === name; });
-  app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / ' + escapeHtml(name) + "</div>" +
+  app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="' + homeHref() + '">প্রচ্ছদ</a> / ' + escapeHtml(name) + "</div>" +
     "<h1>" + escapeHtml(name) + "</h1><p>মোট " + bn(items.length) + "টি সংবাদ</p></div>" +
     (items.length
       ? '<div class="grid cols-3">' + items.map(cardHtml).join("") + "</div>"
@@ -680,6 +767,9 @@ function renderSearch(app, q) {
   q = String(q || "").trim();
   document.title = (q ? "“" + q + "” — " : "") + "খোঁজার ফলাফল — বাংলা নিউজ এডিশন";
   resetOgMeta();
+  /* সার্চ পেজ সার্চ-ইঞ্জিনে ইনডেক্স হবে না (ডুপ্লিকেট কনটেন্ট এড়াতে) */
+  setRobots('noindex, follow');
+  setCanonical(OG_DEFAULTS.url);
   var items = [];
   if (q) {
     var lq = q.toLowerCase();
@@ -687,12 +777,12 @@ function renderSearch(app, q) {
       return (a.title + " " + (a.summary || "") + " " + (a.tags || []).join(" ")).toLowerCase().indexOf(lq) !== -1;
     });
   }
-  app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / খোঁজার ফলাফল</div>' +
+  app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="' + homeHref() + '">প্রচ্ছদ</a> / খোঁজার ফলাফল</div>' +
     "<h1>" + (q ? "“" + escapeHtml(q) + "”" : "খোঁজার ফলাফল") + "</h1>" +
     "<p>মোট " + bn(items.length) + "টি সংবাদ পাওয়া গেছে</p></div>" +
     (items.length
       ? '<div class="grid cols-3">' + items.map(cardHtml).join("") + "</div>"
-      : '<div class="empty">“<b>' + escapeHtml(q) + '</b>” — এই শব্দের সাথে মিলে যাওয়া কোনো সংবাদ পাওয়া যায়নি।<br><br><a class="btn" href="#/">← প্রচ্ছদে ফিরুন</a></div>');
+      : '<div class="empty">“<b>' + escapeHtml(q) + '</b>” — এই শব্দের সাথে মিলে যাওয়া কোনো সংবাদ পাওয়া যায়নি।<br><br><a class="btn" href="' + homeHref() + '">← প্রচ্ছদে ফিরুন</a></div>');
 }
 
 function renderArticle(app, id) {
@@ -704,10 +794,12 @@ function renderArticle(app, id) {
   if (!a) {
     document.title = "সংবাদ পাওয়া যায়নি — বাংলা নিউজ এডিশন";
     resetOgMeta();
-    app.innerHTML = '<div class="empty"><h2 style="margin-bottom:.6rem">সংবাদটি পাওয়া যায়নি</h2>ফিড হালনাগাদ হওয়ায় লিংকটি পুরনো হয়ে থাকতে পারে।<br><br><a class="btn" href="#/">← প্রচ্ছদে ফিরুন</a></div>';
+    setRobots('noindex, follow');
+    app.innerHTML = '<div class="empty"><h2 style="margin-bottom:.6rem">সংবাদটি পাওয়া যায়নি</h2>ফিড হালনাগাদ হওয়ায় লিংকটি পুরনো হয়ে থাকতে পারে।<br><br><a class="btn" href="' + homeHref() + '">← প্রচ্ছদে ফিরুন</a></div>';
     return;
   }
   document.title = escapeHtml(a.title) + " — বাংলা নিউজ এডিশন";
+  recordRead(a.id); /* P6: রিড-হিস্টরি (রেকমেন্ডেশনের জন্য) */
   /* Dynamic social meta for Facebook/WhatsApp/Telegram share preview */
   updateOgMeta(a);
   var related = state.articles.filter(function (x) { return x.category === a.category && x.id !== a.id; }).slice(0, 5);
@@ -723,7 +815,7 @@ function renderArticle(app, id) {
     : '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="" onerror="this.src=\'' + catMeta(a.category).img + '\'"></figure>';
 
   app.innerHTML = '<div class="article-wrap"><article class="article">' +
-    '<div class="breadcrumb"><a href="#/">প্রচ্ছদ</a> / <a href="#/category/' + encodeURIComponent(a.category) + '">' + escapeHtml(a.category) + "</a></div>" +
+    '<div class="breadcrumb"><a href="' + homeHref() + '">প্রচ্ছদ</a> / <a href="' + catHref(a.category) + '">' + escapeHtml(a.category) + "</a></div>" +
     badgeHtml(a.category) + "<h1>" + escapeHtml(a.title) + "</h1>" +
     '<div class="meta-row"><span class="src">' + escapeHtml(a.sourceLabel) + "</span><span>" + timeAgo(a.ts) + "</span></div>" +
     figureHtml +
@@ -770,6 +862,12 @@ function isProbashiArticle(article) {
 
 function renderProbashiDesk(app, subFilter) {
   document.title = "প্রবাস বাংলা নিউজ — বাংলা নিউজ এডিশন | BANGLA NEWS EDITION";
+  resetOgMeta();
+  setCanonical(canonicalFor(deskHref(subFilter || "")));
+  setBreadcrumbLd([
+    breadcrumbItem('প্রচ্ছদ', OG_DEFAULTS.url),
+    breadcrumbItem('প্রবাস বাংলা নিউজ', canonicalFor(deskHref('')))
+  ]);
   var expatArticles = state.articles.filter(isProbashiArticle);
   if (!expatArticles.length) {
     expatArticles = state.articles.filter(function(a) { return a.category === "প্রবাস" || a.category === "আন্তর্জাতিক"; });
@@ -789,10 +887,10 @@ function renderProbashiDesk(app, subFilter) {
     '<h2>✈️ প্রবাস বাংলা নিউজ ডেস্ক — প্রবাসীদের আস্থা ও বিশ্বস্ত খবরের ঠিকানা</h2>' +
     '<p>বিশ্বজুড়ে বসবাসরত প্রবাসী এবং প্রবাসগমনেচ্ছু বাংলাদেশীদের জন্য বিশেষায়িত খবর, বৈধ উপায়ে রেমিট্যান্স তথ্য, ভিসা আপডেট, বিএমইটি স্মার্ট প্রবাসী কার্ড গাইড ও বিশেষ নিয়োগ বিজ্ঞপ্তি।</p>' +
     '<div class="probashi-filter-bar">' +
-      '<a href="#/desk/probashi-bangla-news" class="probashi-filter-btn ' + (!subFilter || subFilter === 'all' ? 'active' : '') + '">সব প্রবাস সংবাদ (' + bn(expatArticles.length) + ')</a>' +
-      '<a href="#/desk/probashi-bangla-news/remittance" class="probashi-filter-btn ' + (subFilter === 'remittance' ? 'active' : '') + '">💵 রেমিট্যান্স ও ব্যাংকিং</a>' +
-      '<a href="#/desk/probashi-bangla-news/visa" class="probashi-filter-btn ' + (subFilter === 'visa' ? 'active' : '') + '">🛂 প্রবাসগমন ও ভিসা গাইড</a>' +
-      '<a href="#/desk/probashi-bangla-news/welfare" class="probashi-filter-btn ' + (subFilter === 'welfare' ? 'active' : '') + '">📜 বিএমইটি ও স্মার্ট প্রবাসী কার্ড</a>' +
+      '<a href="' + deskHref('') + '" class="probashi-filter-btn ' + (!subFilter || subFilter === 'all' ? 'active' : '') + '">সব প্রবাস সংবাদ (' + bn(expatArticles.length) + ')</a>' +
+      '<a href="' + deskHref('remittance') + '" class="probashi-filter-btn ' + (subFilter === 'remittance' ? 'active' : '') + '">💵 রেমিট্যান্স ও ব্যাংকিং</a>' +
+      '<a href="' + deskHref('visa') + '" class="probashi-filter-btn ' + (subFilter === 'visa' ? 'active' : '') + '">🛂 প্রবাসগমন ও ভিসা গাইড</a>' +
+      '<a href="' + deskHref('welfare') + '" class="probashi-filter-btn ' + (subFilter === 'welfare' ? 'active' : '') + '">📜 বিএমইটি ও স্মার্ট প্রবাসী কার্ড</a>' +
     '</div></div>';
 
   html += renderAdSlot("probashi_hub");
@@ -812,7 +910,7 @@ function renderTicker() {
   if (!top.length) { wrap.hidden = true; return; }
   wrap.hidden = false;
   track.innerHTML = top.map(function (a) {
-    return '<a href="#/news/' + a.id + '"><span class="dot">●</span>' + escapeHtml(a.title) + "</a>";
+    return '<a href="' + newsHref(a.id) + '"><span class="dot">●</span>' + escapeHtml(a.title) + "</a>";
   }).join("");
 }
 
@@ -829,7 +927,17 @@ function renderNav() {
 
 function parseRoute() {
   var h = decodeURIComponent(location.hash || "");
+  var path = location.pathname;
   var m;
+  /* http হোস্টে রিয়েল-পাথ আগে (netlify.toml redirect → index.html) */
+  if (isHttpHost()) {
+    if ((m = path.match(/^\/news\/([^/]+)/))) return { page: "news", param: decodeURIComponent(m[1]) };
+    if ((m = path.match(/^\/category\/([^/]+)/))) return { page: "category", param: decodeURIComponent(m[1]) };
+    if ((m = path.match(/^\/search\/([^/]+)/))) return { page: "search", param: decodeURIComponent(m[1]) };
+    if ((m = path.match(/^\/desk\/probashi-bangla-news(?:\/(.+))?$/))) {
+      return { page: "probashi-desk", param: m[1] ? decodeURIComponent(m[1]) : null };
+    }
+  }
   if ((m = h.match(/^#\/news\/(.+)$/))) return { page: "news", param: m[1] };
   if ((m = h.match(/^#\/category\/(.+)$/))) return { page: "category", param: m[1] };
   if ((m = h.match(/^#\/search\/(.+)$/))) return { page: "search", param: m[1] };
@@ -934,7 +1042,7 @@ function init() {
     footCats.innerHTML = "";
     CATEGORIES.forEach(function (cat) {
       var fli = document.createElement("li");
-      fli.innerHTML = '<a href="#/category/' + encodeURIComponent(cat.name) + '">' + escapeHtml(cat.name) + "</a>";
+      fli.innerHTML = '<a href="' + catHref(cat.name) + '">' + escapeHtml(cat.name) + "</a>";
       footCats.appendChild(fli);
     });
   }
@@ -946,6 +1054,21 @@ function init() {
   });
 
   window.addEventListener("hashchange", render);
+  window.addEventListener("popstate", render);
+
+  /* SPA লিংক ডেলিগেশন — রিয়েল-পাথ ও hash উভয় href কাজ করে (P1) */
+  document.addEventListener("click", function (e) {
+    var el = e.target;
+    while (el && el !== document && !(el.tagName === "A" && el.getAttribute("href"))) el = el.parentNode;
+    if (!el || el === document) return;
+    var href = el.getAttribute("href") || "";
+    if (!href || /^(https?:|mailto:|tel:|javascript:)/i.test(href)) return;
+    if (href.charAt(0) === "#" && href.charAt(1) !== "/") return; /* পেজ-অ্যাঙ্কর skip */
+    if (href.indexOf("#/") === 0 || (isHttpHost() && href.charAt(0) === "/")) {
+      e.preventDefault();
+      navigate(href);
+    }
+  });
 
   /* সার্চ ফর্ম সাবমিট হ্যান্ডলার (সিক্রেট পাসওয়ার্ড #৩৮২২১৮ চেক) */
   var searchForm = document.getElementById("search-form");
@@ -969,8 +1092,8 @@ function init() {
         return;
       }
 
-      /* সার্চ রুটে নেভিগেট (hashchange → render) */
-      location.hash = "#/search/" + encodeURIComponent(q);
+      /* সার্চ রুটে নেভিগেট (রিয়েল-পাথ বা hash — হোস্ট অনুযায়ী) */
+      navigate(searchHref(q));
       if (input) input.blur();
     });
   }
@@ -1168,7 +1291,7 @@ function initGlobalAdManager() {
     '<button class="bne-ad-close-btn" onclick="closeStickyBottomAd()" title="বিজ্ঞাপন বন্ধ করুন [✕]">✕</button>' +
     '<div class="bne-ad-tag-label">📢 স্পন্সরড বিজ্ঞাপন | BNE</div>' +
     '<div class="bne-ad-content">' +
-      '<a href="' + escapeHtml(selectedAd.link || "#/desk/probashi-bangla-news") + '">' +
+      '<a href="' + escapeHtml(resolveHref(selectedAd.link || "#/desk/probashi-bangla-news")) + '">' +
         '<img src="' + escapeHtml(selectedAd.image) + '" alt="' + escapeHtml(selectedAd.title) + '" />' +
       '</a>' +
     '</div>';

@@ -28,6 +28,33 @@ const FB_POST_MODE = (process.env.FB_POST_MODE || "link").toLowerCase() === "pho
 const MAX_POSTS_PER_RUN = Math.max(1, parseInt(process.env.MAX_POSTS_PER_RUN || "5", 10) || 5);
 const FORCE_MODE = process.argv.includes('--force');
 const GRAPH_VERSION = "v26.0"; /* Graph API বর্তমান ভার্সন */
+const TELEGRAM_ADMIN_CHAT_ID = process.env.TELEGRAM_ADMIN_CHAT_ID || ""; /* টোকেন-এক্সপায়ারি অ্যালার্টের ঠিকানা */
+const IG_USER_ID = process.env.IG_USER_ID || ""; /* সেট করলে ইনস্টাগ্রাম ক্রস-পোস্ট (FB_PAGE_TOKEN দরকার) */
+
+/* P4: retry + এক্সপোনেনশিয়াল ব্যাকঅফ */
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+async function postWithRetry(fn, label, retries) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const ok = await fn();
+    if (ok) return true;
+    if (attempt < retries) {
+      const wait = 3000 * Math.pow(2, attempt);
+      console.log(`🔄 [${label}] পুনরায় চেষ্টা (${attempt + 1}/${retries}) — ${wait / 1000}সে পরে...`);
+      await sleep(wait);
+    }
+  }
+  return false;
+}
+
+/* টোকেন-সমস্যা ধরা পড়লে অ্যাডমিন টেলিগ্রামে সতর্কতা */
+function isTokenError(body) {
+  return /Session has expired|OAuthException|Invalid OAuth|Error validating access token|expired/i.test(String(body || ""));
+}
+async function alertAdminTokenIssue(channel, body) {
+  if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_ADMIN_CHAT_ID) return;
+  const msg = `⚠️ BNE অ্যালার্ট: ${channel} টোকেন সমস্যা!\n\n${String(body || "").slice(0, 400)}\n\nটোকেন রিফ্রেশ করুন: repo → Settings → Secrets`;
+  try { await postTelegramMessage(escHtml(msg)); } catch (e) {}
+}
 
 const SITE_BASE = "https://bangla-news-edition-247.netlify.app";
 
@@ -159,7 +186,11 @@ function postFacebookLink(message, link) {
       message, link, access_token: FB_PAGE_TOKEN
     }).then((r) => {
       if (r.status === 200 && r.json && r.json.id) { console.log(`✅ [Facebook] লিংক পোস্ট সফল (প্রিভিউসহ) → post ${r.json.id}`); resolve(true); }
-      else { console.error(`❌ [Facebook] feed পোস্ট ব্যর্থ (${r.status}): ${r.body.slice(0, 300)}`); resolve(false); }
+      else {
+        console.error(`❌ [Facebook] feed পোস্ট ব্যর্থ (${r.status}): ${r.body.slice(0, 300)}`);
+        if (isTokenError(r.body)) alertAdminTokenIssue("Facebook", r.body);
+        resolve(false);
+      }
     });
   });
 }
@@ -172,9 +203,35 @@ function postFacebookPhoto(caption, imageUrl) {
       url: imageUrl, caption, access_token: FB_PAGE_TOKEN
     }).then((r) => {
       if (r.status === 200 && r.json && r.json.id) { console.log(`✅ [Facebook] ছবি পোস্ট সফল → post ${r.json.id}`); resolve(true); }
-      else { console.error(`❌ [Facebook] photos পোস্ট ব্যর্থ (${r.status}): ${r.body.slice(0, 300)}`); resolve(false); }
+      else {
+        console.error(`❌ [Facebook] photos পোস্ট ব্যর্থ (${r.status}): ${r.body.slice(0, 300)}`);
+        if (isTokenError(r.body)) alertAdminTokenIssue("Facebook", r.body);
+        resolve(false);
+      }
     });
   });
+}
+
+/* ইনস্টাগ্রাম ক্রস-পোস্ট (P4): একই FB পেজ টোকেন — ২ ধাপ: container → publish */
+async function postInstagram(caption, imageUrl) {
+  if (!IG_USER_ID || !FB_PAGE_TOKEN) { console.log("ℹ️ [Instagram] IG_USER_ID/FB_PAGE_TOKEN সেট নেই — স্কিপ।"); return false; }
+  const create = await httpsJson("POST", "graph.facebook.com", `/${GRAPH_VERSION}/${IG_USER_ID}/media`, {
+    image_url: imageUrl, caption, access_token: FB_PAGE_TOKEN
+  });
+  if (create.status !== 200 || !create.json || !create.json.id) {
+    console.error(`❌ [Instagram] container ব্যর্থ (${create.status}): ${create.body.slice(0, 300)}`);
+    if (isTokenError(create.body)) alertAdminTokenIssue("Instagram", create.body);
+    return false;
+  }
+  const containerId = create.json.id;
+  await sleep(4000); /* মিডিয়া প্রসেসিং-এর জন্য বিরতি */
+  const pub = await httpsJson("POST", "graph.facebook.com", `/${GRAPH_VERSION}/${IG_USER_ID}/media_publish`, {
+    creation_id: containerId, access_token: FB_PAGE_TOKEN
+  });
+  if (pub.status === 200 && pub.json && pub.json.id) { console.log(`✅ [Instagram] পোস্ট সফল → media ${pub.json.id}`); return true; }
+  console.error(`❌ [Instagram] publish ব্যর্থ (${pub.status}): ${pub.body.slice(0, 300)}`);
+  if (isTokenError(pub.body)) alertAdminTokenIssue("Instagram", pub.body);
+  return false;
 }
 
 /* ── ডিডুপ ক্যাশ ── */
@@ -197,6 +254,7 @@ async function runAutoPost() {
   console.log("🚀 BNE DYNAMIC NEWS POSTER V6 — DUAL DISPATCH");
   console.log(`   টেলিগ্রাম: ${TELEGRAM_BOT_TOKEN ? "✅ চালু" : "⛔ টোকেন নেই (স্কিপ)"}`);
   console.log(`   ফেসবুক: ${FB_PAGE_TOKEN && FB_PAGE_ID ? "✅ চালু (" + FB_POST_MODE + " মোড)" : "⛔ টোকেন/পেজ আইডি নেই (স্কিপ)"}`);
+  console.log(`   ইনস্টাগ্রাম: ${IG_USER_ID && FB_PAGE_TOKEN ? "✅ চালু" : "⛔ IG_USER_ID নেই (স্কিপ)"}`);
   console.log(`   প্রতি রানে সর্বোচ্চ: ${MAX_POSTS_PER_RUN}টি`);
   console.log("==================================================");
 
@@ -239,20 +297,26 @@ async function runAutoPost() {
       const caption = `💥 <b>[ব্রেকিং নিউজ]</b>\n\n📰 <b>${escHtml(n.title)}</b>\n\n${escHtml(n.summary)}...\n\n🔗 <b>বি-এন-ই পোর্টালে পড়তে ক্লিক করুন:</b>\n${n.url}`;
       const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...\n\nবিস্তারিত পড়ুন: ${n.url}`;
 
-      /* টেলিগ্রাম — ছবিসহ, ব্যর্থ হলে টেক্সট */
-      let tgOk = false;
+      /* টেলিগ্রাম — ছবিসহ (retry), ব্যর্থ হলে টেক্সট */
       if (TELEGRAM_BOT_TOKEN) {
-        tgOk = n.image ? await postTelegramPhoto(caption, n.image) : false;
+        const tgOk = n.image
+          ? await postWithRetry(() => postTelegramPhoto(caption, n.image), "Telegram ফটো", 2)
+          : false;
         if (!tgOk) await postTelegramMessage(caption);
       }
 
-      /* ফেসবুক — link (OG প্রিভিউ কার্ড) বা photo (ছবি+ক্যাপশন) */
+      /* ফেসবুক — link (OG প্রিভিউ কার্ড) বা photo (ছবি+ক্যাপশন), retry সহ */
       if (FB_PAGE_TOKEN && FB_PAGE_ID) {
         if (FB_POST_MODE === "photo" && n.image) {
-          await postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image);
+          await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি", 2);
         } else {
-          await postFacebookLink(fbMessage, n.url);
+          await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক", 2);
         }
+      }
+
+      /* ইনস্টাগ্রাম — IG_USER_ID সেট থাকলে (একই FB টোকেন) */
+      if (IG_USER_ID && n.image) {
+        await postWithRetry(() => postInstagram(escHtml(n.title) + "\n\n" + n.url, n.image), "Instagram", 1);
       }
 
       /* পোস্ট সম্পন্ন → ক্যাশে যোগ */
