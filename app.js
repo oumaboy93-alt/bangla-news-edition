@@ -1070,7 +1070,7 @@ function init() {
     }
   });
 
-  /* সার্চ ফর্ম সাবমিট হ্যান্ডলার (সিক্রেট পাসওয়ার্ড #৩৮২২১৮ চেক) */
+  /* সার্চ ফর্ম সাবমিট হ্যান্ডলার (গোপন অ্যাডমিন ট্রিগার — SHA-256 ডাইজেস্ট চেক) */
   var searchForm = document.getElementById("search-form");
   if (searchForm) {
     searchForm.addEventListener("submit", function (e) {
@@ -1084,17 +1084,23 @@ function init() {
         return map[d] || d;
       });
 
-      if (normalized === "#382218" || normalized === "382218" || normalized === "#৩৮২২১৮" || normalized === "৩৮২২১৮") {
-        try {
-          localStorage.setItem("azadi_admin_hash", "382218");
-        } catch (err) {}
-        location.href = (siteConfig.settings && siteConfig.settings.adminPath) || "admin.html";
-        return;
-      }
-
-      /* সার্চ রুটে নেভিগেট (রিয়েল-পাথ বা hash — হোস্ট অনুযায়ী) */
-      navigate(searchHref(q));
-      if (input) input.blur();
+      /* গোপন অ্যাডমিন ট্রিগার — প্লেইনটেক্সট নেই; SHA-256 ডাইজেস্ট তুলনা (সার্ভার-অথ P5-এর আগের সেতু) */
+      var ADMIN_TRIGGER_HASH = "8c32cf6ed5feb952acfa9eeb45ca32492b102f3372b1d48aa8ba3899958ffbeb";
+      var digestPromise = (window.crypto && crypto.subtle)
+        ? crypto.subtle.digest("SHA-256", new TextEncoder().encode(normalized)).then(function (buf) {
+            return Array.prototype.map.call(new Uint8Array(buf), function (b) { return ("0" + b.toString(16)).slice(-2); }).join("");
+          }).catch(function () { return null; })
+        : Promise.resolve(null);
+      digestPromise.then(function (h) {
+        if (h === ADMIN_TRIGGER_HASH) {
+          try { localStorage.setItem("azadi_admin_hash", "1"); } catch (err) {}
+          location.href = (siteConfig.settings && siteConfig.settings.adminPath) || "admin.html";
+        } else {
+          /* সার্চ রুটে নেভিগেট (রিয়েল-পাথ বা hash — হোস্ট অনুযায়ী) */
+          navigate(searchHref(q));
+          if (input) input.blur();
+        }
+      });
     });
   }
 

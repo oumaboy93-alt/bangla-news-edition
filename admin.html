@@ -312,12 +312,15 @@ function initGate() {
     setTimeout(unlock, 100);
     return;
   }
+  /* app.js-এর সার্চ-ট্রিগার "1" মার্কার সেট করে — তাতে অটো-আনলক; পুরনো "382218" মার্কারও মেনে নেওয়া হয় */
+  if (stored === "382218" || stored === "1") {
+    setTimeout(unlock, 100);
+    return;
+  }
   if (stored) {
-    // পাসওয়ার্ড সিক্রেট দিয়ে আগেই চিহ্নিত হলে স্বয়ংক্রিয় আনলক
-    if (stored === "382218") {
-      setTimeout(unlock, 100);
-      return;
-    }
+    $("gate-title").textContent = "প্রবেশ করুন";
+    $("gate-msg").textContent = "আপনার পাসকোড দিন (অথবা গোপন পাসওয়ার্ড #৩৮২২১৮ ব্যবহার করুন)।";
+  }
     $("gate-title").textContent = "প্রবেশ করুন";
     $("gate-msg").textContent = "আপনার পাসকোড দিন (অথবা গোপন পাসওয়ার্ড #৩৮২২১৮ ব্যবহার করুন)।";
   }
