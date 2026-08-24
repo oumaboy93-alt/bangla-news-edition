@@ -368,7 +368,7 @@ var RECRUITMENT_ARTICLE = {
   lead: true,
   ts: Date.now(),
   tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
-  link: "https://bangla-news-edition-247.netlify.app/#/news/thy-recruitment-2026"
+  link: "https://bangla-news-edition.netlify.app/#/news/thy-recruitment-2026"
 };
 
 /* শুধু সম্পাদকীয় সিড (ফেব্রিকেটেড জাল নিউজ সম্পূর্ণ বাদ — আসল ফিড রিফ্রেশে মার্জ হয়) */
@@ -502,7 +502,7 @@ function setStatus(kind, msg) {
 }
 
 /* ── ডায়নামিক OG / সোশ্যাল মেটা আপডেটর ───────────────────────── */
-var SITE_ORIGIN = 'https://bangla-news-edition-247.netlify.app';
+var SITE_ORIGIN = 'https://bangla-news-edition.netlify.app';
 var OG_DEFAULTS = {
   title: 'বাংলা নিউজ এডিশন — BANGLA NEWS EDITION',
   desc: 'জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।',
@@ -728,6 +728,105 @@ function personalPicks(arts) {
   return recs.slice(0, 4);
 }
 
+/* ═══ হিরো অটো-রোটেশন ইঞ্জিন (P7: নিউজ ১০s → বিজ্ঞাপন ৩s → লুপ) ═══ */
+var heroRotatorTimer = null;
+
+function clearHeroTimer() {
+  if (heroRotatorTimer) { clearTimeout(heroRotatorTimer); heroRotatorTimer = null; }
+}
+
+/* অ্যাড-লিংক: hash → রিয়েল-পাথ (রিয়েল-পাথ রাউটিং সক্রিয় থাকলে) */
+function resolveHref(link) {
+  if (!link) return homeHref();
+  var l = String(link).trim();
+  if (l.indexOf("#/news/") === 0) return newsHref(decodeURIComponent(l.slice(7)));
+  if (l.indexOf("#/category/") === 0) return catHref(decodeURIComponent(l.slice(11)));
+  if (l.indexOf("#/desk/") === 0) return deskHref(l.indexOf("/", 7) > 0 ? l.slice(l.indexOf("/", 7) + 1) : null);
+  if (l.indexOf("#/search/") === 0) return searchHref(decodeURIComponent(l.slice(9)));
+  if (l.indexOf("#/") === 0 || l === "#") return homeHref();
+  return l;
+}
+
+/* বিজ্ঞাপন স্লাইড: কনফিগের home_top/home_middle ছবি-অ্যাড + সম্পাদকীয় (ডিডুপসহ) */
+function heroAdSlides() {
+  var out = [];
+  var editorial = state.articles.filter(function (a) { return a.source === "editor"; })[0];
+  if (editorial) out.push({ image: imgOf(editorial), title: "জরুরী নিয়োগ বিজ্ঞপ্তি ২০২৬ — চীন, লাওস, আলজেরিয়া ও ইরাক", href: resolveHref("#/news/" + editorial.id), tag: "বিজ্ঞাপন" });
+  (siteConfig.ads || []).forEach(function (ad) {
+    if (!ad || !ad.enabled || ad.type !== "image" || !ad.image) return;
+    if (ad.slot !== "home_top" && ad.slot !== "home_middle") return;
+    out.push({ image: ad.image, title: ad.title || "বিজ্ঞাপন", href: resolveHref(ad.link), tag: "বিজ্ঞাপন" });
+  });
+  var seen = {}, uniq = [];
+  out.forEach(function (s) { var k = s.image + "|" + s.title; if (!seen[k]) { seen[k] = 1; uniq.push(s); } });
+  return uniq;
+}
+
+function buildHeroSlides(heroNews) {
+  var ads = heroAdSlides();
+  var slides = [];
+  heroNews.forEach(function (n, i) {
+    slides.push({ type: "news", article: n });
+    if (ads.length) slides.push({ type: "ad", ad: ads[i % ads.length] });
+  });
+  if (!ads.length) slides = heroNews.map(function (n) { return { type: "news", article: n }; });
+  return slides;
+}
+
+function heroRotatorHtml(slides) {
+  var inner = slides.map(function (s, i) {
+    var isAd = s.type === "ad";
+    var tag = isAd ? '<span class="ad-flag">বিজ্ঞাপন</span>' : badgeHtml(s.article.category);
+    var title = isAd ? escapeHtml(s.ad.title) : escapeHtml(s.article.title);
+    var meta = isAd ? "স্পনর্সড কনটেন্ট" : timeAgo(s.article.ts) + " · " + escapeHtml(s.article.sourceLabel);
+    var href = isAd ? s.ad.href : newsHref(s.article.id);
+    var img = isAd ? escapeHtml(s.ad.image) : escapeHtml(imgOf(s.article));
+    var fb = isAd ? catMeta("প্রবাস").img : catMeta(s.article.category).img;
+    return '<a class="hero-slide' + (i === 0 ? " active" : "") + '" href="' + href + '" data-dur="' + (isAd ? 3000 : 10000) + '" aria-hidden="' + (i === 0 ? "false" : "true") + '">' +
+      '<img src="' + img + '" alt="' + title + '" loading="' + (i === 0 ? "eager" : "lazy") + '" onerror="this.src=\'' + fb + '\'">' +
+      '<span class="overlay"></span><span class="content">' + tag +
+      "<h1>" + title + '</h1><div class="meta">' + meta + "</div></span></a>";
+  }).join("");
+  var dots = '<div class="hero-dots">' + slides.map(function (_, i) {
+    return '<button class="' + (i === 0 ? "active" : "") + '" data-i="' + i + '" aria-label="স্লাইড ' + (i + 1) + '"></button>';
+  }).join("") + "</div>";
+  return '<div class="hero-rotator" id="hero-rotator">' + inner + dots + "</div>";
+}
+
+/* অটো-রোটেশন চালু (হোম পেজে, render-এর পরে) — hover-পজ + reduced-motion স্ট্যাটিক */
+function startHeroRotator() {
+  var rot = document.getElementById("hero-rotator");
+  if (!rot) return;
+  var slides = Array.prototype.slice.call(rot.querySelectorAll(".hero-slide"));
+  if (slides.length < 2) return;
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var dots = Array.prototype.slice.call(rot.querySelectorAll(".hero-dots button"));
+  var i = 0;
+  function show(idx) {
+    i = idx;
+    slides.forEach(function (s, k) {
+      s.classList.toggle("active", k === idx);
+      s.setAttribute("aria-hidden", k === idx ? "false" : "true");
+    });
+    dots.forEach(function (d, k) { d.classList.toggle("active", k === idx); });
+  }
+  function schedule() {
+    clearHeroTimer();
+    var dur = parseInt(slides[i].getAttribute("data-dur"), 10) || 10000;
+    heroRotatorTimer = setTimeout(function () { show((i + 1) % slides.length); schedule(); }, dur);
+  }
+  rot.addEventListener("mouseenter", clearHeroTimer, { passive: true });
+  rot.addEventListener("mouseleave", schedule, { passive: true });
+  dots.forEach(function (d) {
+    d.addEventListener("click", function () {
+      clearHeroTimer();
+      show(parseInt(d.getAttribute("data-i"), 10));
+      schedule();
+    });
+  });
+  schedule();
+}
+
 function renderHome(app) {
   document.title = "বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা | BANGLA NEWS EDITION";
   resetOgMeta();
@@ -736,26 +835,14 @@ function renderHome(app) {
     app.innerHTML = '<div class="empty">এই মুহূর্তে কোনো সংবাদ নেই — কয়েক সেকেন্ড পর স্বয়ংক্রিয়ভাবে চলে আসবে।<br><br><button class="btn" onclick="location.reload()">রিফ্রেশ করুন</button></div>';
     return;
   }
-  /* সম্পাদক-নির্ধারিত লিড আগে; নাহলে ব্রেকিং-স্কোরে সেরা (P6) */
-  var leadIdx = -1;
-  for (var li = 0; li < arts.length; li++) {
-    if (arts[li].lead) { leadIdx = li; break; }
-  }
-  if (leadIdx === -1) {
-    var pool = Math.min(arts.length, 25), best = 0, bestScore = -1;
-    for (var pi = 0; pi < pool; pi++) {
-      var sc = breakingScore(arts[pi]);
-      if (sc > bestScore) { bestScore = sc; best = pi; }
-    }
-    leadIdx = best;
-  }
-  arts.unshift(arts.splice(leadIdx, 1)[0]);
-  var lead = arts[0], side = arts.slice(1, 5), grid = arts.slice(5, 14);
-  var html = '<section class="hero">' +
-    '<a class="hero-lead" href="' + newsHref(lead.id) + '">' +
-    '<img src="' + escapeHtml(imgOf(lead)) + '" alt="' + escapeHtml(lead.title) + '" onerror="this.src=\'' + catMeta(lead.category).img + '\'">' +
-    '<span class="overlay"></span><span class="content">' + badgeHtml(lead.category) +
-    "<h1>" + escapeHtml(lead.title) + '</h1><div class="meta">' + timeAgo(lead.ts) + " · " + escapeHtml(lead.sourceLabel) + "</div></span></a>" +
+  /* হিরো: আসল ব্রেকিং নিউজ প্রধান (বিজ্ঞাপন নয়) — অটো-রোটেশন: নিউজ ১০s → বিজ্ঞাপন ৩s → লুপ */
+  var nonEd = arts.filter(function (a) { return a.source !== "editor"; });
+  var heroNews = nonEd.slice(0, 25).sort(function (a, b) { return breakingScore(b) - breakingScore(a); }).slice(0, 4);
+  if (!heroNews.length) heroNews = arts.slice(0, 1); /* শুধু সম্পাদকীয় থাকলেও হিরো খালি থাকে না */
+  var side = nonEd.filter(function (a) { return heroNews.indexOf(a) === -1; }).slice(0, 4);
+  var grid = nonEd.filter(function (a) { return heroNews.indexOf(a) === -1 && side.indexOf(a) === -1; }).slice(0, 9);
+  var slides = buildHeroSlides(heroNews);
+  var html = '<section class="hero">' + heroRotatorHtml(slides) +
     '<div class="hero-side">' + side.map(cardSmHtml).join("") + "</div></section>";
 
   html += renderAdSlot("home_top");
@@ -1036,11 +1123,13 @@ function secureAndCleanUI() {
 function render() {
   var app = document.getElementById("app");
   var route = parseRoute();
+  clearHeroTimer(); /* পুরনো রোটেশন টাইমার বন্ধ (লিক প্রতিরোধ) */
   if (route.page === "news") renderArticle(app, route.param);
   else if (route.page === "category") renderCategory(app, route.param);
   else if (route.page === "search") renderSearch(app, route.param);
   else if (route.page === "probashi-desk") renderProbashiDesk(app, route.param);
   else renderHome(app);
+  if (route.page === "home") startHeroRotator();
   renderTicker();
   renderNav();
   secureAndCleanUI();

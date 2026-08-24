@@ -129,6 +129,25 @@ main { flex: 1; padding-bottom: 2rem; }
 .hero-lead .meta { color: #cbd5e1; font-size: .75rem; margin-top: .6rem; }
 .hero-side { display: grid; gap: .9rem; align-content: start; }
 
+/* ── হিরো অটো-রোটেশন (নিউজ ১০s / বিজ্ঞাপন ৩s) ── */
+.hero-rotator { position: relative; border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.12); aspect-ratio: 16/9; background: #1c1917; }
+.hero-rotator .hero-slide { position: absolute; inset: 0; display: block; opacity: 0; visibility: hidden; transition: opacity .5s ease, visibility .5s; z-index: 1; }
+.hero-rotator .hero-slide.active { opacity: 1; visibility: visible; z-index: 2; }
+.hero-rotator .hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+.hero-rotator .hero-slide .overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,.3) 55%, transparent); }
+.hero-rotator .hero-slide .content { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.5rem; }
+.hero-rotator .hero-slide h1 { font-family: var(--font-serif); color: #fff; font-size: 1.6rem; line-height: 1.45; margin-top: .6rem; }
+@media (min-width: 640px) { .hero-rotator .hero-slide h1 { font-size: 2rem; } }
+.hero-rotator .hero-slide .meta { color: #cbd5e1; font-size: .75rem; margin-top: .6rem; }
+.ad-flag { display: inline-block; background: #b45309; color: #fff; font-size: .68rem; font-weight: 700; padding: .22rem .6rem; border-radius: 999px; letter-spacing: .03em; }
+.hero-dots { position: absolute; bottom: .7rem; right: .9rem; display: flex; gap: .35rem; z-index: 3; }
+.hero-dots button { width: 8px; height: 8px; border-radius: 999px; border: none; background: rgba(255,255,255,.4); cursor: pointer; padding: 0; transition: width .25s, background .25s; }
+.hero-dots button.active { background: #fbbf24; width: 20px; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-rotator .hero-slide { transition: none; }
+  .hero-dots button { transition: none; }
+}
+
 /* ── ব্যাজ ও কার্ড ── */
 .badge { display: inline-block; background: var(--green-800); color: #fff; font-size: .68rem; font-weight: 600; padding: .18rem .55rem; border-radius: .3rem; }
 .badge.b-red { background: var(--red-700); } .badge.b-sky { background: #0369a1; } .badge.b-amber { background: #b45309; }

@@ -31,7 +31,7 @@ async function runFbGroupPoster() {
   console.log("🚀 Starting BNE Facebook Group Ghost-Distribution Engine...");
   const news = await fetchLatestBneNews();
   const newsTitle = news ? news.title : "বাংলা নিউজ এডিশন — সর্বশেষ আপডেট";
-  const newsLink = "https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news";
+  const newsLink = "https://bangla-news-edition.netlify.app/#/desk/probashi-bangla-news";
   const postText = `📰 ${newsTitle}\n\nপ্রবাসীদের জন্য সর্বশেষ আপডেট পড়ুন:\n👉 ${newsLink}`;
 
   console.log(`📌 Post Content Ready: "${newsTitle}"`);

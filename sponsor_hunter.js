@@ -38,7 +38,7 @@ function generateHtmlPitch(agencyName, category) {
       <p style="font-weight: bold; color: #047857;">মাসিক স্পন্সরশিপ অফার: মাত্র ৳ ১০,০০০ / মাস ($80 USD)</p>
     </div>
     <p>আপনার ব্যানার যুক্ত করতে সরাসরি এই ইমেইলে উত্তর দিন অথবা ভিজিট করুন:</p>
-    <p><a href="https://bangla-news-edition-247.netlify.app/#/desk/probashi-bangla-news" style="display: inline-block; background-color: #047857; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">🌐 প্রবাস নিউজ ডেস্ক দেখুন</a></p>
+    <p><a href="https://bangla-news-edition.netlify.app/#/desk/probashi-bangla-news" style="display: inline-block; background-color: #047857; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">🌐 প্রবাস নিউজ ডেস্ক দেখুন</a></p>
     <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 20px 0;" />
     <p style="font-size: 12px; color: #64748b;">বাংলা নিউজ এডিশন (BNE) | Chief Revenue Officer (CRO) Team</p>
   </div>

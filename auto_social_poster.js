@@ -56,7 +56,8 @@ async function alertAdminTokenIssue(channel, body) {
   try { await postTelegramMessage(escHtml(msg)); } catch (e) {}
 }
 
-const SITE_BASE = "https://bangla-news-edition-247.netlify.app";
+/* SITE_BASE env-ওভাররাইডযোগ্য — ডিফল্ট: বর্তমান প্রোডাকশন ডোমেইন */
+const SITE_BASE = process.env.SITE_BASE || "https://bangla-news-edition.netlify.app";
 
 /* সাইটের app.js-এর SOURCES-এর সাথে মিলিয়ে ৯টি ফিড */
 const RSS_FEEDS = [

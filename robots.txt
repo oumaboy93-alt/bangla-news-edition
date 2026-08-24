@@ -5,4 +5,4 @@ Disallow: /sw-admin.js
 Disallow: /admin-manifest.json
 Disallow: /preview/
 
-Sitemap: https://bangla-news-edition-247.netlify.app/sitemap.xml
+Sitemap: https://bangla-news-edition.netlify.app/sitemap.xml
