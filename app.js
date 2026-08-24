@@ -758,7 +758,7 @@ function heroAdSlides() {
     out.push({ image: ad.image, title: ad.title || "বিজ্ঞাপন", href: resolveHref(ad.link), tag: "বিজ্ঞাপন" });
   });
   var seen = {}, uniq = [];
-  out.forEach(function (s) { var k = s.image + "|" + s.title; if (!seen[k]) { seen[k] = 1; uniq.push(s); } });
+  out.forEach(function (s) { var k = s.image; if (!seen[k]) { seen[k] = 1; uniq.push(s); } }); /* একই ছবি একবারই */
   return uniq;
 }
 
