@@ -182,6 +182,20 @@ function stripTags(html) {
   return (div.textContent || "").replace(/\s+/g, " ").trim();
 }
 
+/* ফিড-মেটাডেটা জাঙ্ক পরিষ্কার — "X ডেস্ক 2026-08-24..." জাতীয় অগ্রভাগ-লাইন সরায় */
+function cleanArticlePlain(text) {
+  if (!text) return "";
+  var parts = String(text).split(/\n+/).map(function (s) { return s.trim(); }).filter(Boolean);
+  if (parts.length > 1) {
+    var first = parts[0];
+    var metaRe = /(?:ডেস্ক|রিপোর্ট|প্রতিবেদক|করেসপন্ডেন্ট|সংবাদদাতা|বিউরো)/;
+    if (first.length < 90 && /\d{4}[-/]\d{1,2}/.test(first) && metaRe.test(first)) {
+      parts.shift();
+    }
+  }
+  return parts.join("\n");
+}
+
 /* ── ফেচ + পার্স ইঞ্জিন ────────────────────────────────────────── */
 function fetchWithTimeout(url, ms) {
   var ctrl = new AbortController();
@@ -232,7 +246,7 @@ function parseJsonFeed(items, sourceKey) {
     if (!title || link.indexOf("http") !== 0) continue;
 
     var desc = it.content || it.description || "";
-    var plain = stripTags(desc);
+    var plain = cleanArticlePlain(stripTags(desc));
     var ts = it.pubDate && !isNaN(Date.parse(it.pubDate)) ? Date.parse(it.pubDate) : Date.now();
     var image = it.thumbnail || (it.enclosure && it.enclosure.link) || null;
     if (image && !/^https?:/.test(image)) image = null;
@@ -305,7 +319,7 @@ function parseFeed(xmlText, sourceKey) {
     var desc = childText(el, ["content:encoded", "encoded", "description", "summary", "content"]);
     var pub = childText(el, ["pubdate", "published", "updated", "dc:date", "date"]);
     var ts = pub && !isNaN(Date.parse(pub)) ? Date.parse(pub) : Date.now();
-    var plain = stripTags(desc);
+    var plain = cleanArticlePlain(stripTags(desc));
     var fullText = title + " " + plain;
 
     out.push({
@@ -820,8 +834,10 @@ function renderArticle(app, id) {
     '<div class="meta-row"><span class="src">' + escapeHtml(a.sourceLabel) + "</span><span>" + timeAgo(a.ts) + "</span></div>" +
     figureHtml +
     '<div class="article-body">' + body + "</div>" +
-    (a.link
-      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: <button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
+        (a.link
+      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: ' +
+        (a.link.indexOf('http') === 0 ? '<a class="btn" style="background:#0f172a;" href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener nofollow">মূল ওয়েবসাইটে পড়ুন ↗</a> ' : '') +
+        '<button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
       : "") +
     (function() {
   var shareUrl2 = articleUrl(a);
