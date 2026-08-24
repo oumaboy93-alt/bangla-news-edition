@@ -229,7 +229,7 @@ function postFacebookLink(message, link) {
   });
 }
 
-/* photo মোড: ছবি + ক্যাপশন পোস্ট (টেলিগ্রামের মতো ভিজ্যুয়াল) */
+/* photo মোড: ছবি + ক্যাপশন পোস্ট (টেলিগ্রামের মতো ভিজ্যুয়াল) — FB নিজে URL ফেচ করবে */
 function postFacebookPhoto(caption, imageUrl) {
   return new Promise((resolve) => {
     if (!FB_PAGE_TOKEN || !FB_PAGE_ID) { console.log("ℹ️ [Facebook] FB_PAGE_TOKEN/FB_PAGE_ID সেট নেই — স্কিপ।"); return resolve(false); }
@@ -243,6 +243,62 @@ function postFacebookPhoto(caption, imageUrl) {
         resolve(false);
       }
     });
+  });
+}
+
+/* ছবি ডাউনলোড (আপলোড পদ্ধতির জন্য) — শুধু ছবি-টাইপ, আকার-সীমাসহ */
+function downloadImage(url, maxBytes = 8 * 1024 * 1024) {
+  return new Promise((resolve, reject) => {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 12000);
+    fetch(url, {
+      signal: ctrl.signal,
+      redirect: "follow",
+      headers: { "User-Agent": "Mozilla/5.0 (BNE-AutoPoster; +https://bangla-news-edition.netlify.app)" }
+    }).then(async (res) => {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const type = (res.headers.get("content-type") || "").split(";")[0].trim().toLowerCase();
+      if (!/^image\//.test(type)) throw new Error("ছবি-টাইপ নয়: " + type);
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (buf.length < 100 || buf.length > maxBytes) throw new Error("আকার সমস্যা: " + buf.length);
+      resolve({ buf, mime: type === "image/jpg" ? "image/jpeg" : type });
+    }, reject).finally(() => clearTimeout(timer));
+  });
+}
+
+/* photo আপলোড (সবচেয়ে নির্ভরযোগ্য): ছবির বাইট সরাসরি multipart-এ FB-তে আপলোড — URL-ফেচ নির্ভরতা শূন্য */
+function postFacebookPhotoBinary(caption, imageBuf, mime) {
+  return new Promise((resolve) => {
+    if (!FB_PAGE_TOKEN || !FB_PAGE_ID) { console.log("ℹ️ [Facebook] FB_PAGE_TOKEN/FB_PAGE_ID সেট নেই — স্কিপ।"); return resolve(false); }
+    const boundary = "----BNE" + Date.now().toString(36);
+    const parts = [];
+    parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="source"; filename="news.jpg"\r\nContent-Type: ${mime}\r\n\r\n`));
+    parts.push(imageBuf, Buffer.from("\r\n"));
+    parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="caption"\r\n\r\n${caption}\r\n`));
+    parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="access_token"\r\n\r\n${FB_PAGE_TOKEN}\r\n`));
+    parts.push(Buffer.from(`--${boundary}--\r\n`));
+    const body = Buffer.concat(parts);
+    const req = https.request({
+      hostname: "graph.facebook.com",
+      path: `/${GRAPH_VERSION}/${FB_PAGE_ID}/photos`,
+      method: "POST",
+      headers: { "Content-Type": `multipart/form-data; boundary=${boundary}`, "Content-Length": body.length }
+    }, (res) => {
+      let data = "";
+      res.on("data", (c) => data += c);
+      res.on("end", () => {
+        let json = null; try { json = JSON.parse(data); } catch (e) {}
+        if (res.statusCode === 200 && json && json.id) { console.log(`✅ [Facebook] ছবি পোস্ট সফল (আপলোড) → post ${json.id}`); resolve(true); }
+        else {
+          console.error(`❌ [Facebook] ছবি-আপলোড ব্যর্থ (${res.statusCode}): ${data.slice(0, 250)}`);
+          if (isTokenError(data)) alertAdminTokenIssue("Facebook", data);
+          resolve(false);
+        }
+      });
+    });
+    req.on("error", (e) => { console.error("❌ [Facebook] আপলোড নেটওয়ার্ক এরর:", e.message); resolve(false); });
+    req.write(body);
+    req.end();
   });
 }
 
@@ -340,12 +396,21 @@ async function runAutoPost() {
         if (!tgOk) await postTelegramMessage(caption);
       }
 
-      /* ফেসবুক — ডিফল্ট photo (নিউজের আসল ছবি+ক্যাপশন, টেলিগ্রামের মতোই);
-         ছবি না থাকলে বা ছবি-পোস্ট ব্যর্থ হলে link (OG প্রিভিউ কার্ড) — কোনো স্টক ছবি কখনো নয় */
+      /* ফেসবুক — ডিফল্ট photo (নিউজের আসল ছবি বড় করে, টেলিগ্রামের মতো):
+         ১) ছবি ডাউনলোড → সরাসরি আপলোড (সবচেয়ে নির্ভরযোগ্য)
+         ২) URL-পদ্ধতি (FB নিজে ফেচ করবে)
+         ৩) link ফলব্যাক (OG প্রিভিউ কার্ড)
+         কোনো স্টক ছবি কখনো নয় */
       if (FB_PAGE_TOKEN && FB_PAGE_ID) {
         let fbOk = false;
         if (FB_POST_MODE !== "link" && n.image) {
-          fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি", 2);
+          try {
+            const dl = await downloadImage(n.image);
+            fbOk = await postWithRetry(() => postFacebookPhotoBinary(fbMessage + "\n\n" + n.url, dl.buf, dl.mime), "Facebook ছবি-আপলোড", 2);
+          } catch (e) {
+            console.log(`ℹ️ [Facebook] ছবি ডাউনলোড ব্যর্থ (${e.message}) — URL-পদ্ধতিতে যাচ্ছি`);
+          }
+          if (!fbOk) fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি-URL", 1);
         }
         if (!fbOk) {
           await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক (ফলব্যাক)", 2);
