@@ -132,10 +132,43 @@ function fetchSingleFeed(url) {
   });
 }
 
-function extractImageFromContent(htmlContent) {
-  if (!htmlContent) return null;
-  const m = htmlContent.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return m ? m[1] : null;
+/* ── অ্যাড/ট্র্যাকিং-পিক্সেল ফিল্টার ──
+   সংবাদ সাইটগুলোর RSS-এ অ্যাড-পিক্সেল (alicdn, doubleclick, ট্র্যাকিং ইত্যাদি) প্রথম <img> হিসেবে থাকে।
+   এগুলো কখনো খবরের ছবি নয় — তাই বাদ দেওয়া হয়। */
+const JUNK_IMG_RE = /alicdn\.com|doubleclick|googlesyndication|googleadservices|facebook\.com\/tr|google-analytics|googletagmanager|analytics|tracking|impression|\.gif|adserver|ad\.|pixel|banner|placeholder|spacer|icons?\/|logo/i;
+
+function isJunkImage(url) {
+  return JUNK_IMG_RE.test(String(url || ""));
+}
+
+/* RSS আইটেম থেকে "আসল" সংবাদ ছবি বের করা (ক্রম অনুযায়ী):
+   1) content+description-এর সব <img> → জাঙ্ক বাদ → আকার (width×height) অনুযায়ী সবচেয়ে বড়টি
+   2) enclosure (ছবি-টাইপ হলে)
+   3) rss2json thumbnail (জাঙ্ক নয় হলে)
+   কিছু না পেলে null — পোস্টার তখন টেক্সট-পোস্টে যায় (লিংক-প্রিভিউসহ), কোনো স্টক ছবি বসায় না */
+function extractBestImage(it) {
+  const html = `${it.content || ""} ${it.description || ""}`;
+  const imgs = [];
+  const imgRe = /<img[^>]*>/gi;
+  let m;
+  while ((m = imgRe.exec(html))) {
+    const tag = m[0];
+    const src = (tag.match(/src=["']([^"']+)["']/i) || [])[1];
+    if (!src || !/^https?:/.test(src) || isJunkImage(src)) continue;
+    const w = parseInt((tag.match(/width=["']?(\d+)/i) || [])[1], 10) || 0;
+    const h = parseInt((tag.match(/height=["']?(\d+)/i) || [])[1], 10) || 0;
+    imgs.push({ src, w, h, area: Math.max(w * (h || w), 1) });
+  }
+  /* আকার-সহ ছবি অগ্রাধিকার; আকার ছাড়া ছবিগুলো পরে (আকারহীন পিক্সেল বাদ পড়ে না যেন) */
+  imgs.sort((a, b) => b.area - a.area);
+  if (imgs.length) return imgs[0].src;
+
+  if (it.enclosure && /^image\//i.test(it.enclosure.type || "") && /^https?:/.test(it.enclosure.link || "") && !isJunkImage(it.enclosure.link)) {
+    return it.enclosure.link;
+  }
+  const th = it.thumbnail;
+  if (th && /^https?:/.test(th) && !isJunkImage(th)) return th;
+  return null;
 }
 
 /* rss2json আইটেম → অভিন্ন নিউজ অবজেক্ট */
@@ -144,8 +177,7 @@ function normalizeItem(it) {
   const link = String(it.link || it.guid || "").trim();
   if (!title || link.indexOf("http") !== 0) return null;
   const summary = stripHtml(it.description || it.content || "").slice(0, 165);
-  let image = it.thumbnail || (it.enclosure && it.enclosure.link) || null;
-  if (!image || !/^https?:/.test(image)) image = extractImageFromContent(it.content || it.description);
+  const image = extractBestImage(it);
   const ts = it.pubDate && !isNaN(Date.parse(it.pubDate)) ? Date.parse(it.pubDate) : Date.now();
   const id = hashId(link);
   return { title, link, summary, image, ts, id, url: `${SITE_BASE}/#/news/${id}` };
@@ -251,7 +283,7 @@ function savePosted(posted) {
 /* ── মূল রান ── */
 async function runAutoPost() {
   console.log("==================================================");
-  console.log("🚀 BNE DYNAMIC NEWS POSTER V6 — DUAL DISPATCH");
+  console.log("🚀 BNE DYNAMIC NEWS POSTER V7 — DUAL DISPATCH (রিয়েল-ইমেজ ইঞ্জিন)");
   console.log(`   টেলিগ্রাম: ${TELEGRAM_BOT_TOKEN ? "✅ চালু" : "⛔ টোকেন নেই (স্কিপ)"}`);
   console.log(`   ফেসবুক: ${FB_PAGE_TOKEN && FB_PAGE_ID ? "✅ চালু (" + FB_POST_MODE + " মোড)" : "⛔ টোকেন/পেজ আইডি নেই (স্কিপ)"}`);
   console.log(`   ইনস্টাগ্রাম: ${IG_USER_ID && FB_PAGE_TOKEN ? "✅ চালু" : "⛔ IG_USER_ID নেই (স্কিপ)"}`);
@@ -294,6 +326,7 @@ async function runAutoPost() {
     /* ৪. প্রতিটি নতুন খবর → টেলিগ্রাম + ফেসবুক (প্রিভিউসহ) */
     for (const n of fresh) {
       console.log(`\n📌 পোস্ট হচ্ছে: "${n.title}"`);
+      console.log(`🖼️ ছবি: ${n.image || "(নেই — টেক্সট-পোস্ট হবে)"}`);
       const caption = `💥 <b>[ব্রেকিং নিউজ]</b>\n\n📰 <b>${escHtml(n.title)}</b>\n\n${escHtml(n.summary)}...\n\n🔗 <b>বি-এন-ই পোর্টালে পড়তে ক্লিক করুন:</b>\n${n.url}`;
       const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...\n\nবিস্তারিত পড়ুন: ${n.url}`;
 
