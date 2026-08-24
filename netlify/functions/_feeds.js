@@ -4,8 +4,6 @@
  * app.js-এর SOURCES/hashId-এর সাথে সামঞ্জস্যপূর্ণ।
  */
 
-const https = require('https');
-
 const SOURCES = {
   banglaedition: { label: "বাংলা এডিশন", rss: "https://www.banglaedition.com/feed/" },
   prothomalo: { label: "প্রথম আলো", rss: "https://www.prothomalo.com/feed/" },
@@ -18,7 +16,7 @@ const SOURCES = {
   dailybangladesh: { label: "ডেইলি বাংলাদেশ", rss: "https://daily-bangladesh.com/rss/rss.xml" }
 };
 
-const FEED_TIMEOUT_MS = 8000;
+const FEED_TIMEOUT_MS = 6000; /* Netlify ফাংশন সীমা (~১০s) — প্যারালাল ফেচে মোট সময় ≤ সর্বোচ্চ একক সূত্র */
 const MAX_ITEMS_PER_SOURCE = 12;
 
 function hashId(str) {
@@ -29,7 +27,11 @@ function hashId(str) {
 }
 
 function stripTags(s) {
-  return String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  return String(s || "")
+    .replace(/<!\[CDATA\[|\]\]>/g, "") /* CDATA-র্যাপার সরাও */
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function extractImageFromXml(xml, fallback) {
@@ -41,45 +43,30 @@ function extractImageFromXml(xml, fallback) {
   return null;
 }
 
-function fetchText(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { timeout: FEED_TIMEOUT_MS }, (res) => {
-      if (res.statusCode >= 400) { res.resume(); return reject(new Error("HTTP " + res.statusCode)); }
-      if (res.statusCode >= 300 && res.headers.location) {
-        res.resume();
-        return fetchText(res.headers.location).then(resolve, reject);
-      }
-      let data = "";
-      res.setEncoding("utf8");
-      res.on("data", (c) => data += c);
-      res.on("end", () => resolve(data));
+/* বিশ্বস্ত টাইমআউট: fetch + AbortController — DNS/কানেক্ট/বডি সব ফেজ কভার করে */
+async function fetchText(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), FEED_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: ctrl.signal,
+      redirect: "follow",
+      headers: { "User-Agent": "Mozilla/5.0 (BNE-RSS-Proxy; +https://bangla-news-edition.netlify.app)" }
     });
-    req.on("timeout", () => { req.destroy(new Error("টাইমআউট")); });
-    req.on("error", reject);
-  });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return await res.text();
+  } catch (e) {
+    if (e.name === "AbortError") throw new Error("টাইমআউট");
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
-/* rss2json API → ব্যর্থ হলে সরাসরি XML পার্স */
+/* সার্ভার-সাইড: CORS নেই বলে সরাসরি XML ফেচই যথেষ্ট (rss2json রাউন্ড-ট্রিপ বাদ — দ্রুত ও নির্ভরশীল) */
 async function fetchSource(key) {
   const src = SOURCES[key];
-  let xml = null;
-  try {
-    const apiUrl = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(src.rss);
-    const jsonText = await fetchText(apiUrl);
-    const json = JSON.parse(jsonText);
-    if (json && json.status === "ok" && Array.isArray(json.items)) {
-      return json.items.slice(0, MAX_ITEMS_PER_SOURCE).map((it) => ({
-        title: stripTags(it.title),
-        link: String(it.link || "").trim(),
-        summary: stripTags(it.description || it.content || ""),
-        image: (it.thumbnail && /^https?:/.test(it.thumbnail)) ? it.thumbnail : null,
-        ts: it.pubDate && !isNaN(Date.parse(it.pubDate)) ? Date.parse(it.pubDate) : Date.now(),
-        source: key,
-        sourceLabel: src.label
-      }));
-    }
-  } catch (e) { /* নিচে XML fallback */ }
-
+  let xml;
   try {
     xml = await fetchText(src.rss);
   } catch (e) {

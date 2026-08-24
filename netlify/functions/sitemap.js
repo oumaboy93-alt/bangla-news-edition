@@ -6,7 +6,12 @@
 
 const { fetchAllFeeds, hashId } = require('./_feeds.js');
 
-const SITE = process.env.SITE_URL || "https://bangla-news-edition-247.netlify.app";
+/* হোস্ট থেকে ডায়নামিক — যেকোনো ডিপ্লয়/ডোমেইনে সঠিক URL */
+function siteUrl(event) {
+  if (process.env.SITE_URL) return process.env.SITE_URL;
+  const host = (event.headers && (event.headers['x-forwarded-host'] || event.headers.host)) || 'bangla-news-edition.netlify.app';
+  return 'https://' + String(host).replace(/^https?:\/\//, '');
+}
 
 function escXml(s) {
   return String(s || "").replace(/[&<>"']/g, (c) => ({
@@ -14,8 +19,9 @@ function escXml(s) {
   }[c]));
 }
 
-exports.handler = async () => {
+exports.handler = async (event) => {
   try {
+    const SITE = siteUrl(event || {});
     const { items, errors } = await fetchAllFeeds();
     const now = new Date().toISOString();
 

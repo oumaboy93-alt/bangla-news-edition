@@ -442,10 +442,30 @@ function refreshAll(background) {
   setStatus("loading", "সংবাদ সূত্রগুলো থেকে সর্বশেষ খবর আনা হচ্ছে…");
 
   return fetchViaServerProxy().then(function (proxyItems) {
-    keys.forEach(function (k) { state.sourceStatus[k] = "ok"; });
-    return proxyItems;
+    /* সার্ভার-প্রক্সি সফল — কিন্তু আংশিক হলে (কিছু সূত্র ব্লকড/খালি) বাকিগুলো ক্লায়েন্ট-চেইন দিয়ে এনে মার্জ
+       (mergeArticles লিংক-ডিডুপ করে — সদৃশ/সংঘর্ষ নিরাপদ) */
+    var proxySources = {};
+    proxyItems.forEach(function (it) { if (it.source) proxySources[it.source] = true; });
+    keys.forEach(function (k) { state.sourceStatus[k] = proxySources[k] ? "ok" : "pending"; });
+    var missing = keys.filter(function (k) { return !proxySources[k]; });
+    if (!missing.length) return proxyItems;
+    return Promise.allSettled(
+      missing.map(function (key) {
+        return fetchFeedItems(key).then(function (items) {
+          state.sourceStatus[key] = items.length ? "ok" : "empty";
+          return items;
+        }).catch(function () {
+          state.sourceStatus[key] = "fail";
+          return [];
+        });
+      })
+    ).then(function (results) {
+      var all = proxyItems.slice();
+      results.forEach(function (r) { if (r.status === "fulfilled") all = all.concat(r.value); });
+      return all;
+    });
   }).catch(function () {
-    /* গ্রেসফুল ডিগ্রেডেশন → ক্লায়েন্ট-সাইড rss2json/প্রক্সি চেইন */
+    /* সম্পূর্ণ গ্রেসফুল ডিগ্রেডেশন → ক্লায়েন্ট-সাইড rss2json/প্রক্সি চেইন */
     return Promise.allSettled(
       keys.map(function (key) {
         return fetchFeedItems(key).then(function (items) {
