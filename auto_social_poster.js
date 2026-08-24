@@ -24,7 +24,8 @@ const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "@bne0999";
 const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || "";
 const FB_PAGE_ID = process.env.FB_PAGE_ID || "";
-const FB_POST_MODE = (process.env.FB_POST_MODE || "link").toLowerCase() === "photo" ? "photo" : "link";
+/* ডিফল্ট: photo — নিউজের আসল ছবি বড় করে (টেলিগ্রামের মতো); "link" দিলে OG প্রিভিউ কার্ড */
+const FB_POST_MODE = (process.env.FB_POST_MODE || "photo").toLowerCase() === "link" ? "link" : "photo";
 const MAX_POSTS_PER_RUN = Math.max(1, parseInt(process.env.MAX_POSTS_PER_RUN || "5", 10) || 5);
 const FORCE_MODE = process.argv.includes('--force');
 const GRAPH_VERSION = "v26.0"; /* Graph API বর্তমান ভার্সন */
@@ -339,12 +340,15 @@ async function runAutoPost() {
         if (!tgOk) await postTelegramMessage(caption);
       }
 
-      /* ফেসবুক — link (OG প্রিভিউ কার্ড) বা photo (ছবি+ক্যাপশন), retry সহ */
+      /* ফেসবুক — ডিফল্ট photo (নিউজের আসল ছবি+ক্যাপশন, টেলিগ্রামের মতোই);
+         ছবি না থাকলে বা ছবি-পোস্ট ব্যর্থ হলে link (OG প্রিভিউ কার্ড) — কোনো স্টক ছবি কখনো নয় */
       if (FB_PAGE_TOKEN && FB_PAGE_ID) {
-        if (FB_POST_MODE === "photo" && n.image) {
-          await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি", 2);
-        } else {
-          await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক", 2);
+        let fbOk = false;
+        if (FB_POST_MODE !== "link" && n.image) {
+          fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি", 2);
+        }
+        if (!fbOk) {
+          await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক (ফলব্যাক)", 2);
         }
       }
 
