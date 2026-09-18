@@ -84,7 +84,14 @@ function buildArticleHead(article, ctx) {
   const slug = article.slug || article.id;
   const canonical = `${origin}/news/${encodeURIComponent(slug)}`;
 
-  /* ★ og:image — সর্বদা আমাদের নিজের তৈরি ১২০০x৬৩০ কার্ড ★
+  /* ★ og:image নির্ধারণের ক্রম ★
+     ১) সংবাদের নিজস্ব ছবি (আমাদের /img/ স্টোরেজে রাখা) — চাকরির
+        বিজ্ঞপ্তির পোস্টার বা সংবাদের আসল ছবি। ব্যবহারকারীর চাওয়া:
+        "নিউজের সাথে যে ছবিটি ছিল সেটাই" যাবে।
+     ২) না থাকলে আমাদের তৈরি ১২০০x৬৩০ ব্র্যান্ডেড কার্ড। */
+  const ownRel = String(article.image || article.og_image || '');
+  const ownAbs = /^\/img\//.test(ownRel) ? `${origin}${ownRel}` : (/^https?:/i.test(ownRel) ? '' : '');
+
    *
    * আগের ক্রম ছিল:
    *   ১) প্রি-জেনারেট করা asset (রেপোতে আগে থেকে রাখা — মাত্র কয়েকটি)
@@ -102,8 +109,9 @@ function buildArticleHead(article, ctx) {
    * অনুযায়ী ১২০০x৬৩০ ব্র্যান্ডেড কার্ড তৈরি করে, আর netlify.toml-এর
    * /og/* প্রক্সি সেটি পরিবেশন করে। তাই সবসময় (ক) ছবি নিশ্চিত,
    * (খ) সঠিক মাপ ঘোষণা করা যায় — ফেসবুক বড় কার্ড রেন্ডার করে। */
-  const img = `${origin}/og/${encodeURIComponent(slug)}.jpg`;
-  const imgDims = { w: OG_W, h: OG_H };
+  const img = ownAbs || `${origin}/og/${encodeURIComponent(slug)}.jpg`;
+  /* নিজস্ব ছবির প্রকৃত মাপ অজানা — ঘোষণা করা হয় না; তৈরি কার্ড ১২০০x৬৩০ */
+  const imgDims = ownAbs ? null : { w: OG_W, h: OG_H };
 
   const imgType = guessImageType(img);
   const title = stripTags(article.title);
