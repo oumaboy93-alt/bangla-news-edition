@@ -5,7 +5,6 @@
 data/*.sqlite
 data/*.sqlite-wal
 data/*.sqlite-shm
-og/
 _image_backups/
 _unused_images/
 node_modules/
