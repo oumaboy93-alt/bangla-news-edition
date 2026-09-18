@@ -1,2 +1,15 @@
-# Local Netlify folder
-.netlify
+# BNE — সংবেদনশীল ও জেনারেটেড ফাইল
+.env
+.env.*
+!.env.example
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+og/
+_image_backups/
+_unused_images/
+node_modules/
+last_posted.json
+*.log
+
+.netlify/

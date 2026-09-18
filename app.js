@@ -18,9 +18,12 @@ var SOURCES = {
   dailybangladesh: { rss: "https://daily-bangladesh.com/rss/rss.xml", label: "ডেইলি বাংলাদেশ" }
 };
 
-/* প্রাইমারি: rss2json (JSON API, লাইভ-টেস্টেড ✔) — ফ্রি টিয়ারে দৈনিক ১০,০০০ রিকোয়েস্ট।
-   ব্যর্থ হলে XML CORS-প্রক্সি চেইন (corsproxy.io ব্রাউজার-অনলি — ভিজিটরের জন্য কাজ করে)। */
-var RSS2JSON = function (u) { return "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(u); };
+/* ── VG-12: ফিড সোর্স ক্রম ────────────────────────────────────────────────
+   ১) আমাদের নিজের সার্ভার (/api/feeds) — কোনো তৃতীয় পক্ষ নেই, ক্যাশ-ল্যাগ নেই
+   ২) XML CORS-প্রক্সি চেইন — সার্ভার না থাকলে ভিজিটরের ব্রাউজার থেকে
+   আগে api.rss2json.com ব্যবহার হতো; ফ্রি প্ল্যানে ফিড আপডেট হতো ঘণ্টায় একবার
+   এবং দৈনিক ১০,০০০ রিকোয়েস্টের সীমা ছিল — তাই সরিয়ে দেওয়া হয়েছে। */
+var BNE_FEED_API = function (sourceKey) { return "/api/feeds?source=" + encodeURIComponent(sourceKey); };
 var PROXIES = [
   function (u) { return "https://corsproxy.io/?url=" + encodeURIComponent(u); },
   function (u) { return "https://api.allorigins.win/raw?url=" + encodeURIComponent(u); },
@@ -73,6 +76,67 @@ function fetchRemoteConfig() {
       return true;
     })
     .catch(function () { return false; });
+}
+
+/* ── SMO/P1: লাইভ কনফিগ API — রি-ডিপ্লয় ছাড়াই তাৎক্ষণিক আপডেট ──────────
+   সোর্স: Oracle meta-service-এর /api/config। ব্যর্থ হলে পুরনো remote-config।
+   ক্যাশ সবসময় bypass হয় (no-cache, must-revalidate) — অর্থাৎ মোবাইল প্যানেল
+   থেকে প্রকাশের সাথে সাথেই এখানে নতুন সংবাদ এসে পড়ে। */
+var LIVE_CONFIG_API = "/api/config";
+var LIVE_VERSION_API = "/api/version";
+var lastConfigVersion = null;
+
+function fetchLiveConfig() {
+  return fetchWithTimeout(LIVE_CONFIG_API, 6000)
+    .then(function (res) { if (!res.ok) throw new Error("HTTP " + res.status); return res.json(); })
+    .then(function (cfg) {
+      if (cfg && cfg.record) cfg = cfg.record; /* jsonbin v3 meta র‍্যাপার */
+      mergeConfig(cfg);
+      if (cfg && typeof cfg.version !== "undefined") lastConfigVersion = cfg.version;
+      return true;
+    })
+    .catch(function () { return false; });
+}
+
+/* আগে লাইভ API, না পেলে পুরনো রিমোট কনফিগ — গ্রেসফুল ডিগ্রেডেশন */
+function fetchConfigAny() {
+  return fetchLiveConfig().then(function (ok) { return ok ? true : fetchRemoteConfig(); });
+}
+
+/* ভার্সন-ওয়াচ — প্যানেল থেকে প্রকাশের সাথে সাথেই, পেজ রিফ্রেশ ছাড়া কার্ড যোগ হয় */
+function watchConfigVersion() {
+  function tick() {
+    fetchWithTimeout(LIVE_VERSION_API, 5000)
+      .then(function (r) { if (!r.ok) throw new Error("http"); return r.json(); })
+      .then(function (v) {
+        if (lastConfigVersion === null) { lastConfigVersion = v.version; return; }
+        if (v.version !== lastConfigVersion) {
+          lastConfigVersion = v.version;
+          fetchLiveConfig().then(function () { applyEditorNews(); render(); });
+        }
+      })
+      .catch(function () { /* ভার্সন চেক ব্যর্থ হলে সাইট চলতে থাকবে */ });
+  }
+  setInterval(tick, 60000);
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) tick(); });
+  window.addEventListener("focus", tick);
+}
+
+/* ── SMO/P0: hash → রিয়েল-পাথ ক্যানোনিক্যালাইজেশন ────────────────────────
+   ফেসবুক URL-এর # অংশ পুরোপুরি ফেলে দেয়, তাই পুরনো শেয়ার করা
+   "#/news/<id>" লিংকও এখন রিয়েল পাথে রিডাইরেক্ট হয় — এতে ক্রলার,
+   পাঠক এবং ক্লিক-ট্র্যাকিং সবাই সঠিক আর্টিকেল পায়। */
+function canonicalizeRoute() {
+  if (!isHttpHost()) return;
+  var h = decodeURIComponent(location.hash || "");
+  if (h.indexOf("#/") !== 0) return;
+  var m = h.match(/^#\/(news|category|search)\/(.+)$/);
+  var target = m
+    ? "/" + m[1] + "/" + m[2]
+    : (/^#\/desk\/probashi-bangla-news/.test(h) ? "/desk/probashi-bangla-news" : null);
+  if (target) {
+    try { history.replaceState({}, "", target); } catch (e) { /* পুরনো ব্রাউজার */ }
+  }
 }
 
 function applyEditorNews() {
@@ -203,17 +267,18 @@ function fetchWithTimeout(url, ms) {
   return fetch(url, { signal: ctrl.signal }).finally(function () { clearTimeout(t); });
 }
 
-/* ধাপ ১: rss2json JSON API → ধাপ ২: XML প্রক্সি চেইন */
+/* ধাপ ১: নিজের সার্ভার API → ধাপ ২: XML প্রক্সি চেইন */
 function fetchFeedItems(sourceKey) {
   var rssUrl = SOURCES[sourceKey].rss;
 
-  var viaJson = fetchWithTimeout(RSS2JSON(rssUrl), 12000)
+  var viaServer = fetchWithTimeout(BNE_FEED_API(sourceKey), 9000)
     .then(function (res) {
       if (!res.ok) throw new Error("HTTP " + res.status);
       return res.json();
     })
     .then(function (data) {
-      if (!data || data.status !== "ok" || !data.items || !data.items.length) throw new Error("খালি JSON");
+      /* HTML fallback (রাউটিং নেই) এলে res.json() ব্যর্থ হয় → প্রক্সি চেইনে নামে */
+      if (!data || !data.items || !data.items.length) throw new Error("খালি সার্ভার রেসপন্স");
       return parseJsonFeed(data.items, sourceKey);
     });
 
@@ -233,10 +298,10 @@ function fetchFeedItems(sourceKey) {
       .catch(function () { return viaXml(idx + 1); });
   };
 
-  return viaJson.catch(function () { return viaXml(0); });
+  return viaServer.catch(function () { return viaXml(0); });
 }
 
-/* rss2json-এর রেডিমেড JSON আইটেম → অভিন্ন আর্টিকেল অবজেক্ট */
+/* /api/feeds (এবং পূর্বে rss2json) থেকে আসা JSON আইটেম → অভিন্ন আর্টিকেল অবজেক্ট */
 function parseJsonFeed(items, sourceKey) {
   var out = [];
   for (var i = 0; i < items.length && out.length < 12; i++) {
@@ -368,7 +433,9 @@ var RECRUITMENT_ARTICLE = {
   lead: true,
   ts: Date.now(),
   tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
-  link: "https://bangla-news-edition.netlify.app/#/news/thy-recruitment-2026"
+   /* SMO/P0 — রিয়েল পাথ, hash নয়। এই seed ডেটাই ছিল একটি হার্ডকোড করা hash URL:
+      শেয়ার করলে ফেসবুক হোমপেজে পাঠিয়ে দিত। id-ই slug, তাই রিয়েল পাথ দুটোই কাজ করে। */
+   link: "https://bangla-news-edition.netlify.app/news/thy-recruitment-2026"
 };
 
 /* শুধু সম্পাদকীয় সিড (ফেব্রিকেটেড জাল নিউজ সম্পূর্ণ বাদ — আসল ফিড রিফ্রেশে মার্জ হয়) */
@@ -465,7 +532,7 @@ function refreshAll(background) {
       return all;
     });
   }).catch(function () {
-    /* সম্পূর্ণ গ্রেসফুল ডিগ্রেডেশন → ক্লায়েন্ট-সাইড rss2json/প্রক্সি চেইন */
+    /* সম্পূর্ণ গ্রেসফুল ডিগ্রেডেশন → ক্লায়েন্ট-সাইড XML প্রক্সি চেইন */
     return Promise.allSettled(
       keys.map(function (key) {
         return fetchFeedItems(key).then(function (items) {
@@ -1159,6 +1226,8 @@ function startLiveClock() {
 
 /* ── বুটস্ট্র্যাপ ──────────────────────────────────────────────── */
 function init() {
+  /* SMO/P0 — পুরনো hash লিংককে রিয়েল পাথে নিয়ে যাও (রেন্ডারের আগেই) */
+  canonicalizeRoute();
   startLiveClock();
   document.getElementById("footer-year").textContent = "© " + bn(new Date().getFullYear()) + " বাংলা নিউজ এডিশন";
 
@@ -1252,7 +1321,7 @@ function init() {
     applyEditorNews(); /* ক্যাশ/ফিড যাই হোক, সম্পাদকীয় লিড সর্বদা দৃশ্যমান */
     render();
 
-    fetchRemoteConfig().then(function () {
+    fetchConfigAny().then(function () {
       loadLocalConfigPreview();
       applyEditorNews();
       render();
@@ -1277,11 +1346,14 @@ function init() {
 
   /* ট্যাব খোলা থাকলেও প্রতি ৫ মিনিটে ব্যাকগ্রাউন্ড হালনাগাদ */
   setInterval(function () {
-    fetchRemoteConfig().then(function () {
+    fetchConfigAny().then(function () {
       loadLocalConfigPreview();
       refreshAll(true).then(function () { applyEditorNews(); render(); });
     }).catch(function () {});
   }, CACHE_TTL);
+
+  /* SMO/P1 — প্যানেল থেকে প্রকাশের সাথে সাথেই (≤৬০ সেকেন্ড) অটো আপডেট */
+  watchConfigVersion();
 }
 
 /* ═══ BNE Native Readability Extractor (Zero iFrames) ═══ */

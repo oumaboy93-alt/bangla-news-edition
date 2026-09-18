@@ -24,8 +24,19 @@ const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "@bne0999";
 const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || "";
 const FB_PAGE_ID = process.env.FB_PAGE_ID || "";
-/* ডিফল্ট: photo — নিউজের আসল ছবি বড় করে (টেলিগ্রামের মতো); "link" দিলে OG প্রিভিউ কার্ড */
-const FB_POST_MODE = (process.env.FB_POST_MODE || "photo").toLowerCase() === "link" ? "link" : "photo";
+/* SMO/P1 — ডিফল্ট এখন "link"।
+   photo মোডে ফেসবুক কোনো প্রিভিউ কার্ড বানায় না, ফলে লিংক ক্লিক গণনাই হয় না
+   এবং ফেসবুক পেজে CTR-সিগন্যাল তৈরি হয় না। তাই লিংক-শেয়ারই ডিফল্ট;
+   "photo" কেবল সচেতনভাবে override করলে ব্যবহৃত হবে। */
+const FB_POST_MODE = (process.env.FB_POST_MODE || "link").toLowerCase() === "photo" ? "photo" : "link";
+if (FB_POST_MODE === "photo") {
+  console.log("⚠️ FB_POST_MODE=photo — লিংক প্রিভিউ ও ক্লিক-ট্র্যাকিং বন্ধ থাকবে।");
+}
+
+/* SMO/P1 — সোর্স: "api" (meta-service publish queue) অথবা "legacy" (সরাসরি RSS) */
+const POSTER_MODE = (process.env.POSTER_MODE || "api").toLowerCase() === "legacy" ? "legacy" : "api";
+const META_API_BASE = (process.env.META_API_BASE || "https://bangla-news-edition.netlify.app").replace(/\/+$/, "");
+const QUEUE_TOKEN = process.env.QUEUE_TOKEN || "";
 const MAX_POSTS_PER_RUN = Math.max(1, parseInt(process.env.MAX_POSTS_PER_RUN || "5", 10) || 5);
 const FORCE_MODE = process.argv.includes('--force');
 const GRAPH_VERSION = "v26.0"; /* Graph API বর্তমান ভার্সন */
@@ -93,15 +104,14 @@ function stripHtml(s) {
   return String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function httpsJson(method, hostname, path, formParams) {
+function httpsJson(method, hostname, path, formParams, extraHeaders) {
   return new Promise((resolve) => {
-    const body = new URLSearchParams(formParams).toString();
-    const req = https.request({
-      hostname,
-      path,
-      method,
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(body) }
-    }, (res) => {
+    const body = new URLSearchParams(formParams || {}).toString();
+    const headers = Object.assign(
+      { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(body) },
+      extraHeaders || {}
+    );
+    const req = https.request({ hostname, path, method, headers }, (res) => {
       let data = '';
       res.on('data', (c) => data += c);
       res.on('end', () => {
@@ -117,20 +127,90 @@ function httpsJson(method, hostname, path, formParams) {
 }
 
 /* ── ফিড ফেচ ── */
+/* ── VG-12: সরাসরি RSS ফেচ + পার্স (rss2json সম্পূর্ণ বাদ) ────────────────
+   আগে api.rss2json.com ব্যবহার হতো। ফ্রি প্ল্যানে ফিড আপডেট হতো মাত্র ঘণ্টায়
+   একবার, অথচ ওয়ার্কফ্লো চলে প্রতি ৩০ মিনিটে — ফলে প্রায় অর্ধেক রান একই
+   ক্যাশড ডেটা প্রসেস করত, আর তৃতীয় পক্ষের রেট-লিমিটে পুরো রান থেমে যেত।
+   এখন নিজেরাই XML পড়ি — কোনো নির্ভরতা নেই, কোনো ক্যাশ-ল্যাগ নেই। */
+function decodeXmlEntities(s) {
+  return String(s || "")
+    .replace(/<!\[CDATA\[|\]\]>/g, "")
+    .replace(/&#8217;|&rsquo;/g, "’").replace(/&#8216;|&lsquo;/g, "‘")
+    .replace(/&#8220;|&ldquo;/g, "“").replace(/&#8221;|&rdquo;/g, "”")
+    .replace(/&nbsp;/g, " ").replace(/&quot;/g, '"')
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&#39;|&apos;/g, "'")
+    .replace(/&amp;/g, "&");
+}
+
+function xmlBlock(xml, tag) {
+  const m = String(xml).match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i"));
+  return m ? m[1] : "";
+}
+
+function xmlAllBlocks(xml, tag) {
+  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "gi");
+  const out = [];
+  let m;
+  while ((m = re.exec(String(xml)))) out.push(m[1]);
+  return out;
+}
+
 function fetchSingleFeed(url) {
   return new Promise((resolve) => {
-    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`;
-    https.get(apiUrl, (res) => {
-      let data = '';
-      res.on('data', (c) => data += c);
-      res.on('end', () => {
+    const req = https.get(url, {
+      timeout: 9000,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; BNE-RSS/1.0; +https://bangla-news-edition.netlify.app)",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+      },
+    }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        res.resume();
+        return resolve(fetchSingleFeed(res.headers.location)); /* রিডাইরেক্ট অনুসরণ */
+      }
+      if (res.statusCode !== 200) {
+        console.error(`⚠️ [Feed] HTTP ${res.statusCode} → ${url}`);
+        res.resume();
+        return resolve([]);
+      }
+      let data = "";
+      res.setEncoding("utf8");
+      res.on("data", (c) => (data += c));
+      res.on("end", () => {
         try {
-          const parsed = JSON.parse(data);
-          if (parsed && parsed.items && parsed.items.length) return resolve(parsed.items);
-        } catch (e) {}
-        resolve([]);
+          const blocks = xmlAllBlocks(data, "item");
+          const entries = blocks.length ? blocks : xmlAllBlocks(data, "entry");
+          const items = entries.slice(0, 25).map((b) => {
+            const title = decodeXmlEntities(xmlBlock(b, "title").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+            let link = decodeXmlEntities(xmlBlock(b, "link")).trim() || decodeXmlEntities(xmlBlock(b, "guid")).trim();
+            if (!link) {
+              const href = b.match(/<link[^>]+href=["']([^"']+)["']/i);
+              if (href) link = href[1];
+            }
+            const content = decodeXmlEntities(xmlBlock(b, "content:encoded")) || decodeXmlEntities(xmlBlock(b, "content"));
+            const description = decodeXmlEntities(xmlBlock(b, "description")) || decodeXmlEntities(xmlBlock(b, "summary"));
+            const pubDate = decodeXmlEntities(xmlBlock(b, "pubDate")) || decodeXmlEntities(xmlBlock(b, "published")) || decodeXmlEntities(xmlBlock(b, "updated"));
+            /* enclosure → extractBestImage যেই আকার আশা করে */
+            let enclosure = null;
+            const enc = b.match(/<enclosure[^>]*>/i);
+            if (enc) {
+              const u = (enc[0].match(/url=["']([^"']+)["']/i) || [])[1];
+              const t = (enc[0].match(/type=["']([^"']+)["']/i) || [])[1] || "";
+              if (u) enclosure = { link: u, type: t };
+            }
+            const mediaUrl = (b.match(/<media:(?:content|thumbnail)[^>]*url=["']([^"']+)["']/i) || [])[1] || "";
+            return { title, link, description, content, pubDate, enclosure, thumbnail: mediaUrl };
+          }).filter((it) => it.title && /^https?:/.test(it.link));
+          if (!items.length) console.error(`⚠️ [Feed] কোনো আইটেম পাওয়া যায়নি → ${url}`);
+          resolve(items);
+        } catch (e) {
+          console.error(`⚠️ [Feed] পার্স ব্যর্থ (${e.message}) → ${url}`);
+          resolve([]);
+        }
       });
-    }).on('error', () => resolve([]));
+    });
+    req.on("timeout", () => { req.destroy(); console.error(`⚠️ [Feed] টাইমআউট → ${url}`); resolve([]); });
+    req.on("error", (e) => { console.error(`⚠️ [Feed] নেটওয়ার্ক এরর (${e.message}) → ${url}`); resolve([]); });
   });
 }
 
@@ -146,7 +226,7 @@ function isJunkImage(url) {
 /* RSS আইটেম থেকে "আসল" সংবাদ ছবি বের করা (ক্রম অনুযায়ী):
    1) content+description-এর সব <img> → জাঙ্ক বাদ → আকার (width×height) অনুযায়ী সবচেয়ে বড়টি
    2) enclosure (ছবি-টাইপ হলে)
-   3) rss2json thumbnail (জাঙ্ক নয় হলে)
+   3) media:thumbnail (জাঙ্ক নয় হলে)
    কিছু না পেলে null — পোস্টার তখন টেক্সট-পোস্টে যায় (লিংক-প্রিভিউসহ), কোনো স্টক ছবি বসায় না */
 function extractBestImage(it) {
   const html = `${it.content || ""} ${it.description || ""}`;
@@ -173,7 +253,29 @@ function extractBestImage(it) {
   return null;
 }
 
-/* rss2json আইটেম → অভিন্ন নিউজ অবজেক্ট */
+/* ── SMO/P0: পোর্টাল URL বিল্ডার — hash কখনোই নয় ────────────────────────
+   ফেসবুক ও টেলিগ্রাম URL-এর # অংশ ফেলে দেয়, ফলে পুরনো `${SITE_BASE}/#/news/<id>`
+   লিংক সবসময় হোমপেজে গিয়ে ঠেকে যেত এবং কোনো প্রিভিউ কার্ড তৈরি হতো না।
+   এখন রিয়েল পাথ ব্যবহৃত হয়: /news/<slug|id>  — সাথে UTM ট্র্যাকিং। */
+const UTM_QUERY = "?utm_source=facebook&utm_medium=social&utm_campaign=bne";
+
+function assertRealUrl(url) {
+  const u = String(url || "");
+  if (!u) throw new Error("খালি URL");
+  if (u.indexOf("#") !== -1) throw new Error(`hash URL প্রত্যাখ্যাত → ${u}`);
+  if (!/^https:\/\//i.test(u)) throw new Error(`https ছাড়া URL প্রত্যাখ্যাত → ${u}`);
+  return u;
+}
+
+/** একমাত্র URL ফ্যাক্টরি — রিয়েল পাথ, ট্রেইলিং স্ল্যাশ ছাড়া। */
+function portalUrl(item, withUtm) {
+  const base = String(SITE_BASE || "").replace(/\/+$/, "");
+  const key = item.slug || item.id;
+  const bare = assertRealUrl(`${base}/news/${encodeURIComponent(key)}`);
+  return withUtm ? `${bare}${UTM_QUERY}&utm_content=${encodeURIComponent(key)}` : bare;
+}
+
+/* RSS আইটেম → অভিন্ন নিউজ অবজেক্ট */
 function normalizeItem(it) {
   const title = stripHtml(it.title || "");
   const link = String(it.link || it.guid || "").trim();
@@ -182,7 +284,10 @@ function normalizeItem(it) {
   const image = extractBestImage(it);
   const ts = it.pubDate && !isNaN(Date.parse(it.pubDate)) ? Date.parse(it.pubDate) : Date.now();
   const id = hashId(link);
-  return { title, link, summary, image, ts, id, url: `${SITE_BASE}/#/news/${id}` };
+  const slug = it.slug || ""; /* meta-service দিলে slug, না দিলে id */
+  const item2 = { title, link, summary, image, ts, id, slug };
+  item2.url = portalUrl(item2, true);   /* রিয়েল পাথ + UTM — hash নয় */
+  return item2;
 }
 
 /* ── টেলিগ্রাম ── */
@@ -243,6 +348,58 @@ function postFacebookPhoto(caption, imageUrl) {
         resolve(false);
       }
     });
+  });
+}
+
+/* ── SMO/P1: Facebook OG ক্যাশ রিফ্রেশ (?scrape=true) ────────────────────
+   OG ট্যাগ ঠিক করার পরেও ফেসবুক তার পুরনো (হোমপেজ) প্রিভিউ ধরে রাখে।
+   তাই প্রতিটি সফল পোস্টের পরেই ক্যাশ রিফ্রেশ করা হয় — এতে নতুন প্রিভিউ কার্ড
+   সাথে সাথে সক্রিয় হয় এবং ক্লিক অ্যাট্রিবিউশন শুরু হয়। */
+const FB_APP_TOKEN = process.env.FB_APP_TOKEN
+  || (process.env.FB_APP_ID && process.env.FB_APP_SECRET
+      ? `${process.env.FB_APP_ID}|${process.env.FB_APP_SECRET}` : "");
+
+function refreshOgCache(bareUrl) {
+  return new Promise((resolve) => {
+    if (!FB_APP_TOKEN) { console.log("ℹ️ [OG] FB_APP_TOKEN/FB_APP_ID নেই — scrape রিফ্রেশ স্কিপ।"); return resolve(false); }
+    const clean = String(bareUrl).split("?")[0];
+    httpsJson("POST", "graph.facebook.com", `/${GRAPH_VERSION}/`, {
+      id: clean, scrape: "true", access_token: FB_APP_TOKEN
+    }).then((r) => {
+      if (r.status === 200) { console.log(`✅ [OG] প্রিভিউ ক্যাশ রিফ্রেশ → ${clean}`); resolve(true); }
+      else { console.error(`⚠️ [OG] scrape ব্যর্থ (${r.status}): ${r.body.slice(0, 160)}`); resolve(false); }
+    });
+  });
+}
+
+/* ── SMO/P1: Oracle meta-service publish queue থেকে খবর আনা ───────────────
+   এখানেই "মোবাইল প্যানেল থেকে প্রকাশ → অটো পোস্ট" চেইন সম্পূর্ণ হয়:
+   অ্যাডমিন প্যানেলে Publish চাপলে আর্টিকেলটি queue-তে আসে এবং এই স্ক্রিপ্ট
+   তার রিয়েল /news/<slug> URL নিয়ে ফেসবুক ও টেলিগ্রামে পোস্ট করে। */
+function fetchQueue() {
+  return new Promise((resolve) => {
+    if (!META_API_BASE) return resolve([]);
+    const headers = QUEUE_TOKEN ? { "x-queue-token": QUEUE_TOKEN } : {};
+    httpsJson("GET", META_API_BASE.replace(/^https?:\/\//, ""), "/api/queue", null, headers)
+      .then((r) => {
+        if (r.status !== 200) {
+          console.error(`⚠️ [Queue] API ব্যর্থ (${r.status}) — legacy RSS মোডে নামা হচ্ছে।`);
+          return resolve(null);   /* null = API unavailable → legacy fallback */
+        }
+        const items = (r.json && r.json.items) || [];
+        console.log(`📥 [Queue] ${items.length}টি নতুন আর্টিকেল পোস্টের অপেক্ষায়।`);
+        resolve(items);
+      });
+  });
+}
+
+function confirmQueue(articleId, ok, detail) {
+  if (!META_API_BASE || !articleId) return Promise.resolve(false);
+  return new Promise((resolve) => {
+    httpsJson("POST", META_API_BASE.replace(/^https?:\/\//, ""), "/api/queue/result", {
+      id: articleId, ok: ok, detail: String(detail || "").slice(0, 300),
+      token: QUEUE_TOKEN
+    }).then((r) => resolve(r.status === 200)).catch(() => resolve(false));
   });
 }
 
@@ -326,11 +483,30 @@ async function postInstagram(caption, imageUrl) {
 
 /* ── ডিডুপ ক্যাশ ── */
 const POSTED_FILE = './last_posted.json';
+/* ── SMO/P0bugfix: ডিডুপ ফাইলের legacy ফরম্যাট মাইগ্রেশন ──────────────────
+   প্রকৃত সমস্যা: ফাইলে পুরনো ফরম্যাট {"title":…,"date":…} ছিল, কিন্তু কোড
+   raw.posted (অ্যারে) খুঁজত — তাই ফাংশন সবসময় [] ফিরিয়ে দিত, ডিডুপ নিষ্ক্রিয়
+   হয়ে যেত এবং একই ৫টি খবর প্রতি ৩০ মিনিটে আবার পোস্ট হতো (স্প্যাম-ঝুঁকি)।
+   এখন পুরনো ফরম্যাট, নতুন ফরম্যাট এবং একক অবজেক্ট — তিনটিই পড়া হয়। */
 function loadPosted() {
+  let raw;
   try {
-    const raw = JSON.parse(fs.readFileSync(POSTED_FILE, 'utf8'));
-    if (raw && Array.isArray(raw.posted)) return raw.posted;
-  } catch (e) {}
+    raw = JSON.parse(fs.readFileSync(POSTED_FILE, 'utf8'));
+  } catch (e) {
+    return []; /* ফাইল নেই বা ভাঙা — নিরাপদে খালি তালিকা */
+  }
+  if (Array.isArray(raw)) return raw;                                  /* [{link}, …] */
+  if (raw && Array.isArray(raw.posted)) return raw.posted;             /* {posted:[…]} */
+  if (raw && typeof raw === 'object' && (raw.link || raw.url)) {        /* legacy একক অবজেক্ট */
+    const legacy = { link: raw.link || raw.url, title: raw.title || '', date: raw.date || '' };
+    console.log("🔧 [Dedupe] পুরনো ফরম্যাট শনাক্ত — মাইগ্রেট করা হলো:", legacy.link || legacy.title);
+    return [legacy];
+  }
+  if (raw && typeof raw === 'object' && raw.title) {
+    /* একেবারে পুরনো: শুধু title/date আছে, link নেই — title-কে কী ধরা হয় */
+    console.log("🔧 [Dedupe] শুধু-title ফরম্যাট শনাক্ত — মাইগ্রেট:", raw.title);
+    return [{ link: `title:${raw.title}`, title: raw.title, date: raw.date || '' }];
+  }
   return [];
 }
 function savePosted(posted) {
@@ -349,15 +525,39 @@ async function runAutoPost() {
   console.log("==================================================");
 
   try {
-    /* ১. সব ফিড থেকে সংবাদ সংগ্রহ */
+    /* ১. সোর্স নির্ধারণ — আগে Oracle publish queue (মোবাইল প্যানেল থেকে প্রকাশিত
+       আর্টিকেল), না পেলে legacy RSS ফিড। এতে "প্যানেল থেকে Publish → ফেসবুক ও
+       টেলিগ্রামে অটো পোস্ট" চেইনটি সম্পূর্ণ হয় এবং লিংক সর্বদা রিয়েল পাথে যায়। */
     let items = [];
-    for (const feedUrl of RSS_FEEDS) {
-      const feedItems = await fetchSingleFeed(feedUrl);
-      if (feedItems && feedItems.length) items = items.concat(feedItems);
+    let fromQueue = false;
+
+    if (POSTER_MODE === "api") {
+      const q = await fetchQueue();
+      if (q && q.length) {
+        fromQueue = true;
+        items = q.map((it) => ({
+          title: it.title,
+          link: it.canonicalUrl || it.sourceUrl || it.slug,
+          description: it.summary,
+          image: it.image,
+          pubDate: it.publishedAt,
+          slug: it.slug,
+          _queueId: it.id,
+        }));
+        console.log(`📥 [Queue] ${items.length}টি প্রকাশিত আর্টিকেল পোস্ট কিউতে পাওয়া গেছে।`);
+      }
+    }
+
+    if (!fromQueue) {
+      console.log("📡 [Legacy] RSS ফিড থেকে সংবাদ সংগ্রহ করা হচ্ছে…");
+      for (const feedUrl of RSS_FEEDS) {
+        const feedItems = await fetchSingleFeed(feedUrl);
+        if (feedItems && feedItems.length) items = items.concat(feedItems);
+      }
     }
 
     if (!items.length) {
-      console.log("ℹ️ কোনো ফিড থেকে সংবাদ পাওয়া যায়নি — রান শেষ।");
+      console.log("ℹ️ কোনো সোর্স থেকে সংবাদ পাওয়া যায়নি — রান শেষ।");
       return;
     }
 
@@ -401,6 +601,7 @@ async function runAutoPost() {
          ২) URL-পদ্ধতি (FB নিজে ফেচ করবে)
          ৩) link ফলব্যাক (OG প্রিভিউ কার্ড)
          কোনো স্টক ছবি কখনো নয় */
+      let fbPosted = false;
       if (FB_PAGE_TOKEN && FB_PAGE_ID) {
         let fbOk = false;
         if (FB_POST_MODE !== "link" && n.image) {
@@ -413,8 +614,12 @@ async function runAutoPost() {
           if (!fbOk) fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি-URL", 1);
         }
         if (!fbOk) {
-          await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক (ফলব্যাক)", 2);
+          fbOk = await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক", 2);
         }
+        fbPosted = fbOk;
+        /* SMO/P1 — পোস্ট সফল হলে Facebook-এর OG ক্যাশ সাথে সাথে রিফ্রেশ করা হয়,
+           নইলে ফেসবুক পুরনো (হোমপেজ) প্রিভিউ ধরে রাখে এবং ক্লিক গণনা হয় না। */
+        if (fbOk) await refreshOgCache(portalUrl(n, false));
       }
 
       /* ইনস্টাগ্রাম — IG_USER_ID সেট থাকলে (একই FB টোকেন) */
@@ -425,6 +630,12 @@ async function runAutoPost() {
       /* পোস্ট সম্পন্ন → ক্যাশে যোগ */
       postedLinks.add(n.link);
       posted.unshift({ link: n.link, title: n.title, ts: n.ts, url: n.url });
+
+      /* queue মোডে থাকলে সার্ভারকে জানানো হয় — DB-স্তরের ডিডুপ সক্রিয় থাকে */
+      if (fromQueue && n._queueId) {
+        await confirmQueue(n._queueId, fbPosted || !!TELEGRAM_BOT_TOKEN, fbPosted ? "posted" : "partial");
+      }
+
       /* ছোট বিরতি — রেট-লিমিট এড়াতে */
       await new Promise((r) => setTimeout(r, 1500));
     }

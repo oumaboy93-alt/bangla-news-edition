@@ -2,29 +2,61 @@
   publish = "."
   functions = "netlify/functions"
 
+# ════════════════════════════════════════════════════════════════════════════
+# SMO/P0 — SEO-ক্রিটিক্যাল রুটগুলো এখন Oracle meta-service-এ প্রক্সি হয়।
+#
+# আগে: /news/*, /category/*, /desk/* সবই /index.html-এ status=200 দিয়ে যেত।
+#       ফলে প্রতিটি আর্টিকেল URL অভিন্ন স্ট্যাটিক ডকুমেন্ট ফেরত দিত এবং
+#       ফেসবুকের ক্রলার কখনোই আর্টিকেল-নির্দিষ্ট og:title/og:image পেত না
+#       (যাচাই করা হয়েছে: facebookexternalhit হোমপেজের ট্যাগই পেত)।
+# এখন:  এই রুটগুলো সার্ভার-রেন্ডার করা HTML দেয় — সঠিক OG ট্যাগ সহ।
+#
+# ⚠️ নিচের ORACLE_HOST-এ আপনার VM-এর পাবলিক ঠিকানা বসান (https, ট্রেইলিং স্ল্যাশ ছাড়া)।
+#    ডোমেইন সরাসরি VM-এ পয়েন্ট করার পর এই প্রক্সি ব্লকগুলো মুছে দেওয়া যাবে।
+# ════════════════════════════════════════════════════════════════════════════
+
 [[redirects]]
   from = "/news/*"
-  to = "/index.html"
+  to = "https://ORACLE_HOST/news/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/category/*"
-  to = "/index.html"
+  to = "https://ORACLE_HOST/category/:splat"
   status = 200
-
-[[redirects]]
-  from = "/search/*"
-  to = "/index.html"
-  status = 200
+  force = true
 
 [[redirects]]
   from = "/desk/*"
-  to = "/index.html"
+  to = "https://ORACLE_HOST/desk/:splat"
   status = 200
+  force = true
 
 [[redirects]]
+  from = "/sitemap.xml"
+  to = "https://ORACLE_HOST/sitemap.xml"
+  status = 200
+  force = true
+
+# অ্যাডমিন ও কনফিগ API — মোবাইল প্যানেল + ইনস্ট্যান্ট ফ্রন্টএন্ড আপডেটের সোর্স
+[[redirects]]
   from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  to = "https://ORACLE_HOST/api/:splat"
+  status = 200
+  force = true
+
+# ক্লিক-ট্র্যাকিং রিডাইরেক্ট
+[[redirects]]
+  from = "/r/*"
+  to = "https://ORACLE_HOST/r/:splat"
+  status = 302
+  force = true
+
+# /search/* ক্লায়েন্ট-সাইডই থাকবে
+[[redirects]]
+  from = "/search/*"
+  to = "/index.html"
   status = 200
 
 [[headers]]
