@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-09-18T13:12:03.959Z",
+  "generatedAt": "2026-09-18T16:13:27.717Z",
   "version": 6,
   "updatedAt": "2026-08-22T08:18:00.000Z",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
     "remoteConfigUrl": "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
-    "adminPath": "admin.html"
+    "adminPath": "admin.html",
+    "fbAppId": "1625867772589065"
   },
   "editorNews": [
     {

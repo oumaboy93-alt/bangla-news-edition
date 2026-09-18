@@ -113,7 +113,14 @@ function buildArticleHead(article, ctx) {
   tags.push('<meta name="description" content="' + esc(desc) + '" />');
   tags.push('<meta name="robots" content="index, follow, max-image-preview:large" />');
   tags.push(`<meta property="og:site_name" content="${esc(SITE_NAME)}" />`);
-  tags.push('<meta property="og:locale" content="bn_BD" />');
+  /* ★ og:locale একটি কঠোর enum — 'bn_BD' বৈধ নয় ★
+     Facebook এই মান পার্স করতে পারে না, ফলে ?scrape=true 400 ফেরায়:
+       "the given value 'bn_bd' for property 'og:locale:locale'
+        could not be parsed as type 'enum'"
+     বাংলার জন্য Facebook যে মানটি গ্রহণ করে সেটি 'bn_IN'।
+     (Oracle সার্ভারের lib/og.js-এও একই সংশোধন করা হয়েছে।) */
+  tags.push('<meta property="og:locale" content="bn_IN" />');
+  tags.push('<meta property="og:locale:alternate" content="en_US" />');
   tags.push('<meta property="og:type" content="article" />');
   tags.push(`<meta property="og:title" content="${esc(title)}" />`);
   tags.push(`<meta property="og:description" content="${esc(desc)}" />`);
