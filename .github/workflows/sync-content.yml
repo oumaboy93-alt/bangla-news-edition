@@ -1,0 +1,66 @@
+name: Sync content from Oracle
+
+# ════════════════════════════════════════════════════════════════════════
+# কেন এই ওয়ার্কফ্লো দরকার
+# ════════════════════════════════════════════════════════════════════════
+# লাইভ সাইটের প্রতিটি পৃষ্ঠা GitHub-এর data/bne-config.json থেকে ডেটা পড়ে
+# (settings.remoteConfigUrl)। কিন্তু সংবাদ তৈরি হয় Oracle সার্ভারের
+# ডেটাবেজে — অ্যাডমিন প্যানেল থেকে হাতে, অথবা RSS সংগ্রহ ইঞ্জিন দিয়ে
+# স্বয়ংক্রিয়ভাবে। এই দুইয়ের মধ্যে সেতু না থাকলে সাইটে নতুন সংবাদ
+# পৌঁছায় না এবং পোস্ট হওয়া লিংকে "সংবাদ পাওয়া যায়নি" দেখায়।
+#
+# এই ওয়ার্কফ্লো প্রতি ১০ মিনিটে Oracle-এর পাবলিক /api/config আনে,
+# data/bne-config.json হালনাগাদ করে, OG ফাংশনের ডেটা পুনর্গঠন করে এবং
+# কমিট পুশ করে। পুশ হলেই Netlify নিজে থেকে নতুন বিল্ড শুরু করে।
+#
+# ফলে সম্পূর্ণ শৃঙ্খল স্বয়ংক্রিয়:
+#   RSS → সংগ্রহ → সাইটের সংবাদ (Oracle DB)
+#        → এই সিঙ্ক → GitHub → Netlify → লাইভ সাইট + OG কার্ড
+#        → অটো-পোস্টার → ফেসবুক + টেলিগ্রাম
+# ════════════════════════════════════════════════════════════════════════
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # প্রতি ১০ মিনিটে
+  workflow_dispatch:          # হাতে চালানোর সুযোগ
+
+# একই সময়ে দুইবার চললে কমিট সংঘর্ষ এড়াতে
+concurrency:
+  group: sync-content
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Oracle থেকে কনটেন্ট আনা ও মেলানো
+        env:
+          # GitHub Secrets-এ না থাকলে ডিফল্ট Oracle ঠিকানাই ব্যবহৃত হয়
+          ORACLE_ORIGIN: ${{ secrets.META_API_BASE }}
+        run: node tools/sync-from-oracle.js
+
+      - name: OG ফাংশনের বান্ডল করা ডেটা পুনর্গঠন
+        run: node tools/sync-function-data.js
+
+      - name: পরিবর্তন থাকলে কমিট ও পুশ
+        run: |
+          git config --global user.name "BNE Bot"
+          git config --global user.email "bot@bne.local"
+          git add data/bne-config.json netlify/functions/_data.json
+          if git diff --cached --quiet; then
+            echo "✅ কোনো পরিবর্তন নেই — কমিট লাগবে না।"
+          else
+            git commit -m "chore(sync): Oracle থেকে কনটেন্ট হালনাগাদ [skip ci]"
+            git push
+            echo "✅ পুশ সম্পন্ন — Netlify নতুন বিল্ড শুরু করবে।"
+          fi
