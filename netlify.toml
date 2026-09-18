@@ -22,6 +22,100 @@
 # কনফিগের সাথে ফাংশনের ডেটা কখনো বেসামঞ্জস্য হয় না।
 # ════════════════════════════════════════════════════════════════════════════
 
+# ── নিরাপত্তা: পুরনো ক্লায়েন্ট-সাইড অ্যাডমিন প্যানেল স্থায়ীভাবে বন্ধ ──────
+# admin.html ফাইলটিতে পাসকোড সরাসরি লেখা ছিল এবং তা সর্বজনীনভাবে পড়া যেত।
+# ফাইলটি রেপো থেকে সরানো হয়েছে; তার সঙ্গে 410 (Gone) দেওয়া হলো যাতে
+# কোনো পুরনো লিংক, ক্যাশ বা বুকমার্ক আর কখনো সেই পাতা না ফেরায়।
+# 404 নয়, 410 — কারণ এটি স্থায়ীভাবে বাদ দেওয়া হয়েছে, সাময়িক নয়।
+[[redirects]]
+  from = "/admin.html"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/sw-admin.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-sw.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-manifest.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-manifest.webmanifest"
+  to = "/"
+  status = 410
+  force = true
+
+# ── অভ্যন্তরীণ ফাইল যেন কখনো সর্বজনীন না হয় ────────────────────────────
+# Netlify `--dir .` দিয়ে পুরো রেপো রুট প্রকাশ করে, তাই সোর্স-কোড, টেস্ট,
+# ওয়ার্কফ্লো, অভ্যন্তরীণ স্ক্রিপ্ট ও আউটরিচ তালিকা সবই ডাউনলোডযোগ্য হয়ে
+# যেত। এগুলো সাইটের কোনো অংশ নয় — কেবল বিল্ড/রক্ষণাবেক্ষণের জন্য।
+# (বিল্ড ধাপে `node tools/...` চলে, কিন্তু সেটি ডিস্ক থেকে পড়ে, HTTP নয় —
+# তাই ব্লক করলে বিল্ড ভাঙে না।)
+[[redirects]]
+  from = "/tools/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/tests/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/legacy/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/.github/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/sponsor_leads_outreach.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/sponsor_hunter.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/deploy.sh"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/Start_FB_Auto_Poster.command"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/FB_SETUP_GUIDE.md"
+  to = "/"
+  status = 410
+  force = true
+
+# ── sitemap: প্রকৃত সংবাদ-URL সহ ডাইনামিক sitemap ─────────────────────────
+# আগে রুটে একটি স্থির sitemap.xml ফাইল ছিল যাতে কেবল ৫টি URL থাকত —
+# ১২৮টি সংবাদের একটিও থাকত না, ফলে গুগল সংবাদ-পাতাগুলো খুঁজে পেত না।
+# Netlify-তে redirect স্থির ফাইলের চেয়ে অগ্রাধিকার পায়, তাই Oracle-এর
+# ডাইনামিক sitemap (প্রতিটি /news/<slug> সহ) এখান থেকেই পরিবেশন হবে।
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "https://bne.147-224-13-31.nip.io/sitemap.xml"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/news/*"
   to = "/.netlify/functions/article-og"
@@ -51,12 +145,21 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
+# সংবাদের পাতা — সার্চ ইঞ্জিনকে পরিষ্কার সংকেত, ক্লিক-ট্র্যাকিং ঠিক রাখতে
+# Referrer পাঠানো হয় (উৎস মাপার জন্য দরকার) কিন্তু কেবল origin পর্যন্ত।
 [[headers]]
-  for = "/admin-manifest.json"
+  for = "/news/*"
   [headers.values]
-    Content-Type = "application/manifest+json"
-    Access-Control-Allow-Origin = "*"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# /admin* কখনো ইনডেক্স হবে না (এবং Netlify-এর রুটে থাকলে সেটিও নোইনডেক্স)
+[[headers]]
+  for = "/admin*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
 
 [[headers]]
   for = "/manifest.webmanifest"

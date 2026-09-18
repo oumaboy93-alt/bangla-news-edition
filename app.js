@@ -5,6 +5,16 @@
    ═══════════════════════════════════════════════════════════════════ */
 "use strict";
 
+/* ── অ্যাডমিন প্যানেলের নিরাপদ ডিফল্ট ঠিকানা ────────────────────────────
+   সাইটের গোপন অ্যাডমিন ট্রিগার (ফুটারের সাল-লেখায় ৭ বার ট্যাপ) কনফিগের
+   settings.adminPath অনুসরণ করে। আগে ফলব্যাক ছিল "admin.html" — অর্থাৎ
+   কনফিগ না পেলে ব্যবহারকারী সরাসরি সেই পুরনো, ক্লায়েন্ট-সাইড, হার্ডকোড
+   পাসকোডযুক্ত পাতায় চলে যেত।
+   এখন ফলব্যাক সার্ভার-সাইড প্যানেলের নিজের ঠিকানা, যেখানে লগইন ছাড়া
+   কেউ কিছুই দেখতে পায় না (৪০৪)। adminPath কনফিগেই সেট করা আছে; এটি
+   কেবল কনফিগ লোড ব্যর্থ হলে ব্যবহৃত নিরাপদ জাল। */
+var BNE_ADMIN_URL = "https://bne.147-224-13-31.nip.io/admin";
+
 /* ── কনফিগ ─────────────────────────────────────────────────────── */
 var SOURCES = {
   banglaedition: { rss: "https://www.banglaedition.com/feed/", label: "বাংলা এডিশন" },
@@ -1294,7 +1304,7 @@ function init() {
       digestPromise.then(function (h) {
         if (h === ADMIN_TRIGGER_HASH) {
           try { localStorage.setItem("azadi_admin_hash", "1"); } catch (err) {}
-          location.href = (siteConfig.settings && siteConfig.settings.adminPath) || "admin.html";
+          location.href = (siteConfig.settings && siteConfig.settings.adminPath) || BNE_ADMIN_URL;
         } else {
           /* সার্চ রুটে নেভিগেট (রিয়েল-পাথ বা hash — হোস্ট অনুযায়ী) */
           navigate(searchHref(q));
@@ -1312,7 +1322,7 @@ function init() {
     tapTimer = setTimeout(function () { taps = 0; }, 2500);
     if (taps >= 7) {
       taps = 0;
-      location.href = (siteConfig.settings && siteConfig.settings.adminPath) || "admin.html";
+      location.href = (siteConfig.settings && siteConfig.settings.adminPath) || BNE_ADMIN_URL;
     }
   });
 
