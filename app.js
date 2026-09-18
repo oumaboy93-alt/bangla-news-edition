@@ -1008,11 +1008,17 @@ function renderArticle(app, id) {
     '<div class="meta-row"><span class="src">' + escapeHtml(a.sourceLabel) + "</span><span>" + timeAgo(a.ts) + "</span></div>" +
     figureHtml +
     '<div class="article-body">' + body + "</div>" +
-        (a.link
-      ? '<div class="source-box">মূল সংবাদের সম্পূর্ণ ভার্সন পড়ুন: ' +
-        (a.link.indexOf('http') === 0 ? '<a class="btn" style="background:#0f172a;" href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener nofollow">মূল ওয়েবসাইটে পড়ুন ↗</a> ' : '') +
-        '<button class="btn" style="background:#047857;" onclick="openBneInAppReader(\'' + escapeHtml(a.link) + '\', \'' + escapeHtml(a.title.replace(/'/g, "\\'")) + '\', \'' + escapeHtml(a.sourceLabel.replace(/'/g, "\\'")) + '\')">📱 বি-এন-ই নেটিভ রীডারে পড়ুন →</button></div>'
-      : "") +
+         /* ★ "নতুন পেজ খুলুন" বাটন সরানো হয়েছে ★
+       আগে এখানে দুটি বোতাম ছিল — "মূল ওয়েবসাইটে পড়ুন ↗" ও
+       "বিএনই নেটিভ রিডারে পড়ুন →"। দ্বিতীয়টি পাঠকের ব্রাউজার থেকে
+       CORS প্রক্সি (api.allorigins.win) দিয়ে সোর্সের কাঁচা HTML আনত:
+       ১০ সেকেন্ড অপেক্ষা, প্রায়ই ব্যর্থ, আর সফল হলেও অন্যের পূর্ণ লেখা
+       হুবহু আমাদের পাতায় দেখানো হত।
+       এখন সম্পূর্ণ সংবাদ সংগ্রহ-সময়েই আমাদের নিজের ভাষায় লেখা হয়ে
+       ডেটাবেসে থাকে (lib/ai.js → writeFullArticle), তাই পাঠক সাথে
+       সাথেই আমাদের পাতায় সব পড়তে পারেন — অপেক্ষা বা নতুন পেজ লাগে না।
+       উৎসের কৃতিত্ব সংবাদের নিচে অটুট থাকে। */
+         "" +
     (function() {
   var shareUrl2 = articleUrl(a);
   var fbUrl2 = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl2);
