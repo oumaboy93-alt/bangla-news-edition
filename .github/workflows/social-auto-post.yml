@@ -29,6 +29,22 @@ jobs:
           FB_POST_MODE: ${{ secrets.FB_POST_MODE }}
           MAX_POSTS_PER_RUN: ${{ secrets.MAX_POSTS_PER_RUN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+
+          # ── SMO/P1: Oracle publish queue ──────────────────────────────
+          # এখানেই "মোবাইল প্যানেল থেকে Publish → সাথে সাথে অটো পোস্ট" চেইনটি
+          # সম্পূর্ণ হয়। META_API_BASE না থাকলে পোস্টার Netlify-এর /api/queue
+          # খুঁজত, যা 404 দেয় — ফলে আগে সে চুপচাপ বাহ্যিক RSS মোডে নেমে
+          # অন্যের সংবাদমাধ্যমের খবর পোস্ট করত।
+          #
+          # ⚠️ GitHub Secrets-এ অবশ্যই সেট করতে হবে (নইলে ডিফল্ট = খালি):
+          #    META_API_BASE = https://bne.147-224-13-31.nip.io
+          #    QUEUE_TOKEN   = (Oracle .env-এর QUEUE_TOKEN-এর সমান মান)
+          META_API_BASE: ${{ secrets.META_API_BASE }}
+          QUEUE_TOKEN: ${{ secrets.QUEUE_TOKEN }}
+          # ডিফল্ট "api" — বাহ্যিক RSS বন্ধ। ইচ্ছাকৃতভাবে অন্যের খবর পোস্ট
+          # করতে চাইলে আলাদা ওয়ার্কফ্লোতে POSTER_MODE=legacy দিন।
+          POSTER_MODE: api
+          SITE_ORIGIN: https://bangla-news-edition.netlify.app
         run: node auto_social_poster.js
 
       - name: Commit Last Posted Cache

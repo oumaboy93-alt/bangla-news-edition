@@ -548,12 +548,24 @@ async function runAutoPost() {
       }
     }
 
-    if (!fromQueue) {
-      console.log("📡 [Legacy] RSS ফিড থেকে সংবাদ সংগ্রহ করা হচ্ছে…");
+    /* ★ নিরাপদ-ব্যর্থতা (fail closed) ★
+       আগে কিউ খালি বা অনুপলব্ধ হলেই চুপচাপ ৯টি বাহ্যিক RSS ফিডে নেমে যেত এবং
+       অন্য সংবাদমাধ্যমের শিরোনাম আপনার নিজের পেজে/চ্যানেলে পোস্ট করত।
+       পরিণতি: (১) নিজের ব্র্যান্ডের বদলে অন্যের খবর, (২) কপিরাইট/সম্পাদকীয় ঝুঁকি,
+       (৩) লিংক ছাড়া টেক্সট পোস্টে রিচের ক্ষতি।
+       এখন বাহ্যিক RSS কেবল POSTER_MODE=legacy স্পষ্টভাবে দিলে চলবে; ডিফল্ট
+       "api" মোডে কিউ ফাঁকা থাকলে কিছুই পোস্ট হবে না। */
+    if (!fromQueue && POSTER_MODE === "legacy") {
+      console.log("📡 [Legacy] RSS ফিড থেকে সংবাদ সংগ্রহ করা হচ্ছে… (POSTER_MODE=legacy)");
       for (const feedUrl of RSS_FEEDS) {
         const feedItems = await fetchSingleFeed(feedUrl);
         if (feedItems && feedItems.length) items = items.concat(feedItems);
       }
+    } else if (!fromQueue) {
+      console.log("");
+      console.log("ℹ️ নিজস্ব প্রকাশিত কিউতে নতুন কিছু নেই — কিছু পোস্ট করা হলো না।");
+      console.log("   (বাহ্যিক সংবাদমাধ্যমের RSS পোস্ট করতে হলে POSTER_MODE=legacy দিন।)");
+      return;
     }
 
     if (!items.length) {
