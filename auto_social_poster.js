@@ -573,6 +573,34 @@ async function runAutoPost() {
       return;
     }
 
+    /* ★ লিংক সত্যিই কাজ করছে কি না যাচাই ★
+       কেন: সংবাদ সাইটে সিঙ্ক হতে কিছুটা সময় লাগে (GitHub Actions সিঙ্ক
+       প্রতি ৫ মিনিটে)। সিঙ্কের আগেই পোস্ট করলে ফেসবুক 'সংবাদ পাওয়া যায়নি'
+       ক্যাশ করে ফেলে এবং কার্ডটি চিরকাল ভাঙা দেখায় (বাস্তবে ঘটেছিল)।
+       এখন পোস্ট করার আগে প্রতিটি লিংকের HTTP অবস্থা দেখা হয়; যেগুলো ২০০
+       দেয় না সেগুলো বাদ পড়ে এবং পরের রানে আবার বিবেচিত হয়। */
+    const reachable = [];
+    for (const it of items) {
+      const url = it.link || it.canonicalUrl || it.url;
+      if (!url) continue;
+      try {
+        const ctrl = new AbortController();
+        const t = setTimeout(() => ctrl.abort(), 12000);
+        const r = await fetch(url, { method: 'GET', redirect: 'follow', signal: ctrl.signal,
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; BNE-LinkCheck/1.0)' } });
+        clearTimeout(t);
+        if (r.status === 200) reachable.push(it);
+        else console.log(`   ⏳ লিংক এখনো প্রস্তুত নয় (HTTP ${r.status}) — পরের রানে আবার দেখা হবে: ${String(it.title || '').slice(0, 46)}`);
+      } catch (e) {
+        console.log(`   ⏳ লিংক যাচাই ব্যর্থ (${e.name === 'AbortError' ? 'timeout' : e.message}) — পরের রানে আবার: ${String(it.title || '').slice(0, 46)}`);
+      }
+    }
+    items = reachable;
+    if (!items.length) {
+      console.log("ℹ️ সব লিংক এখনো প্রস্তুত নয় — এই রানে কিছু পোস্ট করা হলো না (ডুপ্লিকেট কিছু যায়নি)।");
+      return;
+    }
+
     /* ২. নরমালাইজ + ডিডুপ + তারিখ অনুযায়ী সাজানো (নতুন আগে) */
     const seen = new Set();
     const news = items.map(normalizeItem)
