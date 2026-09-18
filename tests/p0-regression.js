@@ -97,24 +97,29 @@ ok('article-og ফাংশন fb:app_id পাস করে', /fbAppId/.test(ar
    ════════════════════════════════════════════════════════════════════════════ */
 section('BD-3 · শিপ করা ট্রি-তে কোনো হার্ডকোড করা গোপন তথ্য নেই');
 
-/* যেগুলো প্রকাশ করা হয়, সেগুলোই পরীক্ষা করা হয় (legacy/ কখনো deploy হয় না) */
-const PUBLISHED_DIRS = ['netlify', 'images', 'data', 'tests', 'tools'];
-const PUBLISHED_FILES = fs.readdirSync(ROOT)
-  .filter((f) => /\.(js|html|json|toml|txt|webmanifest|xml)$/i.test(f))
-  .filter((f) => f !== 'last_posted.json');
+/* ★ স্ক্যান-নীতি ★
+   Netlify `--dir .` দিয়ে পুরো রেপো রুট প্রকাশ করে (deploy.yml দ্রষ্টব্য)।
+   তার মানে "legacy/ ফোল্ডারে রাখা আছে, তাই নিরাপদ" — এই ধারণাটি ভুল ছিল:
+   সরানো ফাইল legacy/-এ রাখলে সেটি সত্যিই
+   https://<domain>/legacy/old-admin-panel/admin.html হয়ে লাইভ হয়ে যেত।
+   তাই এখন যাচাই করা হয় **প্রকাশিত হয় এমন সবকিছু**, এবং তালিকা হাতে
+   লেখা নয় — পুরো ট্রি হাঁটাহাঁটি করা হয়।
+
+   বাদ শুধু সেগুলো যা Git-এ নেই বা Netlify কখনো পাঠায় না:
+   .git, node_modules, .netlify, এবং .gitignore-করা ব্যাকআপ ফোল্ডার। */
+const SCAN_SKIP_DIRS = new Set(['.git', 'node_modules', '.netlify', '_image_backups', '_unused_images', '.tool_trash']);
+const SCAN_EXT = /\.(js|html|json|toml|txt|webmanifest|xml|yml|yaml|md|css)$/i;
 
 const SCAN = [];
-for (const f of PUBLISHED_FILES) SCAN.push(f);
-for (const d of PUBLISHED_DIRS) {
-  const walk = (dir) => {
-    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-      const full = path.join(dir, e.name);
-      if (e.isDirectory()) { if (e.name !== 'node_modules') walk(full); }
-      else if (/\.(js|html|json|toml|txt|webmanifest|xml)$/i.test(e.name)) SCAN.push(path.relative(ROOT, full));
+(function walk(absDir) {
+  for (const e of fs.readdirSync(absDir, { withFileTypes: true })) {
+    if (e.isDirectory()) {
+      if (!SCAN_SKIP_DIRS.has(e.name)) walk(path.join(absDir, e.name));
+    } else if (SCAN_EXT.test(e.name)) {
+      SCAN.push(path.relative(ROOT, path.join(absDir, e.name)));
     }
-  };
-  if (fs.existsSync(path.join(ROOT, d))) walk(path.join(ROOT, d));
-}
+  }
+})(ROOT);
 
 /* পাসকোডের অঙ্কগুলো টুকরো করে জোড়া হয়, যাতে স্ক্যানার-ফাইলটি নিজেই নিজের
    নমুনায় পরিণত না হয় — নইলে এই ফাইলটিই "লিক" হিসেবে ধরা পড়ত। */
@@ -144,13 +149,23 @@ ok(`প্রকাশিত ${SCAN.length}টি ফাইলে কোনো �
    ════════════════════════════════════════════════════════════════════════════ */
 section('BD-4 · পুরনো অ্যাডমিন প্যানেল প্রকাশ-ট্রি থেকে সম্পূর্ণ বাদ');
 
+/* মূল রুটে থাকা যাবে না … */
 for (const f of ['admin.html', 'admin-sw.js', 'sw-admin.js',
                  'admin-manifest.json', 'admin-manifest.webmanifest',
-                 'netlify/functions/admin-auth.js']) {
-  ok(`${f} আর প্রকাশিত হচ্ছে না`, !exists(f), 'ফাইলটি এখনো রুটে আছে');
+                 'netlify/functions/admin-auth.js', 'sitemap.xml']) {
+  ok(`${f} রুটে আর নেই`, !exists(f), 'ফাইলটি এখনো রুটে আছে');
 }
-ok('পুরনো ফাইলগুলো legacy/old-admin-panel/-এ সংরক্ষিত',
-  exists('legacy/old-admin-panel/admin.html'));
+
+/* …আর ট্রির অন্য কোথাওও থাকা যাবে না। Netlify `--dir .` দিয়ে পুরো রুট
+   প্রকাশ করে, তাই legacy/ বা অন্য কোনো ফোল্ডারে সরিয়ে রাখলে ফাইলটি
+   /legacy/... পথে আবার লাইভ হয়ে যেত — নাম বদলালেও রক্ষা নেই। */
+const RETIRED_NAMES = /^(admin\.html|admin-sw\.js|sw-admin\.js|admin-manifest\.(json|webmanifest)|admin-auth\.js)$/i;
+const survivors = SCAN.filter((rel) => RETIRED_NAMES.test(path.basename(rel)));
+ok('পুরনো অ্যাডমিন ফাইল প্রকাশ-ট্রিতে অন্য কোথাওও নেই', survivors.length === 0, survivors.join(', '));
+
+/* পাসকোডটি কোনো ফাইলেই থাকা যাবে না (git ইতিহাসে থাকা স্বাভাবিক) */
+ok('ট্রিতে পুরনো পাসকোড কোথাও নেই', !leaks.some((l) => /পাসকোড/.test(l)),
+  leaks.filter((l) => /পাসকোড/.test(l)).join('; '));
 
 /* কমেন্ট বাদ দিয়ে দেখা হয় — কারণ সংশোধনের কারণ ব্যাখ্যা করতে গিয়ে
    ফাইলগুলোতে পুরনো নামগুলো কমেন্টে লেখা থাকাই উচিত। */
@@ -205,7 +220,11 @@ section('BD-6 · তৃতীয় পক্ষের RSS ব্রোকার
    ব্যাখ্যা করে)। নিষিদ্ধ কেবল প্রকৃত কল। */
 /* সেবার নামও টুকরো করে জোড়া — স্ক্যানার নিজেই নিজের লক্ষ্য হওয়া চলবে না */
 const RSS_BROKER = ['rss', '2json'].join('');
+/* কেবল চলমান কোড পরীক্ষা করা হয় — .md/.yml-এ পুরনো নকশার বর্ণনা থাকা
+   স্বাভাবিক এবং প্রয়োজনীয় (কেন সরানো হলো তা ডকুমেন্টেশনে থাকা উচিত)। */
+const isCode = (rel) => /\.(js|html)$/i.test(rel);
 const rssHits = SCAN.filter((rel) => {
+  if (!isCode(rel)) return false;
   try {
     const code = stripComments(fs.readFileSync(path.join(ROOT, rel), 'utf8'));
     return new RegExp(RSS_BROKER).test(code);
