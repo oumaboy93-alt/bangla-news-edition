@@ -84,22 +84,26 @@ function buildArticleHead(article, ctx) {
   const slug = article.slug || article.id;
   const canonical = `${origin}/news/${encodeURIComponent(slug)}`;
 
-  /* og:image নির্ধারণের ক্রম:
-     ১) প্রি-জেনারেট করা ১২০০x৬৩০ asset (সত্যিকারের মাপ ঘোষণা করা যাবে)
-     ২) আর্টিকেলের নিজের ছবি (মাপ অজানা → width/height ঘোষণা করব না)
-     ৩) সাইটের কভার (আমাদের নিয়ন্ত্রণে, ১২০০x৬৩০) */
-  let img = '';
-  let imgDims = null;
-  const pregen = ogAssetExists(origin, slug, ctx && ctx.ogSlugs);
-  if (pregen) {
-    img = `${origin}/og/${encodeURIComponent(slug)}.jpg`;
-    imgDims = { w: OG_W, h: OG_H };
-  } else if (article.image || article.og_image) {
-    img = absoluteImage(article.og_image || article.image, origin);
-  } else if (ctx && ctx.siteCover) {
-    img = absoluteImage(ctx.siteCover, origin);
-    imgDims = { w: OG_W, h: OG_H };
-  }
+  /* ★ og:image — সর্বদা আমাদের নিজের তৈরি ১২০০x৬৩০ কার্ড ★
+   *
+   * আগের ক্রম ছিল:
+   *   ১) প্রি-জেনারেট করা asset (রেপোতে আগে থেকে রাখা — মাত্র কয়েকটি)
+   *   ২) আর্টিকেলের নিজের ছবি
+   *   ৩) সাইটের কভার
+   *
+   * সমস্যা: সংগৃহীত (RSS) সংবাদের ক্ষেত্রে ২ নম্বর পথে যেত এবং ছবির
+   * ঠিকানা হত সোর্স সাইটের — যা হটলিংক ব্লক করে (bd-journal-এ HTTP 403
+   * যাচাইকৃত)। ফলে ফেসবুকের প্রিভিউ কার্ডে কোনো ছবি আসত না, এবং
+   * width/height ঘোষণা করা যেত না (মাপ অজানা)।
+   * সেই সঙ্গে ১ নম্বর পথ কেবল রেপোতে আগে থেকে থাকা ছবির জন্য কাজ করত,
+   * তাই নতুন সংবাদের /og/<slug>.jpg ৪০৪ দিত।
+   *
+   * এখন: Oracle সার্ভার (lib/ogimage.js) যেকোনো slug-এর জন্য চাহিদা
+   * অনুযায়ী ১২০০x৬৩০ ব্র্যান্ডেড কার্ড তৈরি করে, আর netlify.toml-এর
+   * /og/* প্রক্সি সেটি পরিবেশন করে। তাই সবসময় (ক) ছবি নিশ্চিত,
+   * (খ) সঠিক মাপ ঘোষণা করা যায় — ফেসবুক বড় কার্ড রেন্ডার করে। */
+  const img = `${origin}/og/${encodeURIComponent(slug)}.jpg`;
+  const imgDims = { w: OG_W, h: OG_H };
 
   const imgType = guessImageType(img);
   const title = stripTags(article.title);
