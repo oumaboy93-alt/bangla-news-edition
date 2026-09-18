@@ -5,7 +5,7 @@
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
     "remoteConfigUrl": "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
-    "adminPath": "admin.html",
+    "adminPath": "https://bne.147-224-13-31.nip.io/admin",
     "fbAppId": "1625867772589065"
   },
   "editorNews": [

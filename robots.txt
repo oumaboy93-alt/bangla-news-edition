@@ -1,8 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /admin.html
-Disallow: /sw-admin.js
-Disallow: /admin-manifest.json
-Disallow: /preview/
+Disallow: /admin
+Disallow: /admin-assets/
+Disallow: /api/
+Disallow: /r/
 
 Sitemap: https://bangla-news-edition.netlify.app/sitemap.xml
