@@ -115,6 +115,53 @@ function extractImage(item) {
   return best.replace(/^http:/i, 'https:');
 }
 
+/* ══════════════════════════════════════════════════════════════════════
+   ★ শিরোনাম দেখে সঠিক বিভাগ অনুমান (ফলব্যাক ছবির জন্য) ★
+   ──────────────────────────────────────────────────────────────────────
+   কেন দরকার: Oracle-এর স্বয়ংক্রিয় বিভাজন অনেক সময় ভুল হয়। লাইভ যাচাইয়ে
+   পাওয়া গেছে — "শিরোনাম: সেপ্টেম্বরের ২৫ দিনে ডেঙ্গুতে ১১৪ মৃত্যু" খবরটি
+   রাখা হয়েছে "শিক্ষা" বিভাগে, ফলে ফলব্যাক ছবি হিসেবে সবার অপ্রাসঙ্গিক
+   প্রযুক্তির ছবি বসছিল। পাঠকের কাছে এটি স্পষ্ট ভুল মনে হয়।
+
+   সমাধান: ফলব্যাক ছবি বাছার সময় শিরোনামের শব্দ দেখে বিভাগ অনুমান করা হয়;
+   নিশ্চিতভাবে মিললে সেটিই ব্যবহার করা হয়, নইলে আগের বিভাগ অটুট থাকে।
+   ⚠️ এটি কেবল ছবি বাছার জন্য — সাইটে প্রদর্শিত বিভাগ বদলানো হয় না,
+      কারণ সেটি সম্পাদকীয় সিদ্ধান্ত ও Oracle-এর নিজের কাজ। */
+const TITLE_CATEGORY = [
+  ['স্বাস্থ্য', ['ডেঙ্গু', 'রোগ', 'হাসপাতাল', 'স্বাস্থ্য', 'চিকিৎসা', 'ওষুধ', 'টিকা', 'ভাইরাস',
+    'মৃত্যু', 'নার্স', 'ডাক্তার', 'চিকিৎসক', 'ক্যান্সার', 'ডায়াবেটিস', 'করোনা', 'জ্বর']],
+  ['খেলা', ['ক্রিকেট', 'ফুটবল', 'ম্যাচ', 'গোল', 'খেলোয়াড়', 'বিশ্বকাপ', 'টি-টোয়েন্টি',
+    'ফিফা', 'এশিয়ান কাপ', 'টুর্নামেন্ট', 'মেসি', 'নেইমার', 'ব্রাজিল', 'অর্জুন']],
+  ['প্রযুক্তি', ['স্মার্টফোন', 'মোবাইল', 'ইন্টারনেট', 'সফটওয়্যার', 'অ্যাপ', 'কম্পিউটার',
+    'এআই', 'কৃত্রিম বুদ্ধিমত্তা', 'ফেসবুক', 'গুগল', 'হ্যাক', 'সাইবার']],
+  ['বিনোদন', ['সিনেমা', 'নাটক', 'শিল্পী', 'গান', 'অভিনেতা', 'অভিনেত্রী', 'চলচ্চিত্র',
+    'ঢালিউড', 'টেলিভিশন', 'নায়ক', 'নায়িকা', 'সঙ্গীত', 'ছবির']],
+  ['অর্থনীতি', ['টাকা', 'ডলার', 'ব্যাংক', 'বাজেট', 'রপ্তানি', 'আমদানি', 'বিনিয়োগ',
+    'শেয়ার', 'মূল্যবৃদ্ধি', 'বাজারদর', 'ভ্যাট', 'কর', 'ঋণ', 'রিজার্ভ']],
+  ['প্রবাস', ['প্রবাসী', 'বিদেশে', 'ভিসা', 'রেমিট্যান্স', 'অভিবাসী', 'প্রবাসে', 'দূতাবাস']],
+  ['আন্তর্জাতিক', ['জাতিসংঘ', 'ভারত', 'পাকিস্তান', 'আমেরিকা', 'যুক্তরাষ্ট্র', 'চীন',
+    'ইসরায়েল', 'ফিলিস্তিন', 'ইউক্রেন', 'রাশিয়া', 'ট্রাম্প', 'গাজা', 'হামাস',
+    'নেতানিয়াহু', 'ইরান', 'ফ্রান্স', 'ব্রিটেন']],
+  ['রাজনীতি', ['নির্বাচন', 'মন্ত্রী', 'সংসদ', 'রাজনৈতিক', 'আওয়ামী', 'বিএনপি', 'জামায়াত',
+    'দল', 'নেতা', 'ভোট', 'সচিবালয়', 'প্রধানমন্ত্রী']],
+  ['ধর্ম', ['হজ', 'মসজিদ', 'ঈদ', 'রমজান', 'নামাজ', 'ধর্মীয়', 'উলামা', 'মাদ্রাসা',
+    'পূজা', 'বুদ্ধ', 'খ্রিস্টান']],
+  ['শিক্ষা', ['পরীক্ষা', 'শিক্ষার্থী', 'বিশ্ববিদ্যালয়', 'কলেজ', 'স্কুল', 'শিক্ষক',
+    'ফলাফল', 'ভর্তি', 'উপবৃত্তি', 'এসএসসি', 'এইচএসসি', 'শিক্ষা']],
+  ['চাকরি', ['নিয়োগ', 'চাকরি', 'বেতন', 'আবেদন', 'বিজ্ঞপ্তি', 'কর্মী', 'পদে']],
+];
+
+function guessCategoryFromTitle(title) {
+  const t = String(title || '');
+  let best = '', bestHits = 0;
+  for (const [cat, words] of TITLE_CATEGORY) {
+    let hits = 0;
+    for (const w of words) if (t.includes(w)) hits++;
+    if (hits > bestHits) { bestHits = hits; best = cat; }
+  }
+  return bestHits > 0 ? best : '';
+}
+
 /* ── বিভাগ → ছবির পথ (core.js-এর একই মানচিত্র ব্যবহার করা হয়) ─────────── */
 function categoryImage(category) {
   try {
@@ -207,7 +254,7 @@ async function fetchSitemapImages() {
         }
         const key = normTitle(title);
         if (!key || key.length < 8) continue;
-        list.push({ key, image: img.replace(/^http:/i, 'https:'), source: sm.name });
+        list.push({ key, tokens: tokenSet(title), image: img.replace(/^http:/i, 'https:'), source: sm.name });
         n++;
       }
       console.log(`   ✅ সাইটম্যাপ ${String(n).padStart(4)}টি শিরোনাম+ছবি — ${sm.name}`);
@@ -216,6 +263,27 @@ async function fetchSitemapImages() {
     }
   }
   return list;
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   ★ ফাজি মিল — হুবহু না মিললেও প্রায়-একই শিরোনাম ★
+   ──────────────────────────────────────────────────────────────────────
+   কেন দরকার: Google News-এর শিরোনাম আর সংবাদমাধ্যমের সাইটম্যাপের শিরোনাম
+   সবসময় অক্ষরে-অক্ষরে এক হয় না — কখনো শেষে "..." থাকে, শব্দ এগিয়ে-পিছিয়ে
+   যায়, যুক্তচিহ্ন আলাদা হয়। হুবহু মেলানোর ফলে এসব খবরে আসল ছবি না পেয়ে
+   বিভাগীয় ফলব্যাক বসত।
+
+   পদ্ধতি: শিরোনামের শব্দ (৩ অক্ষরের বেশি) তুলনা করে Jaccard মিল। ৭০% বা
+   বেশি এবং অন্তত ৪টি শব্দ থাকলে মিল ধরা হয়। থ্রেশহোল্ড ইচ্ছাকৃতভাবে
+   উঁচুতে — কারণ ভুল ছবি বসানোর চেয়ে বিভাগীয় ছবি অনেক ভালো। */
+function tokenSet(s) {
+  return new Set(normTitle(s).split(' ').filter((w) => w.length > 2));
+}
+function jaccard(a, b) {
+  let inter = 0;
+  for (const x of a) if (b.has(x)) inter++;
+  const union = a.size + b.size - inter;
+  return union ? inter / union : 0;
 }
 
 async function fetchFeedImages() {
@@ -302,10 +370,12 @@ async function main() {
      ক্রম গুরুত্বপূর্ণ: সাইটম্যাপে যেটি পাওয়া যায় সেটিই প্রাধান্য পায়,
      নইলে ছোট ফিড তালিকা বড় সাইটম্যাপকে ছাপিয়ে যেত। */
   const feedMap = new Map();
+  let fuzzyIndex = [];
   if (!skipFeed) {
     console.log('🗺️  সংবাদমাধ্যমের Google News সাইটম্যাপ থেকে ছবির ভাণ্ডার আনা হচ্ছে…');
     const smList = await fetchSitemapImages();
     for (const e of smList) if (!feedMap.has(e.key)) feedMap.set(e.key, e.image);
+    fuzzyIndex = smList.filter((e) => e.tokens && e.tokens.size >= 4);
     console.log(`   সাইটম্যাপ থেকে ${smList.length}টি জোড়া (অনন্য শিরোনাম ${feedMap.size}টি)`);
 
     console.log('📡 অতিরিক্ত: RSS ফিড থেকে ছবি আনা হচ্ছে…');
@@ -327,6 +397,8 @@ async function main() {
   let rejected = 0;
   let processed = 0;
   let botKept = 0;
+  let fuzzyHit = 0;
+  let titleCatFix = 0;
 
   /* আগের রানে বসানো ছবিগুলো কীভাবে বিবেচিত হবে:
        • /img/…        → আমাদের নিজের স্টোরেজ, চূড়ান্ত (হাত দেওয়া হয় না)
@@ -360,13 +432,35 @@ async function main() {
       continue;
     }
 
-    const matched = feedMap.get(normTitle(a.title));
+    let matched = feedMap.get(normTitle(a.title));
+
+    /* হুবহু না মিললে প্রায়-একই শিরোনাম খোঁজা হয় (উঁচু থ্রেশহোল্ড) */
+    if (!matched && fuzzyIndex.length) {
+      const tk = tokenSet(a.title);
+      if (tk.size >= 4) {
+        let best = 0, bestImg = '';
+        for (const e of fuzzyIndex) {
+          if (Math.abs(e.tokens.size - tk.size) > 3) continue;   /* দ্রুত বাদ */
+          const sc = jaccard(tk, e.tokens);
+          if (sc > best) { best = sc; bestImg = e.image; if (sc === 1) break; }
+        }
+        if (best >= 0.7) { matched = bestImg; fuzzyHit++; }
+      }
+    }
+
     if (matched && (noVerify || await verifyImage(matched))) {
       a.image = matched;
       fromFeed++;
     } else {
       if (matched) rejected++;     /* লিংক ছিল কিন্তু কাজ করে না */
-      a.image = categoryImage(a.category);
+      /* ★ ফলব্যাক ছবি বাছার সময় শিরোনাম দেখে বিভাগ যাচাই করা হয় ★
+         Oracle-এর বিভাজন ভুল হলে (যেমন ডেঙ্গুর খবর "শিক্ষা" বিভাগে) এতে
+         সঠিক ছবি (স্বাস্থ্য) বসে — পাঠকের কাছে আর অসংগত লাগে না।
+         নিশ্চিত মিল না পেলে আগের বিভাগই রাখা হয় — জোর করে বদলানো হয় না। */
+      const guess = guessCategoryFromTitle(a.title);
+      const useCat = guess || a.category;
+      if (guess && guess !== a.category) titleCatFix++;
+      a.image = categoryImage(useCat);
       fromCategory++;
     }
     processed++;
@@ -380,6 +474,8 @@ async function main() {
   console.log(`   • বিভাগ-ভিত্তিক ব্র্যান্ডেড ছবি  : ${fromCategory}টি`);
   console.log(`   • আগেই ঠিক ছিল                : ${already}টি`);
   if (botKept) console.log(`   • অ্যাডমিন বটের পাঠানো (অপরিবর্তিত) : ${botKept}টি`);
+  if (fuzzyHit) console.log(`   • প্রায়-একই শিরোনাম মিলে পাওয়া    : ${fuzzyHit}টি`);
+  if (titleCatFix) console.log(`   • ভুল বিভাগ সংশোধিত (ছবির জন্য)   : ${titleCatFix}টি`);
   if (rejected) console.log(`   • হটলিংক ব্লকড হওয়ায় বাদ পড়েছে : ${rejected}টি`);
   console.log(`   ছবি ছাড়া বাকি                : ${news.filter((a) => !String(a.image || '').trim()).length}টি`);
 }
