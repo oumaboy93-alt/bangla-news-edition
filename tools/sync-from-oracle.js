@@ -54,10 +54,56 @@ function loadEditorial() {
     return {
       news: Array.isArray(d.news) ? d.news.filter((n) => n && n.title && n.slug) : [],
       ads: Array.isArray(d.ads) ? d.ads.filter((a) => a && (a.title || a.body)) : [],
+      /* adOverrides — বিদ্যমান বিজ্ঞাপন বদলানো/বন্ধ করা/মোছার জন্য */
+      adOverrides: (d.adOverrides && typeof d.adOverrides === 'object') ? d.adOverrides : {},
     };
   } catch (e) {
-    return { news: [], ads: [] };   /* ফাইল না থাকলে বা ভাঙা থাকলে সমস্যা নেই */
+    return { news: [], ads: [], adOverrides: {} };   /* ফাইল না থাকলে সমস্যা নেই */
   }
+}
+
+/* ── বিজ্ঞাপনের স্থায়ী পরিচয় ───────────────────────────────────────────
+   mergeUnique যে চাবি ব্যবহার করে ঠিক সেই একই চাবি এখানে ব্যবহার করা হয়,
+   নইলে override কোনোদিন মিলত না। */
+function adKey(a) {
+  return String((a && (a.slug || a.id || a.title)) || '').trim();
+}
+
+/* ── adOverrides প্রয়োগ ───────────────────────────────────────────────
+   ★ কেন দরকার ★
+   সাইটের বিজ্ঞাপনগুলো Oracle থেকে আসে এবং প্রতি সিঙ্কে নতুন করে লেখা হয়।
+   তাই অ্যাডমিন বট থেকে সরাসরি কোনো বিজ্ঞাপন বদলালে কয়েক মিনিটের মধ্যেই
+   সেটি হারিয়ে যেত।
+
+   সমাধান: বদলগুলো আলাদা করে `adOverrides`-এ রাখা হয় (চাবি = বিজ্ঞাপনের
+   অপরিবর্তিত পরিচয়), আর প্রতিটি সিঙ্কে সেগুলো নতুন করে বসিয়ে দেওয়া হয়।
+   ফলে সিঙ্ক যতবারই চলে, সম্পাদকের করা পরিবর্তন অটুট থাকে।
+
+   সমর্থিত override:
+     { enabled: false }                 → বিজ্ঞাপন বন্ধ
+     { _deleted: true }                 → তালিকা থেকে বাদ
+     { title, image, link, slot, type } → যেকোনো ঘর বদলানো */
+function applyAdOverrides(ads, overrides) {
+  const keys = Object.keys(overrides || {});
+  if (!keys.length) return { ads, changed: 0 };
+
+  let changed = 0;
+  const out = [];
+  for (const ad of ads) {
+    const ov = overrides[adKey(ad)];
+    if (!ov) { out.push(ad); continue; }
+    if (ov._deleted) { changed++; continue; }         /* তালিকা থেকে বাদ */
+    /* override-এর ঘরগুলো বিজ্ঞাপনের উপরে বসানো হয় (বাকি সব অটুট) */
+    const merged = Object.assign({}, ad);
+    for (const k of Object.keys(ov)) {
+      if (k === '_deleted') continue;
+      merged[k] = ov[k];
+    }
+    /* বদল হয়েছে কি না — অকারণ কমিট এড়াতে তুলনা করা হয় */
+    if (JSON.stringify(merged) !== JSON.stringify(ad)) changed++;
+    out.push(merged);
+  }
+  return { ads: out, changed };
 }
 
 /* slug অনুযায়ী ডিডুপ — সম্পাদকীয় সংবাদই জেতে (মানুষ যা লিখেছে তা সবার আগে) */
@@ -103,10 +149,16 @@ async function main() {
   /* অ্যাডমিন বটের পাঠানো সংবাদ/বিজ্ঞাপন — Oracle-এর কনটেন্টের সামনে জুড়ে দেওয়া হয় */
   const editorial = loadEditorial();
   const mergedNews = mergeUnique(editorial.news, remoteNews);
-  const mergedAds = mergeUnique(editorial.ads, remoteAds);
+  const mergedAdsRaw = mergeUnique(editorial.ads, remoteAds);
 
-  if (editorial.news.length || editorial.ads.length) {
-    console.log(`🤖 অ্যাডমিন বটের কনটেন্ট: সংবাদ ${editorial.news.length}টি, বিজ্ঞাপন ${editorial.ads.length}টি — Oracle-এর সাথে মেলানো হলো।`);
+  /* সম্পাদকের করা বিজ্ঞাপন-পরিবর্তন (বন্ধ/মুছে ফেলা/বদলানো) বসানো হয় */
+  const ovApplied = applyAdOverrides(mergedAdsRaw, editorial.adOverrides);
+  const mergedAds = ovApplied.ads;
+
+  if (editorial.news.length || editorial.ads.length || Object.keys(editorial.adOverrides).length) {
+    console.log(`🤖 অ্যাডমিন বটের কনটেন্ট: সংবাদ ${editorial.news.length}টি, বিজ্ঞাপন ${editorial.ads.length}টি` +
+      (Object.keys(editorial.adOverrides).length ? `, বিজ্ঞাপন-পরিবর্তন ${Object.keys(editorial.adOverrides).length}টি` : '') +
+      ` — Oracle-এর সাথে মেলানো হলো।`);
   }
 
   /* কেবল কনটেন্ট বদলেছে কি না — নইলে অকারণ কমিট হবে না */
