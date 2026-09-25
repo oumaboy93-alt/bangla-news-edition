@@ -280,6 +280,17 @@ function isJunkImage(url) {
    3) media:thumbnail (জাঙ্ক নয় হলে)
    কিছু না পেলে null — পোস্টার তখন টেক্সট-পোস্টে যায় (লিংক-প্রিভিউসহ), কোনো স্টক ছবি বসায় না */
 function extractBestImage(it) {
+  /* ★ সমৃদ্ধকরণে বসানো ছবি সবার আগে ★
+     tools/enrich-images.js সংবাদের সাথে সামঞ্জস্যপূর্ণ ছবি (মূল সংবাদমাধ্যমের
+     আসল ছবি, নাহলে বিভাগ-ভিত্তিক ছবি) data/bne-config.json-এ বসিয়ে দেয়।
+     আগে ওই মানটি সম্পূর্ণ উপেক্ষিত হত — extractBestImage কেবল content/
+     description HTML-এর ভেতরে ছবি খুঁজত, তাই পোস্টে ছবিই আসত না
+     (লগে দেখা গেছে: "ছবি: (নেই — শুধু লেখা যাবে)")। */
+  const preset = String(it.image || "").trim();
+  if (preset && (/^https?:\/\//i.test(preset) || /^\/?(images?|img)\//i.test(preset))) {
+    return preset;
+  }
+
   const html = `${it.content || ""} ${it.description || ""}`;
   const imgs = [];
   const imgRe = /<img[^>]*>/gi;
@@ -383,13 +394,19 @@ function postTelegramPhoto(caption, imageUrl) {
 function postTelegramMessage(text, previewUrl) {
   return new Promise((resolve) => {
     if (!TELEGRAM_BOT_TOKEN) { console.log("ℹ️ [Telegram] TELEGRAM_BOT_TOKEN সেট নেই — মেসেজ পোস্ট স্কিপ।"); return resolve(false); }
+    /* ⚠️ Telegram Bot API-তে `link_preview_options` অবশ্যই JSON-স্ট্রিং হতে হয়।
+       নেস্টেড অবজেক্ট পাঠালে রেসপন্স আসে:
+         "Bad Request: can't parse link preview options JSON object"
+       (ঠিক এটাই প্রথম চালুতে ঘটেছিল) — তাই JSON.stringify করা হয়। */
+    const options = previewUrl
+      ? { url: previewUrl, prefer_large_media: true, show_above_text: false }
+      : { prefer_large_media: true };
+
     const payload = {
       chat_id: TELEGRAM_CHAT_ID,
       text,
       parse_mode: "HTML",
-      link_preview_options: previewUrl
-        ? { url: previewUrl, prefer_large_media: true, show_above_text: false }
-        : { prefer_large_media: true },
+      link_preview_options: JSON.stringify(options),
     };
     httpsJson("POST", "api.telegram.org", `/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, payload)
       .then((r) => {
