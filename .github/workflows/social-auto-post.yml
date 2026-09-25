@@ -63,10 +63,35 @@ jobs:
           SITE_BASE: ${{ secrets.SITE_BASE || 'https://bangla-news-edition.netlify.app' }}
         run: node auto_social_poster.js
 
+      # ══════════════════════════════════════════════════════════════════════
+      # ★ ডিডুপ ক্যাশ সংরক্ষণ — পুনঃচেষ্টা সহ ★
+      # ──────────────────────────────────────────────────────────────────────
+      # আগে ছিল কেবল `git push || true`। রিমোট এগিয়ে থাকলে (যেমন কনটেন্ট
+      # সিঙ্ক একই সময়ে পুশ করলে) পুশ চুপচাপ ব্যর্থ হত এবং ক্যাশ হারিয়ে যেত।
+      # পরিণতি: পরের রানে সেই খবরগুলো "নতুন" বলে ধরা পড়ে আবার পোস্ট হয়ে যেত
+      # — অর্থাৎ একই সংবাদ একাধিকবার ফেসবুক পেজ ও চ্যানেলে।
+      #
+      # এখন পুশ ব্যর্থ হলে রিমোট এনে আবার চেষ্টা করা হয় (৩ বার)। ক্যাশ ফাইলে
+      # সংঘর্ষ হলে দুই পাশের রেকর্ড একসাথে রাখা হয় — কোনো পোস্ট-রেকর্ড হারায় না।
       - name: Commit Last Posted Cache
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add last_posted.json || true
-          git commit -m "chore: update last posted social cache [skip ci]" || true
-          git push || true
+          git commit -m "chore: update last posted social cache [skip ci]" || { echo "ক্যাশে কোনো পরিবর্তন নেই"; exit 0; }
+
+          for try in 1 2 3; do
+            if git push origin HEAD:main 2>/dev/null; then
+              echo "✅ ক্যাশ সংরক্ষিত (চেষ্টা $try)"; exit 0
+            fi
+            echo "⚠️ পুশ ব্যর্থ (চেষ্টা $try) — রিমোট এনে আবার মেলানো হচ্ছে…"
+            git fetch -q origin main
+            if ! git rebase -q origin/main 2>/dev/null; then
+              node tools/merge-posted-cache.js || git checkout --theirs last_posted.json 2>/dev/null || true
+              git add last_posted.json
+              GIT_EDITOR=true git rebase --continue >/dev/null 2>&1 || git rebase --abort >/dev/null 2>&1 || true
+            fi
+            sleep 5
+          done
+          echo "::warning::ক্যাশ ৩ চেষ্টাতেও সংরক্ষণ করা যায়নি — পরের রানে পুনরায় চেষ্টা হবে"
+          exit 0
