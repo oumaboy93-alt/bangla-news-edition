@@ -94,3 +94,25 @@ jobs:
           sleep 2
           curl -s "https://api.telegram.org/bot$BOT_TOKEN/getWebhookInfo" \
             | jq -r '"webhook url     : \(.result.url)\npending updates : \(.result.pending_update_count)\nlast error      : \(.result.last_error_message // "none")\nallowed updates : \(.result.allowed_updates)"'
+
+          # ── ৪. প্রান্ত-থেকে-প্রান্ত স্ব-পরীক্ষা ──
+          # (ক) সিক্রেট ছাড়া অনুরোধ → 401 হওয়া উচিত (নিরাপত্তা অটুট)
+          # (খ) সিক্রেটসহ অনুরোধ → 200 হওয়া উচিত (Telegram-এর পাঠানো বার্তা গৃহীত)
+          # খালি update_id পাঠানো হয়, তাই কোনো ব্যবহারকারীকে বার্তা যায় না।
+          NO_SEC=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            -H "Content-Type: application/json" -d '{"update_id":1}' "$URL")
+          echo "self-test: without secret → $NO_SEC (expected 401)"
+
+          if [ -n "$SECRET" ]; then
+            OK_SEC=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+              -H "Content-Type: application/json" \
+              -H "X-Telegram-Bot-Api-Secret-Token: $SECRET" \
+              -d '{"update_id":1}' "$URL")
+            echo "self-test: with secret → $OK_SEC (expected 200)"
+            if [ "$OK_SEC" = "200" ]; then
+              echo "✅ বটের সংযোগ সম্পূর্ণ কার্যকর — এখন Telegram থেকে বাংলায় লিখলেই উত্তর আসবে।"
+            else
+              echo "::error::সিক্রেটসহ অনুরোধ গৃহীত হয়নি — বট কাজ করবে না।"
+              exit 1
+            fi
+          fi
