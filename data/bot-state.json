@@ -1,9 +1,16 @@
 {
-  "chats": {
-    "8583398970": {
-      "recs": [],
-      "mode": null
-    }
+  "content": {
+    "chats": {
+      "8583398970": {
+        "recs": [],
+        "mode": null
+      }
+    },
+    "settings": {}
   },
-  "settings": {}
+  "sha": null,
+  "settings": {
+    "lastSyncAt": 1790368232066,
+    "lastPosterAt": 1790368232066
+  }
 }
