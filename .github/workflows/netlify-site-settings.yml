@@ -1,0 +1,81 @@
+name: Netlify site settings (BNE)
+
+# ══════════════════════════════════════════════════════════════════════════
+# ★ কেন এই ওয়ার্কফ্লো ★
+#
+# আপনার সাইটের কোণায় "Powered by Netlify" ব্যাজ দেখা যাচ্ছে। এটি আপনার কোডের
+# অংশ নয় — Netlify নিজে CDN-edge থেকে ঢোকায়:
+#     <script async src="/.netlify/scripts/hud?variant=public" ...>
+#
+# অফিসিয়াল সুইচ দুটি (Netlify-র সাইট-অবজেক্টে থাকে, API দিয়েই বদলানো যায়):
+#     hud_enabled               — ব্যাজ/ওনার-টুলবার
+#     built_with_badge_enabled  — "Built with Netlify" ব্যাজ
+# দুটোই সাইট-সেটিং — ডিপ্লয় লাগে না, তাই ক্রেডিট-ব্লকে আটকায় না।
+#
+# প্রমাণ: পুরনো সাইটে দুটোই false, আর সেখানে ব্যাজ স্ক্রিপ্ট নেই।
+#
+# এই ওয়ার্কফ্লো সেটি বন্ধ করে, ড্যাশবোর্ডের ঠিকানা ছাপে, এবং
+# লাইভ সাইটে ব্যাজ সত্যিই গেছে কি না তা যাচাই করে।
+# ══════════════════════════════════════════════════════════════════════════
+
+on:
+  workflow_dispatch:
+    inputs:
+      hud_enabled:
+        description: 'Netlify ব্যাজ/টুলবার দেখাবে? (false = বন্ধ)'
+        required: false
+        default: 'false'
+      badge_enabled:
+        description: '"Built with Netlify" ব্যাজ? (false = বন্ধ)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: read
+
+jobs:
+  settings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Switch off the Netlify badge, then verify on the live site
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_BD }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_BD }}
+          HUD: ${{ inputs.hud_enabled }}
+          BADGE: ${{ inputs.badge_enabled }}
+          SITE_URL: https://bangla-news-edition-bd.netlify.app
+        run: |
+          set -uo pipefail
+
+          if [ -z "${NETLIFY_AUTH_TOKEN:-}" ] || [ -z "${NETLIFY_SITE_ID:-}" ]; then
+            echo "::error::NETLIFY_AUTH_TOKEN_BD / NETLIFY_SITE_ID_BD সেট করা নেই।"
+            exit 1
+          fi
+
+          API="https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID"
+          AUTH="Authorization: Bearer $NETLIFY_AUTH_TOKEN"
+
+          echo "─── আগের অবস্থা ───"
+          curl -s -H "$AUTH" "$API" \
+            | jq -r '"name        : \(.name)\ndashboard   : \(.admin_url)\nplan        : \(.plan)  state: \(.state)\nhud_enabled : \(.hud_enabled)\nbadge_enabled: \(.built_with_badge_enabled)"'
+
+          echo "─── সেটিং বদলানো ───"
+          BODY=$(jq -n --argjson hud "$HUD" --argjson badge "$BADGE" \
+            '{hud_enabled:$hud, built_with_badge_enabled:$badge}')
+          curl -s -o /tmp/patch.json -w "patch http=%{http_code}\n" -X PATCH \
+            -H "$AUTH" -H "Content-Type: application/json" -d "$BODY" "$API"
+          jq -r 'if has("message") then "ERROR: \(.message)" else "hud_enabled: \(.hud_enabled)  |  badge_enabled: \(.built_with_badge_enabled)" end' /tmp/patch.json
+
+          echo "─── ২৫ সেকেন্ড পরে লাইভ যাচাই ───"
+          sleep 25
+          PAGE=$(curl -s -H 'Cache-Control: no-cache' "$SITE_URL/?cb=$RANDOM$RANDOM")
+          HUDN=$(printf '%s' "$PAGE" | grep -c "netlify/scripts/hud" || true)
+          echo "লাইভ হোম পাতায় ব্যাজ-স্ক্রিপ্ট: $HUDN বার"
+          if [ "$HUDN" -eq 0 ]; then
+            echo "✅ ব্যাজ বন্ধ — সাইট আর Netlify-ব্র্যান্ডিং দেখাবে না।"
+          else
+            echo "::warning::এখনো দেখা যাচ্ছে (CDN ক্যাশ) — কয়েক মিনিট পর মিলিয়ে নিন।"
+          fi
+
+          echo "─── ড্যাশবোর্ডের ঠিকানা (দেখার জন্য) ───"
+          curl -s -H "$AUTH" "$API" | jq -r '.admin_url'
