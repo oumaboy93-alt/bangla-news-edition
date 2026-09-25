@@ -28,7 +28,9 @@ const CRAWLER_RE = /facebookexternalhit|Facebot|Twitterbot|WhatsApp|TelegramBot|
 function originOf(event) {
   const h = event.headers || {};
   const proto = h['x-forwarded-proto'] || 'https';
-  const host = h['x-forwarded-host'] || h.host || 'bangla-news-edition.netlify.app';
+  /* হেডার না থাকলে এটিই ফলব্যাক — tools/set-site-origin.js হোস্ট বদলালে
+     এই মানটিও হালনাগাদ করে (নিচের ডিফল্টটিই একমাত্র সত্য)। */
+  const host = h['x-forwarded-host'] || h.host || 'bangla-news-edition-bd.netlify.app';
   return `${proto}://${host}`;
 }
 
@@ -126,9 +128,16 @@ exports.handler = async (event) => {
   });
 
   const img = head.image;
+  /* ★ ডিকোড আগে, এস্কেপ পরে ★
+     আগে কাঁচা body সরাসরি OG.esc() করা হত। Oracle কিছু সংবাদ দুইবার
+     HTML-এস্কেপ করে রাখে, তাই `&amp;lt;a href=…` তিনবার এস্কেপ হয়ে
+     পাঠক ও ফেসবুক-ক্রলারের কাছে কোড-লেখা হিসেবে দেখা যেত।
+     এখন প্রথমে decodeEntities() (সীমিত ৩ ধাপ) চালিয়ে প্রকৃত লেখা বের করা
+     হয়, তারপর নিরাপদে esc() করা হয় — ফলে খবর পড়া যায়, XSS-ঝুঁকিও থাকে না। */
   const paras = String(article.body || article.summary || '')
     .split(/\n{2,}|\r\n{2,}/)
-    .map((p) => p.trim())
+    .map((p) => OG.decodeEntities(p, 3).trim())
+    .map((p) => p.replace(/<\s*(script|style)[\s\S]*?<\s*\/\s*\1\s*>/gi, ' ').trim())
     .filter(Boolean);
 
   const bodyHtml = `

@@ -51,7 +51,7 @@ async function fetchText(url) {
     const res = await fetch(url, {
       signal: ctrl.signal,
       redirect: "follow",
-      headers: { "User-Agent": "Mozilla/5.0 (BNE-RSS-Proxy; +https://bangla-news-edition.netlify.app)" }
+      headers: { "User-Agent": "Mozilla/5.0 (BNE-RSS-Proxy; +https://bangla-news-edition-bd.netlify.app)" }
     });
     if (!res.ok) throw new Error("HTTP " + res.status);
     return await res.text();

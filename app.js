@@ -47,6 +47,8 @@ var bn = CORE.bn, escapeHtml = CORE.escapeHtml, splitSentences = CORE.splitSente
 var hashId = CORE.hashId, categorize = CORE.categorize, extractTags = CORE.extractTags;
 var catMeta = CORE.catMeta, timeAgo = CORE.timeAgo;
 var SOURCE_WEIGHTS = CORE.SOURCE_WEIGHTS, breakingScore = CORE.breakingScore;
+/* দ্বিগুণ-এস্কেপ করা সংবাদ-লেখা ঠিক করার ডিকোডার (core.js-এ সংজ্ঞায়িত) */
+var articlePlainText = CORE.articlePlainText;
 
 var CACHE_KEY = "azadi_static_cache_v1";
 var CACHE_TTL = 5 * 60 * 1000; // ৫ মিনিট — এর মধ্যে রিফ্রেশ হলে ক্যাশ দেখিয়ে ব্যাকগ্রাউন্ডে হালনাগাদ
@@ -153,7 +155,14 @@ function applyEditorNews() {
   state.articles = state.articles.filter(function (a) { return a.source !== "editor"; });
   (siteConfig.editorNews || []).forEach(function (n) {
     if (!n || !n.title) return;
-    var plain = String(n.body || "").trim();
+    /* ★ ডিকোড + ট্যাগ বাদ ★
+       আগে কাঁচা body সরাসরি ব্যবহার হত। Oracle কিছু সংবাদ দুইবার HTML-এস্কেপ
+       করে রাখে, ফলে কার্ডের সারাংশে ও আর্টিকেল পাতায় খবরের বদলে
+       `&lt;a href=&quot;…` জাতীয় কোড-লেখা দেখা যেত। এখন সীমিত-ধাপে ডিকোড
+       করে নিরাপদ প্লেইন টেক্সট বানানো হয়। */
+    var plain = (typeof articlePlainText === "function")
+      ? articlePlainText(n.body || n.summary || "")
+      : String(n.body || "").trim();
     var ts = n.publishedAt && !isNaN(Date.parse(n.publishedAt)) ? Date.parse(n.publishedAt) : Date.now();
     var newId = n.id || hashId(n.title);
     /* একই id-র আগের কপি সরাও (সদৃশ কার্ড প্রতিরোধ) */
@@ -251,6 +260,14 @@ function startAdRotator(containerId, count) {
 
 /* ── ইউটিলিটি (pure ফাংশন core.js-এ; DOM-নির্ভর নিচে) ──────────── */
 function stripTags(html) {
+  /* core.js-এর ডিকোডার আগে চালানো হয় — কারণ innerHTML কেবল এক ধাপ এনটিটি
+     ডিকোড করে, তাই Oracle থেকে আসা দুইবার-এস্কেপ করা খবর `&lt;a href=…`
+     হিসেবেই থেকে যেত এবং কার্ড/সারাংশে কোড-লেখা দেখা যেত।
+     articlePlainText সীমিত (৩) ধাপে পুরোপুরি ডিকোড করে, তারপর ট্যাগ বাদ দেয়। */
+  if (typeof articlePlainText === "function") {
+    var plain = articlePlainText(html);
+    if (plain) return plain;
+  }
   var div = document.createElement("div");
   div.innerHTML = String(html || "");
   return (div.textContent || "").replace(/\s+/g, " ").trim();
@@ -445,7 +462,7 @@ var RECRUITMENT_ARTICLE = {
   tags: ["নিয়োগ", "প্রবাস", "চীন", "লাওস", "আলজেরিয়া", "ইরাক", "THY_International"],
    /* SMO/P0 — রিয়েল পাথ, hash নয়। এই seed ডেটাই ছিল একটি হার্ডকোড করা hash URL:
       শেয়ার করলে ফেসবুক হোমপেজে পাঠিয়ে দিত। id-ই slug, তাই রিয়েল পাথ দুটোই কাজ করে। */
-   link: "https://bangla-news-edition.netlify.app/news/thy-recruitment-2026"
+   link: "https://bangla-news-edition-bd.netlify.app/news/thy-recruitment-2026"
 };
 
 /* শুধু সম্পাদকীয় সিড (ফেব্রিকেটেড জাল নিউজ সম্পূর্ণ বাদ — আসল ফিড রিফ্রেশে মার্জ হয়) */
@@ -579,7 +596,14 @@ function setStatus(kind, msg) {
 }
 
 /* ── ডায়নামিক OG / সোশ্যাল মেটা আপডেটর ───────────────────────── */
-var SITE_ORIGIN = 'https://bangla-news-edition.netlify.app';
+/* ★ হোস্ট-নিরপেক্ষ ★
+   আগে এই মানটি হার্ডকোড ছিল। হোস্ট বদলালে শেয়ার/OG লিংক পুরনো (মৃত) ঠিকানায়
+   যেত এবং ফেসবুকের প্রিভিউ কার্ড ভাঙত। এখন ব্রাউজারে চলার সময় আসল origin
+   থেকে নেওয়া হয় — তাই যেকোনো ডোমেইনে সাইট নিজে থেকেই ঠিক আচরণ করে।
+   (file:// প্রিভিউ বা পুরনো ব্রাউজারে নিচের ডিফল্টটাই ব্যবহৃত হয়।) */
+var SITE_ORIGIN = (typeof location !== "undefined" && location.protocol.indexOf("http") === 0)
+  ? location.origin
+  : 'https://bangla-news-edition-bd.netlify.app';
 var OG_DEFAULTS = {
   title: 'বাংলা নিউজ এডিশন — BANGLA NEWS EDITION',
   desc: 'জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।',

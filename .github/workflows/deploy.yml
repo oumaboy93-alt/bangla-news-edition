@@ -1,5 +1,29 @@
 name: Deploy to Netlify (Auto)
 
+# ════════════════════════════════════════════════════════════════════════════
+# কেন অ্যাকাউন্ট বদলাতে হলো (২০২৬-০৯-২৫-এ প্রমাণিত)
+# ════════════════════════════════════════════════════════════════════════════
+# পুরনো Netlify অ্যাকাউন্টে (যেটি bangla-news-edition.netlify.app চালাত) সার্ভার
+# থেকেই সব ডিপ্লয় আটকে যায়:
+#
+#   HTTP 403  {"error":"Account credit usage exceeded - new deploys are
+#              blocked until credits are added"}
+#
+# ফলে ১৮ সেপ্টেম্বর থেকে কোনো ডিপ্লয়ই সফল হয়নি — লাইভ সাইট ১২৩টি সংবাদে
+# জমে ছিল, অথচ Oracle-এ ৫০০টি। এই কারণেই নতুন সংবাদ সাইটে আসত না এবং শেয়ার
+# করা লিংকে "সংবাদ পাওয়া যায়নি" দেখাত।
+#
+# এটি Netlify-এর দিকের stale-flag সমস্যা (২০২৬-এ বহু ফ্রি-প্ল্যান ব্যবহারকারীর
+# রিপোর্ট করা) — কোড বদলে সমাধান হয় না, অ্যাকাউন্ট-মালিককে Netlify সাপোর্টে
+# জানাতে হয়। ততক্ষণ সাইট চালু রাখতে একটি সচল অ্যাকাউন্টে ডিপ্লয় হয়।
+#
+# ⚠️ নিচের দুটি Secret-ই নির্ধারক:
+#      NETLIFY_AUTH_TOKEN_BD  → সচল অ্যাকাউন্টের টোকেন
+#      NETLIFY_SITE_ID_BD     → bangla-news-edition-bd সাইটের আইডি
+#    পুরনো অ্যাকাউন্ট আবার চালু হলে কেবল এই দুটি Secret বদলালেই যথেষ্ট
+#    (ওয়ার্কফ্লো ছুঁতে হবে না)।
+# ════════════════════════════════════════════════════════════════════════════
+
 on:
   push:
     branches: [ main ]
@@ -15,12 +39,22 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          # netlify-cli ≥27 requires Node ≥22.12; Node 20 raises EBADENGINE
+          # warnings and is deprecated on GitHub runners.
+          node-version: '22'
 
       - name: Deploy to Netlify (production)
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_BD }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_BD }}
+          SITE_BASE: ${{ secrets.SITE_BASE }}
         run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::NETLIFY_AUTH_TOKEN_BD / NETLIFY_SITE_ID_BD সেট করা নেই — ডিপ্লয় করা সম্ভব নয়।"
+            exit 1
+          fi
+          # সাইটের ঠিকানা সব ফাইলে বসানো (canonical, og:url, gn-feed, টুল-ডিফল্ট)
+          node tools/set-site-origin.js
+          node tools/sync-function-data.js
           npm install -g netlify-cli
           netlify deploy --prod --no-build --dir . --site "$NETLIFY_SITE_ID"

@@ -9,7 +9,9 @@ const { fetchAllFeeds, hashId } = require('./_feeds.js');
 /* হোস্ট থেকে ডায়নামিক — যেকোনো ডিপ্লয়/ডোমেইনে সঠিক URL */
 function siteUrl(event) {
   if (process.env.SITE_URL) return process.env.SITE_URL;
-  const host = (event.headers && (event.headers['x-forwarded-host'] || event.headers.host)) || 'bangla-news-edition.netlify.app';
+  /* হেডার না থাকলে এটিই ফলব্যাক — tools/set-site-origin.js হোস্ট বদলালে
+     এই মানটিও হালনাগাদ করে (নিচের ডিফল্টটিই একমাত্র সত্য)। */
+  const host = (event.headers && (event.headers['x-forwarded-host'] || event.headers.host)) || 'bangla-news-edition-bd.netlify.app';
   return 'https://' + String(host).replace(/^https?:\/\//, '');
 }
 

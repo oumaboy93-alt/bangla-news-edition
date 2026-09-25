@@ -120,11 +120,75 @@
     return Math.round(recency * reach * velocity * 100) / 100;
   }
 
+  /* ══════════════════════════════════════════════════════════════════════
+     ডাবল-এস্কেপ করা সংবাদ-লেখা ঠিক করা (লাইভ সাইটে প্রমাণিত বাগ)
+     ──────────────────────────────────────────────────────────────────────
+     বাস্তব সমস্যা: Oracle-এর RSS সংগ্রহ ইঞ্জিন কিছু সংবাদ দুইবার HTML-এস্কেপ
+     করে ডেটাবেজে রাখে। ফলে সাইটে ও প্রিভিউ কার্ডে খবরের বদলে কোড-লেখা দেখা
+     যেত — যেমন:  &amp;lt;a href=&quot;https://…&quot;&amp;gt;খবরের শিরোনাম
+     এটি পাঠকের কাছে "ভাঙা সাইট" মনে হয় এবং ফেসবুকের প্রিভিউও অর্থহীন হয়ে যায়।
+
+     সমাধান: সীমিত (সর্বোচ্চ ৩) ধাপে এনটিটি ডিকোড করা হয়। অপরিচিত এনটিটি
+     হুবহু অপরিবর্তিত থাকে, তাই ক্ষতি হয় না — আর পরিচিত টেক্সটে কোনো এনটিটি
+     না থাকলে এই ফাংশন স্ট্রিংটি যেমন আছে তেমনই ফেরত দেয়।
+
+     কেন `innerHTML` নয়: এটি কেবল এক ধাপ ডিকোড করে, তাই দ্বিগুণ-এস্কেপ করা
+     লেখা থেকে যায়। তাই নিজস্ব, নিয়ন্ত্রিত ডিকোডার ব্যবহার করা হলো।
+     ══════════════════════════════════════════════════════════════════════ */
+  var NAMED_ENTITIES = {
+    amp: "&", lt: "<", gt: ">", quot: "\"", apos: "'", nbsp: " ",
+    rsquo: "\u2019", lsquo: "\u2018", ldquo: "\u201c", rdquo: "\u201d",
+    hellip: "\u2026", mdash: "\u2014", ndash: "\u2013", middot: "\u00b7",
+    laquo: "\u00ab", raquo: "\u00bb", deg: "\u00b0", times: "\u00d7"
+  };
+
+  function decodeOnce(str) {
+    return String(str).replace(
+      /&(#[0-9]+|#[xX][0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g,
+      function (whole, ent) {
+        if (ent.charAt(0) === "#") {
+          var cp = (ent.charAt(1) === "x" || ent.charAt(1) === "X")
+            ? parseInt(ent.slice(2), 16)
+            : parseInt(ent.slice(1), 10);
+          if (isFinite(cp) && cp > 0 && cp <= 0x10ffff) {
+            try { return String.fromCodePoint(cp); } catch (e) { return whole; }
+          }
+          return whole;
+        }
+        var key = ent.toLowerCase();
+        return Object.prototype.hasOwnProperty.call(NAMED_ENTITIES, key)
+          ? NAMED_ENTITIES[key] : whole;
+      }
+    );
+  }
+
+  function decodeEntities(str, passes) {
+    var out = String(str == null ? "" : str);
+    var limit = typeof passes === "number" ? passes : 3;
+    for (var i = 0; i < limit; i++) {
+      var next = decodeOnce(out);
+      if (next === out) break;   /* আর বদলাচ্ছে না — থামো (অতিরিক্ত ডিকোড নয়) */
+      out = next;
+    }
+    return out;
+  }
+
+  /* খবরের লেখা → নিরাপদ প্লেইন টেক্সট (ডিকোড → ট্যাগ বাদ → শূন্যস্থান পরিষ্কার) */
+  function articlePlainText(html) {
+    return decodeEntities(html, 3)
+      .replace(/<\s*(script|style)[\s\S]*?<\s*\/\s*\1\s*>/gi, " ")
+      .replace(/<[^>]*>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   return {
     CATEGORIES: CATEGORIES,
     CATEGORY_KEYWORDS: CATEGORY_KEYWORDS,
     bn: bn,
     escapeHtml: escapeHtml,
+    decodeEntities: decodeEntities,
+    articlePlainText: articlePlainText,
     splitSentences: splitSentences,
     hashId: hashId,
     categorize: categorize,

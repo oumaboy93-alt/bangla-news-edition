@@ -7,6 +7,14 @@ on:
     - cron: '*/30 * * * *' # প্রতি ৩০ মিনিটে — নতুন সংবাদ টেলিগ্রাম + ফেসবুক পেজে (প্রিভিউসহ)
   workflow_dispatch:
 
+# ── কেন permissions দরকার ──────────────────────────────────────────────
+# নিচের "Commit Last Posted Cache" ধাপটি last_posted.json পুশ করে। ডিফল্ট
+# GITHUB_TOKEN-এ contents: write না থাকলে পুশ 403-এ ব্যর্থ হয় এবং ডিডুপ
+# ক্যাশ কখনো সংরক্ষিত হয় না — ফলে একই খবর বারবার পোস্ট হওয়ার ঝুঁকি থাকে।
+# (লাইভ লগে প্রমাণিত: "Permission to ... denied to github-actions[bot]"।)
+permissions:
+  contents: write
+
 jobs:
   auto-post:
     runs-on: ubuntu-latest
@@ -17,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Execute Dual Dispatch Social Poster (Telegram + Facebook)
         env:
@@ -30,21 +38,26 @@ jobs:
           MAX_POSTS_PER_RUN: ${{ secrets.MAX_POSTS_PER_RUN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
 
-          # ── SMO/P1: Oracle publish queue ──────────────────────────────
-          # এখানেই "মোবাইল প্যানেল থেকে Publish → সাথে সাথে অটো পোস্ট" চেইনটি
-          # সম্পূর্ণ হয়। META_API_BASE না থাকলে পোস্টার Netlify-এর /api/queue
-          # খুঁজত, যা 404 দেয় — ফলে আগে সে চুপচাপ বাহ্যিক RSS মোডে নেমে
-          # অন্যের সংবাদমাধ্যমের খবর পোস্ট করত।
+          # ── সংবাদের উৎস (SMO/P2) ──────────────────────────────────────
+          # আগে এই ব্লকে META_API_BASE ফাঁকা ছিল, ফলে পোস্টার Netlify-এর
+          # /api/queue খুঁজত — যেখানে এমন কোনো রুটই নেই (লাইভ যাচাই: 404)।
+          # পরিণতি: প্রতি রানে "কিউতে নতুন কিছু নেই" এবং একটিও খবর ফেসবুক বা
+          # টেলিগ্রামে যেত না।
           #
-          # ⚠️ GitHub Secrets-এ অবশ্যই সেট করতে হবে (নইলে ডিফল্ট = খালি):
-          #    META_API_BASE = https://bne.147-224-13-31.nip.io
-          #    QUEUE_TOKEN   = (Oracle .env-এর QUEUE_TOKEN-এর সমান মান)
-          META_API_BASE: ${{ secrets.META_API_BASE }}
+          # এখন Secret খালি থাকলেও Oracle ডিফল্টে চলে (|| অপারেটর), আর
+          # পোস্টার নিজের /api/config থেকেই প্রকাশিত সংবাদ বেছে নেয়।
+          META_API_BASE: ${{ secrets.META_API_BASE || 'https://bne.147-224-13-31.nip.io' }}
           QUEUE_TOKEN: ${{ secrets.QUEUE_TOKEN }}
+          # নিজস্ব সংবাদ কোথা থেকে: oracle (ডিফল্ট) | local (রিপোর ফাইল)
+          OWN_SOURCE: oracle
+          # পুরনো আর্কাইভ একবারে পোস্ট হয়ে স্প্যাম ঠেকাতে সময়-সীমা (ঘণ্টা)
+          MAX_AGE_HOURS: '48'
           # ডিফল্ট "api" — বাহ্যিক RSS বন্ধ। ইচ্ছাকৃতভাবে অন্যের খবর পোস্ট
           # করতে চাইলে আলাদা ওয়ার্কফ্লোতে POSTER_MODE=legacy দিন।
           POSTER_MODE: api
-          SITE_ORIGIN: https://bangla-news-edition.netlify.app
+          # ★ এই ঠিকানাই পোস্টের লিংক তৈরি করে ও লিংক-যাচাই করে। হোস্ট বদলালে
+          #   কেবল এই একটি মান (বা SITE_BASE Secret) বদলালেই যথেষ্ট।
+          SITE_BASE: ${{ secrets.SITE_BASE || 'https://bangla-news-edition.netlify.app' }}
         run: node auto_social_poster.js
 
       - name: Commit Last Posted Cache

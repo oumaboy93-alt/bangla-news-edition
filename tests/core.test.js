@@ -91,5 +91,49 @@ test("timeAgo(): বাংলা সময়-অভিব্যক্তি", (
   assert.strictEqual(C.timeAgo(now - 120000, now), "২ মিনিট আগে");
 });
 
+/* ══ দ্বিগুণ-এস্কেপ ডিকোডার ══
+   লাইভ সাইটে দেখা গিয়েছিল: Oracle থেকে আসা কিছু সংবাদ দুইবার HTML-এস্কেপ
+   থাকায় আর্টিকেল পাতায় খবরের বদলে `&lt;a href=&quot;…` কোড-লেখা দেখাত।
+   নিচের টেস্টগুলো সেই বাগ ফিরে আসা আটকায়। */
+
+test("decodeEntities(): দুইবার এস্কেপ করা ট্যাগ ঠিক করে", () => {
+  const raw = "<p>&amp;lt;a href=&quot;https://x.com&quot;&amp;gt;খবর&amp;lt;/a&amp;gt;</p>";
+  const out = C.decodeEntities(raw, 3);
+  assert.ok(out.includes('<a href="https://x.com">খবর</a>'), `পেল: ${out}`);
+  assert.ok(!out.includes("&amp;lt;"), "পুরনো এস্কেপ টিকে আছে");
+});
+
+test("decodeEntities(): তিনবার এস্কেপও ঠিক করে (সীমা ৩ ধাপ)", () => {
+  const raw = "&amp;amp;lt;b&amp;amp;gt;গুরুত্বপূর্ণ&amp;amp;lt;/b&amp;amp;gt;";
+  assert.strictEqual(C.decodeEntities(raw, 3), "<b>গুরুত্বপূর্ণ</b>");
+});
+
+test("decodeEntities(): স্বাভাবিক এনটিটি ঠিক রাখে, ক্ষতি করে না", () => {
+  assert.strictEqual(C.decodeEntities("বাংলাদেশ &amp; ভারত", 3), "বাংলাদেশ & ভারত");
+  assert.strictEqual(C.decodeEntities("AT&amp;T", 3), "AT&T");
+  assert.strictEqual(C.decodeEntities("&nbsp;নতুন&nbsp;দিন", 3), " নতুন দিন");
+  /* অপরিচিত এনটিটি হুবহু অপরিবর্তিত থাকে */
+  assert.strictEqual(C.decodeEntities("&unknownent;", 3), "&unknownent;");
+});
+
+test("decodeEntities(): এনটিটি না থাকলে স্ট্রিং অপরিবর্তিত", () => {
+  const plain = "সাধারণ বাংলা খবর — কোনো ট্যাগ নেই।";
+  assert.strictEqual(C.decodeEntities(plain, 3), plain);
+});
+
+test("articlePlainText(): ডিকোড + ট্যাগ বাদ → পরিষ্কার লেখা", () => {
+  const raw = "<p>&amp;lt;a href=&quot;https://n.com/x&quot;&amp;gt;শিরোনাম&amp;lt;/a&amp;gt;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Daily Ba";
+  const out = C.articlePlainText(raw);
+  assert.ok(!/&lt;|&quot;|&amp;lt;/.test(out), `কোড-লেখা টিকে আছে: ${out}`);
+  assert.ok(out.includes("শিরোনাম"), `শিরোনাম হারিয়ে গেছে: ${out}`);
+  assert.ok(out.includes("Daily Ba"));
+});
+
+test("articlePlainText(): script/style বিষয়বস্তু কখনো ফাঁস হয় না", () => {
+  const out = C.articlePlainText('<p>খবর</p><script>alert("xss")</script>');
+  assert.ok(!out.includes("alert"), `script ফাঁস: ${out}`);
+  assert.ok(out.includes("খবর"));
+});
+
 console.log(`\nরেজাল্ট: ${passed} পাস, ${failed} ব্যর্থ\n`);
 process.exit(failed ? 1 : 0);

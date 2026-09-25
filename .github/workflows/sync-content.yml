@@ -40,6 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      # সিঙ্ক-শেষে social-auto-post.yml হাতে চালু করতে দরকার
+      # (সিঙ্ক-পুশে `[skip ci]` থাকে, তাই স্বয়ংক্রিয় ট্রিগার কাজ করে না)
+      actions: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,26 +50,71 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Oracle থেকে কনটেন্ট আনা ও মেলানো
         env:
           # GitHub Secrets-এ না থাকলে ডিফল্ট Oracle ঠিকানাই ব্যবহৃত হয়
-          ORACLE_ORIGIN: ${{ secrets.META_API_BASE }}
+          ORACLE_ORIGIN: ${{ secrets.META_API_BASE || 'https://bne.147-224-13-31.nip.io' }}
         run: node tools/sync-from-oracle.js
 
       - name: OG ফাংশনের বান্ডল করা ডেটা পুনর্গঠন
         run: node tools/sync-function-data.js
 
+      # ══════════════════════════════════════════════════════════════════════
+      # ★ কেন এখানেই ডিপ্লয় করা হয় (আর শুধু পুশে ভরসা করা হয় না) ★
+      # ──────────────────────────────────────────────────────────────────────
+      # সিঙ্ক-কমিটের বার্তায় `[skip ci]` থাকে (কারণ: প্রতি ৫ মিনিটে CI-এর
+      # পুরো Quality Gate চালানো অর্থহীন)। কিন্তু `[skip ci]` ওই পুশ থেকে
+      # **সব** ওয়ার্কফ্লো বন্ধ করে দেয় — Deploy to Netlify সহ।
+      #
+      # লাইভ প্রমাণ: ১৮ সেপ্টেম্বরের পর প্রতিটি কমিটই `[skip ci]` ছিল, তাই
+      # deploy.yml একবারও চালু হয়নি এবং সাইট ১২৩টি সংবাদে জমে গিয়েছিল।
+      #
+      # সমাধান: সিঙ্ক শেষে এখানেই সরাসরি ডিপ্লয় করা হয়। ফলে পুশ-ট্রিগার
+      # যাই হোক, নতুন সংবাদ সাথে সাথেই লাইভ হয়।
+      # ══════════════════════════════════════════════════════════════════════
       - name: পরিবর্তন থাকলে কমিট ও পুশ
+        id: commit
         run: |
           git config --global user.name "BNE Bot"
           git config --global user.email "bot@bne.local"
           git add data/bne-config.json netlify/functions/_data.json
           if git diff --cached --quiet; then
             echo "✅ কোনো পরিবর্তন নেই — কমিট লাগবে না।"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(sync): Oracle থেকে কনটেন্ট হালনাগাদ [skip ci]"
             git push
-            echo "✅ পুশ সম্পন্ন — Netlify নতুন বিল্ড শুরু করবে।"
+            echo "✅ পুশ সম্পন্ন।"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Netlify-তে সাথে সাথে ডিপ্লয় (সিঙ্ক-কমিটে [skip ci] থাকায় এখানেই করতে হয়)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_BD }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_BD }}
+          SITE_BASE: ${{ secrets.SITE_BASE }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::NETLIFY_AUTH_TOKEN_BD / NETLIFY_SITE_ID_BD সেট করা নেই — নতুন সংবাদ লাইভ হবে না।"
+            exit 1
+          fi
+          # সাইটের ঠিকানা সব ফাইলে বসানো (canonical, og:url, gn-feed, টুল-ডিফল্ট)
+          node tools/set-site-origin.js
+          npm install -g netlify-cli
+          netlify deploy --prod --no-build --dir . --site "$NETLIFY_SITE_ID"
+          echo "✅ নতুন সংবাদ লাইভ — এখন সোশ্যাল পোস্টার নিরাপদে পোস্ট করতে পারবে।"
+
+      # সিঙ্ক পুশ `[skip ci]` বহন করে, তাই social-auto-post.yml কখনো
+      # স্বয়ংক্রিয়ভাবে চালু হয় না। এখানেই হাতে চালু করে দেওয়া হয় —
+      # এতে নতুন সংবাদ পোস্ট হতে ৩০ মিনিট পর্যন্ত দেরি হয় না।
+      - name: সোশ্যাল পোস্টার চালু করা (নতুন সংবাদ সাথে সাথে যাবে)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run social-auto-post.yml --ref main \
+            && echo "✅ সোশ্যাল পোস্টার চালু করা হয়েছে।" \
+            || echo "::warning::সোশ্যাল পোস্টার চালু করা যায়নি — পরের ক্রন-রানে পোস্ট হবে।"

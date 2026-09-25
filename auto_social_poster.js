@@ -18,6 +18,7 @@
 
 const fs = require('fs');
 const https = require('https');
+const path = require('path');
 
 /* ── ক্রেডেনশিয়াল (শুধু env) ── */
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "";
@@ -35,8 +36,17 @@ if (FB_POST_MODE === "photo") {
 
 /* SMO/P1 — সোর্স: "api" (meta-service publish queue) অথবা "legacy" (সরাসরি RSS) */
 const POSTER_MODE = (process.env.POSTER_MODE || "api").toLowerCase() === "legacy" ? "legacy" : "api";
-const META_API_BASE = (process.env.META_API_BASE || "https://bangla-news-edition.netlify.app").replace(/\/+$/, "");
+/* SMO/P2 — ডিফল্ট এখন Oracle ঠিকানা, আগে ছিল Netlify।
+   কারণ: Netlify-তে /api/queue নামে কোনো ফাংশনই নেই → 404। ফলে পোস্টার
+   প্রতি রানে "কিউতে নতুন কিছু নেই" বলে চুপচাপ শেষ হয়ে যেত এবং একটিও খবর
+   ফেসবুক/টেলিগ্রামে যেত না। Oracle-এ /api/config সর্বদা উপলব্ধ। */
+const META_API_BASE = (process.env.META_API_BASE || "https://bne.147-224-13-31.nip.io").replace(/\/+$/, "");
 const QUEUE_TOKEN = process.env.QUEUE_TOKEN || "";
+/* নিজস্ব সংবাদ কোথা থেকে আনা হবে: "oracle" (ডিফল্ট) অথবা "local" (রিপোর ফাইল) */
+const OWN_SOURCE = (process.env.OWN_SOURCE || "oracle").toLowerCase() === "local" ? "local" : "oracle";
+/* কত ঘণ্টার পুরনো সংবাদ পর্যন্ত পোস্ট করা হবে — পুরনো আর্কাইভ একসাথে
+   পোস্ট হয়ে স্প্যাম হওয়া ঠেকায় (প্রথম চালুতে বিশেষভাবে জরুরি)। */
+const MAX_AGE_HOURS = Math.max(1, parseInt(process.env.MAX_AGE_HOURS || "48", 10) || 48);
 const MAX_POSTS_PER_RUN = Math.max(1, parseInt(process.env.MAX_POSTS_PER_RUN || "5", 10) || 5);
 const FORCE_MODE = process.argv.includes('--force');
 const GRAPH_VERSION = "v26.0"; /* Graph API বর্তমান ভার্সন */
@@ -69,7 +79,7 @@ async function alertAdminTokenIssue(channel, body) {
 }
 
 /* SITE_BASE env-ওভাররাইডযোগ্য — ডিফল্ট: বর্তমান প্রোডাকশন ডোমেইন */
-const SITE_BASE = process.env.SITE_BASE || "https://bangla-news-edition.netlify.app";
+const SITE_BASE = process.env.SITE_BASE || "https://bangla-news-edition-bd.netlify.app";
 
 /* সাইটের app.js-এর SOURCES-এর সাথে মিলিয়ে ৯টি ফিড */
 const RSS_FEEDS = [
@@ -100,8 +110,41 @@ function escHtml(s) {
   });
 }
 
+/* ★ ডিকোড আগে, ট্যাগ বাদ পরে ★
+   Oracle-এর সংগ্রহ ইঞ্জিন কিছু সংবাদ দুইবার HTML-এস্কেপ করে রাখে। আগে কেবল
+   ট্যাগ সরানো হত, তাই ফেসবুক/টেলিগ্রামের ক্যাপশনে খবরের বদলে
+   `&lt;a href=&quot;…` জাতীয় কোড-লেখা চলে যেত — পাঠকের কাছে পোস্ট ভাঙা দেখাত।
+   এখন সীমিত (৩) ধাপে এনটিটি ডিকোড করে প্রকৃত লেখা বের করা হয়। */
+const NAMED_ENTITIES = {
+  amp: "&", lt: "<", gt: ">", quot: "\"", apos: "'", nbsp: " ",
+  rsquo: "\u2019", lsquo: "\u2018", ldquo: "\u201c", rdquo: "\u201d",
+  hellip: "\u2026", mdash: "\u2014", ndash: "\u2013", middot: "\u00b7",
+};
+function decodeOnce(s) {
+  return String(s).replace(/&(#[0-9]+|#[xX][0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (whole, ent) => {
+    if (ent[0] === "#") {
+      const cp = (ent[1] === "x" || ent[1] === "X") ? parseInt(ent.slice(2), 16) : parseInt(ent.slice(1), 10);
+      if (Number.isFinite(cp) && cp > 0 && cp <= 0x10ffff) {
+        try { return String.fromCodePoint(cp); } catch (e) { return whole; }
+      }
+      return whole;
+    }
+    const key = ent.toLowerCase();
+    return Object.prototype.hasOwnProperty.call(NAMED_ENTITIES, key) ? NAMED_ENTITIES[key] : whole;
+  });
+}
+function decodeEntities(s, passes) {
+  let out = String(s == null ? "" : s);
+  const limit = typeof passes === "number" ? passes : 3;
+  for (let i = 0; i < limit; i++) {
+    const next = decodeOnce(out);
+    if (next === out) break;   /* আর বদলাচ্ছে না — অতিরিক্ত ডিকোড নয় */
+    out = next;
+  }
+  return out;
+}
 function stripHtml(s) {
-  return String(s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+  return decodeEntities(s, 3).replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function httpsJson(method, hostname, path, formParams, extraHeaders) {
@@ -160,7 +203,7 @@ function fetchSingleFeed(url) {
     const req = https.get(url, {
       timeout: 9000,
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; BNE-RSS/1.0; +https://bangla-news-edition.netlify.app)",
+        "User-Agent": "Mozilla/5.0 (compatible; BNE-RSS/1.0; +https://bangla-news-edition-bd.netlify.app)",
         "Accept": "application/rss+xml, application/xml, text/xml, */*",
       },
     }, (res) => {
@@ -393,6 +436,72 @@ function fetchQueue() {
   });
 }
 
+/* ── SMO/P2: নিজস্ব প্রকাশিত সংবাদ (কিউ API না থাকলে) ────────────────────
+   বাস্তব সমস্যা যা এটি সমাধান করে:
+     Oracle সার্ভারে /api/queue নামে কোনো রুট নেই (লাইভ যাচাই: HTTP 404)।
+     তাই আগের ডিফল্ট "api" মোডে পোস্টার প্রতি রানে কিছুই পোস্ট করত না —
+     ফেসবুক পেজ ও টেলিগ্রাম চ্যানেল কয়েকদিন ধরে নীরব ছিল।
+
+   এখন: কিউ না পেলে নিজের প্রকাশিত সংবাদ থেকে বেছে নেওয়া হয় —
+     (ক) Oracle /api/config  অথবা  (খ) রিপোর data/bne-config.json
+   বাহ্যিক সংবাদমাধ্যমের RSS-এ নামা হয় না, তাই ব্র্যান্ড ও কপিরাইট নিরাপদ।
+
+   MAX_AGE_HOURS: পুরনো আর্কাইভ একবারে পোস্ট হয়ে স্প্যাম হওয়া আটকায়। */
+function fetchOwnArticles() {
+  const LOCAL = path.join(__dirname, 'data', 'bne-config.json');
+
+  const readLocal = () => {
+    try { return JSON.parse(fs.readFileSync(LOCAL, 'utf8')); } catch (e) { return null; }
+  };
+
+  const mapConfig = (cfg) => {
+    const list = Array.isArray(cfg && cfg.editorNews) ? cfg.editorNews : [];
+    const base = String(SITE_BASE || '').replace(/\/+$/, '');
+    const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
+    return list
+      .filter((a) => a && (a.slug || a.id) && a.title)
+      .map((a) => {
+        const published = a.publishedAt || a.published_at || cfg.updatedAt || '';
+        return {
+          title: a.title,
+          /* নিজের রিয়েল পাথ — ডিডুপ ও লিংক-যাচাই এই URL-ই ব্যবহার করে */
+          link: `${base}/news/${encodeURIComponent(a.slug || a.id)}`,
+          description: a.summary || '',
+          image: a.image || a.og_image || '',
+          pubDate: published,
+          slug: a.slug || a.id,
+          category: a.category || '',
+          _ts: published && !isNaN(Date.parse(published)) ? Date.parse(published) : 0,
+        };
+      })
+      .filter((a) => a._ts >= cutoff); /* কেবল টাটকা সংবাদ */
+  };
+
+  return new Promise((resolve) => {
+    const fallbackLocal = (reason) => {
+      const cfg = readLocal();
+      if (!cfg) { console.error(`⚠️ [Own] স্থানীয় কনফিগও পড়া গেল না (${reason})।`); return resolve([]); }
+      const mapped = mapConfig(cfg);
+      console.log(`📥 [Own] রিপোর স্থানীয় কনফিগ থেকে ${mapped.length}টি টাটকা সংবাদ (${reason})।`);
+      resolve(mapped);
+    };
+
+    if (OWN_SOURCE === 'local') return fallbackLocal('OWN_SOURCE=local');
+
+    const host = String(META_API_BASE).replace(/^https?:\/\//, '');
+    httpsJson('GET', host, '/api/config', null, QUEUE_TOKEN ? { 'x-queue-token': QUEUE_TOKEN } : {})
+      .then((r) => {
+        if (r.status === 200 && r.json && Array.isArray(r.json.editorNews)) {
+          const mapped = mapConfig(r.json);
+          console.log(`📥 [Own] Oracle /api/config থেকে ${r.json.editorNews.length}টি সংবাদ পাওয়া গেছে — ${mapped.length}টি টাটকা।`);
+          return resolve(mapped);
+        }
+        fallbackLocal(`HTTP ${r.status}`);
+      })
+      .catch((e) => fallbackLocal(e.message));
+  });
+}
+
 function confirmQueue(articleId, ok, detail) {
   if (!META_API_BASE || !articleId) return Promise.resolve(false);
   return new Promise((resolve) => {
@@ -411,7 +520,7 @@ function downloadImage(url, maxBytes = 8 * 1024 * 1024) {
     fetch(url, {
       signal: ctrl.signal,
       redirect: "follow",
-      headers: { "User-Agent": "Mozilla/5.0 (BNE-AutoPoster; +https://bangla-news-edition.netlify.app)" }
+      headers: { "User-Agent": "Mozilla/5.0 (BNE-AutoPoster; +https://bangla-news-edition-bd.netlify.app)" }
     }).then(async (res) => {
       if (!res.ok) throw new Error("HTTP " + res.status);
       const type = (res.headers.get("content-type") || "").split(";")[0].trim().toLowerCase();
@@ -530,6 +639,7 @@ async function runAutoPost() {
        টেলিগ্রামে অটো পোস্ট" চেইনটি সম্পূর্ণ হয় এবং লিংক সর্বদা রিয়েল পাথে যায়। */
     let items = [];
     let fromQueue = false;
+    let fromOwn = false;
 
     if (POSTER_MODE === "api") {
       const q = await fetchQueue();
@@ -546,6 +656,16 @@ async function runAutoPost() {
         }));
         console.log(`📥 [Queue] ${items.length}টি প্রকাশিত আর্টিকেল পোস্ট কিউতে পাওয়া গেছে।`);
       }
+
+      /* কিউ অনুপলব্ধ/খালি হলে নিজের প্রকাশিত সংবাদ থেকেই পোস্ট করা হয়
+         (আগে এখানেই থেমে যেত — কিছুই পোস্ট হত না)। */
+      if (!fromQueue) {
+        const own = await fetchOwnArticles();
+        if (own.length) {
+          fromOwn = true;
+          items = own;
+        }
+      }
     }
 
     /* ★ নিরাপদ-ব্যর্থতা (fail closed) ★
@@ -555,15 +675,15 @@ async function runAutoPost() {
        (৩) লিংক ছাড়া টেক্সট পোস্টে রিচের ক্ষতি।
        এখন বাহ্যিক RSS কেবল POSTER_MODE=legacy স্পষ্টভাবে দিলে চলবে; ডিফল্ট
        "api" মোডে কিউ ফাঁকা থাকলে কিছুই পোস্ট হবে না। */
-    if (!fromQueue && POSTER_MODE === "legacy") {
+    if (!fromQueue && !fromOwn && POSTER_MODE === "legacy") {
       console.log("📡 [Legacy] RSS ফিড থেকে সংবাদ সংগ্রহ করা হচ্ছে… (POSTER_MODE=legacy)");
       for (const feedUrl of RSS_FEEDS) {
         const feedItems = await fetchSingleFeed(feedUrl);
         if (feedItems && feedItems.length) items = items.concat(feedItems);
       }
-    } else if (!fromQueue) {
+    } else if (!fromQueue && !fromOwn) {
       console.log("");
-      console.log("ℹ️ নিজস্ব প্রকাশিত কিউতে নতুন কিছু নেই — কিছু পোস্ট করা হলো না।");
+      console.log("ℹ️ নিজস্ব প্রকাশিত কোনো টাটকা সংবাদ নেই — কিছু পোস্ট করা হলো না।");
       console.log("   (বাহ্যিক সংবাদমাধ্যমের RSS পোস্ট করতে হলে POSTER_MODE=legacy দিন।)");
       return;
     }
@@ -622,6 +742,7 @@ async function runAutoPost() {
     }
 
     /* ৪. প্রতিটি নতুন খবর → টেলিগ্রাম + ফেসবুক (প্রিভিউসহ) */
+    let postedCount = 0;
     for (const n of fresh) {
       console.log(`\n📌 পোস্ট হচ্ছে: "${n.title}"`);
       console.log(`🖼️ ছবি: ${n.image || "(নেই — টেক্সট-পোস্ট হবে)"}`);
@@ -629,11 +750,12 @@ async function runAutoPost() {
       const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...\n\nবিস্তারিত পড়ুন: ${n.url}`;
 
       /* টেলিগ্রাম — ছবিসহ (retry), ব্যর্থ হলে টেক্সট */
+      let tgPosted = false;
       if (TELEGRAM_BOT_TOKEN) {
-        const tgOk = n.image
+        tgPosted = n.image
           ? await postWithRetry(() => postTelegramPhoto(caption, n.image), "Telegram ফটো", 2)
           : false;
-        if (!tgOk) await postTelegramMessage(caption);
+        if (!tgPosted) tgPosted = await postTelegramMessage(caption);
       }
 
       /* ফেসবুক — ডিফল্ট photo (নিউজের আসল ছবি বড় করে, টেলিগ্রামের মতো):
@@ -667,9 +789,17 @@ async function runAutoPost() {
         await postWithRetry(() => postInstagram(escHtml(n.title) + "\n\n" + n.url, n.image), "Instagram", 1);
       }
 
-      /* পোস্ট সম্পন্ন → ক্যাশে যোগ */
-      postedLinks.add(n.link);
-      posted.unshift({ link: n.link, title: n.title, ts: n.ts, url: n.url });
+      /* ★ ক্যাশে যোগ কেবল সত্যিই পোস্ট হলে ★
+         আগের বাগ: কোথাও পোস্ট ব্যর্থ হলেও লিংক ক্যাশে যোগ হয়ে যেত, ফলে
+         সেই খবর আর কখনো পোস্ট হত না (চিরতরে হারিয়ে যেত)। এখন ব্যর্থ পোস্ট
+         ডিডুপ ক্যাশে ঢুকবে না এবং পরের রানে আবার চেষ্টা হবে। */
+      if (tgPosted || fbPosted) {
+        postedCount++;
+        postedLinks.add(n.link);
+        posted.unshift({ link: n.link, title: n.title, ts: n.ts, url: n.url });
+      } else {
+        console.log("⚠️ কোনো চ্যানেলে পোস্ট হয়নি — পরের রানে আবার চেষ্টা হবে (ক্যাশে যোগ করা হলো না)।");
+      }
 
       /* queue মোডে থাকলে সার্ভারকে জানানো হয় — DB-স্তরের ডিডুপ সক্রিয় থাকে */
       if (fromQueue && n._queueId) {
@@ -683,7 +813,7 @@ async function runAutoPost() {
     /* ৫. ক্যাশ সংরক্ষণ */
     savePosted(posted);
     console.log("\n==================================================");
-    console.log(`🎉 সম্পন্ন — ${fresh.length}টি সংবাদ টেলিগ্রাম ও/বা ফেসবুকে পোস্ট হয়েছে`);
+    console.log(`🎉 সম্পন্ন — ${fresh.length}টি বিবেচিত, ${postedCount}টি টেলিগ্রাম ও/বা ফেসবুকে পোস্ট হয়েছে`);
     console.log("==================================================");
   } catch (err) {
     console.error("❌ Auto-post execution error:", err);

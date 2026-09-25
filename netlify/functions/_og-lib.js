@@ -28,12 +28,59 @@ function jsonLd(obj) {
   return JSON.stringify(obj).replace(/</g, '\\u003c').replace(/>/g, '\\u003e');
 }
 
+/* ══════════════════════════════════════════════════════════════════════
+   ডাবল-এস্কেপ করা সংবাদ-লেখা ঠিক করা (লাইভ সাইটে প্রমাণিত বাগ)
+   ──────────────────────────────────────────────────────────────────────
+   আগে কেবল `&amp;` → `&` একবার বদলানো হত। কিন্তু Oracle-এর সংগ্রহ ইঞ্জিন
+   কিছু সংবাদ দুইবার এস্কেপ করে রাখে, তাই `&amp;lt;a href=&quot;…` একবার
+   ডিকোড করেও `&lt;a href=…` হিসেবেই থেকে যেত এবং ফেসবুকের প্রিভিউ কার্ডে
+   অর্থহীন কোড-লেখা দেখা যেত।
+
+   এখন সীমিত (সর্বোচ্চ ৩) ধাপে ডিকোড করা হয় এবং অপরিচিত এনটিটি অপরিবর্তিত
+   রাখা হয় — তাই স্বাভাবিক লেখার কোনো ক্ষতি হয় না।
+   ══════════════════════════════════════════════════════════════════════ */
+const NAMED_ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  rsquo: '\u2019', lsquo: '\u2018', ldquo: '\u201c', rdquo: '\u201d',
+  hellip: '\u2026', mdash: '\u2014', ndash: '\u2013', middot: '\u00b7',
+  laquo: '\u00ab', raquo: '\u00bb', deg: '\u00b0', times: '\u00d7',
+};
+
+function decodeOnce(str) {
+  return String(str).replace(
+    /&(#[0-9]+|#[xX][0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g,
+    (whole, ent) => {
+      if (ent[0] === '#') {
+        const cp = (ent[1] === 'x' || ent[1] === 'X')
+          ? parseInt(ent.slice(2), 16)
+          : parseInt(ent.slice(1), 10);
+        if (Number.isFinite(cp) && cp > 0 && cp <= 0x10ffff) {
+          try { return String.fromCodePoint(cp); } catch (e) { return whole; }
+        }
+        return whole;
+      }
+      const key = ent.toLowerCase();
+      return Object.prototype.hasOwnProperty.call(NAMED_ENTITIES, key)
+        ? NAMED_ENTITIES[key] : whole;
+    }
+  );
+}
+
+function decodeEntities(s, passes) {
+  let out = String(s == null ? '' : s);
+  const limit = typeof passes === 'number' ? passes : 3;
+  for (let i = 0; i < limit; i++) {
+    const next = decodeOnce(out);
+    if (next === out) break;   /* আর বদলাচ্ছে না — অতিরিক্ত ডিকোড নয় */
+    out = next;
+  }
+  return out;
+}
+
 function stripTags(s) {
-  return String(s || '')
+  return decodeEntities(s, 3)
+    .replace(/<\s*(script|style)[\s\S]*?<\s*\/\s*\1\s*>/gi, ' ')
     .replace(/<[^>]*>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&#8217;|&rsquo;/g, '’')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -194,4 +241,6 @@ function buildArticleHead(article, ctx) {
 module.exports = {
   esc, jsonLd, stripTags, truncate, absoluteImage, guessImageType, slugify, isoDate,
   buildArticleHead, SITE_NAME, OG_W, OG_H,
+  /* দ্বিগুণ-এস্কেপ ঠিক করার জন্য article-og.js ব্যবহার করে */
+  decodeEntities,
 };
