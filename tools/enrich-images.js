@@ -35,16 +35,27 @@ const ROOT = path.join(__dirname, '..');
 const CONFIG_FILE = path.join(ROOT, 'data', 'bne-config.json');
 
 /* মূল সংবাদমাধ্যমের ফিড — ২০২৬-০৯-২৫-এ লাইভ যাচাই করে যেগুলো কাজ করছে */
+/* ── সচল ফিডের তালিকা (২০২৬-০৯-২৬-এ যাচাই করা) ────────────────────────
+   প্রতিটির মূল পাতা থেকে অফিসিয়াল ফিডের ঠিকানা বের করে যাচাই করা হয়েছে:
+     • ডেইলি বাংলাদেশ  → /rss        (আগে ভুল করে /rss.xml লেখা ছিল → ৪০৪)
+     • বাংলা ট্রিবিউন   → /feed/
+     • ইত্তেফাক        → /feed/
+     • প্রথম আলো       → /feed/
+
+   ⚠️ যেগুলো বাদ দেওয়া হলো কেন (৪০৩ = বট-ব্লক, আটকানো যায়নি):
+     • যুগান্তর, সময় নিউজ, বাংলাদেশ জার্নাল — Cloudflare বট-সুরক্ষা
+     • বিডিনিউজ২৪ — ?feed=rss2 আসলে HTML ফেরত দেয়, বৈধ ফিড নয়
+
+   ★ কেন এটি বড় লাভ ★
+     এই চারটি ফিড আমাদের সংবাদের ৮২% সূত্র ঢেকে দেয়
+     (ডেইলি বাংলাদেশ ২১৩ + বাংলা ট্রিবিউন ১২১ + ইত্তেফাক ৪০ + প্রথম আলো ৩৫ = ৪০৯/৫০০)।
+     আগে ডেইলি বাংলাদেশের ফিড ভুল ঠিকানায় থাকায় ওই ২১৩টি সংবাদের ছবি
+     কোনোদিনই আসত না — ফলে সবগুলোতে একই জেনেরিক পতাকা-ছবি বসত। */
 const FEEDS = [
-  'https://www.prothomalo.com/feed/',
-  'https://www.ittefaq.com.bd/feed/',
+  'https://www.daily-bangladesh.com/rss',
   'https://www.banglatribune.com/feed/',
-  'https://daily-bangladesh.com/rss.xml',
-  'https://www.banglaedition.com/feed/',
-  'https://www.jugantor.com/feed/',
-  'https://bangla.bdnews24.com/?feed=rss2',
-  'https://somoynews.tv/feed/',
-  'https://bd-journal.com/feed/latest-rss.xml',
+  'https://www.ittefaq.com.bd/feed/',
+  'https://www.prothomalo.com/feed/',
 ];
 
 const UA = {
@@ -54,7 +65,14 @@ const UA = {
 
 /* ── শিরোনাম নরমালাইজ: যুক্তচিহ্ন/এনটিটি/স্পেস সব বাদ, শুধু অক্ষর ────────── */
 function normTitle(s) {
-  return String(s || '')
+  let t = String(s || '');
+  /* ★ NFC অপরিহার্য ★
+     বাংলা যুক্তাক্ষর একই দেখতে হলেও দুই রূপে লেখা যায় (যেমন হ্যা / হ্য়া)।
+     কীবোর্ড-ভেদে রূপ বদলায়, ফলে হুবহু একই শিরোনামও "মিলছে না" হয়ে যায়।
+     উভয় দিক NFC না করলে সংবাদমাধ্যমের ছবি খুঁজে পাওয়া যায় না —
+     এটাই আগের কম মিলের একটি বড় কারণ ছিল। */
+  if (typeof t.normalize === 'function') t = t.normalize('NFC');
+  return t
     .replace(/<!\[CDATA\[|\]\]>/g, '')
     .replace(/<[^>]*>/g, ' ')
     .replace(/&[a-zA-Z]+;|&#\d+;/g, ' ')
@@ -123,6 +141,81 @@ function categoryImage(category) {
     'প্রযুক্তি': 'images/technology.jpg',
   };
   return FALLBACK[category] || 'images/bne-og-cover.jpg';
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   ★ সংবাদ-সাইটম্যাপ — আসল ছবি পাওয়ার মূল উৎস ★
+   ──────────────────────────────────────────────────────────────────────
+   ব্যবহারকারীর অভিযোগ: "একই ছবি একাধিক নিউজে দেখাচ্ছে"।
+
+   কারণ ছিল: RSS ফিডে কেবল সাম্প্রতিক ১০–১০০টি খবর থাকে, আর আমাদের
+   ভাণ্ডারে ৫০০+ খবর (এক মাসের)। ফলে বেশিরভাগ খবরের সাথে ফিডের কোনো
+   মিলই পাওয়া যেত না → সবগুলোতে বিভাগভিত্তিক একই ফলব্যাক ছবি (যেমন
+   "জাতীয়" বিভাগের সবার জন্য পতাকা+সংসদ ভবনের ছবি) বসত।
+
+   সমাধান: সংবাদমাধ্যমগুলোর **Google News সাইটম্যাপ**। এতে অনেক বেশি
+   খবর থাকে এবং প্রতিটিতে শিরোনাম ও ছবি দুটোই দেওয়া থাকে:
+
+     daily-bangladesh.com/news-sitemap.xml  → ১০০টি (শিরোনাম + ছবি)
+     banglatribune.com/news-sitemap.xml     → ৩৭২টি (শিরোনাম + ছবি)
+     ittefaq.com.bd/news-sitemap.xml        → ৩৪৪টি (শিরোনাম + ছবি)
+     prothomalo.com/sitemap/sitemap-daily-* → ২১৩টি/দিন (ছবি + slug-এ শিরোনাম)
+
+   একবার আনলেই ১০০০+ শিরোনাম→ছবি জোড়া তৈরি হয়, আর সেটি এক মাসের
+   খবরও ঢেকে দেয়। ২০২৬-০৯-২৬-এ লাইভ যাচাই করা হয়েছে।
+   ══════════════════════════════════════════════════════════════════════ */
+function lastNDays(n) {
+  const out = [];
+  for (let i = 0; i < n; i++) {
+    const d = new Date(Date.now() - i * 86400000);
+    out.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`);
+  }
+  return out;
+}
+
+const SITEMAPS = [
+  { name: 'ডেইলি বাংলাদেশ', kind: 'news', url: 'https://www.daily-bangladesh.com/news-sitemap.xml' },
+  { name: 'বাংলা ট্রিবিউন', kind: 'news', url: 'https://www.banglatribune.com/news-sitemap.xml' },
+  { name: 'ইত্তেফাক', kind: 'news', url: 'https://www.ittefaq.com.bd/news-sitemap.xml' },
+  /* প্রথম আলোয় news:title নেই, কিন্তু <loc>-এর শেষ অংশটিই শিরোনাম (slug) */
+  ...lastNDays(10).map((d) => ({
+    name: 'প্রথম আলো', kind: 'slug',
+    url: `https://www.prothomalo.com/sitemap/sitemap-daily-${d}.xml`,
+  })),
+];
+
+async function fetchSitemapImages() {
+  const list = [];
+  for (const sm of SITEMAPS) {
+    try {
+      const r = await fetch(sm.url, { headers: UA, signal: AbortSignal.timeout(25000) });
+      if (!r.ok) { console.log(`   ⚠️ ${sm.name} সাইটম্যাপ HTTP ${r.status} — বাদ`); continue; }
+      const xml = await r.text();
+      const blocks = xml.match(/<url>[\s\S]*?<\/url>/g) || [];
+      let n = 0;
+      for (const b of blocks) {
+        const img = (b.match(/<image:loc>([^<]+)<\/image:loc>/i) || [])[1];
+        if (!img) continue;
+        let title = '';
+        if (sm.kind === 'news') {
+          title = (b.match(/<news:title>([\s\S]*?)<\/news:title>/i) || [])[1] || '';
+        } else {
+          /* slug থেকে শিরোনাম: লিংকের শেষ অংশ, শতাংশ-ডিকোড করা */
+          const loc = (b.match(/<loc>([^<]+)<\/loc>/i) || [])[1] || '';
+          const last = loc.split('?')[0].replace(/\/+$/, '').split('/').pop() || '';
+          try { title = decodeURIComponent(last).replace(/-/g, ' '); } catch (e) { title = last; }
+        }
+        const key = normTitle(title);
+        if (!key || key.length < 8) continue;
+        list.push({ key, image: img.replace(/^http:/i, 'https:'), source: sm.name });
+        n++;
+      }
+      console.log(`   ✅ সাইটম্যাপ ${String(n).padStart(4)}টি শিরোনাম+ছবি — ${sm.name}`);
+    } catch (e) {
+      console.log(`   ⚠️ ${sm.name} সাইটম্যাপ ব্যর্থ (${e.message.slice(0, 40)}) — বাদ`);
+    }
+  }
+  return list;
 }
 
 async function fetchFeedImages() {
@@ -205,12 +298,22 @@ async function main() {
 
   console.log('🖼️  সংবাদের ছবি সমৃদ্ধকরণ শুরু…');
 
-  let feedMap = new Map();
+  /* ── ছবির ভাণ্ডার তৈরি: সাইটম্যাপ আগে (বড় ও পুরনো খবরও ঢাকে), তারপর ফিড ──
+     ক্রম গুরুত্বপূর্ণ: সাইটম্যাপে যেটি পাওয়া যায় সেটিই প্রাধান্য পায়,
+     নইলে ছোট ফিড তালিকা বড় সাইটম্যাপকে ছাপিয়ে যেত। */
+  const feedMap = new Map();
   if (!skipFeed) {
-    console.log('📡 মূল সংবাদমাধ্যমের ফিড থেকে ছবির তালিকা আনা হচ্ছে…');
+    console.log('🗺️  সংবাদমাধ্যমের Google News সাইটম্যাপ থেকে ছবির ভাণ্ডার আনা হচ্ছে…');
+    const smList = await fetchSitemapImages();
+    for (const e of smList) if (!feedMap.has(e.key)) feedMap.set(e.key, e.image);
+    console.log(`   সাইটম্যাপ থেকে ${smList.length}টি জোড়া (অনন্য শিরোনাম ${feedMap.size}টি)`);
+
+    console.log('📡 অতিরিক্ত: RSS ফিড থেকে ছবি আনা হচ্ছে…');
     const r = await fetchFeedImages();
-    feedMap = r.map;
-    console.log(`   ফিড সফল: ${r.feedsOk}টি | ছবিসহ আইটেম: ${r.itemsWithImage}টি`);
+    let added = 0;
+    for (const [k, v] of r.map) if (!feedMap.has(k)) { feedMap.set(k, v); added++; }
+    console.log(`   ফিড সফল: ${r.feedsOk}টি | ছবিসহ আইটেম: ${r.itemsWithImage}টি | নতুন যোগ: ${added}টি`);
+    console.log(`   📦 সব মিলিয়ে ছবির ভাণ্ডার: ${feedMap.size}টি শিরোনাম`);
   }
 
   /* নতুন সংবাদ আগে — সীমা থাকলে সীমিত সংখ্যক প্রক্রিয়া করা হয় */

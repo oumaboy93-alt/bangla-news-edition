@@ -143,8 +143,39 @@ async function main() {
     process.exit(0);
   }
 
-  const remoteNews = Array.isArray(remote.editorNews) ? remote.editorNews : [];
+  /* ══════════════════════════════════════════════════════════════════════
+     ★ আবর্জনা শিরোনাম ছেঁকে ফেলা ★
+     ──────────────────────────────────────────────────────────────────────
+     লাইভ যাচাইয়ে পাওয়া গেছে — Oracle-এর সংগ্রহে কিছু "সংবাদ" আসলে সংবাদই
+     নয়, বরং লেখকের পরিচিতি বা ফিডের টেমপ্লেট। যেমন:
+
+        "অজয় দাশগুপ্ত Writer related all news"
+        "সৌরভ হোসেন সিয়াম, নারায়ণগঞ্জ প্রতিনিধি Writer related all news"
+
+     এগুলো সাইটে গেলে পাঠক বিভ্রান্ত হন এবং ব্র্যান্ডের বিশ্বাসযোগ্যতা নষ্ট
+     হয়। তাই ভাণ্ডারে ঢোকার আগেই সরিয়ে ফেলা হয়।
+
+     ⚠️ সতর্কতা: ছাঁকনিটি ইচ্ছাকৃতভাবে সংকীর্ণ রাখা হয়েছে যাতে সত্যিকারের
+     কোনো খবর ভুলে বাদ না পড়ে। কেবল স্পষ্ট টেমপ্লেট-লেখা ও খালি শিরোনাম
+     বাদ যায় — নইলে আসল সংবাদ হারানোর ঝুঁকি থেকে যায়। */
+  const JUNK_TITLE = [
+    /writer\s*related/i,
+    /related\s*all\s*news/i,
+    /^\s*[^।!?]{0,70}(প্রতিনিধি|স্টাফ রিপোর্টার|সংবাদদাতা)\s*$/,
+    /^\s*(সংবাদ|নিউজ|খবর|ব্রেকিং)\s*$/,
+  ];
+  const isJunkTitle = (t) => {
+    const s2 = String(t || '').trim();
+    if (s2.length < 8) return true;
+    return JUNK_TITLE.some((re) => re.test(s2));
+  };
+
+  const rawRemoteNews = Array.isArray(remote.editorNews) ? remote.editorNews : [];
+  const remoteNews = rawRemoteNews.filter((a) => a && !isJunkTitle(a.title));
+  const junkDropped = rawRemoteNews.length - remoteNews.length;
+
   const remoteAds = Array.isArray(remote.ads) ? remote.ads : [];
+  if (junkDropped > 0) console.log(`🧹 আবর্জনা শিরোনাম বাদ দেওয়া হলো: ${junkDropped}টি`);
 
   /* অ্যাডমিন বটের পাঠানো সংবাদ/বিজ্ঞাপন — Oracle-এর কনটেন্টের সামনে জুড়ে দেওয়া হয় */
   const editorial = loadEditorial();
