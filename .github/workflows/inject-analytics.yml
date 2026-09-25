@@ -1,0 +1,110 @@
+name: Inject analytics snippet (BNE)
+
+# ══════════════════════════════════════════════════════════════════════════
+# ★ কেন এই ওয়ার্কফ্লো ★
+#
+# Netlify অ্যাকাউন্টের ক্রেডিট শেষ — তাই নতুন ডিপ্লয় আটকে আছে
+#   HTTP 403 {"error":"Account credit usage exceeded"}
+# অর্থাৎ site-config.js বদলে GA4 চালু করার স্বাভাবিক পথ বন্ধ।
+#
+# কিন্তু Netlify-র "snippet injection" API ডিপ্লয় নয় — সাইট-সেটিং।
+# এটি দিয়ে CDN-এর প্রতিটি HTML পাতার <head>-এ সরাসরি স্ক্রিপ্ট যোগ করা যায়,
+# কোনো ডিপ্লয় ছাড়াই। GA4, AdSense বা যেকোনো ট্যাগের জন্য এটাই এখন পথ।
+#
+# ব্যবহার: Actions → Inject analytics snippet (BNE) → Run workflow
+#   ga4_id : আপনার GA4 Measurement ID (G-XXXXXXXXXX)
+#   remove : true দিলে স্নিপেট মুছে যাবে
+#
+# ক্রেডিট ফিরে এলে site-config.js-এ ID বসিয়ে ডিপ্লয় করাই হবে মূল পথ;
+# ততক্ষণ এই স্নিপেট কাজ চালিয়ে যাবে (একই ID, তাই দ্বিগুণ গণনা হবে না —
+# দুই জায়গায় থাকলে gtag একবারই লোড হয়)।
+# ══════════════════════════════════════════════════════════════════════════
+
+on:
+  workflow_dispatch:
+    inputs:
+      ga4_id:
+        description: 'GA4 Measurement ID (যেমন G-AB12CD34EF)'
+        required: false
+        default: ''
+      remove:
+        description: 'স্নিপেট মুছে ফেলতে true লিখুন'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: read
+
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply / update / remove the analytics snippet
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_BD }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_BD }}
+          GA4_ID: ${{ inputs.ga4_id }}
+          REMOVE: ${{ inputs.remove }}
+          SITE_URL: https://bangla-news-edition-bd.netlify.app
+          TITLE: 'BNE Analytics (GA4)'
+        run: |
+          set -uo pipefail
+
+          if [ -z "${NETLIFY_AUTH_TOKEN:-}" ] || [ -z "${NETLIFY_SITE_ID:-}" ]; then
+            echo "::error::NETLIFY_AUTH_TOKEN_BD / NETLIFY_SITE_ID_BD সেট করা নেই।"
+            exit 1
+          fi
+
+          API="https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/snippets"
+          AUTH="Authorization: Bearer $NETLIFY_AUTH_TOKEN"
+
+          EXISTING_ID=$(curl -s -H "$AUTH" "$API" | jq -r --arg t "$TITLE" '[.[] | select(.title == $t)] | .[0].id // empty')
+
+          if [ "$REMOVE" = "true" ]; then
+            if [ -n "$EXISTING_ID" ]; then
+              curl -s -o /dev/null -w "delete http=%{http_code}\n" -X DELETE -H "$AUTH" "$API/$EXISTING_ID"
+              echo "স্নিপেট মুছে ফেলা হয়েছে (id=$EXISTING_ID)"
+            else
+              echo "মুছে ফেলার মতো স্নিপেট নেই।"
+            fi
+            exit 0
+          fi
+
+          if ! printf '%s' "$GA4_ID" | grep -qE '^G-[A-Z0-9]{6,14}$'; then
+            echo "::error::GA4 Measurement ID এর ফরম্যাট সঠিক নয়: '$GA4_ID' (প্রত্যাশিত: G-XXXXXXXXXX)"
+            exit 1
+          fi
+
+          SNIPPET="<!-- BNE · GA4 · Netlify snippet injection (ডিপ্লয় ছাড়াই যোগ করা) -->
+          <script async src=\"https://www.googletagmanager.com/gtag/js?id=${GA4_ID}\"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA4_ID}');
+          </script>"
+
+          BODY=$(jq -n --arg t "$TITLE" --arg g "$SNIPPET" \
+            '{title:$t, general:$g, general_position:"head", goal:"", goal_position:"footer"}')
+
+          if [ -n "$EXISTING_ID" ]; then
+            curl -s -o /dev/null -w "update http=%{http_code}\n" -X PUT \
+              -H "$AUTH" -H "Content-Type: application/json" -d "$BODY" "$API/$EXISTING_ID"
+            echo "বিদ্যমান স্নিপেট হালনাগাদ (id=$EXISTING_ID) → $GA4_ID"
+          else
+            curl -s -o /dev/null -w "create http=%{http_code}\n" -X POST \
+              -H "$AUTH" -H "Content-Type: application/json" -d "$BODY" "$API"
+            echo "নতুন স্নিপেট তৈরি → $GA4_ID"
+          fi
+
+          echo "--- ২০ সেকেন্ড অপেক্ষা করে লাইভ যাচাই ---"
+          sleep 20
+          HOME=$(curl -s -H 'Cache-Control: no-cache' "$SITE_URL/?cb=$RANDOM" | grep -c "$GA4_ID" || true)
+          ART=$(curl -s -H 'Cache-Control: no-cache' "$SITE_URL/news/thy-recruitment-2026?cb=$RANDOM" | grep -c "$GA4_ID" || true)
+          echo "হোমপেজে ID পাওয়া গেছে : $HOME বার"
+          echo "সংবাদ পাতায় ID পাওয়া গেছে: $ART বার"
+          if [ "$HOME" -ge 1 ]; then
+            echo "✅ GA4 এখন লাইভ — ডিপ্লয় ছাড়াই।"
+          else
+            echo "::warning::লাইভ পাতায় এখনো দেখা যায়নি (CDN ক্যাশ) — কয়েক মিনিট পর মিলিয়ে নিন।"
+          fi
