@@ -29,6 +29,50 @@ const ROOT = path.join(__dirname, '..');
 const FILE = path.join(ROOT, 'data', 'bne-config.json');
 const ORACLE = (process.env.ORACLE_ORIGIN || 'https://bne.147-224-13-31.nip.io').replace(/\/+$/, '');
 
+/* ══════════════════════════════════════════════════════════════════════════
+   ★ সম্পাদকীয় সংবাদ — অ্যাডমিন বট যেগুলো লেখে ★
+   ──────────────────────────────────────────────────────────────────────────
+   কেন আলাদা ফাইল দরকার (খুব জরুরি):
+     এই সিঙ্ক প্রতিবার Oracle-এর editorNews দিয়ে স্থানীয় কনফিগ **সম্পূর্ণ
+     প্রতিস্থাপন** করে (নিচে দেখুন — `editorNews: mergedNews`)। তাই অ্যাডমিন
+     বট যদি সরাসরি data/bne-config.json-এ সংবাদ লিখত, তবে পরের সিঙ্কেই
+     সেটি মুছে যেত — অর্থাৎ টেলিগ্রাম থেকে পাঠানো খবর কয়েক মিনিট পরেই
+     গায়েব হয়ে যেত।
+
+     তাই বটের লেখা সংবাদ আলাদা ফাইলে রাখা হয় এবং প্রতিটি সিঙ্কে সেগুলো
+     Oracle-এর কনটেন্টের **সামনে** জুড়ে দেওয়া হয়। ফলে বটের পাঠানো খবর
+     স্থায়ীভাবে থাকে, আর অটো-সংগৃহীত খবরও ঠিক থাকে।
+
+   ছবির ক্ষেত্রেও হুবহু একই কৌশল ব্যবহার করা হয়েছে
+   (data/article-images.json) — কারণ সেটিও প্রতি সিঙ্কে হারিয়ে যেত।
+   ══════════════════════════════════════════════════════════════════════════ */
+const EDITORIAL_FILE = path.join(ROOT, 'data', 'editorial-news.json');
+
+function loadEditorial() {
+  try {
+    const d = JSON.parse(fs.readFileSync(EDITORIAL_FILE, 'utf8'));
+    return {
+      news: Array.isArray(d.news) ? d.news.filter((n) => n && n.title && n.slug) : [],
+      ads: Array.isArray(d.ads) ? d.ads.filter((a) => a && (a.title || a.body)) : [],
+    };
+  } catch (e) {
+    return { news: [], ads: [] };   /* ফাইল না থাকলে বা ভাঙা থাকলে সমস্যা নেই */
+  }
+}
+
+/* slug অনুযায়ী ডিডুপ — সম্পাদকীয় সংবাদই জেতে (মানুষ যা লিখেছে তা সবার আগে) */
+function mergeUnique(editorial, remote) {
+  const seen = new Set();
+  const out = [];
+  for (const item of [...editorial, ...remote]) {
+    const key = String(item.slug || item.id || item.title || '').trim();
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    out.push(item);
+  }
+  return out;
+}
+
 async function main() {
   if (!fs.existsSync(FILE)) {
     console.error(`❌ স্থানীয় কনফিগ নেই: ${FILE}`);
@@ -56,11 +100,20 @@ async function main() {
   const remoteNews = Array.isArray(remote.editorNews) ? remote.editorNews : [];
   const remoteAds = Array.isArray(remote.ads) ? remote.ads : [];
 
+  /* অ্যাডমিন বটের পাঠানো সংবাদ/বিজ্ঞাপন — Oracle-এর কনটেন্টের সামনে জুড়ে দেওয়া হয় */
+  const editorial = loadEditorial();
+  const mergedNews = mergeUnique(editorial.news, remoteNews);
+  const mergedAds = mergeUnique(editorial.ads, remoteAds);
+
+  if (editorial.news.length || editorial.ads.length) {
+    console.log(`🤖 অ্যাডমিন বটের কনটেন্ট: সংবাদ ${editorial.news.length}টি, বিজ্ঞাপন ${editorial.ads.length}টি — Oracle-এর সাথে মেলানো হলো।`);
+  }
+
   /* কেবল কনটেন্ট বদলেছে কি না — নইলে অকারণ কমিট হবে না */
-  const sameNews = JSON.stringify(local.editorNews || []) === JSON.stringify(remoteNews);
-  const sameAds = JSON.stringify(local.ads || []) === JSON.stringify(remoteAds);
+  const sameNews = JSON.stringify(local.editorNews || []) === JSON.stringify(mergedNews);
+  const sameAds = JSON.stringify(local.ads || []) === JSON.stringify(mergedAds);
   if (sameNews && sameAds) {
-    console.log(`✅ পরিবর্তন নেই — ${remoteNews.length}টি সংবাদ ইতিমধ্যে সমন্বিত।`);
+    console.log(`✅ পরিবর্তন নেই — ${mergedNews.length}টি সংবাদ ইতিমধ্যে সমন্বিত।`);
     process.exit(0);
   }
 
@@ -76,15 +129,16 @@ async function main() {
     updatedAt: new Date().toISOString(),
     syncedFrom: ORACLE,
     settings,
-    editorNews: remoteNews,
-    ads: remoteAds,
+    editorNews: mergedNews,
+    ads: mergedAds,
   };
 
   fs.writeFileSync(FILE, JSON.stringify(merged, null, 2) + '\n');
-  console.log(`✅ সিঙ্ক সম্পন্ন — সংবাদ ${(local.editorNews || []).length} → ${remoteNews.length}` +
-    ` | বিজ্ঞাপন ${(local.ads || []).length} → ${remoteAds.length}`);
-  for (const a of remoteNews.slice(0, 8)) {
-    console.log(`   • [${a.category || '—'}] ${String(a.title || '').slice(0, 52)}`);
+  console.log(`✅ সিঙ্ক সম্পন্ন — সংবাদ ${(local.editorNews || []).length} → ${mergedNews.length}` +
+    ` | বিজ্ঞাপন ${(local.ads || []).length} → ${mergedAds.length}`);
+  for (const a of mergedNews.slice(0, 8)) {
+    const tag = a.editorial ? '✍️ ' : '';
+    console.log(`   • ${tag}[${a.category || '—'}] ${String(a.title || '').slice(0, 52)}`);
   }
 }
 

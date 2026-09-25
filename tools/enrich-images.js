@@ -223,6 +223,7 @@ async function main() {
   let already = 0;
   let rejected = 0;
   let processed = 0;
+  let botKept = 0;
 
   /* আগের রানে বসানো ছবিগুলো কীভাবে বিবেচিত হবে:
        • /img/…        → আমাদের নিজের স্টোরেজ, চূড়ান্ত (হাত দেওয়া হয় না)
@@ -230,15 +231,25 @@ async function main() {
                          (হয়তো এই রানে ফিডে আসল ছবিটি পাওয়া যাবে)
        • https://…     → মূল সংবাদমাধ্যমের ছবি, যাচাই করেই রাখা হয় */
   const isOwnStorage = (u) => /^\/?img\//i.test(String(u || ''));
-  const isCategoryImg = (u) => /^\/?images\//i.test(String(u || ''));
+  /* বটের নিজে আপলোড করা ছবি (images/bot/…) — বিভাগ-ছবির মতো পুনঃচেষ্টার
+     대상 নয়, বরং ব্যবহারকারীর দেওয়া ছবি হিসেবেই চূড়ান্ত। */
+  const isBotUpload = (u) => /^\/?images\/bot\//i.test(String(u || ''));
+  const isCategoryImg = (u) => /^\/?images\//i.test(String(u || '')) && !isBotUpload(u);
+
+  /* ★ অ্যাডমিন বটের পাঠানো সংবাদ — কখনো হাত দেওয়া হয় না ★
+     মানুষ টেলিগ্রাম থেকে যে ছবি বেছে পাঠিয়েছেন সেটিই সবচেয়ে সঠিক। কোনো
+     স্বয়ংক্রিয় নিয়মে তা বদলে ফেলা মানে ব্যবহারকারীর কাজ নষ্ট করা। */
+  const isBotNews = (a) => a && (a.editorial === true || String(a.id || '').startsWith('bot-'));
 
   for (const { a } of order) {
     if (limit && processed >= limit) { processed++; continue; }
 
+    if (isBotNews(a)) { botKept++; processed++; continue; }
+
     const current = String(a.image || '').trim();
 
-    /* নিজের স্টোরেজের ছবি চূড়ান্ত — অটুট */
-    if (current && isOwnStorage(current)) { already++; processed++; continue; }
+    /* নিজের স্টোরেজের বা বটের আপলোড করা ছবি চূড়ান্ত — অটুট */
+    if (current && (isOwnStorage(current) || isBotUpload(current))) { already++; processed++; continue; }
 
     /* বাইরের ছবি — যাচাই করে রাখা হয়, ব্যর্থ হলে নিচে আবার বেছে নেওয়া হয় */
     if (current && !isCategoryImg(current) && !noVerify && await verifyImage(current)) {
@@ -265,6 +276,7 @@ async function main() {
   console.log(`   • মূল সংবাদমাধ্যমের আসল ছবি   : ${fromFeed}টি`);
   console.log(`   • বিভাগ-ভিত্তিক ব্র্যান্ডেড ছবি  : ${fromCategory}টি`);
   console.log(`   • আগেই ঠিক ছিল                : ${already}টি`);
+  if (botKept) console.log(`   • অ্যাডমিন বটের পাঠানো (অপরিবর্তিত) : ${botKept}টি`);
   if (rejected) console.log(`   • হটলিংক ব্লকড হওয়ায় বাদ পড়েছে : ${rejected}টি`);
   console.log(`   ছবি ছাড়া বাকি                : ${news.filter((a) => !String(a.image || '').trim()).length}টি`);
 }
