@@ -875,7 +875,14 @@ async function runAutoPost() {
       if (tgPosted || fbPosted) {
         postedCount++;
         postedLinks.add(n.link);
-        posted.unshift({ link: n.link, title: n.title, ts: n.ts, url: n.url });
+        /* ★ কোন কোন চ্যানেলে গেল তা লেখা থাকে ★
+           অ্যাডমিন বট "সর্বশেষ কোন খবর ফেসবুকে গেল, কোনটি চ্যানেলে গেল"
+           দেখাতে পারে — তার জন্য দরকার। আগে শুধু লিংক/শিরোনাম থাকত, কোন
+           চ্যানেলে পোস্ট হলো তা কোথাও লেখা থাকত না। */
+        const wentTo = [];
+        if (tgPosted) wentTo.push('telegram');
+        if (fbPosted) wentTo.push('facebook');
+        posted.unshift({ link: n.link, title: n.title, ts: n.ts, url: n.url, channels: wentTo });
       } else {
         console.log("⚠️ কোনো চ্যানেলে পোস্ট হয়নি — পরের রানে আবার চেষ্টা হবে (ক্যাশে যোগ করা হলো না)।");
       }
