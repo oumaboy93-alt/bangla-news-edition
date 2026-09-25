@@ -42,8 +42,16 @@ const POSTER_MODE = (process.env.POSTER_MODE || "api").toLowerCase() === "legacy
    ফেসবুক/টেলিগ্রামে যেত না। Oracle-এ /api/config সর্বদা উপলব্ধ। */
 const META_API_BASE = (process.env.META_API_BASE || "https://bne.147-224-13-31.nip.io").replace(/\/+$/, "");
 const QUEUE_TOKEN = process.env.QUEUE_TOKEN || "";
-/* নিজস্ব সংবাদ কোথা থেকে আনা হবে: "oracle" (ডিফল্ট) অথবা "local" (রিপোর ফাইল) */
-const OWN_SOURCE = (process.env.OWN_SOURCE || "oracle").toLowerCase() === "local" ? "local" : "oracle";
+/* ★ নিজস্ব সংবাদ কোথা থেকে আনা হবে ★
+   ডিফল্ট এখন "local" — অর্থাৎ রিপোর data/bne-config.json।
+
+   কেন Oracle নয়: ছবি সমৃদ্ধকরণ (tools/enrich-images.js) সিঙ্কের সময় রিপোর
+   কনফিগেই ছবি বসায় — Oracle-এর ডেটায় কোনো ছবি নেই। তাই Oracle থেকে পড়লে
+   সংবাদের ছবি হাতছাড়া হত এবং পোস্টে জেনেরিক কার্ড ফিরে আসত।
+
+   রিপোর কনফিগই লাইভ সাইটে যাওয়া কনফিগ, তাই এটিই সবচেয়ে নির্ভরযোগ্য উৎস।
+   Oracle তখনও ব্যবহার করা যায় — OWN_SOURCE=oracle দিলে। */
+const OWN_SOURCE = (process.env.OWN_SOURCE || "local").toLowerCase() === "oracle" ? "oracle" : "local";
 /* কত ঘণ্টার পুরনো সংবাদ পর্যন্ত পোস্ট করা হবে — পুরনো আর্কাইভ একসাথে
    পোস্ট হয়ে স্প্যাম হওয়া ঠেকায় (প্রথম চালুতে বিশেষভাবে জরুরি)। */
 const MAX_AGE_HOURS = Math.max(1, parseInt(process.env.MAX_AGE_HOURS || "48", 10) || 48);
@@ -318,6 +326,20 @@ function portalUrl(item, withUtm) {
   return withUtm ? `${bare}${UTM_QUERY}&utm_content=${encodeURIComponent(key)}` : bare;
 }
 
+/* ★ ছবির ঠিকানা সম্পূর্ণ করা ★
+   সংবাদের ছবি দুই ধরনের হতে পারে:
+     • বাইরের সংবাদমাধ্যমের সম্পূর্ণ লিংক (https://cdn…/x.jpg)
+     • আমাদের নিজের বিভাগ-ভিত্তিক ছবি (images/sports.jpg — আপেক্ষিক পথ)
+   টেলিগ্রাম ও ফেসবুককে সম্পূর্ণ URL দিতে হয়, তাই আপেক্ষিক পথকে সাইটের
+   ঠিকানার সাথে জুড়ে দেওয়া হয়। */
+function resolveImage(name) {
+  const raw = String(name || "").trim();
+  if (!raw) return "";
+  if (/^https?:\/\//i.test(raw)) return raw.replace(/^http:/i, "https:");
+  const base = String(SITE_BASE || "").replace(/\/+$/, "");
+  return `${base}/${raw.replace(/^\/+/, "")}`;
+}
+
 /* RSS আইটেম → অভিন্ন নিউজ অবজেক্ট */
 function normalizeItem(it) {
   const title = stripHtml(it.title || "");
@@ -346,15 +368,43 @@ function postTelegramPhoto(caption, imageUrl) {
   });
 }
 
-function postTelegramMessage(text) {
+/* ★ প্রিভিউ কার্ড দিয়ে টেলিগ্রাম পোস্ট ★
+   ──────────────────────────────────────────────────────────────────────
+   আগে ক্যাপশনে কাঁচা URL লেখা থাকত — যেমন
+     https://…/news/%E0%A6%A6%E0%A7%87%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%87…
+   ফলে টেলিগ্রামে লিংকটি শতাংশ-এনকোডেড জিবরিশ হিসেবে দেখা যেত।
+
+   এখন লেখায় কোনো URL থাকেই না; Bot API-র `link_preview_options` দিয়ে ঠিক
+   কোন লিংকের প্রিভিউ দেখাতে হবে তা বলা হয়। ফলে —
+     • ক্যাপশন পরিষ্কার ও পড়ার মতো,
+     • প্রিভিউ কার্ডে সংবাদের নিজস্ব ছবি (og:image) দেখা যায়,
+     • আর কার্ডটিতে ক্লিক করলেই সরাসরি নিউজ পোর্টালে যায়।
+   `prefer_large_media` দেওয়া হয় যাতে ছবিটি বড় করে দেখায়। */
+function postTelegramMessage(text, previewUrl) {
   return new Promise((resolve) => {
     if (!TELEGRAM_BOT_TOKEN) { console.log("ℹ️ [Telegram] TELEGRAM_BOT_TOKEN সেট নেই — মেসেজ পোস্ট স্কিপ।"); return resolve(false); }
-    httpsJson("POST", "api.telegram.org", `/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
-      chat_id: TELEGRAM_CHAT_ID, text, parse_mode: "HTML", disable_web_page_preview: "false"
-    }).then((r) => {
-      if (r.status === 200) { console.log(`✅ [Telegram] টেক্সট পোস্ট সফল → ${TELEGRAM_CHAT_ID}`); resolve(true); }
-      else { console.error(`❌ [Telegram] মেসেজ ব্যর্থ (${r.status}): ${r.body.slice(0, 200)}`); resolve(false); }
-    });
+    const payload = {
+      chat_id: TELEGRAM_CHAT_ID,
+      text,
+      parse_mode: "HTML",
+      link_preview_options: previewUrl
+        ? { url: previewUrl, prefer_large_media: true, show_above_text: false }
+        : { prefer_large_media: true },
+    };
+    httpsJson("POST", "api.telegram.org", `/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, payload)
+      .then((r) => {
+        if (r.status === 200) { console.log(`✅ [Telegram] পোস্ট সফল (প্রিভিউ কার্ডসহ) → ${TELEGRAM_CHAT_ID}`); resolve(true); }
+        else {
+          /* পুরনো Bot API সংস্করণে link_preview_options না থাকলে সরল আকারে আবার */
+          console.error(`⚠️ [Telegram] link_preview_options ব্যর্থ (${r.status}): ${r.body.slice(0, 160)}`);
+          httpsJson("POST", "api.telegram.org", `/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+            chat_id: TELEGRAM_CHAT_ID, text, parse_mode: "HTML"
+          }).then((r2) => {
+            if (r2.status === 200) { console.log(`✅ [Telegram] পোস্ট সফল (সরল আকার) → ${TELEGRAM_CHAT_ID}`); resolve(true); }
+            else { console.error(`❌ [Telegram] মেসেজ ব্যর্থ (${r2.status}): ${r2.body.slice(0, 200)}`); resolve(false); }
+          });
+        }
+      });
   });
 }
 
@@ -745,17 +795,28 @@ async function runAutoPost() {
     let postedCount = 0;
     for (const n of fresh) {
       console.log(`\n📌 পোস্ট হচ্ছে: "${n.title}"`);
-      console.log(`🖼️ ছবি: ${n.image || "(নেই — টেক্সট-পোস্ট হবে)"}`);
-      const caption = `💥 <b>[ব্রেকিং নিউজ]</b>\n\n📰 <b>${escHtml(n.title)}</b>\n\n${escHtml(n.summary)}...\n\n🔗 <b>বি-এন-ই পোর্টালে পড়তে ক্লিক করুন:</b>\n${n.url}`;
-      const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...\n\nবিস্তারিত পড়ুন: ${n.url}`;
+      console.log(`🖼️ ছবি: ${n.image || "(নেই — শুধু লেখা যাবে)"}`);
 
-      /* টেলিগ্রাম — ছবিসহ (retry), ব্যর্থ হলে টেক্সট */
+      /* ★ ক্যাপশনে কোনো কাঁচা URL থাকে না ★
+         আগে ক্যাপশনের শেষে raw URL বসানো হত, ফলে টেলিগ্রামে
+         `…/news/%E0%A6%A6%E0%A7%87%E0%A6%A1…` জাতীয় শতাংশ-এনকোডেড জিবরিশ
+         দেখা যেত। এখন লিংকটি প্রিভিউ কার্ড হিসেবেই যায় — কার্ডটিই ক্লিকযোগ্য,
+         আর কার্ডের ছবিটি আসে আমাদের og:image থেকে (অর্থাৎ সংবাদের নিজস্ব ছবি)। */
+      const caption =
+        `💥 <b>[ব্রেকিং নিউজ]</b>\n\n` +
+        `📰 <b>${escHtml(n.title)}</b>\n\n` +
+        `${escHtml(n.summary)}...\n\n` +
+        `🔗 <b>বিস্তারিত পড়তে নিচের কার্ডে ক্লিক করুন</b>`;
+
+      /* ফেসবুকের বার্তা — লিংকটি `link` প্যারামিটারেই যায়, তাই লেখায়
+         আলাদা করে URL দেখানোর দরকার নেই (নইলে কাঁচা লিংক দেখা যায়)। */
+      const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...`;
+
+      /* টেলিগ্রাম — প্রিভিউ কার্ডে ক্লিক করলেই সরাসরি পোর্টালে যায়।
+         কার্ডের ছবি = og:image = সংবাদের নিজস্ব/বিভাগীয় ছবি। */
       let tgPosted = false;
       if (TELEGRAM_BOT_TOKEN) {
-        tgPosted = n.image
-          ? await postWithRetry(() => postTelegramPhoto(caption, n.image), "Telegram ফটো", 2)
-          : false;
-        if (!tgPosted) tgPosted = await postTelegramMessage(caption);
+        tgPosted = await postWithRetry(() => postTelegramMessage(caption, n.url), "Telegram পোস্ট", 2);
       }
 
       /* ফেসবুক — ডিফল্ট photo (নিউজের আসল ছবি বড় করে, টেলিগ্রামের মতো):
@@ -766,14 +827,15 @@ async function runAutoPost() {
       let fbPosted = false;
       if (FB_PAGE_TOKEN && FB_PAGE_ID) {
         let fbOk = false;
-        if (FB_POST_MODE !== "link" && n.image) {
+        const imgAbs = resolveImage(n.image);
+        if (FB_POST_MODE !== "link" && imgAbs) {
           try {
-            const dl = await downloadImage(n.image);
+            const dl = await downloadImage(imgAbs);
             fbOk = await postWithRetry(() => postFacebookPhotoBinary(fbMessage + "\n\n" + n.url, dl.buf, dl.mime), "Facebook ছবি-আপলোড", 2);
           } catch (e) {
             console.log(`ℹ️ [Facebook] ছবি ডাউনলোড ব্যর্থ (${e.message}) — URL-পদ্ধতিতে যাচ্ছি`);
           }
-          if (!fbOk) fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, n.image), "Facebook ছবি-URL", 1);
+          if (!fbOk) fbOk = await postWithRetry(() => postFacebookPhoto(fbMessage + "\n\n" + n.url, imgAbs), "Facebook ছবি-URL", 1);
         }
         if (!fbOk) {
           fbOk = await postWithRetry(() => postFacebookLink(fbMessage, n.url), "Facebook লিংক", 2);
@@ -786,7 +848,7 @@ async function runAutoPost() {
 
       /* ইনস্টাগ্রাম — IG_USER_ID সেট থাকলে (একই FB টোকেন) */
       if (IG_USER_ID && n.image) {
-        await postWithRetry(() => postInstagram(escHtml(n.title) + "\n\n" + n.url, n.image), "Instagram", 1);
+        await postWithRetry(() => postInstagram(escHtml(n.title) + "\n\n" + n.url, resolveImage(n.image)), "Instagram", 1);
       }
 
       /* ★ ক্যাশে যোগ কেবল সত্যিই পোস্ট হলে ★

@@ -1,10 +1,11 @@
 [build]
   publish = "."
   functions = "netlify/functions"
-  # OG ফাংশনকে বান্ডল করা ডেটা দেওয়া হয় — প্রতিবার স্বয়ংক্রিয়ভাবে।
-  # প্রথমে সাইটের ঠিকানা (origin) সব ফাইলে বসানো হয়, তারপর ডেটা বান্ডল।
-  # SITE_BASE env না দিলে tools/set-site-origin.js-এর ডিফল্টই ব্যবহৃত হয়।
-  command = "node tools/set-site-origin.js && node tools/sync-function-data.js"
+  # বিল্ড ধাপের ক্রম:
+  #   ১) সাইটের origin সব ফাইলে বসানো (SITE_BASE env না দিলে টুলের ডিফল্ট)
+  #   ২) প্রতি সংবাদের ছবি সমৃদ্ধকরণ (ব্যর্থ হলেও বিল্ড ভাঙে না)
+  #   ৩) OG ফাংশনের বান্ডল করা ডেটা পুনর্গঠন
+  command = "node tools/set-site-origin.js && (node tools/enrich-images.js || echo 'enrich skipped') && node tools/sync-function-data.js"
 
 # ════════════════════════════════════════════════════════════════════════════
 # SMO/P0 — SEO-ক্রিটিক্যাল রুট এখন সার্ভার-রেন্ডার হয় (সঠিক OG ট্যাগসহ)

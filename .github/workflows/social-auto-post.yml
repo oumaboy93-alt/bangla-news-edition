@@ -48,8 +48,11 @@ jobs:
           # পোস্টার নিজের /api/config থেকেই প্রকাশিত সংবাদ বেছে নেয়।
           META_API_BASE: ${{ secrets.META_API_BASE || 'https://bne.147-224-13-31.nip.io' }}
           QUEUE_TOKEN: ${{ secrets.QUEUE_TOKEN }}
-          # নিজস্ব সংবাদ কোথা থেকে: oracle (ডিফল্ট) | local (রিপোর ফাইল)
-          OWN_SOURCE: oracle
+          # ★ নিজস্ব সংবাদ কোথা থেকে: local (ডিফল্ট) | oracle ★
+          # local = রিপোর data/bne-config.json। এটিই সঠিক, কারণ
+          # tools/enrich-images.js সংবাদের ছবি বসায় এই ফাইলেই — Oracle-এর
+          # ডেটায় কোনো ছবি নেই। Oracle থেকে পড়লে পোস্টে ছবি আসত না।
+          OWN_SOURCE: local
           # পুরনো আর্কাইভ একবারে পোস্ট হয়ে স্প্যাম ঠেকাতে সময়-সীমা (ঘণ্টা)
           MAX_AGE_HOURS: '48'
           # ডিফল্ট "api" — বাহ্যিক RSS বন্ধ। ইচ্ছাকৃতভাবে অন্যের খবর পোস্ট

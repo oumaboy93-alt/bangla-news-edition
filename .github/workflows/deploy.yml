@@ -55,6 +55,8 @@ jobs:
           fi
           # সাইটের ঠিকানা সব ফাইলে বসানো (canonical, og:url, gn-feed, টুল-ডিফল্ট)
           node tools/set-site-origin.js
+          # প্রতি সংবাদের সাথে সামঞ্জস্যপূর্ণ ছবি (ব্যর্থ হলেও থামে না)
+          node tools/enrich-images.js || echo "::warning::ছবি সমৃদ্ধকরণ ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
           node tools/sync-function-data.js
           npm install -g netlify-cli
           netlify deploy --prod --no-build --dir . --site "$NETLIFY_SITE_ID"
