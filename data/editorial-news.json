@@ -10,7 +10,10 @@
       "image": "images/bot/বাংলা-নিউজ-এডিশন-বাংলার-মানুষের-কথা-muhdwiac.jpg",
       "link": "",
       "editorial": true,
-      "createdAt": "2026-09-25T19:59:39.059Z"
+      "createdAt": "2026-09-25T19:59:39.059Z",
+      "slot": "home_top",
+      "enabled": true,
+      "type": "image"
     }
   ]
 }

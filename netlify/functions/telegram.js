@@ -151,6 +151,77 @@ async function viewAds(chatId, site) {
   return send(chatId, lines.join('\n'), kb);
 }
 
+/* ══════════════════════════════════════════════════════════════════════
+   ★ বিজ্ঞাপন কোথায় বসবে — স্লট নির্বাচন ★
+   ──────────────────────────────────────────────────────────────────────
+   ব্যবহারকারীর বানানো বিজ্ঞাপন সাইটে দেখাচ্ছিল না। কারণ লাইভ যাচাইয়ে
+   ধরা পড়ল: বিজ্ঞাপনে `slot` ঘরটি ছিলই না, অথচ সাইট কেবল নির্দিষ্ট স্লট
+   মিলিয়ে বিজ্ঞাপন বসায় (`a.slot === slot`)। slot ছাড়া বিজ্ঞাপন কোথাও
+   বসে না — অর্থাৎ ব্যবহারকারীর পরিশ্রম বৃথা যায়।
+
+   এখন বিজ্ঞাপন বানানোর সময়েই জায়গা বেছে নিতে বলা হয়, এবং `enabled: true`
+   ও `type: 'image'` স্পষ্টভাবে লেখা হয় (আগে কিছুই লেখা হত না, ফলে
+   ভবিষ্যতে অনুমানের উপর নির্ভর করতে হত)। */
+const AD_SLOTS = [
+  ['home_top', '🏠 হোমপেজ — উপরে (সবচেয়ে বেশি দেখা যায়)'],
+  ['home_middle', '🏠 হোমপেজ — মাঝখানে'],
+  ['article_bottom', '📰 সংবাদের পাতায় — নিচে'],
+  ['article_sidebar', '📰 সংবাদের পাতায় — পাশে'],
+  ['probashi_hub', '🌍 প্রবাসী বিভাগ — প্রধান'],
+  ['probashi_top', '🌍 প্রবাসী বিভাগ — উপরে'],
+];
+
+async function askAdSlot(chatId, draft) {
+  await S.setChat(chatId, { mode: 'await_ad_slot', draft });
+  const kb = AD_SLOTS.map(([slot, label]) => ([{ text: label, callback_data: `adslot:${slot}` }]));
+  kb.push([{ text: '🗑️ বাতিল', callback_data: 'drop' }]);
+  return send(chatId,
+    '🎯 <b>বিজ্ঞাপনটি কোথায় দেখাবে?</b>\n\n' +
+    `📝 <b>${L.esc(String(draft.title).slice(0, 60))}</b>\n` +
+    `${draft.imageRel ? '🖼️ ছবি যুক্ত হয়েছে ✅' : '🖼️ ছবি নেই'}\n\n` +
+    '<i>নিচের যেকোনো একটি বেছে নিন।</i>', kb);
+}
+
+/* বিজ্ঞাপন সংরক্ষণ — স্লট বেছে নেওয়ার পর */
+async function saveNewAd(chatId, slot, chat) {
+  const d = chat.draft;
+  if (!d) return send(chatId, '⚠️ বিজ্ঞাপনের তথ্য পাওয়া যায়নি — আবার শুরু করুন।', MENU);
+  try {
+    const ed = await S.getEditorial();
+    ed.ads = Array.isArray(ed.ads) ? ed.ads : [];
+    const entry = {
+      id: `ad-${Date.now()}`,
+      title: d.title,
+      body: d.body || d.summary || d.title,
+      image: d.imageRel || '',
+      link: d.link || '',
+      slot,
+      enabled: true,             /* স্পষ্টভাবে চালু — নইলে সাইটে বসার অনিশ্চয়তা থাকে */
+      type: 'image',
+      editorial: true,
+      createdAt: new Date().toISOString(),
+    };
+    ed.ads.unshift(entry);
+    await S.saveEditorial(ed, `feat(bot): নতুন বিজ্ঞাপন "${String(d.title).slice(0, 45)}"`);
+
+    let dispatched = false;
+    try { await S.dispatchWorkflow('deploy.yml'); dispatched = true; } catch (e) { /* পরের ক্রনে হবে */ }
+
+    await S.setChat(chatId, { mode: null, draft: null });
+    const label = (AD_SLOTS.find((x) => x[0] === slot) || [slot, slot])[1];
+    return send(chatId,
+      '✅ <b>বিজ্ঞাপন যুক্ত হলো!</b>\n\n' +
+      `📝 <b>${L.esc(String(d.title).slice(0, 60))}</b>\n` +
+      `📍 ${L.esc(label)}\n` +
+      `${entry.image ? '🖼️ ছবিসহ\n' : ''}` +
+      '📊 অবস্থা: ✅ চালু\n\n' +
+      (dispatched ? '🔄 সাইটে বসতে ২–৫ মিনিট লাগবে।' : '🔄 স্বয়ংক্রিয়ভাবে হালনাগাদ শুরু হয়েছে।'),
+      [[{ text: '🎯 বিজ্ঞাপন তালিকা', callback_data: 'ads' }, { text: '⬅️ মেনু', callback_data: 'menu' }]]);
+  } catch (e) {
+    return send(chatId, `⚠️ বিজ্ঞাপন সংরক্ষণ করা যায়নি: ${L.esc(e.message)}`, MENU);
+  }
+}
+
 async function viewAdDetail(chatId, site, idx) {
   const a = L.adList(site)[idx];
   if (!a) return send(chatId, '⚠️ ওই নম্বরের বিজ্ঞাপন পাওয়া যায়নি।', MENU);
@@ -381,6 +452,12 @@ async function handleAction(chatId, action, site) {
     case 'daily':
       return viewDaily(chatId, site);
 
+    case 'adslot': {
+      const slot = action.split(':')[1];
+      const chat = await S.getChat(chatId);
+      return saveNewAd(chatId, slot, chat);
+    }
+
     case 'adtoggle': {
       const s = site || await L.loadSite();
       const a = L.adList(s)[parseInt(action.split(':')[1], 10)];
@@ -571,9 +648,12 @@ async function handleMessage(msg, site) {
       title: composed.title, summary: composed.summary, body: composed.body,
       category: kind === 'ad' ? 'বিজ্ঞাপন' : composed.category, kind, imageRel,
     };
-    await S.setChat(chatId, { mode: null, draft });
 
-    if (kind === 'news' && imageRel && (await S.getSetting('autoPublish', false)) === true) {
+    /* বিজ্ঞাপন হলে আগে জায়গা (স্লট) জিজ্ঞাসা করা হয় — নইলে সাইটে বসবে না */
+    if (kind === 'ad') return askAdSlot(chatId, draft);
+
+    await S.setChat(chatId, { mode: null, draft });
+    if (imageRel && (await S.getSetting('autoPublish', false)) === true) {
       return publishDraft(chatId, { draft });
     }
     return showDraft(chatId, { draft });
