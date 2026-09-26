@@ -139,12 +139,12 @@
     "8583398970": {
       "mode": null,
       "draft": {
-        "title": "ছবির সাথে পাঠানো সংবাদ",
-        "summary": "ছবির সাথে পাঠানো সংবাদ",
-        "body": "ছবির সাথে পাঠানো সংবাদ",
+        "title": "দেখা কেমন হবে",
+        "summary": "দেখা কেমন হবে",
+        "body": "দেখা কেমন হবে",
         "category": "জাতীয়",
         "kind": "news",
-        "imageRel": "https://api.telegram.org/file/bot8955186252:AAHcgWSiJZINzIYErQ2Wnc4pzV6ken5M6RA/photos/file_2.jpg"
+        "imageRel": ""
       }
     }
   },
