@@ -152,11 +152,8 @@
     "settings": {}
   },
   "sha": null,
-  "chats": {
-    "8583398970": {
-      "mode": "await_details",
-      "kind": "news"
-    }
-  },
-  "settings": {}
+  "settings": {
+    "lastSyncAt": 1790384442857,
+    "lastPosterAt": 1790384442857
+  }
 }
