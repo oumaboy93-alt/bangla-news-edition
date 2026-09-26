@@ -12,5 +12,11 @@
   "settings": {
     "lastSyncAt": 1790385318006,
     "lastPosterAt": 1790385318006
+  },
+  "chats": {
+    "8583398970": {
+      "mode": null,
+      "draft": null
+    }
   }
 }
