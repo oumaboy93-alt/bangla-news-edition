@@ -49,10 +49,21 @@ async function tg(method, payload) {
     return { ok: false, error: e.message };
   }
 }
-const send = (chatId, text, kb) => tg('sendMessage', Object.assign(
-  { chat_id: chatId, text, parse_mode: 'HTML', disable_web_page_preview: false },
-  kb ? { reply_markup: { inline_keyboard: kb } } : {}
-));
+/* ── মেনু-স্প্যাম কমানো ─────────────────────────────────────────────────
+   আগে প্রতিটি উত্তরের সাথেই পুরো মেনু ও নির্দেশ আবার যেত — কথোপকথন তাই
+   জটিল দেখাত। এখন একই মেনু ১৫ মিনিটে একবারই যায়; বাকি সময় কেবল ফলাফল।
+   মেনু আবার চাইলে: /start অথবা "⬅️ মেনু" বোতাম। */
+let MENU_SENT_AT = 0;
+async function send(chatId, text, kb) {
+  if (kb === MENU) {
+    if (Date.now() - MENU_SENT_AT < 15 * 60 * 1000) kb = null;
+    else MENU_SENT_AT = Date.now();
+  }
+  return tg('sendMessage', Object.assign(
+    { chat_id: chatId, text, parse_mode: 'HTML', disable_web_page_preview: false },
+    kb ? { reply_markup: { inline_keyboard: kb } } : {}
+  ));
+}
 
 /* ── মেনু ─────────────────────────────────────────────────────────────── */
 const MENU = [
@@ -642,6 +653,8 @@ async function handleMessage(msg, site) {
     const kind = chat.kind || 'news';
     let imageRel = '';
     if (imageInfo) imageRel = await telegramFileUrl(imageInfo.fileId).catch(() => '');
+    /* আগে শুধু ছবি পাঠানো হলে সেটি এখানে কাজে লাগানো হয় — আবার পাঠাতে হয় না */
+    else if (chat.pendingImage) imageRel = await telegramFileUrl(chat.pendingImage).catch(() => '');
 
     const composed = composeFromText(text);
     const draft = {
@@ -652,7 +665,7 @@ async function handleMessage(msg, site) {
     /* বিজ্ঞাপন হলে আগে জায়গা (স্লট) জিজ্ঞাসা করা হয় — নইলে সাইটে বসবে না */
     if (kind === 'ad') return askAdSlot(chatId, draft);
 
-    await S.setChat(chatId, { mode: null, draft });
+    await S.setChat(chatId, { mode: null, draft, pendingImage: null });
     if (imageRel && (await S.getSetting('autoPublish', false)) === true) {
       return publishDraft(chatId, { draft });
     }
@@ -758,9 +771,29 @@ async function handleMessage(msg, site) {
         const kind = 'news';
         let imageRel = '';
         if (imageInfo) imageRel = await telegramFileUrl(imageInfo.fileId).catch(() => '');
-        const composed = composeFromText(text || 'ছবির সাথে পাঠানো সংবাদ');
+
+        /* বটের নিজের বার্তা কপি করে পাঠানো হলে সেটাকে খবর ভাবা উচিত নয় —
+           আগে এভাবেই "দেখা কেমন হবে" জাতীয় ভুয়া শিরোনাম তৈরি হয়েছিল */
+        if (text && (/খসড়া প্রস্তুত|প্রকাশ করার মতো খসড়া|এখন কার্সেলে যে খবরগুলো/.test(text)
+            || /^(📋|📊|📰|📤|🎯|📦|🏠)/.test(String(text).trim()))) {
+          return send(chatId, '🙂 এটি বটের নিজের বার্তা মনে হচ্ছে — এটা খবর হিসেবে নেওয়া যাবে না।\n\n' +
+            'সংবাদের তথ্য সোজা বাংলায় লিখে পাঠান — ঘটনা, স্থান, কারা জড়িত।');
+        }
+
+        /* ছবি এসেছে কিন্তু কোনো লেখা নেই → ভুয়া শিরোনামে খসড়া নয়;
+           সোজা লেখাটা চেয়ে নেওয়া হয় (আগে "ছবির সাথে পাঠানো সংবাদ" বসে যেত) */
+        if (!text && imageInfo) {
+          await S.setChat(chatId, { mode: 'await_details', kind: 'news', pendingImage: imageInfo.fileId });
+          return send(chatId, '📷 ছবি পেয়েছি ✅\n\nএখন <b>সংবাদের লেখাটা</b> পাঠান — পাঠালেই প্রিভিউ আসবে, তারপর এক চাপে প্রকাশ।');
+        }
+        if (!text) {
+          return send(chatId, '✍️ সংবাদের তথ্য লিখে পাঠান — ঘটনা, স্থান, কারা জড়িত।\n' +
+            'চাইলে একই মেসেজে ছবিও দিন।');
+        }
+
+        const composed = composeFromText(text);
         const draft = { title: composed.title, summary: composed.summary, body: composed.body, category: composed.category, kind, imageRel };
-        await S.setChat(chatId, { mode: null, draft });
+        await S.setChat(chatId, { mode: null, draft, pendingImage: null });
         if (imageRel && (await S.getSetting('autoPublish', false)) === true) {
           return publishDraft(chatId, { draft });
         }
