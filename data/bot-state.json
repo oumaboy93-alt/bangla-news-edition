@@ -137,8 +137,15 @@
   "sha": null,
   "chats": {
     "8583398970": {
-      "mode": "await_details",
-      "kind": "news"
+      "mode": null,
+      "draft": {
+        "title": "ছবির সাথে পাঠানো সংবাদ",
+        "summary": "ছবির সাথে পাঠানো সংবাদ",
+        "body": "ছবির সাথে পাঠানো সংবাদ",
+        "category": "জাতীয়",
+        "kind": "news",
+        "imageRel": "https://api.telegram.org/file/bot8955186252:AAHcgWSiJZINzIYErQ2Wnc4pzV6ken5M6RA/photos/file_2.jpg"
+      }
     }
   },
   "settings": {}
