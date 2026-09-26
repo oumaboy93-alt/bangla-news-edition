@@ -39,8 +39,8 @@
   "sha": null,
   "chats": {
     "8583398970": {
-      "mode": null,
-      "draft": null
+      "mode": "await_details",
+      "kind": "news"
     }
   },
   "settings": {}
