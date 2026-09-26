@@ -17,38 +17,48 @@
                                 "content": {
                                   "content": {
                                     "content": {
+                                      "content": {
+                                        "chats": {
+                                          "8583398970": {
+                                            "recs": [],
+                                            "mode": null
+                                          }
+                                        },
+                                        "settings": {}
+                                      },
+                                      "sha": null,
+                                      "settings": {
+                                        "lastSyncAt": 1790385318006,
+                                        "lastPosterAt": 1790385318006
+                                      },
                                       "chats": {
                                         "8583398970": {
-                                          "recs": [],
-                                          "mode": null
+                                          "mode": null,
+                                          "draft": null,
+                                          "pendingImage": null
                                         }
-                                      },
-                                      "settings": {}
+                                      }
                                     },
                                     "sha": null,
                                     "settings": {
-                                      "lastSyncAt": 1790385318006,
-                                      "lastPosterAt": 1790385318006
-                                    },
-                                    "chats": {
-                                      "8583398970": {
-                                        "mode": null,
-                                        "draft": null,
-                                        "pendingImage": null
-                                      }
+                                      "lastSyncAt": 1790386227381,
+                                      "lastPosterAt": 1790386227381
                                     }
                                   },
                                   "sha": null,
                                   "settings": {
-                                    "lastSyncAt": 1790386227381,
-                                    "lastPosterAt": 1790386227381
+                                    "lastSyncAt": 1790387117060,
+                                    "lastPosterAt": 1790387117060
                                   }
                                 },
                                 "sha": null,
-                                "settings": {
-                                  "lastSyncAt": 1790387117060,
-                                  "lastPosterAt": 1790387117060
-                                }
+                                "chats": {
+                                  "8583398970": {
+                                    "mode": "await_details",
+                                    "kind": "news"
+                                  }
+                                },
+                                "settings": {}
                               },
                               "sha": null,
                               "chats": {
@@ -60,93 +70,90 @@
                               "settings": {}
                             },
                             "sha": null,
-                            "chats": {
-                              "8583398970": {
-                                "mode": "await_details",
-                                "kind": "news"
-                              }
-                            },
-                            "settings": {}
+                            "settings": {
+                              "lastSyncAt": 1790388045692,
+                              "lastPosterAt": 1790388045692
+                            }
                           },
                           "sha": null,
                           "settings": {
-                            "lastSyncAt": 1790388045692,
-                            "lastPosterAt": 1790388045692
+                            "lastSyncAt": 1790388918791,
+                            "lastPosterAt": 1790388918791
                           }
                         },
                         "sha": null,
                         "settings": {
-                          "lastSyncAt": 1790388918791,
-                          "lastPosterAt": 1790388918791
+                          "lastSyncAt": 1790389826749,
+                          "lastPosterAt": 1790389826749
                         }
                       },
                       "sha": null,
                       "settings": {
-                        "lastSyncAt": 1790389826749,
-                        "lastPosterAt": 1790389826749
+                        "lastSyncAt": 1790390716615,
+                        "lastPosterAt": 1790390716615
                       }
                     },
                     "sha": null,
                     "settings": {
-                      "lastSyncAt": 1790390716615,
-                      "lastPosterAt": 1790390716615
+                      "lastSyncAt": 1790391645670,
+                      "lastPosterAt": 1790391645670,
+                      "lastDailyReportDate": "2026-9-26"
                     }
                   },
                   "sha": null,
                   "settings": {
-                    "lastSyncAt": 1790391645670,
-                    "lastPosterAt": 1790391645670,
+                    "lastSyncAt": 1790392518421,
+                    "lastPosterAt": 1790392518421,
                     "lastDailyReportDate": "2026-9-26"
                   }
                 },
                 "sha": null,
                 "settings": {
-                  "lastSyncAt": 1790392518421,
-                  "lastPosterAt": 1790392518421,
+                  "lastSyncAt": 1790393428017,
+                  "lastPosterAt": 1790393428017,
                   "lastDailyReportDate": "2026-9-26"
                 }
               },
               "sha": null,
               "settings": {
-                "lastSyncAt": 1790393428017,
-                "lastPosterAt": 1790393428017,
+                "lastSyncAt": 1790394316403,
+                "lastPosterAt": 1790394316403,
                 "lastDailyReportDate": "2026-9-26"
               }
             },
             "sha": null,
             "settings": {
-              "lastSyncAt": 1790394316403,
-              "lastPosterAt": 1790394316403,
-              "lastDailyReportDate": "2026-9-26"
+              "lastSyncAt": 1790395244926,
+              "lastPosterAt": 1790395244926
             }
           },
           "sha": null,
           "settings": {
-            "lastSyncAt": 1790395244926,
-            "lastPosterAt": 1790395244926
+            "lastSyncAt": 1790396118221,
+            "lastPosterAt": 1790396118221
           }
         },
         "sha": null,
         "settings": {
-          "lastSyncAt": 1790396118221,
-          "lastPosterAt": 1790396118221
+          "lastSyncAt": 1790397025954,
+          "lastPosterAt": 1790397025954
         }
       },
       "sha": null,
       "settings": {
-        "lastSyncAt": 1790397025954,
-        "lastPosterAt": 1790397025954
+        "lastSyncAt": 1790397915847,
+        "lastPosterAt": 1790397915847
       }
     },
     "sha": null,
     "settings": {
-      "lastSyncAt": 1790397915847,
-      "lastPosterAt": 1790397915847
+      "lastSyncAt": 1790398841657,
+      "lastPosterAt": 1790398841657
     }
   },
   "sha": null,
   "settings": {
-    "lastSyncAt": 1790398841657,
-    "lastPosterAt": 1790398841657
+    "lastSyncAt": 1790399716932,
+    "lastPosterAt": 1790399716932
   }
 }
