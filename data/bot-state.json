@@ -5,38 +5,48 @@
         "content": {
           "content": {
             "content": {
+              "content": {
+                "chats": {
+                  "8583398970": {
+                    "recs": [],
+                    "mode": null
+                  }
+                },
+                "settings": {}
+              },
+              "sha": null,
+              "settings": {
+                "lastSyncAt": 1790385318006,
+                "lastPosterAt": 1790385318006
+              },
               "chats": {
                 "8583398970": {
-                  "recs": [],
-                  "mode": null
+                  "mode": null,
+                  "draft": null,
+                  "pendingImage": null
                 }
-              },
-              "settings": {}
+              }
             },
             "sha": null,
             "settings": {
-              "lastSyncAt": 1790385318006,
-              "lastPosterAt": 1790385318006
-            },
-            "chats": {
-              "8583398970": {
-                "mode": null,
-                "draft": null,
-                "pendingImage": null
-              }
+              "lastSyncAt": 1790386227381,
+              "lastPosterAt": 1790386227381
             }
           },
           "sha": null,
           "settings": {
-            "lastSyncAt": 1790386227381,
-            "lastPosterAt": 1790386227381
+            "lastSyncAt": 1790387117060,
+            "lastPosterAt": 1790387117060
           }
         },
         "sha": null,
-        "settings": {
-          "lastSyncAt": 1790387117060,
-          "lastPosterAt": 1790387117060
-        }
+        "chats": {
+          "8583398970": {
+            "mode": "await_details",
+            "kind": "news"
+          }
+        },
+        "settings": {}
       },
       "sha": null,
       "chats": {
@@ -48,17 +58,14 @@
       "settings": {}
     },
     "sha": null,
-    "chats": {
-      "8583398970": {
-        "mode": "await_details",
-        "kind": "news"
-      }
-    },
-    "settings": {}
+    "settings": {
+      "lastSyncAt": 1790388045692,
+      "lastPosterAt": 1790388045692
+    }
   },
   "sha": null,
   "settings": {
-    "lastSyncAt": 1790388045692,
-    "lastPosterAt": 1790388045692
+    "lastSyncAt": 1790388918791,
+    "lastPosterAt": 1790388918791
   }
 }
