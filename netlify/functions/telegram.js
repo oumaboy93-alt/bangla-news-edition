@@ -707,7 +707,16 @@ async function handleMessage(msg, site) {
     const s = site || await L.loadSite();
     const wordCount = String(text || '').trim().split(/\s+/).filter(Boolean).length;
     let intent = parsed.intent;
-    if (wordCount > 15 && !L.STRONG.includes(intent)) intent = imageInfo ? 'news_text' : 'chat';
+    /* ★ সহজ করার মূল সংশোধন ★
+       আগের নিয়ম ছিল — ছবি ছাড়া লম্বা লেখা এলে সেটিকে "প্রশ্ন" ধরে নেওয়া
+       হতো, ফলে সংবাদ হিসেবে খসড়া হতো না। ব্যবহারকারী তখন বুঝতেই পারতেন না
+       কেন কিছু হচ্ছে না। এখন: লম্বা লেখা যদি স্পষ্ট প্রশ্ন না হয়, তবে সেটি
+       সংবাদ হিসেবেই ধরা হয় — ছবি থাকুক বা না থাকুক। */
+    if (wordCount > 15 && !L.STRONG.includes(intent)) {
+      const looksQuestion = /[?？]/.test(String(text || ''))
+        || /(কী|কি\b|কেন|কেমন|কত|কোথায়|কখন|কীভাবে|কিভাবে|করব|উচিত|হবে কি|বলুন)/.test(String(text || ''));
+      intent = (imageInfo || !looksQuestion) ? 'news_text' : 'chat';
+    }
     if (imageInfo && !L.STRONG.includes(intent) && intent !== 'chat') intent = 'news_text';
 
     switch (intent) {
