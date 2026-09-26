@@ -59,6 +59,29 @@ async function loadData() {
   return BUNDLED || { editorNews: [] };
 }
 
+/* ── Analytics ও বিজ্ঞাপনের ট্যাগ (সংবাদ পাতার জন্য) ──────────────────
+   লাইভ সাইটের CDN-পরিবেশিত পাতাগুলোয় (হোম, বিভাগ, ডেস্ক) Netlify-র
+   snippet injection দিয়ে GA4 ও AdSense বসানো আছে। কিন্তু সংবাদ পাতাগুলো
+   এই ফাংশন থেকে আসে — স্নিপেট injection ফাংশনের উত্তরে খাটে না।
+   তাই সংবাদ পাতার পরিমাপ ও বিজ্ঞাপন নিশ্চিত করতে এখানেই ট্যাগ বসানো হচ্ছে।
+   আইডি দুটি সর্বজনীন (পাতার source-এই থাকে), তাই কঠিনভাবে বসানো নিরাপদ;
+   চাইলে env দিয়ে বদলানো যাবে: BNE_GA4_ID · BNE_ADSENSE_CLIENT
+   ─────────────────────────────────────────────────────────────────── */
+const GA4_ID = process.env.BNE_GA4_ID || 'G-3X2CF2KWH';
+const ADSENSE_CLIENT = process.env.BNE_ADSENSE_CLIENT || 'ca-pub-8292591084993652';
+
+function analyticsTags() {
+  const out = [];
+  if (/^G-[A-Z0-9]{6,14}$/.test(GA4_ID)) {
+    out.push(`<script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA4_ID}');</script>`);
+  }
+  if (/^ca-pub-[0-9]{8,20}$/.test(ADSENSE_CLIENT)) {
+    out.push(`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}" crossorigin="anonymous"></script>`);
+  }
+  return out.join('\n');
+}
+
 function shell(bodyHtml, headTags) {
   return `<!doctype html>
 <html lang="bn">
@@ -66,6 +89,7 @@ function shell(bodyHtml, headTags) {
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ${headTags}
+${analyticsTags()}
 <link rel="stylesheet" href="/style.css" />
 <link rel="stylesheet" href="/ssr.css" />
 </head>
