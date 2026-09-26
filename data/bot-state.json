@@ -30,11 +30,8 @@
     }
   },
   "sha": null,
-  "chats": {
-    "8583398970": {
-      "mode": "await_details",
-      "kind": "news"
-    }
-  },
-  "settings": {}
+  "settings": {
+    "lastSyncAt": 1790387117060,
+    "lastPosterAt": 1790387117060
+  }
 }
