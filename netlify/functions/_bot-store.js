@@ -82,8 +82,22 @@ async function writeFile(path, content, message) {
 }
 
 /* ── বটের অবস্থা (খসড়া, সেটিং) ──────────────────────────────────────── */
+/* ⚠️ readFile() রিটার্ন করে { content, sha } মোড়ক — ফাইলের ভেতরের ডেটা নয়।
+   আগে getState() মোড়কটাই ফিরিয়ে দিত, ফলে st.chats সবসময় ফাঁকা হতো:
+   → খসড়া কখনো মনে থাকত না → প্রিভিউয়ের পর "প্রকাশ করুন" চাপলে
+     "প্রকাশ করার মতো খসড়া নেই" আসত, আর অটো-প্রকাশও কখনো চালু হতো না।
+   এখন মোড়ক খুলে আসল অবস্থা ফেরানো হচ্ছে। */
 async function getState() {
-  try { return await readFile(BK.state); } catch (e) { return { chats: {}, settings: {} }; }
+  try {
+    const f = await readFile(BK.state) || {};
+    const st = f.content || {};
+    /* পুরনো কোড মোড়কের গায়ে chats/settings লিখে রেখেছিল — সেগুলো যেন হারিয়ে না যায় */
+    if (!st.chats && f.chats) st.chats = f.chats;
+    if (!st.settings && f.settings) st.settings = f.settings;
+    st.chats = st.chats || {};
+    st.settings = st.settings || {};
+    return st;
+  } catch (e) { return { chats: {}, settings: {} }; }
 }
 
 /** আংশিক পরিবর্তন — পড়ে, মিলিয়ে, লিখে */
@@ -121,7 +135,11 @@ async function setSetting(key, value) {
 /* ── সম্পাদকীয় ভাণ্ডার (সংবাদ, বিজ্ঞাপন, override) ───────────────────── */
 async function getEditorial() {
   try {
-    const d = await readFile(BK.editorial);
+    const f = await readFile(BK.editorial) || {};
+    const d = f.content || f;                       /* মোড়ক থাকলে খুলে নেওয়া */
+    if (!Array.isArray(d.news) && Array.isArray(f.news)) d.news = f.news;
+    if (!Array.isArray(d.ads) && Array.isArray(f.ads)) d.ads = f.ads;
+    if (!d.adOverrides && f.adOverrides) d.adOverrides = f.adOverrides;
     d.news = Array.isArray(d.news) ? d.news : [];
     d.ads = Array.isArray(d.ads) ? d.ads : [];
     d.adOverrides = (d.adOverrides && typeof d.adOverrides === 'object') ? d.adOverrides : {};
