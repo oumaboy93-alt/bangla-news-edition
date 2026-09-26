@@ -864,6 +864,34 @@ async function runAutoPost() {
       ? news
       : news.filter((n) => !postedLinks.has(n.link));
 
+    /* ★ একই ঘটনা দুই সোর্সে — একবারই পোস্ট হবে ★
+       আগে কেবল হুবহু লিঙ্ক মিললেই ডুপ্লিকেট ধরা হত। তাই একই ঘটনা দুই সংবাদমাধ্যমে
+       আসলে দুইবার পোস্ট যেত — যেমন "ডেঙ্গুতে 25 দিনে 114 মৃত্যু" আর
+       "সেপ্টেম্বরের 25 দিনে ডেঙ্গুতে 114 মৃত্যু"। এখন শিরোনামের শব্দ-মিল দেখে
+       কাছাকাছি খবর বাদ দেওয়া হয়। */
+    const titleWords = (s) => String(s || '')
+      .replace(/[^\u0980-\u09FF\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 2);
+    const tooClose = (a, b) => {
+      const A = new Set(titleWords(a));
+      const B = new Set(titleWords(b));
+      if (!A.size || !B.size) return false;
+      let hit = 0;
+      for (const w of A) if (B.has(w)) hit++;
+      return hit / Math.min(A.size, B.size) >= 0.6;
+    };
+    if (!FORCE_MODE) {
+      const recentTitles = posted.slice(0, 160).map((p) => p.title || '').filter(Boolean);
+      const kept = [];
+      fresh = fresh.filter((n) => {
+        if (recentTitles.some((t) => tooClose(t, n.title))) return false;   /* আগে পোস্ট হয়েছে */
+        if (kept.some((t) => tooClose(t, n.title))) return false;           /* এই রানেই আগে নেওয়া হয়েছে */
+        kept.push(n.title);
+        return true;
+      });
+    }
+
     console.log(`📰 মোট ${news.length}টি সংবাদ পাওয়া গেছে, নতুন ${fresh.length}টি`);
     fresh = fresh.slice(0, MAX_POSTS_PER_RUN);
     if (!fresh.length) {
@@ -872,6 +900,16 @@ async function runAutoPost() {
     }
 
     /* ৪. প্রতিটি নতুন খবর → টেলিগ্রাম + ফেসবুক (প্রিভিউসহ) */
+    /* ★ ব্রেকিং লেবেল এখন শর্তসাপেক্ষ ★
+       আগে 25টি পোস্টের 24টিতেই "[BREAKING]" লেখা থাকত —
+       সব খবর ব্রেকিং হলে কোনোটাই ব্রেকিং থাকে না। এখন কেবল
+       সাম্প্রতিক (২ ঘন্টার ভিতরে) ও গুরুত্বপূর্ণ ঘটনায় এটি বসে। */
+    const isBreaking = (n) => {
+      const mins = (Date.now() - Number(n.ts || 0)) / 60000;
+      if (!(mins >= 0 && mins <= 120)) return false;
+      return /নিহত|মৃত্যু|মৃত|লাশ|দুর্ঘটনা|অগ্নিকাণ্ড|বিস্ফোরণ|ভূমিকম্প|হামলা|গুলি|নিখোঁজ|ভেঙ্গে|জরুরি|মাসক|বন্ধ ঘোষনা|বাতিল/.test(String(n.title || ''));
+    };
+
     let postedCount = 0;
     for (const n of fresh) {
       console.log(`\n📌 পোস্ট হচ্ছে: "${n.title}"`);
@@ -887,7 +925,7 @@ async function runAutoPost() {
       const tags = buildHashtags(n);
 
       const caption =
-        `💥 <b>[ব্রেকিং নিউজ]</b>\n\n` +
+        (isBreaking(n) ? `💥 <b>[ব্রেকিং নিউজ]</b>\n\n` : '') +
         `📰 <b>${escHtml(n.title)}</b>\n\n` +
         `${escHtml(n.summary)}...\n\n` +
         `🔗 <b>বিস্তারিত পড়তে নিচের কার্ডে ক্লিক করুন</b>` +
@@ -898,7 +936,7 @@ async function runAutoPost() {
       /* ফেসবুকের বার্তা — লিংকটি `link` প্যারামিটারেই যায়, তাই লেখায়
          আলাদা করে URL দেখানোর দরকার নেই। শেষে হ্যাশট্যাগ যোগ করা হয় যাতে
          Facebook-এর অ্যালগরিদম খবরটি সম্পর্কিত পাঠকদের কাছে পৌঁছে দেয়। */
-      const fbMessage = `💥 [ব্রেকিং নিউজ] ${n.title}\n\n${n.summary}...` +
+      const fbMessage = `${isBreaking(n) ? '💥 [ব্রেকিং নিউজ] ' : ''}${n.title}\n\n${n.summary}...` +
         (tags ? `\n\n${tags}` : '');
 
       /* টেলিগ্রাম — প্রিভিউ কার্ডে ক্লিক করলেই সরাসরি পোর্টালে যায়।

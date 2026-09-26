@@ -328,6 +328,44 @@ async function fetchFeedImages() {
 const VERIFY_UA = 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)';
 const verifyCache = new Map();
 
+/* ── ★ সোর্স পাতার নিজের og:image ★ ────────────────────
+   কেন: কনফিগে বরাবরই মূল সংবাদের লিঙ্ক থাকত না, তাই ছবি-অনুসন্ধান কেবল
+   কয়েকটি ফিডে শিরোনামের হুবহু মিল খুঁজত। মিল না পেলে বিভাগীয় জেনেরিক
+   ছবিতে পড়ে যেত — ফলে 63% খবরে একই 8টি ছবি ঘুরত।
+   এখন কনফিগে sourceUrl থাকে। */
+async function ogImageFromSource(sourceUrl) {
+  if (!sourceUrl || !/^https?:\/\//i.test(String(sourceUrl))) return '';
+  try {
+    const r = await fetch(String(sourceUrl), {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; BNE-ImageBot/1.0; +https://bangla-news-edition-bd.netlify.app)',
+        'Accept-Language': 'bn,en;q=0.8',
+        Accept: 'text/html,application/xhtml+xml',
+      },
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!r.ok) return '';
+    const html = (await r.text()).slice(0, 400000);
+    const pats = [
+      /<meta[^>]+property=["']og:image:secure_url["'][^>]+content=["']([^"']+)["']/i,
+      /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+      /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+      /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
+      /<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["']/i,
+    ];
+    for (const p of pats) {
+      const m = html.match(p);
+      if (m && m[1]) {
+        let u = String(m[1]).trim().replace(/&amp;/g, '&');
+        if (u.startsWith('//')) u = 'https:' + u;
+        else if (u.startsWith('/')) u = new URL(u, String(sourceUrl)).href;
+        if (/^https?:\/\//i.test(u)) return u;
+      }
+    }
+  } catch (e) { /* চুপচাপ ব্যর্থ — নিচের ধাপে যাওয়া হবে */ }
+  return '';
+}
+
 async function verifyImage(url) {
   if (!/^https:\/\//i.test(url)) return false;
   if (verifyCache.has(url)) return verifyCache.get(url);
@@ -392,6 +430,7 @@ async function main() {
     .sort((x, y) => y.ts - x.ts);
 
   let fromFeed = 0;
+  let fromSource = 0;   /* সোর্স পাতার og:image থেকে পাওয়া */
   let fromCategory = 0;
   let already = 0;
   let rejected = 0;
@@ -432,7 +471,13 @@ async function main() {
       continue;
     }
 
-    let matched = feedMap.get(normTitle(a.title));
+    /* ★ 1) সোর্স পাতার নিজের ছবি — সবার আগে এটিই চেষ্টা করা হয় ★ */
+    let matched = '';
+    if (a.sourceUrl) {
+      const og = await ogImageFromSource(a.sourceUrl);
+      if (og && (noVerify || await verifyImage(og))) { matched = og; fromSource++; }
+    }
+    if (!matched) matched = feedMap.get(normTitle(a.title));
 
     /* হুবহু না মিললে প্রায়-একই শিরোনাম খোঁজা হয় (উঁচু থ্রেশহোল্ড) */
     if (!matched && fuzzyIndex.length) {
@@ -471,6 +516,7 @@ async function main() {
   console.log('');
   console.log(`✅ ছবি সমৃদ্ধকরণ সম্পন্ন — মোট ${news.length}টি সংবাদ`);
   console.log(`   • মূল সংবাদমাধ্যমের আসল ছবি   : ${fromFeed}টি`);
+  console.log(`   • সোর্স পাতার নিজের ছবি (og)  : ${fromSource}টি`);
   console.log(`   • বিভাগ-ভিত্তিক ব্র্যান্ডেড ছবি  : ${fromCategory}টি`);
   console.log(`   • আগেই ঠিক ছিল                : ${already}টি`);
   if (botKept) console.log(`   • অ্যাডমিন বটের পাঠানো (অপরিবর্তিত) : ${botKept}টি`);
