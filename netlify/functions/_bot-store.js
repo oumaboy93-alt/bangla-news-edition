@@ -33,7 +33,31 @@ const BK = {
 
 /* ── ফাইলের বর্তমান অবস্থা (SHA + বিষয়বস্তু) ────────────────────────── */
 async function readFile(path) {
-  /* সর্বজনীন রেপো থেকে সরাসরি পড়া — দ্রুত ও টোকেন-মুক্ত */
+  /* ★ টাটকা পড়া জরুরি ★
+     raw.githubusercontent.com প্রায় ৫ মিনিট পর্যন্ত পুরনো কপি দেয়। এই ক্যাশে
+     থেকেই আসল সমস্যা হয়েছিল: খসড়া সংরক্ষণ হওয়ার পরেও "প্রকাশ করুন" চাপার
+     সময় সেটি খুঁজে পাওয়া যেত না — কারণ পড়া হচ্ছিল ক্যাশে থেকে।
+     তাই টোকেন থাকলে Contents API দিয়ে পড়া হয় (সবসময় টাটকা); ব্যর্থ হলে
+     আগের মতো raw-এ ফিরে যাওয়া হয়। */
+  if (TOKEN) {
+    try {
+      const r = await fetch(`${API}/${path}?ref=${BRANCH}`, {
+        headers: {
+          Authorization: `Bearer ${TOKEN}`,
+          Accept: 'application/vnd.github+json',
+          'User-Agent': 'BNE-Bot',
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (r.ok) {
+        const j = await r.json();
+        const txt = Buffer.from(String(j.content || '').replace(/\n/g, ''), 'base64').toString('utf8');
+        return { content: JSON.parse(txt), sha: j.sha || null };
+      }
+    } catch (e) {
+      /* নিচে raw-এ ফিরে যাওয়া হচ্ছে */
+    }
+  }
   const url = `${RAW}/${path}`;
   const data = await fetchJson(url, 15 * 1000);
   return { content: data, sha: null };
