@@ -16,14 +16,7 @@
   "chats": {
     "8583398970": {
       "mode": null,
-      "draft": {
-        "title": "সরাসরি লেখার পরীক্ষা",
-        "summary": "s",
-        "body": "b",
-        "category": "জাতীয়",
-        "kind": "news",
-        "imageRel": ""
-      }
+      "draft": null
     }
   }
 }
