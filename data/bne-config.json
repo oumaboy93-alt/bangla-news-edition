@@ -1,6 +1,6 @@
 {
-  "version": 115,
-  "updatedAt": "2026-09-30T22:42:32.186Z",
+  "version": 116,
+  "updatedAt": "2026-09-30T22:44:45.342Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "ব্রাহ্মণবাড়িয়ায় সাবেক ইউপি সদস্য ও আ.লীগ নেতা জাহাঙ্গীর আলম গ্রেপ্তার",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "",
       "publishedAt": "2026-09-30T22:36:45.521Z",
       "tags": [
         "বাংলা এডিশন"
