@@ -1,6 +1,6 @@
 {
-  "version": 153,
-  "updatedAt": "2026-10-02T20:59:47.512Z",
+  "version": 154,
+  "updatedAt": "2026-10-02T21:11:00.332Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "নতুন দৃষ্টান্ত স্থাপন করল ভারতের ক্রিকেট বোর্ড",
       "category": "খেলা",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rss946e4256af46a4-1200x630.jpg",
       "publishedAt": "2026-10-02T20:58:54.294Z",
       "tags": [
         "সময় নিউজ"
