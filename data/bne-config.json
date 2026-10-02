@@ -1,6 +1,6 @@
 {
-  "version": 164,
-  "updatedAt": "2026-10-02T23:02:11.577Z",
+  "version": 165,
+  "updatedAt": "2026-10-02T23:12:58.047Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "বাংলাদেশ ট্যুরিস্ট পুলিশে চাকরি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss021395b89ebcb6-1200x630.jpg",
       "publishedAt": "2026-10-02T22:28:54.312Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -969,7 +969,7 @@
       "title": "চাকরি দেবে প্রাইম ব্যাংক, থাকছে না বয়সসীমা",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss961d501e366b31-1200x630.jpg",
       "publishedAt": "2026-10-02T17:43:54.095Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -1065,7 +1065,7 @@
       "title": "প্রিমিয়ার ব্যাংকে চাকরি, বয়স ৪৫ হলেও করা যাবে আবেদন",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssf930a1a96f75b1-1200x630.jpg",
       "publishedAt": "2026-10-02T17:28:54.041Z",
       "tags": [
         "সরকারি দপ্তর"
