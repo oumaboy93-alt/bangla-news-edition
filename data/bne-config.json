@@ -1,6 +1,6 @@
 {
-  "version": 170,
-  "updatedAt": "2026-10-03T00:00:52.170Z",
+  "version": 171,
+  "updatedAt": "2026-10-03T00:09:21.583Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "সন্তান স্মরণে দীর্ঘ নখ রেখে বিশ্বরেকর্ড",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss9601ae1fe9fb1f-1200x630.jpg",
       "publishedAt": "2026-10-02T23:58:54.516Z",
       "tags": [
         "সময় নিউজ"
@@ -73,7 +73,7 @@
       "title": "যুগান্তরকে জেমস: জীবনের অনেক সিদ্ধান্তই ভুল আছে",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "/img/rssa077e6976e9c12-1200x630.jpg",
       "publishedAt": "2026-10-02T23:58:54.493Z",
       "tags": [
         "যুগান্তর"
@@ -137,7 +137,7 @@
       "title": "গুপ্তচরবৃত্তির মামলায় ৭ দিনের রিমান্ডে সেই ভারতীয় নাগরিক",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssa23293e4978322-1200x630.jpg",
       "publishedAt": "2026-10-02T23:28:54.378Z",
       "tags": [
         "যুগান্তর"
