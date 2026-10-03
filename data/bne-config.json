@@ -1,6 +1,6 @@
 {
-  "version": 213,
-  "updatedAt": "2026-10-03T17:10:34.432Z",
+  "version": 214,
+  "updatedAt": "2026-10-03T17:21:46.503Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss657a4535f8329d",
+      "slug": "বোরহানউদ্দিনে-ভূমিদস্যু-ও-চাঁদাবাজদের-উ",
+      "title": "বোরহানউদ্দিনে ভূমিদস্যু ও চাঁদাবাজদের উৎপাত বন্ধের দাবিতে কৃষক সমাবেশ ও বিক্ষোভ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A7%8B%E0%A6%B0%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%93-%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%89.jpg",
+      "publishedAt": "2026-10-03T17:13:55.283Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>আমরা আশা করেছিলাম নতুন বাংলাদেশে জুলুম, নির্যাতন বন্ধ হবে। চরাঞ্চলের কৃষক ও ভূমি মালিকরা স্বস্তির নিঃশ্বাস ফেলবে এবং ভূমিদস্যু ও চাঁদাবাজদের উৎপাত চিরতরে বন্ধ হ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কৃষকদের এই প্রতিবাদ স্থানীয় পর্যায়ে ভূমিদস্যুতার মতো সামাজিক ব্যাধি নির্মূলে প্রশাসনের জরুরি হস্তক্ষেপের দাবি জানায়। সাধারণ মানুষের অধিকার নিশ্চিত করতে স্থানীয়দের ঐক্যবদ্ধ হওয়ার পাশাপাশি আইনি সহায়তা পাওয়ার সুযোগ বাড়ানো এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/536969\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "আমরা আশা করেছিলাম নতুন বাংলাদেশে জুলুম, নির্যাতন বন্ধ হবে। চরাঞ্চলের কৃষক ও ভূমি মালিকরা স্বস্তির নিঃশ্বাস ফেলবে এবং ভূমিদস্যু ও চাঁদাবাজদের উৎপাত চিরতরে বন্ধ হ...",
+      "sourceUrl": "https://daily-bangladesh.com/country/536969",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss340d0a37fd5aac",
+      "slug": "এবার-গ্যাসক্ষেত্রের-পাইপ-কেটে-গ্যাস-চুরি",
+      "title": "এবার গ্যাসক্ষেত্রের পাইপ কেটে গ্যাস চুরির দুঃসাহসিক আয়োজন: বিকট শব্দ, মুহূর্তেই আগুন",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%AA-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF.webp",
+      "publishedAt": "2026-10-03T17:13:55.279Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>ব্রাহ্মণবাড়িয়ার কসবা উপজেলার ভারত সীমান্তবর্তী এলাকার অন্যতম গ্যাসক্ষেত্র সালদা ও বাখরাবাদ গ্যাসক্ষেত্রের জাতীয় গ্যাস সঞ্চালন লাইনে ছিদ্র করে গ্যাস চুরির দুঃসাহসিক চেষ্টা করেছে একটি চোরাই চক্র। তবে গ্যাস লাইনে ছিদ্র করার পর তীব্র গতিতে গ্যাস বের হতে থাকায় বিপাকে পড়ে পিছু হটতে বাধ্য হয় চক্রটির সদস্যর</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জাতীয় গ্যাস সঞ্চালন লাইনে এমন নাশকতা স্থানীয় জনবসতির নিরাপত্তার জন্য চরম হুমকি। এ ধরনের অপতৎপরতা রোধে স্থানীয়দের সতর্ক থাকা এবং সন্দেহজনক কর্মকাণ্ড দেখলে দ্রুত প্রশাসনকে জানানো জরুরি। অবকাঠামো রক্ষায় প্রশাসনিক নজরদারি বাড়ানো এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/972199/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%AA-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "ব্রাহ্মণবাড়িয়ার কসবা উপজেলার ভারত সীমান্তবর্তী এলাকার অন্যতম গ্যাসক্ষেত্র সালদা ও বাখরাবাদ গ্যাসক্ষেত্রের জাতীয় গ্যাস সঞ্চালন লাইনে ছিদ্র করে গ্যাস চুরির দুঃসাহসিক চেষ্টা করেছে একটি চোরাই চক্র। তবে গ্যাস লাইনে ছিদ্র করার পর তীব্র গতিতে গ্যাস বের হতে থাকায় বিপাকে পড়ে পিছু হটতে বাধ্য হয় চক্রটির সদস্যর",
+      "sourceUrl": "https://www.banglatribune.com/country/chitagong/972199/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%AA-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rsse95ddf60218362",
+      "slug": "শাহজালালে-তিন-অভিযানে-মিললো-যা-কিছু",
+      "title": "শাহজালালে তিন অভিযানে মিললো যা কিছু",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%AF%E0%A6%BE-%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81.webp",
+      "publishedAt": "2026-10-03T17:13:55.278Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাজধানীর হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে পৃথক অভিযানে প্রায় ৭৮১ দশমিক ৩ গ্রাম স্বর্ণালংকার, ১০টি মোবাইল ফোন, দুটি ল্যাপটপ ও তিন কার্টন সিগারেট জব্দ করেছে এয়ারপোর্ট (১৩) আর্মড পুলিশ ব্যাটালিয়ন (এপিবিএন)। এ ঘটনায় সাত জনকে আটক করা হয়েছে। শুক্রবার (২ অক্টোবর) দিবাগত রাতে বিমানবন্দর এলাকায় পৃথক তিন</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিমানবন্দরে চোরাচালান প্রতিরোধে কঠোর নজরদারি ও প্রশাসনিক তৎপরতা অত্যন্ত প্রশংসনীয়। স্থানীয় জনসাধারণকে অবৈধ পণ্য বহনে প্রলুব্ধ হওয়া থেকে সতর্ক থাকতে হবে এবং যেকোনো সন্দেহজনক কর্মকাণ্ডে আইন-শৃঙ্খলা বাহিনীকে দ্রুত তথ্য দিয়ে সহযোগিতা করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/972200/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%AF%E0%A6%BE-%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাজধানীর হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে পৃথক অভিযানে প্রায় ৭৮১ দশমিক ৩ গ্রাম স্বর্ণালংকার, ১০টি মোবাইল ফোন, দুটি ল্যাপটপ ও তিন কার্টন সিগারেট জব্দ করেছে এয়ারপোর্ট (১৩) আর্মড পুলিশ ব্যাটালিয়ন (এপিবিএন)। এ ঘটনায় সাত জনকে আটক করা হয়েছে। শুক্রবার (২ অক্টোবর) দিবাগত রাতে বিমানবন্দর এলাকায় পৃথক তিন",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/972200/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%AF%E0%A6%BE-%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81",
+      "sourceName": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rss9eb006e1878701",
@@ -7938,54 +7986,6 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixANBVV95cUxNWlZRbFl3dWpINzZ4RVVrak16SWl0R1VPWXJKYWp5ZGUyVFhYNEpGNDBUQjZFUHdXbnRLZ0ZsRHBUSmtBRWxpY2tvclExa2xhWVl5X2FhblRvMVVtejQxZTJhRDgzdFExaUVXOGxsNVc5TVliRXpEUXBzWUVYZnhtMXh1UFNJbzE0RGtkbWNnWDEzU2RNUktxeUhlQVBrb25XQWRoS0JrbHJlTHlpUFFIOWVUYXZsa1N",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixANBVV95cUxNWlZRbFl3dWpINzZ4RVVrak16SWl0R1VPWXJKYWp5ZGUyVFhYNEpGNDBUQjZFUHdXbnRLZ0ZsRHBUSmtBRWxpY2tvclExa2xhWVl5X2FhblRvMVVtejQxZTJhRDgzdFExaUVXOGxsNVc5TVliRXpEUXBzWUVYZnhtMXh1UFNJbzE0RGtkbWNnWDEzU2RNUktxeUhlQVBrb25XQWRoS0JrbHJlTHlpUFFIOWVUYXZsa1NzTTNVVWRkcDF2Z3VITkxsYkVIV1pJZ2pfd3E1Q1BIbmdCdHN6OGdidnhRVmZ4aG5pZ0NwcTdGRmRYQXd5c3k5TE9lYWI2ZW9OeEI2OHFtNzc5Q3N4dHJ3TkJobG5jYjVuXy1nWEhsRUNpV1ZUUU9nSFRwMkhYeWJRRjhXRFdoNUFjbnZpOF9wN1Q0Z1A3WmVNQ2dlMWJuZVVKd2ppclhRZjYtQlVWUlJYNlFSTlg2WlFvSEwtdTNEMUxnZGZMbTN6QlQzYVVXWWFVMjJoN3VpLWM4YjBwT0pLRlY3eTZGczZLNVo1NS1QZVNMcl9iLWtzNHMwa1RBalR4aVh5OU03dEtDVExWbm9JS3cxRA?oc=5",
       "sourceName": "সময় নিউজ"
-    },
-    {
-      "id": "rss6e0595bceaf99f",
-      "slug": "মাদ্রাসার-ছাদে-বিদ্যুৎস্পৃষ্টে-দগ্ধ-পাঁ",
-      "title": "মাদ্রাসার ছাদে বিদ্যুৎস্পৃষ্টে দগ্ধ পাঁচ ছাত্রীর ৩ জনই চলে গেল",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rss6e0595bceaf99f-1200x630.jpg",
-      "publishedAt": "2026-10-01T21:23:37.481Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UbmhuZ3pQR0wxVDVaczNUR0t3bUlkUXJuNmlNdjNZYWtIb2wwY0RGaGQ3RkU5WVRjamRlWFNpM0F1RlFhdS1GVFZFVmtna0ktbEl3X3dHcGhwSW45VkE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মাদ্রাসার ছাদে বিদ্যুৎস্পৃষ্টে দগ্ধ পাঁচ ছাত্রীর ৩ জনই চলে গেল&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font c</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিক্ষা প্রতিষ্ঠানের অবকাঠামোগত নিরাপত্তা নিশ্চিত না থাকায় এমন মর্মান্তিক প্রাণহানি অত্যন্ত উদ্বেগের। অবহেলাজনিত এই ঝুঁকি নিরসনে কর্তৃপক্ষের কঠোর তদারকি জরুরি, যাতে আর কোনো অভিভাবককে এমন অপূরণীয় ক্ষতি সইতে না হয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UbmhuZ3pQR0wxVDVaczNUR0t3bUlkUXJuNmlNdjNZYWtIb2wwY0RGaGQ3RkU5WVRjamRlWFNpM0F1RlFhdS1GVFZFVmtna0ktbEl3X3dHcGhwSW45VkE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UbmhuZ3pQR0wxVDVaczNUR0t3bUlkUXJuNmlNdjNZYWtIb2wwY0RGaGQ3RkU5WVRjamRlWFNpM0F1RlFhdS1GVFZFVmtna0ktbEl3X3dHcGhwSW45VkE?oc=5\" target=\"_blank\"&gt;মাদ্রাসার ছাদে বিদ্যুৎস্পৃষ্টে দগ্ধ পাঁচ ছাত্রীর ৩ জনই চলে গেল&lt;/a&gt;&nbsp;&nbsp;&lt;font c",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UbmhuZ3pQR0wxVDVaczNUR0t3bUlkUXJuNmlNdjNZYWtIb2wwY0RGaGQ3RkU5WVRjamRlWFNpM0F1RlFhdS1GVFZFVmtna0ktbEl3X3dHcGhwSW45VkE?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rsse9380aa79bc13c",
-      "slug": "কুরোসাওয়া-পুরস্কার-পাচ্ছেন-মিপো-ও-রাসুলফ",
-      "title": "কুরোসাওয়া পুরস্কার পাচ্ছেন মিপো ও রাসুলফ",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A7%8B%E0%A6%B8%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AE%E0%A6%BF%E0%A6%AA%E0%A7%8B-%E0%A6%93-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%81%E0%A6%B2%E0%A6%AB.avif",
-      "publishedAt": "2026-10-01T21:23:37.476Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>টোকিও আন্তর্জাতিক চলচ্চিত্র উৎসবের ৩৯তম আসরে মর্যাদাপূর্ণ আকিরা কুরোসাওয়া পুরস্কারের জন্য মনোনীত হয়েছেন জাপানি নির্মাতা ও মিপো এবং ইরানি চলচ্চিত্রকার মোহাম্মদ রাসুলফ। অক্টোবরের শেষ দিকে অনুষ্ঠেয় এই আসরে দুই নির্মাতার চলচ্চিত্র জগতের অবদানকে স্বীকৃতি জানানো হবে। এবারের পুরস্কার বিজয়ীদের নির্বাচন প্রক্রিয়ায় যুক্ত ছিলেন নির্মাতা ইয়ামাদা ইয়োজি, লি সাং-ইল, চিত্রগ্রাহক আশিজাওয়া আকিকো এবং উৎসবের প্রোগ্রামিং ডিরেক্টর ইচিয়ামা শোজো।</p>\n<p>জাপানি নির্মাতা ও মিপো ওসাকা ইউনিভার্সিটি অব আর্টস থেকে পড়াশোনা সম্পন্ন করে চলচ্চিত্র অঙ্গনে প্রবেশ করেন। ২০০৬ সালে ‘দি সাকাইস হ্যাপিনেস’ দিয়ে পূর্ণদৈর্ঘ্য পরিচালনায় নাম লেখান তিনি, যার চিত্রনাট্য আন্তর্জাতিকভাবে সমাদৃত হয়েছিল। পরবর্তী সময়ে ২০১৪ সালে নির্মিত ‘দি লাইট শাইনশ অনলি দেয়ার’ ছবিটি মন্ট্রিল ওয়ার্ল্ড ফিল্ম ফেস্টিভ্যালে শ্রেষ্ঠ পরিচালকের স্বীকৃতিসহ আন্তর্জাতিক অঙ্গনে ৬০টি পুরস্কার জিতে নেয়। নির্বাচক কমিটির মতে, প্রান্তিক মানুষের জীবনের জটিল ও মানবিক দিকগুলো ও মিপো যেভাবে পর্দায় তুলে ধরেন, তা অত্যন্ত প্রশংসনীয়। ক্যারিয়ারের দুই দশক পূর্তিতে এই সম্মাননা পেয়ে কৃতজ্ঞতা জানিয়েছেন তিনি।</p>\n<p>অন্যদিকে, সমাজবিজ্ঞানের শিক্ষার্থী থেকে প্রামাণ্যচিত্র নির্মাতা হয়ে ওঠা মোহাম্মদ রাসুলফ দীর্ঘ সময় ধরে প্রতিকূলতার বিরুদ্ধে লড়াই করে চলচ্চিত্র নির্মাণ করে চলেছেন। রাষ্ট্রীয় নিষেধাজ্ঞা, কারাদণ্ড ও সেন্সরশিপের বাধা পেরিয়ে গেরিলা কায়দায় ছবি নির্মাণ করা এই নির্মাতার কাজের মূল উপজীব্য হলো কর্তৃত্ববাদী সমাজে মানুষের নৈতিক অবস্থান ও স্বাধীনতার লড়াই। ২০২০ সালে বার্লিন উৎসবে স্বর্ণ ভালুক বিজয়ী ‘দেয়ার ইজ নো ইভিল’ এবং ২০২৪ সালে কান উৎসবে বিশেষ জুরি পুরস্কার পাওয়া ‘দি সিড অব দি স্যাকরেড ফিগ’ তাঁর বিশ্বজোড়া পরিচিতি বাড়িয়ে দিয়েছে। সর্বশেষ ছবিটি অস্কারেও মনোনয়ন পেয়েছে। মানবাধিকারের সংকট নিয়ে ধারাবাহিকভাবে কাজ করে যাওয়ার জন্যই তাঁকে এই পুরস্কারে ভূষিত করা হচ্ছে।</p>\n<p>পুরস্কার প্রাপ্তিকে নিজের জন্য অত্যন্ত সম্মানের বলে মন্তব্য করেছেন রাসুলফ। তিনি জানান, আকিরা কুরোসাওয়ার সিনেমাগুলো সবসময়ই মানব অস্তিত্ব ও সংকটের সময় নেওয়া কঠিন সিদ্ধান্তগুলোর এক অনন্য দলিল। উৎসব কর্তৃপক্ষ জানিয়েছে, পুরস্কার প্রদানের পাশাপাশি আসরে কুরোসাওয়ার নিজস্ব কিছু ধ্রুপদী চলচ্চিত্র এবং তাঁর প্রিয় সিনেমার বিশেষ প্রদর্শনী হবে। তালিকায় রয়েছে ফোর কে প্রযুক্তিতে পুনরুদ্ধারকৃত ‘সানশিরো সুগাতা’ ও ‘ইকিরু’র মতো ছবি। এছাড়াও চার্লি চ্যাপলিনের ‘দ্য সার্কাস’ এবং আব্বাস কিয়ারোস্তামির ‘হয়ার ইজ দ্য ফ্রেন্ডস হাউস’ চলচ্চিত্রগুলো উৎসবে দেখানো হবে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্ববরেণ্য নির্মাতাদের এই স্বীকৃতি আন্তর্জাতিক চলচ্চিত্র অঙ্গনে শৈল্পিক উৎকর্ষের জয়গান গায়। জুরি বোর্ডের বিচক্ষণ নির্বাচন বিশ্বদর্শকদের নতুন ধারার বিশ্বমানের কাজের সঙ্গে পরিচিত করবে, যা শিল্পীদের সৃজনশীলতাকে আরও গতিশীল করে তুলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/entertainment/world-cinema/ncj6nzu8t6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "টোকিও আন্তর্জাতিক চলচ্চিত্র উৎসবে আকিরা কুরোসাওয়া পুরস্কারে সম্মানিত হচ্ছেন জাপানি নির্মাতা ও মিপো এবং ইরানি চলচ্চিত্রকার মোহাম্মদ রাসুলফ। অক্টোবরের শেষ সপ্তাহে বসবে উৎসবের ৩৯তম আসর। চলতি বছর পুরস্কার নির্বাচনে যুক্ত ছিলেন নির্মাতা ইয়ামাদা ইয়োজি ও লি সাং-ইল, চিত্রগ্রাহক আশিজাওয়া আকিকো এবং উৎসবের প",
-      "sourceUrl": "https://www.prothomalo.com/entertainment/world-cinema/ncj6nzu8t6",
-      "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rssc32f663fc514a5",
-      "slug": "দক্ষ-মানবসম্পদ-গড়ে-তুলতে-অগ্রাধিকারমূলক",
-      "title": "দক্ষ মানবসম্পদ গড়ে তুলতে অগ্রাধিকারমূলক পরিকল্পনা বাস্তবায়নে কাজ করছে সরকার: মাহদী আমিন",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A6-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A6%95.avif",
-      "publishedAt": "2026-10-01T21:23:37.473Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>দেশের শিক্ষা খাতের মানোন্নয়ন এবং আধুনিক ও দক্ষ মানবসম্পদ তৈরির লক্ষ্যে সরকার সুনির্দিষ্ট অগ্রাধিকারমূলক পরিকল্পনা বাস্তবায়নে কাজ করে যাচ্ছে বলে জানিয়েছেন প্রধানমন্ত্রীর উপদেষ্টা ও তাঁর কার্যালয়ের মুখপাত্র মাহদী আমিন। বৃহস্পতিবার রাজধানীর বারিধারায় ব্রিটিশ হাইকমিশনে আয়োজিত এক বৈঠকে প্রধান অতিথির বক্তব্যে তিনি এ কথা বলেন। উচ্চশিক্ষার মান বৃদ্ধি, উদ্ভাবনী শক্তির বিকাশ এবং শিক্ষাব্যবস্থাকে আন্তর্জাতিক মানে উন্নীত করার ওপর তিনি বিশেষ গুরুত্বারোপ করেন।</p>\n<p>বৈঠকে বিশ্বব্যাংকের অর্থায়ন ও ব্রিটিশ কাউন্সিলের সহযোগিতায় পরিচালিত ‘হায়ার এডুকেশন এক্সিলারেশন অ্যান্ড ট্রান্সফরমেশন’ (হিট) প্রকল্পের কার্যক্রম এবং এর প্রভাব নিয়ে আলোচনা হয়। এ সময় বাংলাদেশে আন্তর্জাতিক মানের ব্রিটিশ বিশ্ববিদ্যালয় স্থাপনের আগ্রহ প্রকাশ করা হলে মাহদী আমিন আশ্বস্ত করেন যে, এ ধরনের উদ্যোগে বিনিয়োগকারী বা আগ্রহী প্রতিষ্ঠানগুলোকে সরকার প্রয়োজনীয় সব ধরনের সহায়তা প্রদান করবে। পাশাপাশি শিক্ষার গুণগত মান নিশ্চিত করতে ‘বাংলাদেশ ন্যাশনাল কোয়ালিফিকেশন ফ্রেমওয়ার্ক’ বাস্তবায়নের বিষয়েও সভায় আগ্রহ প্রকাশ করা হয়।</p>\n<p>শিক্ষার্থীদের কর্মসংস্থানের উপযোগী করে গড়ে তোলা এবং গবেষণার সুযোগ বাড়ানোর বিষয়ে বর্তমান সরকারের আন্তরিকতার কথা তুলে ধরেন প্রধানমন্ত্রীর উপদেষ্টা। তিনি জানান, দেশের শিক্ষা ব্যবস্থাকে ঢেলে সাজাতে সরকার মাল্টিমিডিয়া শ্রেণিকক্ষ স্থাপন, ল্যাবরেটরির আধুনিকায়ন এবং শিক্ষার্থীদের জন্য বিনা মূল্যে ওয়াই-ফাই সুবিধা নিশ্চিত করার মতো পদক্ষেপ নিয়েছে। এছাড়া কারিগরি শিক্ষা প্রসারে উপজেলা পর্যায়ে শিক্ষাপ্রতিষ্ঠান স্থাপন, বাধ্যতামূলক ল্যাব চালু এবং তৃতীয় ভাষা শিক্ষার মতো উদ্যোগও সরকারের অগ্রাধিকারের তালিকায় রয়েছে।</p>\n<p>বৈঠকে হিট প্রকল্পের আওতায় প্রশিক্ষিত শিক্ষকদের অভিজ্ঞতার আলোকে ভবিষ্যৎ কর্মপন্থা নিয়ে আলোচনা করা হয়। উচ্চশিক্ষা ও উদ্ভাবনমূলক কার্যক্রমকে আরও গতিশীল করার জন্য সংশ্লিষ্ট অংশীজনদের মধ্যে সমন্বয় বৃদ্ধির ওপর জোর দেওয়া হয়। অনুষ্ঠানে ব্রিটিশ হাইকমিশনার সারা কুক, ব্রিটিশ কাউন্সিলের প্রধান নির্বাহী স্কট ম্যাকডোনাল্ড, ইউজিসি চেয়ারম্যান মামুন আহমেদসহ দেশের বিভিন্ন বিশ্ববিদ্যালয়ের উপাচার্যরা উপস্থিত ছিলেন।</p>\n<p>সভা শেষে প্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন ও ব্রিটিশ কাউন্সিলের প্রধান নির্বাহী স্কট ম্যাকডোনাল্ডের মধ্যে একটি দ্বিপক্ষীয় বৈঠক অনুষ্ঠিত হয়। সেখানে শিক্ষা খাতে বাংলাদেশ সরকার ও ব্রিটিশ কাউন্সিলের বিদ্যমান অংশীদারত্ব জোরদার এবং পারস্পরিক সহযোগিতার নতুন ক্ষেত্রগুলো চিহ্নিত করার বিষয়ে বিস্তারিত আলোচনা হয়। একই সঙ্গে সরকারের নেওয়া সংস্কারমূলক উদ্যোগগুলো নিয়েও মতবিনিময় করেন তারা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক মানের শিক্ষা অবকাঠামো নির্মাণে সরকারের এই উদ্যোগ দক্ষ জনশক্তি তৈরির মাধ্যমে দীর্ঘমেয়াদী রাজনৈতিক স্থিতিশীলতা ও অর্থনৈতিক সক্ষমতা বাড়াবে। এটি বাস্তবায়িত হলে সাধারণ শিক্ষার্থীরা মানসম্মত শিক্ষার সুযোগসহ উন্নত কর্মসংস্থানের নিশ্চয়তা পাবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/ap9vnko263\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "মাহদী আমিন জানান, বাংলাদেশে আন্তর্জাতিক মানের বিশ্ববিদ্যালয় স্থাপনে কোনো প্রতিষ্ঠান বা বিনিয়োগকারী আগ্রহী হলে সরকার প্রয়োজনীয় সব ধরনের সহযোগিতা করবে।",
-      "sourceUrl": "https://www.prothomalo.com/bangladesh/ap9vnko263",
-      "sourceName": "প্রথম আলো"
     }
   ],
   "ads": [
