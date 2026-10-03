@@ -1,6 +1,6 @@
 {
-  "version": 202,
-  "updatedAt": "2026-10-03T13:00:04.447Z",
+  "version": 203,
+  "updatedAt": "2026-10-03T13:11:04.496Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -201,7 +201,7 @@
       "title": "‘দৃশ্যম ৩’-এর ঝড়, প্রথম দিনেই আয় ৯৫ কোটি",
       "category": "খেলা",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/03/991fc516aeee5b5d1cd36ee2cd5eb560-6ac0991ca8ea6.jpg?jadewits_media_id=314423",
+      "image": "/img/rss6091b2b7cf0692-1200x630.jpg",
       "publishedAt": "2026-10-03T12:13:55.186Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
