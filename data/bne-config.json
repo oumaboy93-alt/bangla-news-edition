@@ -1,6 +1,6 @@
 {
-  "version": 220,
-  "updatedAt": "2026-10-03T18:28:56.654Z",
+  "version": 221,
+  "updatedAt": "2026-10-03T18:40:00.775Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rss92aa4434ac05db",
+      "slug": "পূর্বাচল-৩০০-ফিটে-উচ্ছেদ-অভিযান-সরানো-হল",
+      "title": "পূর্বাচল ৩০০ ফিটে উচ্ছেদ অভিযান, সরানো হলো ২০ বিলবোর্ড",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A7%A9%E0%A7%A6%E0%A7%A6-%E0%A6%AB%E0%A6%BF%E0%A6%9F%E0%A7%87-%E0%A6%89%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B9%E0%A6%B2.webp",
+      "publishedAt": "2026-10-03T18:28:55.372Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>রাজধানীর পূর্বাচল ৩০০ ফিট সড়ক ও জলসিঁড়ি আবাসিক এলাকা সংলগ্ন সড়কের উভয় পাশে রাজউকের অনুমোদনবিহীন ২০টি বিলবোর্ড উচ্ছেদ করা হয়েছে। শনিবার (৩ অক্টোবর) সকাল ১০টা থেকে বিকেল ৫টা পর্যন্ত যৌথভাবে এ অভিযান পরিচালনা করে ঢাকা মেট্রোপলিটন পুলিশের (ডিএমপি) ট্রাফিক গুলশান বিভাগ। এটি ছিল অনুমোদনহীন বিলবোর্ড উচ্ছেদে চলমান অভিযানের চতুর্থ দিন। অভিযান চলাকালে পূর্বাচল ৩০০ ফিট ও জলসিঁড়ি আবাসিক এলাকা সংলগ্ন... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/812967/%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A7%A9%E0%A7%A6%E0%A7%A6-%E0%A6%AB%E0%A6%BF%E0%A6%9F%E0%A7%87-%E0%A6%89%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A7%A8%E0%A7%A6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "রাজধানীর পূর্বাচল ৩০০ ফিট সড়ক ও জলসিঁড়ি আবাসিক এলাকা সংলগ্ন সড়কের উভয় পাশে রাজউকের অনুমোদনবিহীন ২০টি বিলবোর্ড উচ্ছেদ করা হয়েছে। শনিবার (৩ অক্টোবর) সকাল ১০টা থেকে বিকেল ৫টা পর্যন্ত যৌথভাবে এ অভিযান পরিচালনা করে ঢাকা মেট্রোপলিটন পুলিশের (ডিএমপি) ট্রাফিক গুলশান বিভাগ। এটি ছিল অনুমোদনহীন বিলবোর্ড উচ্ছেদ",
+      "sourceUrl": "https://www.ittefaq.com.bd/812967/%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A7%A9%E0%A7%A6%E0%A7%A6-%E0%A6%AB%E0%A6%BF%E0%A6%9F%E0%A7%87-%E0%A6%89%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A7%A8%E0%A7%A6",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss8624d4b76a4c95",
+      "slug": "মৃত্যুর-মুখেও-আলতাফ-মাহমুদ-বলেছিলেন-আমাদ",
+      "title": "মৃত্যুর মুখেও আলতাফ মাহমুদ বলেছিলেন, ‘আমাদের দেশ অবশ্যই স্বাধীন হবে’",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87%E0%A6%93-%E0%A6%86%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%AB-%E0%A6%AE%E0%A6%BE%E0%A6%B9%E0%A6%AE%E0%A7%81%E0%A6%A6-%E0%A6%AC%E0%A6%B2%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6.avif",
+      "publishedAt": "2026-10-03T18:28:55.359Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সারা শরীরে ছিল আঘাতের চিহ্ন। ঠিকমতো বসেও থাকতে পারতেন না। আমার কাঁধে মাথা রেখে বলেছিলেন, “আমাকে ওরা ছাড়বে না।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/fj4lyn90hw\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সারা শরীরে ছিল আঘাতের চিহ্ন। ঠিকমতো বসেও থাকতে পারতেন না। আমার কাঁধে মাথা রেখে বলেছিলেন, “আমাকে ওরা ছাড়বে না।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/fj4lyn90hw",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rsse0baef46a8f8da",
       "slug": "দলীয়-পরিচয়ে-অভিযুক্তদের-বিরুদ্ধে-সরকার-ক",
       "title": "দলীয় পরিচয়ে অভিযুক্তদের বিরুদ্ধে সরকার কতটা কঠোর?",
@@ -98,6 +130,22 @@
       "summary": "ঢাকার ঘাটারচর লাবনী পয়েন্ট এলাকা থেকে অনলাইনে বিক্রির উদ্দেশ্যে মজুত রাখা ২০০ পিস বিভিন্ন মডেলের সুইচ গিয়ারসহ এস এম রবিন (৩৬) নামের একজনকে গ্রেফতার করেছে স্পেশাল রেসপন্স ব্যাটালিয়ন (এসআরবি)। শনিবার (৩ অক্টোবর) রাতে ওই এলাকার একটি বাসায় অভিযান চালিয়ে তাকে গ্রেফতার করা হয়। এসআরবি-২-এর উপপরিচালক (মিডিয়",
       "sourceUrl": "https://www.banglatribune.com/law-and-crime/972207/%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A7%81%E0%A6%87%E0%A6%9A-%E0%A6%97%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E2%80%8C%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%A7",
       "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssda1017998d7dd3",
+      "slug": "সস্ত্রীক-প্রধানমন্ত্রীর-সঙ্গে-ট্রাম্পে",
+      "title": "সস্ত্রীক প্রধানমন্ত্রীর সঙ্গে ট্রাম্পের ছবি নিয়ে প্রেস উইংয়ের ব‍্যাখ‍্যা",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87.webp",
+      "publishedAt": "2026-10-03T18:13:55.616Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের দেওয়া নৈশভোজে প্রধানমন্ত্রী তারেক রহমান ও তার স্ত্রী জুবাইদা রহমানের অংশগ্রহণের একটি ছবি শনিবার (৩ অক্টোবর) প্রধানমন্ত্রীর কার্যালয় থেকে প্রকাশের পর ছবিটি এআই জেনারেটেড/ম্যানিপুলেটেড হিসেবে প্রচার করা হয়। তবে সেটিকে নাকচ করে দিয়ে প্রধানমন্ত্রীর প্রেস উইং জানিয়েছে, ‘ছবিকেই ব্যবহার করে প্রধানমন্ত্রী তারেক রহমান ও ডা. জুবাইদা রহমানের রিসেপশনে অংশগ্রহণের... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/812964/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%88%E0%A6%B6%E0%A6%AD%E0%A7%8B%E0%A6%9C%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%95-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%9C%E0%A7%81%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের দেওয়া নৈশভোজে প্রধানমন্ত্রী তারেক রহমান ও তার স্ত্রী জুবাইদা রহমানের অংশগ্রহণের একটি ছবি শনিবার (৩ অক্টোবর) প্রধানমন্ত্রীর কার্যালয় থেকে প্রকাশের পর ছবিটি এআই জেনারেটেড/ম্যানিপুলেটেড হিসেবে প্রচার করা হয়। তবে সেটিকে নাকচ করে দিয়ে প্রধানমন্ত্রীর প্রেস উইং ",
+      "sourceUrl": "https://www.ittefaq.com.bd/812964/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%88%E0%A6%B6%E0%A6%AD%E0%A7%8B%E0%A6%9C%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%95-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%9C%E0%A7%81%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%87",
+      "sourceName": "ইত্তেফাক"
     },
     {
       "id": "rss4506db7414e44e",
@@ -7921,54 +7969,6 @@
       "body": "<p>উচ্চ মাধ্যমিকের পাঠদান কার্যক্রম শুরু হয়েছে গত ২৪ সেপ্টেম্বর। এরই মধ্যে জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ডের (এনসিটিবি) প্রকাশিত বাংলা, ইংরেজি ও তথ&amp;zwj;্য যোগাযোগ প্রযুক্তি বই হাতেও পেয়েছে। সুতরাং শিক্ষাবর্ষের শুরুতেই পুরোদমে ক্লাস হওয়ার কথা। কিন্তু এনসিটিবি এখনো বাংলা বিষয়ের সিলেবাস ঘোষণা করেনি। </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সিলেবাসের অস্পষ্টতায় পাঠদান ব্যাহত হওয়া শিক্ষার্থীদের জন্য একটি বড় প্রযুক্তিগত ও শিক্ষাগত জটিলতা সৃষ্টি করেছে। ডিজিটাল যুগে পাঠ্যবই পাওয়ার পরও সুনির্দিষ্ট দিকনির্দেশনার অভাবে শিক্ষা কার্যক্রমে স্থবিরতা নেমে আসা কাম্য নয়। কর্তৃপক্ষের উচিত দ্রুত সমন্বিত ডিজিটাল প্ল্যাটফর্মে পূর্ণাঙ্গ সিলেবাস প্রকাশ করে পড়াশোনার গতি স্বাভাবিক রাখা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/812678/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%B8-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%B9%E0%A7%9F%E0%A6%A8%E0%A6%BF-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A6%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%A6%E0%A6%BE%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "উচ্চ মাধ্যমিকের পাঠদান কার্যক্রম শুরু হয়েছে গত ২৪ সেপ্টেম্বর। এরই মধ্যে জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ডের (এনসিটিবি) প্রকাশিত বাংলা, ইংরেজি ও তথ&zwj;্য যোগাযোগ প্রযুক্তি বই হাতেও পেয়েছে। সুতরাং শিক্ষাবর্ষের শুরুতেই পুরোদমে ক্লাস হওয়ার কথা। কিন্তু এনসিটিবি এখনো বাংলা বিষয়ের সিলেবাস ঘোষণা করেনি। ",
       "sourceUrl": "https://www.ittefaq.com.bd/812678/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%B8-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%B9%E0%A7%9F%E0%A6%A8%E0%A6%BF-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A6%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%A6%E0%A6%BE%E0%A6%A8",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss6e00a477e90c09",
-      "slug": "সম্পাদক-ও-প্রকাশক-ইলিয়াস-হোসাইন-বাংলা-এ",
-      "title": "সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - বাংলা এডিশন",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rss6e00a477e90c09-1200x630.jpg",
-      "publishedAt": "2026-10-02T00:23:37.676Z",
-      "tags": [
-        "বাংলা এডিশন"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMXlnRjFlQlg1SWNEWE1NTUlTQ1EyZG8zbXczZldGTndqa1RuSGFkWEhLVzN3U0d2c1VVV1hpbGo0Ykx5TXRfYjBnMXFmUFAyTnd0Q3N3?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - বাংলা এডিশন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangla E</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">গণমাধ্যমে স্বচ্ছতা ও জবাবদিহিতা নিশ্চিত করতে নেতৃত্বের স্পষ্ট পরিচয় থাকা অপরিহার্য। সংবাদপত্রের এই সম্পাদকীয় নীতি সাধারণ পাঠকের আস্থা ও নির্ভরযোগ্যতা বৃদ্ধিতে সহায়ক হবে, যা সুস্থ সাংবাদিকতা চর্চায় গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMXlnRjFlQlg1SWNEWE1NTUlTQ1EyZG8zbXczZldGTndqa1RuSGFkWEhLVzN3U0d2c1VVV1hpbGo0Ykx5TXRfYjBnMXFmUFAyTnd0Q3N3?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা এডিশন</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMXlnRjFlQlg1SWNEWE1NTUlTQ1EyZG8zbXczZldGTndqa1RuSGFkWEhLVzN3U0d2c1VVV1hpbGo0Ykx5TXRfYjBnMXFmUFAyTnd0Q3N3?oc=5\" target=\"_blank\"&gt;সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - বাংলা এডিশন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Bangla E",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMXlnRjFlQlg1SWNEWE1NTUlTQ1EyZG8zbXczZldGTndqa1RuSGFkWEhLVzN3U0d2c1VVV1hpbGo0Ykx5TXRfYjBnMXFmUFAyTnd0Q3N3?oc=5",
-      "sourceName": "বাংলা এডিশন"
-    },
-    {
-      "id": "rss54b7162a99b4f2",
-      "slug": "টিভিতে-আজকের-খেলা-২-অক্টোবর-২০২৬",
-      "title": "টিভিতে আজকের খেলা (২ অক্টোবর, ২০২৬)",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC.webp",
-      "publishedAt": "2026-10-02T00:08:37.578Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&amp;mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ফিফা আসিয়ান কাপপাকিস্তান-ভিয়েতনামসরাসরি, বেলা ৩টা, টি স্পোর্টস নেশন্স লিগফ্রান্স-ইতালিসরাসরি, রাত ১২-৪৫</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এশিয়ান কাপ ও নেশন্স লিগের মতো আন্তর্জাতিক টুর্নামেন্টের নিয়মিত সম্প্রচার ক্রীড়াপ্রেমীদের বৈশ্বিক ফুটবলের সাথে সংযুক্ত রাখে। এমন সূচি খেলোয়াড়দের কৌশল পর্যবেক্ষণে এবং দর্শকদের মানসম্মত খেলা উপভোগের সুযোগ বাড়িয়ে দেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/other-sports/971806/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ফিফা আসিয়ান কাপপাকিস্তান-ভিয়েতনামসরাসরি, বেলা ৩টা, টি স্পোর্টস নেশন্স লিগফ্রান্স-ইতালিসরাসরি, রাত ১২-৪৫",
-      "sourceUrl": "https://www.banglatribune.com/sport/other-sports/971806/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss74f2dae84f6944",
-      "slug": "ট্রাম্পের-মেয়াদে-আড়াই-লাখের-বেশি-ভিসা-বা",
-      "title": "ট্রাম্পের মেয়াদে আড়াই লাখের বেশি ভিসা বাতিল করেছে যুক্তরাষ্ট্র",
-      "category": "প্রবাস",
-      "lead": false,
-      "image": "/img/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AD%E0%A6%BF%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A6%BE.webp",
-      "publishedAt": "2026-10-02T00:08:37.576Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>প্রেসিডেন্ট ডোনাল্ড ট্রাম্প ক্ষমতা গ্রহণের পর থেকে যুক্তরাষ্ট্র ২ লাখ ৫০ হাজারেরও বেশি ভিসা বাতিল করেছে। একই সময়ে বিদেশি নাগরিকদের যাচাই-বাছাই কঠোর করার পাশাপাশি অবৈধ অভিবাসনের বিরুদ্ধে পদক্ষেপ জোরদার করেছে দেশটি। এর মধ্যেই উচ্চ দক্ষতার বিদেশি কর্মীদের জন্য ট্রাম্প প্রশাসনের নির্ধারিত ১ লাখ ডলারের এ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কঠোর ভিসা নীতি ও যাচাই-বাছাইয়ের এই প্রবণতা প্রবাসী বাংলাদেশিদের জন্য অনিশ্চয়তা ও উদ্বেগের কারণ হয়ে দাঁড়িয়েছে। উচ্চ দক্ষতা সম্পন্ন কর্মীদের জন্য নতুন শর্তাবলি ভবিষ্যতে যুক্তরাষ্ট্রে পেশাগত সুযোগকে আরও সংকুচিত করতে পারে, যা প্রবাসীদের জন্য বড় চ্যালেঞ্জ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/812672/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%87%C2%A0%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AD%E0%A6%BF%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2%C2%A0%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "প্রেসিডেন্ট ডোনাল্ড ট্রাম্প ক্ষমতা গ্রহণের পর থেকে যুক্তরাষ্ট্র ২ লাখ ৫০ হাজারেরও বেশি ভিসা বাতিল করেছে। একই সময়ে বিদেশি নাগরিকদের যাচাই-বাছাই কঠোর করার পাশাপাশি অবৈধ অভিবাসনের বিরুদ্ধে পদক্ষেপ জোরদার করেছে দেশটি। এর মধ্যেই উচ্চ দক্ষতার বিদেশি কর্মীদের জন্য ট্রাম্প প্রশাসনের নির্ধারিত ১ লাখ ডলারের এ",
-      "sourceUrl": "https://www.ittefaq.com.bd/812672/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%87%C2%A0%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AD%E0%A6%BF%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2%C2%A0%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87",
       "sourceName": "ইত্তেফাক"
     }
   ],
