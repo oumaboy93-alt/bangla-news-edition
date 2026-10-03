@@ -1,6 +1,6 @@
 {
-  "version": 234,
-  "updatedAt": "2026-10-03T22:05:53.918Z",
+  "version": 235,
+  "updatedAt": "2026-10-03T22:17:14.288Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rss88707b69f43746",
+      "slug": "লুলা-ও-বলসোনারোর-মধ্যে-শক্ত-প্রতিদ্বন্দ্",
+      "title": "লুলা ও বলসোনারোর মধ্যে শক্ত প্রতিদ্বন্দ্বিতা হতে পারে",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%B2%E0%A7%81%E0%A6%B2%E0%A6%BE-%E0%A6%93-%E0%A6%AC%E0%A6%B2%E0%A6%B8%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D.avif",
+      "publishedAt": "2026-10-03T22:13:55.557Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ব্রাজিলের প্রেসিডেন্ট নির্বাচনের প্রথম দফা ভোট গ্রহণ অনুষ্ঠিত হবে আজ রোববার। নির্বাচনে প্রতিদ্বন্দ্বিতা করছেন ১৩ জন প্রার্থী।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/south-america/q1ye1xbg6z\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ব্রাজিলের প্রেসিডেন্ট নির্বাচনের প্রথম দফা ভোট গ্রহণ অনুষ্ঠিত হবে আজ রোববার। নির্বাচনে প্রতিদ্বন্দ্বিতা করছেন ১৩ জন প্রার্থী।",
+      "sourceUrl": "https://www.prothomalo.com/world/south-america/q1ye1xbg6z",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss3fd458daeb1d64",
       "slug": "শুল্কের-চাপে-দুর্বল-দেশকে-পণ্য-কিনতে-বাধ",
       "title": "শুল্কের চাপে দুর্বল দেশকে পণ্য কিনতে বাধ্য করছে যুক্তরাষ্ট্র: রেহমান সোবহান",
@@ -73,7 +89,7 @@
       "title": "দুই বছরের অভিজ্ঞতা থাকলে ইবনে সিনায় চাকরির সুযোগ",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss6b18c3cbe4047b-1200x630.jpg",
       "publishedAt": "2026-10-03T21:58:55.471Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -105,7 +121,7 @@
       "title": "চুয়েটে আন্দোলন দ্বাদশ দিনে, প্রধানমন্ত্রীর হস্তক্ষেপ কামনা",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssa575b43e958cb0-1200x630.jpg",
       "publishedAt": "2026-10-03T21:43:55.713Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -153,7 +169,7 @@
       "title": "আখতারুজ্জামানের রিমান্ড শুনানিতে সাংবাদিকদের ঢুকতে দেয়নি পুলিশ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssd8cbb10e9ca7fb-1200x630.jpg",
       "publishedAt": "2026-10-03T21:28:55.553Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -169,7 +185,7 @@
       "title": "তিন ভূমিকম্পে কেঁপে উঠল দেশের বিভিন্ন অঞ্চল",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss14b5945b6df340-1200x630.jpg",
       "publishedAt": "2026-10-03T21:28:55.546Z",
       "tags": [
         "যুগান্তর"
@@ -201,7 +217,7 @@
       "title": "শাহজালালের ইডিকে হুমকি: জামায়াতের আখতারুজ্জামান গ্রেপ্তার",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss6095806a396abb-1200x630.jpg",
       "publishedAt": "2026-10-03T21:13:55.570Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -217,7 +233,7 @@
       "title": "নূর ইসলামের তরফে সংবাদের প্রতিবাদ ‘ফু-ওয়াং’য়ের, প্রতিবেদকের বক্তব্য",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss63840f013be9df-1200x630.jpg",
       "publishedAt": "2026-10-03T21:13:55.568Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -233,7 +249,7 @@
       "title": "হামের উপসর্গ নিয়ে আরও ৮ জনের মৃত্যু",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/08/10/f6ee68cc9a3520685f63a2d1c8da252b-6a79beae86b0b.jpg?jadewits_media_id=1037806",
+      "image": "/img/rssae80b6e2a06270-1200x630.jpg",
       "publishedAt": "2026-10-03T21:13:55.566Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -242,6 +258,38 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkek9nbnF1bGZyMWJkMVJSTTlvaVpRaVU2enVKeUh0MlFNc1F4YjZCMlkwT05vaVM0ajRxSngxWjNGOE8zNVp0eEt4d080UXhhU1Zxd2RGbmpEakhfelE?oc=5\" target=\"_blank\"&gt;হামের উপসর্গ নিয়ে আরও ৮ জনের মৃত্যু&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdnews24",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkek9nbnF1bGZyMWJkMVJSTTlvaVpRaVU2enVKeUh0MlFNc1F4YjZCMlkwT05vaVM0ajRxSngxWjNGOE8zNVp0eEt4d080UXhhU1Zxd2RGbmpEakhfelE?oc=5",
       "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rss52039b7a9c3993",
+      "slug": "অনলাইন-সাংবাদিকতার-প্রসারে-খালিদীর-ভূমি",
+      "title": "অনলাইন সাংবাদিকতার প্রসারে খালিদীর ভূমিকা প্রশংসনীয়: হেফাজতে ইসলাম",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-03T21:13:55.564Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aZTJqWTM2eVdyZHlvYkN3cjl6VElaNTdyb1hUeUJrd0p1ZUxLWGJKRUN3aWR4amJBWkp6LWJsTThxQlhxUHVGYm5OUzVMLVFDMXA2TkQ3SWVNcy00Z3c?oc=5&quot; target=&quot;_blank&quot;&amp;gt;অনলাইন সাংবাদিকতার প্রসারে খালিদীর ভূমিকা প্রশংসনীয়: হেফাজতে ইসলাম&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aZTJqWTM2eVdyZHlvYkN3cjl6VElaNTdyb1hUeUJrd0p1ZUxLWGJKRUN3aWR4amJBWkp6LWJsTThxQlhxUHVGYm5OUzVMLVFDMXA2TkQ3SWVNcy00Z3c?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aZTJqWTM2eVdyZHlvYkN3cjl6VElaNTdyb1hUeUJrd0p1ZUxLWGJKRUN3aWR4amJBWkp6LWJsTThxQlhxUHVGYm5OUzVMLVFDMXA2TkQ3SWVNcy00Z3c?oc=5\" target=\"_blank\"&gt;অনলাইন সাংবাদিকতার প্রসারে খালিদীর ভূমিকা প্রশংসনীয়: হেফাজতে ইসলাম&lt;/a&gt;&nbsp;&nbsp;&lt;f",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aZTJqWTM2eVdyZHlvYkN3cjl6VElaNTdyb1hUeUJrd0p1ZUxLWGJKRUN3aWR4amJBWkp6LWJsTThxQlhxUHVGYm5OUzVMLVFDMXA2TkQ3SWVNcy00Z3c?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rss86a339501def2f",
+      "slug": "দেড়-ঘণ্টা-প্যারোলে-মুক্তি-পেয়ে-মায়ের-জান",
+      "title": "দেড় ঘণ্টা প্যারোলে মুক্তি পেয়ে মায়ের জানাজায় শ্রমিক লীগ নেতা",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%B2%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8.webp",
+      "publishedAt": "2026-10-03T21:13:55.555Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>দেড় ঘণ্টার জন্য প্যারোলে মুক্তি পেয়ে বরিশাল মহানগর শ্রমিক লীগের ক্রীড়াবিষয়ক সম্পাদক সাফিন আহমেদ সুমন মায়ের জানাজা ও দাফনে অংশ নিয়েছেন। শনিবার (৩ অক্টোবর) দুপুরে হাতকড়া অবস্থাতেই তিনি জানাজা ও দাফনে অংশ নেন। বাসায় পৌঁছানোর পর এবং কারাগারে ফেরত যাওয়াকালে সেখানে স্বজনদের আহাজারি করতে দেখা যায়। জানা গেছে, সুমন নগরীর কাউনিয়া প্রথম গলির বাঁশতলা এলাকার নুর হাওলাদারের ছেলে। গত ১১ সেপ্টেম্বর... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/812978/%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%B2%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A7%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "দেড় ঘণ্টার জন্য প্যারোলে মুক্তি পেয়ে বরিশাল মহানগর শ্রমিক লীগের ক্রীড়াবিষয়ক সম্পাদক সাফিন আহমেদ সুমন মায়ের জানাজা ও দাফনে অংশ নিয়েছেন। শনিবার (৩ অক্টোবর) দুপুরে হাতকড়া অবস্থাতেই তিনি জানাজা ও দাফনে অংশ নেন। বাসায় পৌঁছানোর পর এবং কারাগারে ফেরত যাওয়াকালে সেখানে স্বজনদের আহাজারি করতে দেখা যায়। জানা গেছ",
+      "sourceUrl": "https://www.ittefaq.com.bd/812978/%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A7%8B%E0%A6%B2%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A7%9F",
+      "sourceName": "ইত্তেফাক"
     },
     {
       "id": "rss5d20a2537d9c14",
@@ -7922,54 +7970,6 @@
       "summary": "ইউক্রেন সংঘাত নিয়ে পশ্চিমাদের উত্তেজনা না বাড়ানোর সতর্কবার্তা দিয়ে রুশ প্রেসিডেন্ট ভ্লাদিমির পুতিন জানিয়েছে, প্রয়োজন হলে মস্কো পারমাণবিক অস্ত্র দিয়ে কালিনিনগ্রাদ রক্ষা করবে। বৃহস্পতিবার মস্কোয় ভালদাই ফোরামে বক্তব্য দেওয়ার সময় পুতিন এই কথা বলেন। তিনি জানান, ইউরোপীয় কোনও দেশকে আক্রমণ করার কোনও ",
       "sourceUrl": "https://www.banglatribune.com/foreign/russia/971876/%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%81%E0%A6%B6%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss6f78193f70528e",
-      "slug": "সমুদ্রপথে-মালয়েশিয়াগামী-৭৬-জনকে-উদ্ধার",
-      "title": "সমুদ্রপথে মালয়েশিয়াগামী ৭৬ জনকে উদ্ধার",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%AA%E0%A6%A5%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A7%AD%E0%A7%AC-%E0%A6%9C%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0.jpg",
-      "publishedAt": "2026-10-02T04:53:37.819Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>অবৈধভাবে সমুদ্রপথে মালয়েশিয়া যাওয়ার সময় বাংলাদেশ নৌবাহিনী ৭৬ জনকে উদ্ধার করেছে। বুধবার রাতে সেন্টমার্টিন লাইট হাউস থেকে প্রায় ৮১ মাইল দূরে বঙ্গোপসাগরে নৌবাহিনীর জাহাজ বানৌজা খালিদ বিন ওয়ালিদ এই উদ্ধার অভিযান পরিচালনা করে। এ সময় একটি মাছ ধরার বোটের সহায়তায় বিপদের মুখে থাকা কাঠের বোটটিকে শনাক্ত করা হয়।</p>\n<p>নৌবাহিনী সূত্রে জানা গেছে, মাছ ধরার বোট এফভি ক্রিস্টাল-১ সমুদ্রে ইঞ্জিন বিকল অবস্থায় কাঠের বোটটিকে ভাসতে দেখে। বোটের আরোহীদের কয়েকজনের আচরণ সন্দেহজনক মনে হলে তারা দ্রুত নৌবাহিনীকে বিষয়টি অবহিত করে। এরপর বানৌজা খালিদ বিন ওয়ালিদ ঘটনাস্থলে পৌঁছায়। উদ্ধারকাজ চালানোর সময় দেখা যায়, কাঠের বোটটিতে পানি ঢুকছিল। নৌবাহিনীর সদস্যরা তাৎক্ষণিক পানি নিষ্কাশন করে পরিস্থিতি নিয়ন্ত্রণে আনেন।</p>\n<p>উদ্ধার হওয়া ৭৬ জনের মধ্যে ১১ জনকে মানব পাচারকারী চক্রের সদস্য হিসেবে শনাক্ত করে আটক করা হয়েছে। বাকি ৬৫ জন প্রতারণার শিকার হয়েছেন বলে নৌবাহিনী জানিয়েছে। প্রাথমিক তথ্যানুযায়ী, ভুক্তভোগীদের মালয়েশিয়া পৌঁছে দেওয়ার মিথ্যা প্রলোভন দেখিয়ে পাচারকারীরা টেকনাফের দুর্গম এলাকায় আটকে রেখেছিল।</p>\n<p>উদ্ধারকৃত ব্যক্তিদের নৌবাহিনীর পক্ষ থেকে খাবার, প্রাথমিক চিকিৎসা ও প্রয়োজনীয় সহায়তা প্রদান করা হয়েছে। আটক ১১ পাচারকারী এবং জব্দ করা কাঠের বোটটি আইনানুগ ব্যবস্থা গ্রহণের জন্য টেকনাফ থানায় হস্তান্তরের প্রক্রিয়া চলছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অনিশ্চিত ভবিষ্যতের হাতছানিতে জীবনের ঝুঁকি নিয়ে এমন বিপজ্জনক যাত্রা কেবল আইনি সংকটই নয়, বরং মানবিক বিপর্যয়েরও নামান্তর। মানবপাচার চক্রের এই দৌরাত্ম্য রুখতে উপকূলীয় নজরদারি বাড়ানোর পাশাপাশি সচেতনতা বৃদ্ধিই এখন সময়ের বড় দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/536755\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সমুদ্রপথে অবৈধভাবে মালয়েশিয়াগামী একটি বোটসহ ৭৬ জনকে উদ্ধার করেছে বাংলাদেশ নৌবাহিনী। উদ্ধার হওয়া ব্যক্তিদের মধ্যে ১১ জনকে মানব পাচারকারী চক্রের সদস্য হিসেবে শনাক...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/536755",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssee9ed522992730",
-      "slug": "নভেম্বরে-হতে-পারে-প্রধানমন্ত্রীর-সৌদি-সফ",
-      "title": "নভেম্বরে হতে পারে প্রধানমন্ত্রীর সৌদি সফর",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF-%E0%A6%B8%E0%A6%AB.jpg",
-      "publishedAt": "2026-10-02T04:53:37.818Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সৌদি আরবের যুবরাজ ও প্রধানমন্ত্রী মোহাম্মদ বিন সালমানের আমন্ত্রণে আগামী নভেম্বরের মাঝামাঝি সময়ে দেশটিতে সফরে যেতে পারেন প্রধানমন্ত্রী তারেক রহমান। এই সফরটি দুই দেশের মধ্যকার দ্বিপাক্ষিক সম্পর্ক ও সহযোগিতার নতুন দিগন্ত উন্মোচন করতে পারে বলে আশা করা হচ্ছে। প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান প্রতিমন্ত্রী মো. নুরুল হক জানিয়েছেন, সৌদি যুবরাজের আনুষ্ঠানিক আমন্ত্রণের প্রেক্ষিতেই প্রধানমন্ত্রীর এই সম্ভাব্য সফরের বিষয়টি সামনে এসেছে।</p>\n<p>বর্তমান পরিস্থিতিতে সৌদি আরবের শ্রমবাজারের চ্যালেঞ্জগুলো মোকাবিলা করাই এই সফরের অন্যতম প্রধান লক্ষ্য। বাংলাদেশের জনশক্তি রপ্তানির বৃহত্তম গন্তব্য সৌদি আরব হলেও গত ৯ মাসে সেখানে কর্মী পাঠানোর হার উল্লেখযোগ্যভাবে হ্রাস পেয়েছে। যুক্তরাষ্ট্র ও ইসরায়েলের ইরান আক্রমণের ফলে সৃষ্ট বৈশ্বিক অর্থনৈতিক অস্থিরতা এই পরিস্থিতির পেছনে বড় ভূমিকা রেখেছে বলে মনে করা হচ্ছে। তাই মধ্যপ্রাচ্যের এই শ্রমবাজারকে পুনরায় চাঙ্গা করতে দুই দেশের নীতিনির্ধারণী পর্যায়ের আলোচনা অত্যন্ত জরুরি হয়ে পড়েছে।</p>\n<p>প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয় সূত্রে জানা গেছে, প্রধানমন্ত্রীর আসন্ন সফরকে ঘিরে ব্যাপক প্রত্যাশা তৈরি হয়েছে। বিশেষ করে শ্রমবাজারের বর্তমান স্থবিরতা কাটিয়ে দীর্ঘদিনের শক্ত অবস্থান আরও সুসংহত করতে এই আলোচনা বিশেষ গুরুত্ব বহন করবে। মন্ত্রণালয় মনে করছে, উচ্চপর্যায়ের এই যোগাযোগের মাধ্যমে শ্রমবাজারের বহুমুখী সংকট নিরসনে কার্যকর পদক্ষেপ গ্রহণ করা সম্ভব হবে।</p>\n<p>রাজনৈতিক পর্যবেক্ষক মহলের মতে, বাংলাদেশ জাতীয়তাবাদী দল বিএনপির সঙ্গে মধ্যপ্রাচ্যের দেশগুলোর ঐতিহাসিকভাবে সুসম্পর্ক বজায় রয়েছে। এই ইতিবাচক কূটনৈতিক সম্পর্ককে কাজে লাগিয়ে প্রধানমন্ত্রী যদি সৌদি আরব সফর করেন, তবে দুই দেশের কৌশলগত অংশীদারিত্ব আরও দৃঢ় হবে। সামগ্রিকভাবে, এই সফর বাংলাদেশের প্রবাসী কর্মীদের স্বার্থ রক্ষা এবং শ্রমবাজারের গতিশীলতা পুনরুদ্ধারে গুরুত্বপূর্ণ ভূমিকা রাখবে বলে ধারণা করা হচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সৌদি আরবের সাথে এই উচ্চপর্যায়ের সফর দ্বিপাক্ষিক অর্থনৈতিক ও কৌশলগত অংশীদারিত্বকে নতুন উচ্চতায় নিতে পারে। মধ্যপ্রাচ্যের শ্রমবাজার ও জ্বালানি নিরাপত্তা নিশ্চিতে এ ধরনের কূটনৈতিক যোগাযোগ বাংলাদেশের দীর্ঘমেয়াদী স্বার্থ রক্ষায় গুরুত্বপূর্ণ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/536756\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সৌদি আরবের যুবরাজ ও প্রধানমন্ত্রী মোহাম্মদ বিন সালমানের আমন্ত্রণে আগামী নভেম্বরের মাঝামাঝি সময়ে সৌদি আরবে যেতে পারেন প্রধানমন্ত্রী তারেক রহমান। প্রধানমন্ত্রীর...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/536756",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss705bb1c7227ade",
-      "slug": "মধ্যপ্রাচ্যে-নতুন-করে-তিন-রণতরি-পাঠাচ্ছে",
-      "title": "মধ্যপ্রাচ্যে নতুন করে তিন রণতরি পাঠাচ্ছে যুক্তরাষ্ট্র",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss705bb1c7227ade-1200x630.jpg",
-      "publishedAt": "2026-10-02T04:53:37.817Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>মধ্যপ্রাচ্যে নিজেদের সামরিক উপস্থিতি বাড়িয়ে তিনটি বিমানবাহী রণতরি (এয়ারক্রাফট ক্যারিয়ার) স্ট্রাইক গ্রুপ পাঠাচ্ছে মার্কিন যুক্তরাষ্ট্র। যুক্তরাষ্ট্রের আসন্ন মধ্যবর্তী নির্বাচনকে সামনে রেখে ইরানে আবারও নতুন করে শক্তিশালী হামলার হুমকি দিচ্ছেন মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। এরই মধ্যে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মধ্যপ্রাচ্যের এই সামরিক উত্তেজনা বিশ্ববাজারে জ্বালানি তেলের দাম ও প্রবাসী আয়ের প্রবাহকে অনিশ্চিত করে তুলতে পারে। স্থানীয় পর্যায়ে সম্ভাব্য সংকট মোকাবিলায় সরকারের কূটনৈতিক তৎপরতা বাড়ানো এবং প্রবাসী স্বজনদের সুরক্ষায় সচেতন হওয়া এখন জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/313565/মধ্যপ্রাচ্যে-নতুন-করে-তিন-রণতরি-পাঠাচ্ছে-যুক্তরাষ্ট্র\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "মধ্যপ্রাচ্যে নিজেদের সামরিক উপস্থিতি বাড়িয়ে তিনটি বিমানবাহী রণতরি (এয়ারক্রাফট ক্যারিয়ার) স্ট্রাইক গ্রুপ পাঠাচ্ছে মার্কিন যুক্তরাষ্ট্র। যুক্তরাষ্ট্রের আসন্ন মধ্যবর্তী নির্বাচনকে সামনে রেখে ইরানে আবারও নতুন করে শক্তিশালী হামলার হুমকি দিচ্ছেন মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। এরই মধ্যে...",
-      "sourceUrl": "https://www.bd-journal.com/international/313565/মধ্যপ্রাচ্যে-নতুন-করে-তিন-রণতরি-পাঠাচ্ছে-যুক্তরাষ্ট্র",
-      "sourceName": "বাংলাদেশ জার্নাল"
     }
   ],
   "ads": [
