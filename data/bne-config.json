@@ -1,6 +1,6 @@
 {
-  "version": 239,
-  "updatedAt": "2026-10-03T23:00:07.136Z",
+  "version": 240,
+  "updatedAt": "2026-10-03T23:10:59.451Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "বিএনপি নেতা ইশরাক গ্রেফতার",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssa91c89a3916a73-1200x630.jpg",
       "publishedAt": "2026-10-03T22:43:55.827Z",
       "tags": [
         "সময় নিউজ"
@@ -313,7 +313,7 @@
       "title": "অনলাইন সাংবাদিকতার প্রসারে খালিদীর ভূমিকা প্রশংসনীয়: হেফাজতে ইসলাম",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss52039b7a9c3993-1200x630.jpg",
       "publishedAt": "2026-10-03T21:13:55.564Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -393,7 +393,7 @@
       "title": "রাজনৈতিক প্রশ্রয়ে দাপুটে কিশোর গ্যাং",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rsse5255fa9e46987-1200x630.jpg",
       "publishedAt": "2026-10-03T20:58:55.451Z",
       "tags": [
         "যুগান্তর"
@@ -409,7 +409,7 @@
       "title": "‘শেখ হাসিনাকে ভারতে প্রবেশ করতে দেওয়া ছাড়া উপায় ছিল না’",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss241f358337d2a8-1200x630.jpg",
       "publishedAt": "2026-10-03T20:58:55.451Z",
       "tags": [
         "যুগান্তর"
@@ -505,7 +505,7 @@
       "title": "নদীভাঙনে বদলে যাচ্ছে মানচিত্র",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss26f54f71dbd894-1200x630.jpg",
       "publishedAt": "2026-10-03T20:43:55.389Z",
       "tags": [
         "যুগান্তর"
@@ -521,7 +521,7 @@
       "title": "তারেক রহমান-ডোনাল্ড ট্রাম্পের নৈশভোজের ছবি প্রকাশ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss5347a4b88885a8-1200x630.jpg",
       "publishedAt": "2026-10-03T20:43:55.386Z",
       "tags": [
         "যুগান্তর"
