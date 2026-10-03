@@ -1,6 +1,6 @@
 {
-  "version": 231,
-  "updatedAt": "2026-10-03T21:36:11.480Z",
+  "version": 232,
+  "updatedAt": "2026-10-03T21:42:19.581Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "তিন ভূমিকম্পে কেঁপে উঠল দেশের বিভিন্ন অঞ্চল",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "images/national.jpg",
       "publishedAt": "2026-10-03T21:28:55.546Z",
       "tags": [
         "যুগান্তর"
@@ -137,7 +137,7 @@
       "title": "হামের উপসর্গ নিয়ে আরও ৮ জনের মৃত্যু",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/08/10/f6ee68cc9a3520685f63a2d1c8da252b-6a79beae86b0b.jpg?jadewits_media_id=1037806",
       "publishedAt": "2026-10-03T21:13:55.566Z",
       "tags": [
         "বিডিনিউজ২৪"
