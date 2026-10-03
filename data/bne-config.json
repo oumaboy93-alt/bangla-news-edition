@@ -1,6 +1,6 @@
 {
-  "version": 178,
-  "updatedAt": "2026-10-03T05:00:19.703Z",
+  "version": 179,
+  "updatedAt": "2026-10-03T05:09:06.769Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "ফ্রান্সজুড়ে ছড়িয়েছে শিক্ষার্থীদের বিক্ষোভ, গ্রেপ্তার ১৭৪৭",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rssbe78661d6fffc7-1200x630.jpg",
       "publishedAt": "2026-10-03T04:58:54.730Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -89,7 +89,7 @@
       "title": "হুথিদের ওপর বিশাল হামলার পরিকল্পনা করছে সৌদি আরব",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss591c131d505de3-1200x630.jpg",
       "publishedAt": "2026-10-03T04:58:54.729Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -105,7 +105,7 @@
       "title": "মাটিরাঙ্গা হর্টিকালচার সেন্টারে ঝুলছে ‘চাইনিজ ল্যান্টার্ন’",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "https://daily-bangladesh.com/media/common/fb-logo.png",
+      "image": "/img/rsse706294d53b0c3-1200x630.jpg",
       "publishedAt": "2026-10-03T04:43:54.810Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -169,7 +169,7 @@
       "title": "১০২ রানেই অলআউট বাংলাদেশ",
       "category": "প্রবাস",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss97989a9c932353-1200x630.jpg",
       "publishedAt": "2026-10-03T04:28:54.820Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -185,7 +185,7 @@
       "title": "বে অব বেঙ্গল কনভারসেশনে যোগ দিয়ে‌ছেন প্রধানমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssab24ecaab05c83-1200x630.jpg",
       "publishedAt": "2026-10-03T04:28:54.820Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
