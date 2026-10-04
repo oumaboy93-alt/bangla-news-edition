@@ -1,6 +1,6 @@
 {
-  "version": 245,
-  "updatedAt": "2026-10-04T00:02:07.659Z",
+  "version": 246,
+  "updatedAt": "2026-10-04T00:08:24.594Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "অচেতনের পর ব্লেড দিয়ে শরীর ক্ষতবিক্ষত",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss4ab0ec1640b1bc-1200x630.jpg",
       "publishedAt": "2026-10-03T23:58:55.690Z",
       "tags": [
         "যুগান্তর"
@@ -105,7 +105,7 @@
       "title": "মাদারগঞ্জে সৌরবিদ্যুৎ প্রকল্প বাস্তবায়নে তোড়জোড়",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssd86a6f10b90189-1200x630.jpg",
       "publishedAt": "2026-10-03T23:28:55.631Z",
       "tags": [
         "যুগান্তর"
@@ -121,7 +121,7 @@
       "title": "নেপালে বন্যায় নিখোঁজের ৩৭ দিন পর মালয়েশিয়ান নাগরিক জীবিত উদ্ধার",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss77f9330fd443d0-1200x630.jpg",
       "publishedAt": "2026-10-03T23:28:55.630Z",
       "tags": [
         "যুগান্তর"
@@ -1161,7 +1161,7 @@
       "title": "ইলিয়াস হোসাইনের নাম ভাঙিয়ে পাঁচ লাখ টাকা চাঁদা দাবি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss248a822171cd98-1200x630.jpg",
       "publishedAt": "2026-10-03T18:13:55.576Z",
       "tags": [
         "বাংলা এডিশন"
@@ -1225,7 +1225,7 @@
       "title": "স্বাস্থ্যকর উপায়ে ওজন কমানো: ক্র্যাশ ডায়েট নয়, মেনে চলুন পুষ্টিবিদদের এই ৮ পরামর্শ",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss6e4c45b0eef654-1200x630.jpg",
       "publishedAt": "2026-10-03T17:58:55.466Z",
       "tags": [
         "যুগান্তর"
