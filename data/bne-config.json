@@ -1,6 +1,6 @@
 {
-  "version": 264,
-  "updatedAt": "2026-10-04T06:01:38.959Z",
+  "version": 265,
+  "updatedAt": "2026-10-04T06:12:05.174Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -281,7 +281,7 @@
       "title": "দেশের সরকারি হাসপাতালে ৬২ শতাংশ অক্সিজেন প্লান্টই অচল",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss1176be264e02f9-1200x630.jpg",
       "publishedAt": "2026-10-04T04:58:56.066Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
