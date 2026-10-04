@@ -1,6 +1,6 @@
 {
-  "version": 248,
-  "updatedAt": "2026-10-04T01:01:34.188Z",
+  "version": 249,
+  "updatedAt": "2026-10-04T01:12:41.709Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "পাঁচ বিষয়ে গবেষণা, প্রাথমিকের শিক্ষক-কর্মকর্তারা পাবেন ২ লাখ টাকা",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssf5694dc3327205-1200x630.jpg",
       "publishedAt": "2026-10-04T00:58:55.777Z",
       "tags": [
         "সময় নিউজ"
@@ -73,7 +73,7 @@
       "title": "বিশ্ব রক্তদাতা দিবস",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss22b44ba1b30ce6-1200x630.jpg",
       "publishedAt": "2026-10-04T00:58:55.770Z",
       "tags": [
         "সময় নিউজ"
@@ -121,7 +121,7 @@
       "title": "নির্ধারিত দামে গ্যাস সিলিন্ডার বিক্রি নিশ্চিতে অভিযান, ৩৯ প্রতিষ্ঠানকে জরিমানা",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/04/4574338e5aa1f99f38917fe7290f714b-6ac14da7e2bf5.jpg?jadewits_media_id=314549",
+      "image": "/img/rssb023c85446a8c5-1200x630.jpg",
       "publishedAt": "2026-10-04T00:28:55.754Z",
       "tags": [
         "যুগান্তর"
@@ -1561,7 +1561,7 @@
       "title": "বড় হা'মলার প্রস্তুতি নিচ্ছে সৌদিসহ আন্তর্জাতিক সব খবর",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssbfa8d4e5f8e41c-1200x630.jpg",
       "publishedAt": "2026-10-03T17:13:55.274Z",
       "tags": [
         "যুগান্তর"
