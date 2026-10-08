@@ -1,6 +1,6 @@
 {
-  "version": 295,
-  "updatedAt": "2026-10-08T17:01:49.126Z",
+  "version": 296,
+  "updatedAt": "2026-10-08T17:14:48.251Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "হুথির বিরুদ্ধে অভিযানে নিজেদের বিমান ব্যবহারের কথা অস্বীকার করেছে পাকিস্তান",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss77c0fcaea93ca8-1200x630.jpg",
       "publishedAt": "2026-10-08T16:59:02.021Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -153,7 +153,7 @@
       "title": "শিশু নির্যা*তনের বিচার হোক শিশুবান্ধব",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsscc692a6f1a1215-1200x630.jpg",
       "publishedAt": "2026-10-08T16:29:02.847Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -169,7 +169,7 @@
       "title": "ধর্মমন্ত্রী আজ উদ্বোধন করবেন ইসলামী বইমেলা",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssf8ac25653e5a7e-1200x630.jpg",
       "publishedAt": "2026-10-08T16:29:02.845Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -185,7 +185,7 @@
       "title": "মনোহরদি, নরসিংদী সংবাদ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss65af75d4328560-1200x630.jpg",
       "publishedAt": "2026-10-08T16:29:02.843Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -201,7 +201,7 @@
       "title": "ডিএমপিতে ৮ কর্মকর্তার বদলি ও পদায়ন, ২ থানায় নতুন ওসি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss0bebe7d00121ee-1200x630.jpg",
       "publishedAt": "2026-10-08T16:14:01.920Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -249,7 +249,7 @@
       "title": "প্রধানমন্ত্রীর সঙ্গে ডিপি ওয়ার্ল্ডের চেয়ারম্যানের সাক্ষাৎ",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/10/08/35635760dad42872dda9d61e8a7f400b-6ac7bd41cd900.JPG?jadewits_media_id=1048199",
+      "image": "/img/rssa8380ce9dd4f38-1200x630.jpg",
       "publishedAt": "2026-10-08T15:59:01.606Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -441,7 +441,7 @@
       "title": "শাহজালাল বিমানবন্দরে যাত্রীর পায়ুপথ থেকে ‘স্বর্ণের ডিম’ উদ্ধার",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss6e0e63024d2988-1200x630.jpg",
       "publishedAt": "2026-10-08T14:59:01.487Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -521,7 +521,7 @@
       "title": "ফসলি জমিতে ১৫ বছরের কিশোরীর মরদেহ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss356518ac3b9aa9-1200x630.jpg",
       "publishedAt": "2026-10-08T14:44:01.488Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -617,7 +617,7 @@
       "title": "দুই মাসের মধ্যে এক হাজার খেলার মাঠ তৈরির নির্দেশ প্রধানমন্ত্রীর",
       "category": "খেলা",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/pm-tarak-fild-1791468909.jpg",
+      "image": "/img/rssd16f7746920797-1200x630.jpg",
       "publishedAt": "2026-10-08T14:14:01.558Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -745,7 +745,7 @@
       "title": "মাল্টা ৪০০–৫০০ টাকায় বিক্রি হওয়া গ্রহণযোগ্য নয়: বাণিজ্যমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss26df7b62e6184f-1200x630.jpg",
       "publishedAt": "2026-10-08T13:29:01.454Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -761,7 +761,7 @@
       "title": "মুক্তিযোদ্ধাদের যথাযথ সম্মান ও মর্যাদা নিশ্চিত করতে হবে: রাষ্ট্রপতি",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss8711a562d86f02-1200x630.jpg",
       "publishedAt": "2026-10-08T13:29:01.453Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -937,7 +937,7 @@
       "title": "সিপিআর চললেও কেন বাঁচানো যায়নি নানা পাটেকরকে",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss507f4f7ceac1ae-1200x630.jpg",
       "publishedAt": "2026-10-08T12:29:01.470Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -953,7 +953,7 @@
       "title": "বিশ্ববাজারে জ্বালানি তেলের দাম বেড়েছে তিন শতাংশেরও বেশি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssec0a38a8d0e521-1200x630.jpg",
       "publishedAt": "2026-10-08T12:29:01.468Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1033,7 +1033,7 @@
       "title": "জার্মান পর্যটকের চুরি হওয়া ল্যাপটপ উদ্ধারে রাজশাহীতে অভিযান",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss22a03124d67db3-1200x630.jpg",
       "publishedAt": "2026-10-08T11:59:01.494Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1113,7 +1113,7 @@
       "title": "স্থানীয় সরকার নির্বাচনের রোডম্যাপ ঘোষণা সোমবার: ইসি সানাউল্লাহ",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rsscb5443a722d2a8-1200x630.jpg",
       "publishedAt": "2026-10-08T11:29:01.489Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1193,7 +1193,7 @@
       "title": "নিউমুরিং টার্মিনাল ডিপি ওয়ার্ল্ডকে দেওয়ার প্রতিবাদে রাজধানীতে বিক্ষোভ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/08/72f63040438d4f618978764d2e65ce5a-6ac77c9c0ff6e.jpg?jadewits_media_id=315553",
+      "image": "/img/rss275d14a6aa41c3-1200x630.jpg",
       "publishedAt": "2026-10-08T11:14:01.342Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1289,7 +1289,7 @@
       "title": "বিরোধিতার মধ্যেই এনসিটি পরিচালনায় ডিপি ওয়ার্ল্ডের সঙ্গে চুক্তি",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss3bdeabc000423d-1200x630.jpg",
       "publishedAt": "2026-10-08T10:44:01.372Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1321,7 +1321,7 @@
       "title": "ঠাকুরগাঁও-১ উপনির্বাচনে প্রতীক পেলেন ৫ প্রার্থী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss60a8046f81edd0-1200x630.jpg",
       "publishedAt": "2026-10-08T10:29:01.339Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1337,7 +1337,7 @@
       "title": "হাম উপসর্গে আরো ৪ জনের মৃত্যু, নতুন রোগী ১৪২৮",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss452704a73c012d-1200x630.jpg",
       "publishedAt": "2026-10-08T10:29:01.335Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1385,7 +1385,7 @@
       "title": "জঙ্গল সলিমপুরে পুলিশ একাডেমি করা হবে: স্বরাষ্ট্রমন্ত্রী",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss6c518a3bb30638-1200x630.jpg",
       "publishedAt": "2026-10-08T10:14:01.368Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1433,7 +1433,7 @@
       "title": "মহাখালী টার্মিনালের পাশে এসি বাসে আগুন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsscc4437596a2e61-1200x630.jpg",
       "publishedAt": "2026-10-08T09:59:01.371Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1609,7 +1609,7 @@
       "title": "১৭ বছরের দুর্নীতি বন্ধ করে জনকল্যাণে কাজ করছে সরকার: মঈন খান",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss757ee3910eceeb-1200x630.jpg",
       "publishedAt": "2026-10-08T08:59:02.915Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1753,7 +1753,7 @@
       "title": "‘শিক্ষকদের জাতীয়করণ আজ হোক কাল হোক হবেই’",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss932cfe1ca50b48-1200x630.jpg",
       "publishedAt": "2026-10-08T08:14:01.291Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1913,7 +1913,7 @@
       "title": "ঢাকার গণপরিবহন ব্যবস্থাপনা ও সড়কে শৃঙ্খলা ফেরাতে প্রধানমন্ত্রীর বৈঠক",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssa20aaba15e3286-1200x630.jpg",
       "publishedAt": "2026-10-08T07:29:01.316Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1945,7 +1945,7 @@
       "title": "গোপালগঞ্জ বিশ্ববিদ্যালয়ে নবীনবরণের আগে দুই ককটেল বিস্ফোরণ",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rss3d05c8a1b8a7c4-1200x630.jpg",
       "publishedAt": "2026-10-08T07:14:01.345Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1961,7 +1961,7 @@
       "title": "অবৈধ রিকশার দৌরাত্ম্য: মূল সড়কে চলাচলে কঠোর নিষেধাজ্ঞা, আসছে নতুন নীতিমালা",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss6db98a0e59b005-1200x630.jpg",
       "publishedAt": "2026-10-08T07:14:01.339Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1993,7 +1993,7 @@
       "title": "২৪ ঘণ্টায় হাম ও উপর্গে ৬ জনের মৃত্যু",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rssb7f16b914cd101-1200x630.jpg",
       "publishedAt": "2026-10-08T06:59:14.105Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2009,7 +2009,7 @@
       "title": "ডেঙ্গুতে এক দিনে ১০ মৃত্যু",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss7ded2cd28ec77f-1200x630.jpg",
       "publishedAt": "2026-10-08T06:59:14.100Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2105,7 +2105,7 @@
       "title": "চালুর দুদিনের মাথায় ফের বন্ধ যমুনা সার কারখানার উৎপাদন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss27ec73d2ca5a76-1200x630.jpg",
       "publishedAt": "2026-10-08T06:29:01.175Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2297,7 +2297,7 @@
       "title": "বিদায়বেলায় মেসিকে ‘আলিঙ্গন’ রোনালদোর",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rss7d4a376b6658ab-1200x630.jpg",
       "publishedAt": "2026-10-08T05:29:01.090Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -2345,7 +2345,7 @@
       "title": "নারায়ণগঞ্জের পিএসআরএম স্টিল মিলে বিস্ফোরণ, দগ্ধ ৪ শ্রমিক ঢাকায় ভর্তি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rssfc7611e643d298-1200x630.jpg",
       "publishedAt": "2026-10-08T05:14:01.046Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2441,7 +2441,7 @@
       "title": "যুক্তরাষ্ট্রের বাজারে রপ্তানি কমলেও চীন-ভারতের চেয়ে এগিয়ে বাংলাদেশ",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rsse12343976738e4-1200x630.jpg",
       "publishedAt": "2026-10-08T04:44:01.052Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2537,7 +2537,7 @@
       "title": "ইউক্রেনে রাতের আঁধারে রুশ তাণ্ডব: ঘুমন্ত শিশুসহ প্রাণ গেল ২৮ জনের",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss4f65a7873cf87c-1200x630.jpg",
       "publishedAt": "2026-10-08T04:14:00.935Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2681,7 +2681,7 @@
       "title": "প্রখ্যাত অভিনেতা নানা পাটেকর মারা গেছেন",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "/img/rssbc693dcc748a7a-1200x630.jpg",
       "publishedAt": "2026-10-08T03:29:01.059Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2713,7 +2713,7 @@
       "title": "১৪ লাখ টন জ্বালানি তেল কিনবে সরকার, ক্রয় কমিটিতে আরও ৯ প্রস্তাব অনুমোদন",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssfd5613783f9aa1-1200x630.jpg",
       "publishedAt": "2026-10-08T03:14:00.952Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2793,7 +2793,7 @@
       "title": "ডিপি ওয়ার্ল্ডের সঙ্গে আজ চুক্তি, বন্দরে উত্তাপ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss432beeda5c0f1a-1200x630.jpg",
       "publishedAt": "2026-10-08T02:44:01.040Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2857,7 +2857,7 @@
       "title": "তাপমাত্রা বৃদ্ধি, খরা ও আকস্মিক বন্যার শঙ্কা বিশেষজ্ঞদের",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss81def58c4bc5e2-1200x630.jpg",
       "publishedAt": "2026-10-08T02:14:00.941Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -3225,7 +3225,7 @@
       "title": "হোয়াইট হাউসে ইরানি কর্মকর্তাদের যোগাযোগ চেষ্টার দাবি ট্রাম্পের, অস্বীকার তেহরানের",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss1eb40b24518f25-1200x630.jpg",
       "publishedAt": "2026-10-07T22:59:00.768Z",
       "tags": [
         "সময় নিউজ"
@@ -3241,7 +3241,7 @@
       "title": "মসজিদ ভাঙচুর ঘিরে উত্তপ্ত নেপাল, সীমান্ত বন্ধ করে দিলো ভারত!",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssfdd98636292eb9-1200x630.jpg",
       "publishedAt": "2026-10-07T22:59:00.766Z",
       "tags": [
         "সময় নিউজ"
@@ -3273,7 +3273,7 @@
       "title": "১০ উড়োজাহাজ কিনতে এয়ারবাসের সঙ্গে বিমানের চুক্তি",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2cdadd16560f1b-1200x630.jpg",
       "publishedAt": "2026-10-07T22:59:00.720Z",
       "tags": [
         "বাংলা এডিশন"
@@ -3417,7 +3417,7 @@
       "title": "আকিজ বশির গ্রুপে নিয়োগ বিজ্ঞপ্তি, আবেদন অনলাইনে",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssa38d0a870a628f-1200x630.jpg",
       "publishedAt": "2026-10-07T21:59:00.531Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -3609,7 +3609,7 @@
       "title": "২০২৫-২৬: শেষ প্রান্তিকে জিডিপি প্রবৃদ্ধি বেড়ে ৪.৬%",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "/img/rssbd145051c4f156-1200x630.jpg",
       "publishedAt": "2026-10-07T20:29:00.636Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -3625,7 +3625,7 @@
       "title": "নেপালে বন্যা: ৫ হাজারের বেশি মানুষ নিখোঁজ রেখেই শেষ হল উদ্ধারকাজ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss7013dcd8037a22-1200x630.jpg",
       "publishedAt": "2026-10-07T20:29:00.632Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -3673,7 +3673,7 @@
       "title": "সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - বাংলা এডিশন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssd8b4995b1f8147-1200x630.jpg",
       "publishedAt": "2026-10-07T20:29:00.599Z",
       "tags": [
         "বাংলা এডিশন"
@@ -3689,7 +3689,7 @@
       "title": "এয়ারবাসের ১০ উড়োজাহাজ কিনতে চুক্তি সই",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss47bc9eec9b4546-1200x630.jpg",
       "publishedAt": "2026-10-07T20:29:00.591Z",
       "tags": [
         "বাংলা এডিশন"
@@ -3833,7 +3833,7 @@
       "title": "শিগগিরই আসছে প্রাথমিকের সহকারী শিক্ষক নিয়োগের বিজ্ঞপ্তি",
       "category": "চাকরি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/07/d443d62c0fb2c6347afd91e3bc9534fb-6ac609527a98c.jpg?jadewits_media_id=315317",
+      "image": "/img/rss3c1f0693a38249-1200x630.jpg",
       "publishedAt": "2026-10-07T19:44:00.541Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -3849,7 +3849,7 @@
       "title": "জিয়াউর রহমানের সমাধিতে নেতাকর্মীদের ফুলেল শ্রদ্ধা",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss4c9b8bd1a529c3-1200x630.jpg",
       "publishedAt": "2026-10-07T19:29:00.642Z",
       "tags": [
         "সময় নিউজ"
@@ -3865,7 +3865,7 @@
       "title": "বেল্ট অ্যান্ড রোড ইনিশিয়েটিভ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssa870c5098cb37a-1200x630.jpg",
       "publishedAt": "2026-10-07T19:29:00.640Z",
       "tags": [
         "সময় নিউজ"
@@ -3929,7 +3929,7 @@
       "title": "সকাল থেকে যেসব এলাকায় টানা ১০ ঘণ্টা বিদ্যুৎ থাকবে না আজ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssbe8c34f6edd793-1200x630.jpg",
       "publishedAt": "2026-10-07T19:14:00.640Z",
       "tags": [
         "সময় নিউজ"
@@ -3945,7 +3945,7 @@
       "title": "মেসির মতো আবেগঘন বিদায় রোনালদো না পাওয়ায় খারাপ লাগছে লিনেকারের",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rss75ad93bc5a6708-1200x630.jpg",
       "publishedAt": "2026-10-07T19:14:00.630Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -3961,7 +3961,7 @@
       "title": "অভিজ্ঞতা ছাড়াই সিটি ব্যাংকে চাকরি, নেবে নারী-পুরুষ উভয়",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss0b02f4134c4186-1200x630.jpg",
       "publishedAt": "2026-10-07T19:14:00.543Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -3977,7 +3977,7 @@
       "title": "৭ নভেম্বর সাধারণ ছুটি ঘোষণা করে প্রজ্ঞাপন",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss3540db7f1e3170-1200x630.jpg",
       "publishedAt": "2026-10-07T19:14:00.532Z",
       "tags": [
         "বাংলাদেশ সরকার"
@@ -4121,7 +4121,7 @@
       "title": "দিল্লিতে ফের আটক রাহুল-প্রিয়াঙ্কা: বাসে তুলতেই চাকা পাংচার, পরে মুক্তি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsse390569266731f-1200x630.jpg",
       "publishedAt": "2026-10-07T18:29:00.502Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -4233,7 +4233,7 @@
       "title": "ঢাকার চারপাশের নদী: দূষণের উদ্বেগজনক চিত্র সংসদীয় কমিটিকে দেখাল ওয়ারপো",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssc8da0fcb2bb088-1200x630.jpg",
       "publishedAt": "2026-10-07T18:14:00.707Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -4265,7 +4265,7 @@
       "title": "বিটিভিতে নতুন নিয়োগ বিজ্ঞপ্তি প্রকাশ, আবেদন করবেন যেভাবে",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssef2c33d609be00-1200x630.jpg",
       "publishedAt": "2026-10-07T18:14:00.545Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -4665,7 +4665,7 @@
       "title": "জ্বালানি ব্যয় কমাতে আরো ১০ কোটি ব্যারেল তেল ছাড়ছে আইইএ",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssd34129cf416c98-1200x630.jpg",
       "publishedAt": "2026-10-07T16:59:00.471Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -4713,7 +4713,7 @@
       "title": "স্যাটেলাইটের ধ্বংসাবশেষ ছুটে আসছিল, রক্ষা পেল বাংলাদেশের বিএস-১",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2aebeeaf6a2ced-1200x630.jpg",
       "publishedAt": "2026-10-07T16:44:00.430Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -4761,7 +4761,7 @@
       "title": "বৃহস্পতিবার ১০ ঘণ্টা গ্যাস থাকবে না রাজধানীর একাধিক এলাকায়",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss43fa0893cc8780-1200x630.jpg",
       "publishedAt": "2026-10-07T16:29:00.610Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -4809,7 +4809,7 @@
       "title": "১০ উড়োজাহাজ কিনতে এয়ারবাসের সঙ্গে চুক্তি সই",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss817c212ed3cc2c-1200x630.jpg",
       "publishedAt": "2026-10-07T16:14:00.688Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -4937,7 +4937,7 @@
       "title": "শিক্ষার্থীদের বিক্ষোভ দমনে স্টান গ্রেনেডের ব্যবহার স্থগিত করেছে ফ্রান্স",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rss14fc0e008e76b8-1200x630.jpg",
       "publishedAt": "2026-10-07T15:44:00.477Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -5081,7 +5081,7 @@
       "title": "রাবির সাংবাদিকতা বিভাগে মোবাইল সাংবাদিকতা বিষয়ক প্রশিক্ষণ কর্মশালা আয়োজিত",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rss81a00a62d85b69-1200x630.jpg",
       "publishedAt": "2026-10-07T14:59:00.301Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -5417,7 +5417,7 @@
       "title": "দল-মতের ঊর্ধ্বে উঠে মুক্তিযোদ্ধাদের নির্ভুল তালিকা করা হবে: মুক্তিযুদ্ধমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/07/59a4c588bcc3feeabfa3c0efb740fecc-6ac61a7009cd1.jpg?jadewits_media_id=315332",
+      "image": "/img/rss41c2c316ee6c11-1200x630.jpg",
       "publishedAt": "2026-10-07T13:14:00.351Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -5561,7 +5561,7 @@
       "title": "ইউএনও-উপজেলা প্রশাসকদের জরুরি নির্দেশনা জারি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss42bf5161610e9d-1200x630.jpg",
       "publishedAt": "2026-10-07T12:29:00.240Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -5609,7 +5609,7 @@
       "title": "রাষ্ট্রায়ত্ত ব্যাংক ও স্বশাসিত প্রতিষ্ঠানে পে-স্কেল কার্যকরের নির্দেশ",
       "category": "চাকরি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/06/24/0cd807f9e22f819ea46c9e0e4e792456-6a3be3f7cfe0e.jpg?jadewits_media_id=295527",
+      "image": "/img/rssd237ade129134b-1200x630.jpg",
       "publishedAt": "2026-10-07T12:14:00.257Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6089,7 +6089,7 @@
       "title": "মতপার্থক্য, গঠনমূলক সমালোচনা এবং শান্তিপূর্ণ প্রতিবাদই গণতন্ত্রের সৌন্দর্য : রাষ্ট্রপতি",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/07/c8afe545758f95d4a4677269289dd0d7-6ac61df95b9d7.jpg?jadewits_media_id=315335",
+      "image": "/img/rss5ca4dd147d42c9-1200x630.jpg",
       "publishedAt": "2026-10-07T09:44:00.229Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6137,7 +6137,7 @@
       "title": "কুষ্টিয়ায় ৬ হত্যা: হানিফসহ চারজনের ‘মানবতাবিরোধী’ মামলার রায় যে কোনো দিন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss02685a95ef7c23-1200x630.jpg",
       "publishedAt": "2026-10-07T09:29:00.402Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6249,7 +6249,7 @@
       "title": "সরকারকে বিপাকে ফেলতে অপচেষ্টা চালাচ্ছে পতিত দোসররা: রিজভী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssec27e85aa370a7-1200x630.jpg",
       "publishedAt": "2026-10-07T08:44:00.033Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6377,7 +6377,7 @@
       "title": "১৭ অক্টোবরের ছুটি বাতিল, প্রজ্ঞাপন জারি",
       "category": "ধর্ম",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/07/fe3191406d8416f58fe655205de36e69-6ac6026d5f6c4.jpg?jadewits_media_id=315306",
+      "image": "/img/rss3486fd7f4fbc54-1200x630.jpg",
       "publishedAt": "2026-10-07T08:13:59.933Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6441,7 +6441,7 @@
       "title": "হামের টিকার আওতায় ২ কোটি শিশু, লক্ষ্য আরও ৩৫ লাখ",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss8a4cb45e34bd63-1200x630.jpg",
       "publishedAt": "2026-10-07T07:44:00.039Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6921,7 +6921,7 @@
       "title": "জ্বালানি তেলের বাজারে অস্থিরতা: বাড়ল ব্রেন্ট ও ডব্লিউটিআই ক্রুডের দাম",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssdbf708d9b52e2c-1200x630.jpg",
       "publishedAt": "2026-10-07T05:13:59.774Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -6985,7 +6985,7 @@
       "title": "নির্বাচন কমিশনারের পদত্যাগ দাবিতে উত্তাল দিল্লি, আটক রাহুল-প্রিয়াঙ্কা",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssa6f5adb3f2acd1-1200x630.jpg",
       "publishedAt": "2026-10-07T04:58:59.910Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7113,7 +7113,7 @@
       "title": "আমি যেতে চাই না, আমি এই মাঠ ছাড়তে চাই না: মেসি",
       "category": "খেলা",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rsscde80f801743fc-1200x630.jpg",
       "publishedAt": "2026-10-07T04:13:59.714Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7193,7 +7193,7 @@
       "title": "কৃষ্ণসাগরে তেলবাহী জাহাজে হামলা: ২৩ ভারতীয় নাবিক উদ্ধার",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss5d888d4dbb3030-1200x630.jpg",
       "publishedAt": "2026-10-07T03:58:59.783Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7273,7 +7273,7 @@
       "title": "বীরশ্রেষ্ঠ হামিদুর রহমানের ভাস্কর্যে জুতার মালা:তীব্র ক্ষোভ, গ্রেপ্তার ১",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/07/878a92882a3a54044f494c26a3be62c1-6ac5541789a11.jpg?jadewits_media_id=315233",
+      "image": "/img/rsse8b59e71380f2b-1200x630.jpg",
       "publishedAt": "2026-10-07T03:29:00.140Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7353,7 +7353,7 @@
       "title": "অশ্রু ও তৃপ্তির হাসিতে শেষ হলো মেসি অধ্যায়; বেনিনকে হারিয়ে স্মরণীয় বিদায়",
       "category": "খেলা",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rssc56ffc44eb72d4-1200x630.jpg",
       "publishedAt": "2026-10-07T02:58:59.774Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7449,7 +7449,7 @@
       "title": "বিমানের বহরে যুক্ত হচ্ছে আরও ৩৫ উড়োজাহাজ, এয়ারবাসের সঙ্গে চুক্তি আজ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss0138f2177b105b-1200x630.jpg",
       "publishedAt": "2026-10-07T02:28:59.719Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7561,7 +7561,7 @@
       "title": "বিদায়ী ম্যাচে আবেগে ভাসলেন মেসি, রাস্তায় নেমে এলেন অগণিত ভক্ত",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rss59475dc4d2017d-1200x630.jpg",
       "publishedAt": "2026-10-07T01:58:59.733Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7641,7 +7641,7 @@
       "title": "দেনমোহরের জন্য স্ত্রীকে হয়রানি করলে ক্ষতিপূরণ দিতে হবে স্বামীকে: হাইকোর্ট",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss183fc2dfcf2724-1200x630.jpg",
       "publishedAt": "2026-10-07T01:28:59.657Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7833,7 +7833,7 @@
       "title": "প্রবাসীদের অভিযোগ দ্রুত নিষ্পত্তিতে বিশেষ সেল গঠন",
       "category": "প্রবাস",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss741ca1888f4785-1200x630.jpg",
       "publishedAt": "2026-10-07T00:28:59.487Z",
       "tags": [
         "বাংলা এডিশন"
