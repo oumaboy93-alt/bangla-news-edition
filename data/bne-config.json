@@ -1,6 +1,6 @@
 {
-  "version": 325,
-  "updatedAt": "2026-10-09T10:01:55.590Z",
+  "version": 326,
+  "updatedAt": "2026-10-09T10:13:03.189Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -105,7 +105,7 @@
       "title": "নোবেল শান্তি পুরস্কার পেলেন মানবাধিকার আইনজীবী নাভি পিলাই",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss72ec38be5224f4-1200x630.jpg",
       "publishedAt": "2026-10-09T09:44:02.518Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -169,7 +169,7 @@
       "title": "চাঁদার দাবিতে বন্ধ ব্যবসা-নির্মাণকাজ, উদ্বেগ বাড়ছে আইনশৃঙ্খলা নিয়ে",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss5b1c0af2335539-1200x630.jpg",
       "publishedAt": "2026-10-09T09:29:02.557Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -233,7 +233,7 @@
       "title": "সন্দেহের ভিত্তিতে কাউকে বাংলাদেশি বলে তাড়ানো যাবে না: কলকাতা হাইকোর্ট",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsse4ae262d156b61-1200x630.jpg",
       "publishedAt": "2026-10-09T09:14:02.768Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -425,7 +425,7 @@
       "title": "সাত মাসে বিদেশে গেছেন ৪ লাখের বেশি বাংলাদেশি, রেমিট্যান্স ২৪.৭৫ বিলিয়ন ডলার",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssd129064f3ab409-1200x630.jpg",
       "publishedAt": "2026-10-09T08:14:02.591Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
