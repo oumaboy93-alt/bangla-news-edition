@@ -1,6 +1,6 @@
 {
-  "version": 410,
-  "updatedAt": "2026-10-15T21:13:02.943Z",
+  "version": 411,
+  "updatedAt": "2026-10-15T23:05:12.448Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,262 @@
       "sourceName": ""
     },
     {
+      "id": "rssd08dc322b157ef",
+      "slug": "ড্রাইভিং-প্রশিক্ষণে-জোর-৩-মাস-পর-অগ্রগতি",
+      "title": "ড্রাইভিং প্রশিক্ষণে জোর, ৩ মাস পর অগ্রগতি দেখতে চান মন্ত্রী",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A7%A9-%E0%A6%AE%E0%A6%BE%E0%A6%B8-%E0%A6%AA%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF.webp",
+      "publishedAt": "2026-10-15T22:44:10.972Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>দেশ-বিদেশে কর্মসংস্থানের সুযোগ বাড়াতে দক্ষ চালক তৈরির ওপর গুরুত্ব দিয়েছেন প্রবাসীকল্যাণ ও বৈদেশিক কর্মসংস্থানমন্ত্রী আরিফুল হক চৌধুরী। তিনি বলেছেন, ড্রাইভিং প্রশিক্ষণ কার্যক্রম শুরুর তিন মাস পর অগ্রগতি পর্যালোচনা করা হবে। যেসব প্রশিক্ষণকেন্দ্র বেশি সংখ্যক দক্ষ চালক তৈরি করতে পারবে, তাদের পুরস্কৃত করা হবে। বিদেশে কর্মসংস্থানের উপযোগী করে তুলতে প্রশিক্ষণার্থীদের বামপাশে গাড়ি চালানো, সড়কের সংকেত,... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/974796/%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A7%A9-%E0%A6%AE%E0%A6%BE%E0%A6%B8-%E0%A6%AA%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "দেশ-বিদেশে কর্মসংস্থানের সুযোগ বাড়াতে দক্ষ চালক তৈরির ওপর গুরুত্ব দিয়েছেন প্রবাসীকল্যাণ ও বৈদেশিক কর্মসংস্থানমন্ত্রী আরিফুল হক চৌধুরী। তিনি বলেছেন, ড্রাইভিং প্রশিক্ষণ কার্যক্রম শুরুর তিন মাস পর অগ্রগতি পর্যালোচনা করা হবে। যেসব প্রশিক্ষণকেন্দ্র বেশি সংখ্যক দক্ষ চালক তৈরি করতে পারবে, তাদের পুরস্কৃত কর",
+      "sourceUrl": "https://www.banglatribune.com/others/974796/%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%B0-%E0%A7%A9-%E0%A6%AE%E0%A6%BE%E0%A6%B8-%E0%A6%AA%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%97%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss2023595ff56a03",
+      "slug": "এনসিপির-কার্যালয়ের-সামনে-ককটেল-বিস্ফোরণ",
+      "title": "এনসিপির কার্যালয়ের সামনে ককটেল বিস্ফোরণ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3.webp",
+      "publishedAt": "2026-10-15T22:44:10.969Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাজধানীর বাংলামোটরে জাতীয় নাগরিক পার্টির (এনসিপি) কেন্দ্রীয় কার্যালয়ের সামনের সড়কে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। এনসিপির এক সংবাদ বিজ্ঞপ্তিতে এ তথ্য জানানো হয়। বিজ্ঞপ্তিতে বলা হয়, বৃহস্পতিবার (১৫ অক্টোবর) দিবাগত রাত সাড়ে ১২টার দিকে মোটরসাইকেলে আসা দুর্বৃত্তরা এনসিপির কেন্দ্রীয় কার্যালয়ের সামনের সড়কে তিনটি ককটেল ছুড়ে মারে। এর মধ্যে একটি বিস্ফোরিত হয়। পরে ঘটনাস্থলে আসা পুলিশ কর্মকর্তারা... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/974798/%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাজধানীর বাংলামোটরে জাতীয় নাগরিক পার্টির (এনসিপি) কেন্দ্রীয় কার্যালয়ের সামনের সড়কে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। এনসিপির এক সংবাদ বিজ্ঞপ্তিতে এ তথ্য জানানো হয়। বিজ্ঞপ্তিতে বলা হয়, বৃহস্পতিবার (১৫ অক্টোবর) দিবাগত রাত সাড়ে ১২টার দিকে মোটরসাইকেলে আসা দুর্বৃত্তরা এনসিপির কেন্দ্রীয় কার্যালয়ের সামনের সড়কে ",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/974798/%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rsse8efafab441b7d",
+      "slug": "৪৫তম-বিসিএসের-নিয়োগ-প্রক্রিয়া-শেষ-প্রায়",
+      "title": "৪৫তম বিসিএসের নিয়োগ প্রক্রিয়া শেষ প্রায় চার বছরে: জবাবদিহির দাবি",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-15T22:29:11.140Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jOEdKWC1fNFNxbW1qemRGN0UyYlczNHByNG5sQldEcUk5QXJtd0x2djFvRmtRcFYzRllyYkw5Y045Rk02WmlkNmdOUFJlRExjLTlaVnVjQWo5TUhWcE9WVi14SGFFTWfSAXRBVV95cUxNblZ0clNBMmxVbkpySlhPSjJpQlNNaEE3SlhWeGJiSUVqcjFrc1hIcWZlMnJId2FiUUdZbEJETC1haGtNRll6RmEtOW53anY</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দীর্ঘমেয়াদী নিয়োগ জটিলতা তরুণ প্রজন্মের মেধা ও কর্মস্পৃহাকে চরম অনিশ্চয়তার মুখে ঠেলে দিচ্ছে। প্রশাসনিক স্বচ্ছতা ও দায়বদ্ধতা নিশ্চিত না হলে এমন স্থবিরতা মেধাবীদের হতাশ করে দেশের সামগ্রিক উন্নয়নকেই বাধাগ্রস্ত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jOEdKWC1fNFNxbW1qemRGN0UyYlczNHByNG5sQldEcUk5QXJtd0x2djFvRmtRcFYzRllyYkw5Y045Rk02WmlkNmdOUFJlRExjLTlaVnVjQWo5TUhWcE9WVi14SGFFTWfSAXRBVV95cUxNblZ0clNBMmxVbkpySlhPSjJpQlNNaEE3SlhWeGJiSUVqcjFrc1hIcWZlMnJId2FiUUdZbEJETC1haGtNRll6RmEtOW53anY1aVVXTDFCRnFaYVNta1lFT3ZoOEVwLWxFRkV4UHFnSUNnUGRvNg?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">সরকারি নিয়োগ</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jOEdKWC1fNFNxbW1qemRGN0UyYlczNHByNG5sQldEcUk5QXJtd0x2djFvRmtRcFYzRllyYkw5Y045Rk02WmlkNmdOUFJlRExjLTlaVnVjQWo5TUhWcE9WVi14SGFFTWfSAXRBVV95cUxNblZ0clNBMmxVbkpySlhPSjJpQlNNaEE3SlhWeGJiSUVqcjFrc1hIcWZlMnJId2FiUUdZbEJETC1haGtNRll6RmEtOW53anY",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jOEdKWC1fNFNxbW1qemRGN0UyYlczNHByNG5sQldEcUk5QXJtd0x2djFvRmtRcFYzRllyYkw5Y045Rk02WmlkNmdOUFJlRExjLTlaVnVjQWo5TUhWcE9WVi14SGFFTWfSAXRBVV95cUxNblZ0clNBMmxVbkpySlhPSjJpQlNNaEE3SlhWeGJiSUVqcjFrc1hIcWZlMnJId2FiUUdZbEJETC1haGtNRll6RmEtOW53anY1aVVXTDFCRnFaYVNta1lFT3ZoOEVwLWxFRkV4UHFnSUNnUGRvNg?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
+    },
+    {
+      "id": "rss3672591236a163",
+      "slug": "বিএনপির-নেতারা-টাকার-বিনিময়ে-ডিলার-নিয়োগ",
+      "title": "‘বিএনপির নেতারা টাকার বিনিময়ে ডিলার নিয়োগ দিয়েছেন’",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%9F%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97.webp",
+      "publishedAt": "2026-10-15T22:14:11.048Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>সারের ডিলার নিয়োগে বিএনপির দলীয়করণ, স্বজনপ্রীতি ও আর্থিক লেনদেনের অভিযোগ তদন্ত করে দায়ীদের বিরুদ্ধে শাস্তিমূলক ব্যবস্থা নেওয়ার দাবি জানিয়েছে জামায়াতে ইসলামী। দলটির সেক্রেটারি জেনারেল মিয়া গোলাম পরওয়ার অভিযোগ করেছেন, বিএনপির নেতারা টাকার বিনিময়ে ডিলার নিয়োগ দিয়েছেন। সরকারের অব্যবস্থাপনা ও দুর্নীতির কারণে দেশে সারসংকট তৈরি হয়েছে এবং কৃষকেরা ভোগান্তিতে পড়েছেন। গতকাল বৃহস্পতিবার রাজধানীর মগবাজারে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815432/%E2%80%98%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%9F%E0%A7%87%C2%A0%E0%A6%A1%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8%E2%80%99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "সারের ডিলার নিয়োগে বিএনপির দলীয়করণ, স্বজনপ্রীতি ও আর্থিক লেনদেনের অভিযোগ তদন্ত করে দায়ীদের বিরুদ্ধে শাস্তিমূলক ব্যবস্থা নেওয়ার দাবি জানিয়েছে জামায়াতে ইসলামী। দলটির সেক্রেটারি জেনারেল মিয়া গোলাম পরওয়ার অভিযোগ করেছেন, বিএনপির নেতারা টাকার বিনিময়ে ডিলার নিয়োগ দিয়েছেন। সরকারের অব্যবস্থাপনা ও দুর্নীতির ক",
+      "sourceUrl": "https://www.ittefaq.com.bd/815432/%E2%80%98%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%9F%E0%A7%87%C2%A0%E0%A6%A1%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8%E2%80%99",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rsse29532493a5cc3",
+      "slug": "শিশুর-অভিভাবকত্বে-আইনি-জটিলতা-দূর-করার-ত",
+      "title": "শিশুর অভিভাবকত্বে আইনি জটিলতা দূর করার তাগিদ",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%BF-%E0%A6%9C%E0%A6%9F%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BE-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%A4.webp",
+      "publishedAt": "2026-10-15T21:44:10.964Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>শিশুর সর্বোত্তম স্বার্থ বিবেচনায় তার প্রকৃত পরিচর্যাকারীর অভিভাবকত্বের স্বীকৃতি নিশ্চিত করতে আইনি ও প্রশাসনিক জটিলতা দূর করার তাগিদ দিয়েছেন আইনজীবী, সংসদ সদস্য, অধিকারকর্মী ও গবেষকরা। তারা বলেছেন, আদালতের আদেশ কার্যকর করা, একক অভিভাবকের সন্তানের স্কুলে ভর্তির বাধা দূর করা এবং আইনি স্বীকৃতির পর পরিবারকে প্রয়োজনীয় সহায়তা দেওয়ার ব্যবস্থা করতে হবে। বৃহস্পতিবার (১৫ অক্টোবর) রাজধানীর দৃকপাঠ ভবনে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/974794/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%BF-%E0%A6%9C%E0%A6%9F%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BE-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%A6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "শিশুর সর্বোত্তম স্বার্থ বিবেচনায় তার প্রকৃত পরিচর্যাকারীর অভিভাবকত্বের স্বীকৃতি নিশ্চিত করতে আইনি ও প্রশাসনিক জটিলতা দূর করার তাগিদ দিয়েছেন আইনজীবী, সংসদ সদস্য, অধিকারকর্মী ও গবেষকরা। তারা বলেছেন, আদালতের আদেশ কার্যকর করা, একক অভিভাবকের সন্তানের স্কুলে ভর্তির বাধা দূর করা এবং আইনি স্বীকৃতির পর পরিবা",
+      "sourceUrl": "https://www.banglatribune.com/others/974794/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%BF-%E0%A6%9C%E0%A6%9F%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BE-%E0%A6%A6%E0%A7%82%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%A6",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss1e367122790b84",
+      "slug": "নালার-পাশে-মিললো-এক-দিন-বয়সী-নবজাতক-কন্যা",
+      "title": "নালার পাশে মিললো এক দিন বয়সী নবজাতক কন্যাশিশু",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%8F%E0%A6%95-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80-%E0%A6%A8%E0%A6%AC%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE.webp",
+      "publishedAt": "2026-10-15T21:44:10.943Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>নোয়াখালীর বেগমগঞ্জ উপজেলার চৌমুহনী কলেজ রোডের মহেশগঞ্জ বাজার এলাকায় একটি বাসার পেছনে নালার পাশ থেকে এক নবজাতক কন্যাশিশুকে উদ্ধার করা হয়েছে। বৃহস্পতিবার (১৫ অক্টোবর) বিকেল সাড়ে পাঁচটার দিকে হালকা কাপড়ে মোড়ানো অবস্থায় শিশুটিকে দেখতে পান স্থানীয়রা। পুলিশ ও স্থানীয় সূত্রে জানা গেছে, মহেশগঞ্জ বাজারের বস্তাগলি এলাকায় সমীর সুরের বাসার পেছনে নালার পাশে মাটিতে শিশুটিকে পড়ে থাকতে দেখেন এক... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815438/%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%8F%E0%A6%95-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80-%E0%A6%A8%E0%A6%AC%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "নোয়াখালীর বেগমগঞ্জ উপজেলার চৌমুহনী কলেজ রোডের মহেশগঞ্জ বাজার এলাকায় একটি বাসার পেছনে নালার পাশ থেকে এক নবজাতক কন্যাশিশুকে উদ্ধার করা হয়েছে। বৃহস্পতিবার (১৫ অক্টোবর) বিকেল সাড়ে পাঁচটার দিকে হালকা কাপড়ে মোড়ানো অবস্থায় শিশুটিকে দেখতে পান স্থানীয়রা। পুলিশ ও স্থানীয় সূত্রে জানা গেছে, মহেশগঞ্জ বা",
+      "sourceUrl": "https://www.ittefaq.com.bd/815438/%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2%E0%A7%8B-%E0%A6%8F%E0%A6%95-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80-%E0%A6%A8%E0%A6%AC%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssec4d8f5e5f3d65",
+      "slug": "বিজ্ঞানমনস্ক-মানুষ-গড়ে-তুলতে-বিজ্ঞানচিন",
+      "title": "বিজ্ঞানমনস্ক মানুষ গড়ে তুলতে বিজ্ঞানচিন্তাকে সবার কাছে নিয়ে যাওয়ার পরামর্শ",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A6%9A%E0%A6%BF%E0%A6%A8.avif",
+      "publishedAt": "2026-10-15T21:44:10.930Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>প্রকাশনার এক দশক পূর্ণ করল বিজ্ঞানচিন্তা। লেখক ও পাঠকদের উপস্থিতিতে কেক কেটে জনপ্রিয় মাসিক বিজ্ঞান সাময়িকীর ১০ম প্রতিষ্ঠাবার্ষিকী উদ্‌যাপন করা হয়েছে। প্রতিষ্ঠাবার্ষিকীর এ অনুষ্ঠানে অংশ নিয়ে লেখক-পাঠকেরা তাঁদের পছন্দের এই বিজ্ঞান সাময়িকী পড়ে ভালো লাগা ও উপকৃত হওয়ার কথা জানালেন। বিজ্ঞানচিন্তাকে আরও বেশি পাঠকের কাছে পৌঁছে দিতে, আরও বেশি মানুষের প্রিয় হয়ে উঠতে কী করা প্রয়োজন, সে বিষয়ে পরামর্শও দিলেন কেউ কেউ। আজ বৃহস্পতিবার বিকেলে রাজধানীর কারওয়ান বাজারে প্রথম আলো কার্যালয়ে এ অনুষ্ঠান হয়। কেক কাটার আ</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/lk0ssu2qpd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "প্রকাশনার এক দশক পূর্ণ করল বিজ্ঞানচিন্তা। লেখক ও পাঠকদের উপস্থিতিতে কেক কেটে জনপ্রিয় মাসিক বিজ্ঞান সাময়িকীর ১০ম প্রতিষ্ঠাবার্ষিকী উদ্‌যাপন করা হয়েছে। প্রতিষ্ঠাবার্ষিকীর এ অনুষ্ঠানে অংশ নিয়ে লেখক-পাঠকেরা তাঁদের পছন্দের এই বিজ্ঞান সাময়িকী পড়ে ভালো লাগা ও উপকৃত হওয়ার কথা জানালেন। বিজ্ঞানচিন্তাকে আরও বে",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/lk0ssu2qpd",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss3821087f0e5588",
+      "slug": "জার্মানির-সব-রেলস্টেশনে-অ্যালকোহল-নিষিদ",
+      "title": "জার্মানির সব রেলস্টেশনে অ্যালকোহল নিষিদ্ধ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%AC-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A7%8B%E0%A6%B9%E0%A6%B2-%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A6%BF%E0%A6%A6.avif",
+      "publishedAt": "2026-10-15T21:44:10.914Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>রেল স্টেশনগুলোকে নিরাপদ, পরিচ্ছন্ন এবং অপেক্ষমাণ যাত্রীদের জন্য আরো আরামদায়ক করে তোলার জন্যই স্টেশনকে অ্যালকোহলমুক্ত করা হচ্ছে৷</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/europe/kyty4eqbym\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "রেল স্টেশনগুলোকে নিরাপদ, পরিচ্ছন্ন এবং অপেক্ষমাণ যাত্রীদের জন্য আরো আরামদায়ক করে তোলার জন্যই স্টেশনকে অ্যালকোহলমুক্ত করা হচ্ছে৷",
+      "sourceUrl": "https://www.prothomalo.com/world/europe/kyty4eqbym",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss485c1641a6a8df",
+      "slug": "শেরপুরে-প্লাস্টিকের-বোতলে-ব্যতিক্রমী-দু",
+      "title": "শেরপুরে প্লাস্টিকের বোতলে ব্যতিক্রমী দুর্গাপূজার আয়োজন",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-15T21:29:10.935Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tNkQwd0NfUldTdmZQcjlhRXczWEZfOVB5NlFzeTk1Y3RqUEgxWlNpVEVxOEFadGZMeG1pNjVnYnJBY285T05vby1YYWhjaHZJdG90SGxn?oc=5&quot; target=&quot;_blank&quot;&amp;gt;শেরপুরে প্লাস্টিকের বোতলে ব্যতিক্রমী দুর্গাপূজার আয়োজন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পরিবেশবান্ধব উপাদানে ধর্মীয় আচারের এমন সৃজনশীল প্রতিফলন সামাজিক সচেতনতা ও আধ্যাত্মিকতার মেলবন্ধন ঘটায়। অপচয় রোধের এই বার্তা উৎসবের আনন্দকে অর্থবহ করে তোলার পাশাপাশি টেকসই সমাজ গঠনে এক অনন্য দৃষ্টান্ত স্থাপন করেছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tNkQwd0NfUldTdmZQcjlhRXczWEZfOVB5NlFzeTk1Y3RqUEgxWlNpVEVxOEFadGZMeG1pNjVnYnJBY285T05vby1YYWhjaHZJdG90SGxn?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tNkQwd0NfUldTdmZQcjlhRXczWEZfOVB5NlFzeTk1Y3RqUEgxWlNpVEVxOEFadGZMeG1pNjVnYnJBY285T05vby1YYWhjaHZJdG90SGxn?oc=5\" target=\"_blank\"&gt;শেরপুরে প্লাস্টিকের বোতলে ব্যতিক্রমী দুর্গাপূজার আয়োজন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tNkQwd0NfUldTdmZQcjlhRXczWEZfOVB5NlFzeTk1Y3RqUEgxWlNpVEVxOEFadGZMeG1pNjVnYnJBY285T05vby1YYWhjaHZJdG90SGxn?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rssd91c57942af7e2",
+      "slug": "মাগুরায়-বিএনপির-দুই-পক্ষের-সংঘর্ষ-ভিডিও",
+      "title": "মাগুরায় বিএনপির দুই পক্ষের সংঘর্ষ: ভিডিও করায় সাংবাদিকের ওপর হামলা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93.webp",
+      "publishedAt": "2026-10-15T21:29:10.922Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>মাগুরার শালিখা উপজেলায় বিএনপির দুই পক্ষের মধ্যে সংঘর্ষ ও পাল্টাপাল্টি ধাওয়ার ঘটনা ঘটেছে। এ সময় পেশাগত দায়িত্ব পালনার্থে সংঘাতের দৃশ্য ভিডিও করার সময় হামলার শিকার হয়েছেন ‘দৈনিক গ্রামের কাগজ’ ও ‘দৈনিক প্রতিদিনের কাগজ’ পত্রিকার স্থানীয় প্রতিনিধি জসীম উদ্দীন। সাংবাদিকের ওপর হামলার এই ঘটনায় স্থানীয় গণমাধ্যমকর্মীদের মাঝে তীব্র ক্ষোভের সৃষ্টি হয়েছে। বৃহস্পতিবার (১৫ অক্টোবর)... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815430/%E0%A6%AE%E0%A6%BE%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A7%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "মাগুরার শালিখা উপজেলায় বিএনপির দুই পক্ষের মধ্যে সংঘর্ষ ও পাল্টাপাল্টি ধাওয়ার ঘটনা ঘটেছে। এ সময় পেশাগত দায়িত্ব পালনার্থে সংঘাতের দৃশ্য ভিডিও করার সময় হামলার শিকার হয়েছেন ‘দৈনিক গ্রামের কাগজ’ ও ‘দৈনিক প্রতিদিনের কাগজ’ পত্রিকার স্থানীয় প্রতিনিধি জসীম উদ্দীন। সাংবাদিকের ওপর হামলার এই ঘটনায় স্থানীয় গণমাধ",
+      "sourceUrl": "https://www.ittefaq.com.bd/815430/%E0%A6%AE%E0%A6%BE%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A7%9F",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss962c205711176e",
+      "slug": "পরিবার-ও-কর্মজীবনে-সম্পর্ক-ভালো-রাখতে-আব",
+      "title": "পরিবার ও কর্মজীবনে সম্পর্ক ভালো রাখতে আবেগীয় বুদ্ধিমত্তার ওপর গুরুত্ব",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%AD%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%AC.avif",
+      "publishedAt": "2026-10-15T21:29:10.896Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>শায়েখুজ্জামানের মতে, নেতৃত্বে পরিস্থিতি সামলানো ও আবেগ নিয়ন্ত্রণ জরুরি। একজন নেতার দায়িত্ব শুধু অনুসারী তৈরি নয়, নতুন নেতা গড়ে তোলাও।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/osnb0aeze7\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "শায়েখুজ্জামানের মতে, নেতৃত্বে পরিস্থিতি সামলানো ও আবেগ নিয়ন্ত্রণ জরুরি। একজন নেতার দায়িত্ব শুধু অনুসারী তৈরি নয়, নতুন নেতা গড়ে তোলাও।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/osnb0aeze7",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss2570f9fbfa0350",
+      "slug": "মার্কিন-চুক্তি-আসলে-চুক্তি-নয়-এটা-ট্রাম্",
+      "title": "মার্কিন চুক্তি আসলে চুক্তি নয়, এটা ট্রাম্পের আদেশনামা: আনু মুহাম্মদ",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%86%E0%A6%B8%E0%A6%B2%E0%A7%87-%E0%A6%9A%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%A8%E0%A7%9F-%E0%A6%8F%E0%A6%9F%E0%A6%BE-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D.avif",
+      "publishedAt": "2026-10-15T21:29:10.894Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>আনু মুহাম্মদ বলেন, বর্তমান সরকার দেশের স্বার্থবিরোধী নানা কর্মকাণ্ড থেকে জনগণের নজর ঘোরাতে কৃত্রিম বিভাজন সৃষ্টির অপচেষ্টা চালাচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনস্বার্থ উপেক্ষা করে বৈদেশিক শক্তির কাছে নতিস্বীকার দেশের সার্বভৌমত্বকে বড় ধরনের ঝুঁকির মুখে ঠেলে দিচ্ছে। সরকারের এমন একপাক্ষিক ও অস্বচ্ছ নীতি সাধারণ মানুষের অর্থনৈতিক নিরাপত্তা ও জাতীয় মর্যাদাকে অনিশ্চয়তায় ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/6vfccspfsw\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "আনু মুহাম্মদ বলেন, বর্তমান সরকার দেশের স্বার্থবিরোধী নানা কর্মকাণ্ড থেকে জনগণের নজর ঘোরাতে কৃত্রিম বিভাজন সৃষ্টির অপচেষ্টা চালাচ্ছে।",
+      "sourceUrl": "https://www.prothomalo.com/politics/6vfccspfsw",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss96599b4dfb918d",
+      "slug": "যুব-উন্নয়নের-নিয়োগ-পরীক্ষার-প্রশ্নফাঁ",
+      "title": "যুব উন্নয়নের নিয়োগ পরীক্ষার প্রশ্নফাঁস, গ্রেফতার ৬",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/technology.jpg",
+      "publishedAt": "2026-10-15T21:29:10.816Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzllMXh2YVNEbTJtb0pHZnlLaUViOVktbzZ4bjFJVFdwLVN0b2NWWkxCZ3lWbHozOHVEX1hlbFYwc0xOS25PbjVyWGp6YmVFUGZ1NlU1U19nZDVqSGgtaE1oSWpMUFFfOTNuUHpQNVdQdFZMaUFqZTNDTHdiM2VKMUs4YU8wWDZLbmV6SjlpbHFPZmZ5QnZJZHJZaVhEcWUtbzZyaHVHbUpHUWc5b3R5SFZoODI?oc=5&quot; target=&quot;_blank&quot;&amp;gt;যুব উন্নয়নের নিয়োগ পরীক্ষার প্রশ্নফাঁস, গ্রেফতার ৬&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Dainik Shiksha&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzllMXh2YVNEbTJtb0pHZnlLaUViOVktbzZ4bjFJVFdwLVN0b2NWWkxCZ3lWbHozOHVEX1hlbFYwc0xOS25PbjVyWGp6YmVFUGZ1NlU1U19nZDVqSGgtaE1oSWpMUFFfOTNuUHpQNVdQdFZMaUFqZTNDTHdiM2VKMUs4YU8wWDZLbmV6SjlpbHFPZmZ5QnZJZHJZaVhEcWUtbzZyaHVHbUpHUWc5b3R5SFZoODI?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzllMXh2YVNEbTJtb0pHZnlLaUViOVktbzZ4bjFJVFdwLVN0b2NWWkxCZ3lWbHozOHVEX1hlbFYwc0xOS25PbjVyWGp6YmVFUGZ1NlU1U19nZDVqSGgtaE1oSWpMUFFfOTNuUHpQNVdQdFZMaUFqZTNDTHdiM2VKMUs4YU8wWDZLbmV6SjlpbHFPZmZ5QnZJZHJZaVhEcWUtbzZyaHVHbUpHUWc5b3R5SFZoODI?oc=",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNzllMXh2YVNEbTJtb0pHZnlLaUViOVktbzZ4bjFJVFdwLVN0b2NWWkxCZ3lWbHozOHVEX1hlbFYwc0xOS25PbjVyWGp6YmVFUGZ1NlU1U19nZDVqSGgtaE1oSWpMUFFfOTNuUHpQNVdQdFZMaUFqZTNDTHdiM2VKMUs4YU8wWDZLbmV6SjlpbHFPZmZ5QnZJZHJZaVhEcWUtbzZyaHVHbUpHUWc5b3R5SFZoODI?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
+    },
+    {
+      "id": "rss55410dc0c3e41f",
+      "slug": "সেগুনবাগিচার-দেয়ালে-যুক্ত-হল-বেগম-রোকেয",
+      "title": "সেগুনবাগিচার দেয়ালে যুক্ত হল বেগম রোকেয়া, জীবনানন্দ ও জসীমউদ্‌দীনের প্রতিকৃতি, বাদ সঞ্জীব চৌধুরী",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-15T21:14:10.861Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zTHdPeHQ5eG5LdElWQ01MMEZjTG8tejJDNW1HVTZCZURZRUprMHdEcFpfdjhwb1c0eVh1UW85MVFzWF8xQ0lfMDFMUnRqQ2FyYWdROTNtUUVEOWxwN2c?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সেগুনবাগিচার দেয়ালে যুক্ত হল বেগম রোকেয়া, জীবনানন্দ ও জসীমউদ্‌দীনের প্রতিকৃতি, বাদ সঞ্জীব চৌধুরী&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zTHdPeHQ5eG5LdElWQ01MMEZjTG8tejJDNW1HVTZCZURZRUprMHdEcFpfdjhwb1c0eVh1UW85MVFzWF8xQ0lfMDFMUnRqQ2FyYWdROTNtUUVEOWxwN2c?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zTHdPeHQ5eG5LdElWQ01MMEZjTG8tejJDNW1HVTZCZURZRUprMHdEcFpfdjhwb1c0eVh1UW85MVFzWF8xQ0lfMDFMUnRqQ2FyYWdROTNtUUVEOWxwN2c?oc=5\" target=\"_blank\"&gt;সেগুনবাগিচার দেয়ালে যুক্ত হল বেগম রোকেয়া, জীবনানন্দ ও জসীমউদ্‌দীনের প্রতিকৃতি, বাদ সঞ্জীব চৌ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zTHdPeHQ5eG5LdElWQ01MMEZjTG8tejJDNW1HVTZCZURZRUprMHdEcFpfdjhwb1c0eVh1UW85MVFzWF8xQ0lfMDFMUnRqQ2FyYWdROTNtUUVEOWxwN2c?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rss0ff34a8607d84c",
+      "slug": "শুক্রবার-টানা-৬-ঘণ্টা-বিদ্যুৎ-থাকবে-না-দে",
+      "title": "শুক্রবার টানা ৬ ঘণ্টা বিদ্যুৎ থাকবে না দেশের যেসব এলাকায়",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AC-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%87.webp",
+      "publishedAt": "2026-10-15T21:14:10.858Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>জরুরি রক্ষণাবেক্ষণ কাজের জন্য শুক্রবার (১৬ অক্টোবর) দীর্ঘসময় রাজশাহী ও গাইবান্ধার বেশ কিছু এলাকায় বিদ্যুৎ সরবরাহ বন্ধ থাকবে। বৃহস্পতিবার (১৫ অক্টোবর) নর্দান ইলেকট্রিসিটি সাপ্লাই পিএলসি (নেসকো) রাজশাহী ও গোবিন্দগঞ্জ বিক্রয় ও বিতরণ বিভাগ (বিবিবি) থেকে দেওয়া পৃথক বিজ্ঞপ্তিতে এই সিদ্ধান্তের কথা জানানো হয়েছে। নেসকো জানিয়েছে, বিদ্যুৎ ব্যবস্থার অনাকাঙ্ক্ষিত বিভ্রাট এড়াতে এবং সরবরাহ ব্যবস্থার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815431/%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AC-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "জরুরি রক্ষণাবেক্ষণ কাজের জন্য শুক্রবার (১৬ অক্টোবর) দীর্ঘসময় রাজশাহী ও গাইবান্ধার বেশ কিছু এলাকায় বিদ্যুৎ সরবরাহ বন্ধ থাকবে। বৃহস্পতিবার (১৫ অক্টোবর) নর্দান ইলেকট্রিসিটি সাপ্লাই পিএলসি (নেসকো) রাজশাহী ও গোবিন্দগঞ্জ বিক্রয় ও বিতরণ বিভাগ (বিবিবি) থেকে দেওয়া পৃথক বিজ্ঞপ্তিতে এই সিদ্ধান্তের কথা জানা",
+      "sourceUrl": "https://www.ittefaq.com.bd/815431/%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AC-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss57f922767734ba",
+      "slug": "প্লাস্টিক-দূষণ-কমাতে-উৎপাদনকারীদের-দায়ি",
+      "title": "প্লাস্টিক দূষণ কমাতে উৎপাদনকারীদের দায়িত্ব নেওয়ার তাগিদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%95-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%A3-%E0%A6%95%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF.avif",
+      "publishedAt": "2026-10-15T21:14:10.847Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সেমিনারের কারিগরি অধিবেশনে ইপিআর নীতির বাস্তবায়ন নিয়ে আলোচনা হয়। এ বিষয়ে প্রকল্পের জাতীয় বিশেষজ্ঞ মাকসুদ সিনহা একটি উপস্থাপনা দেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/o5a2qbjhjb\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সেমিনারের কারিগরি অধিবেশনে ইপিআর নীতির বাস্তবায়ন নিয়ে আলোচনা হয়। এ বিষয়ে প্রকল্পের জাতীয় বিশেষজ্ঞ মাকসুদ সিনহা একটি উপস্থাপনা দেন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/o5a2qbjhjb",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss09a43e971c0bae",
       "slug": "বিওএতে-তিন-দিনে-৯-জনের-পদত্যাগ",
       "title": "বিওএতে তিন দিনে ৯ জনের পদত্যাগ",
@@ -98,6 +354,38 @@
       "summary": "ইসলামী আরবি বিশ্ববিদ্যালয়ের অধিভুক্ত ফাজিল ও কামিল মাদ্রাসায় সব ধরনের নিয়োগ কার্যক্রম বন্ধ রাখার নির্দেশ দিয়েছে বিশ্ববিদ্যালয় কর্তৃপক্ষ।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/b4okk1oubw",
       "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss508274e5481fd6",
+      "slug": "বাংলামোটরে-এনসিপির-কার্যালয়ের-সামনে-ককট",
+      "title": "বাংলামোটরে এনসিপির কার্যালয়ের সামনে ককটেল বিস্ফোরণ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F.avif",
+      "publishedAt": "2026-10-15T20:59:10.987Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>দুর্বৃত্তদের ছোটা একটি ককটেল বিস্ফোরণ হয় এবং দুটি অবিস্ফোরিত রয়ে যায়।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/7tzvo5bsab\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "দুর্বৃত্তদের ছোটা একটি ককটেল বিস্ফোরণ হয় এবং দুটি অবিস্ফোরিত রয়ে যায়।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/7tzvo5bsab",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss873b9346e02da7",
+      "slug": "ব্যাংক-এশিয়ায়-চাকরির-সুযোগ-আবেদন-শেষ-২",
+      "title": "ব্যাংক এশিয়ায় চাকরির সুযোগ, আবেদন শেষ ২৫ অক্টোবর",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-15T20:59:10.910Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivAJBVV95cUxQV1c0MkhIaUdDY05zbGVsdUhXWWlaSDdwS2hhaHNlTHpOLVBES1ZIeXFrRkx2dzZ1NjQteEdFd1VtWmVPeXZtQllKM2pMSW9jQVctTlZLS1d3U09xcTFXTmxBcTJ4SURWM0pwR3g2YWNTeDhBaDRsekNEdnJGMXhYRmMyTEZtTnVXdjVPNGhiVUZDMHVTVGgxWmhUdUZZNy1kdEFvalVVMU1xN2ZqSlYwRUlEX2NWSzd6R2phZE94V3l3N1owZV9IREJGWHQ1RzVIemlwMUlrQXMtcW1LMnhxbGxya0Q0MGI3WXV4bjUxRlRPV1ZFWDczOFpiUEx6MlFuODZEaVVqb1UzTnktUzdLcWV6VlFmV1d4ODF4VnJ3QTJsc1d1SVFDa1NfQjBRR3c1YnJGQmNkTi1NXzhK?oc=5&quot; target=&quot;_blank&quot;&amp;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMivAJBVV95cUxQV1c0MkhIaUdDY05zbGVsdUhXWWlaSDdwS2hhaHNlTHpOLVBES1ZIeXFrRkx2dzZ1NjQteEdFd1VtWmVPeXZtQllKM2pMSW9jQVctTlZLS1d3U09xcTFXTmxBcTJ4SURWM0pwR3g2YWNTeDhBaDRsekNEdnJGMXhYRmMyTEZtTnVXdjVPNGhiVUZDMHVTVGgxWmhUdUZZNy1kdEFvalVVMU1xN2ZqSlYwRUlEX2NWSzd6R2phZE94V3l3N1owZV9IREJGWHQ1RzVIemlwMUlrQXMtcW1LMnhxbGxya0Q0MGI3WXV4bjUxRlRPV1ZFWDczOFpiUEx6MlFuODZEaVVqb1UzTnktUzdLcWV6VlFmV1d4ODF4VnJ3QTJsc1d1SVFDa1NfQjBRR3c1YnJGQmNkTi1NXzhK?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAJBVV95cUxQV1c0MkhIaUdDY05zbGVsdUhXWWlaSDdwS2hhaHNlTHpOLVBES1ZIeXFrRkx2dzZ1NjQteEdFd1VtWmVPeXZtQllKM2pMSW9jQVctTlZLS1d3U09xcTFXTmxBcTJ4SURWM0pwR3g2YWNTeDhBaDRsekNEdnJGMXhYRmMyTEZtTnVXdjVPNGhiVUZDMHVTVGgxWmhUdUZZNy1kdEFvalVVMU1xN2ZqSlYwRUlEX2NWSzd",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQV1c0MkhIaUdDY05zbGVsdUhXWWlaSDdwS2hhaHNlTHpOLVBES1ZIeXFrRkx2dzZ1NjQteEdFd1VtWmVPeXZtQllKM2pMSW9jQVctTlZLS1d3U09xcTFXTmxBcTJ4SURWM0pwR3g2YWNTeDhBaDRsekNEdnJGMXhYRmMyTEZtTnVXdjVPNGhiVUZDMHVTVGgxWmhUdUZZNy1kdEFvalVVMU1xN2ZqSlYwRUlEX2NWSzd6R2phZE94V3l3N1owZV9IREJGWHQ1RzVIemlwMUlrQXMtcW1LMnhxbGxya0Q0MGI3WXV4bjUxRlRPV1ZFWDczOFpiUEx6MlFuODZEaVVqb1UzTnktUzdLcWV6VlFmV1d4ODF4VnJ3QTJsc1d1SVFDa1NfQjBRR3c1YnJGQmNkTi1NXzhK?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
     },
     {
       "id": "rss5aa3e6ff4b830b",
@@ -578,6 +866,102 @@
       "summary": "জনপ্রিয় বাংলা পপসংগীতের শিল্পী ফেরদৌস ওয়াহিদ। নিজের স্বতন্ত্র গায়কী ও জনপ্রিয় সব গানের মাধ্যমে কয়েক প্রজন্মের শ্রোতার হৃদয়ে জায়গা করে নিয়েছেন তিনি। এবার সংগীতজী...",
       "sourceUrl": "https://daily-bangladesh.com/entertainment/538437",
       "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssfdc5702bac85b9",
+      "slug": "আসামিদের-ছিনিয়ে-নিতে-পুলিশ-ফাঁড়িতে-হামলা",
+      "title": "আসামিদের ছিনিয়ে নিতে পুলিশ ফাঁড়িতে হামলা, রামদার কোপে দুই পুলিশ আহত",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE.webp",
+      "publishedAt": "2026-10-15T18:29:10.866Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>ঢাকা রেলওয়ে থানার আওতাধীন মাদক ব্যবসায়ীকে ছিনিয়ে নিতে গাজীপুরের জয়দেবপুর রেলওয়ে পুলিশ ফাঁড়িতে সশস্ত্র হামলা করেছে মাদক ব্যবসায়ীরা। এ সময় তারা জয়দেবপুর রেলওয়ে স্টেশন মাস্টারের কক্ষেও হামলা করে ভাচুর করে। এ সময় রামদার আঘাতে দুই পুলিশ সদস্য আহত হয়েছেন। বৃহস্পতিবার (১৬ অক্টোবর) বিকাল সাড়ে ৫টার দিকে এ ঘটনা ঘটে। আহত পুলিশ সদস্যরা হলেন জয়দেবপুর রেলওয়ে পুলিশ ফাঁড়ির সহকারী উপপরিদর্শক (এটিএসআই) নূরুল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/dhaka/974787/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "ঢাকা রেলওয়ে থানার আওতাধীন মাদক ব্যবসায়ীকে ছিনিয়ে নিতে গাজীপুরের জয়দেবপুর রেলওয়ে পুলিশ ফাঁড়িতে সশস্ত্র হামলা করেছে মাদক ব্যবসায়ীরা। এ সময় তারা জয়দেবপুর রেলওয়ে স্টেশন মাস্টারের কক্ষেও হামলা করে ভাচুর করে। এ সময় রামদার আঘাতে দুই পুলিশ সদস্য আহত হয়েছেন। বৃহস্পতিবার (১৬ অক্টোবর) বিকাল সাড়ে ৫টার দিকে এ ঘট",
+      "sourceUrl": "https://www.banglatribune.com/country/dhaka/974787/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss86279347cf751f",
+      "slug": "মোহাম্মদপুরে-বাবা-গুলিবিদ্ধ-ছেলেকে-কুপি",
+      "title": "মোহাম্মদপুরে বাবা গুলিবিদ্ধ, ছেলেকে কুপিয়ে জখম",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AA%E0%A6%BF.webp",
+      "publishedAt": "2026-10-15T18:29:10.864Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাজধানীর মোহাম্মদপুরের বসিলা এলাকায় হামলায় মো. সুমন আলী (৪৫) নামে এক ব্যক্তি গুলিবিদ্ধ এবং তার ছেলে ফাহিম ছুরিকাঘাতে আহত হয়েছেন। স্বজনদের দাবি, কেরানীগঞ্জে ফরহাদ হত্যার ঘটনায় জড়িতদের নাম প্রকাশ করায় তাদের ওপর হামলা চালানো হয়েছে। বৃহস্পতিবার (১৫ অক্টোবর) রাত পৌনে ৯টার দিকে বসিলার মহিরগোলা এলাকায় তাদের ব্যবসাপ্রতিষ্ঠানের সামনে এ ঘটনা ঘটে। আহত বাবা-ছেলেকে রাত ১০টার দিকে ঢাকা মেডিক্যাল কলেজ... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/974788/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AA%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%9C%E0%A6%96%E0%A6%AE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাজধানীর মোহাম্মদপুরের বসিলা এলাকায় হামলায় মো. সুমন আলী (৪৫) নামে এক ব্যক্তি গুলিবিদ্ধ এবং তার ছেলে ফাহিম ছুরিকাঘাতে আহত হয়েছেন। স্বজনদের দাবি, কেরানীগঞ্জে ফরহাদ হত্যার ঘটনায় জড়িতদের নাম প্রকাশ করায় তাদের ওপর হামলা চালানো হয়েছে। বৃহস্পতিবার (১৫ অক্টোবর) রাত পৌনে ৯টার দিকে বসিলার মহিরগোলা এলাকায় তাদে",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/974788/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AA%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%9C%E0%A6%96%E0%A6%AE",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssbb14dfb14bb014",
+      "slug": "সব-ধর্মের-মানুষ-নিজ-নিজ-ধর্ম-স্বাধীনভাবে",
+      "title": "সব ধর্মের মানুষ নিজ নিজ ধর্ম স্বাধীনভাবে পালন করবেন: জামায়াত আমির",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%AC-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%A8%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87.webp",
+      "publishedAt": "2026-10-15T18:29:10.848Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>জাতীয় সংসদের প্রধান বিরোধী দল ও জনবান্ধব সংগঠন হিসেবে নিজস্ব অবস্থান থেকে দায়িত্বশীল ভূমিকা পালন করবে বাংলাদেশ জামায়াতে ইসলামী। আসন্ন শারদীয় দুর্গাপূজা উপলক্ষ্যে বৃহস্পতিবার (১৫ অক্টোবর) রাতে দেওয়া এক বিজ্ঞপ্তিতে এ কথা জানান বিরোধীদলীয় নেতা ও বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান। বিবৃতিতে ডা. শফিকুর রহমান বলেন, বাংলাদেশ বিভিন্ন ধর্মের মানুষের একটি সুন্দর সমন্বয়। এ দেশের... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815421/%E0%A6%B8%E0%A6%AC-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%A8%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "জাতীয় সংসদের প্রধান বিরোধী দল ও জনবান্ধব সংগঠন হিসেবে নিজস্ব অবস্থান থেকে দায়িত্বশীল ভূমিকা পালন করবে বাংলাদেশ জামায়াতে ইসলামী। আসন্ন শারদীয় দুর্গাপূজা উপলক্ষ্যে বৃহস্পতিবার (১৫ অক্টোবর) রাতে দেওয়া এক বিজ্ঞপ্তিতে এ কথা জানান বিরোধীদলীয় নেতা ও বাংলাদেশ জামায়াতে ইসলামীর আমির ডা. শফিকুর রহমান। ব",
+      "sourceUrl": "https://www.ittefaq.com.bd/815421/%E0%A6%B8%E0%A6%AC-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A8%E0%A6%BF%E0%A6%9C-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A7%80%E0%A6%A8%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%A8",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss4086aa5e1f210f",
+      "slug": "সৌদির-বিমানবন্দরগুলোতে-হামলায়-প্রাণ-গেছ",
+      "title": "সৌদির বিমানবন্দরগুলোতে হামলায় প্রাণ গেছে ১৯ জনের",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%9B.webp",
+      "publishedAt": "2026-10-15T18:29:10.846Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>সৌদি আরবের বিভিন্ন বিমানবন্দরে ইরান-সমর্থিত হুথি বিদ্রোহীদের হামলায় ১৯ জন নিহত হয়েছেন। এসব হামলায় আহত হয়েছেন আরও ৩৬৪ জন। বৃহস্পতিবার (১৫ অক্টোবর) এ তথ্য জানিয়েছেন সৌদি নেতৃত্বাধীন সামরিক জোটের মুখপাত্র তুর্কি আল-মালিকি। তিনি বলেছেন, ‘জুলাই থেকে সৌদি আরবের বিরুদ্ধে ইরান-সমর্থিত গোষ্ঠীটির তৎপরতা বৃদ্ধির পর অক্টোবর মাসের শুরু থেকে রাজ্যটিতে হুতিদের হামলা আরও তীব্র হয়েছে।’ তুর্কি... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815423/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A7%A7%E0%A7%AF-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "সৌদি আরবের বিভিন্ন বিমানবন্দরে ইরান-সমর্থিত হুথি বিদ্রোহীদের হামলায় ১৯ জন নিহত হয়েছেন। এসব হামলায় আহত হয়েছেন আরও ৩৬৪ জন। বৃহস্পতিবার (১৫ অক্টোবর) এ তথ্য জানিয়েছেন সৌদি নেতৃত্বাধীন সামরিক জোটের মুখপাত্র তুর্কি আল-মালিকি। তিনি বলেছেন, ‘জুলাই থেকে সৌদি আরবের বিরুদ্ধে ইরান-সমর্থিত গোষ্ঠীটির তৎপরতা বৃদ্ধ",
+      "sourceUrl": "https://www.ittefaq.com.bd/815423/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A7%A7%E0%A7%AF-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss12e4a4fcceffce",
+      "slug": "ঢাকা-বিশ্বের-সবচেয়ে-দূষিত-শহরের-তালিকায়",
+      "title": "ঢাকা বিশ্বের সবচেয়ে দূষিত শহরের তালিকায় প্রথম বা দ্বিতীয়, এটি দেশের জন্য লজ্জার: প্রধানমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AC%E0%A6%9A%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F.webp",
+      "publishedAt": "2026-10-15T18:29:10.844Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>ঢাকার অব্যাহত বায়ুদূষণ নিয়ে তীব্র উদ্বেগ প্রকাশ করেছেন প্রধানমন্ত্রী তারেক রহমান। তিনি বলেছেন, বহু বছর ধরে বিশ্বের সবচেয়ে দূষিত শহরগুলোর তালিকায় ঢাকার নাম প্রথম বা দ্বিতীয় স্থানে আসা দেশের জন্য অত্যন্ত লজ্জাজনক। পরিবেশের এই আশঙ্কাজনক পরিস্থিতির পরিবর্তনের জন্য প্রতিটি নাগরিককে নিজ নিজ অবস্থান থেকে দায়িত্বশীল ভূমিকা পালনের আহ্বান জানান তিনি। বৃহস্পতিবার (১৫ অক্টোবর) পরিবেশ, বন ও জলবায়ু... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815422/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AC%E0%A6%9A%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%AC%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "ঢাকার অব্যাহত বায়ুদূষণ নিয়ে তীব্র উদ্বেগ প্রকাশ করেছেন প্রধানমন্ত্রী তারেক রহমান। তিনি বলেছেন, বহু বছর ধরে বিশ্বের সবচেয়ে দূষিত শহরগুলোর তালিকায় ঢাকার নাম প্রথম বা দ্বিতীয় স্থানে আসা দেশের জন্য অত্যন্ত লজ্জাজনক। পরিবেশের এই আশঙ্কাজনক পরিস্থিতির পরিবর্তনের জন্য প্রতিটি নাগরিককে নিজ নিজ অবস্থান থ",
+      "sourceUrl": "https://www.ittefaq.com.bd/815422/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AC%E0%A6%9A%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%AC%E0%A6%BE",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss8da3bd6ed21f7f",
+      "slug": "মোটরসাইকেলে-এসে-সাংবাদিককে-প্রকাশ্যে-গু",
+      "title": "মোটরসাইকেলে এসে সাংবাদিককে প্রকাশ্যে গুলি করে হত্যা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%8F%E0%A6%B8%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%97%E0%A7%81.avif",
+      "publishedAt": "2026-10-15T18:29:10.825Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>নেত্রকোনার দুর্গাপুর উপজেলায় এক সাংবাদিককে গুলি করে হত্যা করেছে দুর্বৃত্তরা। ১৫ অক্টোবর রাত সোয়া আটটার দিকে কলমাকান্দা পৌরসভার তেলনজিয়া গ্রামে এ ঘটনা ঘটে। বিস্তারিত ভিডিওতে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/video/bangladesh/qphfwa5132\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "নেত্রকোনার দুর্গাপুর উপজেলায় এক সাংবাদিককে গুলি করে হত্যা করেছে দুর্বৃত্তরা। ১৫ অক্টোবর রাত সোয়া আটটার দিকে কলমাকান্দা পৌরসভার তেলনজিয়া গ্রামে এ ঘটনা ঘটে। বিস্তারিত ভিডিওতে...",
+      "sourceUrl": "https://www.prothomalo.com/video/bangladesh/qphfwa5132",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rss93326ae46dd7a7",
@@ -7634,390 +8018,6 @@
       "summary": "হিমোগ্লোবিন কমে গেলে বা রক্তশূন্যতা দেখা দিলে আমাদের মধ্যে সবচেয়ে জনপ্রিয় ধারণা হলো—\"আনার বা ডালিম খেতে হবে\"। ১০০ গ্রাম ডালিমে আয়রনের পরিমাণ মাত্র ০.৩ মিলিগ্রাম...",
       "sourceUrl": "https://www.daily-bangladesh.com/health-and-medical/538227",
       "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssad9fe229e4df57",
-      "slug": "বিষ-থেকে-প্রতিষেধক-বিপদ-থেকে-সম্ভাবনা",
-      "title": "বিষ থেকে প্রতিষেধক, বিপদ থেকে সম্ভাবনা",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B7-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%87%E0%A6%A7%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE.jpg",
-      "publishedAt": "2026-10-14T05:29:08.954Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সাপের দংশন মানুষের জন্য প্রাণঘাতী হলেও বিজ্ঞানের কল্যাণে সেই বিষ থেকেই তৈরি হচ্ছে জীবনরক্ষাকারী অ্যান্টিভেনম। এই ওষুধ তৈরির প্রক্রিয়ায় যুগ যুগ ধরে ঘোড়া গুরুত্বপূর্ণ ভূমিকা পালন করে আসছে। কিং কোবরার মতো অত্যন্ত বিষধর সাপের বিষ শরীরে প্রবেশ করলেও ঘোড়া সাধারণত মাত্র দুই থেকে তিন দিন অসুস্থ থেকে আবার সুস্থ হয়ে ওঠে। ঘোড়ার এই অনন্য রোগপ্রতিরোধ ক্ষমতাকে কাজে লাগিয়েই চিকিৎসা বিজ্ঞানে সাপের বিষের প্রতিষেধক উৎপাদন করা হয়।</p>\n<p>অ্যান্টিভেনম তৈরির এই পুরো প্রক্রিয়াটি অত্যন্ত নিয়ন্ত্রিত এবং বিশেষজ্ঞদের তত্ত্বাবধানে সম্পন্ন হয়। প্রথমে প্রশিক্ষিত কর্মীরা সাপ থেকে বিষ সংগ্রহ করেন এবং এর গুণমান যাচাই করেন। এরপর সেই বিষ ঘোড়ার শরীরে প্রয়োগ করা হয়, যা তার রোগপ্রতিরোধ ব্যবস্থাকে উদ্দীপিত করে অ্যান্টিবডি তৈরি করতে সাহায্য করে। ঘোড়া যেন কোনোভাবেই বড় ধরনের স্বাস্থ্যঝুঁকির মুখে না পড়ে, সেজন্য কঠোর নিরাপত্তা ও পশুচিকিৎসা বিধি অনুসরণ করা হয়। পর্যাপ্ত অ্যান্টিবডি তৈরি হওয়ার পর ঘোড়ার শরীর থেকে রক্তরস বা প্লাজমা সংগ্রহ করা হয়। অনেক ক্ষেত্রে রক্তকণিকাগুলো পুনরায় ঘোড়ার শরীরে ফিরিয়ে দেওয়া হয় যাতে রক্তাল্পতার প্রভাব এড়ানো যায়।</p>\n<p>সংগৃহীত প্লাজমা থেকে ইমিউনোগ্লোবুলিন বা অ্যান্টিবডি পৃথক করে তা বিভিন্ন বৈজ্ঞানিক ধাপে পরিশোধন করা হয়। জীবাণুমুক্তকরণ, মান নিয়ন্ত্রণ এবং কার্যকারিতা পরীক্ষার পর এই নির্যাস মানুষের জন্য অ্যান্টিভেনম হিসেবে প্রস্তুত করা হয়। তবে প্রতিটি অ্যান্টিভেনম সব ধরনের সাপের বিষের বিরুদ্ধে সমান কার্যকর নয়; বরং নির্দিষ্ট প্রজাতির বিষের ওপর ভিত্তি করেই এটি তৈরি করা হয়। যেহেতু সাপের বিষ স্নায়ুতন্ত্র অচল করা, রক্ত জমাট বাঁধায় বাধা দেওয়া বা পেশির টিস্যু নষ্ট করার মতো বিভিন্ন ধরনের ক্ষতি করতে পারে, তাই চিকিৎসকরা রোগীর লক্ষণ বুঝে সঠিক অ্যান্টিভেনম প্রয়োগ করেন। সাপের কামড়ের পর দ্রুত চিকিৎসা নেওয়া জরুরি, কারণ অ্যান্টিভেনম নতুন ক্ষতি রোধ করলেও ইতিমধ্যে ঘটে যাওয়া শারীরিক বিপর্যয় তাৎক্ষণিকভাবে সারিয়ে তুলতে পারে না।</p>\n<p>বর্তমানে বিজ্ঞানীরা ঘোড়ার ওপর নির্ভরতা কমিয়ে চিকিৎসা পদ্ধতিকে আরও আধুনিক ও কার্যকর করার লক্ষ্যে কাজ করছেন। ল্যাবরেটরিতে মনোক্লোনাল ও রিকম্বিন্যান্ট অ্যান্টিবডি প্রযুক্তির মাধ্যমে নির্দিষ্ট বিষাক্ত উপাদানকে নিষ্ক্রিয় করার গবেষণা চলছে। যদিও প্রাণী-উৎপন্ন অ্যান্টিভেনমের বিকল্প হিসেবে এই প্রযুক্তিগুলোর ব্যাপক ব্যবহার এখনো উন্নয়নের পর্যায়ে রয়েছে, তবুও বিজ্ঞান ও প্রকৃতির মেলবন্ধনে জীবন রক্ষার নতুন এই পথ চিকিৎসা ব্যবস্থাকে প্রতিনিয়ত সমৃদ্ধ করছে। ঘোড়া কেবল শক্তি ও সৌন্দর্যের প্রতীক নয়, বরং মানবস্বাস্থ্যের সুরক্ষায় এটি এক অপরিহার্য অংশীদার হিসেবে নিজেকে প্রমাণ করেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাপের বিষের মতো প্রাণঘাতী উপাদানকে জীবন রক্ষাকারী অ্যান্টিভেনমে রূপান্তর চিকিৎসা বিজ্ঞানের এক অনন্য সাফল্য। জনস্বাস্থ্যের ঝুঁকি কমাতে সাপের বিষ সংগ্রহ ও অ্যান্টিভেনম উৎপাদনের সক্ষমতা বাড়ানো এখন সময়ের দাবি, যা অকাল মৃত্যু রোধে কার্যকর ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/science/538222\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "এই বিষ মানুষের জীবন কেড়ে নিতে পারে, অথচ বৈজ্ঞানিক প্রক্রিয়ায় সেই বিষ ব্যবহার করেই তৈরি হয় সাপের কামড়ের চিকিৎসায় গুরুত্বপূর্ণ ওষুধ— অ্যান্টিভেনম (Antivenom)। আর...",
-      "sourceUrl": "https://www.daily-bangladesh.com/science/538222",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss0b2432c945d5bc",
-      "slug": "রোবট-ব্যবহার-করে-কিশোরীকে-যৌন-হয়রানি-পুল",
-      "title": "রোবট ব্যবহার করে কিশোরীকে যৌন হয়রানি, পুলিশের তদন্ত শুরু",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%9F-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%AF%E0%A7%8C%E0%A6%A8-%E0%A6%B9%E0%A7%9F%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%AA%E0%A7%81%E0%A6%B2.jpg",
-      "publishedAt": "2026-10-14T05:29:08.953Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>জার্মানির কলোন শহরে রোবট ব্যবহার করে এক কিশোরীকে যৌন হয়রানির চাঞ্চল্যকর অভিযোগ উঠেছে। স্থানীয় সময় গত শনিবার গভীর রাতে শহরের কেন্দ্রস্থলের একটি ফাস্টফুড দোকানের সামনে এ ঘটনা ঘটে। ১৬ বছর বয়সী ওই কিশোরী তার বন্ধুদের সঙ্গে দাঁড়িয়ে থাকা অবস্থায় প্রায় ১২০ সেন্টিমিটার উচ্চতার একটি লাল ও সোনালি রঙের রোবট তার দিকে এগিয়ে আসে। রোবটটি কিশোরীর শরীরের স্পর্শকাতর স্থানে হাত দেয় এবং অশালীন অঙ্গভঙ্গি করতে থাকে। ঘটনার আকস্মিকতায় কিশোরীটি চিৎকার করে সেখান থেকে সরে যায়।</p>\n<p>এই ঘটনার সঙ্গে জড়িত থাকার অভিযোগে ১৬ ও ১৯ বছর বয়সী দুই তরুণকে আটক করেছে উত্তর রাইন ভেস্টফালিয়া রাজ্য পুলিশ। ঘটনার সময় অভিযুক্তরা তাদের মোবাইল ফোনের মাধ্যমে পুরো বিষয়টি সামাজিক যোগাযোগ মাধ্যমে সরাসরি প্রচার করছিল এবং অসংবেদনশীল মন্তব্য করে আনন্দ প্রকাশ করছিল। পুলিশের জরুরি দল দ্রুত ঘটনাস্থলে পৌঁছে আশেপাশের এলাকা থেকে অভিযুক্তদের গ্রেপ্তার করে। এ সময় তাদের ব্যবহৃত গাড়ি থেকে বিতর্কিত রোবটটিকেও উদ্ধার করা হয়।</p>\n<p>পুলিশ সূত্রে জানা গেছে, জব্দ করা রোবটটি দেখতে বেশ অদ্ভুত। তাতে কালো গোঁফ, সোনালি চেইন এবং সাদা ভেস্ট পরানো ছিল। তদন্তের স্বার্থে অভিযুক্তদের দুটি মোবাইল ফোন ও রোবটটিকে পুলিশি হেফাজতে নেওয়া হয়েছে। রোবটটি দূর থেকে নিয়ন্ত্রিত কি না বা এর চালিকাশক্তি কীভাবে কাজ করছিল, তা খতিয়ে দেখছেন তদন্তকারীরা।</p>\n<p>এদিকে এ ঘটনা প্রকাশ্যে আসার পর সামাজিক যোগাযোগ মাধ্যমে বিভিন্ন মহলে ব্যাপক প্রতিক্রিয়ার সৃষ্টি হয়েছে। বিষয়টি নিয়ে ইন্টারনেটে অসংবেদনশীল মন্তব্য ও বিতর্কিত পোস্টের বিষয়ে কলোন পুলিশ বিশেষ সতর্কবার্তা জারি করেছে। তারা স্পষ্ট জানিয়েছে, অনলাইনে কারো বিরুদ্ধে আপত্তিকর মন্তব্য করা দেশের প্রচলিত আইন অনুযায়ী ফৌজদারি অপরাধ হিসেবে গণ্য হতে পারে। তাই জনতাকে এ ধরনের আচরণ থেকে বিরত থাকার আহ্বান জানানো হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তির অপব্যবহারের এই ঘটনাটি আমাদের ডিজিটাল নিরাপত্তার ঝুঁকি সম্পর্কে নতুন করে সতর্ক করছে। অভিভাবক ও স্থানীয় প্রশাসনকে ভার্চুয়াল জগতের অনাকাঙ্ক্ষিত বিপদ মোকাবিলায় সচেতন হতে হবে এবং কিশোর-কিশোরীদের অনলাইন ব্যবহারে কঠোর নজরদারি বাড়াতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538223\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "জার্মানির কলোন শহরে এক ১৬ বছর বয়সী কিশোরীকে রোবট ব্যবহার করে যৌন হয়রানির অভিযোগ উঠেছে দুই তরুণের বিরুদ্ধে।",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/538223",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsscc55ceb8bdd612",
-      "slug": "ইমরান-খানের-শক্ত-ঘাঁটিতে-সরকারের-জরুরি-অ",
-      "title": "ইমরান খানের শক্ত ঘাঁটিতে সরকারের জরুরি অবস্থা জারি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%AE%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%98%E0%A6%BE%E0%A6%81%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%85.jpg",
-      "publishedAt": "2026-10-14T05:29:08.951Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>পাকিস্তানের সাবেক প্রধানমন্ত্রী ইমরান খানের রাজনৈতিক শক্ত ঘাঁটি হিসেবে পরিচিত খাইবার পাখতুনখোয়ায় জরুরি অবস্থা জারি করা হয়েছে। এই পদক্ষেপের অংশ হিসেবে প্রদেশটিতে প্রাদেশিক সরকারের কার্যক্রম স্থগিত করা হয়েছে। অঞ্চলটিতে কয়েকদিন ধরে ইমরান খানের মুক্তির দাবিতে তার হাজার হাজার সমর্থক বিক্ষোভ, মিছিল ও পদযাত্রা চালিয়ে আসছিলেন। উদ্ভূত পরিস্থিতিতে সেখানে সামরিক বাহিনী মোতায়েন করা হয়েছে এবং বিভিন্ন গুরুত্বপূর্ণ রাস্তা শিপিং কন্টেইনার দিয়ে বন্ধ করে দেওয়া হয়েছে।</p>\n<p>কেন্দ্রীয় সরকারের দাবি, প্রদেশটির জনগণকে সন্ত্রাসবাদের হাত থেকে রক্ষা করতেই এই সাংবিধানিক পদক্ষেপ নেওয়া হয়েছে। কেন্দ্রীয় তথ্যমন্ত্রী আতাহ তারার অভিযোগ করেছেন যে, পিটিআই নিয়ন্ত্রিত প্রাদেশিক সরকার সন্ত্রাসীদের সঙ্গে আঁতাত করে চলছিল। তবে এ বিষয়ে তিনি কোনো প্রমাণ উপস্থাপন করেননি। সরকার দাবি করছে, এই সিদ্ধান্তের পেছনে কোনো রাজনৈতিক উদ্দেশ্য নেই এবং মিছিল করার স্বাধীনতা তাদের ছিল। এদিকে, পরিস্থিতির কিছুটা পরিবর্তন লক্ষ্য করা যাচ্ছে; পেশোয়ারসহ প্রদেশের বেশিরভাগ এলাকায় স্কুল খুলে দেওয়া হয়েছে এবং ইন্টারনেট পরিষেবা পুনরায় সচল হয়েছে।</p>\n<p>তবে রাজনৈতিক বিশ্লেষকদের বড় একটি অংশ সরকারের এই ব্যাখ্যায় সন্তুষ্ট নন। চ্যাথাম হাউসের ফারজানা শেখ ও সাংবাদিক আরিফা নূরসহ অনেক পর্যবেক্ষক একে রাজনৈতিক প্রতিহিংসা হিসেবে দেখছেন। তাদের মতে, সন্ত্রাসবাদের দোহাই দিয়ে আসলে বিরোধী দলের আওয়াজ স্তব্ধ করার চেষ্টা চলছে। বিশ্লেষকদের ধারণা, পিটিআইয়ের আন্দোলন দমাতে সরকার এবং সামরিক প্রতিষ্ঠান কঠোর বার্তা দিতে চাইছে। বিশেষ করে ইমরান খানের শারীরিক অবস্থা নিয়ে কর্মী-সমর্থকদের উদ্বেগ ও অস্থিরতার মুখে সরকার এই কঠোর অবস্থান নিয়েছে।</p>\n<p>বর্তমানে এই প্রদেশের পিটিআই নেতাদের বড় একটি অংশ আত্মগোপনে রয়েছেন। প্রাদেশিক মুখ্যমন্ত্রী সোহেল আফ্রিদির অবস্থান নিয়েও অস্পষ্টতা রয়েছে; তার দল দাবি করছে তাকে গ্রেপ্তার করা হয়েছে, অথচ সরকারের ভাষ্যমতে তিনি কেবল সুরক্ষা হেফাজতে আছেন। এর আগে সেপ্টেম্বর মাসে ইমরান খানের তিন বোনসহ অনেক নেতাকে গ্রেপ্তার করা হয়েছে। ২০২৩ সালের আগস্ট থেকে বিভিন্ন দুর্নীতি মামলায় কারাবন্দি ইমরান খানের সঙ্গে আইনজীবী বা পরিবারের সদস্যদের দেখা করার সুযোগও সীমিত করে দেওয়া হয়েছে।</p>\n<p>পাকিস্তানের অভ্যন্তরীণ নিরাপত্তা যখন চরম সংকটের মুখে, তখন এই জরুরি অবস্থা দেশটিকে আরও বড় অস্থিতিশীলতার দিকে ঠেলে দিতে পারে বলে সতর্ক করছেন বিশেষজ্ঞরা। গ্লোবাল টেররিজম ইনডেক্স ২০২৬ অনুযায়ী পাকিস্তান বর্তমানে সন্ত্রাসবাদ দ্বারা সবচেয়ে বেশি ক্ষতিগ্রস্ত দেশগুলোর তালিকায় শীর্ষে। আঞ্চলিক ভূ-রাজনীতি, প্রতিবেশী দেশগুলোর সঙ্গে উত্তেজনা এবং অভ্যন্তরীণ রাজনৈতিক সংঘাতের এই সময়ে জরুরি অবস্থা জারি করা পরিস্থিতিকে আরও জটিল করে তুলবে বলে আশঙ্কা করা হচ্ছে। অনেক বিশ্লেষকের মতে, প্রাদেশিক সরকারের রক্ষাকবচ সরিয়ে সরাসরি কেন্দ্রীয় শাসন চাপিয়ে দেওয়া হিতে বিপরীত হতে পারে এবং জনমনে ক্ষোভ আরও বাড়িয়ে দিতে পারে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অবরুদ্ধ জনজীবন ও যোগাযোগ বিচ্ছিন্নতা স্থানীয়দের স্বাভাবিক কর্মকাণ্ডকে চরম বিপর্যয়ের মুখে ঠেলে দিয়েছে। এমন পরিস্থিতিতে আতঙ্কে না জড়িয়ে ধৈর্য বজায় রাখা এবং জরুরি প্রয়োজনে সতর্কতার সাথে চলাচল করা জরুরি। প্রশাসনের উচিত সাধারণ নাগরিকদের নিরাপত্তার বিষয়টি সর্বোচ্চ অগ্রাধিকার দেওয়া।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538224\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "স্কুল বন্ধ, ইন্টারনেট আংশিকভাবে বন্ধ। শিপিং কন্টেইনার দিয়ে রাস্তা অবরুদ্ধ। আর শহরে সেনাবাহিনী মোতায়েন করা হয়েছে।",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/538224",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss0680ed8fb19200",
-      "slug": "২০২৭-শিক্ষাবর্ষে-সরকারি-স্কুলে-ভর্তির-নি",
-      "title": "২০২৭ শিক্ষাবর্ষে সরকারি স্কুলে ভর্তির নিয়ম জারি:",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AD-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%BF.jpg",
-      "publishedAt": "2026-10-14T05:14:08.969Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>আসন্ন ২০২৭ শিক্ষাবর্ষে দেশের সরকারি মাধ্যমিক বিদ্যালয়গুলোতে শিক্ষার্থী ভর্তির নতুন নীতিমালা প্রকাশ করেছে শিক্ষা মন্ত্রণালয়। গত মঙ্গলবার রাতে মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ থেকে এই নীতিমালা জারি করা হয়। নতুন নিয়মে প্রথম শ্রেণিতে ভর্তির জন্য ডিজিটাল লটারি পদ্ধতি অনুসরণ করা হবে এবং দ্বিতীয় থেকে নবম শ্রেণি পর্যন্ত শূন্য আসনে শিক্ষার্থী নির্বাচনের জন্য লিখিত পরীক্ষা গ্রহণ করা হবে। পুরো ভর্তি প্রক্রিয়া, আবেদন গ্রহণ থেকে শুরু করে ফলাফল প্রকাশ পর্যন্ত সব কার্যক্রম অনলাইনে সম্পন্ন করতে হবে।</p>\n<p>প্রথম শ্রেণিতে ভর্তির ক্ষেত্রে আবেদনকারী শিক্ষার্থীর বয়স ১ জানুয়ারি ২০২৭ তারিখে সর্বনিম্ন ৫ বছর থেকে সর্বোচ্চ ৭ বছর হতে হবে। বয়স প্রমাণের জন্য অনলাইন জন্ম নিবন্ধন সনদ বাধ্যতামূলক করা হয়েছে। এছাড়া বিশেষ চাহিদাসম্পন্ন শিক্ষার্থীদের ক্ষেত্রে বয়সের ক্ষেত্রে সর্বোচ্চ ৫ বছরের অতিরিক্ত সুবিধা রাখা হয়েছে। লটারির মাধ্যমে নির্বাচনের ক্ষেত্রে একজন শিক্ষার্থী সর্বোচ্চ পাঁচটি বিদ্যালয়ে পছন্দের তালিকা দিতে পারবে। তবে ডাবল শিফট স্কুলের ক্ষেত্রে উভয় শিফট পছন্দ করলে তা দুটি বিদ্যালয় হিসেবে গণ্য হবে।</p>\n<p>দ্বিতীয় থেকে নবম শ্রেণিতে ভর্তির জন্য লিখিত পরীক্ষার মান নির্ধারণ করা হয়েছে। দ্বিতীয় থেকে পঞ্চম শ্রেণি পর্যন্ত ৫০ নম্বরের পরীক্ষায় বাংলা, ইংরেজি ও গণিত বিষয়ে প্রশ্ন থাকবে এবং সময় বরাদ্দ থাকবে এক ঘণ্টা। ষষ্ঠ থেকে নবম শ্রেণি পর্যন্ত ১০০ নম্বরের পরীক্ষায় সময় থাকবে দুই ঘণ্টা। এনসিটিবির পাঠ্যপুস্তক অনুযায়ী শ্রেণি উপযোগী প্রশ্নপত্র প্রণয়ন করতে হবে। আবেদনের জন্য প্রথম শ্রেণিতে সর্বোচ্চ ১১০ টাকা এবং দ্বিতীয় থেকে নবম শ্রেণিতে ২৫০ টাকা ফি নির্ধারণ করা হয়েছে।</p>\n<p>প্রতিটি শাখার আসন সংখ্যা ৫৫ জন নির্দিষ্ট করা হয়েছে। কোটা ব্যবস্থার আওতায় ঢাকা মহানগরীর সরকারি বিদ্যালয়ে ক্যাচমেন্ট এরিয়া বা আওতাধীন এলাকার শিক্ষার্থীদের জন্য ৪০ শতাংশ আসন সংরক্ষিত থাকবে। ষষ্ঠ শ্রেণিতে প্রাথমিক বিদ্যালয় থেকে উত্তীর্ণ শিক্ষার্থীদের জন্য ১০ শতাংশ আসন বরাদ্দ থাকবে। এছাড়া মুক্তিযোদ্ধা কোটায় ৫ শতাংশ, বিশেষ চাহিদাসম্পন্নদের জন্য ২ শতাংশ, সহোদরদের জন্য ৩ শতাংশ, যমজদের জন্য ২ শতাংশ এবং শিক্ষা মন্ত্রণালয়ের কর্মকর্তা-কর্মচারীদের সন্তানদের জন্য ২ শতাংশ আসন সংরক্ষিত রাখা হয়েছে। সরকারি চাকরিজীবীদের বদলিজনিত কারণে সন্তানদের জন্য প্রতি শাখায় ৫ শতাংশ অতিরিক্ত আসন থাকবে। পুরো ভর্তি প্রক্রিয়া তদারকির জন্য জেলা ও উপজেলা পর্যায়ে পৃথক কমিটি গঠন করা হবে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভর্তির নতুন নীতিমালা অভিভাবকদের প্রস্তুতি ও পরিকল্পনায় স্বচ্ছতা আনবে। স্বচ্ছ ও সুশৃঙ্খল ভর্তি প্রক্রিয়া শিক্ষার্থীদের শিক্ষাজীবনের শুরুতেই সঠিক প্রতিযোগিতামূলক পরিবেশ নিশ্চিত করতে সহায়ক ভূমিকা পালন করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/education/538220\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "আসন্ন ২০২৭ শিক্ষাবর্ষে দেশের সরকারি মাধ্যমিক বিদ্যালয়গুলোতে শিক্ষার্থী ভর্তির নীতিমালা জারি করেছে শিক্ষা মন্ত্রণালয়। নতুন নীতিমালা অনুযায়ী, প্রথম শ্রেণিতে ভর...",
-      "sourceUrl": "https://www.daily-bangladesh.com/education/538220",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss450aceee02a9d5",
-      "slug": "বাস্তুচ্যুতির-মধ্যে-ইয়েমেনে-ভয়াবহ-আকার",
-      "title": "বাস্তুচ্যুতির মধ্যে ইয়েমেনে ভয়াবহ আকার নিচ্ছে কলেরা",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%AD%E0%A7%9F%E0%A6%BE%E0%A6%AC%E0%A6%B9-%E0%A6%86%E0%A6%95%E0%A6%BE%E0%A6%B0.jpg",
-      "publishedAt": "2026-10-14T05:14:08.963Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ইয়েমেনে নতুন করে শুরু হওয়া সংঘাতের কারণে বাস্তুচ্যুত মানুষের সংখ্যা বৃদ্ধি পাওয়ায় দেশটিতে কলেরার প্রকোপ ভয়াবহ আকার ধারণ করেছে। বিশ্ব স্বাস্থ্য সংস্থা (ডব্লিউএইচও) জানিয়েছে, গত তিন সপ্তাহে দেশটিতে কলেরায় আক্রান্ত হওয়ার ঘটনা তিনগুণ বেড়েছে। সংঘাতের ফলে দুই লাখেরও বেশি মানুষ ঘরবাড়ি হারিয়ে অস্বাস্থ্যকর আশ্রয়শিবিরে গাদাগাদি করে বসবাস করছেন, যা মহামারি আকারে রোগ ছড়িয়ে পড়ার ঝুঁকি কয়েক গুণ বাড়িয়ে দিয়েছে।</p>\n<p>গত ৬ থেকে ১২ সেপ্টেম্বর পর্যন্ত সময়ে দেশটিতে কলেরার সন্দেহভাজন রোগী ছিল ২১৭ জন, যা ২৭ সেপ্টেম্বর থেকে ৩ অক্টোবরের মধ্যে বেড়ে দাঁড়িয়েছে ৬৪৭ জনে। চলতি বছর এখন পর্যন্ত ইয়েমেনে মোট আট হাজার ৩৪টি সন্দেহভাজন কলেরার ঘটনা নথিভুক্ত করা হয়েছে এবং এতে অন্তত ২৭ জনের মৃত্যু হয়েছে। উদ্বেগের বিষয় হলো, গত চার সপ্তাহেই মোট সংক্রমণের প্রায় এক-চতুর্থাংশ শনাক্ত হয়েছে। ডব্লিউএইচওর তথ্য অনুযায়ী, আবিয়ান, লাহিজ, আল-দালেয়া, তাইজ ও এডেন—এই পাঁচটি গভর্নরেটে মোট সংক্রমণের ৯২ শতাংশ ঘটেছে। এছাড়া হাদরামাউতের দুর্গম এলাকাগুলোতেও রোগটি ছড়িয়ে পড়েছে, যেখানে চিকিৎসা সহায়তা পৌঁছানো অত্যন্ত কঠিন।</p>\n<p>বিশ্ব স্বাস্থ্য সংস্থার আঞ্চলিক জরুরি কার্যক্রমের পরিচালক অ্যানেট হেইনজেলম্যান জানান, বাস্তুচ্যুত পরিবারগুলো এখন নতুন করে চিকিৎসাযোগ্য ও প্রতিরোধযোগ্য রোগের হুমকির মুখে পড়েছে। তিনি সতর্ক করে বলেন, নিরাপদ পানির অভাব, টিকাদান কর্মসূচি ব্যাহত হওয়া এবং স্বাস্থ্যসেবা পাওয়ার ক্ষেত্রে বাধার কারণে এই পরিস্থিতি আরও অবনতির দিকে যেতে পারে। ইয়েমেনে চার বছর ধরে বজায় থাকা ভঙ্গুর শান্ত পরিস্থিতি ভেঙে জুলাই মাসে হুতি বিদ্রোহী ও সরকারের মধ্যে নতুন করে সংঘাত শুরু হওয়ার পর থেকেই খাদ্যনিরাপত্তাহীনতা ও রোগব্যাধির প্রকোপ বৃদ্ধি পেয়েছে।</p>\n<p>কলেরার এই প্রাদুর্ভাব মোকাবিলায় ডব্লিউএইচও আগামী ৯০ দিনের জন্য তিন কোটি ১০ লাখ ডলারের জরুরি তহবিল চেয়েছে। তবে এখন পর্যন্ত সংস্থাটি মাত্র ৩৭ লাখ ৮০ হাজার ডলার সংগ্রহ করতে পেরেছে। এই অর্থ দিয়ে আশ্রয়শিবিরগুলোতে রোগ পর্যবেক্ষণ বৃদ্ধি, দ্রুত সাড়াদানকারী দল গঠন এবং কলেরা চিকিৎসাকেন্দ্রে সংক্রমণ প্রতিরোধব্যবস্থা উন্নয়নের পরিকল্পনা রয়েছে। উল্লেখ্য, দূষিত পানি ও খাবারের মাধ্যমে ছড়ানো এই অন্ত্রের রোগটি দ্রুত পানিশূন্যতা তৈরি করে প্রাণঘাতী হয়ে উঠতে পারে, যার জন্য জরুরিভিত্তিতে খাবার স্যালাইন ও স্বাস্থ্যসেবা নিশ্চিত করা অপরিহার্য।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দুর্গত এলাকায় বিশুদ্ধ পানির অভাব ও অস্বাস্থ্যকর পরিবেশ কলেরা বিস্তারের প্রধান কারণ হিসেবে কাজ করছে। এই মহামারি নিয়ন্ত্রণে জরুরি ভিত্তিতে নিরাপদ পানি ও চিকিৎসা সহায়তা নিশ্চিত করা না হলে জনস্বাস্থ্য বিপর্যয় আরও ভয়াবহ হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538221\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ইয়েমেনে গত তিন সপ্তাহে কলেরায় আক্রান্ত হওয়ার ঘটনা তিনগুণ বেড়েছে। দেশটিতে নতুন করে সংঘাত ছড়িয়ে পড়ায় বাড়িঘর ছেড়ে পালানো মানুষ অস্বাস্থ্যকর আশ্রয়শিবিরে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/538221",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss7861c37eb8bc5e",
-      "slug": "রাজধানীর-৪-থানায়-একযোগে-ব্লক-রেইড-গ্রেফত",
-      "title": "রাজধানীর ৪ থানায় একযোগে ব্লক রেইড, গ্রেফতার ৪৪১",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A7%AA-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%95%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%87%E0%A6%A1-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4.webp",
-      "publishedAt": "2026-10-14T05:14:08.953Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজধানীর ৪ থানা এলাকায় একযোগে ব্লক রেইড অভিযান চালিয়েছে পুলিশসহ একাধিক আইনশৃঙ্খলা বাহিনীর সমন্বিত যৌথবাহিনি। মঙ্গলবার (১৩ অক্টোবর) দিবাগত রাতে এ অভিযান পরিচালনা করা হয়। অভিযানকালে ৪৪১ জনকে গ্রেফতার করা হয়। বুধবার (১৪ অক্টোবর) সকালে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়। ডিএমপি জানায়, গতকাল রাতে </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নিরাপত্তা নিশ্চিতকরণে এমন সাঁড়াশি অভিযান জনমনে স্বস্তি ফেরাতে ভূমিকা রাখবে। তবে নিরপরাধ সাধারণ মানুষ যেন হয়রানির শিকার না হয়, সেদিকে আইনশৃঙ্খলা বাহিনীকে সতর্ক থাকতে হবে। এলাকাবাসীকেও যেকোনো অসামাজিক কার্যকলাপে প্রশাসনকে তথ্য দিয়ে সহায়তা করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/974376/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A7%AA-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%95%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%87%E0%A6%A1-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AA%E0%A7%AA%E0%A7%A7\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজধানীর ৪ থানা এলাকায় একযোগে ব্লক রেইড অভিযান চালিয়েছে পুলিশসহ একাধিক আইনশৃঙ্খলা বাহিনীর সমন্বিত যৌথবাহিনি। মঙ্গলবার (১৩ অক্টোবর) দিবাগত রাতে এ অভিযান পরিচালনা করা হয়। অভিযানকালে ৪৪১ জনকে গ্রেফতার করা হয়। বুধবার (১৪ অক্টোবর) সকালে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়। ডিএমপি জানায়, গতকাল রাতে ",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/974376/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A7%AA-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%95%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%87%E0%A6%A1-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AA%E0%A7%AA%E0%A7%A7",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss65dffa522d5ddc",
-      "slug": "রোমের-জেমেলি-হাসপাতালে-পোপ-লিওর-ফুসফুসে",
-      "title": "রোমের জেমেলি হাসপাতালে পোপ লিওর ফুসফুসে সফল সার্জারি সম্পন্ন",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A7%8B%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A7%8B%E0%A6%AA-%E0%A6%B2%E0%A6%BF%E0%A6%93%E0%A6%B0-%E0%A6%AB%E0%A7%81%E0%A6%B8%E0%A6%AB%E0%A7%81%E0%A6%B8%E0%A7%87.jpg",
-      "publishedAt": "2026-10-14T04:59:09.099Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>রোমের জেমেলি হাসপাতালে চিকিৎসাধীন পোপ চতুর্দশ লিওর ফুসফুসের অস্ত্রোপচার সফলভাবে সম্পন্ন হয়েছে। মঙ্গলবার ভ্যাটিকানের পক্ষ থেকে এক আনুষ্ঠানিক বিবৃতিতে বিষয়টি নিশ্চিত করা হয়েছে। অস্ত্রোপচারের মাধ্যমে পোপের ডান ফুসফুসে থাকা ক্যানসার আক্রান্ত অংশটি সফলভাবে অপসারণ করেছেন চিকিৎসকরা। কোনো ধরনের জটিলতা ছাড়াই এই অস্ত্রোপচার সম্পন্ন হয়েছে এবং বর্তমানে তিনি শঙ্কামুক্ত বলে জানা গেছে।</p>\n<p>হাসপাতাল সূত্রে জানা যায়, মাত্র নয় মিনিটের এই অস্ত্রোপচারের পর পোপ স্বাভাবিকভাবেই জ্ঞান ফিরে পেয়েছেন। অস্ত্রোপচারের পর তাকে বেশ সুস্থ দেখাচ্ছিল এবং তিনি রাতের খাবারের আগ্রহও প্রকাশ করেছেন। গত বছর ৮ মে দায়িত্ব গ্রহণের পর ৭১ বছর বয়সি পোপ লিওর এটিই প্রথমবার হাসপাতালে ভর্তির ঘটনা। এর আগে গত রোববার সেন্ট পিটার্স স্কোয়ারে প্রার্থনার সময় তিনি নিজেই তার শরীরে প্রাথমিক পর্যায়ে টিউমার ধরা পড়ার বিষয়টি ভক্তদের জানিয়েছিলেন।</p>\n<p>বর্তমানে পোপ জেমেলি হাসপাতালের দশম তলায় নিজস্ব কক্ষে চিকিৎসকদের পর্যবেক্ষণে রয়েছেন। তাকে দীর্ঘ সময় বিশ্রামে থাকার পরামর্শ দিয়েছেন মেডিকেল বোর্ড। সুস্থতা নিশ্চিত করতে চিকিৎসকরা ক্যানসার শরীরের অন্য কোথাও ছড়িয়ে পড়েছে কি না, তা যাচাইয়ের জন্য আরও কিছু পরীক্ষা-নিরীক্ষা করছেন। এর আগে মঙ্গলবার হাসপাতালে প্রবেশের সময় তাকে বেশ হাসিখুশি দেখা গিয়েছিল।</p>\n<p>পোপের শারীরিক অবস্থার প্রেক্ষিতে আগামী ২০ অক্টোবর পর্যন্ত তার সব ধরনের আনুষ্ঠানিক সাক্ষাৎ ও কর্মসূচি বাতিল করা হয়েছে। এই অস্ত্রোপচারের ফলে আগামী মাসে তার নির্ধারিত লাতিন আমেরিকা সফর নিয়ে তৈরি হয়েছে অনিশ্চয়তা। ভ্যাটিকান কর্তৃপক্ষ জানিয়েছে, পোপের স্বাস্থ্যের বিষয়ে তারা স্বচ্ছতা বজায় রাখছে। পোপের সুস্থতার জন্য বিশ্বজুড়ে তার অনুসারীরা প্রার্থনা করছেন বলে বিভিন্ন সূত্র থেকে জানা গেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">উচ্চপর্যায়ের ব্যক্তিদের জটিল অস্ত্রোপচারের সফল বাস্তবায়ন আধুনিক চিকিৎসা বিজ্ঞানের উৎকর্ষের প্রতিফলন। জনস্বাস্থ্যের সুরক্ষায় প্রাথমিক পর্যায়ে রোগ নির্ণয় ও দ্রুত অস্ত্রোপচারের গুরুত্ব জনসচেতনতা বৃদ্ধিতে গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/international/538217\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ফুসফুসে ক্যানসার ধরা পড়ার পর সফল অস্ত্রোপচার সম্পন্ন হয়েছে পোপ চতুর্দশ লিওর। মঙ্গলবার রোমের জেমেলি হাসপাতালে তার এই অস্ত্রোপচার করা হয়। ভ্যাটিকানের পক্ষ থেকে...",
-      "sourceUrl": "https://daily-bangladesh.com/international/538217",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss481b1fbdb5620c",
-      "slug": "পর্যটন-শিল্পের-প্রসারে-ডিজিটাল-প্রযুক্ত",
-      "title": "পর্যটন শিল্পের প্রসারে ডিজিটাল প্রযুক্তি এবং কৃত্রিম বুদ্ধিমত্তা",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%9F%E0%A6%A8-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4.jpg",
-      "publishedAt": "2026-10-14T04:59:09.092Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বিশ্ব পর্যটন দিবস-২০২৬ উপলক্ষে বাংলাদেশ এবার ডিজিটাল রূপান্তর ও কৃত্রিম বুদ্ধিমত্তার ব্যবহারের মাধ্যমে পর্যটন শিল্পের আধুনিকায়নের ওপর জোর দিচ্ছে। প্রযুক্তিগত উৎকর্ষ এবং কৃত্রিম বুদ্ধিমত্তার যথাযথ প্রয়োগের মাধ্যমে একটি স্মার্ট, অন্তর্ভুক্তিমূলক ও টেকসই পর্যটন ব্যবস্থা গড়ে তোলাই এবারের প্রতিপাদ্যের মূল লক্ষ্য। বৈশ্বিক প্রেক্ষাপটের সাথে তাল মিলিয়ে দেশের পর্যটন খাতকে আরও দায়িত্বশীল ও স্থিতিস্থাপক করে তুলতে সরকারি ও বেসরকারি খাতের সম্মিলিত অংশগ্রহণ এবং দক্ষ মানবসম্পদ তৈরির ওপর গুরুত্বারোপ করা হয়েছে।</p>\n<p>পর্যটন শিল্পে কৃত্রিম বুদ্ধিমত্তার ব্যবহার নতুন সম্ভাবনার দ্বার উন্মোচন করেছে। ডেস্টিনেশন মার্কেটিং, পর্যটকদের গমনাগমন ব্যবস্থাপনা, ব্যক্তিগত ভ্রমণ পরিকল্পনা এবং স্মার্ট আতিথেয়তা সেবার মান উন্নয়নে এ প্রযুক্তি অপরিহার্য ভূমিকা রাখতে পারে। তবে এই প্রযুক্তি ব্যবহারের ক্ষেত্রে যে সকল চ্যালেঞ্জ রয়েছে, তা চিহ্নিত করে টেকসই উপায়ে সমাধানের জন্য সুনির্দিষ্ট কর্মপরিকল্পনা গ্রহণ করা প্রয়োজন। প্রযুক্তিগত বিপ্লবের যুগে ডিজিটাল প্ল্যাটফর্ম ও তথ্য-ভিত্তিক পদ্ধতির মাধ্যমে পর্যটকদের নিরবচ্ছিন্ন সেবা নিশ্চিত করতে সরকার প্রতিশ্রুতিবদ্ধ।</p>\n<p>প্রাকৃতিক সৌন্দর্য, সাংস্কৃতিক ঐতিহ্য এবং প্রত্নতাত্ত্বিক সম্পদের প্রাচুর্যে ভরপুর বাংলাদেশ দক্ষিণ এশিয়ায় একটি শীর্ষস্থানীয় পর্যটন গন্তব্য হয়ে ওঠার ব্যাপক সম্ভাবনা রাখে। এই সম্ভাবনাকে বাস্তবে রূপ দিতে ডিজিটাল প্রযুক্তি ও কৃত্রিম বুদ্ধিমত্তাকে ব্যবহার করে ডেস্টিনেশন ম্যানেজমেন্টকে শক্তিশালী করা জরুরি। প্রযুক্তির যথাযথ প্রয়োগের মাধ্যমে স্থানীয় সম্প্রদায়ের ক্ষমতায়ন এবং সেবার মান বৃদ্ধির সুযোগ রয়েছে, যা শেষ পর্যন্ত দেশের সামগ্রিক পর্যটন খাতকে সমৃদ্ধ করবে।</p>\n<p>বাংলাদেশ পর্যটন করপোরেশন (বাপক) ইতিমধ্যে পর্যটন খাতের উন্নয়নে দীর্ঘমেয়াদী পরিকল্পনা গ্রহণ করেছে। সরকারি ও বেসরকারি বিনিয়োগের মাধ্যমে প্রায় ১৯ হাজার কোটি টাকা ব্যয়ে ৬০টি উন্নয়ন প্রকল্প বাস্তবায়নের উদ্যোগ নেওয়া হয়েছে। এসব প্রকল্প কার্যকর হলে দেশে প্রায় ৪৬ লক্ষ মানুষের কর্মসংস্থান সৃষ্টি হবে বলে আশা করা হচ্ছে। এর ফলে জাতীয় জিডিপিতে পর্যটন খাতের অবদান বর্তমানের ৩ শতাংশ থেকে বেড়ে ৭ থেকে ৮ শতাংশে উন্নীত হবে।</p>\n<p>পরিশেষে, পর্যটন শিল্পের টেকসই ও অন্তর্ভুক্তিমূলক উন্নয়নের জন্য সকলকে একযোগে কাজ করার আহ্বান জানানো হয়েছে। ডিজিটাল উদ্ভাবন ও কৃত্রিম বুদ্ধিমত্তার শক্তিকে কাজে লাগিয়ে বাংলাদেশকে একটি নিরাপদ ও স্মার্ট পর্যটন গন্তব্য হিসেবে গড়ে তুলতে বেসরকারি খাতের বিনিয়োগ বৃদ্ধি করা প্রয়োজন। এই লক্ষ্য অর্জনে দক্ষ জনশক্তি উন্নয়ন এবং প্রযুক্তির সুফল যেন সমাজের সকল স্তরে পৌঁছায়, তা নিশ্চিত করার ওপর জোর দেওয়া হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পর্যটন খাতে কৃত্রিম বুদ্ধিমত্তার যথাযথ প্রয়োগ ভ্রমণকারীদের অভিজ্ঞতাকে আরও সহজ ও ব্যক্তিগত পর্যায়ে উন্নীত করবে। প্রযুক্তিনির্ভর এই রূপান্তর পর্যটন সেবাকে স্মার্ট ও অন্তর্ভুক্তিমূলক করে তোলার পাশাপাশি ভ্রমণ পরিকল্পনা ও ব্যবস্থাপনায় নতুন গতির সঞ্চার করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/tourism/538218\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "এবারের প্রতিপাদ্য প্রযুক্তিগত উদ্ভাবন এবং কৃত্রিম বুদ্ধিমত্তার (অও) যথাযথ প্রয়োগের মাধ্যমে একটি স্মার্ট, অন্তর্ভুক্তিমূলক এবং সুপরিকল্পিত পর্যটন শিল্প উন্নয়নের...",
-      "sourceUrl": "https://daily-bangladesh.com/tourism/538218",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss354a87e5d2385f",
-      "slug": "মহাশূন্যে-প্রাণের-অস্তিত্ব-ধারণার-চেয়েও",
-      "title": "মহাশূন্যে প্রাণের অস্তিত্ব ধারণার চেয়েও ব্যাপক হতে পারে",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B6%E0%A7%82%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%93.jpg",
-      "publishedAt": "2026-10-14T04:59:09.059Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>মহাবিশ্বে প্রাণের অস্তিত্ব কেবল আমাদের এই পৃথিবীতেই সীমাবদ্ধ কি না, তা নিয়ে দীর্ঘকাল ধরে চলছে নানা জল্পনা। তবে বর্তমানের জ্যোতির্বিজ্ঞানীরা ধারণা করছেন, মহাকাশে এমন কিছু গ্রহ থাকতে পারে যা প্রাণের বিকাশের জন্য পৃথিবীর চেয়েও অধিকতর উপযোগী। ‘সুপারহ্যাবিটেবল ওয়ার্ল্ডস’ বা অতিমাত্রায় বাসযোগ্য গ্রহ হিসেবে পরিচিত এসব জগৎ নিয়ে বিশ্বজুড়ে চলছে জোর গবেষণা। বিজ্ঞানীদের মতে, পৃথিবীর চেয়ে আকারে কিছুটা বড় এবং অধিক ভরের এসব গ্রহের জলবায়ু ও পরিবেশ প্রাণের টিকে থাকার জন্য আরও বেশি অনুকূল হতে পারে।</p>\n<p>সুপারহ্যাবিটেবল গ্রহগুলোর গঠনশৈলী পৃথিবীর চেয়ে ২০ থেকে ৩০ শতাংশ বেশি প্রশস্ত এবং ভর প্রায় দ্বিগুণ হতে পারে। এসব গ্রহের জোরালো অভিকর্ষ বল ঘন বায়ুমণ্ডল ধরে রাখতে সক্ষম, যা গ্রহের তাপমাত্রা স্থিতিশীল রাখে। এছাড়া এদের বড় লৌহকেন্দ্র শক্তিশালী চৌম্বকক্ষেত্র তৈরি করতে পারে, যা মহাকাশের ক্ষতিকর বিকিরণ থেকে প্রাণকে রক্ষা করে। গবেষণায় উঠে এসেছে যে, এসব গ্রহে বিস্তৃত অগভীর সমুদ্র ও গ্রীষ্মমণ্ডলীয় দ্বীপের মতো পরিবেশ থাকতে পারে, যা পৃথিবীতে জীববৈচিত্র্যের বিকাশে গুরুত্বপূর্ণ ভূমিকা রাখে। ফলে এসব গ্রহে পৃথিবী অপেক্ষা জটিল ও বৈচিত্র্যময় প্রাণের উদ্ভবের সম্ভাবনা প্রবল।</p>\n<p>গবেষকদের বিশেষ দৃষ্টি এখন ‘কে-ডোয়ার্ফ’ বা কমলা রঙের বামন নক্ষত্রগুলোর দিকে। সূর্যের চেয়ে ছোট ও শীতল এসব নক্ষত্র তাদের জ্বালানি অত্যন্ত ধীরে খরচ করে, ফলে এগুলো হাজার কোটি বছর ধরে আলো ছড়াতে পারে। জার্মানির বার্লিনে জ্যোতির্জীববিজ্ঞানী ইভা ভিলোভিচের পরীক্ষায় দেখা গেছে, কে-ডোয়ার্ফ নক্ষত্রের আলোকে উদ্ভিদ দ্রুত বৃদ্ধি পায় এবং সালোকসংশ্লেষণ প্রক্রিয়ায় কার্যকর ভূমিকা রাখে। সূর্যের তুলনায় এসব নক্ষত্র অনেক বেশি সময় ধরে স্থিতিশীল থাকায় গ্রহগুলোতে বিবর্তনের জন্য দীর্ঘ সুযোগ পাওয়া যায়। পৃথিবী যেমন সূর্যের ক্রমবর্ধমান উত্তাপে ভবিষ্যতে প্রাণের জন্য প্রতিকূল হয়ে উঠতে পারে, কে-ডোয়ার্ফ নক্ষত্রকে কেন্দ্র করে থাকা গ্রহে সেই ঝুঁকি অনেক কম।</p>\n<p>তবে এসব ধারণা এখনো তাত্ত্বিক পর্যায়ের মধ্যেই সীমাবদ্ধ। এখন পর্যন্ত কোনো সুপারহ্যাবিটেবল গ্রহের অস্তিত্ব নিশ্চিত করা যায়নি। প্রাণের অস্তিত্বের জন্য উপযুক্ত তাপমাত্রা, পানি বা বায়ুমণ্ডল থাকলেই যে সেখানে প্রাণের উদ্ভব ঘটবে—এমন নিশ্চয়তাও নেই। তবুও বিজ্ঞানীরা থেমে নেই। শক্তিশালী মহাকাশ দূরবীক্ষণযন্ত্রের মাধ্যমে এসব গ্রহে প্রাণের ইঙ্গিতবাহী গ্যাসের উপস্থিতি খোঁজার পরিকল্পনা করছেন তারা।</p>\n<p>আগামীতে ইউরোপীয় মহাকাশ সংস্থার ‘প্ল্যাটো’ অভিযান ২০২৭ সালে এবং পরবর্তীতে নাসার ‘হ্যাবিটেবল ওয়ার্ল্ডস অবজারভেটরি’র মতো প্রকল্পগুলো এই অনুসন্ধানে গুরুত্বপূর্ণ ভূমিকা রাখবে। এছাড়া জেমস ওয়েব ও চিলিতে নির্মাণাধীন এক্সট্রিমলি লার্জ টেলিস্কোপ গ্রহগুলোর বায়ুমণ্ডল বিশ্লেষণে সহায়তা করবে। বর্তমানে বিজ্ঞানীদের লক্ষ্য হলো পৃথিবীকেই একমাত্র মানদণ্ড হিসেবে না দেখে মহাবিশ্বের বৈচিত্র্যময় পরিবেশের দিকে নজর দেওয়া, যা ভবিষ্যতে ভিনগ্রহের প্রাণের সন্ধানে নতুন দিগন্ত উন্মোচন করতে পারে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মহাশূন্যে প্রাণের বিস্তৃতি নিয়ে নতুন এই সম্ভাবনা মানুষের অস্তিত্বের দৃষ্টিভঙ্গি বদলে দিতে পারে। এটি বিজ্ঞানের উৎকর্ষ বাড়িয়ে মহাজাগতিক গবেষণায় নতুন প্রাণসঞ্চার করবে, যা আমাদের জ্ঞানপিপাসা ও মহাবিশ্ব নিয়ে চিন্তার দিগন্তকে আরও প্রসারিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/science/538219\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "প্রাণের অস্তিত্ব আছে, এমন একমাত্র গ্রহ এখন পর্যন্ত পৃথিবীই। তবে বিজ্ঞানীদের ধারণা, মহাবিশ্বে এমন আরও কিছু গ্রহ থাকতে পারে, যেগুলো প্রাণের বিকাশের জন্য পৃথিবীর চ...",
-      "sourceUrl": "https://daily-bangladesh.com/science/538219",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssc64d4c9f1adb1f",
-      "slug": "এক-সাবস্ক্রিপশনেই-এক্স-প্রিমিয়াম-গ্রোক",
-      "title": "এক সাবস্ক্রিপশনেই এক্স প্রিমিয়াম, গ্রোক ও কার্সর আনলো স্পেসএক্সএসআই",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%8F%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%95.webp",
-      "publishedAt": "2026-10-14T04:44:08.846Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বর্তমানে বিভিন্ন ডিজিটাল সেবা ব্যবহারের জন্য প্রয়োজন অনুযায়ী আলাদা আলাদা সাবস্ক্রিপশন নিতে হয়, যা ব্যবহারকারীর খরচ বাড়ায়। এই অতিরিক্ত ব্যয় কমিয়ে একসঙ্গে একাধিক সেবা ব্যবহারের সুযোগ দিতে এক সাবস্ক্রিপশনের আওতায় এক্স প্রিমিয়াম, গ্রক ও কার্সর ব্যবহারের সুবিধা চালু করেছে স্পেসএক্স সুপার ইন্টেলিজেন্স (স্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">একাধিক ডিজিটাল সেবার সাবস্ক্রিপশন ফি সাধারণ মানুষের বাজেটে বাড়তি চাপ সৃষ্টি করে। এমন সমন্বিত উদ্যোগ ডিজিটাল সেবার ব্যয় কমিয়ে প্রযুক্তির সহজলভ্যতা নিশ্চিত করতে সহায়ক হবে। ভবিষ্যতে এ ধরনের মডেল কার্যকর হলে দৈনন্দিন ডিজিটাল খরচ অনেকটা সহনশীল হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/974370/%E0%A6%8F%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%95-%E0%A6%93-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বর্তমানে বিভিন্ন ডিজিটাল সেবা ব্যবহারের জন্য প্রয়োজন অনুযায়ী আলাদা আলাদা সাবস্ক্রিপশন নিতে হয়, যা ব্যবহারকারীর খরচ বাড়ায়। এই অতিরিক্ত ব্যয় কমিয়ে একসঙ্গে একাধিক সেবা ব্যবহারের সুযোগ দিতে এক সাবস্ক্রিপশনের আওতায় এক্স প্রিমিয়াম, গ্রক ও কার্সর ব্যবহারের সুবিধা চালু করেছে স্পেসএক্স সুপার ইন্টেলিজেন্স (স্",
-      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/974370/%E0%A6%8F%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%95-%E0%A6%93-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss804812dbfb769c",
-      "slug": "সৌদিগামী-৮৬-ফ্লাইট-চলাচল-ব্যাহত-আটকা-সাড়",
-      "title": "সৌদিগামী ৮৬ ফ্লাইট চলাচল ব্যাহত, আটকা সাড়ে ১৩ হাজার যাত্রী",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A7%AE%E0%A7%AC-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A6%86%E0%A6%9F%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A7%9C.webp",
-      "publishedAt": "2026-10-14T04:44:08.845Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সৌদি আরবের বিমানবন্দরগুলোতে সাময়িক বিধিনিষেধ ও ফ্লাইট চলাচলে বিঘ্ন ঘটায় ঢাকা থেকে ছাড়ার অপেক্ষায় থাকা সৌদিগামী ফ্লাইট পরিচালনায় বড় ধরনের বিপর্যয় দেখা দিয়েছে। বুধবার (১৪ অক্টোবর) বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষের (বেবিচক) বার্তায় জানানো হয়, এ পরিস্থিতির কারণে এ পর্যন্ত সরাসরি ও ট্রানজিট মিলিয়</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ফ্লাইট বিপর্যয় প্রবাসীদের কর্মসংস্থান ও গন্তব্যে পৌঁছানোর অনিশ্চয়তা বাড়িয়ে দিয়েছে। এমন পরিস্থিতিতে কর্তৃপক্ষকে দ্রুত বিকল্প ব্যবস্থা নিশ্চিত করতে হবে এবং ভুক্তভোগী যাত্রীদের ধৈর্য ধরে এয়ারলাইন্সের পরবর্তী নির্দেশনার অপেক্ষায় থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/974371/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A7%AE%E0%A7%AC-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A6%86%E0%A6%9F%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A7%A7%E0%A7%A9\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সৌদি আরবের বিমানবন্দরগুলোতে সাময়িক বিধিনিষেধ ও ফ্লাইট চলাচলে বিঘ্ন ঘটায় ঢাকা থেকে ছাড়ার অপেক্ষায় থাকা সৌদিগামী ফ্লাইট পরিচালনায় বড় ধরনের বিপর্যয় দেখা দিয়েছে। বুধবার (১৪ অক্টোবর) বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষের (বেবিচক) বার্তায় জানানো হয়, এ পরিস্থিতির কারণে এ পর্যন্ত সরাসরি ও ট্রানজিট মিলিয়",
-      "sourceUrl": "https://www.banglatribune.com/national/974371/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A7%AE%E0%A7%AC-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A6%86%E0%A6%9F%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A7%A7%E0%A7%A9",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf5968a6fbc35c0",
-      "slug": "কারাদণ্ডাদেশ-থেকে-খালাস-চেয়ে-ইনুর-আপিল",
-      "title": "কারাদণ্ডাদেশ থেকে খালাস চেয়ে ইনুর আপিল",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2.webp",
-      "publishedAt": "2026-10-14T04:44:08.843Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>জুলাই গণআন্দোলন চলাকালে কুষ্টিয়ায় ৬ জনকে হত্যাসহ ৮ অভিযোগে করা মানবতাবিরোধী অপরাধের মামলায় জাসদ সভাপতি হাসানুল হক ইনুকে আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের দেওয়া দশ বছরের কারাদণ্ডাদেশ ও জরিমানার আদেশের বিরুদ্ধে খালাস চেয়ে আপিল দায়ের করা হয়েছে। বুধবার (১৪ অক্টোবর) সুপ্রিম কোর্টের আপিল বিভাগের সংশ্লিষ্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এমন বিচারিক প্রক্রিয়ার আইনি সুরাহা দ্রুত সম্পন্ন করা জরুরি, যেন জনমনে ন্যায়বিচারের প্রতি আস্থা অটুট থাকে। এই আপিল জনজীবনে স্বস্তি ও স্থিতিশীলতা ফিরিয়ে আনার ক্ষেত্রে একটি গুরুত্বপূর্ণ আইনি ধাপ হিসেবে বিবেচিত হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/974372/%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "জুলাই গণআন্দোলন চলাকালে কুষ্টিয়ায় ৬ জনকে হত্যাসহ ৮ অভিযোগে করা মানবতাবিরোধী অপরাধের মামলায় জাসদ সভাপতি হাসানুল হক ইনুকে আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের দেওয়া দশ বছরের কারাদণ্ডাদেশ ও জরিমানার আদেশের বিরুদ্ধে খালাস চেয়ে আপিল দায়ের করা হয়েছে। বুধবার (১৪ অক্টোবর) সুপ্রিম কোর্টের আপিল বিভাগের সংশ্লিষ্",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/974372/%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss58d3572076de56",
-      "slug": "গ্যাসের-চরম-সংকটের-মুখে-বাড়তি-খরচের-ফাঁদ",
-      "title": "গ্যাসের চরম সংকটের মুখে বাড়তি খরচের ফাঁদে তৃতীয় ভাসমান টার্মিনাল",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%B0%E0%A6%AE-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%A4%E0%A6%BF-%E0%A6%96%E0%A6%B0%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6.jpg",
-      "publishedAt": "2026-10-14T04:29:08.820Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দেশে তীব্র জ্বালানি সংকটের মধ্যে নতুন এলএনজি টার্মিনাল নির্মাণ নিয়ে বড় ধরনের আর্থিক ঝুঁকির আশঙ্কা তৈরি হয়েছে। মহেশখালীর কুতুবজোমে ৬০০ থেকে ৭৫০ এমএমসিএফডি ক্ষমতার একটি অফশোর টার্মিনাল নির্মাণের জন্য চীনা রাষ্ট্রায়ত্ত প্রতিষ্ঠান ‘চায়না ন্যাশনাল এনার্জি ইঞ্জিনিয়ারিং অ্যান্ড কনস্ট্রাকশন কোম্পানি’ (সিএনইই)-র সাথে যে প্রস্তাবিত চুক্তি হতে যাচ্ছে, তাতে বিদ্যমান বাজার দরের চেয়ে ৩৫ থেকে ৩৭ শতাংশ পর্যন্ত বেশি ব্যয় হবে। ১৫ বছর মেয়াদী এই চুক্তিতে দৈনিক ফি নির্ধারণ করা হয়েছে ৩ লাখ ৪২ হাজার ডলার।</p>\n<p>এই চুক্তির সবচেয়ে বিতর্কিত দিক হলো ‘বিল্ড-ওন-অপারেট’ বা বিওও মডেল। এই কাঠামোর কারণে টার্মিনালের মালিকানা অনির্দিষ্টকালের জন্য চীনা প্রতিষ্ঠানের হাতেই থেকে যাবে। অথচ এর আগের প্রকল্পগুলো ‘বিল্ড-ওন-অপারেট-ট্রান্সফার’ বা বিওওটি মডেলে স্বাক্ষরিত হয়েছিল, যেখানে একটি নির্দিষ্ট সময় পর মালিকানা পেট্রোবাংলার কাছে হস্তান্তরের শর্ত থাকত। জ্বালানি বিশেষজ্ঞরা বলছেন, কোনো প্রতিযোগিতা ছাড়াই সরাসরি আলোচনার মাধ্যমে এমন দীর্ঘমেয়াদী চুক্তিতে যাওয়া এবং অভিজ্ঞতা না থাকা সত্ত্বেও মাত্র ১৮ মাসে প্রকল্প বাস্তবায়নের প্রতিশ্রুতি অত্যন্ত ঝুঁকিপূর্ণ।</p>\n<p>বর্তমানে দেশে কার্যকর টার্মিনালগুলোর ফির তুলনায় এই প্রস্তাবিত ব্যয় অস্বাভাবিক। এক্সিলারেট এনার্জি দৈনিক ২ লাখ ৫৪ হাজার ডলার এবং সামিট এলএনজি টার্মিনাল ২ লাখ ৪৯ হাজার ১১৫ ডলার ফি গ্রহণ করছে। এমনকি ২০২৪ সালের মার্চে সামিটের বাতিল হওয়া দ্বিতীয় এফএসআরইউর জন্য পেট্রোবাংলা যে ৩ লাখ ডলার ফি নির্ধারণ করেছিল, নতুন এই প্রস্তাব তার চেয়েও অনেক বেশি। এছাড়া রূপান্তরিত প্রাকৃতিক গ্যাস কোম্পানি লিমিটেডের (আরপিজিসিএল) ২০২৫ সালের সম্ভাব্যতা সমীক্ষায় দৈনিক ২ লাখ ৩৯ হাজার ৬৫৩ ডলারের যে বেঞ্চমার্ক নির্ধারণ করা হয়েছিল, চীনা কোম্পানিটির প্রস্তাবিত ফি তার চেয়েও অনেক উঁচুতে।</p>\n<p>পেট্রোবাংলার চেয়ারম্যানের নেতৃত্বাধীন কমিটি ১৫ বছর মেয়াদে ৩ লাখ ৪২ হাজার ডলার অথবা ২০ বছর মেয়াদে ৩ লাখ ২৯ হাজার ডলার ফি গ্রহণের সুপারিশ করেছে, যার মোট আর্থিক দায় প্রায় ১২ হাজার ৩২৪ কোটি টাকা। আন্তর্জাতিক বাজারে নির্মাণ সামগ্রীর চড়া দামের অজুহাত দেখিয়ে এই বাড়তি অর্থ দাবি করা হলেও, নিরপেক্ষ পর্যালোচনা ছাড়া এমন সিদ্ধান্ত গ্রহণে সতর্কতা অবলম্বনের পরামর্শ দিয়েছেন বিশেষজ্ঞরা।</p>\n<p>বর্তমানে মধ্যপ্রাচ্যের ভূ-রাজনৈতিক অস্থিরতার কারণে কাতার এনার্জি ২০২৬ সালের জন্য নির্ধারিত এলএনজি সরবরাহ অর্ধেক কমিয়ে দিয়েছে। এর ফলে দেশে তীব্র গ্যাস সংকট দেখা দিয়েছে এবং স্পট মার্কেট থেকে চড়া দামে গ্যাস কিনতে হচ্ছে বাংলাদেশকে। এই পরিস্থিতিতে চলতি অর্থবছরে এলএনজি খাতে ভর্তুকি ৪০ হাজার কোটি টাকায় পৌঁছাতে পারে বলে ধারণা করা হচ্ছে। এমন চরম অর্থনৈতিক চাপের মুখে বাড়তি খরচের এই প্রকল্প পুনর্বিবেচনার দাবি জোরালো হচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এলএনজি টার্মিনালের ব্যয় বৃদ্ধি জ্বালানি খাতের ওপর বাড়তি চাপের পাশাপাশি জাতীয় অর্থনীতির জন্য উদ্বেগজনক। জ্বালানি নিরাপত্তা নিশ্চিত করতে গিয়ে দীর্ঘমেয়াদী আর্থিক ঝুঁকি এড়াতে কূটনৈতিক দরকষাকষিতে স্বচ্ছতা ও দক্ষতা বজায় রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/economy/538214\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "বাংলাদেশ প্রস্তাবিত তৃতীয় ভাসমান এলএনজি টার্মিনালের রিগ্যাসিফিকেশন সেবার জন্য একটি চীনা রাষ্ট্রায়ত্ত প্রতিষ্ঠানকে বর্তমানে পরিশোধিত ব্যয়ের চেয়ে ৩৫ থেকে ৩৭ শ...",
-      "sourceUrl": "https://www.daily-bangladesh.com/economy/538214",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss93f7604e71691c",
-      "slug": "বনলতা-সেনের-নাটোরে-স্বস্তির-আলো",
-      "title": "বনলতা সেনের নাটোরে স্বস্তির আলো",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%A8%E0%A6%B2%E0%A6%A4%E0%A6%BE-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B2%E0%A7%8B.jpg",
-      "publishedAt": "2026-10-14T04:29:08.817Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>নাটোরের বনলতা সেনের কাব্যিক ঐতিহ্যের সঙ্গে সম্প্রতি যুক্ত হয়েছে এক বিদেশি পর্যটকের ল্যাপটপ হারানোর ঘটনা ও তা উদ্ধারের ইতিবাচক খবর। জার্মানি থেকে আসা ১৮ বছর বয়সী তরুণ ক্রিল ল্যান্ডার ভারত ভ্রমণের উদ্দেশ্যে নাটোর রেলওয়ে স্টেশনে অবস্থান করছিলেন। সেখানে নিজেকে রেলকর্মী পরিচয় দেওয়া এক প্রতারক তার ব্যাগটি কৌশলে চুরি করে নিয়ে যায়। বিদেশের মাটিতে সহায়-সম্বল হারিয়ে সেই তরুণের কান্নার দৃশ্য সামাজিক যোগাযোগমাধ্যমে ছড়িয়ে পড়লে তা দেশজুড়ে ব্যাপক আলোচনার জন্ম দেয়।</p>\n<p>একজন পর্যটকের সঙ্গে এমন অনাকাঙ্ক্ষিত ঘটনা দেশের আতিথেয়তার ভাবমূর্তিকে সংকটের মুখে ফেলেছিল। তবে বিপদের মুহূর্তে মানুষ যেভাবে ক্রিলের পাশে দাঁড়িয়েছে, তা ছিল অভূতপূর্ব। ঢাকার জিগাতলার বাসিন্দা মুক্তি মাহমুদ তার ছেলের কথা ভেবে ক্রিলকে একটি নতুন ম্যাকবুক উপহার দেন। এছাড়া স্থানীয় সাংবাদিক ও সচেতন মানুষজন তরুণটিকে সাহস ও ভরসা জুগিয়েছেন, যা বিপন্ন পর্যটকের মনে কিছুটা হলেও স্বস্তি ফিরিয়েছিল।</p>\n<p>পুলিশের তৎপরতা ছিল এই ঘটনার অন্যতম আশাব্যঞ্জক দিক। অভিযোগ পাওয়ার পর নাটোর সদর মডেল থানা পুলিশ সিসিটিভি ফুটেজ বিশ্লেষণ করে তদন্ত শুরু করে। দীর্ঘ প্রচেষ্টার পর ১১ অক্টোবর রাতে নাটোর শহরের নিচাবাজার এলাকা থেকে চুরি হওয়া ল্যাপটপটি উদ্ধার করা হয়। ১২ অক্টোবর সকালে ল্যাপটপ পাওয়ার এই খবরে ক্রিল উচ্ছ্বাস প্রকাশ করে। আইনগত প্রক্রিয়া শেষে ল্যাপটপটি তার কাছে হস্তান্তরের অপেক্ষায় রয়েছে।</p>\n<p>পুলিশের এই সাফল্য প্রমাণ করেছে যে, আন্তরিকতা ও নিষ্ঠা থাকলে যেকোনো কঠিন পরিস্থিতির সমাধান সম্ভব। বিভিন্ন সময় পুলিশের বিরুদ্ধে নানা সমালোচনা থাকলেও, একজন বিদেশি পর্যটকের হারানো সম্পদ উদ্ধারে তাদের এই দ্রুত পদক্ষেপ প্রশংসার দাবি রাখে। ঘটনার শুরুটা বিব্রতকর হলেও শেষটা মানবিকতার উজ্জ্বল দৃষ্টান্ত হয়ে রইল।</p>\n<p>সামগ্রিকভাবে, ঘটনাটি কেবল একটি ল্যাপটপ উদ্ধারের গল্প নয়, বরং এটি মানুষের প্রতি মানুষের সহমর্মিতা ও দায়িত্ববোধের এক অনন্য আখ্যান। ক্রিল ল্যান্ডার তার হারানো জিনিস ফিরে পাওয়ার আনন্দের পাশাপাশি বাংলাদেশের মানুষের ভালোবাসা ও সহযোগিতার স্মৃতি নিয়ে দেশে ফিরতে পারবে। বনলতা সেনের নাটোর শহরটি এই ঘটনার মধ্য দিয়ে আবারও মানবিকতার এক অনন্য নিদর্শন হিসেবে উপস্থাপিত হলো।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নাটোরের মতো পর্যটনসমৃদ্ধ এলাকায় এমন অপরাধ সাধারণ মানুষের নিরাপত্তা ও আয়ের উৎসকে অনিশ্চিত করে তোলে। স্থানীয় প্রশাসনের তৎপরতা জরুরি হলেও জনসচেতনতা বৃদ্ধি এবং পর্যটকদের আস্থা ফেরানোই এখন বড় চ্যালেঞ্জ। আইন-শৃঙ্খলা পরিস্থিতি স্বাভাবিক রাখা স্থানীয় অর্থনীতির স্বার্থেই অপরিহার্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/opinion/538215\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "এই নাটোর আবারও আলোচনায় এসেছে এক বিদেশি পর্যটকের ল্যাপটপ চুরির ঘটনাকে কেন্দ্র করে। গত কয়েক দিন ধরে আমি ঘটনাটির খবর অনুসরণ করছিলাম। অবশেষে ১২ অক্টোবর সকালে ল্যাপট...",
-      "sourceUrl": "https://www.daily-bangladesh.com/opinion/538215",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss28ebf3aa15d8da",
-      "slug": "তালাবদ্ধ-গুদাম-ও-সরু-গলি-পেরিয়ে-সাড়ে-৩৭-ঘণ",
-      "title": "তালাবদ্ধ গুদাম ও সরু গলি পেরিয়ে সাড়ে ৩৭ ঘণ্টা পর নিয়ন্ত্রণ",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%97%E0%A7%81%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%93-%E0%A6%B8%E0%A6%B0%E0%A7%81-%E0%A6%97%E0%A6%B2%E0%A6%BF-%E0%A6%AA%E0%A7%87%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A7%A9%E0%A7%AD-%E0%A6%98%E0%A6%A3.jpg",
-      "publishedAt": "2026-10-14T04:29:08.790Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>রাজধানীর পুরান ঢাকার চকবাজারে অবস্থিত মনসুর খান প্লাজায় লাগা ভয়াবহ আগুন দীর্ঘ সাড়ে ৩৭ ঘণ্টা চেষ্টার পর সম্পূর্ণ নিয়ন্ত্রণে এসেছে। বুধবার সকাল সাড়ে ৬টার দিকে ফায়ার সার্ভিসের সদস্যরা আগুন নির্বাপণের কাজ শেষ করেন। ফায়ার সার্ভিসের কন্ট্রোল রুমের কর্মকর্তা শাহজাহান শিকদার বিষয়টি নিশ্চিত করেছেন।</p>\n<p>ফায়ার সার্ভিসের তথ্যমতে, সোমবার বিকেল ৫টা ২ মিনিটে ছোট কাটরা এসি মসজিদসংলগ্ন ওই মার্কেটে আগুন লাগার সংবাদ পাওয়া যায়। এর ২০ মিনিট পর বিকেল ৫টা ২২ মিনিটে উদ্ধারকারী দলের প্রথম ইউনিট ঘটনাস্থলে পৌঁছে কাজ শুরু করে। পরিস্থিতি নিয়ন্ত্রণে আনতে পর্যায়ক্রমে ইউনিটের সংখ্যা বাড়ানো হয় এবং শেষ পর্যন্ত মোট ১০টি ইউনিট আগুন নেভানোর কাজে নিয়োজিত ছিল।</p>\n<p>উদ্ধার অভিযানের সময় ফায়ার সার্ভিস কর্মীদের বেশ কিছু প্রতিকূলতার সম্মুখীন হতে হয়। মার্কেটের ষষ্ঠ তলায় বিভিন্ন পণ্যের গুদাম থাকায় পরিস্থিতি জটিল হয়ে ওঠে। এসব গুদামের দরজা ও শাটার তালাবদ্ধ থাকায় ভেতরে প্রবেশ করতে গিয়ে কর্মীদের বাড়তি বেগ পেতে হয়। তালা ও শাটার ভেঙে ভেতরে ঢুকে আগুনের উৎস খুঁজে বের করা এবং ছড়িয়ে পড়া আগুন নেভাতে বেশ সময় ব্যয় করতে হয়েছে।</p>\n<p>এছাড়া সরু রাস্তা এবং পানির সীমিত সরবরাহের কারণে আগুন নেভানোর কাজ আরও চ্যালেঞ্জিং হয়ে দাঁড়ায়। পানিবাহী গাড়ি নিয়ে সরু গলিতে প্রবেশ করা কঠিন হওয়ায় পানি নিশ্চিত করতে হিমশিম খেতে হয় উদ্ধারকারীদের। দীর্ঘ সময় ধরে আগুনের তীব্রতা সামলানোর পাশাপাশি ভবনের অন্যান্য অংশে যাতে আগুন ছড়িয়ে না পড়ে, সেদিকে বিশেষ নজর রেখে সতর্কতার সাথে অভিযান পরিচালনা করেছেন ফায়ার সার্ভিসের সদস্যরা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পুরান ঢাকার ঘিঞ্জি এলাকায় বারবার এমন অগ্নিকাণ্ড পণ্য সরবরাহ চেইন ও ব্যবসায়িক স্থিতিশীলতাকে চরম ঝুঁকির মুখে ফেলছে। ব্যবসায়ীদের স্থায়ী নিরাপত্তা নিশ্চিত করতে এবং দীর্ঘমেয়াদী অর্থনৈতিক ক্ষতি এড়াতে পরিকল্পিত নগর ব্যবস্থাপনা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/capital/538216\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "রাজধানীর পুরান ঢাকার চকবাজারের মনসুর খান প্লাজায় লাগা আগুন প্রায় সাড়ে ৩৭ ঘণ্টার চেষ্টায় পুরোপুরি নিভেছে।",
-      "sourceUrl": "https://www.daily-bangladesh.com/capital/538216",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss177bafd984cc89",
-      "slug": "অভিন্ন-লক্ষ্য-উন্নত-বিশ্ব-সাশ্রয়ী-ও-পরিব",
-      "title": "অভিন্ন লক্ষ্য উন্নত বিশ্ব—সাশ্রয়ী ও পরিবেশবান্ধব জ্বালানি",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%B8%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%80-%E0%A6%93-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC.jpg",
-      "publishedAt": "2026-10-14T04:14:09.102Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>পণ্য ও সেবার গুণগত মান নিশ্চিত করার বিষয়ে সচেতনতা সৃষ্টির লক্ষ্যে আজ বিশ্বজুড়ে পালিত হচ্ছে বিশ্ব মান দিবস। বিশ্বের অন্যান্য দেশের মতো বাংলাদেশেও বিভিন্ন কর্মসূচির মধ্য দিয়ে দিনটি উদযাপন করা হচ্ছে। বিশ্বের তিনটি প্রধান মান নিয়ন্ত্রণকারী সংস্থা—ইন্টারন্যাশনাল অর্গানাইজেশন ফর স্ট্যান্ডার্ডাইজেশন (আইএসও), ইন্টারন্যাশনাল ইলেকট্রোটেকনিক্যাল কমিশন (আইইসি) এবং ইন্টারন্যাশনাল টেলিকমিউনিকেশন ইউনিয়ন (আইটিইউ) যৌথভাবে দিবসটি পালন করছে। এ বছরের প্রতিপাদ্য হলো ‘অভিন্ন লক্ষ্য উন্নত বিশ্ব—সাশ্রয়ী ও পরিবেশবান্ধব জ্বালানি’।</p>\n<p>দেশের মান নিয়ন্ত্রণকারী প্রতিষ্ঠান বাংলাদেশ স্ট্যান্ডার্ডস অ্যান্ড টেস্টিং ইনস্টিটিউশন (বিএসটিআই) এ পর্যন্ত সর্বমোট ৪ হাজার ৬৩১টি বাংলাদেশ স্ট্যান্ডার্ড প্রণয়ন করেছে। আন্তর্জাতিক মানের সঙ্গে সংগতি বজায় রেখে এসব মান নিয়মিত হালনাগাদ করা হয়। বিশেষ করে সাশ্রয়ী ও পরিবেশবান্ধব জ্বালানি নিশ্চিত করার অংশ হিসেবে বিএসটিআই সৌরবিদ্যুৎ ব্যবস্থার ওপর গুরুত্ব দিচ্ছে। এর অংশ হিসেবে সোলার প্যানেল, ইনভার্টার, চার্জ কন্ট্রোলার ও ব্যাটারির গুণমান নিশ্চিত করতে প্রতিষ্ঠানটি ৭৯টি পৃথক মানদণ্ড নির্ধারণ করেছে।</p>\n<p>সৌরবিদ্যুতের সরঞ্জাম পরীক্ষা করার জন্য বিএসটিআইয়ের প্রধান কার্যালয়ে একটি বিশেষ টেস্টিং ল্যাবরেটরি স্থাপন করা হয়েছে। এখানে জার্মানির উন্নত প্রযুক্তির সান সিমুলেটর ব্যবহার করা হয়, যার মাধ্যমে ১ হাজার ওয়াট ক্ষমতা সম্পন্ন সোলার প্যানেল পরীক্ষা করা সম্ভব। আন্তর্জাতিক নির্দেশিকা অনুসরণ এবং উচ্চমানের ক্যালিব্রেটেড যন্ত্রপাতি ও আলোক উৎসের ব্যবহারের মাধ্যমে এই ল্যাবরেটরিতে সোলার প্যানেলের কার্যকারিতা ও গুণগত মানের নির্ভরযোগ্য যাচাই করা হচ্ছে।</p>\n<p>পণ্য ও সেবার মান সম্পর্কে জনসচেতনতা বাড়ানোই এই দিবসটি উদযাপনের মূল লক্ষ্য। বিএসটিআইয়ের এই কার্যক্রমসমূহ দেশীয় পণ্যকে আন্তর্জাতিক মানে উন্নীত করতে এবং জ্বালানি খাতে স্থায়িত্ব আনতে সহায়তা করছে। নিয়মিত মান যাচাই ও হালনাগাদ করার মাধ্যমে প্রতিষ্ঠানটি উন্নত বিশ্ব গড়ার অভিন্ন লক্ষ্য বাস্তবায়নে কাজ করে যাচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">টেকসই ও পরিবেশবান্ধব জ্বালানির ব্যবহার নিশ্চিত করা এখন সময়ের দাবি। নাগরিকদের নিত্যদিনের অভ্যাসে জ্বালানি সাশ্রয়ী প্রযুক্তির প্রয়োগ জীবনযাত্রার ব্যয় কমাতে এবং দীর্ঘমেয়াদী পরিবেশ সুরক্ষায় গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/feature/538211\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "পণ্য এবং সেবার মানের বিষয়ে সচেতনতা তৈরিতে প্রতিবছর বিশ্বব্যাপী এ দিবসটি পালন করা হয়। বিশ্বের অন্যান্য দেশের মতো বাংলাদেশেও আজ নানা কর্মসূচিতে দিবসটি পালন করা হচ...",
-      "sourceUrl": "https://www.daily-bangladesh.com/feature/538211",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss14409b7496afe7",
-      "slug": "মানবতাবিরোধী-অপরাধের-সাজা-বাতিল-চেয়ে-ইনু",
-      "title": "মানবতাবিরোধী অপরাধের সাজা বাতিল চেয়ে ইনুর আপিল আবেদন",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%81.jpg",
-      "publishedAt": "2026-10-14T04:14:09.099Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>মানবতাবিরোধী অপরাধের মামলায় ১০ বছরের কারাদণ্ড পাওয়া জাতীয় সমাজতান্ত্রিক দলের (জাসদ) সভাপতি ও সাবেক তথ্যমন্ত্রী হাসানুল হক ইনু নিজের সাজা বাতিল চেয়ে আপিল করেছেন। বুধবার সুপ্রিম কোর্টের আপিল বিভাগের সংশ্লিষ্ট শাখায় এই আবেদন জমা দেওয়া হয়। বিষয়টি নিশ্চিত করেছেন তার আইনজীবী সিফাত মাহমুদ শুভ। এর আগে একই মামলায় সাজা বাড়িয়ে হাসানুল হক ইনুর মৃত্যুদণ্ড চেয়ে পৃথক একটি আপিলও করা হয়েছে।</p>\n<p>গত ৩০ জুন আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল-২ এক রায়ে হাসানুল হক ইনুকে মোট ১০ বছরের সশ্রম কারাদণ্ড প্রদান করেন। ট্রাইব্যুনাল তার বিরুদ্ধে আনা আটটি অভিযোগের শুনানি শেষে ৩, ৬ ও ৭ নম্বর অভিযোগ প্রমাণিত হয়েছে বলে ঘোষণা করেন। প্রতিটি অপরাধের জন্য আলাদাভাবে ১০ বছরের দণ্ড দেওয়া হলেও আদালত নির্দেশ দেন যে, এই সাজাগুলো একই সঙ্গে কার্যকর হবে। ফলে তাকে মোট ১০ বছর কারাভোগ করতে হবে।</p>\n<p>আদালতের রায়ে উল্লেখ করা হয়, রাইসুল হকসহ অন্যান্য ভিকটিমকে নির্যাতন, গুরুতর আহত করা এবং রাজনৈতিক নিপীড়নের সঙ্গে ইনুর সংশ্লিষ্টতা প্রমাণিত হয়েছে। এসব অপরাধের দায়ে ১৯৭৩ সালের আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল আইনের সংশ্লিষ্ট ধারায় তাকে ১০ বছরের কারাদণ্ড দেওয়া হয়। এছাড়া, মানবতাবিরোধী অপরাধের ষড়যন্ত্র, প্ররোচনা এবং দুষ্কর্মে সহযোগিতার দায়ে আরও দুটি পৃথক অভিযোগে তাকে ১০ বছরের সশ্রম কারাদণ্ড ও এক লাখ টাকা করে জরিমানা করা হয়েছে।</p>\n<p>উল্লেখ্য যে, ট্রাইব্যুনালের বিচারিক প্রক্রিয়ায় হাসানুল হক ইনুর বিরুদ্ধে আনা মোট আটটি অভিযোগের মধ্যে ১, ২, ৪, ৫ ও ৮ নম্বর অভিযোগ প্রমাণিত হয়নি। এসব অভিযোগ থেকে আদালত তাকে খালাস প্রদান করেছেন। মামলার পরবর্তী আইনি পদক্ষেপ এখন আপিল বিভাগের চূড়ান্ত সিদ্ধান্তের ওপর নির্ভর করছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনি প্রক্রিয়ার এই দীর্ঘসূত্রতা দেশের রাজনৈতিক স্থিতিশীলতার ওপর প্রভাব ফেলতে পারে, যা সরাসরি কর্মসংস্থানের নতুন সুযোগ তৈরিতে বাধা দেয়। তাই চাকরিপ্রার্থীদের উচিত বর্তমান পরিস্থিতির দিকে নজর রেখে ক্যারিয়ারের সঠিক পরিকল্পনা করা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/law-and-court/538212\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "মানবতাবিরোধী অপরাধের মামলায় জাতীয় সমাজতান্ত্রিক দলের (জাসদ) সভাপতি ও সাবেক তথ্যমন্ত্রী হাসানুল হক ইনুর ১০ বছরের সাজা থেকে আপিল করা হয়েছে।",
-      "sourceUrl": "https://www.daily-bangladesh.com/law-and-court/538212",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssa1a34449ac8688",
-      "slug": "দেশের-৫-অঞ্চলে-দুপুরের-মধ্যে-ঝোড়ো-হাওয়াস",
-      "title": "দেশের ৫ অঞ্চলে দুপুরের মধ্যে ঝোড়ো হাওয়াসহ বজ্রবৃষ্টির পূর্বাভাস",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A7%AB-%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%9D%E0%A7%8B%E0%A7%9C%E0%A7%8B-%E0%A6%B9%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B8.jpg",
-      "publishedAt": "2026-10-14T04:14:09.097Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দেশের পাঁচটি অঞ্চলে দুপুরের মধ্যে ঝড়ো হাওয়াসহ বজ্রবৃষ্টির পূর্বাভাস দিয়েছে আবহাওয়া অধিদপ্তর। বুধবার দুপুর ১টা পর্যন্ত অভ্যন্তরীণ নদীবন্দরগুলোর জন্য দেওয়া এক বিজ্ঞপ্তিতে এ তথ্য জানানো হয়েছে। ঝোড়ো হাওয়ার গতিবেগ ঘণ্টায় সর্বোচ্চ ৬০ কিলোমিটার পর্যন্ত হতে পারে বলে আশঙ্কা করা হচ্ছে।</p>\n<p>আবহাওয়া অফিসের পূর্বাভাস অনুযায়ী, খুলনা, বরিশাল, পটুয়াখালী, নোয়াখালী এবং চট্টগ্রাম অঞ্চলের ওপর দিয়ে এই দুর্যোগপূর্ণ আবহাওয়া বয়ে যেতে পারে। এসব এলাকায় পশ্চিম বা উত্তর-পশ্চিম দিক থেকে দমকা অথবা ঝোড়ো হাওয়া বয়ে যাওয়ার সম্ভাবনা রয়েছে, যার গতিবেগ ঘণ্টায় ৪৫ থেকে ৬০ কিলোমিটার হতে পারে। এই বৈরী আবহাওয়ার সঙ্গে বজ্রসহ বৃষ্টিপাতের সম্ভাবনাও রয়েছে।</p>\n<p>আবহাওয়া অধিদপ্তরের আবহাওয়াবিদ মো. আব্দুল হামিদ মিয়ার স্বাক্ষরিত বিজ্ঞপ্তিতে পরিস্থিতি বিবেচনায় সংশ্লিষ্ট এলাকার নদীবন্দরগুলোকে সতর্ক থাকতে বলা হয়েছে। নিরাপত্তার স্বার্থে ওই সব এলাকার নদীবন্দরগুলোতে ১ নম্বর সতর্ক সংকেত প্রদর্শনের নির্দেশনা দেওয়া হয়েছে।</p>\n<p>মূলত নদীবন্দর এলাকার নৌযান চলাচল ও সার্বিক নিরাপত্তার বিষয়টি নিশ্চিত করতেই আবহাওয়া অফিস থেকে নিয়মিত বিরতিতে এমন পূর্বাভাস ও সতর্কবার্তা দেওয়া হয়। বর্তমান আবহাওয়া পরিস্থিতি অনুযায়ী, সংশ্লিষ্ট অঞ্চলের বাসিন্দাদের এবং নৌপথে চলাচলকারীদের সতর্ক থাকার পরামর্শ দেওয়া হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হঠাৎ এই বৈরী আবহাওয়া সাধারণ মানুষের স্বাভাবিক চলাচলে বিঘ্ন ঘটাবে এবং কর্মজীবী মানুষের দৈনন্দিন রুটিনে অনিশ্চয়তা তৈরি করবে। বজ্রপাত ও ঝোড়ো হাওয়ার ঝুঁকি এড়াতে জরুরি প্রয়োজন ছাড়া বাইরে না বের হওয়াই এখন বুদ্ধিমানের কাজ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/538213\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "আবহাওয়া অধিদপ্তর জানিয়েছে, দেশের ৫ অঞ্চলে ওপর দিয়ে দুপুরের মধ্যে বজ্রবৃষ্টি হতে পারে। একসঙ্গে ঘণ্টায় সর্বোচ্চ ৬০ কিলোমিটার বেগে ঝড়ো হাওয়ার সম্ভাবনা রয়েছে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/538213",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss9b649ba484ea75",
-      "slug": "হুতিদের-হামলা-ঠেকাতে-সৌদির-সামনে-কঠিন-চ্",
-      "title": "হুতিদের হামলা ঠেকাতে সৌদির সামনে কঠিন চ্যালেঞ্জ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B9%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%A0%E0%A7%87%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%A0%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A7%8D.jpg",
-      "publishedAt": "2026-10-14T03:59:08.824Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>প্রতিরক্ষা খাতে প্রতিবছর বিপুল পরিমাণ অর্থ ব্যয় এবং অত্যাধুনিক প্রযুক্তির সমাহার থাকার পরেও ইয়েমেনের হুতি বিদ্রোহীদের ড্রোন ও ক্ষেপণাস্ত্র হামলা ঠেকানো সৌদি আরবের জন্য বড় ধরনের চ্যালেঞ্জ হয়ে দাঁড়িয়েছে। রিয়াদের হাতে যুক্তরাষ্ট্রের প্যাট্রিয়ট ও থাড ক্ষেপণাস্ত্র প্রতিরক্ষাব্যবস্থাসহ ফ্রান্স ও যুক্তরাজ্যের আধুনিক সমরাস্ত্র থাকলেও, দেশটির বিশাল ভৌগোলিক আয়তন ও ছড়িয়ে ছিটিয়ে থাকা গুরুত্বপূর্ণ স্থাপনাগুলোর নিরাপত্তা নিশ্চিত করা কঠিন হয়ে পড়েছে। স্টকহোম ইন্টারন্যাশনাল পিস রিসার্চ ইনস্টিটিউটের তথ্যমতে, গত বছর দেশটি প্রায় ৮ হাজার ৩০০ কোটি ডলার প্রতিরক্ষা খাতে ব্যয় করেছে, যা রিয়াদকে বিশ্বের অন্যতম শীর্ষ সামরিক ব্যয়ের দেশে পরিণত করেছে।</p>\n<p>হুতি বিদ্রোহীরা বর্তমানে শুধু প্রচলিত ক্ষেপণাস্ত্রের ওপর নির্ভর না করে ব্যালিস্টিক ও ক্রুজ ক্ষেপণাস্ত্রের সাথে দূরপাল্লার ড্রোনের সমন্বিত কৌশল ব্যবহার করছে। সামরিক বিশ্লেষকদের মতে, ইউক্রেন যুদ্ধে রাশিয়ার ব্যবহৃত কৌশলের সাথে এর মিল রয়েছে, যেখানে একযোগে বিপুলসংখ্যক ড্রোন ও ক্ষেপণাস্ত্র ছুড়ে প্রতিপক্ষের আকাশ প্রতিরক্ষাব্যবস্থাকে ব্যস্ত রাখা হয়। হুতিদের দাবি অনুযায়ী, তাদের নতুন প্রজন্মের কিছু ব্যালিস্টিক ক্ষেপণাস্ত্র গতিপথ পরিবর্তনের সক্ষমতা রাখে, আর নিচু দিয়ে উড়ে আসা ক্রুজ ক্ষেপণাস্ত্রগুলো রাডারের চোখ এড়িয়ে লক্ষ্যবস্তুতে আঘাত হানতে পারে। বিশেষজ্ঞরা বলছেন, কোনো আকাশ প্রতিরক্ষাব্যবস্থাই শতভাগ নিশ্চয়তা দিতে পারে না, তাই অল্প কিছু ক্ষেপণাস্ত্রের আঘাতও বড় ধরনের ক্ষয়ক্ষতির কারণ হতে পারে।</p>\n<p>এই সংঘাতের পেছনে ইরান-সমর্থিত প্রযুক্তি ও অস্ত্র সরবরাহের অভিযোগ দীর্ঘদিনের। জাতিসংঘের প্রতিবেদনেও হুতিদের ব্যবহৃত অস্ত্রের যন্ত্রাংশের সাথে ইরানি প্রযুক্তির মিল পাওয়ার কথা উল্লেখ করা হয়েছে। যদিও হুতিদের সাথে তেহরানের ঘনিষ্ঠ সম্পর্ক রয়েছে, তবুও ইয়েমেনের অভ্যন্তরীণ রাজনীতি ও আঞ্চলিক লক্ষ্য অর্জনে গোষ্ঠীটি স্বাধীন অবস্থান বজায় রাখে। ২০১৫ সালে সৌদি জোট ইয়েমেনের গৃহযুদ্ধে জড়ানোর পর থেকে দুই পক্ষের মধ্যে অস্থিরতা চলছে। যদিও ২০২২ সালে সংঘাতের তীব্রতা কিছুটা কমেছিল, কিন্তু এখন পর্যন্ত কোনো স্থায়ী রাজনৈতিক সমাধানের পথে পৌঁছানো সম্ভব হয়নি।</p>\n<p>সৌদি আরবের জন্য এই নিরাপত্তাঝুঁকি কেবল সামরিক ক্ষেত্রেই সীমাবদ্ধ নয়, এটি যুবরাজ মোহাম্মদ বিন সালমানের ‘ভিশন ২০৩০’ বাস্তবায়নের পথেও বড় বাধা। আন্তর্জাতিক বিনিয়োগ, পর্যটন ও প্রযুক্তি খাতে সৌদি আরবের যে লক্ষ্য রয়েছে, তা অব্যাহত রাখতে বিমানবন্দর ও তেল শোধনাগারের মতো গুরুত্বপূর্ণ অবকাঠামোর নিরাপত্তা অপরিহার্য। হুতিদের দীর্ঘ যুদ্ধের অভিজ্ঞতা ও পাহাড়ি ভূখণ্ডে তাদের অবস্থান সৌদি সামরিক বাহিনীর জন্য বাড়তি মাথাব্যথার কারণ। এই পরিস্থিতিতে পাকিস্তান ও মিসরের মতো মিত্রদেশগুলোর কাছ থেকে নিরাপত্তা সহায়তা পাওয়ার চেষ্টা করছে রিয়াদ, তবে নতুন অস্ত্র সরবরাহের সীমাবদ্ধতা ও সংঘাতের রাজনৈতিক জটিলতা সৌদি নেতৃত্বকে এক কঠিন দ্বিমুখী পরিস্থিতির দিকে ঠেলে দিয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রতিরক্ষা সক্ষমতার সীমাবদ্ধতা আঞ্চলিক নিরাপত্তা ও জনজীবনের জন্য দীর্ঘমেয়াদী ঝুঁকির কারণ হয়ে দাঁড়িয়েছে। স্থানীয় অধিবাসীদের নিরাপত্তার স্বার্থে জরুরি সতর্কবার্তা অনুসরণ এবং কর্তৃপক্ষের গৃহীত জননিরাপত্তা পরিকল্পনাগুলোয় সচেতন অংশগ্রহণ অপরিহার্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538208\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "প্রতিরক্ষা খাতে প্রতিবছর বিপুল অর্থ ব্যয় এবং অত্যাধুনিক ক্ষেপণাস্ত্র প্রতিরক্ষাব্যবস্থা থাকা সত্ত্বেও ইয়েমেনের ইরান-সমর্থিত হুতি বিদ্রোহীদের ড্রোন ও ক্ষেপণাস্ত্...",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/538208",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss137a1bee908d03",
-      "slug": "কয়রায়-৬-জুয়াড়ি-আটক",
-      "title": "কয়রায় ৬ জুয়াড়ি আটক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%9F%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A7%AC-%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A7%9C%E0%A6%BF-%E0%A6%86%E0%A6%9F%E0%A6%95.jpg",
-      "publishedAt": "2026-10-14T03:59:08.823Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>খুলনার কয়রায় পুলিশের একটি বিশেষ অভিযানে ছয়জন জুয়াড়িকে আটক করা হয়েছে। মঙ্গলবার সন্ধ্যায় উপজেলার ভাগবা গ্রামে অভিযান চালিয়ে তাদের হাতেনাতে ধরা হয়। মাদক ও অনলাইন জুয়া নির্মূলে চলমান কার্যক্রমের অংশ হিসেবে পুলিশ এই অভিযান পরিচালনা করে।</p>\n<p>আটককৃতদের মধ্যে রয়েছেন ভাগবা গ্রামের মো. জিয়ারুল ইসলাম, জাহিদুল ইসলাম, আব্দুল আলিম গাজী, মো. আলী হোসেন, সিফাত হোসাইন এবং মো. জাকারিয়া শেখ। তাদের বয়স বিশ থেকে পঁচিশ বছরের মধ্যে। অভিযান চলাকালে জুয়া খেলার কাজে ব্যবহৃত বেশ কিছু মোবাইল ফোন জব্দ করেছে আইনশৃঙ্খলা রক্ষাকারী বাহিনী।</p>\n<p>কয়রা থানার ভারপ্রাপ্ত কর্মকর্তা রাশেদুল আলম জানান, আটককৃতদের বিরুদ্ধে নিয়মিত মামলা দায়ের করা হয়েছে। বুধবার তাদের আদালতের মাধ্যমে কারাগারে পাঠানোর প্রক্রিয়া সম্পন্ন করা হবে।</p>\n<p>পুলিশের পক্ষ থেকে জানানো হয়েছে, মাদকের প্রসার রোধ এবং অনলাইন জুয়ার দৌরাত্ম্য কমাতে স্থানীয় পর্যায়ে এ ধরনের অভিযান নিয়মিতভাবে চলমান থাকবে। সমাজ থেকে অপরাধমূলক কর্মকাণ্ড নির্মূল করতে তাদের এই প্রচেষ্টা অব্যাহত থাকবে বলেও জানিয়েছেন দায়িত্বশীল কর্মকর্তারা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সামাজিক অবক্ষয় রোধে এ ধরনের অভিযান ইতিবাচক হলেও জুয়া নির্মূলে স্থানীয়দের সচেতনতা ও প্রতিরোধ গড়ে তোলা জরুরি। অপরাধীদের আইনের আওতায় আনার পাশাপাশি এলাকায় সুস্থ বিনোদনের পরিবেশ নিশ্চিত করতে জনপ্রতিনিধিদের সক্রিয় ভূমিকা রাখা প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538209\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "খুলনার কয়রায় পুলিশের বিশেষ অভিযানে ৬ জুয়াড়ি আটক হয়েছে। মঙ্গলবার (১৩ অক্টোবর) সন্ধ্যায় উপজেলার ভাগবা গ্রাম থেকে তাদের আটক করা হয়।",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/538209",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsscd31a3bfd832a6",
-      "slug": "দিল্লির-যন্তর-মন্তরে-বিক্ষোভ-করতে-গিয়ে-স",
-      "title": "দিল্লির যন্তর-মন্তরে বিক্ষোভ করতে গিয়ে সিজেপি নেতারা আটক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B8.jpg",
-      "publishedAt": "2026-10-14T03:59:08.823Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ভারতের দিল্লির যন্তর-মন্তরে বিক্ষোভ কর্মসূচি পালনের ওপর প্রশাসনের নিষেধাজ্ঞা উপেক্ষা করে আন্দোলন চালিয়ে যাওয়ার সময় তরুণদের সংগঠন ককরোচ জনতা পার্টির (সিজেপি) বেশ কয়েকজন নেতাকে আটক করেছে পুলিশ। মঙ্গলবার ভোরে পুলিশের ব্যারিকেড পেরিয়ে বিক্ষোভস্থলে প্রবেশের চেষ্টা করলে সিজেপির মুখপাত্র আশুতোষ রাঙ্কা, সৌরভ দাস এবং সংগঠক আজিঙ্কা শিন্ডেসহ আরও কয়েকজনকে হেফাজতে নেওয়া হয়। সংগঠনটির প্রতিষ্ঠাতা অভিজিৎ দীপকের সামাজিক যোগাযোগমাধ্যমে প্রকাশিত একটি ভিডিওতে দেখা গেছে, জাতীয় পতাকা হাতে স্লোগান দিতে দিতে কর্মীরা যন্তর-মন্তরের গেট টপকে ভেতরে প্রবেশের চেষ্টা করছেন। মূলত ভারতের প্রধান নির্বাচন কমিশনার জ্ঞানেশ কুমারের পদত্যাগের দাবিতেই এই আন্দোলনের ডাক দেওয়া হয়েছিল।</p>\n<p>যন্তর-মন্তরে বিক্ষোভের ওপর জারি করা নিষেধাজ্ঞার বৈধতা চ্যালেঞ্জ করে ভারতের সুপ্রিম কোর্টে আবেদন জানিয়েছে সিজেপি ও বিভিন্ন বিরোধী দল। আবেদনকারীদের পক্ষ থেকে জানানো হয়েছে, এর আগে শীর্ষ আদালত যন্তর-মন্তরকে বিক্ষোভ প্রদর্শনের জন্য নির্দিষ্ট স্থান হিসেবে স্বীকৃতি দিয়েছিল। একইসঙ্গে রামলীলা ময়দানকে বিকল্প হিসেবে ব্যবহারের অযোগ্য বলেও আদালত পর্যবেক্ষণ দিয়েছিল বলে দাবি তাদের। বর্তমানে কর্তৃপক্ষ যে তিনটি নতুন স্থান নির্ধারণ করেছে, সেগুলোর মধ্যে দুটির অবস্থান আবর্জনার স্তূপের কাছে হওয়ায় সেখানে বড় কোনো কর্মসূচি আয়োজন করা কতটা যৌক্তিক, তা নিয়েও সংশয় প্রকাশ করেছেন আবেদনকারীরা।</p>\n<p>এই পরিস্থিতির মধ্যেই আন্দোলনকে আরও বিস্তৃত ও শক্তিশালী করার লক্ষ্যে কৌশল নির্ধারণ করছে বিরোধী জোট ‘ইন্ডিয়া’। কংগ্রেস নেতা রাহুল গান্ধীর বাসভবনে আয়োজিত এক জরুরি বৈঠকে জোটের শীর্ষ নেতা, সংসদ সদস্য, বিভিন্ন ছাত্র সংগঠন এবং নাগরিক সমাজের প্রতিনিধিরা অংশগ্রহণ করেন। আন্দোলনকে সাধারণ মানুষের কাছে আরও জোরালোভাবে পৌঁছে দিতে বিভিন্ন সংগঠনকে সম্পৃক্ত করার বিষয়ে সেখানে বিস্তারিত আলোচনা হয়। বৈঠক শেষে কংগ্রেস সভাপতি মল্লিকার্জুন খাড়গে সাংবাদিকদের সঙ্গে কথা বলেন। এদিকে, নির্বাচন কমিশনের বিরুদ্ধে ওঠা বিভিন্ন অভিযোগ ও ভোটার তালিকা সংশোধন নিয়ে বিরোধীদের আপত্তিকে কেন্দ্র করে ভারতের বিভিন্ন স্থানে চলমান এই প্রতিবাদ অব্যাহত রয়েছে।</p>\n<p>অন্যদিকে, বিক্ষোভ ও ভিন্নমতের অধিকার নিয়ে ভারতের বর্তমান রাজনৈতিক পরিস্থিতির প্রেক্ষাপটে দেশটির প্রধানমন্ত্রী নরেন্দ্র মোদি মন্তব্য করেছেন যে, ভারতে সাধারণ মানুষ যেকোনো বিষয়ে খোলামেলা আলোচনা ও বিতর্কে অংশ নেওয়ার সুযোগ রাখেন। বর্তমানে যন্তর-মন্তরে বিক্ষোভের সুযোগ সীমিত থাকলেও, প্রধান নির্বাচন কমিশনারের পদত্যাগসহ বিভিন্ন দাবিতে দেশজুড়ে বিরোধী দল ও সংগঠনের পক্ষ থেকে কর্মসূচি চালিয়ে যাওয়ার ঘোষণা দেওয়া হয়েছে। সিজেপি নেতাদের আটকের ঘটনা ও বিক্ষোভস্থল নিয়ে আইনি জটিলতা এখন ভারতের রাজনৈতিক অঙ্গনে বড় আলোচনার বিষয় হয়ে দাঁড়িয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দিল্লির সাম্প্রতিক ঘটনাপ্রবাহে গণতান্ত্রিক অধিকার ও নাগরিক প্রতিবাদের পরিসর সংকুচিত হওয়ার উদ্বেগজনক চিত্র ফুটে উঠেছে। শান্তিপূর্ণ আন্দোলনের ওপর এমন কঠোর বিধিনিষেধ স্থানীয় জনগণের মতপ্রকাশের স্বাধীনতাকে বাধাগ্রস্ত করছে। নিজেদের অধিকার রক্ষায় জনগণকে এখন আইনি ও নিয়মতান্ত্রিক পথে সংঘবদ্ধ হওয়ার পাশাপাশি পরিস্থিতির ওপর তীক্ষ্ণ নজর রাখতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538210\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ভারতের দিল্লির যন্তর-মন্তরে বিক্ষোভ কর্মসূচিতে নিষেধাজ্ঞার পর পুলিশের বাধা উপেক্ষা করে সেখানে ঢুকে আন্দোলন করতে গিয়ে আবারও আটক হয়েছেন দেশটির তরুণদের সংগঠন ককর...",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/538210",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss8ee9996051ca51",
-      "slug": "সোনালী-৭-হাজার-কোটি-টাকা-দিল-ন্যাশনাল-ব্য",
-      "title": "সোনালী ৭ হাজার কোটি টাকা দিল ন্যাশনাল ব্যাংককে",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A7%AD-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%B2-%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A7%8D%E0%A6%AF.jpg",
-      "publishedAt": "2026-10-14T03:44:08.698Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দেশের ব্যাংকিং খাতের স্থিতিশীলতা বজায় রাখার লক্ষ্যে ন্যাশনাল ব্যাংককে সাত হাজার কোটি টাকা অর্থ সহায়তা দিয়েছে সোনালী ব্যাংক। বাংলাদেশ ব্যাংকের দেওয়া গ্যারান্টির বিপরীতে তিন মাস মেয়াদে এই বিপুল পরিমাণ অর্থ প্রদান করা হয়েছে। মঙ্গলবার সোনালী ব্যাংকের জনসংযোগ বিভাগ থেকে বিষয়টি আনুষ্ঠানিকভাবে নিশ্চিত করা হয়েছে।</p>\n<p>কেন্দ্রীয় ব্যাংকের পরামর্শ ও দিকনির্দেশনা মেনে পারস্পরিক সহযোগিতার অংশ হিসেবে এই অর্থায়ন করা হয়েছে বলে জানিয়েছে সোনালী ব্যাংক কর্তৃপক্ষ। এর ফলে ন্যাশনাল ব্যাংক তাদের তাৎক্ষণিক তারল্য সংকট কাটিয়ে উঠতে সক্ষম হবে এবং আর্থিক পুনরুদ্ধার প্রক্রিয়া গতিশীল হবে। অতীতেও কেন্দ্রীয় ব্যাংকের গ্যারান্টির বিপরীতে বিভিন্ন ব্যাংককে তারল্য সহায়তা দিয়ে আসছে সোনালী ব্যাংক এবং নির্ধারিত সময়ের মধ্যে সেই অর্থ ফেরত পাওয়ার নজিরও রয়েছে।</p>\n<p>বর্তমানে ন্যাশনাল ব্যাংকের নতুন পরিচালনা পর্ষদ ও ব্যবস্থাপনা কর্তৃপক্ষ ব্যাংকের আর্থিক অবস্থার উন্নতি ঘটাতে নানামুখী উদ্যোগ গ্রহণ করেছে। বিশেষ করে খেলাপি ঋণ আদায়, ব্যাংকের সক্ষমতা বৃদ্ধি এবং গ্রাহকদের আস্থা অর্জনে বিভিন্ন পদক্ষেপ নেওয়া হয়েছে। সোনালী ব্যাংকের এই অর্থায়ন সেই পুনরুদ্ধার কার্যক্রমে বড় ধরনের সহায়ক ভূমিকা রাখবে বলে মনে করা হচ্ছে।</p>\n<p>ব্যাংকিং খাতে শৃঙ্খলা ফেরাতে এবং সামগ্রিক আর্থিক পরিস্থিতির উন্নয়নে কেন্দ্রীয় ব্যাংকের নানা উদ্যোগের অংশ হিসেবেই এই অর্থ লেনদেনের প্রক্রিয়া সম্পন্ন হলো। সোনালী ব্যাংকের পক্ষ থেকে জানানো হয়েছে, দেশের আর্থিক খাতের স্থিতিশীলতা বজায় রাখতে তাদের এ ধরনের সহায়তা কার্যক্রম ভবিষ্যতেও চলমান থাকবে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ব্যাংকিং খাতের তারল্য সংকট কাটাতে রাষ্ট্রায়ত্ত ব্যাংকের এই বিনিয়োগ আর্থিক স্থিতিশীলতা বজায় রাখতে সহায়তা করবে। তবে বড় অংকের এই জোগান দীর্ঘমেয়াদে সুশাসনের ঘাটতি দূর করতে না পারলে তা সামগ্রিক অর্থনীতিতে নতুন ঝুঁকি তৈরি করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/economy/538206\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "চলমান ব্যাংকিং খাতের স্থিতিশীলতা জোরদার ও ন্যাশনাল ব্যাংকের পুনরুদ্ধার কার্যক্রমে সহায়তার লক্ষ্যে ব্যাংকটিকে ৭ হাজার কোটি টাকা দিয়েছে সোনালী ব্যাংক। বাংলাদেশ ব্...",
-      "sourceUrl": "https://daily-bangladesh.com/economy/538206",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss8f03869b4974d0",
-      "slug": "সৌদিতে-নিরাপত্তা-উদ্বেগ-বিপাকে-বাংলাদেশ",
-      "title": "সৌদিতে নিরাপত্তা উদ্বেগ, বিপাকে বাংলাদেশ গামী ও প্রবাসী যাত্রীরা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%97-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6.jpg",
-      "publishedAt": "2026-10-14T03:44:08.696Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ইয়েমেনের হুতি বিদ্রোহীদের ধারাবাহিক ড্রোন ও ক্ষেপণাস্ত্র হামলায় সৌদি আরবের রাজধানী রিয়াদের নিরাপত্তা পরিস্থিতি চরম অবনতির দিকে গেছে। কিং খালিদ আন্তর্জাতিক বিমানবন্দরে একাধিক হামলার ঘটনায় প্রাণহানি ও বহু মানুষ আহত হয়েছেন। আন্তর্জাতিক সংবাদমাধ্যমের তথ্য অনুযায়ী, শনিবারের হামলায় ১২ জন নিহত ও তিন শতাধিক মানুষ আহত হওয়ার পরদিন রোববার টার্মিনালে আরও একটি হামলায় একজন পাকিস্তানি নাগরিক প্রাণ হারিয়েছেন এবং আহত হয়েছেন ১১ জন। এই সংঘাতময় পরিস্থিতির কারণে সৌদি যুবরাজ মোহাম্মদ বিন সালমানের নিরাপত্তাও জোরদার করা হয়েছে এবং তিনি কঠোর নিরাপত্তাবেষ্টিত প্রাসাদ থেকে কার্যক্রম পরিচালনা করছেন।</p>\n<p>এই নিরাপত্তা সংকটের প্রভাবে আন্তর্জাতিক বিমান চলাচলে বড় ধরনের বিপর্যয় দেখা দিয়েছে। এর ঢেউ আছড়ে পড়েছে ঢাকার হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরেও। বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষের তথ্যমতে, গত শনিবার রাত থেকে ১৩ অক্টোবর রাত পর্যন্ত ঢাকা থেকে সরাসরি ৩২টি এবং ট্রানজিট রুটের ৫০টিসহ মোট ৮২টি ফ্লাইট বাতিল বা স্থগিত হয়েছে। এই ঘটনায় সব মিলিয়ে ১৩ হাজার ৭১ জন যাত্রী চরম ভোগান্তিতে পড়েছেন। পরিস্থিতি স্বাভাবিক না হওয়া পর্যন্ত বিমান বাংলাদেশ এয়ারলাইনস আগামী ১৭ অক্টোবর পর্যন্ত রিয়াদ ও দাম্মামগামী সব ফ্লাইট স্থগিত রাখার ঘোষণা দিয়েছে।</p>\n<p>ফ্লাইট বাতিলের কারণে সবচেয়ে বেশি বিপাকে পড়েছেন সৌদি আরবগামী প্রবাসী বাংলাদেশিরা। ছুটি কাটিয়ে কর্মস্থলে ফেরার জন্য প্রস্তুত অনেক যাত্রী বিমানবন্দরে এসে ফ্লাইট বন্ধের খবর জানতে পারছেন। চাঁপাইনবাবগঞ্জের সৌদিপ্রবাসী মো. মাহিরুল জানান, আগে থেকে ফ্লাইট বাতিলের তথ্য না পাওয়ায় তিনি বিমানবন্দরে এসে বিপাকে পড়েন। ভিসার মেয়াদ শেষ হওয়ার আশঙ্কায় এখন বিকল্প ফ্লাইটের সন্ধানে তাকে হিমশিম খেতে হচ্ছে। এমন পরিস্থিতিতে বিমান কর্তৃপক্ষ জরুরি প্রয়োজনে জেদ্দা ও মদিনা বিমানবন্দর ব্যবহারের পরামর্শ দিয়েছে।</p>\n<p>পাল্টাপাল্টি সামরিক অভিযানের ফলে মধ্যপ্রাচ্যের সামগ্রিক নিরাপত্তা পরিস্থিতি এখন বেশ জটিল। হুতি বিদ্রোহীরা সৌদি আরবের গুরুত্বপূর্ণ সামরিক স্থাপনা লক্ষ্য করে হামলার দায় স্বীকার করেছে, অন্যদিকে সৌদি নেতৃত্বাধীন বাহিনী তাদের ড্রোন প্রতিহত করার দাবি করেছে। এই অস্থিরতা আন্তর্জাতিক ফ্লাইট চলাচল ও আঞ্চলিক স্থিতিশীলতার ওপর ব্যাপক নেতিবাচক প্রভাব ফেলছে।</p>\n<p>যাত্রীদের দুর্ভোগ কমাতে বিমানবন্দর কর্তৃপক্ষ সংশ্লিষ্ট এয়ারলাইনসগুলোকে প্রয়োজনীয় নির্দেশনা দিয়েছে। ফ্লাইটের পরিবর্তিত সময়সূচি সম্পর্কে এসএমএস বা ফোনকলের মাধ্যমে যাত্রীদের দ্রুত অবহিত করতে বলা হয়েছে। একই সঙ্গে, সৌদিগামী সব যাত্রীকে বিমানবন্দরে রওনা হওয়ার আগে নিজ নিজ এয়ারলাইনসের সাথে যোগাযোগ করে ফ্লাইটের সর্বশেষ অবস্থা নিশ্চিত হওয়ার পরামর্শ দেওয়া হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সৌদি আরবের অস্থিরতা প্রবাসীদের কর্মসংস্থান ও নিরাপত্তা নিয়ে গভীর অনিশ্চয়তা তৈরি করেছে। পরিস্থিতি স্বাভাবিক না হওয়া পর্যন্ত যাত্রীদের সতর্ক থাকা এবং দূতাবাসের পরামর্শ মেনে চলাই এখন প্রধান করণীয়। এ সংকট নিরসনে দ্রুত কূটনৈতিক তৎপরতা অত্যন্ত জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/538207\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ইয়েমেনের ইরান-সমর্থিত হুতি বিদ্রোহীদের ধারাবাহিক ক্ষেপণাস্ত্র ও ড্রোন হামলায় সৌদি আরবের রাজধানী রিয়াদে নিরাপত্তা পরিস্থিতির অবনতি হয়েছে। হামলার পর কিং খালিদ আন্...",
-      "sourceUrl": "https://daily-bangladesh.com/national/538207",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss55acff82149d30",
-      "slug": "নদীর-ওপর-আরেক-নদীর-পথ-উত্তরবঙ্গের-ব্যতিক",
-      "title": "নদীর ওপর আরেক নদীর পথ! উত্তরবঙ্গের ব্যতিক্রমী জলসেতু বাহাগিলী",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%B0%E0%A7%87%E0%A6%95-%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A6%A5-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%BF%E0%A6%95.webp",
-      "publishedAt": "2026-10-14T03:44:08.676Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>উত্তরের জেলা নীলফামারীর কিশোরগঞ্জ উপজেলায় প্রকৃতি ও গ্রামীণ জীবনের এক পরিচিত অনুষঙ্গ বাহাগিলী ব্রিজ। নদীর ওপর দাঁড়িয়ে থাকা এই সেতু মানুষের চলাচলের পথের সঙ্গে স্থানীয় যোগাযোগ, কৃষি ও জনজীবনের সঙ্গেও নিবিড়ভাবে জড়িয়ে আছে। প্রকৃতির কাছাকাছি সময় কাটাতে এবং উত্তরবঙ্গের গ্রামীণ পরিবেশ দেখতে আগ্রহী ভ্রমণপিপ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এমন ব্যতিক্রমী অবকাঠামো স্থানীয় কৃষিপণ্য পরিবহন ও যাতায়াত ব্যবস্থাকে সহজতর করে গ্রামীণ অর্থনীতিতে গতি সঞ্চার করবে। পর্যটন সম্ভাবনা কাজে লাগিয়ে জনপদটির উন্নয়নে স্থানীয় প্রশাসন ও বাসিন্দাদের সমন্বিত রক্ষণাবেক্ষণ নিশ্চিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/974084/%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%B0%E0%A7%87%E0%A6%95-%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A6%A5-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A7%80\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "উত্তরের জেলা নীলফামারীর কিশোরগঞ্জ উপজেলায় প্রকৃতি ও গ্রামীণ জীবনের এক পরিচিত অনুষঙ্গ বাহাগিলী ব্রিজ। নদীর ওপর দাঁড়িয়ে থাকা এই সেতু মানুষের চলাচলের পথের সঙ্গে স্থানীয় যোগাযোগ, কৃষি ও জনজীবনের সঙ্গেও নিবিড়ভাবে জড়িয়ে আছে। প্রকৃতির কাছাকাছি সময় কাটাতে এবং উত্তরবঙ্গের গ্রামীণ পরিবেশ দেখতে আগ্রহী ভ্রমণপিপ",
-      "sourceUrl": "https://www.banglatribune.com/journey/974084/%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%B0%E0%A7%87%E0%A6%95-%E0%A6%A8%E0%A6%A6%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A6%A5-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A7%80",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
