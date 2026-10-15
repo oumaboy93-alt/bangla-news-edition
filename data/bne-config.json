@@ -1,6 +1,6 @@
 {
-  "version": 403,
-  "updatedAt": "2026-10-15T19:37:31.532Z",
+  "version": 404,
+  "updatedAt": "2026-10-15T19:50:17.044Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -100,6 +100,38 @@
       "sourceName": "প্রথম আলো"
     },
     {
+      "id": "rss86cd9f9f9510f9",
+      "slug": "প্রশ্নপত্র-ফাঁস-ঠেকাতে-সচিবালয়ে-রাত-কাটা",
+      "title": "প্রশ্নপত্র ফাঁস ঠেকাতে সচিবালয়ে রাত কাটাচ্ছেন প্রতিমন্ত্রী",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A7%8D%E0%A6%A8%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%B8-%E0%A6%A0%E0%A7%87%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%9A%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A4-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BE.avif",
+      "publishedAt": "2026-10-15T19:29:10.852Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>পরীক্ষা শুরুর আগে সামাজিক যোগাযোগমাধ্যমে প্রশ্নপত্র ছড়িয়ে পড়ে। মূল প্রশ্নপত্রের সঙ্গে ফাঁস হওয়া প্রশ্নপত্রের মিল পাওয়ার পর পরীক্ষা স্থগিত করা হয়।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/inxveilf9d\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "পরীক্ষা শুরুর আগে সামাজিক যোগাযোগমাধ্যমে প্রশ্নপত্র ছড়িয়ে পড়ে। মূল প্রশ্নপত্রের সঙ্গে ফাঁস হওয়া প্রশ্নপত্রের মিল পাওয়ার পর পরীক্ষা স্থগিত করা হয়।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/inxveilf9d",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss359f9788b2650f",
+      "slug": "নালার-পাশে-মিলল-এক-দিন-বয়সী-নবজাতক-কান্না",
+      "title": "নালার পাশে মিলল এক দিন বয়সী নবজাতক, কান্না শুনে উদ্ধার করেন স্থানীয় লোকজন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%B2-%E0%A6%8F%E0%A6%95-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80-%E0%A6%A8%E0%A6%AC%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE.avif",
+      "publishedAt": "2026-10-15T19:29:10.844Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>নালার পাশে মাটিতে শিশুটিকে পড়ে থাকতে দেখেন এক ব্যক্তি। শিশুটির কান্না শুনে তিনি চিৎকার করলে আশপাশের লোকজন ছুটে আসেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/aw0zs2xkxs\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "নালার পাশে মাটিতে শিশুটিকে পড়ে থাকতে দেখেন এক ব্যক্তি। শিশুটির কান্না শুনে তিনি চিৎকার করলে আশপাশের লোকজন ছুটে আসেন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/district/aw0zs2xkxs",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss61cc92e55cbf3d",
       "slug": "প্রশ্নফাঁস-ঠেকাতে-সচিবালয়ে-রাত-কাটাচ্ছে",
       "title": "প্রশ্নফাঁস ঠেকাতে সচিবালয়ে রাত কাটাচ্ছেন প্রতিমন্ত্রী",
@@ -194,6 +226,22 @@
       "summary": "ঢাকার সাভারে এক মাদ্রাসাছাত্রী নিখোঁজের ঘটনায় তার পরিবারের সদস্যদের সঙ্গে মাদ্রাসার শিক্ষক ও শিক্ষার্থীদের সংঘর্ষ হয়েছে। এতে উভয় পক্ষের অন্তত ১০ জন আহত হয়েছেন। এ সময় ঘটনাস্থলে উপস্থিত কয়েকজন সাংবাদিককেও মারধর করা হয়েছে বলে অভিযোগ উঠেছে। বৃহস্পতিবার (১৫ অক্টোবর) সকাল ১১টার দিকে হেমায়েতপুরের যাদুরচর এ",
       "sourceUrl": "https://www.ittefaq.com.bd/815426/%E0%A6%A8%E0%A6%BF%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87",
       "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssecd39253e7b33d",
+      "slug": "মোমোয়া-জামওয়ালের-লড়াই-ঢাকায়-আসছে-স্ট্রিট",
+      "title": "মোমোয়া–জামওয়ালের লড়াই, ঢাকায় আসছে ‘স্ট্রিট ফাইটার’",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%8B%E0%A6%AE%E0%A7%8B%E0%A7%9F%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%9F.avif",
+      "publishedAt": "2026-10-15T18:59:10.965Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ভিডিও গেমের পরিচিত যোদ্ধাদের এমন তারকাবহুল সমাবেশ নিয়ে বড় পর্দায় আসছে ‘স্ট্রিট ফাইটার’। আগামীকাল শুক্রবার, ১৬ অক্টোবর যুক্তরাষ্ট্রে মুক্তি পাচ্ছে ছবিটি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/entertainment/hollywood/8j2ctp8ko1\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ভিডিও গেমের পরিচিত যোদ্ধাদের এমন তারকাবহুল সমাবেশ নিয়ে বড় পর্দায় আসছে ‘স্ট্রিট ফাইটার’। আগামীকাল শুক্রবার, ১৬ অক্টোবর যুক্তরাষ্ট্রে মুক্তি পাচ্ছে ছবিটি।",
+      "sourceUrl": "https://www.prothomalo.com/entertainment/hollywood/8j2ctp8ko1",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rssc31c6c66fdc665",
@@ -7970,54 +8018,6 @@
       "summary": "মার্কিন যুক্তরাষ্ট্রের আসন্ন মধ্যবর্তী নির্বাচনের আগে জ্বালানি তেলের দাম বৃদ্ধি করার উদ্দেশ্যে ইয়েমেনের হুথি বিদ্রোহীরা সৌদি আরবের অবকাঠামোতে হামলা জোরদার করছে বলে দাবি করেছেন মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। বুধবার (১৪ অক্টোবর) ট্রাম্পের দেওয়া এক সামাজিক যোগাযোগমাধ্যম পোস্টের বরাতে এই খবর জানিয়",
       "sourceUrl": "https://www.ittefaq.com.bd/815031/%E0%A6%A4%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF%E0%A6%B0%E0%A6%BE-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA",
       "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssf3c3b22d0fdec0",
-      "slug": "অপেক্ষায়-ম্রুণাল-ঠাকুর-৯-মাসে-নেই-কোনও-ছব",
-      "title": "অপেক্ষায় ম্রুণাল ঠাকুর, ৯ মাসে নেই কোনও ছবি অভিনেত্রীর",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%BE%E0%A6%B2-%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A7%AF-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%9B%E0%A6%AC.webp",
-      "publishedAt": "2026-10-14T02:14:08.660Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>অ্যাটলি পরিচালিত আল্লু অর্জুন ও দীপিকা পাড়ুকোন অভিনীত আসন্ন ছবি ‘রাকা’ নিয়ে দর্শকদের আগ্রহ ক্রমেই বাড়ছে। ভারতীয় সিনেমার দুই জনপ্রিয় তারকাকে প্রথমবার একসঙ্গে পর্দায় দেখা যাবে এই ছবিতে। ফলে ছবিটি ঘিরে ভক্তদের প্রত্যাশাও অনেক বেশি। এরই মধ্যে ছবিটিতে অভিনেত্রী ম্রুণাল ঠাকুরের যুক্ত হওয়ার গুঞ্জন নতুন করে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">তারকাখচিত বড় বাজেটের চলচ্চিত্রে ম্রুণাল ঠাকুরের অন্তর্ভুক্তি তার ক্যারিয়ারের মোড় ঘোরানোর সুযোগ তৈরি করতে পারে। এ ধরনের উচ্চাভিলাষী প্রকল্পে অংশগ্রহণ শিল্পীর বহুমুখী প্রতিভার বিকাশে যেমন সহায়ক, তেমনি ভক্তদের প্রত্যাশা পূরণেও গুরুত্বপূর্ণ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/entertainment/bollywood/974282/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%BE%E0%A6%B2-%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A7%AF-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%9B%E0%A6%AC%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "অ্যাটলি পরিচালিত আল্লু অর্জুন ও দীপিকা পাড়ুকোন অভিনীত আসন্ন ছবি ‘রাকা’ নিয়ে দর্শকদের আগ্রহ ক্রমেই বাড়ছে। ভারতীয় সিনেমার দুই জনপ্রিয় তারকাকে প্রথমবার একসঙ্গে পর্দায় দেখা যাবে এই ছবিতে। ফলে ছবিটি ঘিরে ভক্তদের প্রত্যাশাও অনেক বেশি। এরই মধ্যে ছবিটিতে অভিনেত্রী ম্রুণাল ঠাকুরের যুক্ত হওয়ার গুঞ্জন নতুন করে",
-      "sourceUrl": "https://www.banglatribune.com/entertainment/bollywood/974282/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%BE%E0%A6%B2-%E0%A6%A0%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A7%AF-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%9B%E0%A6%AC%E0%A6%BF",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssb0429fc68e4908",
-      "slug": "নতুন-নিয়ম-করেছে-আইসিসি-কেন-আপত্তি-দলগুলো",
-      "title": "নতুন নিয়ম করেছে আইসিসি, কেন আপত্তি দলগুলোর?",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B.webp",
-      "publishedAt": "2026-10-14T02:14:08.659Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>টেস্ট ক্রিকেটে ফল নিশ্চিত করতে নতুন নিয়ম করেছে আইসিসি। দিনের খেলা আলোর স্বল্পতার কারণে ব্যাহত হলে দুই দল সম্মত থাকলে ফ্লাডলাইটের নিচে গোলাপি বল ব্যবহারের সুযোগ রয়েছে। কিন্তু দক্ষিণ আফ্রিকা-অস্ট্রেলিয়া প্রথম টেস্টে সেই নিয়ম কাজে লাগেনি। ডারবানের কিংসমিডে অল্প আলোয় তিন দিনই আগেভাগে খেলা বন্ধ হয়েছে, নষ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইসিসির এই নতুন নিয়ম মাঠের সীমাবদ্ধতা কাটিয়ে খেলা চলমান রাখার একটি ইতিবাচক প্রচেষ্টা হলেও, এর প্রয়োগে সমন্বয়হীনতা ফুটে উঠেছে। নীতিমালার যথাযথ বাস্তবায়ন নিশ্চিত করা না গেলে ক্রিকেটের দীর্ঘ সংস্করণে ফলাফলের অনিশ্চয়তা কাটানো কঠিন হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/cricket/974292/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "টেস্ট ক্রিকেটে ফল নিশ্চিত করতে নতুন নিয়ম করেছে আইসিসি। দিনের খেলা আলোর স্বল্পতার কারণে ব্যাহত হলে দুই দল সম্মত থাকলে ফ্লাডলাইটের নিচে গোলাপি বল ব্যবহারের সুযোগ রয়েছে। কিন্তু দক্ষিণ আফ্রিকা-অস্ট্রেলিয়া প্রথম টেস্টে সেই নিয়ম কাজে লাগেনি। ডারবানের কিংসমিডে অল্প আলোয় তিন দিনই আগেভাগে খেলা বন্ধ হয়েছে, নষ",
-      "sourceUrl": "https://www.banglatribune.com/sport/cricket/974292/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss9a839f0de51a55",
-      "slug": "বাংলাদেশের-পারমাণবিক-বিদ্যুৎ-খাতে-পরাশক",
-      "title": "বাংলাদেশের পারমাণবিক বিদ্যুৎ খাতে পরাশক্তির নজর",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%95.webp",
-      "publishedAt": "2026-10-14T02:14:08.655Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাশিয়ার পর বাংলাদেশের পারমাণবিক বিদ্যুৎ খাতে আগ্রহ দেখাচ্ছে বিশ্বের দুই প্রভাবশালী দেশ চীন ও যুক্তরাষ্ট্র। রাশিয়া ইতোমধ্যে পাবনার রূপপুরে পারমাণবিক বিদ্যুৎকেন্দ্র নির্মাণ করছে। চীন আগ্রহ দেখিয়েছে নতুন কেন্দ্র নির্মাণে। অপরদিকে, যুক্তরাষ্ট্রের সঙ্গে বাংলাদেশের বেসামরিক পরমাণু সহযোগিতার সমঝোতা হয়েছে। </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারমাণবিক শক্তির মতো স্পর্শকাতর খাতে পরাশক্তির এমন প্রতিযোগিতা আমাদের ভূ-রাজনৈতিক স্বকীয়তা ও সামাজিক নিরাপত্তার জন্য নতুন চ্যালেঞ্জ। ধর্মীয় মূল্যবোধ ও জাতীয় স্বার্থ সমুন্নত রেখে প্রযুক্তিগত এই রূপান্তর যেন দেশের স্থিতিশীলতা বজায় রাখে, সেদিকে সতর্ক নজর রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/power-and-fuel/974322/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%9C%E0%A6%B0%C2%A0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাশিয়ার পর বাংলাদেশের পারমাণবিক বিদ্যুৎ খাতে আগ্রহ দেখাচ্ছে বিশ্বের দুই প্রভাবশালী দেশ চীন ও যুক্তরাষ্ট্র। রাশিয়া ইতোমধ্যে পাবনার রূপপুরে পারমাণবিক বিদ্যুৎকেন্দ্র নির্মাণ করছে। চীন আগ্রহ দেখিয়েছে নতুন কেন্দ্র নির্মাণে। অপরদিকে, যুক্তরাষ্ট্রের সঙ্গে বাংলাদেশের বেসামরিক পরমাণু সহযোগিতার সমঝোতা হয়েছে। ",
-      "sourceUrl": "https://www.banglatribune.com/business/power-and-fuel/974322/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%9C%E0%A6%B0%C2%A0",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
