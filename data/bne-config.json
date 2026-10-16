@@ -1,6 +1,6 @@
 {
-  "version": 419,
-  "updatedAt": "2026-10-16T11:09:39.085Z",
+  "version": 420,
+  "updatedAt": "2026-10-16T11:12:35.397Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -137,7 +137,7 @@
       "title": "ভারত ছাড়ার নির্দেশের বিরুদ্ধে হাইকোর্টে যাচ্ছেন ইমরান খান",
       "category": "বিনোদন",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/10/16/d3ed1d0b4521849c0d65a99fefc15c07-6ad1d45037358.jpg?jadewits_media_id=1049664",
+      "image": "images/international.jpg",
       "publishedAt": "2026-10-16T10:44:11.829Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
