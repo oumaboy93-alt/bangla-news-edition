@@ -1,6 +1,6 @@
 {
-  "version": 463,
-  "updatedAt": "2026-10-17T13:01:29.758Z",
+  "version": 464,
+  "updatedAt": "2026-10-17T13:12:37.583Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -185,7 +185,7 @@
       "title": "সফিপুরে ইবনে সিনার কারখানার আগুন নিয়ন্ত্রণে",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssde31d7fee69c6f-1200x630.jpg",
       "publishedAt": "2026-10-17T12:29:13.003Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -201,7 +201,7 @@
       "title": "দেশ পুনর্গঠন ও পরিচ্ছন্ন বাংলাদেশ গড়তে শিক্ষার্থীদের আহ্বান প্রধানমন্ত্রীর",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssb6a392ef666d9f-1200x630.jpg",
       "publishedAt": "2026-10-17T12:14:13.019Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -281,7 +281,7 @@
       "title": "সফিপুরে ইবনে সিনার ছয়তলা ভবনে আগুন",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssb167a9bbd935c7-1200x630.jpg",
       "publishedAt": "2026-10-17T11:59:13.054Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -313,7 +313,7 @@
       "title": "রিয়াদগামী বিমানের সব ফ্লাইট অনির্দিষ্টকালের জন্য স্থগিত",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/biman-1791813976.jpg",
+      "image": "/img/rss6c7e826dd2a860-1200x630.jpg",
       "publishedAt": "2026-10-17T11:44:13.100Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -409,7 +409,7 @@
       "title": "রূপপুরে জরুরি পরিস্থিতি মোকাবিলায় আন্তর্জাতিক মানের প্রস্তুতির তাগিদ",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rss4bb3adfc998cad-1200x630.jpg",
       "publishedAt": "2026-10-17T11:14:13.251Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
