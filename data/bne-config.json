@@ -57,7 +57,7 @@
       "title": "অন্তরঙ্গ দৃশ্যে আর আগ্রহী নন আমান্ডা সেফ্রিড",
       "category": "খেলা",
       "lead": false,
-      "image": "",
+      "image": "images/sports.jpg",
       "publishedAt": "2026-10-17T16:44:13.245Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -73,7 +73,7 @@
       "title": "ট্রেড লাইসেন্স মিলবে এক পোর্টালে: বাণিজ্যমন্ত্রী",
       "category": "ধর্ম",
       "lead": false,
-      "image": "",
+      "image": "images/politics.jpg",
       "publishedAt": "2026-10-17T16:44:13.244Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -121,7 +121,7 @@
       "title": "বাংলাদেশকে ২৭২ রানের লক্ষ্য দিল জিম্বাবুয়ে",
       "category": "খেলা",
       "lead": false,
-      "image": "",
+      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/10/17/f9aeb20461342c9df52978ecaae7e525-6ad3960ea1826.jpg?jadewits_media_id=1049945",
       "publishedAt": "2026-10-17T16:29:13.350Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -201,7 +201,7 @@
       "title": "প্রতিবন্ধীদের ‘সর্বোচ্চ সহযোগিতার’ আশ্বাস প্রধানমন্ত্রীর",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "",
+      "image": "images/politics.jpg",
       "publishedAt": "2026-10-17T15:59:13.179Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -313,7 +313,7 @@
       "title": "আদালতের নির্দেশে ‘মুচলেকা’ সই করে মুক্তি পেলেন অভিজিৎ দীপকে",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "",
+      "image": "images/economy.jpg",
       "publishedAt": "2026-10-17T15:29:13.360Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -361,7 +361,7 @@
       "title": "নওগাঁয় প্রতিমা ভাঙচুরের অভিযোগে যুবক গ্রেপ্তার",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "images/national.jpg",
       "publishedAt": "2026-10-17T15:14:13.278Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -377,7 +377,7 @@
       "title": "দুই দিনেই ২০০ কোটির ক্লাবে রজনীকান্তের ‘জেলার ২’",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "images/national.jpg",
       "publishedAt": "2026-10-17T15:14:13.273Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -441,7 +441,7 @@
       "title": "গান ছাড়িয়ে বিনিয়োগে জে-জেডের সাম্রাজ্য, সম্পদ ২৮০ কোটি ডলার",
       "category": "বিনোদন",
       "lead": false,
-      "image": "",
+      "image": "images/entertainment.jpg",
       "publishedAt": "2026-10-17T14:44:13.164Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -569,7 +569,7 @@
       "title": "স্টার সিনেপ্লেক্সে মুক্তি পেল ‘স্ট্রিট ফাইটার’",
       "category": "বিনোদন",
       "lead": false,
-      "image": "",
+      "image": "images/entertainment.jpg",
       "publishedAt": "2026-10-17T14:14:13.165Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
