@@ -1,6 +1,6 @@
 {
-  "version": 537,
-  "updatedAt": "2026-10-18T22:00:15.693Z",
+  "version": 538,
+  "updatedAt": "2026-10-18T22:10:45.822Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "ব্যবসায়ীদের সুবিধার্থে ‘গোপনে’ ড্যাপ সংশোধন: আইপিডি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss4d539e651945b4-1200x630.jpg",
       "publishedAt": "2026-10-18T21:59:16.246Z",
       "tags": [
         "বিডিনিউজ২৪"
