@@ -1,6 +1,6 @@
 {
-  "version": 533,
-  "updatedAt": "2026-10-18T21:06:46.310Z",
+  "version": 534,
+  "updatedAt": "2026-10-18T21:18:04.378Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rss405178532a5ebb",
+      "slug": "আগামী-বছর-দেশে-বিদ্যুৎ-বিক্রির-জায়গা-থা",
+      "title": "আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না: চিফ হুইপ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE.webp",
+      "publishedAt": "2026-10-18T21:14:16.228Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না বলে মন্তব্য করেছেন জাতীয় সংসদের সরকার দলীয় চিফ হুইপ নূরুল ইসলাম মনি। রবিবার (১৮ অক্টোবর) দুপুরে বরগুনার বেতাগী উপজেলা পরিষদের সম্মেলন কক্ষে উন্নয়ন ও আইনশৃঙ্খলা সভায় প্রধান অতিথির বক্তব্যে তিনি এ কথা বলেন। চিফ হুইপ বলেন, ‘আমরা সবাই মিলে সৌরবিদ্যুৎ ব্যবহার করবো। সৌরবিদ্যুৎ স্থাপন করলে ৩ বছরের খাজনা দিতে হবে না। আগামী ফেব্রুয়ারি মাসের মধ্যে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/barishal/975402/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না বলে মন্তব্য করেছেন জাতীয় সংসদের সরকার দলীয় চিফ হুইপ নূরুল ইসলাম মনি। রবিবার (১৮ অক্টোবর) দুপুরে বরগুনার বেতাগী উপজেলা পরিষদের সম্মেলন কক্ষে উন্নয়ন ও আইনশৃঙ্খলা সভায় প্রধান অতিথির বক্তব্যে তিনি এ কথা বলেন। চিফ হুইপ বলেন, ‘আমরা সবাই মিলে সৌরবিদ্যুৎ ব্য",
+      "sourceUrl": "https://www.banglatribune.com/country/barishal/975402/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
       "id": "rss299c3d9ca2aff8",
       "slug": "ভারতে-চ্যাম্পিয়ন্স-ট্রফির-জন্য-বাংলাদে",
       "title": "ভারতে চ্যাম্পিয়ন্স ট্রফির জন্য বাংলাদেশ দল ঘোষণা",
@@ -73,7 +89,7 @@
       "title": "হাম: উপসর্গ নিয়ে আরও ৭ জনের মৃত্যু",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/08/10/f6ee68cc9a3520685f63a2d1c8da252b-6a79beae86b0b.jpg?jadewits_media_id=1037806",
+      "image": "/img/rssc9bf68aa1b64a5-1200x630.jpg",
       "publishedAt": "2026-10-18T20:59:16.181Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -625,6 +641,38 @@
       "body": "<p>৮০ মিনিটে করা একমাত্র গোলে নটিংহাম ফরেস্টের মাঠ থেকে জিতে ফিরেছে আর্সেনাল। অন্য ম্যাচে ম্যানচেস্টার ইউনাইটেড ড্র করেছে লিডসের সঙ্গে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/7lsvw530sn\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "৮০ মিনিটে করা একমাত্র গোলে নটিংহাম ফরেস্টের মাঠ থেকে জিতে ফিরেছে আর্সেনাল। অন্য ম্যাচে ম্যানচেস্টার ইউনাইটেড ড্র করেছে লিডসের সঙ্গে।",
       "sourceUrl": "https://www.prothomalo.com/sports/football/7lsvw530sn",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss8624d41a215b09",
+      "slug": "বর্জ্য-সরিয়ে-বৃক্ষরোপণ-ঢাকা-জেলা-প্রশাস",
+      "title": "বর্জ্য সরিয়ে বৃক্ষরোপণ, ঢাকা জেলা প্রশাসনের প্রশংসায় প্রধানমন্ত্রী",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0%E0%A7%87%E0%A6%BE%E0%A6%AA%E0%A6%A3-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8.avif",
+      "publishedAt": "2026-10-18T18:14:15.996Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ঢাকা–আরিচা মহাসড়কের পাশে ময়লা অপসারণ, মাটি ভরাট, পালিসেডিং, সারফেস ড্রেন নির্মাণ ও নেটিংসহ সবুজায়ন প্রকল্পের প্রশংসা করেছেন প্রধানমন্ত্রী তারেক রহমান। বিস্তারিত ভিডিওতে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/video/bangladesh/ktwzickqua\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ঢাকা–আরিচা মহাসড়কের পাশে ময়লা অপসারণ, মাটি ভরাট, পালিসেডিং, সারফেস ড্রেন নির্মাণ ও নেটিংসহ সবুজায়ন প্রকল্পের প্রশংসা করেছেন প্রধানমন্ত্রী তারেক রহমান। বিস্তারিত ভিডিওতে...",
+      "sourceUrl": "https://www.prothomalo.com/video/bangladesh/ktwzickqua",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss10abbd49c30c7d",
+      "slug": "সেকেন্ডে-বাইক-চুরি-করে-বিক্রি-হতো-৫০-হাজা",
+      "title": "সেকেন্ডে বাইক চুরি করে বিক্রি হতো ৫০ হাজার টাকায়",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%95-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%A4%E0%A7%8B-%E0%A7%AB%E0%A7%A6-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE.avif",
+      "publishedAt": "2026-10-18T18:14:15.992Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>মাত্র কয়েক সেকেন্ডে মোটরসাইকেল চুরির সিসিটিভি ফুটেজ ছড়িয়ে পড়ার পর মাঠে নামে ডিবি। ঢাকা, কুমিল্লা ও নোয়াখালীতে টানা অভিযানে চোর চক্রের ৬ সদস্য গ্রেপ্তার, উদ্ধার ৯টি চোরাই বাইক। বিস্তারিত ভিডিও প্রতিবেদনে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/video/bangladesh/lubfnbkfxe\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "মাত্র কয়েক সেকেন্ডে মোটরসাইকেল চুরির সিসিটিভি ফুটেজ ছড়িয়ে পড়ার পর মাঠে নামে ডিবি। ঢাকা, কুমিল্লা ও নোয়াখালীতে টানা অভিযানে চোর চক্রের ৬ সদস্য গ্রেপ্তার, উদ্ধার ৯টি চোরাই বাইক। বিস্তারিত ভিডিও প্রতিবেদনে...",
+      "sourceUrl": "https://www.prothomalo.com/video/bangladesh/lubfnbkfxe",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7969,54 +8017,6 @@
       "body": "<p>বাংলাদেশ লোক-প্রশাসন প্রশিক্ষণ কেন্দ্রে (বিপিএটিসি) ৯ ক্যাটাগরির পদে ৩৯ জন নিয়োগ দেওয়া হবে। ১৫ অক্টোবর ২০২৬ প্রকাশিত নিয়োগ বিজ্ঞপ্তিতে এসএসসি, এইচএসসি, ডিপ্লোমা, স্নাতক ও স্নাতকোত্তর ডিগ্রিধারীদের আবেদনের সুযোগ রাখা হয়েছে। পদভেদে বেতন স্কেল ২০ হাজার থেকে ১ লাখ ৫ হাজার ৯০০ টাকা পর্যন্ত। আবেদন শুরু হব</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিভিন্ন শিক্ষাগত যোগ্যতার ভিত্তিতে পদগুলো সাজানোয় চাকরিপ্রার্থীদের জন্য এটি ক্যারিয়ার গড়ার একটি চমৎকার সুযোগ। আগ্রহী প্রার্থীদের নিয়োগ বিজ্ঞপ্তির শর্তাবলী ও আবেদনের সময়সীমা সতর্কতার সাথে পর্যালোচনা করে দ্রুত প্রয়োজনীয় প্রস্তুতি গ্রহণ করা বাঞ্ছনীয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/jobs/974995/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B2%E0%A7%8B%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%87-%E0%A7%A9%E0%A7%AF-%E0%A6%AA%E0%A6%A6%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "বাংলাদেশ লোক-প্রশাসন প্রশিক্ষণ কেন্দ্রে (বিপিএটিসি) ৯ ক্যাটাগরির পদে ৩৯ জন নিয়োগ দেওয়া হবে। ১৫ অক্টোবর ২০২৬ প্রকাশিত নিয়োগ বিজ্ঞপ্তিতে এসএসসি, এইচএসসি, ডিপ্লোমা, স্নাতক ও স্নাতকোত্তর ডিগ্রিধারীদের আবেদনের সুযোগ রাখা হয়েছে। পদভেদে বেতন স্কেল ২০ হাজার থেকে ১ লাখ ৫ হাজার ৯০০ টাকা পর্যন্ত। আবেদন শুরু হব",
       "sourceUrl": "https://www.banglatribune.com/jobs/974995/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B2%E0%A7%8B%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%87-%E0%A7%A9%E0%A7%AF-%E0%A6%AA%E0%A6%A6%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss04e68a9c9b1a69",
-      "slug": "সৌদিতে-১০৭-ফ্লাইট-বাতিল-চরম-বিপাকে-১৬-হাজ",
-      "title": "সৌদিতে ১০৭ ফ্লাইট বাতিল, চরম বিপাকে ১৬ হাজার যাত্রী",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss04e68a9c9b1a69-1200x630.jpg",
-      "publishedAt": "2026-10-17T03:44:12.753Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>সৌদি আরবের বিভিন্ন বিমানবন্দরে হুথি বিদ্রোহীদের ড্রোন ও ক্ষেপণাস্ত্র হামলার জেরে বিধিনিষেধ আরোপ করায় বাংলাদেশ থেকে সৌদিগামী মোট ১০৭টি ফ্লাইট বাতিল করা হয়েছে। এতে চরম ভোগান্তি ও অনিশ্চয়তায় পড়েছেন অন্তত ১৬ হাজার ৬২০ জন যাত্রী। গতকাল...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক ভূ-রাজনৈতিক অস্থিতিশীলতায় এমন আকস্মিক ফ্লাইট বাতিলের ফলে প্রবাসীদের কর্মসংস্থান ও আর্থিক ক্ষতির ঝুঁকি বেড়েছে। যাত্রীদের এয়ারলাইন্সের সঙ্গে সার্বক্ষণিক যোগাযোগ রেখে পরবর্তী নির্দেশনা অনুসরণ করা উচিত এবং সংশ্লিষ্ট কর্তৃপক্ষকে দ্রুত বিকল্প ব্যবস্থার উদ্যোগ নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314326/সৌদিতে-১০৭-ফ্লাইট-বাতিল-চরম-বিপাকে-১৬-হাজার-যাত্রী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "সৌদি আরবের বিভিন্ন বিমানবন্দরে হুথি বিদ্রোহীদের ড্রোন ও ক্ষেপণাস্ত্র হামলার জেরে বিধিনিষেধ আরোপ করায় বাংলাদেশ থেকে সৌদিগামী মোট ১০৭টি ফ্লাইট বাতিল করা হয়েছে। এতে চরম ভোগান্তি ও অনিশ্চয়তায় পড়েছেন অন্তত ১৬ হাজার ৬২০ জন যাত্রী। গতকাল...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/314326/সৌদিতে-১০৭-ফ্লাইট-বাতিল-চরম-বিপাকে-১৬-হাজার-যাত্রী",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rsse39dba7704046d",
-      "slug": "ছয়-মাসের-শিশুকে-নিয়ে-ভারত-সফর-অভিজ্ঞতা-ভা",
-      "title": "ছয় মাসের শিশুকে নিয়ে ভারত সফর, অভিজ্ঞতা ভাগ করলেন আমেরিকান মা",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%9B%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%B8%E0%A6%AB%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%AD%E0%A6%BE.webp",
-      "publishedAt": "2026-10-17T03:44:12.750Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ছোট শিশুকে নিয়ে ভ্রমণের পরিকল্পনা করলেই অভিভাবকদের মনে নানা প্রশ্ন আসে। দীর্ঘ যাত্রায় সন্তানকে সামলানো, খাওয়ানো কিংবা ঘুমের রুটিন ঠিক রাখা সব কিছু নিয়ে দুশ্চিন্তা হওয়াই স্বাভাবিক। তবে শিশুর সঙ্গে বেড়াতে যাওয়ার জন্য কোনও নির্দিষ্ট বয়স পর্যন্ত অপেক্ষা করা জরুরি নয় বলে মনে করেন এক আমেরিকান মা। একজন ভা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদেশি পর্যটকদের ইতিবাচক অভিজ্ঞতা বাংলাদেশের পর্যটন শিল্পের প্রসারে বড় ভূমিকা রাখে। এমন প্রচার কূটনৈতিক ও সাংস্কৃতিক সম্পর্কের উন্নয়ন ঘটিয়ে আন্তর্জাতিক পরিমণ্ডলে দেশের ভাবমূর্তি উজ্জ্বল করতে সাহায্য করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/974916/%E0%A6%9B%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%B8%E0%A6%AB%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ছোট শিশুকে নিয়ে ভ্রমণের পরিকল্পনা করলেই অভিভাবকদের মনে নানা প্রশ্ন আসে। দীর্ঘ যাত্রায় সন্তানকে সামলানো, খাওয়ানো কিংবা ঘুমের রুটিন ঠিক রাখা সব কিছু নিয়ে দুশ্চিন্তা হওয়াই স্বাভাবিক। তবে শিশুর সঙ্গে বেড়াতে যাওয়ার জন্য কোনও নির্দিষ্ট বয়স পর্যন্ত অপেক্ষা করা জরুরি নয় বলে মনে করেন এক আমেরিকান মা। একজন ভা",
-      "sourceUrl": "https://www.banglatribune.com/journey/974916/%E0%A6%9B%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%B8%E0%A6%AB%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssd83ee21bca1a87",
-      "slug": "মিরাকল-মাইক-মাথাবিহীন-যে-মোরগ-বেঁচেছিল-১",
-      "title": "মিরাকল মাইক: মাথাবিহীন যে মোরগ বেঁচেছিল ১৮ মাস",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A7%80%E0%A6%A8-%E0%A6%AF%E0%A7%87-%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A6%97-%E0%A6%AC%E0%A7%87%E0%A6%81%E0%A6%9A%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A7%A7.webp",
-      "publishedAt": "2026-10-17T03:44:12.749Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>‘মাথাকাটা মুরগির মতো ছোটাছুটি করা’, অসংলগ্ন বা বিশৃঙ্খল আচরণ বোঝাতে এই প্রবাদটি প্রায়ই ব্যবহৃত হয়। কিন্তু একটি মুরগি মাথা কাটার পর কেবল কয়েক মুহূর্ত নয়, বরং মাথা ছাড়াই যদি বেঁচে থাকে টানা ১৮ মাস? কাল্পনিক মনে হলেও ঠিক এমনই ঘটেছিল ‘মিরাকল মাইক’ নামে একটি মোরগের ক্ষেত্রে। ‘বাংলাদেশের মতো রিজিম চেঞ্জের</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অস্বাভাবিক এই টিকে থাকার ঘটনা জৈবিক সীমাবদ্ধতাকে অতিক্রম করলেও তা মূলত কৌতূহল ও বিস্ময় জাগানিয়া একটি ব্যতিক্রম মাত্র। বাস্তব জীবনে আমাদের দৈনন্দিন সংকট মোকাবিলায় আবেগ বা অস্থিরতা নয়, বরং সুচিন্তিত ও স্থিতিশীল সিদ্ধান্ত গ্রহণই প্রকৃত সমাধান।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/america/974955/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A7%80%E0%A6%A8-%E0%A6%AF%E0%A7%87-%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A6%97-%E0%A6%AC%E0%A7%87%E0%A6%81%E0%A6%9A%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A7%A7%E0%A7%AE-%E0%A6%AE%E0%A6%BE%E0%A6%B8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "‘মাথাকাটা মুরগির মতো ছোটাছুটি করা’, অসংলগ্ন বা বিশৃঙ্খল আচরণ বোঝাতে এই প্রবাদটি প্রায়ই ব্যবহৃত হয়। কিন্তু একটি মুরগি মাথা কাটার পর কেবল কয়েক মুহূর্ত নয়, বরং মাথা ছাড়াই যদি বেঁচে থাকে টানা ১৮ মাস? কাল্পনিক মনে হলেও ঠিক এমনই ঘটেছিল ‘মিরাকল মাইক’ নামে একটি মোরগের ক্ষেত্রে। ‘বাংলাদেশের মতো রিজিম চেঞ্জের",
-      "sourceUrl": "https://www.banglatribune.com/foreign/america/974955/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A7%80%E0%A6%A8-%E0%A6%AF%E0%A7%87-%E0%A6%AE%E0%A7%8B%E0%A6%B0%E0%A6%97-%E0%A6%AC%E0%A7%87%E0%A6%81%E0%A6%9A%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A7%A7%E0%A7%AE-%E0%A6%AE%E0%A6%BE%E0%A6%B8",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
