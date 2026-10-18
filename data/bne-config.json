@@ -1,6 +1,6 @@
 {
-  "version": 519,
-  "updatedAt": "2026-10-18T17:09:22.077Z",
+  "version": 520,
+  "updatedAt": "2026-10-18T17:20:08.657Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rss986e86f80d7266",
+      "slug": "ইশরাককে-মন্ত্রিসভা-থেকে-পদত্যাগের-নির্দ",
+      "title": "ইশরাককে মন্ত্রিসভা থেকে পদত্যাগের নির্দেশের গুঞ্জন",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%87%E0%A6%B6%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%95%E0%A7%87-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A6%AD%E0%A6%BE-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A6.jpg",
+      "publishedAt": "2026-10-18T17:14:14.436Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>অস্ত্র হাতে মাদকবিরোধী অভিযানে নেমে বিতর্কের জন্ম দেওয়া মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ইশরাক হোসেনকে মন্ত্রিসভা থেকে পদত্যাগ করতে প্রধানমন্ত্রী তারেক রহমান নির্দেশ দিয়েছেন বলে গুঞ্জন ছড়িয়েছে। রোববার (১৮ অক্টোবর) সন্ধ্যার পর এই গুঞ্জন ছড়িয়ে পড়ে। তবে ইশরাকের...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রতিমন্ত্রীর এমন বিতর্কিত কর্মকাণ্ডে সরকারের ভাবমূর্তি ক্ষুণ্ণ হওয়ার ঝুঁকিতে রাজনৈতিক অস্থিরতার আভাস স্পষ্ট। জনমনে অস্বস্তি ও আইনের শাসনের প্রতি সংশয় নিরসনে দায়িত্বশীল পদ থেকে দ্রুত স্পষ্টিকরণ ও কার্যকর পদক্ষেপ নেওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314418/ইশরাককে-মন্ত্রিসভা-থেকে-পদত্যাগের-নির্দেশের-গুঞ্জন\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "অস্ত্র হাতে মাদকবিরোধী অভিযানে নেমে বিতর্কের জন্ম দেওয়া মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ইশরাক হোসেনকে মন্ত্রিসভা থেকে পদত্যাগ করতে প্রধানমন্ত্রী তারেক রহমান নির্দেশ দিয়েছেন বলে গুঞ্জন ছড়িয়েছে। রোববার (১৮ অক্টোবর) সন্ধ্যার পর এই গুঞ্জন ছড়িয়ে পড়ে। তবে ইশরাকের...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314418/ইশরাককে-মন্ত্রিসভা-থেকে-পদত্যাগের-নির্দেশের-গুঞ্জন",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss8234a4d5660af4",
+      "slug": "১৯-অক্টোবর-সারাদেশে-বন্ধ-থাকবে-স্বর্ণের",
+      "title": "১৯ অক্টোবর সারাদেশে বন্ধ থাকবে স্বর্ণের দোকান",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A7%A7%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0.jpg",
+      "publishedAt": "2026-10-18T17:14:14.435Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>শারদীয় দুর্গাপূজা উপলক্ষে আগামীকাল ১৯ অক্টোবর সারাদেশের সব জুয়েলারি প্রতিষ্ঠান বন্ধ রাখার সিদ্ধান্ত নিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। অষ্টমী পূজা উপলক্ষে এ সিদ্ধান্ত নেওয়া হয়েছে। রোববার (১৮ অক্টোবর) বাজুসের সভাপতি এনামুল হক খানের সই করা এক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ধর্মীয় উৎসবের প্রতি ব্যবসায়িক প্রতিষ্ঠানের এমন সংবেদনশীলতা অসাম্প্রদায়িক সম্প্রীতির এক উজ্জ্বল দৃষ্টান্ত। কর্মবিরতির এই সিদ্ধান্ত সনাতন ধর্মাবলম্বীদের ধর্মীয় ভাবগাম্ভীর্য রক্ষায় সামাজিক দায়বদ্ধতার প্রতিফলন হিসেবে বিবেচিত হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314419/১৯-অক্টোবর-সারাদেশে-বন্ধ-থাকবে-স্বর্ণের-দোকান\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "শারদীয় দুর্গাপূজা উপলক্ষে আগামীকাল ১৯ অক্টোবর সারাদেশের সব জুয়েলারি প্রতিষ্ঠান বন্ধ রাখার সিদ্ধান্ত নিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। অষ্টমী পূজা উপলক্ষে এ সিদ্ধান্ত নেওয়া হয়েছে। রোববার (১৮ অক্টোবর) বাজুসের সভাপতি এনামুল হক খানের সই করা এক...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314419/১৯-অক্টোবর-সারাদেশে-বন্ধ-থাকবে-স্বর্ণের-দোকান",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss4803b9ab39c5bf",
+      "slug": "সব-বিশ্ববিদ্যালয়কে-ডিজিটাল-নেটওয়ার্কে-আ",
+      "title": "সব বিশ্ববিদ্যালয়কে ডিজিটাল নেটওয়ার্কে আনার পরিকল্পনা ইউজিসির",
+      "category": "প্রযুক্তি",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%86.webp",
+      "publishedAt": "2026-10-18T17:14:14.424Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>দেশের সব পাবলিক ও প্রাইভেট বিশ্ববিদ্যালয়কে আগামী দুই বছরের মধ্যে একটি সমন্বিত ডিজিটাল নেটওয়ার্কের আওতায় আনার পরিকল্পনা গ্রহণ করেছে বিশ্ববিদ্যালয় মঞ্জুরি কমিশন (ইউজিসি)। পাশাপাশি আগামী পাঁচ বছরের মধ্যে সব বিশ্ব&amp;zwnj;বিদ্যালয়ে ইন্টার্নশিপ বাধ্যতামূলক করা এবং ভর্তি থেকে সনদ উত্তোলন পর্যন্ত শিক্ষার্থীদে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্ববিদ্যালয়গুলোকে সমন্বিত ডিজিটাল কাঠামোর আওতায় আনা শিক্ষার্থীদের প্রশাসনিক জটিলতা কমিয়ে শিক্ষা কার্যক্রমে গতিশীলতা আনবে। এই প্রযুক্তিগত রূপান্তর উচ্চশিক্ষার গুণগত মান নিশ্চিত করার পাশাপাশি ডিজিটাল সেবার সহজলভ্যতা ও স্বচ্ছতা নিশ্চিত করতে বড় ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/tech-news/975382/%E0%A6%B8%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%A8%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "দেশের সব পাবলিক ও প্রাইভেট বিশ্ববিদ্যালয়কে আগামী দুই বছরের মধ্যে একটি সমন্বিত ডিজিটাল নেটওয়ার্কের আওতায় আনার পরিকল্পনা গ্রহণ করেছে বিশ্ববিদ্যালয় মঞ্জুরি কমিশন (ইউজিসি)। পাশাপাশি আগামী পাঁচ বছরের মধ্যে সব বিশ্ব&zwnj;বিদ্যালয়ে ইন্টার্নশিপ বাধ্যতামূলক করা এবং ভর্তি থেকে সনদ উত্তোলন পর্যন্ত শিক্ষার্থীদে",
+      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/tech-news/975382/%E0%A6%B8%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A6%95%E0%A7%87-%E0%A6%A1%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%A8%E0%A6%BE%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
       "id": "rssfd4cafdfc74f53",
       "slug": "মিলেমিশে-সমৃদ্ধ-বাংলাদেশ-গড়তে-হবে-এমপি-হ",
       "title": "মিলেমিশে সমৃদ্ধ বাংলাদেশ গড়তে হবে: এমপি হাফিজ ইব্রাহিম",
@@ -62,7 +110,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>ভোলা-২ আসনের সংসদ সদস্য হাফিজ ইব্রাহিম বলেছেন, বাংলাদেশ সাম্প্রদায়িক সম্প্রীতির এক অনন্য উদাহরণ, যেখানে প্রতিটি নাগরিকের সমান অধিকার নিশ্চিত করা হয়েছে। রোববার বিকেলে দৌলতখানের বিভিন্ন পূজামণ্ডপ পরিদর্শনের সময় তিনি এই মন্তব্য করেন। তিনি আরও বলেন, ধর্মীয় পরিচয় ভিন্ন হলেও নাগরিক হিসেবে আমরা সবাই অভিন্ন সত্তার অধিকারী। পারস্পরিক শ্রদ্ধা, ভালোবাসা ও সহযোগিতার চর্চা বজায় থাকলে তবেই একটি সুখী ও সমৃদ্ধ রাষ্ট্র গঠন করা সম্ভব।</p>\n<p>পূজামণ্ডপ পরিদর্শনের সময় স্থানীয় সনাতন ধর্মাবলম্বীদের সঙ্গে শুভেচ্ছা বিনিময় করেন সংসদ সদস্য হাফিজ ইব্রাহিম। এ সময় তিনি পূজারিদের হাতে শাড়ি ও নগদ অর্থ সহায়তা তুলে দেন। তার এই ব্যক্তিগত উদ্যোগের ফলে পূজামণ্ডপগুলোতে উৎসবের আমেজ সৃষ্টির পাশাপাশি সম্প্রীতির এক চমৎকার পরিবেশ তৈরি হয়েছে বলে স্থানীয়রা জানান।</p>\n<p>‘ধর্ম যার যার, উৎসব সবার’—এই মূলমন্ত্রকে ধারণ করে সবাইকে ঐক্যবদ্ধভাবে সামনের দিকে এগিয়ে যাওয়ার আহ্বান জানান সংসদ সদস্য। তিনি বলেন, দুর্গোৎসব সনাতন ধর্মাবলম্বীদের প্রধান ধর্মীয় উৎসবগুলোর একটি। এই উৎসব সবার জীবনে শান্তি, আনন্দ ও কল্যাণ বয়ে আনুক বলে তিনি প্রত্যাশা করেন। ধর্মীয় উৎসবকে কেন্দ্র করে বিভেদ নয়, বরং ভ্রাতৃত্ব ও সম্প্রীতির বন্ধনকে আরও শক্তিশালী করার ওপর তিনি গুরুত্বারোপ করেন।</p>\n<p>পরিদর্শনকালে সংসদ সদস্যের সঙ্গে উপস্থিত ছিলেন দৌলতখান উপজেলা নির্বাহী কর্মকর্তা (ইউএনও) আব্দুল মতিন খান এবং থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) ফখরুল ইসলাম। এছাড়াও উপজেলা বিএনপির সাধারণ সম্পাদক শাহজাহান সাজু, সাংগঠনিক সম্পাদক কাজি ইকবাল, উত্তর জয়নগর ইউনিয়ন বিএনপির সাধারণ সম্পাদক মনিরুল ইসলামসহ উপজেলা ও অঙ্গসংগঠনের স্থানীয় নেতারা উপস্থিত ছিলেন। এ সময় উপস্থিত ছিলেন উপজেলা যুবদলের আহ্বায়ক মশিউর রহমান লিটন, সদস্য সচিব আবু হেনা রিয়াজ এবং যুগ্ম-আহ্বায়ক জহিরুল ইসলাম জহির।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538747\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>ভোলা-২ আসনের সংসদ সদস্য হাফিজ ইব্রাহিম বলেছেন, বাংলাদেশ সাম্প্রদায়িক সম্প্রীতির এক অনন্য উদাহরণ, যেখানে প্রতিটি নাগরিকের সমান অধিকার নিশ্চিত করা হয়েছে। রোববার বিকেলে দৌলতখানের বিভিন্ন পূজামণ্ডপ পরিদর্শনের সময় তিনি এই মন্তব্য করেন। তিনি আরও বলেন, ধর্মীয় পরিচয় ভিন্ন হলেও নাগরিক হিসেবে আমরা সবাই অভিন্ন সত্তার অধিকারী। পারস্পরিক শ্রদ্ধা, ভালোবাসা ও সহযোগিতার চর্চা বজায় থাকলে তবেই একটি সুখী ও সমৃদ্ধ রাষ্ট্র গঠন করা সম্ভব।</p>\n<p>পূজামণ্ডপ পরিদর্শনের সময় স্থানীয় সনাতন ধর্মাবলম্বীদের সঙ্গে শুভেচ্ছা বিনিময় করেন সংসদ সদস্য হাফিজ ইব্রাহিম। এ সময় তিনি পূজারিদের হাতে শাড়ি ও নগদ অর্থ সহায়তা তুলে দেন। তার এই ব্যক্তিগত উদ্যোগের ফলে পূজামণ্ডপগুলোতে উৎসবের আমেজ সৃষ্টির পাশাপাশি সম্প্রীতির এক চমৎকার পরিবেশ তৈরি হয়েছে বলে স্থানীয়রা জানান।</p>\n<p>‘ধর্ম যার যার, উৎসব সবার’—এই মূলমন্ত্রকে ধারণ করে সবাইকে ঐক্যবদ্ধভাবে সামনের দিকে এগিয়ে যাওয়ার আহ্বান জানান সংসদ সদস্য। তিনি বলেন, দুর্গোৎসব সনাতন ধর্মাবলম্বীদের প্রধান ধর্মীয় উৎসবগুলোর একটি। এই উৎসব সবার জীবনে শান্তি, আনন্দ ও কল্যাণ বয়ে আনুক বলে তিনি প্রত্যাশা করেন। ধর্মীয় উৎসবকে কেন্দ্র করে বিভেদ নয়, বরং ভ্রাতৃত্ব ও সম্প্রীতির বন্ধনকে আরও শক্তিশালী করার ওপর তিনি গুরুত্বারোপ করেন।</p>\n<p>পরিদর্শনকালে সংসদ সদস্যের সঙ্গে উপস্থিত ছিলেন দৌলতখান উপজেলা নির্বাহী কর্মকর্তা (ইউএনও) আব্দুল মতিন খান এবং থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) ফখরুল ইসলাম। এছাড়াও উপজেলা বিএনপির সাধারণ সম্পাদক শাহজাহান সাজু, সাংগঠনিক সম্পাদক কাজি ইকবাল, উত্তর জয়নগর ইউনিয়ন বিএনপির সাধারণ সম্পাদক মনিরুল ইসলামসহ উপজেলা ও অঙ্গসংগঠনের স্থানীয় নেতারা উপস্থিত ছিলেন। এ সময় উপস্থিত ছিলেন উপজেলা যুবদলের আহ্বায়ক মশিউর রহমান লিটন, সদস্য সচিব আবু হেনা রিয়াজ এবং যুগ্ম-আহ্বায়ক জহিরুল ইসলাম জহির।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাম্প্রদায়িক সম্প্রীতি বজায় রাখা কেবল আইনি বাধ্যবাধকতা নয়, বরং এটি আমাদের জাতীয় অস্তিত্বের অবিচ্ছেদ্য অংশ। ধর্মীয় বৈচিত্র্যকে পুঁজি করে পারস্পরিক সহাবস্থান নিশ্চিত করতে পারলে সামাজিক শৃঙ্খলা ও টেকসই উন্নয়ন ত্বরান্বিত হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538747\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "ভোলা-২ আসনের এমপি হাফিজ ইব্রাহিম বলেছেন, বাংলাদেশ সাম্প্রদায়িক সম্প্রীতির দেশ। এখানে ধর্ম-বর্ণ নির্বিশেষে সব মানুষের সমান অধিকার রয়েছে। ধর্মীয় পরিচয় আলাদা হলেও...",
       "sourceUrl": "https://www.daily-bangladesh.com/country/538747",
       "sourceName": "ডেইলি বাংলাদেশ"
@@ -94,7 +142,7 @@
       "tags": [
         "বাংলাদেশ জার্নাল"
       ],
-      "body": "<p>দক্ষিণ-পূর্ব এশিয়ার দেশ কম্বোডিয়ায় প্রায় ১৮০০ জন বাংলাদেশি আটকে রয়েছেন বলে দাবি করেছে মানবপাচার নিয়ে কাজ করা স্বেচ্ছাসেবী সংগঠন অনির্বাণ সারভাইভার ভয়েস ফাউন্ডেশন। বিশেষ বিমানে করে তাদেরকে দ্রুত দেশে ফিরিয়ে আনার দাবি করেছে সংগঠনটি। রোববার প্রবাসী...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314417/কম্বোডিয়ায়-আটকে-থাকা-১৮০০-বাংলাদেশিকে-দেশে-ফেরানোর-দাবি\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "body": "<p>দক্ষিণ-পূর্ব এশিয়ার দেশ কম্বোডিয়ায় প্রায় ১৮০০ জন বাংলাদেশি আটকে রয়েছেন বলে দাবি করেছে মানবপাচার নিয়ে কাজ করা স্বেচ্ছাসেবী সংগঠন অনির্বাণ সারভাইভার ভয়েস ফাউন্ডেশন। বিশেষ বিমানে করে তাদেরকে দ্রুত দেশে ফিরিয়ে আনার দাবি করেছে সংগঠনটি। রোববার প্রবাসী...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদেশের মাটিতে বিপুল সংখ্যক নাগরিকের বন্দিদশা জাতীয় নিরাপত্তার জন্য উদ্বেগজনক। ভুক্তভোগীদের দ্রুত ফেরাতে সরকারের কূটনৈতিক তৎপরতা জোরদার করা জরুরি। পাশাপাশি, কর্মসংস্থানের নামে প্রতারণার ফাঁদ এড়াতে সাধারণ মানুষকে সচেতন হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314417/কম্বোডিয়ায়-আটকে-থাকা-১৮০০-বাংলাদেশিকে-দেশে-ফেরানোর-দাবি\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
       "summary": "দক্ষিণ-পূর্ব এশিয়ার দেশ কম্বোডিয়ায় প্রায় ১৮০০ জন বাংলাদেশি আটকে রয়েছেন বলে দাবি করেছে মানবপাচার নিয়ে কাজ করা স্বেচ্ছাসেবী সংগঠন অনির্বাণ সারভাইভার ভয়েস ফাউন্ডেশন। বিশেষ বিমানে করে তাদেরকে দ্রুত দেশে ফিরিয়ে আনার দাবি করেছে সংগঠনটি। রোববার প্রবাসী...",
       "sourceUrl": "https://www.bd-journal.com/bangladesh/314417/কম্বোডিয়ায়-আটকে-থাকা-১৮০০-বাংলাদেশিকে-দেশে-ফেরানোর-দাবি",
       "sourceName": "বাংলাদেশ জার্নাল"
@@ -121,7 +169,7 @@
       "title": "স্বাধীন সাংবাদিকতা, তথ্য ও মতপ্রকাশের সুরক্ষায় ১২ দফা সুপারিশ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://media.prothomalo.com/prothomalo-bangla/2026-10-18/s6a33ysx/uimage-3.jpg",
+      "image": "/img/rss3ee641634f3818-1200x630.jpg",
       "publishedAt": "2026-10-18T16:44:14.491Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -265,7 +313,7 @@
       "title": "পাকিস্তান ও আফগানিস্তান সীমান্তে দফায় দফায় সংঘর্ষ, সাত পাকিস্তানি সেনা নিহতের দাবি",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "/img/rssb01a860da7a778-1200x630.jpg",
       "publishedAt": "2026-10-18T15:59:14.403Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -313,7 +361,7 @@
       "title": "১০ সচিবের দপ্তর বদল",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss1a07bacf554625-1200x630.jpg",
       "publishedAt": "2026-10-18T15:44:15.013Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7970,54 +8018,6 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFBHVkkxVjhxSTdEVks0OVlhMlF6cE13WFdzeUx4RE95YTJaREpLZ243cmhYUm5VQ3pkTGhLbDlTVktaRUg4Vkhpag?oc=5\" target=\"_blank\"&gt;চাকরি দিচ্ছে ব্যাংক এশিয়া, আবেদনে নেই বয়সসীমা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;RTV News&lt;/font&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBHVkkxVjhxSTdEVks0OVlhMlF6cE13WFdzeUx4RE95YTJaREpLZ243cmhYUm5VQ3pkTGhLbDlTVktaRUg4Vkhpag?oc=5",
       "sourceName": "সরকারি নিয়োগ"
-    },
-    {
-      "id": "rss1cf85114b8ea5e",
-      "slug": "প্রতিদ্বন্দ্বী-তুরস্কের-বাজারেও-আশা-জাগ",
-      "title": "প্রতিদ্বন্দ্বী তুরস্কের বাজারেও আশা জাগাচ্ছে বাংলাদেশের পোশাক",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/rss1cf85114b8ea5e-1200x630.jpg",
-      "publishedAt": "2026-10-16T21:59:12.315Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tNHlEcHFJS21mY1BwbzVTWnNmSWZ3ZDJMR05mMHRfNm9CX0pibGdtLVYwb3NkUmtlaTZ4bU5rclNYbk9lSlNfblZ2Mnk2UGROLWdud3FNMkV1Qnc?oc=5&quot; target=&quot;_blank&quot;&amp;gt;প্রতিদ্বন্দ্বী তুরস্কের বাজারেও আশা জাগাচ্ছে বাংলাদেশের পোশাক&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">তুরস্কের বাজারে বাংলাদেশের পোশাকের ক্রমবর্ধমান চাহিদা আমাদের রপ্তানি বহুমুখীকরণের নতুন পথ উন্মোচন করেছে। এটি বৈশ্বিক প্রতিযোগিতায় সক্ষমতা বৃদ্ধির প্রমাণ দেয়, যা দীর্ঘমেয়াদে বৈদেশিক মুদ্রার রিজার্ভ ও পোশাক খাতের স্থিতিশীলতা নিশ্চিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tNHlEcHFJS21mY1BwbzVTWnNmSWZ3ZDJMR05mMHRfNm9CX0pibGdtLVYwb3NkUmtlaTZ4bU5rclNYbk9lSlNfblZ2Mnk2UGROLWdud3FNMkV1Qnc?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tNHlEcHFJS21mY1BwbzVTWnNmSWZ3ZDJMR05mMHRfNm9CX0pibGdtLVYwb3NkUmtlaTZ4bU5rclNYbk9lSlNfblZ2Mnk2UGROLWdud3FNMkV1Qnc?oc=5\" target=\"_blank\"&gt;প্রতিদ্বন্দ্বী তুরস্কের বাজারেও আশা জাগাচ্ছে বাংলাদেশের পোশাক&lt;/a&gt;&nbsp;&nbsp;&lt;font color=",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tNHlEcHFJS21mY1BwbzVTWnNmSWZ3ZDJMR05mMHRfNm9CX0pibGdtLVYwb3NkUmtlaTZ4bU5rclNYbk9lSlNfblZ2Mnk2UGROLWdud3FNMkV1Qnc?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rss36afad99432510",
-      "slug": "তেরঙা-যাত্রা-কনট-প্লেসে-বিক্ষোভ-১৫০-জন-আট",
-      "title": "তেরঙা যাত্রা: কনট প্লেসে বিক্ষোভ, ১৫০ জন আটকের খবর",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss36afad99432510-1200x630.jpg",
-      "publishedAt": "2026-10-16T21:59:12.300Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6dTdnamlFNjhYRUFaaXZyUDdtdEVNMkpXYlZxOFZubGZZOE1xVVlVSzNMbGRQRHhZZ3ViR3VYN0hsWnl6OWxxTGRVWklCekgwcFJJLWtLTQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;তেরঙা যাত্রা: কনট প্লেসে বিক্ষোভ, ১৫০ জন আটকের খবর&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdn</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনবহুল এলাকায় এমন আকস্মিক অস্থিরতা নাগরিক জনজীবনকে চরম ঝুঁকিতে ফেলছে। বিশৃঙ্খলা এড়াতে স্থানীয় বাসিন্দাদের সতর্ক থাকা ও ধৈর্য বজায় রাখা জরুরি। আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক রাখতে প্রশাসনের পাশাপাশি সচেতন নাগরিক সমাজকেও দায়িত্বশীল ভূমিকা নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6dTdnamlFNjhYRUFaaXZyUDdtdEVNMkpXYlZxOFZubGZZOE1xVVlVSzNMbGRQRHhZZ3ViR3VYN0hsWnl6OWxxTGRVWklCekgwcFJJLWtLTQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6dTdnamlFNjhYRUFaaXZyUDdtdEVNMkpXYlZxOFZubGZZOE1xVVlVSzNMbGRQRHhZZ3ViR3VYN0hsWnl6OWxxTGRVWklCekgwcFJJLWtLTQ?oc=5\" target=\"_blank\"&gt;তেরঙা যাত্রা: কনট প্লেসে বিক্ষোভ, ১৫০ জন আটকের খবর&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdn",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6dTdnamlFNjhYRUFaaXZyUDdtdEVNMkpXYlZxOFZubGZZOE1xVVlVSzNMbGRQRHhZZ3ViR3VYN0hsWnl6OWxxTGRVWklCekgwcFJJLWtLTQ?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rss5f2309ece7891f",
-      "slug": "ইতিহাস-গড়ে-যোগ-দেওয়ার-৬-দিনের-মাথায়-চাকরি",
-      "title": "ইতিহাস গড়ে যোগ দেওয়ার ৬ দিনের মাথায় চাকরি হারালেন ট্রাম্পের প্রেস সচিব",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF.webp",
-      "publishedAt": "2026-10-16T21:29:12.512Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দায়িত্ব নেওয়ার এক সপ্তাহেরও কম সময়ের মধ্যে চাকরি খোয়ালেন হোয়াইট হাউসের নতুন প্রেস সচিব কেটি জ্যাকারিয়া। মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের প্রধান মুখপাত্র হিসেবে প্রথম কয়েক দিনেই যোগ্যতা নিয়ে তীব্র বিতর্ক ও গণমাধ্যমের প্রশ্নের মুখে শুক্রবার তাকে অব্যাহতি দেওয়া হয় বলে দুই মার্কিন কর্মকর্তা নিশ্চ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পেশাগত ক্ষেত্রে যেকোনো উচ্চপদে যোগদানের পর প্রথম কয়েক দিন অত্যন্ত সতর্ক ও কৌশলী হওয়া জরুরি। ব্যক্তিগত যোগ্যতা বা দক্ষতার ঘাটতি দ্রুত প্রকাশ পেলে নিয়োগকর্তার সিদ্ধান্ত পরিবর্তনের ঝুঁকি থাকে, যা কর্মজীবনের দীর্ঘমেয়াদি প্রভাব ফেলে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/974981/%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দায়িত্ব নেওয়ার এক সপ্তাহেরও কম সময়ের মধ্যে চাকরি খোয়ালেন হোয়াইট হাউসের নতুন প্রেস সচিব কেটি জ্যাকারিয়া। মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের প্রধান মুখপাত্র হিসেবে প্রথম কয়েক দিনেই যোগ্যতা নিয়ে তীব্র বিতর্ক ও গণমাধ্যমের প্রশ্নের মুখে শুক্রবার তাকে অব্যাহতি দেওয়া হয় বলে দুই মার্কিন কর্মকর্তা নিশ্চ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/974981/%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
