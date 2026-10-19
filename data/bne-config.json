@@ -1,6 +1,6 @@
 {
-  "version": 604,
-  "updatedAt": "2026-10-19T20:00:23.694Z",
+  "version": 605,
+  "updatedAt": "2026-10-19T20:09:08.584Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -297,7 +297,7 @@
       "title": "প্রবাসীর সন্তানদের শিক্ষাবৃত্তি দেবে সরকার, আবেদনে যেসব কাগজপত্র লাগবে",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss3c9fb9a2aefc67-1200x630.jpg",
       "publishedAt": "2026-10-19T18:44:17.589Z",
       "tags": [
         "যুগান্তর"
