@@ -1,6 +1,6 @@
 {
-  "version": 589,
-  "updatedAt": "2026-10-19T16:59:34.264Z",
+  "version": 590,
+  "updatedAt": "2026-10-19T17:10:28.239Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "সৌদিতে দুই বাংলাদেশির মৃত্যুদণ্ড: ‘তথ্য পেলে’ আনুষ্ঠানিকভাবে জানাবে মন্ত্রণালয়",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss6d9caf21983687-1200x630.jpg",
       "publishedAt": "2026-10-19T16:59:17.663Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -153,7 +153,7 @@
       "title": "ধর্ম-বর্ণ নির্বিশেষে আমরা সবাই বাংলাদেশি: প্রধানমন্ত্রী",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss4caf087a580fb8-1200x630.jpg",
       "publishedAt": "2026-10-19T16:29:17.623Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
