@@ -1,6 +1,6 @@
 {
-  "version": 610,
-  "updatedAt": "2026-10-19T21:01:06.770Z",
+  "version": 611,
+  "updatedAt": "2026-10-19T21:11:30.868Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "জাতীয় পরিচয়পত্র প্রবিধানমালা এর অধীন ফর্মসমূহ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsse86551367fd787-1200x630.jpg",
       "publishedAt": "2026-10-19T20:59:18.222Z",
       "tags": [
         "নির্বাচন কমিশন"
@@ -73,7 +73,7 @@
       "title": "সাত বিশ্ববিদ্যালয়ের ভর্তি পরীক্ষার তারিখ ঘোষণা",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rss96a1050ea0afd9-1200x630.jpg",
       "publishedAt": "2026-10-19T20:59:18.207Z",
       "tags": [
         "শিক্ষা প্রতিষ্ঠান"
@@ -121,7 +121,7 @@
       "title": "মেঘনা গ্রুপে চাকরির সুযোগ, দ্রুত আবেদন করুন",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssa979cf46b446b5-1200x630.jpg",
       "publishedAt": "2026-10-19T20:29:17.829Z",
       "tags": [
         "সরকারি দপ্তর"
