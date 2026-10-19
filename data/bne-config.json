@@ -1,6 +1,6 @@
 {
-  "version": 572,
-  "updatedAt": "2026-10-19T11:33:41.153Z",
+  "version": 573,
+  "updatedAt": "2026-10-19T11:44:36.070Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rssaf630ca390aa12",
+      "slug": "রূপগঞ্জে-যুবদল-নেতাকে-কুপিয়ে-হত্যা",
+      "title": "রূপগঞ্জে যুবদল নেতাকে কুপিয়ে হত্যা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B0%E0%A7%82%E0%A6%AA%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AA%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE.jpg",
+      "publishedAt": "2026-10-19T11:44:17.389Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>নারায়ণগঞ্জের রূপগঞ্জে রিপন মিয়া নামে এক যুবদল নেতাকে ধারালো অস্ত্র দিয়ে কুপিয়ে হত্যার অভিযোগ উঠেছে প্রতিপক্ষের বিরুদ্ধে। রোববার রাত সাড়ে ১১টার দিকে উপজেলার ভোলা...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক সহিংসতার এমন নৃশংস ঘটনা স্থানীয় জনমনে গভীর আতঙ্ক ও নিরাপত্তাহীনতা তৈরি করে। সাধারণ মানুষের জানমালের সুরক্ষায় দ্রুত দোষীদের আইনের আওতায় আনা জরুরি। একইসঙ্গে রাজনৈতিক অস্থিরতা নিরসনে স্থানীয় পর্যায়ে সামাজিক সম্প্রীতি বজায় রাখা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/538827\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "নারায়ণগঞ্জের রূপগঞ্জে রিপন মিয়া নামে এক যুবদল নেতাকে ধারালো অস্ত্র দিয়ে কুপিয়ে হত্যার অভিযোগ উঠেছে প্রতিপক্ষের বিরুদ্ধে। রোববার রাত সাড়ে ১১টার দিকে উপজেলার ভোলা...",
+      "sourceUrl": "https://daily-bangladesh.com/country/538827",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss89019e23983257",
+      "slug": "ইসলামপুর-প্রেসক্লাবে-শাহিদুর-রহমান-শাহি",
+      "title": "ইসলামপুর প্রেসক্লাবে শাহিদুর রহমান শাহিদকে সংবর্ধনা",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%BF.jpg",
+      "publishedAt": "2026-10-19T11:44:17.376Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জনপ্রিয় অনলাইন নিউজ পোর্টাল ‘ডেইলি বাংলাদেশ’-এর সম্পাদক এবং জাতীয় প্রেসক্লাব ও ইসলামপুর প্রেসক্লাবের সদস্য শাহিদুর রহমান শাহিদকে সংবর্ধনা দিয়েছে ইসলামপুর প্রেসক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাংবাদিকতার পেশাদারিত্ব ও সামাজিক দায়বদ্ধতার মেলবন্ধন স্থানীয় পর্যায়ে সুস্থ ধারার চর্চাকে উৎসাহিত করে। এমন সংবর্ধনা গণমাধ্যমকর্মীদের নৈতিক মনোবল বৃদ্ধির পাশাপাশি সমাজ বিনির্মাণে বস্তুনিষ্ঠ সাংবাদিকতার গুরুত্বকে আরও সুসংহত করে তোলে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/538830\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জনপ্রিয় অনলাইন নিউজ পোর্টাল ‘ডেইলি বাংলাদেশ’-এর সম্পাদক এবং জাতীয় প্রেসক্লাব ও ইসলামপুর প্রেসক্লাবের সদস্য শাহিদুর রহমান শাহিদকে সংবর্ধনা দিয়েছে ইসলামপুর প্রেসক...",
+      "sourceUrl": "https://daily-bangladesh.com/country/538830",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss7bddfb594f7423",
+      "slug": "সরকারি-চাকরিজীবীরা-বাড়তি-বেতন-পাবেন-এ-মা",
+      "title": "সরকারি চাকরিজীবীরা বাড়তি বেতন পাবেন এ মাসেই",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-19T11:44:17.367Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>নতুন জাতীয় বেতনকাঠামো করা হলেও সরকারি চাকরিজীবীরা আপাতত আগের হারেই তাদের ভাতা পাবেন। অর্থাৎ চলতি বছরের ৩০ জুন তারা যে হারে ভাতা পেতেন, পরের আদেশ জারি না হওয়া পর্যন্ত সে হারেই ভাতা পেতে থাকবেন। অর্থ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বেতনকাঠামো নিয়ে দীর্ঘ অনিশ্চয়তা দূর হওয়ায় সরকারি চাকরিপ্রার্থীরা নিয়োগ প্রক্রিয়ার আর্থিক স্বচ্ছতা ও স্থিতিশীলতা সম্পর্কে নিশ্চিত হতে পারবেন। এটি নতুন নিয়োগপ্রাপ্তদের কর্মজীবনের শুরুতেই আয়ের সুরক্ষা নিশ্চিত করবে, যা পেশাগত আগ্রহ ও মনোবল বৃদ্ধিতে সহায়ক হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314452/সরকারি-চাকরিজীবীরা-বাড়তি-বেতন-পাবেন-এ-মাসেই\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "নতুন জাতীয় বেতনকাঠামো করা হলেও সরকারি চাকরিজীবীরা আপাতত আগের হারেই তাদের ভাতা পাবেন। অর্থাৎ চলতি বছরের ৩০ জুন তারা যে হারে ভাতা পেতেন, পরের আদেশ জারি না হওয়া পর্যন্ত সে হারেই ভাতা পেতে থাকবেন। অর্থ...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314452/সরকারি-চাকরিজীবীরা-বাড়তি-বেতন-পাবেন-এ-মাসেই",
+      "sourceName": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss57ec61652fcb91",
@@ -2350,7 +2398,7 @@
       "tags": [
         "প্রথম আলো"
       ],
-      "body": "<p>বাঙালি সনাতন ধর্মাবলম্বীদের প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজায় এখন দেশজুড়ে বইছে আনন্দের জোয়ার। ভক্তি, শ্রদ্ধা আর সম্প্রীতির আবহে সারা দেশের পূজামণ্ডপগুলোতে চলছে দেবীর আরাধনা। মণ্ডপে মণ্ডপে ভক্তদের অঞ্জলি প্রদান, ধূপ আরতি এবং সন্ধ্যা আরতির মধ্য দিয়ে মুখর হয়ে উঠেছে উৎসবের প্রতিটি মুহূর্ত। ঢাকের বোল আর কাঁসরের শব্দে চারপাশ উৎসবমুখর হয়ে ওঠায় সব বয়সের মানুষের মধ্যে ছড়িয়ে পড়েছে উচ্ছ্বাস।</p>\n<p>চট্টগ্রাম নগরের উত্তর কাট্টলী এলাকায় অবস্থিত শ্রীশ্রী সেবা খোলা ও বৈকুণ্ঠধাম মন্দিরে ‘রিপু রজনী’ থিমে তৈরি মণ্ডপটি দর্শনার্থীদের মাঝে বিশেষ কৌতূহল সৃষ্টি করেছে। নান্দনিক প্রতিমা এবং ব্যতিক্রমী সাজসজ্জা দেখতে দূর-দূরান্ত থেকে মানুষ ভিড় করছেন। একই নগরের পতেঙ্গা শ্যামা সংঘের মণ্ডপটি সাজানো হয়েছে ‘সংবাদপত্রের একাল-সেকাল’ নামক ভিন্নধর্মী থিমে। এমন বৈচিত্র্যময় আয়োজন পূজা উদযাপনে বাড়তি মাত্রা যোগ করেছে।</p>\n<p>দেশের বিভিন্ন প্রান্তে লোকজ ও ঐতিহ্যবাহী উপকরণের সমন্বয়ে মণ্ডপ সাজানোর দৃশ্যও চোখে পড়ার মতো। পাবনার শালগাড়িয়া বিদ্যুৎ চক্র কালীমন্দিরে স্থানীয় তরুণদের উদ্যোগে গ্রামবাংলার চিরায়ত লোকজ উপকরণ দিয়ে সাজানো হয়েছে মণ্ডপ। অন্যদিকে, রাজধানীর খামারবাড়ির কৃষিবিদ ইনস্টিটিউশনসহ দেশের অন্যান্য বড় মণ্ডপগুলোতে পূজা-অর্চনার পাশাপাশি ধর্মীয় আচার-অনুষ্ঠানে বিপুলসংখ্যক ভক্ত অংশ নিচ্ছেন।</p>\n<p>উৎসবের এই দিনগুলোতে মানুষ সপরিবারে মণ্ডপে মণ্ডপে ঘুরে আনন্দ ভাগ করে নিচ্ছেন। মহাসপ্তমীর সকালে শঙ্খধ্বনি ও প্রার্থনার মাধ্যমে পুণ্যার্থীরা দেবীর আশীর্বাদ কামনা করেন। বগুড়াসহ বিভিন্ন স্থানে ঢাকের শব্দের তালে ভক্তদের সক্রিয় অংশগ্রহণ এবং প্রতিমার সামনে দাঁড়িয়ে মুঠোফোনে ছবি তুলে স্বজনদের সঙ্গে আনন্দ ভাগ করে নেওয়ার দৃশ্যই বলে দিচ্ছে উৎসবের ব্যাপকতা। মঙ্গলপ্রদীপের আলোয় উদ্ভাসিত শিবের মূর্তি কিংবা ভক্তিভরে দেবীর চরণে আরতি—সব মিলিয়ে এক স্বর্গীয় আবহ তৈরি হয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/photo/bangladesh/lf4en70s1h\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "body": "<p>বাঙালি সনাতন ধর্মাবলম্বীদের প্রধান ধর্মীয় উৎসব শারদীয় দুর্গাপূজায় এখন দেশজুড়ে বইছে আনন্দের জোয়ার। ভক্তি, শ্রদ্ধা আর সম্প্রীতির আবহে সারা দেশের পূজামণ্ডপগুলোতে চলছে দেবীর আরাধনা। মণ্ডপে মণ্ডপে ভক্তদের অঞ্জলি প্রদান, ধূপ আরতি এবং সন্ধ্যা আরতির মধ্য দিয়ে মুখর হয়ে উঠেছে উৎসবের প্রতিটি মুহূর্ত। ঢাকের বোল আর কাঁসরের শব্দে চারপাশ উৎসবমুখর হয়ে ওঠায় সব বয়সের মানুষের মধ্যে ছড়িয়ে পড়েছে উচ্ছ্বাস।</p>\n<p>চট্টগ্রাম নগরের উত্তর কাট্টলী এলাকায় অবস্থিত শ্রীশ্রী সেবা খোলা ও বৈকুণ্ঠধাম মন্দিরে ‘রিপু রজনী’ থিমে তৈরি মণ্ডপটি দর্শনার্থীদের মাঝে বিশেষ কৌতূহল সৃষ্টি করেছে। নান্দনিক প্রতিমা এবং ব্যতিক্রমী সাজসজ্জা দেখতে দূর-দূরান্ত থেকে মানুষ ভিড় করছেন। একই নগরের পতেঙ্গা শ্যামা সংঘের মণ্ডপটি সাজানো হয়েছে ‘সংবাদপত্রের একাল-সেকাল’ নামক ভিন্নধর্মী থিমে। এমন বৈচিত্র্যময় আয়োজন পূজা উদযাপনে বাড়তি মাত্রা যোগ করেছে।</p>\n<p>দেশের বিভিন্ন প্রান্তে লোকজ ও ঐতিহ্যবাহী উপকরণের সমন্বয়ে মণ্ডপ সাজানোর দৃশ্যও চোখে পড়ার মতো। পাবনার শালগাড়িয়া বিদ্যুৎ চক্র কালীমন্দিরে স্থানীয় তরুণদের উদ্যোগে গ্রামবাংলার চিরায়ত লোকজ উপকরণ দিয়ে সাজানো হয়েছে মণ্ডপ। অন্যদিকে, রাজধানীর খামারবাড়ির কৃষিবিদ ইনস্টিটিউশনসহ দেশের অন্যান্য বড় মণ্ডপগুলোতে পূজা-অর্চনার পাশাপাশি ধর্মীয় আচার-অনুষ্ঠানে বিপুলসংখ্যক ভক্ত অংশ নিচ্ছেন।</p>\n<p>উৎসবের এই দিনগুলোতে মানুষ সপরিবারে মণ্ডপে মণ্ডপে ঘুরে আনন্দ ভাগ করে নিচ্ছেন। মহাসপ্তমীর সকালে শঙ্খধ্বনি ও প্রার্থনার মাধ্যমে পুণ্যার্থীরা দেবীর আশীর্বাদ কামনা করেন। বগুড়াসহ বিভিন্ন স্থানে ঢাকের শব্দের তালে ভক্তদের সক্রিয় অংশগ্রহণ এবং প্রতিমার সামনে দাঁড়িয়ে মুঠোফোনে ছবি তুলে স্বজনদের সঙ্গে আনন্দ ভাগ করে নেওয়ার দৃশ্যই বলে দিচ্ছে উৎসবের ব্যাপকতা। মঙ্গলপ্রদীপের আলোয় উদ্ভাসিত শিবের মূর্তি কিংবা ভক্তিভরে দেবীর চরণে আরতি—সব মিলিয়ে এক স্বর্গীয় আবহ তৈরি হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শারদীয় দুর্গোৎসব কেবল একটি ধর্মীয় আচার নয়, বরং এটি বাঙালির অসাম্প্রদায়িক চেতনা ও সম্প্রীতির এক অনন্য মিলনমেলা। উৎসবের এই আনন্দধারা সামাজিক বন্ধনকে সুদৃঢ় করে এবং পারস্পরিক সৌহার্দ্য ও সহমর্মিতার বার্তা সমাজকে আরও মানবিক করে তোলে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/photo/bangladesh/lf4en70s1h\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "বাঙালি সনাতন ধর্মাবলম্বীদের সবচেয়ে বড় ধর্মীয় উৎসব শারদীয় দুর্গাপূজা। দেবীর আরাধনা, অঞ্জলি ও সন্ধ্যা আরতিতে মুখর পূজামণ্ডপগুলো। উৎসবকে কেন্দ্র করে ছড়িয়ে পড়েছে আনন্দ, উচ্ছ্বাস ও সম্প্রীতির আবহ। দেশের বিভিন্ন প্রান্তের দুর্গাপূজার রঙিন মুহূর্তগুলো নিয়ে এই ছবির গল্প। চট্টগ্রাম নগরের উত্তর কাট্টলী শ্রীশ্",
       "sourceUrl": "https://www.prothomalo.com/photo/bangladesh/lf4en70s1h",
       "sourceName": "প্রথম আলো"
@@ -7969,54 +8017,6 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUhHbUZRQVZOTEpXNTdNWnJTNlNRTkIzdUVubzVfeGRTV2h1S0lDSVJFdGxfY3F0X0JpYzQyTEJZMTg2ZXljWWNDQUFldGEzRkgxcU8wZjEwdHViZzAxYVBJWTBVYjBaenAxcXVhd2haT3ZvQUtKaF82WnNDXzJjTnBxUGNUOTc4a2RZaDVmdkkwZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মাননীয় নির্বাচন কমিশনা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">একজন নির্বাচন কমিশনারের স্বচ্ছ জীবনবৃত্তান্ত সাংবিধানিক প্রতিষ্ঠানের প্রতি জনআস্থা পুনরুদ্ধারে গুরুত্বপূর্ণ ভূমিকা রাখে। নিরপেক্ষতা ও যোগ্যতার এই প্রতিফলন গণতান্ত্রিক প্রক্রিয়ায় নাগরিকদের অংশগ্রহণ ও আস্থা বৃদ্ধিতে সহায়ক হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUhHbUZRQVZOTEpXNTdNWnJTNlNRTkIzdUVubzVfeGRTV2h1S0lDSVJFdGxfY3F0X0JpYzQyTEJZMTg2ZXljWWNDQUFldGEzRkgxcU8wZjEwdHViZzAxYVBJWTBVYjBaenAxcXVhd2haT3ZvQUtKaF82WnNDXzJjTnBxUGNUOTc4a2RZaDVmdkkwZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">নির্বাচন কমিশন</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUhHbUZRQVZOTEpXNTdNWnJTNlNRTkIzdUVubzVfeGRTV2h1S0lDSVJFdGxfY3F0X0JpYzQyTEJZMTg2ZXljWWNDQUFldGEzRkgxcU8wZjEwdHViZzAxYVBJWTBVYjBaenAxcXVhd2haT3ZvQUtKaF82WnNDXzJjTnBxUGNUOTc4a2RZaDVmdkkwZw?oc=5\" target=\"_blank\"&gt;মাননীয় নির্বাচন কমিশনা",
       "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUhHbUZRQVZOTEpXNTdNWnJTNlNRTkIzdUVubzVfeGRTV2h1S0lDSVJFdGxfY3F0X0JpYzQyTEJZMTg2ZXljWWNDQUFldGEzRkgxcU8wZjEwdHViZzAxYVBJWTBVYjBaenAxcXVhd2haT3ZvQUtKaF82WnNDXzJjTnBxUGNUOTc4a2RZaDVmdkkwZw?oc=5",
-      "sourceName": "নির্বাচন কমিশন"
-    },
-    {
-      "id": "rssf1483a6c866f2f",
-      "slug": "নির্বাচন-কমিশন-সচিবালয়",
-      "title": "নির্বাচন কমিশন সচিবালয়",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rssf1483a6c866f2f-1200x630.jpg",
-      "publishedAt": "2026-10-17T17:59:13.447Z",
-      "tags": [
-        "নির্বাচন কমিশন"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiZkFVX3lxTE00Z0xVQThlSWpNN0MwR3dEb1lIU095QXhVWlFjdUMzb2tHdjlGRXZoTWNyWWxWWnFYNk5mUDY3RldPbHptSzZHc0tVUXdrWGxxNjdDRllQaGs0VUNONjhrbE5hdDF6QQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;নির্বাচন কমিশন সচিবালয়&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangladesh</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নির্বাচন কমিশন সচিবালয়ের প্রশাসনিক পুনর্গঠন ও কর্মপদ্ধতিতে পরিবর্তন রাজনৈতিক স্থিতিশীলতা ও স্বচ্ছতা নিশ্চিতের ক্ষেত্রে একটি গুরুত্বপূর্ণ বার্তা। এই সিদ্ধান্তটি সঠিক ও নিরপেক্ষ নির্বাচন প্রক্রিয়ার মাধ্যমে সাধারণ মানুষের ভোটাধিকারের সুরক্ষায় ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE00Z0xVQThlSWpNN0MwR3dEb1lIU095QXhVWlFjdUMzb2tHdjlGRXZoTWNyWWxWWnFYNk5mUDY3RldPbHptSzZHc0tVUXdrWGxxNjdDRllQaGs0VUNONjhrbE5hdDF6QQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">নির্বাচন কমিশন</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE00Z0xVQThlSWpNN0MwR3dEb1lIU095QXhVWlFjdUMzb2tHdjlGRXZoTWNyWWxWWnFYNk5mUDY3RldPbHptSzZHc0tVUXdrWGxxNjdDRllQaGs0VUNONjhrbE5hdDF6QQ?oc=5\" target=\"_blank\"&gt;নির্বাচন কমিশন সচিবালয়&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Bangladesh",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE00Z0xVQThlSWpNN0MwR3dEb1lIU095QXhVWlFjdUMzb2tHdjlGRXZoTWNyWWxWWnFYNk5mUDY3RldPbHptSzZHc0tVUXdrWGxxNjdDRllQaGs0VUNONjhrbE5hdDF6QQ?oc=5",
-      "sourceName": "নির্বাচন কমিশন"
-    },
-    {
-      "id": "rsse7d031350cf562",
-      "slug": "নির্বাচনি-আইনসমূহ",
-      "title": "নির্বাচনি-আইনসমূহ",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rsse7d031350cf562-1200x630.jpg",
-      "publishedAt": "2026-10-17T17:59:13.445Z",
-      "tags": [
-        "নির্বাচন কমিশন"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zSnNBQUpzV0ZWNVM5WkhhOWRFTlpQemtVRUUzbWxrajhIVmpxbFB2Z0hXU1ltclZMV3ZRTkI3a0JENzBMaHRJSnRObnFyQQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;নির্বাচনি-আইনসমূহ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangladesh Election Commission&amp;lt;/font&amp;gt;</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নির্বাচনি আইনের এই পরিবর্তন রাজনৈতিক অঙ্গনে ক্ষমতার ভারসাম্য ও স্বচ্ছতা নিশ্চিতের নতুন পরীক্ষা। এর ফলে নাগরিকরা তাদের ভোটাধিকার প্রয়োগের ক্ষেত্রে আরও বেশি আইনি সুরক্ষা পাওয়ার প্রত্যাশা রাখতে পারেন, যা দীর্ঘমেয়াদে গণতান্ত্রিক সংস্কৃতিকে শক্তিশালী করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zSnNBQUpzV0ZWNVM5WkhhOWRFTlpQemtVRUUzbWxrajhIVmpxbFB2Z0hXU1ltclZMV3ZRTkI3a0JENzBMaHRJSnRObnFyQQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">নির্বাচন কমিশন</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zSnNBQUpzV0ZWNVM5WkhhOWRFTlpQemtVRUUzbWxrajhIVmpxbFB2Z0hXU1ltclZMV3ZRTkI3a0JENzBMaHRJSnRObnFyQQ?oc=5\" target=\"_blank\"&gt;নির্বাচনি-আইনসমূহ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Bangladesh Election Commission&lt;/font&gt;",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zSnNBQUpzV0ZWNVM5WkhhOWRFTlpQemtVRUUzbWxrajhIVmpxbFB2Z0hXU1ltclZMV3ZRTkI3a0JENzBMaHRJSnRObnFyQQ?oc=5",
-      "sourceName": "নির্বাচন কমিশন"
-    },
-    {
-      "id": "rsse02a2184a6deb8",
-      "slug": "বাংলাদেশ-নির্বাচন-কমিশন",
-      "title": "বাংলাদেশ নির্বাচন কমিশন",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rsse02a2184a6deb8-1200x630.jpg",
-      "publishedAt": "2026-10-17T17:59:13.440Z",
-      "tags": [
-        "নির্বাচন কমিশন"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMibEFVX3lxTE8xTk9OSktOTmZweUQ4dTg1X0NyMUkzM2pQMW1iTU5zdE5qMDlqS2c5cWVmYmE4b1c2bGtKNm1Sb2pnSkhoeVk0RlJpRGc1X1hQRjRUcEZIb0JkdXBqWHIxaFRYeUtfV0tuR2JrZg?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বাংলাদেশ নির্বাচন কমিশন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Ba</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নির্বাচন কমিশনের পুনর্গঠন ও কর্মপদ্ধতির এই পরিবর্তন দেশের গণতান্ত্রিক প্রক্রিয়ার স্বচ্ছতা নিশ্চিত করতে গুরুত্বপূর্ণ ভূমিকা রাখবে। রাজনৈতিক অঙ্গনে স্থিতিশীলতা ফেরাতে নিরপেক্ষতার এই চর্চা সাধারণ মানুষের ভোটাধিকারের আস্থাকে আরও সুদৃঢ় করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE8xTk9OSktOTmZweUQ4dTg1X0NyMUkzM2pQMW1iTU5zdE5qMDlqS2c5cWVmYmE4b1c2bGtKNm1Sb2pnSkhoeVk0RlJpRGc1X1hQRjRUcEZIb0JkdXBqWHIxaFRYeUtfV0tuR2JrZg?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">নির্বাচন কমিশন</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE8xTk9OSktOTmZweUQ4dTg1X0NyMUkzM2pQMW1iTU5zdE5qMDlqS2c5cWVmYmE4b1c2bGtKNm1Sb2pnSkhoeVk0RlJpRGc1X1hQRjRUcEZIb0JkdXBqWHIxaFRYeUtfV0tuR2JrZg?oc=5\" target=\"_blank\"&gt;বাংলাদেশ নির্বাচন কমিশন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Ba",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xTk9OSktOTmZweUQ4dTg1X0NyMUkzM2pQMW1iTU5zdE5qMDlqS2c5cWVmYmE4b1c2bGtKNm1Sb2pnSkhoeVk0RlJpRGc1X1hQRjRUcEZIb0JkdXBqWHIxaFRYeUtfV0tuR2JrZg?oc=5",
       "sourceName": "নির্বাচন কমিশন"
     }
   ],
