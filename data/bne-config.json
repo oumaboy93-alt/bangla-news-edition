@@ -1,6 +1,6 @@
 {
-  "version": 545,
-  "updatedAt": "2026-10-19T05:02:25.958Z",
+  "version": 546,
+  "updatedAt": "2026-10-19T05:14:27.835Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "নিজের জয় নিয়ে নিশ্চিত নই, হারলেও অবসরে যাবেন না",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssf1e33b1b893983-1200x630.jpg",
       "publishedAt": "2026-10-19T04:59:16.661Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -185,7 +185,7 @@
       "title": "মধ্যপ্রাচ্যে উত্তেজনা বাড়লেও নিম্নমুখী তেলের দাম",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss9ab9411d9451ae-1200x630.jpg",
       "publishedAt": "2026-10-19T04:29:17.099Z",
       "tags": [
         "যুগান্তর"
@@ -233,7 +233,7 @@
       "title": "'মন্ত্রী নয়, মাদক নির্মূল' স্লোগান দিয়ে পদত্যাগের ঘোষণা দিলেন ইশরাক",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "/img/rss374d0a646671a4-1200x630.jpg",
       "publishedAt": "2026-10-19T04:14:16.714Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -265,7 +265,7 @@
       "title": "ফ্রান্সে দাঙ্গা ও লুটপাট: শান্তি বজায় রাখার আহ্বান মাখোঁর, গ্রেপ্তার ২৪০০",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss6a53b2741db22c-1200x630.jpg",
       "publishedAt": "2026-10-19T03:59:16.704Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -345,7 +345,7 @@
       "title": "আজ দুপুরে পদত্যাগের ঘোষণা দেবেন ইশরাক",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss6679eb2f4b1e43-1200x630.jpg",
       "publishedAt": "2026-10-19T03:29:16.677Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -393,7 +393,7 @@
       "title": "দুই সন্তানকে হত্যার পর মায়ের আত্মহত্যার সন্দেহ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2e7728a2043311-1200x630.jpg",
       "publishedAt": "2026-10-19T03:14:16.720Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -489,7 +489,7 @@
       "title": "বিএনপির মনোনয়নপ্রত্যাশীদের সাক্ষাৎকার আজ",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssf3b54433a5cd1c-1200x630.jpg",
       "publishedAt": "2026-10-19T02:44:16.591Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -585,7 +585,7 @@
       "title": "কানাডায় সামরিক ঘাঁটিতে ভয়াবহ অগ্নিকাণ্ড: ৪ সেনাসদস্য নিহত, আহত ৩৯",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss9cf3aae042c4c4-1200x630.jpg",
       "publishedAt": "2026-10-19T02:14:16.599Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -601,7 +601,7 @@
       "title": "সময় — রক্ষণাবেক্ষণ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssdd298c1167f9aa-1200x630.jpg",
       "publishedAt": "2026-10-19T02:14:16.579Z",
       "tags": [
         "সময় নিউজ"
@@ -681,7 +681,7 @@
       "title": "যুক্তরাষ্ট্রে ট্রাম্পবিরোধী ‘নো কিংস’ বিক্ষোভ, আগাম ভোটে জোর",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssad7ece41539c3a-1200x630.jpg",
       "publishedAt": "2026-10-19T01:44:16.470Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1017,7 +1017,7 @@
       "title": "গাজীপুর কৃষি বিশ্ববিদ্যালয়ে ২১ শিক্ষক ও কর্মকর্তা-কর্মচারী নিয়োগ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss31ed0c078b28f7-1200x630.jpg",
       "publishedAt": "2026-10-18T22:44:16.154Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -1113,7 +1113,7 @@
       "title": "পোস্টাল ভোটিং (আইটি সাপোর্টেড)",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss9742fa297a2085-1200x630.jpg",
       "publishedAt": "2026-10-18T21:59:16.169Z",
       "tags": [
         "নির্বাচন কমিশন"
@@ -1129,7 +1129,7 @@
       "title": "মাননীয় নির্বাচন কমিশনার জনাব মোঃ আনোয়ারুল ইসলাম সরকার মহোদয় এঁর জীবনবৃত্তান্ত",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss14b2f2f7de2770-1200x630.jpg",
       "publishedAt": "2026-10-18T21:59:16.158Z",
       "tags": [
         "নির্বাচন কমিশন"
@@ -2249,7 +2249,7 @@
       "title": "মন্ত্রিসভা থেকে ইশরাককে পদত্যাগের নির্দেশ প্রধানমন্ত্রীর",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/18/1d2d26a8e75213027640d0947679ef63-6ad4f9d3d10cb.jpg?jadewits_media_id=317578",
+      "image": "/img/rssd551ee90f8940b-1200x630.jpg",
       "publishedAt": "2026-10-18T16:59:14.461Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
