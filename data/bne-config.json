@@ -1,6 +1,6 @@
 {
-  "version": 692,
-  "updatedAt": "2026-10-20T17:03:26.904Z",
+  "version": 693,
+  "updatedAt": "2026-10-20T17:14:07.178Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -105,7 +105,7 @@
       "title": "নবমীর আরতিতে আনন্দ-বিষাদ, দশমীর অপেক্ষায় ঢাকেশ্বরী",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss3855f76813230e-1200x630.jpg",
       "publishedAt": "2026-10-20T16:44:21.512Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
