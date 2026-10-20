@@ -1,6 +1,6 @@
 {
-  "version": 676,
-  "updatedAt": "2026-10-20T14:03:39.358Z",
+  "version": 677,
+  "updatedAt": "2026-10-20T14:14:12.181Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "ডিসেম্বরে ইউএনও, জানুয়ারিতে ডিসি সম্মেলন",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss3a9ec0813c9aae-1200x630.jpg",
       "publishedAt": "2026-10-20T13:59:21.124Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
