@@ -1,6 +1,6 @@
 {
-  "version": 699,
-  "updatedAt": "2026-10-20T18:08:32.780Z",
+  "version": 700,
+  "updatedAt": "2026-10-20T18:19:14.181Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,12 +52,60 @@
       "sourceName": ""
     },
     {
+      "id": "rss7f5406a64d971d",
+      "slug": "বিতর্ক-সামলাতে-পদত্যাগ-সরকারের-অস্বস্তি",
+      "title": "বিতর্ক সামলাতে পদত্যাগ: সরকারের অস্বস্তি কাটছে কি?",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF.webp",
+      "publishedAt": "2026-10-20T18:14:21.571Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>তারেক রহমানের নেতৃত্বাধীন বিএনপি সরকারের ৮ মাসে পদত্যাগ করতে হলো মন্ত্রিপরিষদের দুই সদস্য ও এক সংসদ সদস্যকে। এর মধ্যে প্রথমে গত ১ জুন পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রী দীপেন দেওয়ান, ১ অক্টোবর সংরক্ষিত নারী আসনের এমপি ফেরদৌসী আহমেদ মিষ্টি এবং সর্বশেষ ১৯ অক্টোবর পদত্যাগ করেন মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত্রী ইশরাক হোসেন। এক বছর পূর্ণ হওয়ার আগেই সরকারের তিন গুরুত্বপূর্ণ ব্যক্তির ঝরে পড়াকে অনেকেই... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/975760/%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%9B%E0%A7%87-%E0%A6%95%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "তারেক রহমানের নেতৃত্বাধীন বিএনপি সরকারের ৮ মাসে পদত্যাগ করতে হলো মন্ত্রিপরিষদের দুই সদস্য ও এক সংসদ সদস্যকে। এর মধ্যে প্রথমে গত ১ জুন পার্বত্য চট্টগ্রাম বিষয়ক মন্ত্রী দীপেন দেওয়ান, ১ অক্টোবর সংরক্ষিত নারী আসনের এমপি ফেরদৌসী আহমেদ মিষ্টি এবং সর্বশেষ ১৯ অক্টোবর পদত্যাগ করেন মুক্তিযুদ্ধ বিষয়ক প্রতিমন্ত",
+      "sourceUrl": "https://www.banglatribune.com/politics/975760/%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%9B%E0%A7%87-%E0%A6%95%E0%A6%BF",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssc5643d3903ac35",
+      "slug": "প্রশাসনের-সহযোগিতায়-প্রবাসী-ছেলের-ঘরে-ঠ",
+      "title": "প্রশাসনের সহযোগিতায় প্রবাসী ছেলের ঘরে ঠাঁই হলো ৮৫ বছরের বৃদ্ধা মায়ের",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%B0%E0%A7%87-%E0%A6%A0.webp",
+      "publishedAt": "2026-10-20T18:14:21.568Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>চাঁদপুরের শাহরাস্তি উপজেলায় ছয় ছেলের কারও ঘরে আশ্রয় না পাওয়া ৮৫ বছরের বৃদ্ধা জয়নব ভানুর ঠাঁই হয়েছে সৌদিপ্রবাসী সেজো ছেলে আনোয়ার হোসেনের ঘরে। বিষয়টি নিয়ে গণমাধ্যমে সংবাদ প্রকাশ হওয়ার পর উপজেলা প্রশাসনের উদ্যোগে পারিবারিক সমঝোতার মাধ্যমে মঙ্গলবার (২০ অক্টোবর) দুপুরে তাকে ছেলের বাড়িতে তুলে দেওয়া হয়। দুপুরে শাহরাস্তি উপজেলা নির্বাহী কর্মকর্তা (ইউএনও) মনিরা খাতুন উপজেলার চিতোষী পূর্ব... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/975775/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%B0%E0%A7%87-%E0%A6%A0%E0%A6%BE%E0%A6%81%E0%A6%87-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A7%AE%E0%A7%AB\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "চাঁদপুরের শাহরাস্তি উপজেলায় ছয় ছেলের কারও ঘরে আশ্রয় না পাওয়া ৮৫ বছরের বৃদ্ধা জয়নব ভানুর ঠাঁই হয়েছে সৌদিপ্রবাসী সেজো ছেলে আনোয়ার হোসেনের ঘরে। বিষয়টি নিয়ে গণমাধ্যমে সংবাদ প্রকাশ হওয়ার পর উপজেলা প্রশাসনের উদ্যোগে পারিবারিক সমঝোতার মাধ্যমে মঙ্গলবার (২০ অক্টোবর) দুপুরে তাকে ছেলের বাড়িতে তুলে দেওয়",
+      "sourceUrl": "https://www.banglatribune.com/country/chitagong/975775/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%9B%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%B0%E0%A7%87-%E0%A6%A0%E0%A6%BE%E0%A6%81%E0%A6%87-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A7%AE%E0%A7%AB",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss4b5c4715f2baaa",
+      "slug": "পাবনায়-নেশার-টাকা-না-পেয়ে-মাকে-হত্যা-ছে",
+      "title": "পাবনায় নেশার টাকা না পেয়ে মাকে হত্যা, ছেলে আটক",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-20T18:14:21.549Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzN2VvQTJES0xIWC10aEk2U0I1YWQ2TXVLNTJwU0dZYUtfanMwYXVydFBUcnFzekxkMG5wWlM5RHhSN0NSSGNybU9NV2ExUnRwQTVDeTJNN0cwc2pFUFdmLUVCZzRkRmc?oc=5&quot; target=&quot;_blank&quot;&amp;gt;পাবনায় নেশার টাকা না পেয়ে মাকে হত্যা, ছেলে আটক&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzN2VvQTJES0xIWC10aEk2U0I1YWQ2TXVLNTJwU0dZYUtfanMwYXVydFBUcnFzekxkMG5wWlM5RHhSN0NSSGNybU9NV2ExUnRwQTVDeTJNN0cwc2pFUFdmLUVCZzRkRmc?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzN2VvQTJES0xIWC10aEk2U0I1YWQ2TXVLNTJwU0dZYUtfanMwYXVydFBUcnFzekxkMG5wWlM5RHhSN0NSSGNybU9NV2ExUnRwQTVDeTJNN0cwc2pFUFdmLUVCZzRkRmc?oc=5\" target=\"_blank\"&gt;পাবনায় নেশার টাকা না পেয়ে মাকে হত্যা, ছেলে আটক&lt;/a&gt;&nbsp;&nbsp;&lt;font col",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzN2VvQTJES0xIWC10aEk2U0I1YWQ2TXVLNTJwU0dZYUtfanMwYXVydFBUcnFzekxkMG5wWlM5RHhSN0NSSGNybU9NV2ExUnRwQTVDeTJNN0cwc2pFUFdmLUVCZzRkRmc?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
       "id": "rss70427529e2cc94",
       "slug": "গোয়েন্দা-তথ্য-আছে-পতিত-স্বৈরাচার-ও-বিরোধ",
       "title": "গোয়েন্দা তথ্য আছে, পতিত স্বৈরাচার ও বিরোধীদল মিলে বিশৃঙ্খলা সৃষ্টির ষড়যন্ত্র করছে",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss70427529e2cc94-1200x630.jpg",
       "publishedAt": "2026-10-20T17:59:21.530Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -105,7 +153,7 @@
       "title": "মার্কিন ড্রোন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss83155061b9e1e3-1200x630.jpg",
       "publishedAt": "2026-10-20T17:44:21.419Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -7970,54 +8018,6 @@
       "summary": "ঘটনার সময় পদাতিক বাহিনীর সদস্যরা গ্রেনেড রেঞ্জ এবং অ্যাটাক রেঞ্জে আসল গোলাবারুদ ব্যবহার করে ‘উচ্চ-মাত্রার যুদ্ধ প্রশিক্ষণ’ চালাচ্ছিলেন। সেখানে গ্রেনেড লাঞ্চার, গ্রেনেড, ছোট অস্ত্র ও বিপুল পরিমাণ গোলাবারুদ ব্যবহার করা হচ্ছিল।",
       "sourceUrl": "https://www.prothomalo.com/world/south-america/qaneih3sq0",
       "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss3c64be6ce377ef",
-      "slug": "ধর্ম-বর্ণ-নির্বিশেষে-নাগরিকের-অধিকার-নিশ",
-      "title": "ধর্ম-বর্ণ নির্বিশেষে নাগরিকের অধিকার নিশ্চিত করা সরকারের অঙ্গীকার: বিজ্ঞান ও প্রযুক্তিমন্ত্রী",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B6.webp",
-      "publishedAt": "2026-10-19T00:29:16.327Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>ধর্ম-বর্ণ নির্বিশেষে দেশের সব নাগরিকের সমান অধিকার ও মর্যাদা নিশ্চিত করা সরকারের অঙ্গীকার বলে মন্তব্য করেছেন ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি এবং বিজ্ঞান ও প্রযুক্তিমন্ত্রী ফকির মাহবুব আনাম। তিনি বলেন, যারা দেশের ও এলাকার উন্নয়নে কাজ করবেন, জনগণ তাদেরই সমর্থন দেবেন। ভালো কাজের মূল্যায়ন ও স্বীকৃতি রা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তির সুষম বণ্টনে বৈষম্যহীন সুযোগ তৈরি হলে সাধারণ ব্যবহারকারীরা ডিজিটাল সেবায় সমান অধিকার ও সুরক্ষা পাবেন। রাষ্ট্রের এই অঙ্গীকার বাস্তবায়িত হলে প্রযুক্তিগত উন্নয়ন কেবল গুটিকতক মানুষের মধ্যে সীমাবদ্ধ না থেকে প্রান্তিক পর্যায়েও সুফল বয়ে আনবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815952/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "ধর্ম-বর্ণ নির্বিশেষে দেশের সব নাগরিকের সমান অধিকার ও মর্যাদা নিশ্চিত করা সরকারের অঙ্গীকার বলে মন্তব্য করেছেন ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি এবং বিজ্ঞান ও প্রযুক্তিমন্ত্রী ফকির মাহবুব আনাম। তিনি বলেন, যারা দেশের ও এলাকার উন্নয়নে কাজ করবেন, জনগণ তাদেরই সমর্থন দেবেন। ভালো কাজের মূল্যায়ন ও স্বীকৃতি রা",
-      "sourceUrl": "https://www.ittefaq.com.bd/815952/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss6992f691982481",
-      "slug": "টিভিতে-আজকের-খেলা-১৯-অক্টোবর-২০২৬",
-      "title": "টিভিতে আজকের খেলা (১৯ অক্টোবর, ২০২৬)",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A7%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC.webp",
-      "publishedAt": "2026-10-19T00:14:16.363Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&amp;mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ক্রিকেটত্রিদেশীয় ওয়ানডে সিরিজআফগানিস্তান-জিম্বাবুয়েসরাসরি, বিকাল ৫-৩০ মিনিট, টি স্পোর্টস ও নাগরিক টিভি </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ত্রিদেশীয় ওয়ানডে সিরিজের এই ম্যাচগুলো নতুন প্রতিভাবান খেলোয়াড়দের আন্তর্জাতিক মঞ্চে নিজেদের প্রমাণের বড় সুযোগ। নিয়মিত খেলা সম্প্রচার দর্শকদের মাঝে আগ্রহ বজায় রাখার পাশাপাশি ঘরোয়া ক্রিকেটের মানোন্নয়নেও ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/other-sports/975345/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A7%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ক্রিকেটত্রিদেশীয় ওয়ানডে সিরিজআফগানিস্তান-জিম্বাবুয়েসরাসরি, বিকাল ৫-৩০ মিনিট, টি স্পোর্টস ও নাগরিক টিভি ",
-      "sourceUrl": "https://www.banglatribune.com/sport/other-sports/975345/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A7%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss50b7da5c398852",
-      "slug": "জগদীশ-চৌধুরীর-দুই-চোখের-কর্নিয়ায়-আলো-দেখ",
-      "title": "জগদীশ চৌধুরীর দুই চোখের কর্নিয়ায় আলো দেখবেন দুই অন্ধ ব্যক্তি",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A6%97%E0%A6%A6%E0%A7%80%E0%A6%B6-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B2%E0%A7%8B-%E0%A6%A6%E0%A7%87%E0%A6%96.webp",
-      "publishedAt": "2026-10-19T00:14:16.337Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>জগদীশ চৌধুরীর (৬০) দান করা দুইটি চোখের কর্নিয়া দিয়ে দুই অন্ধ ব্যক্তি ফিরে পাবেন তাদের দৃষ্টিশক্তি, দেখতে পাবেন পৃথিবীর আলো, রং-রূপ ও সৌন্দর্য। গত মঙ্গলবার সকালে জগদীশ চৌধুরী চট্টগ্রামে নিজ বাসভবনে শেষ নিঃশ্বাস ত্যাগ করেন। তিনি তার চক্ষুদানের শেষ ইচ্ছা পোষণ করে গিয়েছিলেন। সে অনুযায়ী পরিবারের সদস্যদের</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মরণোত্তর চক্ষুদানের এই মহতী উদ্যোগ শিক্ষার্থী ও অভিভাবকদের মধ্যে মানবিক মূল্যবোধ ও সামাজিক দায়বদ্ধতা তৈরিতে বড় অনুপ্রেরণা। এমন সিদ্ধান্ত কেবল জীবনদানের দৃষ্টান্তই নয়, বরং পরবর্তী প্রজন্মের কাছে স্বেচ্ছাসেবার মহিমা ও পরোপকারের শিক্ষা পৌঁছে দেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815945/%E0%A6%9C%E0%A6%97%E0%A6%A6%E0%A7%80%E0%A6%B6-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B2%E0%A7%8B-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "জগদীশ চৌধুরীর (৬০) দান করা দুইটি চোখের কর্নিয়া দিয়ে দুই অন্ধ ব্যক্তি ফিরে পাবেন তাদের দৃষ্টিশক্তি, দেখতে পাবেন পৃথিবীর আলো, রং-রূপ ও সৌন্দর্য। গত মঙ্গলবার সকালে জগদীশ চৌধুরী চট্টগ্রামে নিজ বাসভবনে শেষ নিঃশ্বাস ত্যাগ করেন। তিনি তার চক্ষুদানের শেষ ইচ্ছা পোষণ করে গিয়েছিলেন। সে অনুযায়ী পরিবারের সদস্যদের",
-      "sourceUrl": "https://www.ittefaq.com.bd/815945/%E0%A6%9C%E0%A6%97%E0%A6%A6%E0%A7%80%E0%A6%B6-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B2%E0%A7%8B-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A6%E0%A7%81%E0%A6%87",
-      "sourceName": "ইত্তেফাক"
     }
   ],
   "ads": [
