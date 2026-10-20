@@ -1,6 +1,6 @@
 {
-  "version": 631,
-  "updatedAt": "2026-10-20T01:00:33.123Z",
+  "version": 632,
+  "updatedAt": "2026-10-20T01:10:57.968Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -1561,7 +1561,7 @@
       "title": "সরকারি চাকরিতে ১৩৫ পদে নিয়োগ বিজ্ঞপ্তি প্রকাশ করেছে পিএসসি",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssf5ca8542b10ca1-1200x630.jpg",
       "publishedAt": "2026-10-19T16:59:17.528Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -1625,7 +1625,7 @@
       "title": "অনলাইনে ড্রাইভিং লাইসেন্স করবেন যেভাবে, আবেদন থেকে ফি জমা",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss2fd1357ea0a6b2-1200x630.jpg",
       "publishedAt": "2026-10-19T16:44:17.691Z",
       "tags": [
         "যুগান্তর"
