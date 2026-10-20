@@ -1,6 +1,6 @@
 {
-  "version": 705,
-  "updatedAt": "2026-10-20T19:18:15.168Z",
+  "version": 706,
+  "updatedAt": "2026-10-20T19:29:35.810Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rss1a496c85ce309f",
+      "slug": "গেন্ডারিয়ায়-অভিযানের-পরও-থামেনি-মাদক-কার",
+      "title": "গেন্ডারিয়ায় অভিযানের পরও থামেনি মাদক কারবার, আস্তানা এবার জুরাইন গোরস্তানে",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/10/21/2cf5004be99d96ede04d588ecb3553ab-6ad7bd4b4c669.jpg",
+      "publishedAt": "2026-10-20T19:29:21.517Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>রাজধানীর গেন্ডারিয়ার ঘুন্টিঘর রেলস্টেশন এলাকায় টানা দুই দিন আইনশৃঙ্খলা রক্ষাকারী বাহিনীর জোর তৎপরতা ও অভিযানের পরও মাদক কারবার পুরোপুরি বন্ধ করা যায়নি। পুলিশ ও মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সমন্বিত অভিযানের মুখে পুরোনো চক্রের সদস্যরা কৌশলে স্থান পরিবর্তন করে পাশের জুরাইন গোরস্তান এলাকায় নতুন করে মাদক সেবন ও বিক্রির আস্তানা গড়ে তুলেছেন বলে অভিযোগ করেছেন স্থানীয় বাসিন্দারা। মঙ্গলবার (২০... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/816360/%E0%A6%97%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%A5%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "রাজধানীর গেন্ডারিয়ার ঘুন্টিঘর রেলস্টেশন এলাকায় টানা দুই দিন আইনশৃঙ্খলা রক্ষাকারী বাহিনীর জোর তৎপরতা ও অভিযানের পরও মাদক কারবার পুরোপুরি বন্ধ করা যায়নি। পুলিশ ও মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সমন্বিত অভিযানের মুখে পুরোনো চক্রের সদস্যরা কৌশলে স্থান পরিবর্তন করে পাশের জুরাইন গোরস্তান এলাকায় নতুন করে ম",
+      "sourceUrl": "https://www.ittefaq.com.bd/816360/%E0%A6%97%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%A5%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%95-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B0",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss21195b3092d099",
+      "slug": "ভারতে-জয়শঙ্কর-রুবিও-দ্বিপক্ষীয়-বৈঠক-গুরু",
+      "title": "ভারতে জয়শঙ্কর-রুবিও দ্বিপক্ষীয় বৈঠক, গুরুত্ব পেল জ্বালানি ও প্রতিরক্ষা সহযোগিতা",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-20%2Fdbbvqa0h%2Fjai-shankar%E2%80%93marco-rubio%E2%80%931.jpg?rect=0%2C188%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+      "publishedAt": "2026-10-20T19:29:21.489Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>মুম্বাইয়ে জয়শঙ্কর ও মার্কিন পররাষ্ট্রমন্ত্রী মার্কো রুবিওর বৈঠকে জ্বালানি ও প্রতিরক্ষা সহযোগিতা ছাড়াও আমিরাতকে নিয়ে ত্রিপক্ষীয় অংশীদারত্বের বিষয়টি গুরুত্ব পেয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/india/811sngh76l\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "মুম্বাইয়ে জয়শঙ্কর ও মার্কিন পররাষ্ট্রমন্ত্রী মার্কো রুবিওর বৈঠকে জ্বালানি ও প্রতিরক্ষা সহযোগিতা ছাড়াও আমিরাতকে নিয়ে ত্রিপক্ষীয় অংশীদারত্বের বিষয়টি গুরুত্ব পেয়েছে।",
+      "sourceUrl": "https://www.prothomalo.com/world/india/811sngh76l",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rssf30607f6bd3d26",
       "slug": "চুয়েটের-সংকট-সমাধানে-ইউজিসির-কমিটিতে-নেই",
       "title": "চুয়েটের সংকট সমাধানে ইউজিসির কমিটিতে নেই চুয়েটরই কেউ",
@@ -97,6 +129,22 @@
       "body": "<p>বর্ণাঢ্য আয়োজনে জাতীয় প্রেসক্লাবের ৭২তম প্রতিষ্ঠাবার্ষিকী উদ্‌যাপন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/vrzzp951pe\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "বর্ণাঢ্য আয়োজনে জাতীয় প্রেসক্লাবের ৭২তম প্রতিষ্ঠাবার্ষিকী উদ্‌যাপন।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/vrzzp951pe",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss1f6da5b2cbaa95",
+      "slug": "টাইগার-শ্রফের-গাড়িতে-গুলির-ঘটনায়-গ্রেপ্ত",
+      "title": "টাইগার শ্রফের গাড়িতে গুলির ঘটনায় গ্রেপ্তার তরুণের মা বললেন, ‘ছেলেকে ফাঁদে ফেলে এই কাজ করানো হয়েছে’",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-20%2F5ju3udc8%2F2.avif?rect=0%2C44%2C622%2C327&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+      "publishedAt": "2026-10-20T19:14:21.511Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সাংবাদিকদের কাছে গ্রেপ্তার একজনের মা দাবি করেন, তাঁর ছেলেকে ভুল বুঝিয়ে এই নোংরা কাজের ফাঁদে ফেলা হয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/india/jrfyjb495g\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সাংবাদিকদের কাছে গ্রেপ্তার একজনের মা দাবি করেন, তাঁর ছেলেকে ভুল বুঝিয়ে এই নোংরা কাজের ফাঁদে ফেলা হয়েছে।",
+      "sourceUrl": "https://www.prothomalo.com/world/india/jrfyjb495g",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7970,54 +8018,6 @@
       "summary": "মোবাইল যোগাযোগের ক্ষেত্রে একটি বড় পরিবর্তনের সূচনা করতে যাচ্ছে টেলিযোগাযোগ নিয়ন্ত্রক সংস্থা (বিটিআরসি)। আগামী তিন বছরের মধ্যে দেশ থেকে ধাপে ধাপে বিদায় নিতে যাচ্ছে টু-জি নেটওয়ার্ক। অর্থাৎ নতুন এই সিদ্ধান্তের ফলে ২০২৯ সালের পর থেকে দেশে প্রচলিত টু-জি বাটন ফোন আর কাজ করবে না। এর ফলে দেশের নেটওয়ার্কে যু",
       "sourceUrl": "https://www.ittefaq.com.bd/815942/%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%9F%E0%A7%81-%E0%A6%9C%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A7%AC-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%9F%E0%A6%A8-%E0%A6%AB%E0%A7%8B%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%80",
       "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss2179b3cf26ffc2",
-      "slug": "বিবাহবিচ্ছেদের-পর-মদ্যপানে-আসক্তি-২৬-দিন",
-      "title": "বিবাহবিচ্ছেদের পর মদ্যপানে আসক্তি, ২৬ দিন পুনর্বাসন কেন্দ্রে ছিলেন চাহাল",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A7%A8%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8.webp",
-      "publishedAt": "2026-10-19T01:59:16.561Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ব্যক্তিগত জীবনের টানাপোড়েন, সামাজিক যোগাযোগমাধ্যমে সমালোচনা আর মানসিক চাপ- কঠিন এক সময়ের মধ্য দিয়ে যেতে হয়েছিল ভারতের লেগ স্পিনার যুজবেন্দ্র চাহালকে। ধনশ্রী বার্মার সঙ্গে বিবাহবিচ্ছেদের পর উদ্বেগ, প্যানিক অ্যাটাক এবং ক্রিকেট থেকে সাময়িক বিরতি নেওয়ার অভিজ্ঞতার কথা এবার প্রকাশ্যে জানিয়েছেন তিনি। এমনকি</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মানসিক অস্থিরতা জয় করে একজন খেলোয়াড়ের মাঠে ফেরার লড়াই কেবল পেশাদারিত্বের প্রমাণ নয়, বরং ক্রীড়াঙ্গনে মানসিক স্বাস্থ্যের গুরুত্বকে নতুনভাবে সামনে এনেছে। ব্যক্তিগত সংকট কাটিয়ে তার এই ঘুরে দাঁড়ানোর প্রচেষ্টা সতীর্থ ও ভক্তদের জন্য অনুপ্রেরণার উৎস হয়ে থাকবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/cricket/975341/%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A7%A8%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ব্যক্তিগত জীবনের টানাপোড়েন, সামাজিক যোগাযোগমাধ্যমে সমালোচনা আর মানসিক চাপ- কঠিন এক সময়ের মধ্য দিয়ে যেতে হয়েছিল ভারতের লেগ স্পিনার যুজবেন্দ্র চাহালকে। ধনশ্রী বার্মার সঙ্গে বিবাহবিচ্ছেদের পর উদ্বেগ, প্যানিক অ্যাটাক এবং ক্রিকেট থেকে সাময়িক বিরতি নেওয়ার অভিজ্ঞতার কথা এবার প্রকাশ্যে জানিয়েছেন তিনি। এমনকি",
-      "sourceUrl": "https://www.banglatribune.com/sport/cricket/975341/%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A7%A8%E0%A7%AC-%E0%A6%A6%E0%A6%BF%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss1ca829ab4244cf",
-      "slug": "দুই-বছরের-প্রকল্প-৯-বছর-পার-অবশেষে-খুলছে-ও",
-      "title": "দুই বছরের প্রকল্প ৯ বছর পার, অবশেষে খুলছে ওসমানী উদ্যানের দুয়ার",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%AF-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%93.webp",
-      "publishedAt": "2026-10-19T01:59:16.558Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>প্রায় ৯ বছর বন্ধ থাকার পর অবশেষে জনসাধারণের জন্য উন্মুক্ত হতে যাচ্ছে রাজধানীর ওসমানী উদ্যান। ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) উদ্যোগে আধুনিকায়িত ঐতিহাসিক এ উদ্যান এবং সেখানে নবনির্মিত ‘জুলাই স্মৃতিস্তম্ভ’ সোমবার (১৯ অক্টোবর) আনুষ্ঠানিকভাবে উদ্বোধন করবেন প্রধানমন্ত্রী তারেক রহমান। উদ্বোধনের পর </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">উন্নয়ন প্রকল্পের দীর্ঘসূত্রতা প্রশাসনের জবাবদিহিতার অভাবকেই স্পষ্ট করে, যা নগরবাসীর ভোগান্তি বাড়ায়। রাজনৈতিক আইকনের সংযোজন উদ্যানটির জনপ্রত্যাশা পূরণের পাশাপাশি নতুন রাজনৈতিক আখ্যান তৈরির কৌশলী পদক্ষেপ হিসেবেই প্রতীয়মান হয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/975385/%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%AF-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%93%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%80\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "প্রায় ৯ বছর বন্ধ থাকার পর অবশেষে জনসাধারণের জন্য উন্মুক্ত হতে যাচ্ছে রাজধানীর ওসমানী উদ্যান। ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) উদ্যোগে আধুনিকায়িত ঐতিহাসিক এ উদ্যান এবং সেখানে নবনির্মিত ‘জুলাই স্মৃতিস্তম্ভ’ সোমবার (১৯ অক্টোবর) আনুষ্ঠানিকভাবে উদ্বোধন করবেন প্রধানমন্ত্রী তারেক রহমান। উদ্বোধনের পর ",
-      "sourceUrl": "https://www.banglatribune.com/others/975385/%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A7%AF-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%93%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%80",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss9a1195b914fe00",
-      "slug": "আজ-অষ্টমী-রামকৃষ্ণ-মিশনে-হবে-কুমারী-পূজা",
-      "title": "আজ অষ্টমী, রামকৃষ্ণ মিশনে হবে কুমারী পূজা",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%9C-%E0%A6%85%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%80-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3-%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE.webp",
-      "publishedAt": "2026-10-19T01:59:16.556Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দেবী দুর্গার আগমনের পর মহাসপ্তমী শেষ হয়েছে। আজ মহাঅষ্টমী। সোমবার (১৮ অক্টোবর) সকালে ঢাকেশ্বরী জাতীয় মন্দিরে দেবীর মহাষ্টমী কল্পারম্ভ ও বিহিত পূজা শুরু হবে। এরপর দুপুরে মহা প্রসাদ বিতরণ হবে। অষ্টমীর দিনে সকাল সাড়ে ৯টায় রাজধানীর গোপীবাগের রামকৃষ্ণ মঠে অনুষ্ঠিত হবে কুমারী পূজা। কুমারী বালিকার মধ্যে বিশ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কুমারী পূজার মাধ্যমে নারীর পবিত্রতা ও ঈশ্বরত্বকে যে সম্মান জানানো হয়, তা অসাম্প্রদায়িক ও মানবিক সমাজ গঠনে বিশেষ প্রেরণা জোগায়। ধর্মীয় এই আচারটি কেবল একটি প্রথা নয়, বরং সকল নারীর প্রতি শ্রদ্ধাশীল হওয়ার সামাজিক বার্তা বহন করে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/975406/%E0%A6%86%E0%A6%9C-%E0%A6%85%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%80-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3-%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দেবী দুর্গার আগমনের পর মহাসপ্তমী শেষ হয়েছে। আজ মহাঅষ্টমী। সোমবার (১৮ অক্টোবর) সকালে ঢাকেশ্বরী জাতীয় মন্দিরে দেবীর মহাষ্টমী কল্পারম্ভ ও বিহিত পূজা শুরু হবে। এরপর দুপুরে মহা প্রসাদ বিতরণ হবে। অষ্টমীর দিনে সকাল সাড়ে ৯টায় রাজধানীর গোপীবাগের রামকৃষ্ণ মঠে অনুষ্ঠিত হবে কুমারী পূজা। কুমারী বালিকার মধ্যে বিশ",
-      "sourceUrl": "https://www.banglatribune.com/national/975406/%E0%A6%86%E0%A6%9C-%E0%A6%85%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%80-%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A3-%E0%A6%AE%E0%A6%BF%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
