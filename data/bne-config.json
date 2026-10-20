@@ -1,6 +1,6 @@
 {
-  "version": 630,
-  "updatedAt": "2026-10-20T00:50:12.707Z",
+  "version": 631,
+  "updatedAt": "2026-10-20T01:00:33.123Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -1634,6 +1634,54 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTLTk1azBtcHN6bUJSdHc3VEtCQWRyd2p2cTVCVFpDWlhFbTN3Z3VRVmpZRmdhaEV4bWJiQmoyal9Qa0tfQmxEUlptSDFjQQ?oc=5\" target=\"_blank\"&gt;অনলাইনে ড্রাইভিং লাইসেন্স করবেন যেভাবে, আবেদন থেকে ফি জমা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTLTk1azBtcHN6bUJSdHc3VEtCQWRyd2p2cTVCVFpDWlhFbTN3Z3VRVmpZRmdhaEV4bWJiQmoyal9Qa0tfQmxEUlptSDFjQQ?oc=5",
       "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rssaafda404fdd640",
+      "slug": "কিশোর-কিশোরীর-স্বাস্থ্যসমতা-নিশ্চিতকরণ",
+      "title": "কিশোর-কিশোরীর স্বাস্থ্যসমতা নিশ্চিতকরণ",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A6%AE%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A6%95%E0%A6%B0%E0%A6%A3.avif",
+      "publishedAt": "2026-10-19T16:44:17.672Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>আন্তর্জাতিক কৈশোর স্বাস্থ্য সপ্তাহ (১২–১৯ অক্টোবর ২০২৬) উপলক্ষে কিশোর-কিশোরীদের স্বাস্থ্য, পুষ্টি, মানসিক সুস্থতা ও প্রজনন স্বাস্থ্যসচেতনতা নিয়ে প্রথম আলো কার্যালয়ে অনুষ্ঠিত হয়েছে গোলটেবিল বৈঠক। বিস্তারিত দেখুন ভিডিওতে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/video/bangladesh/7bzw797m84\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "আন্তর্জাতিক কৈশোর স্বাস্থ্য সপ্তাহ (১২–১৯ অক্টোবর ২০২৬) উপলক্ষে কিশোর-কিশোরীদের স্বাস্থ্য, পুষ্টি, মানসিক সুস্থতা ও প্রজনন স্বাস্থ্যসচেতনতা নিয়ে প্রথম আলো কার্যালয়ে অনুষ্ঠিত হয়েছে গোলটেবিল বৈঠক। বিস্তারিত দেখুন ভিডিওতে...",
+      "sourceUrl": "https://www.prothomalo.com/video/bangladesh/7bzw797m84",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rssf0f794520f6bcf",
+      "slug": "শিশুদের-স্বাস্থ্যসচেতনতায়-নোয়াখালী-বন্",
+      "title": "শিশুদের স্বাস্থ্যসচেতনতায় নোয়াখালী বন্ধুসভার উদ্যোগ",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A6%9A%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A6%A4%E0%A6%BE%E0%A7%9F-%E0%A6%A8%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%AC%E0%A6%A8%E0%A7%8D.avif",
+      "publishedAt": "2026-10-19T16:44:17.669Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>অনুষ্ঠানে শিক্ষার্থীদের হাত ধোয়ার সঠিক নিয়ম, ব্যক্তিগত পরিচ্ছন্নতা, নিরাপদ পানির ব্যবহার এবং ডায়রিয়া ও পানিশূন্যতা প্রতিরোধে করণীয় বিষয়ে সচেতন করা হয়। এ সময় সঞ্চালক শিক্ষার্থীদের হাতে-কলমে সঠিক নিয়মে খাওয়ার স্যালাইন (ওরস্যালাইন) তৈরির পদ্ধতি প্রদর্শন করেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bondhushava.com/activities/iqb611f6xq\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "অনুষ্ঠানে শিক্ষার্থীদের হাত ধোয়ার সঠিক নিয়ম, ব্যক্তিগত পরিচ্ছন্নতা, নিরাপদ পানির ব্যবহার এবং ডায়রিয়া ও পানিশূন্যতা প্রতিরোধে করণীয় বিষয়ে সচেতন করা হয়। এ সময় সঞ্চালক শিক্ষার্থীদের হাতে-কলমে সঠিক নিয়মে খাওয়ার স্যালাইন (ওরস্যালাইন) তৈরির পদ্ধতি প্রদর্শন করেন।",
+      "sourceUrl": "https://www.bondhushava.com/activities/iqb611f6xq",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss243c2131cf9dc2",
+      "slug": "আইসিসির-নতুন-নিয়ম-বোলার-ব্যাটসম্যান-সবার",
+      "title": "আইসিসির নতুন নিয়ম: বোলার-ব্যাটসম্যান সবার বিপদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%AE-%E0%A6%AC%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%B0.avif",
+      "publishedAt": "2026-10-19T16:44:17.666Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>আইসিসির নতুন নিয়ম: বোলার-ব্যাটসম্যান সবার বিপদ</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/cricket/aaisisir-ntun-niyym-bolaar-byaattsmyaan-sbaar-bipd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "আইসিসির নতুন নিয়ম: বোলার-ব্যাটসম্যান সবার বিপদ",
+      "sourceUrl": "https://www.prothomalo.com/sports/cricket/aaisisir-ntun-niyym-bolaar-byaattsmyaan-sbaar-bipd",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rss4caf087a580fb8",
@@ -7970,54 +8018,6 @@
       "summary": "ভারতের মধ্যপ্রদেশের গালিওরের শীতলা মাতা মন্দিরের কাছে নিয়ন্ত্রণহীন ট্রাকের চাপায় ১৫ ভক্ত নিহত হয়েছেন। এ ঘটনায় অন্তত ২৭ জন গুরুতর আহত হয়েছেন। রোববার (১৮ অক্টোবর)...",
       "sourceUrl": "https://www.daily-bangladesh.com/international/538686",
       "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsse08e51c92e61ec",
-      "slug": "মাদকবিরোধী-অভিযানে-ইশরাকের-আগ্নেয়াস্ত্",
-      "title": "মাদকবিরোধী অভিযানে ইশরাকের আগ্নেয়াস্ত্র ব্যবহার তদন্তের নির্দেশ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rsse08e51c92e61ec-1200x630.jpg",
-      "publishedAt": "2026-10-18T07:29:14.133Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>মাদকবিরোধী অভিযানে মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ইশরাক হোসেন ও তাঁর সহযোগীদের আগ্নেয়াস্ত্র ব্যবহারের বিষয়ে তদন্তের নির্দেশ দেওয়া হয়েছে। ঢাকা মহানগর গোয়েন্দা পুলিশের (ডিবি) প্রধান শফিকুল ইসলাম বলেছেন, এ বিষয়ে ঢাকা মহানগর পুলিশের (ডিএমপি) ওয়ারী বিভাগের উপকমিশনারকে তদন্তের দায়িত্ব...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের দ্বারা আগ্নেয়াস্ত্রের এমন ব্যবহার জননিরাপত্তার জন্য চরম উদ্বেগের। সুষ্ঠু ও নিরপেক্ষ তদন্তের মাধ্যমে দায়ীদের বিরুদ্ধে দৃষ্টান্তমূলক ব্যবস্থা নেওয়া জরুরি, যাতে সাধারণ মানুষ রাষ্ট্রীয় প্রশাসনের ওপর আস্থা বজায় রাখতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314387/মাদকবিরোধী-অভিযানে-ইশরাকের-আগ্নেয়াস্ত্র-ব্যবহার-তদন্তের-নির্দেশ\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "মাদকবিরোধী অভিযানে মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ইশরাক হোসেন ও তাঁর সহযোগীদের আগ্নেয়াস্ত্র ব্যবহারের বিষয়ে তদন্তের নির্দেশ দেওয়া হয়েছে। ঢাকা মহানগর গোয়েন্দা পুলিশের (ডিবি) প্রধান শফিকুল ইসলাম বলেছেন, এ বিষয়ে ঢাকা মহানগর পুলিশের (ডিএমপি) ওয়ারী বিভাগের উপকমিশনারকে তদন্তের দায়িত্ব...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/314387/মাদকবিরোধী-অভিযানে-ইশরাকের-আগ্নেয়াস্ত্র-ব্যবহার-তদন্তের-নির্দেশ",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss218ed197bb1913",
-      "slug": "কানাডায়-ব্যস্ততম-সামরিক-ঘাঁটিতে-আগুন-নিহ",
-      "title": "কানাডায় ব্যস্ততম সামরিক ঘাঁটিতে আগুন: নিহত ২, প্রধানমন্ত্রীর শোক",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rss218ed197bb1913-1200x630.jpg",
-      "publishedAt": "2026-10-18T07:29:14.128Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>কানাডার আলবার্টা প্রদেশের অন্যতম গুরুত্বপূর্ণ সামরিক প্রশিক্ষণ ঘাঁটি কানাডিয়ান ফোর্সেস বেস ওয়েনরাইট-এ ভয়াবহ অগ্নিকাণ্ডের ঘটনায় অন্তত দুইজনের মৃত্যু ও বেশ কয়েকজন আহত হয়েছেন। হতাহতের সংখ্যা আরও বাড়তে পারে বলে আশঙ্কা করা হচ্ছে। তীব্র বাতাসের কারণে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কানাডার সামরিক ঘাঁটিতে এই অগ্নিকাণ্ড দেশটির অভ্যন্তরীণ নিরাপত্তা ও প্রতিরক্ষা সক্ষমতা নিয়ে নতুন করে রাজনৈতিক উদ্বেগের জন্ম দিয়েছে। সাধারণ নাগরিকদের জন্য এটি কেবল একটি দুর্ঘটনা নয়, বরং জাতীয় নিরাপত্তার দুর্বলতা ও জরুরি ব্যবস্থাপনা নিয়ে জনমনে গভীর আস্থার সংকট তৈরি করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/314388/কানাডায়-ব্যস্ততম-সামরিক-ঘাঁটিতে-আগুন-নিহত-২-প্রধানমন্ত্রীর-শোক\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "কানাডার আলবার্টা প্রদেশের অন্যতম গুরুত্বপূর্ণ সামরিক প্রশিক্ষণ ঘাঁটি কানাডিয়ান ফোর্সেস বেস ওয়েনরাইট-এ ভয়াবহ অগ্নিকাণ্ডের ঘটনায় অন্তত দুইজনের মৃত্যু ও বেশ কয়েকজন আহত হয়েছেন। হতাহতের সংখ্যা আরও বাড়তে পারে বলে আশঙ্কা করা হচ্ছে। তীব্র বাতাসের কারণে...",
-      "sourceUrl": "https://www.bd-journal.com/international/314388/কানাডায়-ব্যস্ততম-সামরিক-ঘাঁটিতে-আগুন-নিহত-২-প্রধানমন্ত্রীর-শোক",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss160ca6d2e3b7c8",
-      "slug": "বাংলাদেশ-সফরের-আগে-ওয়েস্ট-ইন্ডিজ-দলে-পরি",
-      "title": "বাংলাদেশ সফরের আগে ওয়েস্ট ইন্ডিজ দলে পরিবর্তন",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%9C-%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF.webp",
-      "publishedAt": "2026-10-18T07:29:14.119Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বাংলাদেশ সফরের আগে ওয়েস্ট ইন্ডিজের টেস্ট দলে পরিবর্তন এসেছে। ব্যক্তিগত ও পারিবারিক কারণে দেশে ফিরছেন পেস বোলিং অলরাউন্ডার কিমো পল। তার পরিবর্তে দুই ম্যাচের টেস্ট সিরিজের দলে ডাক পেয়েছেন শামার স্প্রিঙ্গার। ক্যারিবীয়দের হয়ে এখনো টেস্ট অভিষেক হয়নি ২৮ বছর বয়সী এই অলরাউন্ডারের। ক্রিকেট ওয়েস্ট ইন্ডিজের (স</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কিমো পলের অনুপস্থিতি ক্যারিবীয়দের বোলিং ভারসাম্যে বড় চ্যালেঞ্জ তৈরি করলেও শামার স্প্রিঙ্গারের অন্তর্ভুক্তি নতুনদের জন্য নিজেকে প্রমাণের সুযোগ তৈরি করেছে। দলের এই পরিবর্তন বাংলাদেশের কন্ডিশনে তাদের কৌশল ও জয়ের সম্ভাবনাকে নতুন রূপ দিতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/cricket/975234/%C2%A0%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%9C-%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বাংলাদেশ সফরের আগে ওয়েস্ট ইন্ডিজের টেস্ট দলে পরিবর্তন এসেছে। ব্যক্তিগত ও পারিবারিক কারণে দেশে ফিরছেন পেস বোলিং অলরাউন্ডার কিমো পল। তার পরিবর্তে দুই ম্যাচের টেস্ট সিরিজের দলে ডাক পেয়েছেন শামার স্প্রিঙ্গার। ক্যারিবীয়দের হয়ে এখনো টেস্ট অভিষেক হয়নি ২৮ বছর বয়সী এই অলরাউন্ডারের। ক্রিকেট ওয়েস্ট ইন্ডিজের (স",
-      "sourceUrl": "https://www.banglatribune.com/sport/cricket/975234/%C2%A0%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%B8%E0%A6%AB%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%9C-%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
