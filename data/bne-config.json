@@ -1,6 +1,6 @@
 {
-  "version": 638,
-  "updatedAt": "2026-10-20T02:03:15.889Z",
+  "version": 639,
+  "updatedAt": "2026-10-20T02:13:17.090Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "আজ থেকে টানা পাঁচ দিন ব্যাংক-আর্থিক প্রতিষ্ঠান বন্ধ",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss378a9218f30984-1200x630.jpg",
       "publishedAt": "2026-10-20T01:59:18.179Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -105,7 +105,7 @@
       "title": "নাটোরের বনপাড়ায় বাস-ট্রাক সংঘর্ষে নিহত ১০, আহত অন্তত ২৫ জন",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssefa7df060994f5-1200x630.jpg",
       "publishedAt": "2026-10-20T01:44:18.041Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -121,7 +121,7 @@
       "title": "৩০ দিনের নিষেধাজ্ঞা ও জরিমানার মুখে রোনালদো",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rsscdd8fc09b54e4a-1200x630.jpg",
       "publishedAt": "2026-10-20T01:44:18.039Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -153,7 +153,7 @@
       "title": "আকিজ গ্রুপে চাকরি, প্রভিডেন্ট ফান্ডসহ রয়েছে স্বাস্থ্যসেবা সুবিধা",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss17572cff10b0a2-1200x630.jpg",
       "publishedAt": "2026-10-20T01:29:17.964Z",
       "tags": [
         "সরকারি দপ্তর"
