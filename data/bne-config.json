@@ -1,6 +1,6 @@
 {
-  "version": 648,
-  "updatedAt": "2026-10-20T04:07:27.749Z",
+  "version": 649,
+  "updatedAt": "2026-10-20T04:17:50.760Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss2e9102845cd9a6",
+      "slug": "কুয়াশায়-জানান-দিচ্ছে-শীতের-আগমনী-বার্তা",
+      "title": "কুয়াশায় জানান দিচ্ছে শীতের আগমনী বার্তা",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A6%A8%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE.jpg",
+      "publishedAt": "2026-10-20T04:14:18.520Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ভোরের আলো তখনও পুরোপুরি ছড়িয়ে পড়েনি। চারপাশে হালকা কুয়াশার আবরণ, দূরের গাছপালা ঝাপসা, আর দিগন্তজুড়ে ধূসর প্রকৃতি। কিছুক্ষণ পরেই পূর্ব আকাশে উঁকি দেয় সোনালি সূর্...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538879\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ভোরের আলো তখনও পুরোপুরি ছড়িয়ে পড়েনি। চারপাশে হালকা কুয়াশার আবরণ, দূরের গাছপালা ঝাপসা, আর দিগন্তজুড়ে ধূসর প্রকৃতি। কিছুক্ষণ পরেই পূর্ব আকাশে উঁকি দেয় সোনালি সূর্...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/538879",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssbdfbfab74b9caf",
+      "slug": "বিক্ষোভে-রণক্ষেত্র-ফ্রান্স-গ্রেপ্তার-আড়",
+      "title": "বিক্ষোভে রণক্ষেত্র ফ্রান্স, গ্রেপ্তার আড়াই হাজারের বেশি",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD%E0%A7%87-%E0%A6%B0%E0%A6%A3%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A7%9C.jpg",
+      "publishedAt": "2026-10-20T04:14:18.511Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জ্বালানির চড়া দাম, জীবনযাত্রার বাড়তি ব্যয় ও সরকারি সেবার মান কমে যাওয়ার প্রতিবাদে উত্তাল হয়ে উঠেছে ফ্রান্স। এক শহর থেকে অন্য শহরে ছড়িয়ে পড়া এই বিক্ষোভ একপর্যায়ে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/538882\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জ্বালানির চড়া দাম, জীবনযাত্রার বাড়তি ব্যয় ও সরকারি সেবার মান কমে যাওয়ার প্রতিবাদে উত্তাল হয়ে উঠেছে ফ্রান্স। এক শহর থেকে অন্য শহরে ছড়িয়ে পড়া এই বিক্ষোভ একপর্যায়ে...",
+      "sourceUrl": "https://www.daily-bangladesh.com/international/538882",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss18534ecb8d6cbc",
+      "slug": "ডিএমডি-পদে-দুই-বছরের-অভিজ্ঞতা-না-থাকলেও-র",
+      "title": "ডিএমডি পদে দুই বছরের অভিজ্ঞতা না থাকলেও রাষ্ট্রায়ত্ত ব্যাংকে এমডি হওয়া যাবে",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%93-%E0%A6%B0.webp",
+      "publishedAt": "2026-10-20T04:14:18.502Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাষ্ট্রায়ত্ত বাণিজ্যিক ব্যাংকের ব্যবস্থাপনা পরিচালক (এমডি) ও প্রধান নির্বাহী কর্মকর্তা (সিইও) নিয়োগের ক্ষেত্রে অভিজ্ঞতার শর্ত শিথিল করার সুযোগ রেখেছে সরকার। বিশেষ দক্ষতা, পেশাগত যোগ্যতা, নেতৃত্বের সক্ষমতা ও সুনাম বিবেচনায় উপব্যবস্থাপনা পরিচালক (ডিএমডি) পদে অন্তত দুই বছরের অভিজ্ঞতা না থাকলেও কোনও কর্মকর্তাকে এমডি পদে নিয়োগের জন্য বিবেচনা করা যাবে। সোমবার (১৯ অক্টোবর) অর্থ মন্ত্রণালয়ের আর্থিক... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/money-and-investment/975604/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%93\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাষ্ট্রায়ত্ত বাণিজ্যিক ব্যাংকের ব্যবস্থাপনা পরিচালক (এমডি) ও প্রধান নির্বাহী কর্মকর্তা (সিইও) নিয়োগের ক্ষেত্রে অভিজ্ঞতার শর্ত শিথিল করার সুযোগ রেখেছে সরকার। বিশেষ দক্ষতা, পেশাগত যোগ্যতা, নেতৃত্বের সক্ষমতা ও সুনাম বিবেচনায় উপব্যবস্থাপনা পরিচালক (ডিএমডি) পদে অন্তত দুই বছরের অভিজ্ঞতা না থাকলেও কোনও কর্",
+      "sourceUrl": "https://www.banglatribune.com/business/money-and-investment/975604/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%93",
+      "sourceName": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rssc6026e992553e9",
@@ -7970,54 +8018,6 @@
       "summary": "দেশে ডেঙ্গুজ্বরের পরিস্থিতি দিন দিন আরও উদ্বেগজনক হয়ে উঠছে। এডিস মশাবাহিত এই রোগে আক্রান্ত হয়ে গত ২৪ ঘণ্টায় (শনিবার সকাল ৮টা থেকে রোববার সকাল ৮টা পর্যন্ত) আরও ৭...",
       "sourceUrl": "https://daily-bangladesh.com/health-and-medical/538708",
       "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssa7976238ff9ce3",
-      "slug": "সমুদ্রসৈকতের-বাইরে-কক্সবাজারে-ঘুরে-দেখু",
-      "title": "সমুদ্রসৈকতের বাইরে কক্সবাজারে ঘুরে দেখুন রেডিয়েন্ট ফিশ ওয়ার্ল্ড",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%88%E0%A6%95%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%98%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%81.webp",
-      "publishedAt": "2026-10-18T10:44:14.409Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>কক্সবাজার মানেই নীল সমুদ্র, বালুকাবেলা আর সূর্যাস্তের অপরূপ দৃশ্য। তবে সমুদ্রসৈকতে ঘোরাঘুরির পাশাপাশি পরিবারের সঙ্গে অন্য রকম অভিজ্ঞতা নিতে চাইলে ঘুরে আসতে পারেন রেডিয়েন্ট ফিশ ওয়ার্ল্ড। শহরের ঝাউতলা এলাকার এই ইনডোর অ্যাকুয়ারিয়ামে জলজ প্রাণী দেখার পাশাপাশি রয়েছে শিশুদের বিনোদন ও ছবি তোলার নানা আয়োজন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পর্যটনশিল্পে বৈচিত্র্য আনতে এমন ইনডোর বিনোদনকেন্দ্রগুলো অত্যন্ত কার্যকর। সমুদ্রের পাশাপাশি কৃত্রিম এই জলজ জগৎ দর্শকদের জন্য নতুন অভিজ্ঞতা যুক্ত করে কক্সবাজারের পর্যটন অর্থনীতিকে আরও গতিশীল করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/975275/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%88%E0%A6%95%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%98%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%81%E0%A6%A8-%E0%A6%B0%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "কক্সবাজার মানেই নীল সমুদ্র, বালুকাবেলা আর সূর্যাস্তের অপরূপ দৃশ্য। তবে সমুদ্রসৈকতে ঘোরাঘুরির পাশাপাশি পরিবারের সঙ্গে অন্য রকম অভিজ্ঞতা নিতে চাইলে ঘুরে আসতে পারেন রেডিয়েন্ট ফিশ ওয়ার্ল্ড। শহরের ঝাউতলা এলাকার এই ইনডোর অ্যাকুয়ারিয়ামে জলজ প্রাণী দেখার পাশাপাশি রয়েছে শিশুদের বিনোদন ও ছবি তোলার নানা আয়োজন।",
-      "sourceUrl": "https://www.banglatribune.com/journey/975275/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%88%E0%A6%95%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%98%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A7%81%E0%A6%A8-%E0%A6%B0%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rsscc4cb358b687da",
-      "slug": "ডিএমপির-অভিযানে-২৪-ঘণ্টায়-গ্রেফতার-৪৯০",
-      "title": "ডিএমপির অভিযানে ২৪ ঘণ্টায় গ্রেফতার ৪৯০",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AA%E0%A7%AF%E0%A7%A6.webp",
-      "publishedAt": "2026-10-18T10:44:14.407Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজধানীতে ঢাকা মেট্রোপলিটন পুলিশের নিয়মিত অভিযানে গত ২৪ ঘণ্টায় ৪৯০ জন গ্রেফতার হয়েছে। একই সময়ে ৪২টি মামলা দায়ের করা হয়েছে। রবিবার (১৮ অক্টোবর) সকালে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়েছে। গ্রেফতারকৃতদের মধ্যে রমনা বিভাগ ৩৯ জন, লালবাগ বিভাগ ৫২ জন, ওয়ারী বিভাগ ৫৭ জন, মতিঝিল বিভাগ ৬২ জন, তেজগাঁও</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজধানীর আইনশৃঙ্খলা রক্ষায় এই ধারাবাহিক অভিযান জনমনে নিরাপত্তা নিশ্চিত করতে গুরুত্বপূর্ণ ভূমিকা রাখবে। অপরাধ নিয়ন্ত্রণে পুলিশের এমন কঠোর অবস্থানের পাশাপাশি স্থানীয় বাসিন্দাদের যে কোনো সন্দেহজনক কর্মকাণ্ডের বিষয়ে দ্রুত প্রশাসনকে অবহিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/975276/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AA%E0%A7%AF%E0%A7%A6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজধানীতে ঢাকা মেট্রোপলিটন পুলিশের নিয়মিত অভিযানে গত ২৪ ঘণ্টায় ৪৯০ জন গ্রেফতার হয়েছে। একই সময়ে ৪২টি মামলা দায়ের করা হয়েছে। রবিবার (১৮ অক্টোবর) সকালে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়েছে। গ্রেফতারকৃতদের মধ্যে রমনা বিভাগ ৩৯ জন, লালবাগ বিভাগ ৫২ জন, ওয়ারী বিভাগ ৫৭ জন, মতিঝিল বিভাগ ৬২ জন, তেজগাঁও",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/975276/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AA%E0%A7%AF%E0%A7%A6",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rsse2f350dd5cb463",
-      "slug": "ডুমুর-গাছে-পাতিল-বসিয়ে-কেন-পানি-খাচ্ছে-শত",
-      "title": "ডুমুর গাছে পাতিল বসিয়ে কেন পানি খাচ্ছে শত শত মানুষ?",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A1%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%B8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%96%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%A4.webp",
-      "publishedAt": "2026-10-18T10:44:14.392Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>কেউ পেতেছেন পাতিল। কেউ ধরেছেন জগ। কেউবা আবার গ্লাস হাতে অপেক্ষায়। শত শত মানুষের এই প্রচেষ্টা পানি সংগ্রহের জন্য। তবে এটি কোনও সাধারণ পানি নয়; ডুমুর গাছ থেকে অনর্গল বের হওয়া গারো তরল পদার্থ। গারো তরল এই পদার্থকেই বিভিন্ন রোগের নিরাময়ক হিসেবে ভাবছেন নাটোরের নলডাঙ্গা উপজেলার মাধনগর ও এর আশপাশের গ্রামে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অন্ধবিশ্বাসের বশবর্তী হয়ে ডুমুর গাছের কষ পান করা জনস্বাস্থ্যের জন্য চরম ঝুঁকিপূর্ণ। এ ধরনের অপচিকিৎসা থেকে বিরত থাকতে স্থানীয় প্রশাসনকে দ্রুত সচেতনতামূলক পদক্ষেপ নিতে হবে এবং সাধারণ মানুষকে চিকিৎসার জন্য চিকিৎসকের শরণাপন্ন হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/rajshahi/975277/%E0%A6%A1%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%B8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%96%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%A4-%E0%A6%B6%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "কেউ পেতেছেন পাতিল। কেউ ধরেছেন জগ। কেউবা আবার গ্লাস হাতে অপেক্ষায়। শত শত মানুষের এই প্রচেষ্টা পানি সংগ্রহের জন্য। তবে এটি কোনও সাধারণ পানি নয়; ডুমুর গাছ থেকে অনর্গল বের হওয়া গারো তরল পদার্থ। গারো তরল এই পদার্থকেই বিভিন্ন রোগের নিরাময়ক হিসেবে ভাবছেন নাটোরের নলডাঙ্গা উপজেলার মাধনগর ও এর আশপাশের গ্রামে",
-      "sourceUrl": "https://www.banglatribune.com/country/rajshahi/975277/%E0%A6%A1%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%B8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%96%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%A4-%E0%A6%B6%E0%A6%A4",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
