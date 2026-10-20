@@ -1,6 +1,6 @@
 {
-  "version": 686,
-  "updatedAt": "2026-10-20T15:49:15.703Z",
+  "version": 687,
+  "updatedAt": "2026-10-20T15:59:45.834Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rssf00da395269fad",
+      "slug": "জনগণের-ভোট-ছাড়া-সিল-মেরে-চেয়ারম্যান-হওয়া",
+      "title": "জনগণের ভোট ছাড়া সিল মেরে চেয়ারম্যান হওয়ার দিন শেষ: ফখরুল ইসলাম",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%A8%E0%A6%97%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A7%8B%E0%A6%9F-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%B8%E0%A6%BF%E0%A6%B2-%E0%A6%AE%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE.jpg",
+      "publishedAt": "2026-10-20T15:59:21.487Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জনগণের ভোট ছাড়া কারচুপির মাধ্যমে চেয়ারম্যান হওয়ার সুযোগ আর নেই বলে মন্তব্য করেছেন নোয়াখালী-৫ আসনের সংসদ সদস্য মোহাম্মদ ফখরুল ইসলাম। তিনি বলেছেন, রাজনীতি হতে হবে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/538969\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জনগণের ভোট ছাড়া কারচুপির মাধ্যমে চেয়ারম্যান হওয়ার সুযোগ আর নেই বলে মন্তব্য করেছেন নোয়াখালী-৫ আসনের সংসদ সদস্য মোহাম্মদ ফখরুল ইসলাম। তিনি বলেছেন, রাজনীতি হতে হবে...",
+      "sourceUrl": "https://daily-bangladesh.com/country/538969",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssdf7e1db47d5776",
+      "slug": "রামগড়ে-দুর্গাপূজার-মণ্ডপ-পরিদর্শন-করলেন",
+      "title": "রামগড়ে দুর্গাপূজার মণ্ডপ পরিদর্শন করলেন ওয়াদুদ ভূঁইয়া",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AA-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8.jpg",
+      "publishedAt": "2026-10-20T15:59:21.482Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>শারদীয় দুর্গাপূজা উপলক্ষে খাগড়াছড়ির রামগড় উপজেলার শ্রীশ্রী দক্ষিণেশ্বরী কালীবাড়ি পূজামণ্ডপ পরিদর্শন করেছেন পার্বত্য চট্টগ্রামবিষয়ক মন্ত্রণালয়ের সংসদীয় স্থায়ী কম...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/538970\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "শারদীয় দুর্গাপূজা উপলক্ষে খাগড়াছড়ির রামগড় উপজেলার শ্রীশ্রী দক্ষিণেশ্বরী কালীবাড়ি পূজামণ্ডপ পরিদর্শন করেছেন পার্বত্য চট্টগ্রামবিষয়ক মন্ত্রণালয়ের সংসদীয় স্থায়ী কম...",
+      "sourceUrl": "https://daily-bangladesh.com/country/538970",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss4b432fcfb01dbb",
+      "slug": "বাংলাদেশ-নেপাল-ফ্রান্সের-উদাহরণ-টেনে-ভার",
+      "title": "বাংলাদেশ-নেপাল-ফ্রান্সের উদাহরণ টেনে ভারত নিয়ে সতর্ক করলেন মোহন ভগবত",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "images/international.jpg",
+      "publishedAt": "2026-10-20T15:59:21.476Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>রাষ্ট্রীয় স্বয়ংসেবক সংঘের (আরএসএস) প্রধান মোহন ভগবত বাংলাদেশ, নেপাল ও ফ্রান্সের মতো দেশগুলোর অস্থিতিশীলতার উদাহরণ টেনে ভারতে শাসন পরিবর্তনের যেকোনো চেষ্টার বিরুদ্ধে হুঁশিয়ারি দিয়েছেন। ভারতে প্রধান নির্বাচন কমিশনার জ্ঞানেশ কুমারের বিরুদ্ধে বিক্ষোভ নিয়ে রাজনৈতিক বিতর্কের মধ্যে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/314514/বাংলাদেশ-নেপাল-ফ্রান্সের-উদাহরণ-টেনে-ভারত-নিয়ে-সতর্ক-করলেন-মোহন-ভগবত\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "রাষ্ট্রীয় স্বয়ংসেবক সংঘের (আরএসএস) প্রধান মোহন ভগবত বাংলাদেশ, নেপাল ও ফ্রান্সের মতো দেশগুলোর অস্থিতিশীলতার উদাহরণ টেনে ভারতে শাসন পরিবর্তনের যেকোনো চেষ্টার বিরুদ্ধে হুঁশিয়ারি দিয়েছেন। ভারতে প্রধান নির্বাচন কমিশনার জ্ঞানেশ কুমারের বিরুদ্ধে বিক্ষোভ নিয়ে রাজনৈতিক বিতর্কের মধ্যে...",
+      "sourceUrl": "https://www.bd-journal.com/international/314514/বাংলাদেশ-নেপাল-ফ্রান্সের-উদাহরণ-টেনে-ভারত-নিয়ে-সতর্ক-করলেন-মোহন-ভগবত",
+      "sourceName": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss86c6cb60c7dc16",
@@ -7970,54 +8018,6 @@
       "summary": "ফ্রান্স, স্পেন ও আলবেনিয়ার পর ইউরোপের পর্তুগাল ও ইতালিতেও বিক্ষোভ ছড়িয়ে পড়েছে। আবাসনসংকট ও জীবনযাত্রার ব্যয় বৃদ্ধি এসব বিক্ষোভের প্রধান কারণ।",
       "sourceUrl": "https://www.prothomalo.com/world/europe/xxwruheg1e",
       "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss6398242247d096",
-      "slug": "সায়মা-ওয়াজেদের-বিরুদ্ধে-অভিযোগপত্র-অনুম",
-      "title": "সায়মা ওয়াজেদের বিরুদ্ধে অভিযোগপত্র অনুমোদন দুদকের",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A6%AE%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE.avif",
-      "publishedAt": "2026-10-18T19:59:16.213Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>বিশ্ব স্বাস্থ্য সংস্থার (ডব্লিউএইচও) দক্ষিণ-পূর্ব এশিয়ার আঞ্চলিক পরিচালক পদে নিয়োগ লাভের ক্ষেত্রে জীবনবৃত্তান্তে অসত্য তথ্য প্রদানের অভিযোগে সায়মা ওয়াজেদের বিরুদ্ধে চার্জশিট বা অভিযোগপত্র অনুমোদন করেছে দুর্নীতি দমন কমিশন (দুদক)। রবিবার এক সংবাদ সম্মেলনে এ তথ্য জানিয়েছেন দুদক সচিব মো. সাইদুর রহমান খান। ক্ষমতাচ্যুত প্রধানমন্ত্রী শেখ হাসিনার মেয়ে সায়মা ওয়াজেদের বিরুদ্ধে ওঠা এই অভিযোগের ভিত্তিতে আইনি প্রক্রিয়া শুরু করেছে সংস্থাটি।</p>\n<p>দুদকের তদন্তে উঠে এসেছে যে, বিশ্ব স্বাস্থ্য সংস্থার ওই গুরুত্বপূর্ণ পদে নিয়োগ পাওয়ার লক্ষ্যে সায়মা ওয়াজেদ তার জীবনবৃত্তান্তে বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয়ে ‘অনারারি স্পেশালিস্ট’ বা বিশেষজ্ঞ হিসেবে কাজ করার ভুয়া তথ্য জুড়ে দিয়েছিলেন। অথচ বাস্তবে তিনি বিশ্ববিদ্যালয়টিতে শিক্ষকতা কিংবা শিক্ষা ম্যানুয়েল তৈরির মতো কোনো দায়িত্ব পালন করেননি। ২০১৭ সালে অটিজম ও স্নায়ুবিকাশজনিত সমস্যাবিষয়ক জাতীয় উপদেষ্টা কমিটির চেয়ারপারসন হিসেবে দায়িত্ব পালনকালীন অভিজ্ঞতাকে পুঁজি করেই তিনি এসব অসত্য তথ্য উপস্থাপন করেন বলে দুদকের এজাহারে উল্লেখ করা হয়েছে।</p>\n<p>তদন্ত প্রতিবেদনে আরও বলা হয়েছে, নিয়োগ প্রক্রিয়াটি নিশ্চিত করতে তৎকালীন ক্ষমতার অপব্যবহার করা হয়েছিল। পররাষ্ট্র মন্ত্রণালয়ের মাধ্যমে চাপ প্রয়োগের পাশাপাশি জেনেভায় অবস্থিত বিশ্ব স্বাস্থ্য সংস্থার সদর দপ্তরে বিভিন্ন মিশনের মাধ্যমে ভুয়া তথ্য সংবলিত নথি পাঠানো হয়। এই প্রক্রিয়ার মাধ্যমেই সায়মা ওয়াজেদ পদটি বাগিয়ে নেন, যা রাষ্ট্রের ভাবমূর্তি ক্ষুণ্ন করেছে বলে মনে করছে দুর্নীতিবিরোধী সংস্থাটি।</p>\n<p>এই ঘটনায় সায়মা ওয়াজেদের বিরুদ্ধে দণ্ডবিধির ৪২০, ৪৬৮ ও ৪৭১ ধারা এবং দুর্নীতি প্রতিরোধ আইন, ১৯৪৭-এর ৫(২) ধারায় অপরাধের অভিযোগ আনা হয়েছে। উল্লেখ্য, এর আগে ২০২৫ সালের ২০ মার্চ একই অভিযোগে এবং সূচনা ফাউন্ডেশনের নামে বিভিন্ন ব্যাংক থেকে ৩৩ কোটি টাকা হাতিয়ে নেওয়ার অভিযোগে সায়মা ওয়াজেদের বিরুদ্ধে দুটি আলাদা মামলা দায়ের করেছিল দুদক। বর্তমান এই চার্জশিট অনুমোদন সেই আইনি লড়াইয়েরই একটি অংশ।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাষ্ট্রীয় প্রতিষ্ঠানের আইনি পদক্ষেপসমূহ স্বচ্ছতা ও জবাবদিহিতা নিশ্চিত করার ক্ষেত্রে গুরুত্বপূর্ণ ভূমিকা রাখে। এমন সংবেদনশীল প্রক্রিয়ার নিরপেক্ষ বাস্তবায়ন সাধারণ মানুষের মধ্যে আইনের শাসনের প্রতি আস্থা ও সংহতি সুদৃঢ় করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/215vwz0u23\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "দুদক সচিব মো. সাইদুর রহমান খান রোববার এক ব্রিফিংয়ে সায়মা ওয়াজেদের বিরুদ্ধে চার্জশিট অনুমোদন দেওয়ার তথ্য জানান।",
-      "sourceUrl": "https://www.prothomalo.com/bangladesh/215vwz0u23",
-      "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss29569159cee779",
-      "slug": "ইউনিয়ন-পরিষদে-নিয়োগ-বিজ্ঞপ্তি-এইচএসসি",
-      "title": "ইউনিয়ন পরিষদে নিয়োগ বিজ্ঞপ্তি, এইচএসসি পাসেই আবেদনের সুযোগ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss29569159cee779-1200x630.jpg",
-      "publishedAt": "2026-10-18T19:59:16.151Z",
-      "tags": [
-        "সরকারি দপ্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMivAVBVV95cUxQRUlVMXg2aFRrcE4yOGpEbUJoZWJnX0xvTVBuMWFXSUgwRTQ0WUl4bE5ySzZkRmVhbUpYU1RnVXE3azdwR0tfNFdjSUliTm9VbEFGQ1hkbV9TRExLaDRWN2tEZm0xNFl1V2pibThreE5HMFg0MGlKZjVNeHpMNjZ4OGIzLXJZUU1qM3hJbVN6bVhhc1BOR2JXUGpRdXotQmtMd1o5c3pEQ3pDbHNtUHdvV2pvTVMwMWI</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">স্থানীয় পর্যায়ে কর্মসংস্থানের এই সুযোগ বেকার যুবকদের স্বাবলম্বী হওয়ার পথ প্রশস্ত করবে। যোগ্য প্রার্থীদের সময়মতো আবেদন নিশ্চিত করার পাশাপাশি স্বচ্ছ নিয়োগ প্রক্রিয়া বজায় রাখা এখন স্থানীয় প্রশাসনের প্রধান দায়িত্ব।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMivAVBVV95cUxQRUlVMXg2aFRrcE4yOGpEbUJoZWJnX0xvTVBuMWFXSUgwRTQ0WUl4bE5ySzZkRmVhbUpYU1RnVXE3azdwR0tfNFdjSUliTm9VbEFGQ1hkbV9TRExLaDRWN2tEZm0xNFl1V2pibThreE5HMFg0MGlKZjVNeHpMNjZ4OGIzLXJZUU1qM3hJbVN6bVhhc1BOR2JXUGpRdXotQmtMd1o5c3pEQ3pDbHNtUHdvV2pvTVMwMWI3aWxDb2g1OHhrdG04S0VoV204cHRMNExURVNiX09lTWRjQmRINFVRUVlFNFNYMWQxb1MySGh2bGxTQnRnS3hPU3lWaHd1THZzS08xaklSRVFYTXZCQ0diczlqMzNiZTY4V1FfREFmeG05NWpaelh5ejFMeFp4bUozUGpPTXhOcE5RUnJXZERwdzZseW96aEVqV2l4bUNnTkJvOXlRanNTeXg4NVlLNXFWZ1AydVZuWExyelEwTHdCaEtaZ0d4a09vT2YwWngtWThxeXhMMjBjNl9Ec3kzQlhvVVZhd2REUlFYN00wQUJvOGdZQXZnRWg1U2pRUG9yRERJRmlJMHktc2ZKMGtkSVJWSmFSMzN1bW5yeEpYeXNqMktfOTQxZGF0WTBFYUx2UThsVnN4ZHpOdGxVNlVaVERRUUh1T0kydnJ5RjlldTRVVF9kbU9ISmhjQU1oSmV1MnpIZDBvMVZrWXkzSldqZDBORFNHc1BmQU9oWEk0a2dWMXBxRUQxQllnOGI5SkkydDlCam9GSEFONXdtbEZSaWdrSEdNODUxdUNVVzBYYmpRcUxhQkdvRzNha3pLWFRxb1BuRGVKczlZeGQ2Y1c4ZmVtbDg3VWo0SFlQc3FoNGlTVnlxYUtaZ1hzQ2RIdms3Q3lPaXlZWk4weVRsdUxRZ01Ub0R3ZXRtWXVOODE5?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">সরকারি নিয়োগ</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMivAVBVV95cUxQRUlVMXg2aFRrcE4yOGpEbUJoZWJnX0xvTVBuMWFXSUgwRTQ0WUl4bE5ySzZkRmVhbUpYU1RnVXE3azdwR0tfNFdjSUliTm9VbEFGQ1hkbV9TRExLaDRWN2tEZm0xNFl1V2pibThreE5HMFg0MGlKZjVNeHpMNjZ4OGIzLXJZUU1qM3hJbVN6bVhhc1BOR2JXUGpRdXotQmtMd1o5c3pEQ3pDbHNtUHdvV2pvTVMwMWI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMivAVBVV95cUxQRUlVMXg2aFRrcE4yOGpEbUJoZWJnX0xvTVBuMWFXSUgwRTQ0WUl4bE5ySzZkRmVhbUpYU1RnVXE3azdwR0tfNFdjSUliTm9VbEFGQ1hkbV9TRExLaDRWN2tEZm0xNFl1V2pibThreE5HMFg0MGlKZjVNeHpMNjZ4OGIzLXJZUU1qM3hJbVN6bVhhc1BOR2JXUGpRdXotQmtMd1o5c3pEQ3pDbHNtUHdvV2pvTVMwMWI3aWxDb2g1OHhrdG04S0VoV204cHRMNExURVNiX09lTWRjQmRINFVRUVlFNFNYMWQxb1MySGh2bGxTQnRnS3hPU3lWaHd1THZzS08xaklSRVFYTXZCQ0diczlqMzNiZTY4V1FfREFmeG05NWpaelh5ejFMeFp4bUozUGpPTXhOcE5RUnJXZERwdzZseW96aEVqV2l4bUNnTkJvOXlRanNTeXg4NVlLNXFWZ1AydVZuWExyelEwTHdCaEtaZ0d4a09vT2YwWngtWThxeXhMMjBjNl9Ec3kzQlhvVVZhd2REUlFYN00wQUJvOGdZQXZnRWg1U2pRUG9yRERJRmlJMHktc2ZKMGtkSVJWSmFSMzN1bW5yeEpYeXNqMktfOTQxZGF0WTBFYUx2UThsVnN4ZHpOdGxVNlVaVERRUUh1T0kydnJ5RjlldTRVVF9kbU9ISmhjQU1oSmV1MnpIZDBvMVZrWXkzSldqZDBORFNHc1BmQU9oWEk0a2dWMXBxRUQxQllnOGI5SkkydDlCam9GSEFONXdtbEZSaWdrSEdNODUxdUNVVzBYYmpRcUxhQkdvRzNha3pLWFRxb1BuRGVKczlZeGQ2Y1c4ZmVtbDg3VWo0SFlQc3FoNGlTVnlxYUtaZ1hzQ2RIdms3Q3lPaXlZWk4weVRsdUxRZ01Ub0R3ZXRtWXVOODE5?oc=5",
-      "sourceName": "সরকারি নিয়োগ"
-    },
-    {
-      "id": "rss8320160bdfcc44",
-      "slug": "রাজশাহীতে-নজর-কেড়েছে-৪৫-ফুট-ও-কয়েন-চকলেটে",
-      "title": "রাজশাহীতে নজর কেড়েছে ৪৫ ফুট ও কয়েন চকলেটের দুর্গাপ্রতিমা",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%9C%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A7%AA%E0%A7%AB-%E0%A6%AB%E0%A7%81%E0%A6%9F-%E0%A6%93-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87.webp",
-      "publishedAt": "2026-10-18T19:44:16.207Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজশাহীর টাইগার সংঘের ৪৫ ফুট উচ্চতার দুর্গাপ্রতিমা ঘিরে সামাজিক যোগাযোগমাধ্যমে তৈরি হয়েছে ব্যাপক আলোচনা। তাদের ৪৫তম বছরে ৪৫ ফুট উচ্চতার দুর্গাপ্রতিমা নির্মাণ করছে। অন্য প্রতিমাগুলো স্বাভাবিক আকারে রাখা হলেও মণ্ডপের ওপরে থাকা দুর্গাপ্রতিমায় আনা হয়েছে বিশেষত্ব। ব্যতিক্রমী এই আয়োজন সামাজিক যোগাযোগমাধ্য</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">খেলাধুলা ও শিল্পকলার এই অনন্য মেলবন্ধন ক্রীড়াঙ্গনের উৎসবমুখর সংস্কৃতিকে নতুন উচ্চতায় নিয়ে গেছে। এমন সৃজনশীল উদ্যোগ স্থানীয় পর্যায়ে খেলাধুলার প্রসারে জনসম্পৃক্ততা বাড়াতে সহায়ক ভূমিকা পালন করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/rajshahi/975398/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%9C%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A7%AA%E0%A7%AB-%E0%A6%AB%E0%A7%81%E0%A6%9F-%E0%A6%93-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজশাহীর টাইগার সংঘের ৪৫ ফুট উচ্চতার দুর্গাপ্রতিমা ঘিরে সামাজিক যোগাযোগমাধ্যমে তৈরি হয়েছে ব্যাপক আলোচনা। তাদের ৪৫তম বছরে ৪৫ ফুট উচ্চতার দুর্গাপ্রতিমা নির্মাণ করছে। অন্য প্রতিমাগুলো স্বাভাবিক আকারে রাখা হলেও মণ্ডপের ওপরে থাকা দুর্গাপ্রতিমায় আনা হয়েছে বিশেষত্ব। ব্যতিক্রমী এই আয়োজন সামাজিক যোগাযোগমাধ্য",
-      "sourceUrl": "https://www.banglatribune.com/country/rajshahi/975398/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%9C%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A7%AA%E0%A7%AB-%E0%A6%AB%E0%A7%81%E0%A6%9F-%E0%A6%93-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
