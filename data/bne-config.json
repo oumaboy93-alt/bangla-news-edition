@@ -1,6 +1,6 @@
 {
-  "version": 695,
-  "updatedAt": "2026-10-20T17:35:47.223Z",
+  "version": 696,
+  "updatedAt": "2026-10-20T17:46:13.747Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss83155061b9e1e3",
+      "slug": "মার্কিন-ড্রোন",
+      "title": "মার্কিন ড্রোন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-20T17:44:21.419Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi2wFBVV95cUxQenF4WlFjUTE0S0piRk9GMU9FOHVjTUY2cTlyR29BQmNOa1luNFhsM19VMUZDazRkaEJvTXBTV3IwR2IwcU5hbnMtRnloaVdnNWZHNTBnZEFWSHZ5d2x5TDFvMW8wWHZqYTd6Z3RkRi0tRzBQY29CMzk4TEwtQ3BJcG8wMWlwWkdYMTRlR0VjNjdsWXFGOTB5SDQyMXFUS0ViMXIzaTNZZ2s5MDQ3VTY0MFlaakhPOFRmcGVJN3FXNmtsZXVuRFpVSjBkblpnNXIzS1JuTkJjakVGRTA?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মার্কিন ড্রোন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQenF4WlFjUTE0S0piRk9GMU9FOHVjTUY2cTlyR29BQmNOa1luNFhsM19VMUZDazRkaEJvTXBTV3IwR2IwcU5hbnMtRnloaVdnNWZHNTBnZEFWSHZ5d2x5TDFvMW8wWHZqYTd6Z3RkRi0tRzBQY29CMzk4TEwtQ3BJcG8wMWlwWkdYMTRlR0VjNjdsWXFGOTB5SDQyMXFUS0ViMXIzaTNZZ2s5MDQ3VTY0MFlaakhPOFRmcGVJN3FXNmtsZXVuRFpVSjBkblpnNXIzS1JuTkJjakVGRTA?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQenF4WlFjUTE0S0piRk9GMU9FOHVjTUY2cTlyR29BQmNOa1luNFhsM19VMUZDazRkaEJvTXBTV3IwR2IwcU5hbnMtRnloaVdnNWZHNTBnZEFWSHZ5d2x5TDFvMW8wWHZqYTd6Z3RkRi0tRzBQY29CMzk4TEwtQ3BJcG8wMWlwWkdYMTRlR0VjNjdsWXFGOTB5SDQyMXFUS0ViMXIzaTNZZ2s5MDQ3VTY0MFlaakhPOFR",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQenF4WlFjUTE0S0piRk9GMU9FOHVjTUY2cTlyR29BQmNOa1luNFhsM19VMUZDazRkaEJvTXBTV3IwR2IwcU5hbnMtRnloaVdnNWZHNTBnZEFWSHZ5d2x5TDFvMW8wWHZqYTd6Z3RkRi0tRzBQY29CMzk4TEwtQ3BJcG8wMWlwWkdYMTRlR0VjNjdsWXFGOTB5SDQyMXFUS0ViMXIzaTNZZ2s5MDQ3VTY0MFlaakhPOFRmcGVJN3FXNmtsZXVuRFpVSjBkblpnNXIzS1JuTkJjakVGRTA?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rssd40745f5c21fc8",
+      "slug": "বিরোধীদলের-ওপর-গোয়েন্দাগিরির-বার্তা-অত",
+      "title": "বিরোধীদলের ওপর গোয়েন্দাগিরির বার্তা অত্যন্ত বিপজ্জনক: হাসনাত আবদুল্লাহ",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%A4.webp",
+      "publishedAt": "2026-10-20T17:44:21.405Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>রাষ্ট্রীয় গোয়েন্দা সংস্থাকে ব্যবহার করে বিরোধী রাজনৈতিক দলের ওপর নজরদারি চালানোর বার্তা দেওয়াকে ‘অত্যন্ত বিপজ্জনক ও প্রমাণিত ফ্যাসিবাদী চরিত্র’ হিসেবে আখ্যায়িত করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) দক্ষিণাঞ্চলের মুখ্য সংগঠক ও কুমিল্লা-৪ (দেবিদ্বার) আসনের সংসদ সদস্য মো. আবুল হাসনাত (হাসনাত আবদুল্লাহ)। একই সঙ্গে উন্মুক্ত দরপত্র পদ্ধতি এড়িয়ে ডাইরেক্ট পারচেজ মেথড (ডিপিএম) বা সরাসরি ক্রয় পদ্ধতির... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/816351/%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "রাষ্ট্রীয় গোয়েন্দা সংস্থাকে ব্যবহার করে বিরোধী রাজনৈতিক দলের ওপর নজরদারি চালানোর বার্তা দেওয়াকে ‘অত্যন্ত বিপজ্জনক ও প্রমাণিত ফ্যাসিবাদী চরিত্র’ হিসেবে আখ্যায়িত করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) দক্ষিণাঞ্চলের মুখ্য সংগঠক ও কুমিল্লা-৪ (দেবিদ্বার) আসনের সংসদ সদস্য মো. আবুল হাসনাত (হাসনাত আবদুল্লাহ)।",
+      "sourceUrl": "https://www.ittefaq.com.bd/816351/%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssb0f1b58875a964",
+      "slug": "এখন-থেকে-ভাড়া-শীর্ষ-সন্ত্রাসী-ইমনকে-দিতে",
+      "title": "এখন থেকে ভাড়া শীর্ষ সন্ত্রাসী ইমনকে দিতে হবে বলে কুরিয়ার সার্ভিসের গুদামে ঢুকে ভাঙচুর-লুটপাট",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%87%E0%A6%AE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87.avif",
+      "publishedAt": "2026-10-20T17:44:21.380Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>‘এখন থেকে জমির ভাড়া শীর্ষ সন্ত্রাসী সানজিদুল ইসলাম ইমনকে দিতে হবে’—এই কথা বলে রাজধানীর হাজারীবাগে এ জে আর কুরিয়ার সার্ভিসের গুদাম ও কার্যালয়ে হামলা, ভাঙচুর ও লুটপাট চালানোর অভিযোগ উঠেছে। ভাঙচুর শেষে কয়েক লাখ টাকার পণ্য ও সিসি ক্যামেরা খুলে নিয়ে গেছে সন্ত্রাসীরা। আজ মঙ্গলবার সন্ধ্যা সাড়ে ছয়টার দিকে শিকদার মেডিকেল কলেজসংলগ্ন ওই কার্যালয়ে এ ঘটনা ঘটে। হাজারীবাগ থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) মোশাররফ হোসেন প্রথম আলোকে এ তথ্য নিশ্চিত করেন। ঘটনার বর্ণনা করে এ জে আর গ্রুপের কর্মকর্তারা জানান, সন্ধ্যায়</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/crime/ux4a5qmmfa\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "‘এখন থেকে জমির ভাড়া শীর্ষ সন্ত্রাসী সানজিদুল ইসলাম ইমনকে দিতে হবে’—এই কথা বলে রাজধানীর হাজারীবাগে এ জে আর কুরিয়ার সার্ভিসের গুদাম ও কার্যালয়ে হামলা, ভাঙচুর ও লুটপাট চালানোর অভিযোগ উঠেছে। ভাঙচুর শেষে কয়েক লাখ টাকার পণ্য ও সিসি ক্যামেরা খুলে নিয়ে গেছে সন্ত্রাসীরা। আজ মঙ্গলবার সন্ধ্যা সাড়ে ছয়টার দিকে শ",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/crime/ux4a5qmmfa",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rssf45311254faa6e",
@@ -7970,54 +8018,6 @@
       "summary": "বিয়ের পিঁড়িতে বসার আগের দিনই মৃত্যু হয় তরুণ প্রকৌশলী আরিফ শাহারিয়া সৌমিকের (২২)। এ ঘটনায় গাইবান্ধা শহরের মাইশা ডায়াগনস্টিক সেন্টারের চিকিৎসাসেবা নিয়ে গুরুতর অভিযোগ তুলেছে তার পরিবার। স্বজনদের দাবি, সেখানে পরীক্ষা-নিরীক্ষা ও চিকিৎসকের পরামর্শ নেওয়ার পর সৌমিকের শারীরিক অবস্থার অবনতি ঘটে। পরে গাইবান্ধা",
       "sourceUrl": "https://www.banglatribune.com/country/rangpur/975408/%E0%A6%AC%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2%E0%A7%80%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssb9999e9a45a026",
-      "slug": "কেন্দ্র-থেকে-তৃণমূল-শিক্ষা-নেবে-প্রধানমন",
-      "title": "কেন্দ্র থেকে তৃণমূল শিক্ষা নেবে, প্রধানমন্ত্রীর সিদ্ধান্ত সাধুবাদ যোগ্য: সারজিস আলম",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8.webp",
-      "publishedAt": "2026-10-18T22:44:16.262Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>প্রধানমন্ত্রী তারেক রহমানের ‘সিদ্ধান্ত সাধুবাদ যোগ্য’ বলে উল্লেখ করেছেন এনসিপির মুখ্য সংগঠক (উত্তরাঞ্চল) সারজিস আলম। মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয়ের প্রতিমন্ত্রী ইশরাক হোসেনকে প্রধানমন্ত্রী পদত্যাগের নির্দেশ দিয়েছেন গণমাধ্যমে এমন খবর ছড়িয়ে পড়লে রবিবার (১৮ অক্টোবর) রাতে নিজের ফেসবুকে দেওয়া এক স্ট্যাটা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিক্ষার নীতি নির্ধারণে কেন্দ্র থেকে তৃণমূল পর্যন্ত স্বচ্ছতা ও জবাবদিহিতা নিশ্চিত করা জরুরি। নেতৃত্বের এমন সাহসী সিদ্ধান্ত অভিভাবক ও শিক্ষার্থীদের মধ্যে শিক্ষার পরিবেশ নিয়ে নতুন আশার সঞ্চার করবে। প্রশাসনিক শুদ্ধি অভিযান শিক্ষার মান উন্নয়নে দীর্ঘমেয়াদী সুফল বয়ে আনবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/ncp/975405/%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "প্রধানমন্ত্রী তারেক রহমানের ‘সিদ্ধান্ত সাধুবাদ যোগ্য’ বলে উল্লেখ করেছেন এনসিপির মুখ্য সংগঠক (উত্তরাঞ্চল) সারজিস আলম। মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয়ের প্রতিমন্ত্রী ইশরাক হোসেনকে প্রধানমন্ত্রী পদত্যাগের নির্দেশ দিয়েছেন গণমাধ্যমে এমন খবর ছড়িয়ে পড়লে রবিবার (১৮ অক্টোবর) রাতে নিজের ফেসবুকে দেওয়া এক স্ট্যাটা",
-      "sourceUrl": "https://www.banglatribune.com/politics/ncp/975405/%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A4%E0%A7%83%E0%A6%A3%E0%A6%AE%E0%A7%82%E0%A6%B2-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A7%87%E0%A6%AC%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss15cd8337044d4c",
-      "slug": "ধর্ম-বর্ণ-নির্বিশেষে-নাগরিকের-সমান-অধিকা",
-      "title": "ধর্ম-বর্ণ নির্বিশেষে নাগরিকের সমান অধিকার নিশ্চিত করা সরকারের অগ্রাধিকার: রিজভী",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE.webp",
-      "publishedAt": "2026-10-18T22:44:16.245Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>ধর্ম-বর্ণ নির্বিশেষে দেশের প্রতিটি নাগরিকের সমান অধিকার, ধর্মীয় স্বাধীনতা ও নিরাপত্তা নিশ্চিত করাই প্রধানমন্ত্রী তারেক রহমানের অগ্রাধিকার বলে মন্তব্য করেছেন প্রধানমন্ত্রীর রাজনৈতিক উপদেষ্টা, বিএনপির জাতীয় স্থায়ী কমিটির সদস্য ও ভারপ্রাপ্ত মহাসচিব অ্যাডভোকেট রুহুল কবির রিজভী। রোববার (১৮ অক্টোবর) রা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাষ্ট্রের প্রতিটি নাগরিকের সমান অধিকার ও সুরক্ষা নিশ্চিত করা একটি অসাম্প্রদায়িক ও গণতান্ত্রিক সমাজের মূল ভিত্তি। ধর্মীয় স্বাধীনতা ও নিরাপত্তা রক্ষায় সরকারের এমন প্রতিশ্রুতি বাস্তবায়িত হলে তা জাতীয় সংহতি ও সামাজিক স্থিতিশীলতাকে আরও সুদৃঢ় করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/815948/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "ধর্ম-বর্ণ নির্বিশেষে দেশের প্রতিটি নাগরিকের সমান অধিকার, ধর্মীয় স্বাধীনতা ও নিরাপত্তা নিশ্চিত করাই প্রধানমন্ত্রী তারেক রহমানের অগ্রাধিকার বলে মন্তব্য করেছেন প্রধানমন্ত্রীর রাজনৈতিক উপদেষ্টা, বিএনপির জাতীয় স্থায়ী কমিটির সদস্য ও ভারপ্রাপ্ত মহাসচিব অ্যাডভোকেট রুহুল কবির রিজভী। রোববার (১৮ অক্টোবর) রা",
-      "sourceUrl": "https://www.ittefaq.com.bd/815948/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssd626fa1c2909d4",
-      "slug": "আমাদের-জীবনে-বিসমিল্লাহর-৭-শিক্ষা",
-      "title": "আমাদের জীবনে ‘বিসমিল্লাহ’র ৭ শিক্ষা",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%B0-%E0%A7%AD-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE.avif",
-      "publishedAt": "2026-10-18T22:44:16.237Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>মুসলিম জীবনযাত্রায় ‘বিসমিল্লাহ’ একটি অত্যন্ত পরিচিত ও গুরুত্বপূর্ণ বাক্য। আরবি এই শব্দগুচ্ছের অর্থ হলো ‘আল্লাহর নামে শুরু করছি’। কোনো কাজের শুরুতে এটি উচ্চারণের মাধ্যমে মুমিন ব্যক্তি মূলত আল্লাহর স্মরণ করেন এবং তাঁর সাহায্য ও বরকত কামনা করেন। তবে বিশেষজ্ঞরা মনে করেন, বিসমিল্লাহ কেবল মুখে উচ্চারণের মধ্যে সীমাবদ্ধ রাখা উচিত নয়; বরং এর অন্তর্নিহিত শিক্ষা প্রতিটি কাজের ক্ষেত্রে প্রতিফলিত হওয়া জরুরি।</p>\n<p>বিসমিল্লাহর প্রথম ও প্রধান শিক্ষা হলো আল্লাহর ওপর পূর্ণ নির্ভরতা। মানুষ সাধারণত নিজস্ব সামর্থ্য ও পরিকল্পনার ওপর ভরসা করে কোনো কাজ শুরু করে, কিন্তু এই বাক্যটি স্মরণ করিয়ে দেয় যে, সব সুযোগ ও সক্ষমতা আল্লাহরই দান। নুহ (আ.)-এর নৌযান পরিচালনার উদাহরণ থেকে বোঝা যায়, যাত্রার শুরু থেকে শেষ পর্যন্ত আল্লাহর ওপর নির্ভর করাই প্রকৃত তাওয়াক্কুল। তবে এর অর্থ এই নয় যে মানুষ চেষ্টা ছেড়ে দেবে; বরং বৈধ উপায়ে যথাসাধ্য পরিশ্রম করে ফলাফলের ভার আল্লাহর ওপর ছেড়ে দেওয়াই হলো এর প্রকৃত শিক্ষা।</p>\n<p>ইসলামে কোনো কাজের বৈধতা যাচাই করা অপরিহার্য। বিসমিল্লাহ বলে শুরু করলেই কোনো কাজ বৈধ হয়ে যায় না, বরং সেটি ইসলামসম্মত কি না তা নিশ্চিত করা আবশ্যক। বিশেষ করে উপার্জনের ক্ষেত্রে সুদ, ঘুষ, প্রতারণা বা আত্মসাৎ থেকে বিরত থাকা জরুরি। এছাড়া আমানতদারি রক্ষা করাও বিসমিল্লাহর অন্যতম দাবি। ব্যবসায়ী, শিক্ষক কিংবা চাকরিজীবী—যেই হোক না কেন, নিজের ওপর অর্পিত দায়িত্ব সঠিকভাবে পালন করা এবং কারও অধিকার নষ্ট না করাই হলো আমানতের হক আদায় করা।</p>\n<p>পারিবারিক পরিমণ্ডলেও আল্লাহর নাম নেওয়ার চর্চা অত্যন্ত গুরুত্বপূর্ণ। ছোটবেলা থেকেই সন্তানদের খাবারের শুরুতে বিসমিল্লাহ বলা ও ডান হাতে খাওয়ার শিক্ষা দেওয়া উচিত। তবে কেবল মুখস্থ বুলি নয়, বরং বড়দের আচরণের মাধ্যমে শিশুদের সত্যবাদিতা, হালাল-হারামের পার্থক্য এবং দায়িত্ববোধ শেখাতে হবে। একইভাবে, কোনো বিষয়কে নিজ ইচ্ছামতো হালাল বা হারাম ঘোষণা করা থেকে বিরত থাকতে হবে এবং যেকোনো শরয়ি বিধান জানার জন্য কোরআন ও সুন্নাহর নির্দেশনা অনুসরণ করতে হবে।</p>\n<p>পরিশেষে, বিসমিল্লাহর মাঝে থাকা আল্লাহর গুণবাচক নাম ‘আর-রহমান’ ও ‘আর-রহিম’ মুমিনকে হতাশা থেকে দূরে রাখে এবং আল্লাহর রহমতের ওপর আশাবাদী হতে শেখায়। জীবনের নামাজ, কোরবানি, বেঁচে থাকা এবং মৃত্যু—সবকিছুই মহান রবের জন্য উৎসর্গ করাই মুমিনের মূল লক্ষ্য। বিসমিল্লাহ বলে কাজ শুরুর সময় সবসময় সচেতন থাকতে হবে যেন গৃহীত কর্মটি কোনোভাবেই আল্লাহর নির্দেশনার পরিপন্থী না হয়।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রতিটি কাজের শুরুতে এই বাক্যটি উচ্চারণ কেবল ধর্মীয় রীতি নয়, বরং শিক্ষার্থীর মনে নৈতিক দায়বদ্ধতা ও একাগ্রতা তৈরির একটি কার্যকর চর্চা। অভিভাবকরা শিশুদের মধ্যে এই বোধ জাগ্রত করলে তারা প্রতিটি দায়িত্ব পালনে অধিকতর সচেতন ও নীতিবান হয়ে উঠবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/religion/islam/1ndrizem2d\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "বিসমিল্লাহ মুসলমানদের মুখে উচ্চারিত সবচেয়ে পরিচিত বাক্যগুলোর একটি। প্রতিবার এই বাক্য বলার সময় মনে রাখা উচিত, কাজটি যেন বিসমিল্লাহ পরিপন্থী না হয়।",
-      "sourceUrl": "https://www.prothomalo.com/religion/islam/1ndrizem2d",
-      "sourceName": "প্রথম আলো"
     }
   ],
   "ads": [
