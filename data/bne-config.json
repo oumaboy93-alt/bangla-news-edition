@@ -1,6 +1,6 @@
 {
-  "version": 714,
-  "updatedAt": "2026-10-20T21:04:02.010Z",
+  "version": 715,
+  "updatedAt": "2026-10-20T21:14:37.821Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rssd823c808cfffbb",
+      "slug": "সৌদিতে-নতুন-করে-৪২৯১-পদে-চাকরি-ঘোষণা",
+      "title": "সৌদিতে নতুন করে ৪২৯১ পদে চাকরি ঘোষণা",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-20T21:14:21.495Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WaklPX0g1Q2lTMEJsbGh1d0lMYW5LTXRWcHRRWHV5NzFxZ3ZJZGF1VG4xMFRudFNvT0k2OE4tWHV2Xy1jWFdwMUM1YWM0cmI0bXkyeGFjSXdSN0EwWFEw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সৌদিতে নতুন করে ৪২৯১ পদে চাকরি ঘোষণা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;thenews24.com&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WaklPX0g1Q2lTMEJsbGh1d0lMYW5LTXRWcHRRWHV5NzFxZ3ZJZGF1VG4xMFRudFNvT0k2OE4tWHV2Xy1jWFdwMUM1YWM0cmI0bXkyeGFjSXdSN0EwWFEw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WaklPX0g1Q2lTMEJsbGh1d0lMYW5LTXRWcHRRWHV5NzFxZ3ZJZGF1VG4xMFRudFNvT0k2OE4tWHV2Xy1jWFdwMUM1YWM0cmI0bXkyeGFjSXdSN0EwWFEw?oc=5\" target=\"_blank\"&gt;সৌদিতে নতুন করে ৪২৯১ পদে চাকরি ঘোষণা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;thenews",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WaklPX0g1Q2lTMEJsbGh1d0lMYW5LTXRWcHRRWHV5NzFxZ3ZJZGF1VG4xMFRudFNvT0k2OE4tWHV2Xy1jWFdwMUM1YWM0cmI0bXkyeGFjSXdSN0EwWFEw?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
+    },
+    {
       "id": "rss71e8c5625ec801",
       "slug": "দেশে-ধর্মের-নামে-যেন-কোনও-বিভেদ-না-থাকে-প্",
       "title": "দেশে ধর্মের নামে যেন কোনও বিভেদ না থাকে: প্রধানমন্ত্রী",
@@ -97,6 +113,38 @@
       "body": "<p>জাতীয় ক্রিকেট লিগের তৃতীয় রাউন্ডের তৃতীয় দিনে ডাবল সেঞ্চুরি পেয়েছেন রাজশাহীর নাঈম আহমেদ।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/cricket/hqrz58l8dd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "জাতীয় ক্রিকেট লিগের তৃতীয় রাউন্ডের তৃতীয় দিনে ডাবল সেঞ্চুরি পেয়েছেন রাজশাহীর নাঈম আহমেদ।",
       "sourceUrl": "https://www.prothomalo.com/sports/cricket/hqrz58l8dd",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss637678f31ca78a",
+      "slug": "কেউ-যাচ্ছিলেন-ছুটিতে-কেউ-ব্যবসার-কাজে-ফে",
+      "title": "কেউ যাচ্ছিলেন ছুটিতে, কেউ ব্যবসার কাজে, ফেরা হলো না তাঁদের",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-20%2Fvng5yj2m%2FCapture.PNG?rect=0%2C24%2C1180%2C620&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+      "publishedAt": "2026-10-20T20:59:21.651Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>যাত্রীবাহী বাসের সঙ্গে বালুবোঝাই ট্রাকের মুখোমুখি সংঘর্ষে ১৪ জন নিহত হন, আহত অন্তত ৩২।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/ldtre3t8ut\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "যাত্রীবাহী বাসের সঙ্গে বালুবোঝাই ট্রাকের মুখোমুখি সংঘর্ষে ১৪ জন নিহত হন, আহত অন্তত ৩২।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/ldtre3t8ut",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss1b40516a924a49",
+      "slug": "প্রধানমন্ত্রীর-মেয়াদসীমা-কেন-প্রয়োজন",
+      "title": "প্রধানমন্ত্রীর মেয়াদসীমা কেন প্রয়োজন?",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-20%2F3q8njiux%2FScreenshot21-10-202623857notebook.google.com.jpeg?rect=0%2C9%2C1153%2C605&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=&overlay_position=bottom&overlay_width_pct=1",
+      "publishedAt": "2026-10-20T20:59:21.648Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সারকথা এই প্রবন্ধে সংসদীয় ব্যবস্থায় প্রধানমন্ত্রীর মেয়াদসীমা কেন প্রয়োজন, তা বিশ্লেষণ করা হয়েছে। রাষ্ট্রপতির মেয়াদসীমা বিশ্বজুড়ে প্রচলিত হলেও ওয়েস্টমিনস্টারধর্মী ব্যবস্থায় প্রধানমন্ত্রী সাধারণত এমন সীমার আওতায় থাকেন না। কিন্তু দীর্ঘদিন ক্ষমতায় থাকলে একজন প্রধানমন্ত্রী আইনসভা, বিচার বিভাগ, নির্বাচনব্যবস্থা, গণমাধ্যম ও প্রশাসনের ওপর প্রভাব বাড়িয়ে ক্ষমতাকে ব্যক্তিকেন্দ্রিক করে তুলতে পারেন। হাঙ্গেরি, থাইল্যান্ড, বাংলাদেশ, মালয়েশিয়া ও ভারতের অভিজ্ঞতা দেখায়, নিয়ন্ত্রণহীন দীর্ঘ শাসন গণ</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.protichinta.com/article/qgfddr4303\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সারকথা এই প্রবন্ধে সংসদীয় ব্যবস্থায় প্রধানমন্ত্রীর মেয়াদসীমা কেন প্রয়োজন, তা বিশ্লেষণ করা হয়েছে। রাষ্ট্রপতির মেয়াদসীমা বিশ্বজুড়ে প্রচলিত হলেও ওয়েস্টমিনস্টারধর্মী ব্যবস্থায় প্রধানমন্ত্রী সাধারণত এমন সীমার আওতায় থাকেন না। কিন্তু দীর্ঘদিন ক্ষমতায় থাকলে একজন প্রধানমন্ত্রী আইনসভা, বিচার বিভাগ,",
+      "sourceUrl": "https://www.protichinta.com/article/qgfddr4303",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -521,7 +569,7 @@
       "title": "ফরিদপুরে পূজা দেখতে বেরিয়ে নিখোঁজ কলেজছাত্র, দুই দিন পর নদীতে মিলল লাশ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss38c7b463615d5a-1200x630.jpg",
       "publishedAt": "2026-10-20T18:44:21.601Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -7970,54 +8018,6 @@
       "summary": "দুপুরে পদত্যাগের ঘোষণা দেবেন প্রতিমন্ত্রী ইশরাক",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/dupure-pdtyaager-ghossnnaa-deben-prtimntrii-ishraak",
       "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rssae9fb155ab0538",
-      "slug": "নিষেধাজ্ঞা-অমান্য-করে-ইলিশ-শিকার-২২-জেলে",
-      "title": "নিষেধাজ্ঞা অমান্য করে ইলিশ শিকার, ২২ জেলের কারাদণ্ড",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A7%87%E0%A6%A7%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A7%A8%E0%A7%A8-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A7%87.webp",
-      "publishedAt": "2026-10-19T03:44:16.681Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>চাঁদপুরের পদ্মা-মেঘনা নদীতে নিষেধাজ্ঞা অমান্য করে ইলিশ শিকারের অভিযোগে আটক ২৪ জেলের মধ্যে ২২ জনকে ১২ দিন করে কারাদণ্ড দিয়েছেন ভ্রাম্যমাণ আদালত। একই সঙ্গে প্রত্যেককে ২০০ টাকা করে জরিমানা করা হয়েছে। এ সময় জেলেদের কাছ থেকে ২৫ হাজার মিটার নিষিদ্ধ কারেন্টজাল, ছয়টি মাছ ধরার নৌকা ও পাঁচ কেজি ইলিশ জব্দ করা </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রজনন মৌসুমে ইলিশ নিধন মৎস্য সম্পদের ভবিষ্যৎ ধ্বংস করছে, যা প্রকারান্তরে স্থানীয় জেলেদের দীর্ঘমেয়াদী জীবিকাকে হুমকির মুখে ফেলছে। আইন অমান্য না করে সরকারি নিষেধাজ্ঞা মেনে চলা এবং মৎস্য আহরণে সচেতন হওয়া এখন স্থানীয় জনগণের জন্য অপরিহার্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/975419/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A7%87%E0%A6%A7%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A7%A8%E0%A7%A8-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "চাঁদপুরের পদ্মা-মেঘনা নদীতে নিষেধাজ্ঞা অমান্য করে ইলিশ শিকারের অভিযোগে আটক ২৪ জেলের মধ্যে ২২ জনকে ১২ দিন করে কারাদণ্ড দিয়েছেন ভ্রাম্যমাণ আদালত। একই সঙ্গে প্রত্যেককে ২০০ টাকা করে জরিমানা করা হয়েছে। এ সময় জেলেদের কাছ থেকে ২৫ হাজার মিটার নিষিদ্ধ কারেন্টজাল, ছয়টি মাছ ধরার নৌকা ও পাঁচ কেজি ইলিশ জব্দ করা ",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/975419/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A7%87%E0%A6%A7%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE-%E0%A6%85%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A7%A8%E0%A7%A8-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss33f9107f9020d7",
-      "slug": "সৌদিতে-হুথি-হামলার-নিন্দা-জানালো-পাকিস্ত",
-      "title": "সৌদিতে হুথি হামলার নিন্দা জানালো পাকিস্তান ও মিসর",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4.webp",
-      "publishedAt": "2026-10-19T03:44:16.679Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ইয়েমেনের হুথি গোষ্ঠীর সৌদি আরবে হামলার আবারও নিন্দা জানিয়েছে পাকিস্তান ও মিসর। রবিবার দেশ দুটি রাজ্যটির প্রতি পূর্ণ সংহতির কথা পুনর্ব্যক্ত করেছে। পাকিস্তানের পররাষ্ট্রমন্ত্রী ইসহাক দার এবং মিসরের পররাষ্ট্রমন্ত্রী বদর আবদেলাত্তির মধ্যে টেলিফোন আলাপে এ বিষয়ে একমত হন দুজন। ইসলামাবাদের পররাষ্ট্র মন্ত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মধ্যপ্রাচ্যের অস্থিতিশীলতা বিশ্ববাজারে জ্বালানি তেলের দাম ও প্রবাসী আয়ের ওপর নেতিবাচক প্রভাব ফেলতে পারে। তাই প্রবাসীদের নিরাপত্তা নিশ্চিত করতে ও সম্ভাব্য অর্থনৈতিক ঝুঁকি মোকাবিলায় সরকারের সতর্ক ও সক্রিয় কূটনীতি বজায় রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/975420/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%AE%E0%A6%BF%E0%A6%B8%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ইয়েমেনের হুথি গোষ্ঠীর সৌদি আরবে হামলার আবারও নিন্দা জানিয়েছে পাকিস্তান ও মিসর। রবিবার দেশ দুটি রাজ্যটির প্রতি পূর্ণ সংহতির কথা পুনর্ব্যক্ত করেছে। পাকিস্তানের পররাষ্ট্রমন্ত্রী ইসহাক দার এবং মিসরের পররাষ্ট্রমন্ত্রী বদর আবদেলাত্তির মধ্যে টেলিফোন আলাপে এ বিষয়ে একমত হন দুজন। ইসলামাবাদের পররাষ্ট্র মন্ত",
-      "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/975420/%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%AE%E0%A6%BF%E0%A6%B8%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss418872240c1760",
-      "slug": "মঙ্গলবার-থেকে-টানা-৫-দিন-বন্ধ-ব্যাংক-ও-শেয়",
-      "title": "মঙ্গলবার থেকে টানা ৫ দিন বন্ধ ব্যাংক ও শেয়ারবাজার",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AB-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%93-%E0%A6%B6%E0%A7%87%E0%A7%9F.webp",
-      "publishedAt": "2026-10-19T03:44:16.676Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শারদীয় দুর্গাপূজা উপলক্ষে মঙ্গলবার (২০ অক্টোবর) থেকে টানা পাঁচ দিন বন্ধ থাকবে দেশের ব্যাংক ও আর্থিক প্রতিষ্ঠানের স্বাভাবিক কার্যক্রম। একই সময়ে বন্ধ থাকবে দেশের দুই শেয়ারবাজার ঢাকা স্টক এক্সচেঞ্জ (ডিএসই) ও চট্টগ্রাম স্টক এক্সচেঞ্জের (সিএসই) লেনদেন। বাংলাদেশ ব্যাংকের নির্দেশনা অনুযায়ী, ২০ থেকে ২২ অক্ট</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শারদীয় দুর্গোৎসবের এই দীর্ঘ ছুটি ধর্মীয় সম্প্রীতি ও পারিবারিক মেলবন্ধনের সুযোগ তৈরি করে। তবে অর্থনৈতিক লেনদেন স্থবিরতার এই সময়ে জরুরি সেবা নিশ্চিত করা এবং সামাজিক শৃঙ্খলা রক্ষায় কর্তৃপক্ষের সতর্ক দৃষ্টি থাকা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/news/975421/%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AB-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%93-%E0%A6%B6%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শারদীয় দুর্গাপূজা উপলক্ষে মঙ্গলবার (২০ অক্টোবর) থেকে টানা পাঁচ দিন বন্ধ থাকবে দেশের ব্যাংক ও আর্থিক প্রতিষ্ঠানের স্বাভাবিক কার্যক্রম। একই সময়ে বন্ধ থাকবে দেশের দুই শেয়ারবাজার ঢাকা স্টক এক্সচেঞ্জ (ডিএসই) ও চট্টগ্রাম স্টক এক্সচেঞ্জের (সিএসই) লেনদেন। বাংলাদেশ ব্যাংকের নির্দেশনা অনুযায়ী, ২০ থেকে ২২ অক্ট",
-      "sourceUrl": "https://www.banglatribune.com/business/news/975421/%E0%A6%AE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A7%AB-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%93-%E0%A6%B6%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
