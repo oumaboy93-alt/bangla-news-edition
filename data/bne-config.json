@@ -1,6 +1,6 @@
 {
-  "version": 656,
-  "updatedAt": "2026-10-20T06:01:46.225Z",
+  "version": 657,
+  "updatedAt": "2026-10-20T06:12:08.856Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -185,7 +185,7 @@
       "title": "ভোটার স্থানান্তর: আবেদন ৫ নভেম্বরের মধ্যে নিষ্পত্তির নির্দেশ ইসির",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss39bc7fe7203eb8-1200x630.jpg",
       "publishedAt": "2026-10-20T05:29:20.669Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
