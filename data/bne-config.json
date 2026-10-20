@@ -1,6 +1,6 @@
 {
-  "version": 690,
-  "updatedAt": "2026-10-20T16:31:23.784Z",
+  "version": 691,
+  "updatedAt": "2026-10-20T16:52:10.082Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss3855f76813230e",
+      "slug": "নবমীর-আরতিতে-আনন্দ-বিষাদ-দশমীর-অপেক্ষায়",
+      "title": "নবমীর আরতিতে আনন্দ-বিষাদ, দশমীর অপেক্ষায় ঢাকেশ্বরী",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-20T16:44:21.512Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>নবমীর সন্ধ্যায় আরতি শেষে এক মিশ্র আবহ তৈরি হয়েছে ঢাকেশ্বরী জাতীয় মন্দিরে; শারদীয় দুর্গোৎসবের উচ্ছ্বাসের মাঝেই যেন চুপিসারে বেজে উঠেছে বিদায়ের সুর। বুধবার বিজয়া দশমীতে মর্ত্য ছেড়ে কৈলাশে স্বামীগৃহে ফিরে যাবেন দেবী দুর্গা। তাই মহানবমীতে মণ্ডপ...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314515/নবমীর-আরতিতে-আনন্দ-বিষাদ-দশমীর-অপেক্ষায়-ঢাকেশ্বরী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "নবমীর সন্ধ্যায় আরতি শেষে এক মিশ্র আবহ তৈরি হয়েছে ঢাকেশ্বরী জাতীয় মন্দিরে; শারদীয় দুর্গোৎসবের উচ্ছ্বাসের মাঝেই যেন চুপিসারে বেজে উঠেছে বিদায়ের সুর। বুধবার বিজয়া দশমীতে মর্ত্য ছেড়ে কৈলাশে স্বামীগৃহে ফিরে যাবেন দেবী দুর্গা। তাই মহানবমীতে মণ্ডপ...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314515/নবমীর-আরতিতে-আনন্দ-বিষাদ-দশমীর-অপেক্ষায়-ঢাকেশ্বরী",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss5fecbaa0d5fe28",
+      "slug": "অস্ত্রের-লাইসেন্স-থাকলেই-প্রকাশ্যে-প্রদ",
+      "title": "অস্ত্রের লাইসেন্স থাকলেই প্রকাশ্যে প্রদর্শন ও হুমকি দেওয়া যায়?",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6.webp",
+      "publishedAt": "2026-10-20T16:44:21.505Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>নিজের নিরাপত্তার কথা বিবেচনা করে আগ্নেয়াস্ত্রের লাইসেন্স নিয়ে থাকেন অনেকেই। কিন্তু সেই লাইসেন্সের জোরে যেকোনও স্থানে প্রকাশ্যে পিস্তল বা অন্য আগ্নেয়াস্ত্র প্রদর্শন বা তা দিয়ে কাউকে হুমকি যায় কিনা; এ নিয়ে রয়েছে প্রশ্ন। কেননা, অস্ত্রের মালিকানা বৈধ হলেও তা বহনের ক্ষেত্রে রয়েছে আলাদা আইনি বাধ্যবাধকতা। সুপ্রিম কোর্টের আইনজীবী আদনান ইয়াজদানী মনে করেন, প্রকাশ্যে আগ্নেয়াস্ত্র বহন শুধু ব্যক্তিগত... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/975767/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%A8-%E0%A6%93\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "নিজের নিরাপত্তার কথা বিবেচনা করে আগ্নেয়াস্ত্রের লাইসেন্স নিয়ে থাকেন অনেকেই। কিন্তু সেই লাইসেন্সের জোরে যেকোনও স্থানে প্রকাশ্যে পিস্তল বা অন্য আগ্নেয়াস্ত্র প্রদর্শন বা তা দিয়ে কাউকে হুমকি যায় কিনা; এ নিয়ে রয়েছে প্রশ্ন। কেননা, অস্ত্রের মালিকানা বৈধ হলেও তা বহনের ক্ষেত্রে রয়েছে আলাদা আইনি বাধ্যবাধকতা। ",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/975767/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%A8-%E0%A6%93",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss887db021d26cf8",
+      "slug": "ঢামেকের-বারান্দায়-পড়েছিল-যুবকের-মরদেহ-মে",
+      "title": "ঢামেকের বারান্দায় পড়েছিল যুবকের মরদেহ, মেলেনি স্বজনের সন্ধান",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%A2%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9-%E0%A6%AE%E0%A7%87.webp",
+      "publishedAt": "2026-10-20T16:44:21.501Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>ঢাকা মেডিক্যাল কলেজ (ঢামেক) হাসপাতালের নতুন ভবনের মেডিসিন বিভাগের একটি ওয়ার্ডের বারান্দা থেকে অজ্ঞাতপরিচয় এক যুবকের মরদেহ উদ্ধার করা হয়েছে। তার বয়স আনুমানিক ২৩ বছর। এখন পর্যন্ত তার পরিচয় শনাক্ত করা যায়নি, পাওয়া যায়নি কোনও স্বজনের সন্ধানও। মঙ্গলবার (২০ অক্টোবর) সকাল ১০টার দিকে নতুন ভবনের ৬০২ নম্বর ওয়ার্ডের বারান্দায় তাকে অচেতন অবস্থায় পাওয়া যায়। পরে ওই ভবনের ওয়ার্ড মাস্টার রিয়াজ তাকে উদ্ধার করে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/975768/%E0%A6%A2%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "ঢাকা মেডিক্যাল কলেজ (ঢামেক) হাসপাতালের নতুন ভবনের মেডিসিন বিভাগের একটি ওয়ার্ডের বারান্দা থেকে অজ্ঞাতপরিচয় এক যুবকের মরদেহ উদ্ধার করা হয়েছে। তার বয়স আনুমানিক ২৩ বছর। এখন পর্যন্ত তার পরিচয় শনাক্ত করা যায়নি, পাওয়া যায়নি কোনও স্বজনের সন্ধানও। মঙ্গলবার (২০ অক্টোবর) সকাল ১০টার দিকে নতুন ভবনের ৬০২ নম্বর ওয়",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/975768/%E0%A6%A2%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%BF",
+      "sourceName": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rss4dfae0fbd436d3",
@@ -7970,54 +8018,6 @@
       "summary": "শারদীয় দুর্গাপূজা ঘিরে ঠাকুরগাঁও, পঞ্চগড় ও নীলফামারী জেলার সীমান্তবর্তী ১৩৫টি পূজামণ্ডপে নিবিড় নিরাপত্তা দিচ্ছে বর্ডার গার্ড বাংলাদেশ (বিজিবি)। এ ছাড়া তিন জেলার শহরাঞ্চলের ১৬টি পূজামণ্ডপেও নিরাপত্তার দায়িত্ব পালন করছে বাহিনীটি। এজন্য ২৩ প্লাটুন মোতায়েন করা হয়েছে। রোববার (১৮ অক্টোবর) বিকেলে পঞ্চগড়ের ",
       "sourceUrl": "https://www.ittefaq.com.bd/815946/%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A7%9F-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A7%A8%E0%A7%A9",
       "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss405178532a5ebb",
-      "slug": "আগামী-বছর-দেশে-বিদ্যুৎ-বিক্রির-জায়গা-থা",
-      "title": "আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না: চিফ হুইপ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE.webp",
-      "publishedAt": "2026-10-18T21:14:16.228Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না বলে মন্তব্য করেছেন জাতীয় সংসদের সরকার দলীয় চিফ হুইপ নূরুল ইসলাম মনি। রবিবার (১৮ অক্টোবর) দুপুরে বরগুনার বেতাগী উপজেলা পরিষদের সম্মেলন কক্ষে উন্নয়ন ও আইনশৃঙ্খলা সভায় প্রধান অতিথির বক্তব্যে তিনি এ কথা বলেন। চিফ হুইপ বলেন, ‘আমরা সবাই মিলে সৌরবিদ্যুৎ ব্য</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদ্যুৎ উদ্বৃত্তের এই সম্ভাবনা স্থানীয় শিল্পায়ন ও কর্মসংস্থানে নতুন সুযোগ তৈরি করবে। নিরবচ্ছিন্ন বিদ্যুৎ সুবিধা কাজে লাগিয়ে নাগরিকদের এখন উৎপাদনশীল খাতে বিনিয়োগে মনোযোগী হতে হবে। অপচয় রোধ করে সরকারি এই সক্ষমতাকে টেকসই উন্নয়নে ব্যবহার করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/barishal/975402/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "আগামী বছর দেশে বিদ্যুৎ বিক্রির জায়গা থাকবে না বলে মন্তব্য করেছেন জাতীয় সংসদের সরকার দলীয় চিফ হুইপ নূরুল ইসলাম মনি। রবিবার (১৮ অক্টোবর) দুপুরে বরগুনার বেতাগী উপজেলা পরিষদের সম্মেলন কক্ষে উন্নয়ন ও আইনশৃঙ্খলা সভায় প্রধান অতিথির বক্তব্যে তিনি এ কথা বলেন। চিফ হুইপ বলেন, ‘আমরা সবাই মিলে সৌরবিদ্যুৎ ব্য",
-      "sourceUrl": "https://www.banglatribune.com/country/barishal/975402/%E0%A6%86%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%97%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss299c3d9ca2aff8",
-      "slug": "ভারতে-চ্যাম্পিয়ন্স-ট্রফির-জন্য-বাংলাদে",
-      "title": "ভারতে চ্যাম্পিয়ন্স ট্রফির জন্য বাংলাদেশ দল ঘোষণা",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AB%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87.webp",
-      "publishedAt": "2026-10-18T20:59:16.191Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ভারতে নভেম্বরে আসন্ন পুরুষদের এশিয়ান চ্যাম্পিয়ন্স ট্রফি হকির জন্য ১৮ সদস্যের চূড়ান্ত জাতীয় দল আনুষ্ঠানিকভাবে ঘোষণা করেছে বাংলাদেশ হকি ফেডারেশন (বিএইচএফ)। প্রাথমিক ক্যাম্পের নিবিড় অনুশীলন ও মূল্যায়নের পর অভিজ্ঞ এবং উদীয়মান তরুণ খেলোয়াড়দের সমন্বয়ে চূড়ান্ত দল গঠন করেছে টিম ম্যানেজমেন্ট। এশিয</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অভিজ্ঞ ও তরুণদের ভারসাম্যপূর্ণ এই দলটি আন্তর্জাতিক অঙ্গনে বাংলাদেশের হকির হারানো গৌরব পুনরুদ্ধারে গুরুত্বপূর্ণ ভূমিকা রাখবে। এই টুর্নামেন্টে ভালো ফলাফল ভবিষ্যতে দেশের হকির অবকাঠামো উন্নয়নে নতুন গতির সঞ্চার করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/hockey/975400/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AB%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A6%E0%A6%B2-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ভারতে নভেম্বরে আসন্ন পুরুষদের এশিয়ান চ্যাম্পিয়ন্স ট্রফি হকির জন্য ১৮ সদস্যের চূড়ান্ত জাতীয় দল আনুষ্ঠানিকভাবে ঘোষণা করেছে বাংলাদেশ হকি ফেডারেশন (বিএইচএফ)। প্রাথমিক ক্যাম্পের নিবিড় অনুশীলন ও মূল্যায়নের পর অভিজ্ঞ এবং উদীয়মান তরুণ খেলোয়াড়দের সমন্বয়ে চূড়ান্ত দল গঠন করেছে টিম ম্যানেজমেন্ট। এশিয",
-      "sourceUrl": "https://www.banglatribune.com/sport/hockey/975400/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AB%E0%A6%BF%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A6%E0%A6%B2-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssc9bf68aa1b64a5",
-      "slug": "হাম-উপসর্গ-নিয়ে-আরও-৭-জনের-মৃত্যু",
-      "title": "হাম: উপসর্গ নিয়ে আরও ৭ জনের মৃত্যু",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssc9bf68aa1b64a5-1200x630.jpg",
-      "publishedAt": "2026-10-18T20:59:16.181Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncS1vMENSa0VhZm5LX1JlYXJJUU9aa2tFU3AwekdPZ0pDc3Y0b19aMEIxNmtnbFdKWWZibjJOTEZ4UGgwcjBRLXFuTTN4MEN0WFFDOE8xTmVKZ1otRVE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;হাম: উপসর্গ নিয়ে আরও ৭ জনের মৃত্যু&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হামের প্রকোপ জনস্বাস্থ্য ও পারিবারিক সুরক্ষায় নতুন করে উদ্বেগের জন্ম দিয়েছে। শিশুদের টিকাদান নিশ্চিত করা ও সচেতনতা বৃদ্ধিতে দেরি হলে সাধারণ মানুষের স্বাভাবিক জীবনযাত্রা আরও ঝুঁকিতে পড়বে। দ্রুত কার্যকর ব্যবস্থা না নিলে জনমনে আতঙ্ক বাড়ার শঙ্কা প্রবল।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncS1vMENSa0VhZm5LX1JlYXJJUU9aa2tFU3AwekdPZ0pDc3Y0b19aMEIxNmtnbFdKWWZibjJOTEZ4UGgwcjBRLXFuTTN4MEN0WFFDOE8xTmVKZ1otRVE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncS1vMENSa0VhZm5LX1JlYXJJUU9aa2tFU3AwekdPZ0pDc3Y0b19aMEIxNmtnbFdKWWZibjJOTEZ4UGgwcjBRLXFuTTN4MEN0WFFDOE8xTmVKZ1otRVE?oc=5\" target=\"_blank\"&gt;হাম: উপসর্গ নিয়ে আরও ৭ জনের মৃত্যু&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdnews24.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ncS1vMENSa0VhZm5LX1JlYXJJUU9aa2tFU3AwekdPZ0pDc3Y0b19aMEIxNmtnbFdKWWZibjJOTEZ4UGgwcjBRLXFuTTN4MEN0WFFDOE8xTmVKZ1otRVE?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
     }
   ],
   "ads": [
