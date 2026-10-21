@@ -1,6 +1,6 @@
 {
-  "version": 759,
-  "updatedAt": "2026-10-21T05:44:35.508Z",
+  "version": 760,
+  "updatedAt": "2026-10-21T05:55:07.616Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "সমস্যা এড়িয়ে যাওয়া নেতৃত্ব নয়",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/0000000000000000-1792560609.jpg",
+      "image": "/img/%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%8F%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A7%9F.jpg",
       "publishedAt": "2026-10-21T05:44:22.083Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -73,7 +73,7 @@
       "title": "এসএসসিতে ঢাকা বোর্ডে বৃত্তিপ্রাপ্তদের তালিকা প্রকাশ",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/dhak-shikkha-board-1792560695.jpg",
+      "image": "/img/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A4.jpg",
       "publishedAt": "2026-10-21T05:44:22.082Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -89,7 +89,7 @@
       "title": "পুলিশ লাইন্স একাডেমিতে শিক্ষক নিয়োগ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/police-line-1792561046.jpg",
+      "image": "/img/%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97.jpg",
       "publishedAt": "2026-10-21T05:44:22.080Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
