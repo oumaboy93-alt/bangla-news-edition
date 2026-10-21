@@ -1,6 +1,6 @@
 {
-  "version": 750,
-  "updatedAt": "2026-10-21T04:00:11.477Z",
+  "version": 751,
+  "updatedAt": "2026-10-21T04:10:35.574Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -169,7 +169,7 @@
       "title": "মিসরে যাত্রীবাহী বাস ও ট্রাকের সংঘর্ষে ১৩ পর্যটক নিহত",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss4103423b6b2f76-1200x630.jpg",
       "publishedAt": "2026-10-21T03:29:22.081Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
