@@ -1,6 +1,6 @@
 {
-  "version": 755,
-  "updatedAt": "2026-10-21T05:02:52.300Z",
+  "version": 756,
+  "updatedAt": "2026-10-21T05:13:17.115Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -137,7 +137,7 @@
       "title": "যশোরে খাটের ওপর পড়েছিল বৃদ্ধার গলাকাটা লাশ, মালামাল লুট",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2049af9e725daf-1200x630.jpg",
       "publishedAt": "2026-10-21T04:44:22.060Z",
       "tags": [
         "বিডিনিউজ২৪"
