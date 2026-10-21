@@ -1,6 +1,6 @@
 {
-  "version": 799,
-  "updatedAt": "2026-10-21T21:17:06.754Z",
+  "version": 800,
+  "updatedAt": "2026-10-21T21:37:11.949Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rssa2a72481a36502",
+      "slug": "জ্বালানি-মূল্যবৃদ্ধি",
+      "title": "জ্বালানি মূল্যবৃদ্ধি",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-21T21:29:23.119Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMirwJBVV95cUxNenk5S1V0a2FvaHBWZ1JxMFFEQnM2YTZmMkp5dHkxT0xHeGJpTnAxMkQ2UHFKUFN5aHRmbFhkVG8zc0h0X2Q3UTE1alRsdjlKUWRWMnotM0NGWFpjZHJuS0FpamFnRm9zVi0tNEtWakRJejNvVk5lQ1Jsc3ZuS1R0dHJURUFuamVWUUZEc0lSMFlZUGJtUVBkbU9NNXNxYlVoMUpCbGpMS3F1emxmcU44X3hRdXNQSXhvcXhYV2RnaVZyejN5RWhISWpsV0JlV0w4U3pNbURnNXlEVDZDa1JUVUFoRGxXdGoyTi05NFkyRlAyUG91X0Y0MDhvWkNvMk9vR3JYTXhjVGxWM0NTNUZMRnk3OHg3MUFKcFI0bjFVUEUxTHVjeDN1Tk1aXzc2REk?oc=5&quot; target=&quot;_blank&quot;&amp;gt;জ্বালানি মূল্য</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMirwJBVV95cUxNenk5S1V0a2FvaHBWZ1JxMFFEQnM2YTZmMkp5dHkxT0xHeGJpTnAxMkQ2UHFKUFN5aHRmbFhkVG8zc0h0X2Q3UTE1alRsdjlKUWRWMnotM0NGWFpjZHJuS0FpamFnRm9zVi0tNEtWakRJejNvVk5lQ1Jsc3ZuS1R0dHJURUFuamVWUUZEc0lSMFlZUGJtUVBkbU9NNXNxYlVoMUpCbGpMS3F1emxmcU44X3hRdXNQSXhvcXhYV2RnaVZyejN5RWhISWpsV0JlV0w4U3pNbURnNXlEVDZDa1JUVUFoRGxXdGoyTi05NFkyRlAyUG91X0Y0MDhvWkNvMk9vR3JYTXhjVGxWM0NTNUZMRnk3OHg3MUFKcFI0bjFVUEUxTHVjeDN1Tk1aXzc2REk?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMirwJBVV95cUxNenk5S1V0a2FvaHBWZ1JxMFFEQnM2YTZmMkp5dHkxT0xHeGJpTnAxMkQ2UHFKUFN5aHRmbFhkVG8zc0h0X2Q3UTE1alRsdjlKUWRWMnotM0NGWFpjZHJuS0FpamFnRm9zVi0tNEtWakRJejNvVk5lQ1Jsc3ZuS1R0dHJURUFuamVWUUZEc0lSMFlZUGJtUVBkbU9NNXNxYlVoMUpCbGpMS3F1emxmcU44X3hRdXNQSXh",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNenk5S1V0a2FvaHBWZ1JxMFFEQnM2YTZmMkp5dHkxT0xHeGJpTnAxMkQ2UHFKUFN5aHRmbFhkVG8zc0h0X2Q3UTE1alRsdjlKUWRWMnotM0NGWFpjZHJuS0FpamFnRm9zVi0tNEtWakRJejNvVk5lQ1Jsc3ZuS1R0dHJURUFuamVWUUZEc0lSMFlZUGJtUVBkbU9NNXNxYlVoMUpCbGpMS3F1emxmcU44X3hRdXNQSXhvcXhYV2RnaVZyejN5RWhISWpsV0JlV0w4U3pNbURnNXlEVDZDa1JUVUFoRGxXdGoyTi05NFkyRlAyUG91X0Y0MDhvWkNvMk9vR3JYTXhjVGxWM0NTNUZMRnk3OHg3MUFKcFI0bjFVUEUxTHVjeDN1Tk1aXzc2REk?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rss36c6c109f3e1c9",
+      "slug": "জাতীয়-পরিচয়পত্র-নিবন্ধন-বিধিমালার-অধী",
+      "title": "জাতীয় পরিচয়পত্র নিবন্ধন বিধিমালার অধীন ফর্মসমূহ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-21T21:29:23.043Z",
+      "tags": [
+        "নির্বাচন কমিশন"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGhFbDVWVkk0UThqTklqSjVKSjlxWllLbFM2VW93aElXUFVjeFVZa3JEZXNLMGI4VHBLcHN3bVIxeVVMSERMZGktVENsVzVkOTFwN1hKSkhPS2M4QVdKaVV3eFE2NmNsOGpUeG5ma01aUUhCZXU3SVlHSGhRcHNOSnBwMi1aVmx0Qmc?oc=5&quot; target=&quot;_blank&quot;&amp;gt;জাতীয় পরিচয়পত্র নিবন্ধন বিধিমালার অধীন ফর্মসমূহ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangladesh Election Commission&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGhFbDVWVkk0UThqTklqSjVKSjlxWllLbFM2VW93aElXUFVjeFVZa3JEZXNLMGI4VHBLcHN3bVIxeVVMSERMZGktVENsVzVkOTFwN1hKSkhPS2M4QVdKaVV3eFE2NmNsOGpUeG5ma01aUUhCZXU3SVlHSGhRcHNOSnBwMi1aVmx0Qmc?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGhFbDVWVkk0UThqTklqSjVKSjlxWllLbFM2VW93aElXUFVjeFVZa3JEZXNLMGI4VHBLcHN3bVIxeVVMSERMZGktVENsVzVkOTFwN1hKSkhPS2M4QVdKaVV3eFE2NmNsOGpUeG5ma01aUUhCZXU3SVlHSGhRcHNOSnBwMi1aVmx0Qmc?oc=5\" target=\"_blank\"&gt;জাতীয় পরিচয়পত্র নিবন্ধন বিধিমালা",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWGhFbDVWVkk0UThqTklqSjVKSjlxWllLbFM2VW93aElXUFVjeFVZa3JEZXNLMGI4VHBLcHN3bVIxeVVMSERMZGktVENsVzVkOTFwN1hKSkhPS2M4QVdKaVV3eFE2NmNsOGpUeG5ma01aUUhCZXU3SVlHSGhRcHNOSnBwMi1aVmx0Qmc?oc=5",
+      "sourceName": "নির্বাচন কমিশন"
+    },
+    {
       "id": "rssdf50cf54f53500",
       "slug": "সাংবাদিক-আলিফ-হত্যার-সন্দেহভাজন-আসামি-গ্",
       "title": "সাংবাদিক আলিফ হত্যার সন্দেহভাজন আসামি গ্রেফতার",
@@ -97,6 +129,22 @@
       "body": "<p>বায়ার্ন মিউনিখ ২ : ২ আর্সেনাল ভাইরাসে আক্রান্ত ভিনসেন্ট কোম্পানি ডাগআউটে থাকবেন কি না অনিশ্চয়তা ছিল। কিছুটা সংশয় ছিল গোলপোস্টের নিচে মানুয়েল ন্যয়ারের থাকা নিয়ে। শেষ পযন্ত দুজনই থাকলেন। কিন্তু বায়ার্ন মিউনিখের আর জয়ে ফেরা হলো না। আগের ম্যাচে ভাইকিংয়ের মাঠ থেকে ড্র করে ফেরা বায়ার্ন এবার নিজেদের মাঠে আটকে গেল আর্সেনালের কাছে। দ্বিতীয়ার্ধে হ্যারি কেইনের গোলে এগিয়ে গেলেও শেষতক ২-২ সমতা নিয়েই মাঠ ছাড়তে হয়েছে জার্মান চ্যাম্পিয়নদের। বিস্তারিত আসছে ...।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/d8js7ol0ad\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "বায়ার্ন মিউনিখ ২ : ২ আর্সেনাল ভাইরাসে আক্রান্ত ভিনসেন্ট কোম্পানি ডাগআউটে থাকবেন কি না অনিশ্চয়তা ছিল। কিছুটা সংশয় ছিল গোলপোস্টের নিচে মানুয়েল ন্যয়ারের থাকা নিয়ে। শেষ পযন্ত দুজনই থাকলেন। কিন্তু বায়ার্ন মিউনিখের আর জয়ে ফেরা হলো না। আগের ম্যাচে ভাইকিংয়ের মাঠ থেকে ড্র করে ফেরা বায়ার্ন এবার নিজেদের মাঠে আ",
       "sourceUrl": "https://www.prothomalo.com/sports/football/d8js7ol0ad",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss9bf599526cb7cc",
+      "slug": "বড়-জয়ে-এল-ক্লাসিকোর-প্রস্তুতি-সারল-রিয়াল",
+      "title": "বড় জয়ে এল ক্লাসিকোর প্রস্তুতি সারল রিয়াল মাদ্রিদ",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A7%9C-%E0%A6%9C%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%B2-%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%A4%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%B2-%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B2.avif",
+      "publishedAt": "2026-10-21T21:14:22.943Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>বুন্দেসলিগার ক্লাব লাইপজিগের বিপক্ষে রিয়াল জিতেছে ৪-১ গোলের বড় ব্যবধানে। গোল করেছেন বের্নার্দো সিলভা, আরদা গুলের, কিলিয়ান এমবাপ্পে ও ইয়ান দিওমান্দে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/rn02mxb8ws\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "বুন্দেসলিগার ক্লাব লাইপজিগের বিপক্ষে রিয়াল জিতেছে ৪-১ গোলের বড় ব্যবধানে। গোল করেছেন বের্নার্দো সিলভা, আরদা গুলের, কিলিয়ান এমবাপ্পে ও ইয়ান দিওমান্দে।",
+      "sourceUrl": "https://www.prothomalo.com/sports/football/rn02mxb8ws",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7970,54 +8018,6 @@
       "summary": "রাষ্ট্রায়ত্ত বাণিজ্যিক ব্যাংকের ব্যবস্থাপনা পরিচালক (এমডি) ও প্রধান নির্বাহী কর্মকর্তা (সিইও) নিয়োগের ক্ষেত্রে অভিজ্ঞতার শর্ত শিথিল করার সুযোগ রেখেছে সরকার। বিশেষ দক্ষতা, পেশাগত যোগ্যতা, নেতৃত্বের সক্ষমতা ও সুনাম বিবেচনায় উপব্যবস্থাপনা পরিচালক (ডিএমডি) পদে অন্তত দুই বছরের অভিজ্ঞতা না থাকলেও কোনও কর্",
       "sourceUrl": "https://www.banglatribune.com/business/money-and-investment/975604/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87%E0%A6%93",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssc6026e992553e9",
-      "slug": "পাঁচ-বছরে-কার্ডে-লেনদেন-দ্বিগুণ",
-      "title": "পাঁচ বছরে কার্ডে লেনদেন দ্বিগুণ",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A6%BE%E0%A6%81%E0%A6%9A-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%A6%E0%A7%87%E0%A6%A8-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%97%E0%A7%81%E0%A6%A3.jpg",
-      "publishedAt": "2026-10-20T03:59:18.135Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বাংলাদেশে প্রযুক্তিনির্ভর কেনাকাটা ও ক্যাশলেস লেনদেনের পরিধি দ্রুত বিস্তৃত হচ্ছে, যার প্রতিফলন দেখা যাচ্ছে ব্যাংক কার্ডের ব্যবহারের ঊর্ধ্বমুখী প্রবণতায়। বাংলাদেশ ব্যাংকের সাম্প্রতিক প্রতিবেদন অনুযায়ী, গত পাঁচ বছরে দেশে ডেবিট, ক্রেডিট ও প্রিপেইড কার্ডের মাধ্যমে লেনদেনের আর্থিক মূল্য প্রায় ১০৩ শতাংশ বেড়েছে। এই সময়ের ব্যবধানে বাজারে সক্রিয় কার্ডের সংখ্যাও প্রায় ৯৬ শতাংশ বৃদ্ধি পেয়েছে।</p>\n<p>তথ্য বিশ্লেষণে দেখা যায়, ২০২১ সালের সেপ্টেম্বর মাস শেষে দেশে কার্ডের সংখ্যা ছিল ২ কোটি ৭০ লাখ, যা চলতি বছরের আগস্ট মাস নাগাদ বেড়ে দাঁড়িয়েছে প্রায় ৫ কোটি ৩০ লাখে। এর মধ্যে প্রিপেইড কার্ড ব্যবহারের হার সবচেয়ে বেশি—প্রায় ৮০৩ শতাংশ বৃদ্ধি পেয়েছে। এছাড়া একই সময়ে ডেবিট কার্ডের ব্যবহার ৬৯ শতাংশ এবং ক্রেডিট কার্ডের ব্যবহার ৫৯ শতাংশ হারে বেড়েছে। মাসিক লেনদেনের চিত্রটি পর্যালোচনা করলে দেখা যায়, পাঁচ বছর আগে যেখানে কার্ডে ২৪ হাজার ৫৬১ কোটি টাকার লেনদেন হতো, এখন তা বেড়ে দাঁড়িয়েছে ৪৯ হাজার ৭৭০ কোটি টাকায়।</p>\n<p>দেশের সীমানা ছাড়িয়ে বিদেশের বাজারেও বাংলাদেশি কার্ডের ব্যবহার বেড়েছে। চলতি বছরের আগস্ট মাসে বিদেশে নিবন্ধিত কার্ড নিয়ে বাংলাদেশে বিদেশিরা ২৪৯ কোটি টাকা ব্যয় করেছেন। তবে একই সময়ে বাংলাদেশি কার্ড ব্যবহার করে দেশের বাইরে ৯৮৭ কোটি টাকা ব্যয় হয়েছে, যা বিদেশিদের ব্যয়ের প্রায় চার গুণ। বিদেশে ক্রেডিট কার্ড ব্যবহারের ক্ষেত্রে ১৭ দশমিক ১৬ শতাংশ ব্যয় নিয়ে যুক্তরাষ্ট্র শীর্ষস্থানে রয়েছে; এর পরেই রয়েছে থাইল্যান্ড, যুক্তরাজ্য ও ভারত।</p>\n<p>ক্রেডিট কার্ডের লেনদেনে সাম্প্রতিক কিছু মন্থরগতিও লক্ষ্য করা গেছে। আগস্ট মাসে ক্রেডিট কার্ডের মাধ্যমে দেশীয় বাজারে লেনদেনের পরিমাণ ছিল ৪ হাজার ৮৯ কোটি ৩০ লাখ টাকা, যা আগের মাসের তুলনায় ৫ দশমিক ৪৪ শতাংশ কম। ক্রেডিট কার্ডের মোট ব্যয়ের ৪৮ দশমিক ১৪ শতাংশ অর্থাৎ ১ হাজার ৯৬৯ কোটি টাকা ব্যয় হয়েছে বিভিন্ন সুপারশপ ও ডিপার্টমেন্ট স্টোরে। এছাড়া খুচরা বিক্রয় কেন্দ্র, ওষুধের দোকান এবং বিভিন্ন পরিষেবার বিল পরিশোধে কার্ডের ব্যবহার উল্লেখযোগ্য।</p>\n<p>আগস্ট মাস শেষে ক্রেডিট কার্ডের অনুমোদিত মোট ঋণসীমা ছিল ৪৩ হাজার ১০৮ কোটি টাকা, যার বিপরীতে ব্যাংকের বকেয়া পাওনার পরিমাণ ১৪ হাজার ৪৮২ কোটি টাকা। কার্ডের ব্যবহার আশানুরূপ বাড়লেও ডিজিটাল লেনদেনের পূর্ণাঙ্গ প্রসারে এখনো কিছু প্রতিবন্ধকতা রয়ে গেছে। বিশেষ করে নগদ অর্থের ওপর প্রবল নির্ভরতা, ডিজিটাল অবকাঠামোর সীমাবদ্ধতা এবং সাইবার নিরাপত্তার ঝুঁকিকে এই খাতের প্রধান চ্যালেঞ্জ হিসেবে চিহ্নিত করেছে কেন্দ্রীয় ব্যাংক।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ডিজিটাল লেনদেনে গ্রাহকদের ক্রমবর্ধমান নির্ভরতা আর্থিক অন্তর্ভুক্তিকে যেমন ত্বরান্বিত করছে, তেমনি সাইবার নিরাপত্তা নিশ্চিত করা এখন বড় চ্যালেঞ্জ। ব্যক্তিগত তথ্যের সুরক্ষা এবং প্রযুক্তিগত সক্ষমতা বৃদ্ধি ছাড়া এই ক্যাশলেস যাত্রায় ঝুঁকি থেকে যায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/economy/538878\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "দেশে প্রযুক্তিনির্ভর কেনাকাটা ও ক্যাশলেস লেনদেনের প্রসারে দ্রুত বাড়ছে ব্যাংক কার্ডের ব্যবহার। বাংলাদেশ ব্যাংকের হালনাগাদ তথ্য অনুযায়ী, গত পাঁচ বছরে দেশে ডেবিট,...",
-      "sourceUrl": "https://daily-bangladesh.com/economy/538878",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsscb238f97c0694f",
-      "slug": "বাংলাদেশ-পর্তুগাল-সম্পর্ক-জোরদারে-নতুন-উ",
-      "title": "বাংলাদেশ-পর্তুগাল সম্পর্ক জোরদারে নতুন উদ্যোগ",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%97%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%9C%E0%A7%8B%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%89.jpg",
-      "publishedAt": "2026-10-20T03:59:18.132Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>পর্তুগালের রাজধানী লিসবনের ঐতিহাসিক বেলেম প্রাসাদে এক বর্ণাঢ্য আয়োজনের মধ্য দিয়ে দেশটিতে নিযুক্ত বাংলাদেশের নতুন রাষ্ট্রদূত ড. এস এম কামরুল হাসান আনুষ্ঠানিকভাবে তার পরিচয়পত্র পেশ করেছেন। সোমবার (১৯ অক্টোবর) পর্তুগালের রাষ্ট্রপতি মার্সেলো রেবেলো ডি সউজার কাছে তিনি এই পরিচয়পত্র হস্তান্তর করেন। এই কূটনৈতিক প্রক্রিয়াটি বাংলাদেশ ও পর্তুগালের মধ্যকার দীর্ঘদিনের বন্ধুত্বপূর্ণ সম্পর্ককে আরও শক্তিশালী করার পথে একটি গুরুত্বপূর্ণ পদক্ষেপ হিসেবে দেখছে উভয় পক্ষ।</p>\n<p>পরিচয়পত্র পেশের পর অনুষ্ঠিত সৌজন্য সাক্ষাতে রাষ্ট্রদূত ড. কামরুল হাসান বাংলাদেশের রাষ্ট্রপতি ও সরকারপ্রধানের পক্ষ থেকে পর্তুগিজ প্রেসিডেন্টকে শুভেচ্ছা ও অভিনন্দন জানান। বৈঠকে দুই দেশের পারস্পরিক উন্নয়ন ও দ্বিপক্ষীয় সম্পর্ক নতুন উচ্চতায় নেওয়ার বিষয়ে গুরুত্ব দেওয়া হয়। আলোচনার এক পর্যায়ে রাষ্ট্রদূত ঢাকায় পর্তুগালের একটি পূর্ণাঙ্গ আবাসিক দূতাবাস খোলার আহ্বান জানান। তিনি উল্লেখ করেন, বাংলাদেশে স্থায়ী কূটনৈতিক মিশন স্থাপিত হলে দুই দেশের প্রাতিষ্ঠানিক যোগাযোগ সহজ হবে এবং বাণিজ্যিক সহযোগিতার নতুন ক্ষেত্র তৈরি হবে।</p>\n<p>বাণিজ্যিক ঘাটতি কমিয়ে আনা এবং দুই দেশের মধ্যে সুশৃঙ্খল অভিবাসন ও শ্রম গতিশীলতা কাঠামো কার্যকর করার ওপর বৈঠকে বিশেষ জোর দেওয়া হয়েছে। এছাড়া জনগণের মধ্যে সম্পর্ক বৃদ্ধির লক্ষ্যে ঢাকা ও লিসবনের মধ্যে সরাসরি আকাশপথ চালুর বিষয়ে বাংলাদেশের আগ্রহের বিষয়টিও তুলে ধরেছেন রাষ্ট্রদূত। অবকাঠামোগত এসব সুবিধার পাশাপাশি তথ্যপ্রযুক্তি, নবায়নযোগ্য জ্বালানি, সামুদ্রিক খাত এবং শিক্ষা ও সাংস্কৃতিক বিনিময়ের মাধ্যমে দ্বিপক্ষীয় সম্পর্ক আরও গভীর করার বিষয়ে দুই পক্ষ আশাবাদ ব্যক্ত করেছে।</p>\n<p>বৈঠকে পর্তুগালের রাষ্ট্রপতি মার্সেলো রেবেলো ডি সউজা পর্তুগিজ অর্থনীতি ও সমাজে বাংলাদেশি প্রবাসীদের গঠনমূলক ভূমিকার ভূয়সী প্রশংসা করেন। তিনি স্থানীয় সংস্কৃতির সঙ্গে প্রবাসী বাংলাদেশিদের একীভূত হওয়ার প্রক্রিয়ার ওপর গুরুত্বারোপ করেন। সামগ্রিকভাবে এই বৈঠকটি দুই দেশের স্বার্থসংশ্লিষ্ট বিভিন্ন খাতে যৌথ সহযোগিতা জোরদারের ক্ষেত্রে একটি গুরুত্বপূর্ণ মাইলফলক হিসেবে বিবেচিত হচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ইউরোপীয় ইউনিয়নের অন্যতম গুরুত্বপূর্ণ দেশ পর্তুগালের সাথে এই নতুন কূটনৈতিক যাত্রা বাংলাদেশের বৈদেশিক সম্পর্কের পরিধি বিস্তারে সহায়ক হবে। দ্বিপাক্ষিক সম্পর্কের উন্নয়ন প্রবাসী বাংলাদেশিদের কর্মসংস্থান ও আইনি সুরক্ষা নিশ্চিত করার সুযোগ তৈরি করবে, যা দীর্ঘমেয়াদে অর্থনীতিতে ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/exile-life/538880\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "পর্তুগালের রাষ্ট্রপতি মার্সেলো রেবেলো ডি সউজার কাছে আনুষ্ঠানিকভাবে নিজের পরিচয়পত্র পেশ করেছেন দেশটিতে নিযুক্ত বাংলাদেশের নতুন রাষ্ট্রদূত ড. এস এম কামরুল হাসান।...",
-      "sourceUrl": "https://daily-bangladesh.com/exile-life/538880",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss1c8cabd2efb6d0",
-      "slug": "চলতি-মাসের-বেতনের-সঙ্গেই-মিলবে-বাড়তি-টাক",
-      "title": "চলতি মাসের বেতনের সঙ্গেই মিলবে বাড়তি টাকা",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%9A%E0%A6%B2%E0%A6%A4%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%87-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%A4%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95.jpg",
-      "publishedAt": "2026-10-20T03:59:18.131Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>নতুন পে স্কেল অনুযায়ী সরকারি চাকরিজীবীদের বেতন নির্ধারণ বা ‘পে ফিক্সেশন’ প্রক্রিয়া আজ মঙ্গলবার, ২০ অক্টোবর শেষ হচ্ছে। গত ৫ অক্টোবর থেকে শুরু হওয়া এই কার্যক্রমের আওতায় আইবাস++ পোর্টালে নিজেদের তথ্য হালনাগাদ করছেন সংশ্লিষ্টরা। অর্থ বিভাগের তথ্যমতে, ফিক্সেশন প্রক্রিয়া সম্পন্ন হওয়ার পরপরই চলতি অক্টোবর মাসের বেতনের সঙ্গে নতুন কাঠামোর বর্ধিত মূল বেতন ও বকেয়া অর্থ যুক্ত করা হবে।</p>\n<p>নতুন এই নিয়মের আওতায় সরকারি কর্মচারীরা গত তিন মাসের বকেয়া বেতন একসঙ্গে বুঝে পাবেন। তবে বর্তমান পরিস্থিতিতে বেতন কাঠামো পরিবর্তিত হলেও ভাতার ক্ষেত্রে কোনো পরিবর্তন আসছে না। অর্থ মন্ত্রণালয়ের জারি করা এক প্রজ্ঞাপনে স্পষ্ট করা হয়েছে যে, পরবর্তী নির্দেশ না আসা পর্যন্ত বাড়িভাড়া, চিকিৎসা এবং অন্যান্য ভাতা আগের মতোই বিদ্যমান মূল বেতনের ভিত্তিতে প্রদান করা হবে।</p>\n<p>পে ফিক্সেশন প্রক্রিয়াটি নির্ভুলভাবে সম্পন্ন করার জন্য আইবাস++ মডিউলে কর্মচারীদের জাতীয় পরিচয়পত্র, জন্মতারিখ, বর্তমান পদবি, গ্রেড ও মূল বেতনের সঠিক তথ্য প্রদান করতে হচ্ছে। এছাড়া যাদের পদোন্নতি, বদলি বা উচ্চতর গ্রেডপ্রাপ্তির রেকর্ড রয়েছে, তাদের সেই সংক্রান্ত অফিস আদেশগুলোও সতর্কতার সঙ্গে দাখিল করতে হবে।</p>\n<p>যেকোনো ধরনের ভুল তথ্যের কারণে বেতন নির্ধারণ প্রক্রিয়া বাধাগ্রস্ত হতে পারে বলে সতর্ক করেছে অর্থ বিভাগ। তাই আবেদন জমা দেওয়ার আগে সব ধরনের নথিপত্র ও তথ্য যথাযথভাবে যাচাই করে নেওয়ার জন্য পরামর্শ দেওয়া হয়েছে। সঠিক প্রক্রিয়ায় তথ্য প্রদান নিশ্চিত হলে নির্ধারিত সময়ের মধ্যেই কর্মচারীরা তাদের বর্ধিত বেতন ও বকেয়া পাওনা বুঝে পাবেন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নতুন বেতন কাঠামো অনুযায়ী আর্থিক সুবিধা নিশ্চিত হওয়ায় সরকারি চাকরিজীবীদের দীর্ঘ প্রতীক্ষার অবসান ঘটতে যাচ্ছে। স্বচ্ছতা বজায় রাখতে আইবাস++ পোর্টালের মাধ্যমে ব্যক্তিগতভাবে বেতন নির্ধারণ প্রক্রিয়া যাচাই করা প্রতিটি কর্মীর জন্য এখন জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/538881\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "নতুন পে স্কেল অনুযায়ী সরকারি কর্মচারীদের ‘পে ফিক্সেশন’ বা বেতন নির্ধারণের কাজ শেষ হচ্ছে আজ মঙ্গলবার (২০ অক্টোবর)। সরকারি চাকরিজীবীরা আইবাস++ পোর্টালে ঢুকে নিজেদ...",
-      "sourceUrl": "https://daily-bangladesh.com/national/538881",
-      "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
   "ads": [
