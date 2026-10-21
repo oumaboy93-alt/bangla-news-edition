@@ -1,6 +1,6 @@
 {
-  "version": 733,
-  "updatedAt": "2026-10-21T01:03:51.910Z",
+  "version": 734,
+  "updatedAt": "2026-10-21T01:14:23.370Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -1609,7 +1609,7 @@
       "title": "টানা ৫ দিনের ছুটি শুরু, অফিস করতে হবে যাদের",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss9a96c1874a458d-1200x630.jpg",
       "publishedAt": "2026-10-20T16:59:21.254Z",
       "tags": [
         "বাংলাদেশ সরকার"
