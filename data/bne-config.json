@@ -1,6 +1,6 @@
 {
-  "version": 790,
-  "updatedAt": "2026-10-21T19:09:37.428Z",
+  "version": 791,
+  "updatedAt": "2026-10-21T19:20:47.768Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss849c96d60c7e00",
+      "slug": "ফেক-নিউজের-চ্যালেঞ্জ-বিশ্বজুড়ে-সমাধানে-ভ",
+      "title": "ফেক নিউজের চ্যালেঞ্জ বিশ্বজুড়ে, সমাধানে ভারসাম্য জরুরি: তথ্য ও সম্প্রচারমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AB%E0%A7%87%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%9E%E0%A7%8D%E0%A6%9C-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A7%81%E0%A7%9C%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AD.jpg",
+      "publishedAt": "2026-10-21T19:14:22.763Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ফেক নিউজ, প্রেক্ষাপটবিহীন সংবাদ ও বিকৃত তথ্য নিয়ন্ত্রণের চ্যালেঞ্জ শুধু বাংলাদেশের নয়, এটি বিশ্বব্যাপী সমস্যা। এ ক্ষেত্রে আইনি পদক্ষেপ গ্রহণের পাশাপাশি মতপ্রকাশ...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/539083\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ফেক নিউজ, প্রেক্ষাপটবিহীন সংবাদ ও বিকৃত তথ্য নিয়ন্ত্রণের চ্যালেঞ্জ শুধু বাংলাদেশের নয়, এটি বিশ্বব্যাপী সমস্যা। এ ক্ষেত্রে আইনি পদক্ষেপ গ্রহণের পাশাপাশি মতপ্রকাশ...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/539083",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss0d4a2b1a0221bf",
+      "slug": "ভারত-নেপালের-খেলোয়াড়দের-বনানী-পূজামণ্ডপ",
+      "title": "ভারত-নেপালের খেলোয়াড়দের বনানী পূজামণ্ডপ পরিদর্শন",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%A8%E0%A7%87%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A7%9C%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%AA%E0%A7%82%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A6%AA.jpg",
+      "publishedAt": "2026-10-21T19:14:22.762Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>সাবেক প্রধানমন্ত্রী দেশ নেত্রী বেগম খালেদা জিয়া আইএইচএফ নেশনস ট্রফি নারী হ্যান্ডবলে প্রতিনিধিত্ব করতে ঢাকায় অবস্থান করা ভারত ও নেপাল দলের খেলোয়াড়েরা মঙ্গলবার রা...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/sports/539084\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "সাবেক প্রধানমন্ত্রী দেশ নেত্রী বেগম খালেদা জিয়া আইএইচএফ নেশনস ট্রফি নারী হ্যান্ডবলে প্রতিনিধিত্ব করতে ঢাকায় অবস্থান করা ভারত ও নেপাল দলের খেলোয়াড়েরা মঙ্গলবার রা...",
+      "sourceUrl": "https://www.daily-bangladesh.com/sports/539084",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss300c7fafd8d631",
+      "slug": "কটিয়াদীতে-প্রতিমা-বিসর্জনে-শেষ-হলো-পাঁচ",
+      "title": "কটিয়াদীতে প্রতিমা বিসর্জনে শেষ হলো পাঁচ দিনব্যাপী দুর্গোৎসব",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A6%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A7%87-%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%AA%E0%A6%BE%E0%A6%81%E0%A6%9A.jpg",
+      "publishedAt": "2026-10-21T19:14:22.758Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>মাসুম পাঠান, কটিয়াদী (কিশোরগঞ্জ)</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/539085\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "মাসুম পাঠান, কটিয়াদী (কিশোরগঞ্জ)",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/539085",
+      "sourceName": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rssd4b6973a6b5463",
@@ -7969,54 +8017,6 @@
       "body": "<p>বার্সেলোনার আক্রমণভাগে লামিনে ইয়ামাল এখন সবচেয়ে বড় হুমকি। তাকে থামাতে আলাদা করে কড়া মার্কিং নয়, বরং বলের দখল নিজেদের কাছে রাখাকে প্রধান কৌশল হিসেবে দেখছেন পিএসজি কোচ লুইস এনরিকে। সাবেক ক্লাবের বিপক্ষে চ্যাম্পিয়ন্স লিগের গুরুত্বপূর্ণ লড়াইয়ে নামার আগে তিনি স্পষ্ট করে দিয়েছেন, ইয়ামালকে বল পেতে দেবে না </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বলের দখল নিয়ন্ত্রণের মাধ্যমে প্রতিপক্ষকে নিষ্ক্রিয় করার এই কৌশল পিএসজির রক্ষণভাগের জন্য বড় পরীক্ষা। ইয়ামালের মতো উদীয়মান তারকার ক্ষিপ্রতা রুখতে এনরিকের এই গেমপ্ল্যান সফল হলে তা চ্যাম্পিয়ন্স লিগের পরবর্তী ধাপে তাদের অবস্থান আরও শক্তিশালী করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/975538/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B2%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%9B%E0%A6%95-%E0%A6%95%E0%A6%B7%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%8F%E0%A6%A8%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "বার্সেলোনার আক্রমণভাগে লামিনে ইয়ামাল এখন সবচেয়ে বড় হুমকি। তাকে থামাতে আলাদা করে কড়া মার্কিং নয়, বরং বলের দখল নিজেদের কাছে রাখাকে প্রধান কৌশল হিসেবে দেখছেন পিএসজি কোচ লুইস এনরিকে। সাবেক ক্লাবের বিপক্ষে চ্যাম্পিয়ন্স লিগের গুরুত্বপূর্ণ লড়াইয়ে নামার আগে তিনি স্পষ্ট করে দিয়েছেন, ইয়ামালকে বল পেতে দেবে না ",
       "sourceUrl": "https://www.banglatribune.com/sport/football/975538/%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B2%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%9B%E0%A6%95-%E0%A6%95%E0%A6%B7%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%8F%E0%A6%A8%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssefa7df060994f5",
-      "slug": "নাটোরের-বনপাড়ায়-বাস-ট্রাক-সংঘর্ষে-নিহত-১",
-      "title": "নাটোরের বনপাড়ায় বাস-ট্রাক সংঘর্ষে নিহত ১০, আহত অন্তত ২৫ জন",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rssefa7df060994f5-1200x630.jpg",
-      "publishedAt": "2026-10-20T01:44:18.041Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>নাটোরের বনপাড়া এলাকায় আরপি পরিবহনের একটি যাত্রীবাহী বাস এবং বালুবোঝাই ট্রাকের সংঘর্ষে ১০ জন নিহত হয়েছেন। এ ঘটনায় আহত হয়েছেন অন্তত ২৫আরোহী। মঙ্গলবার (২০ অক্টোবর) ভোর সাড়ে ৪টার সময় বড়াইগ্রাম উপজেলার নাটোর-পাবনা মহাসড়কের সরকারপাড়া এলাকায় এ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সড়কপথের এই মর্মান্তিক বিশৃঙ্খলা স্থানীয় জনজীবনে চরম আতঙ্ক ও শোকের ছায়া ফেলেছে। নিয়মিত ফিটনেস পরীক্ষা ও মহাসড়কের নিরাপত্তায় কঠোর নজরদারি নিশ্চিত করা এখন সময়ের দাবি। প্রাণহানি এড়াতে চালক ও সংশ্লিষ্ট কর্তৃপক্ষের দায়িত্বশীলতা ছাড়া পরিস্থিতির উত্তরণ সম্ভব নয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314471/নাটোরের-বনপাড়ায়-বাস-ট্রাক-সংঘর্ষে-নিহত-১০-আহত-অন্তত-২৫-জন\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "নাটোরের বনপাড়া এলাকায় আরপি পরিবহনের একটি যাত্রীবাহী বাস এবং বালুবোঝাই ট্রাকের সংঘর্ষে ১০ জন নিহত হয়েছেন। এ ঘটনায় আহত হয়েছেন অন্তত ২৫আরোহী। মঙ্গলবার (২০ অক্টোবর) ভোর সাড়ে ৪টার সময় বড়াইগ্রাম উপজেলার নাটোর-পাবনা মহাসড়কের সরকারপাড়া এলাকায় এ...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/314471/নাটোরের-বনপাড়ায়-বাস-ট্রাক-সংঘর্ষে-নিহত-১০-আহত-অন্তত-২৫-জন",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rsscdd8fc09b54e4a",
-      "slug": "৩০-দিনের-নিষেধাজ্ঞা-ও-জরিমানার-মুখে-রোনা",
-      "title": "৩০ দিনের নিষেধাজ্ঞা ও জরিমানার মুখে রোনালদো",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rsscdd8fc09b54e4a-1200x630.jpg",
-      "publishedAt": "2026-10-20T01:44:18.039Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>সম্প্রতি ইউরো নেসনস লিগ চলাকালে কোচের সঙ্গে মনোমালিন্যের জেরে জাতীয় দলের ক্যাম্প ছেড়ে যাওয়ার ঘটনায় শাস্তি পাচ্ছেন ক্রিস্টিয়ানো রোনালদো। সিআরসেভেনকে ৩০ দিনের নিষেধাজ্ঞার পাশাপাশি ও ২৫৫ ইউরো জরিমানা (বাংলাদেশি মুদ্রায় যা প্রায় ৩৫ হাজার ৩০০...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রিয়তার শীর্ষে থাকা একজন তারকার এমন আচরণ তরুণ প্রজন্মের ওপর নেতিবাচক প্রভাব ফেলতে পারে। নিয়মের ঊর্ধ্বে কেউ নয়—এই বার্তাটি প্রতিষ্ঠিত হওয়া জরুরি, যা পেশাদারিত্ব ও শৃঙ্খলার গুরুত্বকে সাধারণ মানুষের কাছে নতুন করে তুলে ধরে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/sports/314472/৩০-দিনের-নিষেধাজ্ঞা-ও-জরিমানার-মুখে-রোনালদো\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "সম্প্রতি ইউরো নেসনস লিগ চলাকালে কোচের সঙ্গে মনোমালিন্যের জেরে জাতীয় দলের ক্যাম্প ছেড়ে যাওয়ার ঘটনায় শাস্তি পাচ্ছেন ক্রিস্টিয়ানো রোনালদো। সিআরসেভেনকে ৩০ দিনের নিষেধাজ্ঞার পাশাপাশি ও ২৫৫ ইউরো জরিমানা (বাংলাদেশি মুদ্রায় যা প্রায় ৩৫ হাজার ৩০০...",
-      "sourceUrl": "https://www.bd-journal.com/sports/314472/৩০-দিনের-নিষেধাজ্ঞা-ও-জরিমানার-মুখে-রোনালদো",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssbc796e3f10acf7",
-      "slug": "পুলিশকে-না-জানিয়ে-এবার-ববি-হাজ্জাজের-নাম",
-      "title": "পুলিশকে না জানিয়ে এবার ববি হাজ্জাজের নামে ‘অভিযান’, মাথা ফাটলো যুবকের",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%AC%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%AE.webp",
-      "publishedAt": "2026-10-20T01:44:18.031Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সদ্য সাবেক মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ও ঢাকা-৬ আসনের সংসদ সদস্য ইশরাক হোসেনের অস্ত্র হাতে মাদকবিরোধী অভিযান নিয়ে দেশজুড়ে আলোচনার মধ্যেই পুলিশকে না জানিয়ে ঢাকা-১৩ আসনের সংসদ সদস্য ও শিক্ষা প্রতিমন্ত্রী ববি হাজ্জাজের অফিস থেকে মোহাম্মদপুরের জেনেভা ক্যাম্প এলাকায় মাদকবিরোধী অভিযান চালানো হয়েছে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনশৃঙ্খলা রক্ষাকারী বাহিনীকে পাশ কাটিয়ে ব্যক্তিগত উদ্যোগে এমন অভিযান জননিরাপত্তার জন্য বড় ধরনের ঝুঁকি তৈরি করছে। স্থানীয় বাসিন্দাদের আইনি সুরক্ষার স্বার্থে এ ধরনের কর্মকাণ্ড বন্ধ হওয়া জরুরি। প্রশাসনকে এখনই এ বিষয়ে কঠোর পদক্ষেপ নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/975590/%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%AC%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সদ্য সাবেক মুক্তিযুদ্ধবিষয়ক প্রতিমন্ত্রী ও ঢাকা-৬ আসনের সংসদ সদস্য ইশরাক হোসেনের অস্ত্র হাতে মাদকবিরোধী অভিযান নিয়ে দেশজুড়ে আলোচনার মধ্যেই পুলিশকে না জানিয়ে ঢাকা-১৩ আসনের সংসদ সদস্য ও শিক্ষা প্রতিমন্ত্রী ববি হাজ্জাজের অফিস থেকে মোহাম্মদপুরের জেনেভা ক্যাম্প এলাকায় মাদকবিরোধী অভিযান চালানো হয়েছে",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/975590/%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%AC%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
