@@ -1,6 +1,6 @@
 {
-  "version": 811,
-  "updatedAt": "2026-10-21T23:44:03.172Z",
+  "version": 812,
+  "updatedAt": "2026-10-21T23:54:30.301Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,38 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss4183c278445789",
+      "slug": "মসজিদ-মন্দির",
+      "title": "মসজিদ-মন্দির",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-21T23:44:23.015Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMizwFBVV95cUxQRTl3QWlfaDR1NkVXUXdQWDJfSHNCdE9mYXg4QnlBbWRmVF9KT3dqYnFDUnAzVW5PaC1fYkdCNExoNUNtMC1zc1V0QWRHNmRaQmpWRXZGNlU3aDR3QVpvNUpKVFEtY002WXJqUmRPaDFXazJQSWlRWFNvTmhzWUdOTC1CNlY1N2FnbjNNVHNvekVBbThyVEs4TndleU4yS1otcmhaWXBTYml6SlVVbmhSSzJ0Rko4ZU5QWkN5Sko2bmJqenFOdGRySUh3VldhVFU?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মসজিদ-মন্দির&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQRTl3QWlfaDR1NkVXUXdQWDJfSHNCdE9mYXg4QnlBbWRmVF9KT3dqYnFDUnAzVW5PaC1fYkdCNExoNUNtMC1zc1V0QWRHNmRaQmpWRXZGNlU3aDR3QVpvNUpKVFEtY002WXJqUmRPaDFXazJQSWlRWFNvTmhzWUdOTC1CNlY1N2FnbjNNVHNvekVBbThyVEs4TndleU4yS1otcmhaWXBTYml6SlVVbmhSSzJ0Rko4ZU5QWkN5Sko2bmJqenFOdGRySUh3VldhVFU?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQRTl3QWlfaDR1NkVXUXdQWDJfSHNCdE9mYXg4QnlBbWRmVF9KT3dqYnFDUnAzVW5PaC1fYkdCNExoNUNtMC1zc1V0QWRHNmRaQmpWRXZGNlU3aDR3QVpvNUpKVFEtY002WXJqUmRPaDFXazJQSWlRWFNvTmhzWUdOTC1CNlY1N2FnbjNNVHNvekVBbThyVEs4TndleU4yS1otcmhaWXBTYml6SlVVbmhSSzJ0Rko4ZU5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRTl3QWlfaDR1NkVXUXdQWDJfSHNCdE9mYXg4QnlBbWRmVF9KT3dqYnFDUnAzVW5PaC1fYkdCNExoNUNtMC1zc1V0QWRHNmRaQmpWRXZGNlU3aDR3QVpvNUpKVFEtY002WXJqUmRPaDFXazJQSWlRWFNvTmhzWUdOTC1CNlY1N2FnbjNNVHNvekVBbThyVEs4TndleU4yS1otcmhaWXBTYml6SlVVbmhSSzJ0Rko4ZU5QWkN5Sko2bmJqenFOdGRySUh3VldhVFU?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rss8b1ef99e7f144a",
+      "slug": "প্রত্যক্ষ-সাক্ষ্য-থাকলে-অপরাধের-মোটিভ-প্",
+      "title": "প্রত্যক্ষ সাক্ষ্য থাকলে অপরাধের মোটিভ প্রমাণ আবশ্যক নয়",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%B8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%AD-%E0%A6%AA%E0%A7%8D.webp",
+      "publishedAt": "2026-10-21T23:44:22.983Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>ভুক্তভোগীর আপনজনের সাক্ষ্য শুধু আপনজন হওয়ার কারণে অবিশ্বাস করা যাবে না মর্মে পর্যবেক্ষণ দিয়েছে দেশের সর্বোচ্চ আদালত। আদালত বলেছে, আপনজনের সাক্ষ্য সরাসরি ও বিশ্বাসযোগ্য হলে তা গ্রহণ করা যায়। কারণ আপনজন সাধারণত আসল অপরাধীকে ছেড়ে নির্দোষ কাউকে ফাঁসাতে চায় না। ‘মো. হুমায়ুন কবির বনাম রাষ্ট্র’ মামলায় দেশের সর্বোচ্চ আদালত আপিল বিভাগ এ পর্যবেক্ষণ দেয়। আদালত সিদ্ধান্ত দেয়, প্রত্যক্ষ সাক্ষ্য... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/816559/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%B8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%AD-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "ভুক্তভোগীর আপনজনের সাক্ষ্য শুধু আপনজন হওয়ার কারণে অবিশ্বাস করা যাবে না মর্মে পর্যবেক্ষণ দিয়েছে দেশের সর্বোচ্চ আদালত। আদালত বলেছে, আপনজনের সাক্ষ্য সরাসরি ও বিশ্বাসযোগ্য হলে তা গ্রহণ করা যায়। কারণ আপনজন সাধারণত আসল অপরাধীকে ছেড়ে নির্দোষ কাউকে ফাঁসাতে চায় না। ‘মো. হুমায়ুন কবির বনাম রাষ্ট্র’ মামলায় দেশে",
+      "sourceUrl": "https://www.ittefaq.com.bd/816559/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%B8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%AD-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3",
+      "sourceName": "ইত্তেফাক"
     },
     {
       "id": "rssd6a91919989073",
@@ -1345,6 +1377,22 @@
       "body": "<p>আজ বুধবার বিকেলে সুশীল দাসদের বাড়ির পাশেই একটি পুকুরে কিছু একটা ভাসতে দেখেন স্থানীয় লোকজন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/h8uie4hbqj\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "আজ বুধবার বিকেলে সুশীল দাসদের বাড়ির পাশেই একটি পুকুরে কিছু একটা ভাসতে দেখেন স্থানীয় লোকজন।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/district/h8uie4hbqj",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rssaf1926861a7c2f",
+      "slug": "রাজশাহী-মেডিকেলে-ইন্টার্ন-চিকিৎসকদের-কর",
+      "title": "রাজশাহী মেডিকেলে ইন্টার্ন চিকিৎসকদের কর্মবিরতি, চিকিৎসাসেবা ব্যাহত",
+      "category": "স্বাস্থ্য",
+      "lead": false,
+      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%80-%E0%A6%AE%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A8-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0.avif",
+      "publishedAt": "2026-10-21T16:59:22.675Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>পাঁচ দফা দাবির মধ্যে আছে—প্রয়োজনীয় ওষুধ ও চিকিৎসাসামগ্রী সরবরাহ নিশ্চিত করা, চিকিৎসকদের নিরাপত্তা জোরদার, রোগীর স্বজনদের প্রবেশ নিয়ন্ত্রণ এবং ক্যাজুয়ালটি বিভাগ চালু করা।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/652j6hdh8q\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "পাঁচ দফা দাবির মধ্যে আছে—প্রয়োজনীয় ওষুধ ও চিকিৎসাসামগ্রী সরবরাহ নিশ্চিত করা, চিকিৎসকদের নিরাপত্তা জোরদার, রোগীর স্বজনদের প্রবেশ নিয়ন্ত্রণ এবং ক্যাজুয়ালটি বিভাগ চালু করা।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/district/652j6hdh8q",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7969,54 +8017,6 @@
       "body": "<p>রাজধানীর আইনশৃঙ্খলা পরিস্থিতি স্বাভাবিক ও অপরাধমুক্ত রাখতে বিশেষ অভিযান পরিচালনা করেছে ঢাকা মেট্রোপলিটন পুলিশ (ডিএমপি)। গত ২৪ ঘণ্টার নিয়মিত এই অভিযানে মোট ৪৮৬ জনকে আটক করা হয়েছে। বিভিন্ন ধরনের অপরাধমূলক কর্মকাণ্ডে জড়িত থাকার অভিযোগে তাদের আটক করা হয় এবং এ ঘটনায় থানায় মোট ৪৯টি মামলা দায়ের করা হয়েছে। মঙ্গলবার (২০ অক্টোবর) ডিএমপির মিডিয়া অ্যান্ড পাবলিক রিলেশন্স বিভাগ এক বিজ্ঞপ্তির মাধ্যমে এই তথ্য নিশ্চিত করেছে।</p>\n<p>অভিযান পরিচালনার সময় ডিএমপির বিভিন্ন বিভাগ সক্রিয় ভূমিকা পালন করেছে। এর মধ্যে সবচেয়ে বেশি ১৬৭ জনকে আটক করেছে মিরপুর বিভাগ। এছাড়া তেজগাঁও বিভাগে ৯৬ জন, ওয়ারী বিভাগে ৫০ জন এবং উত্তরা বিভাগে ৪২ জনকে আটক করা হয়েছে। একই সময়ে রমনা, মতিঝিল ও লালবাগ বিভাগের প্রতিটি থেকে ৩৫ জন করে এবং গুলশান বিভাগ থেকে ২৪ জনকে আটক করা হয়েছে। পাশাপাশি ডিএমপির গোয়েন্দা বিভাগ পৃথক অভিযানে ৪ জনকে আটক করেছে।</p>\n<p>আইনশৃঙ্খলা রক্ষাকারী বাহিনীর এই অভিযানে বিপুল পরিমাণ মাদক ও অস্ত্র উদ্ধার করা সম্ভব হয়েছে। উদ্ধারকৃত মালামালের মধ্যে রয়েছে একটি বিদেশি পিস্তল, ১০ কেজি গাঁজা এবং ১৭ হাজার ২১৬ পিস ইয়াবা। এছাড়া অপরাধীদের কাছ থেকে ১০টি মোবাইল ফোন ও নগদ ১৩ হাজার ৭৭০ টাকা জব্দ করা হয়েছে। অভিযানের সময় পুলিশ দুই ভুক্তভোগীকে নিরাপদে উদ্ধার করতে সক্ষম হয়েছে।</p>\n<p>আটককৃত ব্যক্তিদের বিরুদ্ধে যথাযথ আইনি পদক্ষেপ গ্রহণ করা হচ্ছে বলে জানিয়েছে পুলিশ। ডিএমপির পক্ষ থেকে জানানো হয়েছে যে, মহানগরীর সার্বিক নিরাপত্তা নিশ্চিত করার লক্ষ্যে অপরাধীদের বিরুদ্ধে তাদের এই অভিযান অব্যাহত থাকবে। উদ্ধারকৃত আলামত এবং আটকদের নিয়ে পরবর্তী আইনগত প্রক্রিয়া চলমান রয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নিরাপত্তা নিশ্চিত করতে পুলিশের এমন কঠোর তৎপরতা অপরাধ প্রবণতা কমাতে সহায়ক হবে। তবে সাধারণ নাগরিকরা যেন হয়রানির শিকার না হন সেদিকে আইনশৃঙ্খলা বাহিনীকে সতর্ক থাকতে হবে এবং যেকোনো অসংগতি দেখলে দ্রুত নিকটস্থ থানাকে অবহিত করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/capital/538901\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "রাজধানীতে আইনশৃঙ্খলা পরিস্থিতি নিয়ন্ত্রণে রাখতে পরিচালিত ২৪ ঘণ্টার নিয়মিত অভিযানে ৪৮৬ জনকে আটক করেছে ঢাকা মেট্রোপলিটন পুলিশ (ডিএমপি)। এ সময় অপরাধমূলক কর্মকাণ্ডে...",
       "sourceUrl": "https://www.daily-bangladesh.com/capital/538901",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss05d45392ee4bcc",
-      "slug": "সংবিধানে-যা-আছে-তা-বাস্তবায়ন-করেছি-ও-করব-স",
-      "title": "‘সংবিধানে যা আছে তা বাস্তবায়ন করেছি ও করব’: স্বরাষ্ট্রমন্ত্রী",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A6%BF-%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%AC-%E0%A6%B8.jpg",
-      "publishedAt": "2026-10-20T06:14:20.808Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সংবিধানে সব নাগরিকের সমান অধিকার ও নিজ নিজ ধর্ম পালনের পূর্ণ স্বাধীনতা নিশ্চিত করা হয়েছে বলে জানিয়েছেন স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ। সোমবার (১৯ অক্টোবর) র...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সংবিধানে বর্ণিত ধর্মীয় স্বাধীনতার পূর্ণ বাস্তবায়ন একটি অসাম্প্রদায়িক ও স্থিতিশীল সমাজ গঠনের পূর্বশর্ত। রাষ্ট্রের প্রতিটি নাগরিকের নিজ ধর্ম পালনের অধিকার নিশ্চিত করা কেবল সাংবিধানিক দায়বদ্ধতা নয়, বরং জাতীয় সংহতি রক্ষারও অন্যতম প্রধান উপায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/538896\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সংবিধানে সব নাগরিকের সমান অধিকার ও নিজ নিজ ধর্ম পালনের পূর্ণ স্বাধীনতা নিশ্চিত করা হয়েছে বলে জানিয়েছেন স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ। সোমবার (১৯ অক্টোবর) র...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/538896",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss1e21d7a1864b3a",
-      "slug": "কাজীপুরে-কীটনাশক-পানে-বাবা-মেয়ের-মৃত্যু",
-      "title": "কাজীপুরে কীটনাশক পানে বাবা-মেয়ের মৃত্যু",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A7%80%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95-%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%AE%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81.jpg",
-      "publishedAt": "2026-10-20T06:14:20.805Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সিরাজগঞ্জের কাজীপুরে পারিবারিক কলহের জেরে কীটনাশক পান করার ঘটনায় বাবা ও মেয়ের মৃত্যু হয়েছে। সোমবার উপজেলার শুভগাছা ইউনিয়নের তারাকান্দি হাওলদার পাড়ায় এ ঘটনা ঘটে।...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক সংকট নিরসনে সামাজিক ও মানসিক সহায়তার অভাব প্রাণহানির এমন করুণ পরিস্থিতি তৈরি করছে। প্রতিকারের জন্য পরিবারে পারস্পরিক খোলামেলা আলোচনা ও প্রয়োজনে পেশাদার কাউন্সেলিংয়ের সংস্কৃতি গড়ে তোলা জরুরি। স্থানীয় জনপ্রতিনিধিদের এ বিষয়ে সচেতনতা বাড়াতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538897\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সিরাজগঞ্জের কাজীপুরে পারিবারিক কলহের জেরে কীটনাশক পান করার ঘটনায় বাবা ও মেয়ের মৃত্যু হয়েছে। সোমবার উপজেলার শুভগাছা ইউনিয়নের তারাকান্দি হাওলদার পাড়ায় এ ঘটনা ঘটে।...",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/538897",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssc484fcba7ea711",
-      "slug": "কাল-বিজয়া-দশমী-প্রতিমা-বিসর্জনের-প্রস্তু",
-      "title": "কাল বিজয়া দশমী, প্রতিমা বিসর্জনের প্রস্তুতি",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%BE%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%9F%E0%A6%BE-%E0%A6%A6%E0%A6%B6%E0%A6%AE%E0%A7%80-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81.jpg",
-      "publishedAt": "2026-10-20T06:14:20.800Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>শারদীয় দুর্গোৎসবের চূড়ান্ত পর্যায়ে আজ মহানবমী উদযাপিত হচ্ছে। ঢাকের বাদ্যি আর শরতের কাশফুলের দোলায় উৎসবের আমেজ থাকলেও, আজ দেবীর বিদায়বেলার সুরই যেন বেশি স্পষ্ট হয়ে উঠেছে। সনাতন ধর্মাবলম্বীদের কাছে নবমীর এই দিনটি কেবল আরাধনার নয়, বরং মানুষের ভেতরের শুভবোধকে জাগ্রত করার এক বিশেষ মুহূর্ত।</p>\n<p>পৌরাণিক কাহিনী অনুসারে, অশুভ শক্তি মহিষাসুরকে বধ করে ন্যায় প্রতিষ্ঠা করেছিলেন দেবী। এই জয়ের মাহাত্ম্যকে ধারণ করে আজও মণ্ডপগুলোতে চলছে বিহিত পূজা, পুষ্পাঞ্জলি ও হোম-যজ্ঞ। এসব ধর্মীয় আচার পালনের মধ্য দিয়ে ভক্তরা দেশ ও সমাজের সার্বিক কল্যাণের জন্য প্রার্থনা করছেন। একই সঙ্গে এই দিনটি নারীশক্তির মর্যাদা পুনঃপ্রতিষ্ঠা, সামাজিক বৈষম্য নিরসন এবং দুর্নীতি ও হিংসা বর্জনের শপথ নেওয়ার দিন হিসেবে পালিত হচ্ছে।</p>\n<p>উৎসবের সমাপ্তি ঘটবে আগামীকাল বুধবার বিজয়া দশমীর আয়োজনে। এদিন প্রতিমা বিসর্জনের মাধ্যমে দেবী দুর্গাকে আনুষ্ঠানিকভাবে বিদায় জানাবেন ভক্তরা। দুর্গোৎসবের এই বিদায়লগ্নে মনের ভেতরের সকল অহংকার ও সাম্প্রদায়িক সংকীর্ণতা বিসর্জন দিয়ে একটি সম্প্রীতিময় বাংলাদেশ গড়ে তোলার আহ্বান জানানো হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শারদীয় দুর্গোৎসবের বিদায়লগ্নে সম্প্রীতির যে বার্তা ফুটে ওঠে, তা বাঙালির অসাম্প্রদায়িক চেতনারই প্রতিফলন। প্রতিমা বিসর্জনের এই আয়োজন কেবল ধর্মীয় আচার নয়, বরং সমাজিক সংহতি ও একে অপরের প্রতি শ্রদ্ধাবোধকে আরও সুদৃঢ় করার অনন্য সুযোগ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/538898\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "শারদীয় দুর্গোৎসবের শেষপ্রহরে আজ উদযাপিত হচ্ছে মহানবমী। শরতের কাশফুল ও ঢাকের বাদ্যে শুরু হওয়া আনন্দের মাঝে আজ বাজছে দেবীর বিদায়বেলার করুণ সুর। সনাতন ধর্মাবলম্বী...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/538898",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
