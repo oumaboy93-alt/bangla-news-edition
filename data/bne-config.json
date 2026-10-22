@@ -1,6 +1,6 @@
 {
-  "version": 828,
-  "updatedAt": "2026-10-22T03:03:16.414Z",
+  "version": 829,
+  "updatedAt": "2026-10-22T03:13:44.771Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "এবার সৌদির আরেক বিমানবন্দরে হামলা, নিহত ১",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss3e165ba9c31c94-1200x630.jpg",
       "publishedAt": "2026-10-22T02:59:23.423Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -153,7 +153,7 @@
       "title": "সারা দেশে বৃষ্টির শঙ্কা",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss26a9c4b5b20436-1200x630.jpg",
       "publishedAt": "2026-10-22T02:29:23.398Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -201,7 +201,7 @@
       "title": "দুই বাংলাদেশির মৃত্যুদণ্ড: সৌদির কাছে রায়ের কপি চেয়েছে বাংলা‌দেশ",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss9d36b6352c90ca-1200x630.jpg",
       "publishedAt": "2026-10-22T02:14:36.859Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -217,7 +217,7 @@
       "title": "আইপিও ছাড়াই পুঁজিবাজারে সরাসরি তালিকাভুক্তির সুযোগ",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss03abe5644fb56f-1200x630.jpg",
       "publishedAt": "2026-10-22T02:14:36.856Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -233,7 +233,7 @@
       "title": "রাজশাহীর জনসভায় প্রধানমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rsse2ab8f500bff75-1200x630.jpg",
       "publishedAt": "2026-10-22T02:14:36.854Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
