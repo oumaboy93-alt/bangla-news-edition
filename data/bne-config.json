@@ -1,6 +1,6 @@
 {
-  "version": 825,
-  "updatedAt": "2026-10-22T02:31:29.203Z",
+  "version": 826,
+  "updatedAt": "2026-10-22T02:42:00.744Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -137,7 +137,7 @@
       "title": "রাজশাহীর জনসভায় প্রধানমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "publishedAt": "2026-10-22T02:14:36.854Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
