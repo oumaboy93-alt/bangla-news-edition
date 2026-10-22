@@ -1,6 +1,6 @@
 {
-  "version": 839,
-  "updatedAt": "2026-10-22T05:01:22.847Z",
+  "version": 840,
+  "updatedAt": "2026-10-22T05:10:29.611Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -185,7 +185,7 @@
       "title": "নভেম্বরের শুরুতেই টানা তিন দিনের ছুটি সুযোগ",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rssbb79aab55d9d5d-1200x630.jpg",
       "publishedAt": "2026-10-22T04:29:23.490Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
