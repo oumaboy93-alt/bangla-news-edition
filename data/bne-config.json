@@ -1,6 +1,6 @@
 {
-  "version": 813,
-  "updatedAt": "2026-10-22T00:04:55.224Z",
+  "version": 814,
+  "updatedAt": "2026-10-22T00:14:21.850Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "মসজিদ-মন্দির",
       "category": "ধর্ম",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss4183c278445789-1200x630.jpg",
       "publishedAt": "2026-10-21T23:44:23.015Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -1369,7 +1369,7 @@
       "title": "অভিনয় এখন ‘সেকেন্ড চয়েস’, করপোরেট পরিচালক পদে প্রভা!",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss1a29a88e61620f-1200x630.jpg",
       "publishedAt": "2026-10-21T16:59:22.711Z",
       "tags": [
         "যুগান্তর"
