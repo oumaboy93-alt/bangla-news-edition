@@ -1,6 +1,6 @@
 {
-  "version": 880,
-  "updatedAt": "2026-10-23T21:19:35.134Z",
+  "version": 881,
+  "updatedAt": "2026-10-23T21:30:51.822Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -665,7 +665,7 @@
       "title": "জনবল নিয়োগ দিচ্ছে প্রতিফলন",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-23T18:19:12.028Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
