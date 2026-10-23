@@ -1,6 +1,6 @@
 {
-  "version": 863,
-  "updatedAt": "2026-10-23T17:34:39.790Z",
+  "version": 864,
+  "updatedAt": "2026-10-23T17:58:25.938Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rssf8cad36ce93703",
+      "slug": "অসুস্থ-হয়ে-হাসপাতালে-বায়ার্ন-কোচ-কোম্পান",
+      "title": "অসুস্থ হয়ে হাসপাতালে বায়ার্ন কোচ কোম্পানি",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%A5-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%9A-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8.avif",
+      "publishedAt": "2026-10-23T17:49:11.860Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সামাজিক যোগাযোগমাধ্যম এক্সে বায়ার্ন জানিয়েছে, কোম্পানিকে হাসপাতালে পরীক্ষা-নিরীক্ষা করা হচ্ছে। আপাতত চিকিৎসকদের পর্যবেক্ষণে থাকবেন তিনি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/gm0xsldkld\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সামাজিক যোগাযোগমাধ্যম এক্সে বায়ার্ন জানিয়েছে, কোম্পানিকে হাসপাতালে পরীক্ষা-নিরীক্ষা করা হচ্ছে। আপাতত চিকিৎসকদের পর্যবেক্ষণে থাকবেন তিনি।",
+      "sourceUrl": "https://www.prothomalo.com/sports/football/gm0xsldkld",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss540e44d7dc6b77",
+      "slug": "সর্বশেষ-Bangla-Edition-2",
+      "title": "সর্বশেষ - Bangla Edition",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-23T17:49:11.853Z",
+      "tags": [
+        "বাংলা এডিশন"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNldpdUljZUdhbVhBMU5YeUpPSmJTa3h0Y2hEbVhMNVlxcG1SUWRVeWltcERqWDl2UDJ5N2tENDNoZkpwRzVJTDVRU1JXOU5wSzY1b0F3?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সর্বশেষ - Bangla Edition&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangla Edition&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNldpdUljZUdhbVhBMU5YeUpPSmJTa3h0Y2hEbVhMNVlxcG1SUWRVeWltcERqWDl2UDJ5N2tENDNoZkpwRzVJTDVRU1JXOU5wSzY1b0F3?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা এডিশন</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNldpdUljZUdhbVhBMU5YeUpPSmJTa3h0Y2hEbVhMNVlxcG1SUWRVeWltcERqWDl2UDJ5N2tENDNoZkpwRzVJTDVRU1JXOU5wSzY1b0F3?oc=5\" target=\"_blank\"&gt;সর্বশেষ - Bangla Edition&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Bangla Edition&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oNldpdUljZUdhbVhBMU5YeUpPSmJTa3h0Y2hEbVhMNVlxcG1SUWRVeWltcERqWDl2UDJ5N2tENDNoZkpwRzVJTDVRU1JXOU5wSzY1b0F3?oc=5",
+      "sourceName": "বাংলা এডিশন"
+    },
+    {
       "id": "rss1bb18b36d740e5",
       "slug": "বিশ্বব্যাপী-সাইবার-সতর্কতায়-দ্বিতীয়-দিন",
       "title": "বিশ্বব্যাপী সাইবার সতর্কতায় দ্বিতীয় দিনও বন্ধ বাংলাদেশ ব্যাংকের ওয়েবসাইট",
@@ -97,6 +129,22 @@
       "body": "<p>রাজধানীতে পুরাতন রমনা থানার সামনের সড়কে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। শুক্রবার (২৩ অক্টোবর) রাত পৌনে ৮টার দিকে এ ঘটনা ঘটে। রমনা মডেল থানার কর্তব্যরত অফিসার (এসআই) আবদুল আল মোহসিন আনরা এ ধরনের খবর শুনেছি। রাস্তার ওপর দুর্বৃত্তরা একটি ককটেল বিস্ফোরণ ঘটিয়েছে। আমাদের টহল টিম ঘটনাস্থলে গেছেন। তারা প্রয়োজন ব্যবস্থা নেবেন। তবে এ ঘটনায় কেউ হতাহত হয়েছেন কিনা তা জানাতে পারেননি পুলিশের এই কর্মকর্তা। বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/976321/%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "রাজধানীতে পুরাতন রমনা থানার সামনের সড়কে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। শুক্রবার (২৩ অক্টোবর) রাত পৌনে ৮টার দিকে এ ঘটনা ঘটে। রমনা মডেল থানার কর্তব্যরত অফিসার (এসআই) আবদুল আল মোহসিন আনরা এ ধরনের খবর শুনেছি। রাস্তার ওপর দুর্বৃত্তরা একটি ককটেল বিস্ফোরণ ঘটিয়েছে। আমাদের টহল টিম ঘটনাস্থলে গেছেন। তারা প্রয়োজন",
       "sourceUrl": "https://www.banglatribune.com/law-and-crime/976321/%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssb0f40f508e7daa",
+      "slug": "গেন্ডারিয়ার-সেই-ঘুণ্টিঘর-রেলগেট-এলাকায়-ব",
+      "title": "গেন্ডারিয়ার সেই ঘুণ্টিঘর রেলগেট এলাকায় বিশেষ অভিযানে গ্রেফতার ২৮",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%97%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%98%E0%A7%81%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%98%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AC.webp",
+      "publishedAt": "2026-10-23T17:34:11.929Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>সম্প্রতি প্রতিমন্ত্রী ইশরাক হোসেনের অভিযানের পর আলোচনায় আসা গেন্ডারিয়া থানাধীন রেলস্টেশন সংলগ্ন দয়াগঞ্জ ঘুণ্টিঘর রেলগেট এলাকায় বিশেষ অভিযানে বিভিন্ন অপরাধে জড়িত থাকার অভিযোগে ২৮ জনকে গ্রেফতার করা হয়েছে। শুক্রবার (২৩ অক্টোবর) দিবাগত রাতে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়। গ্রেফতারকৃতরা হলেন, শামসুল হক (২৬), মো. ইকবাল হোসেন জিহাদ (২৩), আরাফাত হোসেন শামীম (২০), মো. আব্দুল্লাহ রাহুল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/976322/%E0%A6%97%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%98%E0%A7%81%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%98%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "সম্প্রতি প্রতিমন্ত্রী ইশরাক হোসেনের অভিযানের পর আলোচনায় আসা গেন্ডারিয়া থানাধীন রেলস্টেশন সংলগ্ন দয়াগঞ্জ ঘুণ্টিঘর রেলগেট এলাকায় বিশেষ অভিযানে বিভিন্ন অপরাধে জড়িত থাকার অভিযোগে ২৮ জনকে গ্রেফতার করা হয়েছে। শুক্রবার (২৩ অক্টোবর) দিবাগত রাতে ডিএমপি মিডিয়া বিভাগ থেকে এ তথ্য জানানো হয়। গ্রেফতারকৃতরা হলেন, ",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/976322/%E0%A6%97%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%98%E0%A7%81%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%98%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F-%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7",
       "sourceName": "বাংলা ট্রিবিউন"
     },
     {
@@ -7954,54 +8002,6 @@
       "summary": "‘এত কাজের চাপ, নিজের জন্য সময়ই পাই না!’ কিংবা ‘এক সপ্তাহে এতগুলো সাক্ষাৎকার দিতে হবে, ভাবিনি!’&mdash;এ ধরনের পোস্ট সোশ্যাল মিডিয়ায় চোখে পড়ে প্রায়ই। কথাগুলো শুনতে অভিযোগ বা বিনয়ের প্রকাশ মনে হলেও, এর আড়ালে কখনও নিজের সাফল্য, ব্যস্ততা কিংবা যোগ্যতার প্রচার থাকে। মনোবিজ্ঞানে এই প্রবণতাকে বলা হয় ‘হাম্বল",
       "sourceUrl": "https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/975973/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%82-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%9F-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%89%E0%A6%B2%E0%A7%8D%E0%A6%9F%E0%A7%8B-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssd89b44dbea6485",
-      "slug": "দেরিতে-বিয়ে-করলে-নারীদের-যেসব-স্বাস্থ্য",
-      "title": "দেরিতে বিয়ে করলে নারীদের যেসব স্বাস্থ্য জটিলতা হতে পারে",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/rssd89b44dbea6485-1200x630.jpg",
-      "publishedAt": "2026-10-22T00:14:23.103Z",
-      "tags": [
-        "যুগান্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSNGtucF9NX01YazM0UFJmaTQyNC1MUllhUnlBa3B5a1doZDRWdl83SUZIMkwtRFB1UnFxc0wtWHV6b1NtRlJFaFE1YnhXNU9EYTRjZQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;দেরিতে বিয়ে করলে নারীদের যেসব স্বাস্থ্য জটিলতা হতে পারে&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSNGtucF9NX01YazM0UFJmaTQyNC1MUllhUnlBa3B5a1doZDRWdl83SUZIMkwtRFB1UnFxc0wtWHV6b1NtRlJFaFE1YnhXNU9EYTRjZQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSNGtucF9NX01YazM0UFJmaTQyNC1MUllhUnlBa3B5a1doZDRWdl83SUZIMkwtRFB1UnFxc0wtWHV6b1NtRlJFaFE1YnhXNU9EYTRjZQ?oc=5\" target=\"_blank\"&gt;দেরিতে বিয়ে করলে নারীদের যেসব স্বাস্থ্য জটিলতা হতে পারে&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;J",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSNGtucF9NX01YazM0UFJmaTQyNC1MUllhUnlBa3B5a1doZDRWdl83SUZIMkwtRFB1UnFxc0wtWHV6b1NtRlJFaFE1YnhXNU9EYTRjZQ?oc=5",
-      "sourceName": "যুগান্তর"
-    },
-    {
-      "id": "rssd8c59743e2d924",
-      "slug": "সম্পাদক-ও-প্রকাশক-ইলিয়াস-হোসাইন-Bangla-Edition-3",
-      "title": "সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - Bangla Edition",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssd8c59743e2d924-1200x630.jpg",
-      "publishedAt": "2026-10-22T00:14:23.081Z",
-      "tags": [
-        "বাংলা এডিশন"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE12T1R4ZEpTVGx3aWx1UTlweTRXYmNrM1FaRGNidDljRmcwcTVCVTJ6ZjBPWW5iN3JCSVA3RVJ5TDdXbF80Zkp6SlAwZHZzd09WY0Vra2FB?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - Bangla Edition&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangla Edition&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE12T1R4ZEpTVGx3aWx1UTlweTRXYmNrM1FaRGNidDljRmcwcTVCVTJ6ZjBPWW5iN3JCSVA3RVJ5TDdXbF80Zkp6SlAwZHZzd09WY0Vra2FB?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা এডিশন</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE12T1R4ZEpTVGx3aWx1UTlweTRXYmNrM1FaRGNidDljRmcwcTVCVTJ6ZjBPWW5iN3JCSVA3RVJ5TDdXbF80Zkp6SlAwZHZzd09WY0Vra2FB?oc=5\" target=\"_blank\"&gt;সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - Bangla Edition&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Bangl",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12T1R4ZEpTVGx3aWx1UTlweTRXYmNrM1FaRGNidDljRmcwcTVCVTJ6ZjBPWW5iN3JCSVA3RVJ5TDdXbF80Zkp6SlAwZHZzd09WY0Vra2FB?oc=5",
-      "sourceName": "বাংলা এডিশন"
-    },
-    {
-      "id": "rss367dac8786bf2f",
-      "slug": "প্রবাসীকল্যাণ-মন্ত্রণালয়ে-পাঠানো-চিঠিত",
-      "title": "প্রবাসীকল্যাণ মন্ত্রণালয়ে পাঠানো চিঠিতে যা জানাল জেদ্দাস্থ বাংলাদেশ কনস্যুলেট",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%9A%E0%A6%BF%E0%A6%A0%E0%A6%BF%E0%A6%A4.webp",
-      "publishedAt": "2026-10-21T23:59:23.152Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>সৌদি আরেব দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকরের চার দিন পর প্রবাসীকল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ে একটি চিঠি পাঠিয়েছে জেদ্দাস্থ বাংলাদেশ কনস্যুলেট জেনারেলের কার্যালয়। সেই চিঠিতে বলা হয়েছে, দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকরের বিষয়ে সৌদি কর্তৃপক্ষ আনুষ্ঠানিকভাবে বাংলাদেশ দূতাবাস বা কনস্যুলেট জেনারেলকে কিছুই জানায়নি। গত ১৮ অক্টোবর প্রবাসী কল্যাণে পাঠানো ঐ চিঠিতে জানানো হয়, গত ১৪ অক্টোবর... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/816560/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%9A%E0%A6%BF%E0%A6%A0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "সৌদি আরেব দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকরের চার দিন পর প্রবাসীকল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ে একটি চিঠি পাঠিয়েছে জেদ্দাস্থ বাংলাদেশ কনস্যুলেট জেনারেলের কার্যালয়। সেই চিঠিতে বলা হয়েছে, দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকরের বিষয়ে সৌদি কর্তৃপক্ষ আনুষ্ঠানিকভাবে বাংলাদেশ দূতাবাস বা কনস্যুলেট জেন",
-      "sourceUrl": "https://www.ittefaq.com.bd/816560/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%8B-%E0%A6%9A%E0%A6%BF%E0%A6%A0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2",
-      "sourceName": "ইত্তেফাক"
     }
   ],
   "ads": [
