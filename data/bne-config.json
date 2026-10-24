@@ -1,6 +1,6 @@
 {
-  "version": 910,
-  "updatedAt": "2026-10-24T13:43:32.532Z",
+  "version": 911,
+  "updatedAt": "2026-10-24T13:47:56.484Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "ফুটপাত দখল করে দোকান বসালেই মামলা আর মালামাল জব্দ হবে",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T13:34:16.960Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -121,7 +121,7 @@
       "title": "সিএমভির ইউটিউব চ্যানেলে অপূর্ব-নিহার ‘ভালো আছো তো?’",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T13:19:16.852Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -153,7 +153,7 @@
       "title": "সর্বোচ্চ অর্জন যেন হয়, সংবিধান কমিটির বৈঠক থেকে বেরিয়ে বললেন আসিফ নজরুল",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T13:04:16.945Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -169,7 +169,7 @@
       "title": "ডেঙ্গুতে আরও ৬ জনের মৃত্যু",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/300x300x1/uploads/media/2025/10/05/3d95e85884a49f2fbad37363937971fb-68e2575eadaf3.jpg?jadewits_media_id=252106",
+      "image": "",
       "publishedAt": "2026-10-24T13:04:16.939Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -249,7 +249,7 @@
       "title": "বাংলাদেশে মুক্তি পেল ডিসি ভিলেনকে নিয়ে হরর সিনেমা ‘ক্লেফেইস’",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T12:34:16.838Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -265,7 +265,7 @@
       "title": "গাজীপুরে যানজট নিরসনে দীর্ঘমেয়াদি মহাপরিকল্পনার দাবি",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T12:34:16.836Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -281,7 +281,7 @@
       "title": "সাংবাদিক ও সাবেক এমপি শফিকুর রহমান মারা গেছেন",
       "category": "স্বাস্থ্য",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "",
       "publishedAt": "2026-10-24T12:34:16.833Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
