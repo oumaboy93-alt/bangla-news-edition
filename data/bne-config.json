@@ -1,6 +1,6 @@
 {
-  "version": 925,
-  "updatedAt": "2026-10-24T19:05:37.098Z",
+  "version": 926,
+  "updatedAt": "2026-10-24T19:16:33.665Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "দুই পা হারিয়ে ৮ মাস লুকিয়ে ছিলেন গর্তে—ইউক্রেনীয় সেনার বেঁচে ফেরার অবিশ্বাস্য গল্প",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssa0b18ebe153a8a-1200x630.jpg",
       "publishedAt": "2026-10-24T19:04:17.190Z",
       "tags": [
         "যুগান্তর"
