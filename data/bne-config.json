@@ -1,6 +1,6 @@
 {
-  "version": 948,
-  "updatedAt": "2026-10-25T00:50:37.881Z",
+  "version": 949,
+  "updatedAt": "2026-10-25T01:03:26.279Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -1545,7 +1545,7 @@
       "title": "এনসিপির মিডিয়া সম্পাদক হলেন ইয়াসির আরাফাত",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/10/23/2cf4e9c22079f80eddc23a2be5a25153-6adb578189a37.JPG?jadewits_media_id=1050996",
+      "image": "images/national.jpg",
       "publishedAt": "2026-10-24T16:49:17.466Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1561,7 +1561,7 @@
       "title": "সরকারকে বিব্রত করতে অপপ্রচার চালাচ্ছেন গোলাম পরওয়ার: রিজভী",
       "category": "খেলা",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/24/43b33972bca5108b337c434d608f9e4d-6adc76232fd19.jpg?jadewits_media_id=318678",
+      "image": "images/sports.jpg",
       "publishedAt": "2026-10-24T16:49:17.464Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1577,7 +1577,7 @@
       "title": "যুক্তরাজ্যের নাগরিকদের ৩ দিনের জরুরি রসদ রাখার পরামর্শ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/24/4d5313e4487d85dc88fd7ad3002bb77c-6adc4c204c79e.jpg?jadewits_media_id=318629",
+      "image": "images/national.jpg",
       "publishedAt": "2026-10-24T16:49:17.456Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
