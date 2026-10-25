@@ -1,6 +1,6 @@
 {
-  "version": 949,
-  "updatedAt": "2026-10-25T01:03:26.279Z",
+  "version": 950,
+  "updatedAt": "2026-10-25T01:16:43.827Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -153,7 +153,7 @@
       "title": "শুভ প্রবারণা পূর্ণিমা আজ",
       "category": "ধর্ম",
       "lead": false,
-      "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-24%2Fy5n1xxwd%2FCapture.PNG?rect=0%2C15%2C211%2C111&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+      "image": "/img/rss11b30411a65c81-1200x630.jpg",
       "publishedAt": "2026-10-24T23:49:17.212Z",
       "tags": [
         "প্রথম আলো"
@@ -1529,7 +1529,7 @@
       "title": "সংবিধান সংস্কার: গুরুত্ব পাচ্ছে ‘জুলাই সনদ’ ও ‘গণভোট’",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rssa4c325ace81e89-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.510Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1545,7 +1545,7 @@
       "title": "এনসিপির মিডিয়া সম্পাদক হলেন ইয়াসির আরাফাত",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2622cbed07cc3b-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.466Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1561,7 +1561,7 @@
       "title": "সরকারকে বিব্রত করতে অপপ্রচার চালাচ্ছেন গোলাম পরওয়ার: রিজভী",
       "category": "খেলা",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rssc6f7e6bd5ca3cd-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.464Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1577,7 +1577,7 @@
       "title": "যুক্তরাজ্যের নাগরিকদের ৩ দিনের জরুরি রসদ রাখার পরামর্শ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssdc1bfb25b712df-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.456Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1593,7 +1593,7 @@
       "title": "আপিল বিভাগের বিচারিক কার্যক্রম বন্ধ থাকবে কাল",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssf8dbbaae0c635a-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.451Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1609,7 +1609,7 @@
       "title": "শনিবার, ২৪ অক্টোবর, ২০২৬ - bdjournal",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssbd7969395461eb-1200x630.jpg",
       "publishedAt": "2026-10-24T16:49:17.449Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1618,6 +1618,54 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTd",
       "sourceUrl": "https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTdJQ2h4aEFxaXM4cU9kVjlJU2JGYXlfWTQyZzgyMHhneXJ0NTJVZW5PQjk0ckk4NkdqY2JNZ3VDaGx4S0tOdDRFSFl2SVpfNG42eTU1a1h3VS13VjZNeWw0ZXExc0pyVUp4UEFhUk0xM3Q5bkItQUdMR2RvUE1JYk9hek9YMzEzU2Y3RkpROVM0S1Zpb3h5UVRxWFhzeDBPOVlhLXd3TUxudk10VnI2TG5zb3IyTnZJSTN5YlBVdmNPV0FNbklrcEJ3OHA0Q05NRnQySkU0dzBVSkhtc1FldHNPazZsRGpBcmxxUUZ0aHpiNENQMkVfQkdsWlNHTy1GTUtBbDNPQm9uV1BUak9uQk91TUJmeDZhenBvblBaOGplZklYSjIzSWZ6S2RLSHZJbEZuaGYxbXhQNFI1bHJNemJYTUVtRTJaUV81SFlzVUVEMVlOYnc3TFc1SjRJUTRMSHZMdndLekVvQ1hUcEQ1QjFoajZBQy10VG9FMWFNTDIwbnREU1Ztc18zUFdfeDF0cFd2REpPQWtqUDFURFEtU0E5NnYta2lES0pxRkJhTnVaWWg4anFHYjlVRXk0cHREZGNuNzJ6eEJ0X09tRnplNDAycmNnUlRaLWtQckpQSi1CRnJJM2E2X0x4UjYwWGNhSndCMnBfdkFqWXhXYzM4OEFqWTZRSlQ3UlBmTFdTTkE5REZ6SmcwTUJLMlFNTExkcDhKa3JVdm5XVkNfVzhvT2ZjMmo3YkxTS0dNLV9lWlhuNFZzODJfcDdfa3VsMHk2OUx5aVppRlQyRjBnUTctcGpTNV9Ram0wZ0dlSG9kZk80NXF6Umx6VnJiOU5pQUxTZlF2OEFCQVNLT1BtV200YjFzRS1BY2Rn?oc=5",
       "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss60453c2c76ec2a",
+      "slug": "ওষুধ-কিনতে-সমস্যা-এক-মাকে-১০০০-টাকা-দিলেন",
+      "title": "ওষুধ কিনতে সমস্যা, এক মাকে ১০০০ টাকা দিলেন স্বাস্থ্যমন্ত্রী",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%93%E0%A6%B7%E0%A7%81%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8.webp",
+      "publishedAt": "2026-10-24T16:49:17.442Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>ময়মনসিংহ মেডিক্যাল কলেজ হাসপাতালে যমজ সন্তানের জন্ম দিয়েছেন শিউলি আক্তার নামের এক নারী। সন্তান জন্মের পর চিকিৎসার জন্য প্রয়োজনীয় ওষুধ, স্যালাইন এমনকি গ্লাভসও কিনতে হয়েছে তাকে। শনিবার (২৪ অক্টোবর) স্বাস্থ্যমন্ত্রী সরদার মো. সাখাওয়াত হোসেন হাসপাতাল পরিদর্শনে গেলে তার কাছে এ অভিযোগ করেন শিউলি আক্তার। এ সময় দুঃখ প্রকাশ করে মন্ত্রী স্যালাইন কেনার জন্য শিউলির হাতে এক হাজার টাকা দেন। শনিবার দুপুরে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/mymensing/976514/%E0%A6%93%E0%A6%B7%E0%A7%81%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "ময়মনসিংহ মেডিক্যাল কলেজ হাসপাতালে যমজ সন্তানের জন্ম দিয়েছেন শিউলি আক্তার নামের এক নারী। সন্তান জন্মের পর চিকিৎসার জন্য প্রয়োজনীয় ওষুধ, স্যালাইন এমনকি গ্লাভসও কিনতে হয়েছে তাকে। শনিবার (২৪ অক্টোবর) স্বাস্থ্যমন্ত্রী সরদার মো. সাখাওয়াত হোসেন হাসপাতাল পরিদর্শনে গেলে তার কাছে এ অভিযোগ করেন শিউলি আক্তার। এ",
+      "sourceUrl": "https://www.banglatribune.com/country/mymensing/976514/%E0%A6%93%E0%A6%B7%E0%A7%81%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%A4%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%8F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss30d3ed9c855f17",
+      "slug": "প্রতিমা-বিসর্জনের-আগ-আগমুহূর্তে-অলৌকিক-ঘ",
+      "title": "প্রতিমা বিসর্জনের আগ আগমুহূর্তে ‘অলৌকিক ঘটনা’, করতে হলো আবার পূজা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%87-%E0%A6%85%E0%A6%B2%E0%A7%8C%E0%A6%95%E0%A6%BF%E0%A6%95-%E0%A6%98.webp",
+      "publishedAt": "2026-10-24T16:49:17.440Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>সারা দেশে শারদীয় দুর্গাপূজার আনুষ্ঠানিকতা শেষ হয়েছে ২১ অক্টোবর। তবে যশোর সদর উপজেলার কৈখালী সর্বজনীন দুর্গা মন্দিরে হয়েছে ব্যতিক্রমী আয়োজন। প্রথম দফায় পূজা শেষে প্রতিমা বিসর্জনের প্রস্তুতির সময় এক নারীর অস্বাভাবিক আচরণ ও পূজায় ত্রুটি থাকার দাবিকে কেন্দ্র করে নতুন করে পূজার আয়োজন করেন আয়োজকেরা। শনিবার (২৪ অক্টোবর) দ্বিতীয় দফায় বিজয়া দশমীর আনুষ্ঠানিকতা শেষে বিকালে ভৈরব নদে প্রতিমা বিসর্জনের মধ্য... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/976515/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%87-%E2%80%98%E0%A6%85%E0%A6%B2%E0%A7%8C%E0%A6%95%E0%A6%BF%E0%A6%95-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E2%80%99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "সারা দেশে শারদীয় দুর্গাপূজার আনুষ্ঠানিকতা শেষ হয়েছে ২১ অক্টোবর। তবে যশোর সদর উপজেলার কৈখালী সর্বজনীন দুর্গা মন্দিরে হয়েছে ব্যতিক্রমী আয়োজন। প্রথম দফায় পূজা শেষে প্রতিমা বিসর্জনের প্রস্তুতির সময় এক নারীর অস্বাভাবিক আচরণ ও পূজায় ত্রুটি থাকার দাবিকে কেন্দ্র করে নতুন করে পূজার আয়োজন করেন আয়োজকেরা। শনিবা",
+      "sourceUrl": "https://www.banglatribune.com/country/khulna/976515/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%87-%E2%80%98%E0%A6%85%E0%A6%B2%E0%A7%8C%E0%A6%95%E0%A6%BF%E0%A6%95-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E2%80%99",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssc4f3f7b0a97eb8",
+      "slug": "এইচএসসি-পরীক্ষার-ফলাফল-২৯-অক্টোবর",
+      "title": "এইচএসসি পরীক্ষার ফলাফল ২৯ অক্টোবর",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%B2-%E0%A7%A8%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0.webp",
+      "publishedAt": "2026-10-24T16:49:17.438Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>চলতি ২০২৬ সালের এইচএসসি ও সমমানের পরীক্ষার ফলাফল প্রকাশ করা হবে ২৯ অক্টোবর (বৃহস্পতিবার)। আন্তশিক্ষা বোর্ড সমন্বয় কমিটির সভাপতি ও ঢাকা শিক্ষা বোর্ডের চেয়ারম্যান অধ্যাপক সৈয়দ আক্তারুজ্জামান এ তথ্য নিশ্চিত করেছেন। এর আগে শিক্ষাবোর্ডগুলোর পক্ষ থেকে ২৫ থেকে ২৯ অক্টোবরের মধ্যে ফল প্রকাশের জন্য শিক্ষা মন্ত্রণালয়ে প্রস্তাব পাঠিয়েছিল বাংলাদেশ আন্তঃশিক্ষা বোর্ড সমন্বয় কমিটি। সেই অনুযায়ী ২৯ অক্টোবর ফল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/educations/976516/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%B2-%E0%A7%A8%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "চলতি ২০২৬ সালের এইচএসসি ও সমমানের পরীক্ষার ফলাফল প্রকাশ করা হবে ২৯ অক্টোবর (বৃহস্পতিবার)। আন্তশিক্ষা বোর্ড সমন্বয় কমিটির সভাপতি ও ঢাকা শিক্ষা বোর্ডের চেয়ারম্যান অধ্যাপক সৈয়দ আক্তারুজ্জামান এ তথ্য নিশ্চিত করেছেন। এর আগে শিক্ষাবোর্ডগুলোর পক্ষ থেকে ২৫ থেকে ২৯ অক্টোবরের মধ্যে ফল প্রকাশের জন্য শিক্ষা মন্",
+      "sourceUrl": "https://www.banglatribune.com/educations/976516/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%B2-%E0%A7%A8%E0%A7%AF-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A7%8B%E0%A6%AC%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rssfc74c95aaadda2",
@@ -7953,54 +8001,6 @@
       "body": "<p>মাদক ও মানবপাচার থেকে শুরু করে সোনা চোরাচালান এবং অবৈধ ভয়েস ওভার ইন্টারনেট প্রটোকল (ভিওআইপি) ব্যবসাসহ বিভিন্ন অপরাধে বাংলাদেশের কারাগারে বন্দি রয়েছেন ১৫ দেশের অন্তত ৪০৭ জন নাগরিক। তাদের অর্ধেকেরও বেশি ভারতের নাগরিক। এর মধ্যে ১৬৮ জন সাজা ভোগ শেষ করেও দেশে ফিরতে পারছেন না। বাংলাদেশের সংবাদমাধ্যম দ্য ড</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাজা ভোগের পরও নিজ দেশে ফিরতে না পারা বন্দিদের আইনি জটিলতা নিরসনে প্রযুক্তিনির্ভর ডাটাবেজ ও দ্রুত যোগাযোগ ব্যবস্থা অপরিহার্য। কূটনৈতিক তৎপরতা বাড়াতে ডিজিটাল তথ্য আদান-প্রদান নিশ্চিত করা গেলে এমন মানবিক সংকট দ্রুত সমাধান সম্ভব।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/india/976213/%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF-%E0%A7%A7%E0%A7%AC%E0%A7%AE-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "মাদক ও মানবপাচার থেকে শুরু করে সোনা চোরাচালান এবং অবৈধ ভয়েস ওভার ইন্টারনেট প্রটোকল (ভিওআইপি) ব্যবসাসহ বিভিন্ন অপরাধে বাংলাদেশের কারাগারে বন্দি রয়েছেন ১৫ দেশের অন্তত ৪০৭ জন নাগরিক। তাদের অর্ধেকেরও বেশি ভারতের নাগরিক। এর মধ্যে ১৬৮ জন সাজা ভোগ শেষ করেও দেশে ফিরতে পারছেন না। বাংলাদেশের সংবাদমাধ্যম দ্য ড",
       "sourceUrl": "https://www.banglatribune.com/foreign/india/976213/%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BF-%E0%A7%A7%E0%A7%AC%E0%A7%AE-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssc66d9ec92f18e6",
-      "slug": "বিশেষ-ফ্লাইটে-ইতালি-গ্রিস-ও-সাইপ্রাস-থেক",
-      "title": "বিশেষ ফ্লাইটে ইতালি, গ্রিস ও সাইপ্রাস থেকে দেশে ফিরলেন ৩৫ বাংলাদেশি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%9F%E0%A7%87-%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B8-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%A5%E0%A7%87%E0%A6%95.jpg",
-      "publishedAt": "2026-10-23T07:34:11.321Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>ইউরোপের তিন দেশ ৩৫ বাংলাদেশিকে ফেরত পাঠিয়েছে। এর মধ্যে ইতালি থেকে ১৯, গ্রিস থেকে ১০ ও সাইপ্রাস থেকে ছয় বাংলাদেশি দেশে ফিরেছেন। ইমিগ্রেশন পুলিশ ও বিমানবন্দর সূত্র বলেছে, আজ শুক্রবার ভাড়া করা একটি বিশেষ ফ্লাইটে (পিভিজি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ইউরোপের শ্রমবাজারে বৈধতা হারানো এসব নাগরিকের প্রত্যাবর্তন আমাদের জনশক্তি রপ্তানি খাতের ঝুঁকিগুলোকেই সামনে আনছে। ভবিষ্যতে এমন অনাকাঙ্ক্ষিত পরিস্থিতি এড়াতে দক্ষ কর্মসংস্থান ও বৈধ অভিবাসনের বিষয়ে সচেতনতা বৃদ্ধি করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314607/বিশেষ-ফ্লাইটে-ইতালি-গ্রিস-ও-সাইপ্রাস-থেকে-দেশে-ফিরলেন-৩৫-বাংলাদেশি\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "ইউরোপের তিন দেশ ৩৫ বাংলাদেশিকে ফেরত পাঠিয়েছে। এর মধ্যে ইতালি থেকে ১৯, গ্রিস থেকে ১০ ও সাইপ্রাস থেকে ছয় বাংলাদেশি দেশে ফিরেছেন। ইমিগ্রেশন পুলিশ ও বিমানবন্দর সূত্র বলেছে, আজ শুক্রবার ভাড়া করা একটি বিশেষ ফ্লাইটে (পিভিজি...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/314607/বিশেষ-ফ্লাইটে-ইতালি-গ্রিস-ও-সাইপ্রাস-থেকে-দেশে-ফিরলেন-৩৫-বাংলাদেশি",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss997ac58e73a333",
-      "slug": "এনসিপির-পুনর্গঠিত-কমিটি-ঘোষণা",
-      "title": "এনসিপির পুনর্গঠিত কমিটি ঘোষণা",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/rss997ac58e73a333-1200x630.jpg",
-      "publishedAt": "2026-10-23T07:34:11.316Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>কেন্দ্রীয় আহ্বায়ক কমিটি পুনর্গঠন করেছে জাতীয় নাগরিক পার্টি (এনসিপি)। কমিটিতে মো. নাহিদ ইসলামকে আহ্বায়ক এবং আখতার হোসেনকে সদস্য সচিব করা হয়েছে। শুক্রবার (২৩ অক্টোবর) দলের এক বিজ্ঞপ্তিতে এ তথ্য জানানো হয়েছে। বিজ্ঞপ্তি অনুযায়ী, এতে নাসীরুদ্দীন পাটওয়ারী ও...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক দলের নেতৃত্বে এমন পরিবর্তন প্রশাসনিক ও সাংগঠনিক কাঠামোর নতুন বিন্যাস নির্দেশ করে। চাকরিপ্রার্থীদের জন্য সংশ্লিষ্ট সংগঠনের নীতিনির্ধারণী পরিবর্তনের দিকে নজর রাখা জরুরি, কারণ এটি ভবিষ্যতে প্রাতিষ্ঠানিক নিয়োগ ও কার্যক্রমে প্রভাব ফেলতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/politics/314608/এনসিপির-পুনর্গঠিত-কমিটি-ঘোষণা\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "কেন্দ্রীয় আহ্বায়ক কমিটি পুনর্গঠন করেছে জাতীয় নাগরিক পার্টি (এনসিপি)। কমিটিতে মো. নাহিদ ইসলামকে আহ্বায়ক এবং আখতার হোসেনকে সদস্য সচিব করা হয়েছে। শুক্রবার (২৩ অক্টোবর) দলের এক বিজ্ঞপ্তিতে এ তথ্য জানানো হয়েছে। বিজ্ঞপ্তি অনুযায়ী, এতে নাসীরুদ্দীন পাটওয়ারী ও...",
-      "sourceUrl": "https://www.bd-journal.com/politics/314608/এনসিপির-পুনর্গঠিত-কমিটি-ঘোষণা",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss8b2bc2b619edf8",
-      "slug": "অবৈধ-অভিবাসন-নিয়ে-ইতালির-কড়া-বার্তা",
-      "title": "অবৈধ অভিবাসন নিয়ে ইতালির কড়া বার্তা",
-      "category": "প্রবাস",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%AC%E0%A7%88%E0%A6%A7-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE.webp",
-      "publishedAt": "2026-10-23T07:34:11.302Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>অবৈধ অভিবাসন নিয়ে কড়া বার্তা দিয়েছে ইতালি। ঢাকায় ইতালির দূতাবাস আজ শুক্রবার এ তথ্য জানায়। দূতাবাস জানায়, ইতালি, গ্রিস ও সাইপ্রাস থেকে আসা বাংলাদেশি নাগরিকদের নিয়ে ইইউ ফ্রন্টেক্সের একটি ফ্লাইট আজ পাঠানো হয়েছে। নিরাপদ, সুশৃঙ্খল এবং বৈধ অভিবাসনের পক্ষে ইউরোপ। ইউরোপ অবৈধ আগমন এবং অবৈধ অবস্থানের সঙ্গে জ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ইউরোপে অবৈধ অভিবাসনের কঠোর নিয়ন্ত্রণ প্রবাসী বাংলাদেশিদের জন্য বৈধ পথে কর্মসংস্থানের সুযোগ সীমিত ও চ্যালেঞ্জিং করে তুলতে পারে। এ ধরনের পদক্ষেপ প্রবাসীদের সামাজিক অবস্থান ও আইনি সুরক্ষাকে ঝুঁকিতে ফেলার পাশাপাশি ভবিষ্যতে ভিসা প্রক্রিয়াকে আরও জটিল করার ইঙ্গিত দেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/976210/%E0%A6%85%E0%A6%AC%E0%A7%88%E0%A6%A7-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "অবৈধ অভিবাসন নিয়ে কড়া বার্তা দিয়েছে ইতালি। ঢাকায় ইতালির দূতাবাস আজ শুক্রবার এ তথ্য জানায়। দূতাবাস জানায়, ইতালি, গ্রিস ও সাইপ্রাস থেকে আসা বাংলাদেশি নাগরিকদের নিয়ে ইইউ ফ্রন্টেক্সের একটি ফ্লাইট আজ পাঠানো হয়েছে। নিরাপদ, সুশৃঙ্খল এবং বৈধ অভিবাসনের পক্ষে ইউরোপ। ইউরোপ অবৈধ আগমন এবং অবৈধ অবস্থানের সঙ্গে জ",
-      "sourceUrl": "https://www.banglatribune.com/others/976210/%E0%A6%85%E0%A6%AC%E0%A7%88%E0%A6%A7-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
