@@ -1,6 +1,6 @@
 {
-  "version": 997,
-  "updatedAt": "2026-10-25T19:06:45.136Z",
+  "version": 998,
+  "updatedAt": "2026-10-25T19:17:19.001Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -121,7 +121,7 @@
       "title": "তেলের দামে বড় লাফ, দুই মাসের মধ্যে সর্বোচ্চ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssff8b718eab2239-1200x630.jpg",
       "publishedAt": "2026-10-25T18:49:18.295Z",
       "tags": [
         "যুগান্তর"
@@ -169,7 +169,7 @@
       "title": "মুসলিম পরিচয়ে প্রেম-বিয়ের আসরে জানা গেল হিন্দু, অতঃপর...",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss5b4470b34d0540-1200x630.jpg",
       "publishedAt": "2026-10-25T18:34:18.242Z",
       "tags": [
         "যুগান্তর"
@@ -185,7 +185,7 @@
       "title": "ওরাই আমার পরিবারকে নোংরা ভাষায় আক্রমণ করেন: কৃতি শ্যানন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss419f5f78746fe5-1200x630.jpg",
       "publishedAt": "2026-10-25T18:34:18.242Z",
       "tags": [
         "যুগান্তর"
