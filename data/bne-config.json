@@ -1,6 +1,6 @@
 {
-  "version": 976,
-  "updatedAt": "2026-10-25T12:31:33.750Z",
+  "version": 977,
+  "updatedAt": "2026-10-25T12:32:42.277Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "চুয়েটে ৩৩ দিনের অচলাবস্থা শেষে ক্লাসে ফেরার ঘোষণা, আন্দোলন চলাবে",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "",
       "publishedAt": "2026-10-25T12:19:17.966Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
