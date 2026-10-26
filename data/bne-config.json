@@ -1,6 +1,6 @@
 {
-  "version": 1037,
-  "updatedAt": "2026-10-26T20:20:49.364Z",
+  "version": 1038,
+  "updatedAt": "2026-10-26T21:33:20.243Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,166 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss3b83b05564de18",
+      "slug": "ব্যালন-ডিঅর-উদীয়মান-সেরার-পুরস্কারই-কি-চ",
+      "title": "ব্যালন ডি’অর: উদীয়মান সেরার পুরস্কারই কি চেয়েছিলেন ইয়ামাল",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%A8-%E0%A6%A1%E0%A6%BF%E0%A6%85%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%80%E0%A7%9F%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%87-%E0%A6%95%E0%A6%BF-%E0%A6%9A.avif",
+      "publishedAt": "2026-10-26T21:19:19.813Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>মেয়েদের উদীয়মান লোপেজ ইংল্যান্ডের ফুটবলার লুসি ব্রোঞ্জের কাছ থেকে মেয়েদের উদীয়মান খেলোয়াড়ের পুরস্কার নিলেন বার্সেলোনার ২০ বছর বয়সী অ্যাটাকিং মিডফিল্ডার ভিকি লোপেজ। ব্যালন ডি’অর মঞ্চে ভিকি লোপেজ তরুণ উদীয়মান ইয়ামাল ইউক্রেন কিংবদন্তি আন্দ্রে শেভচেঙ্কোর হাত থেকে ছেলেদের ২০২৬ তরুণ উদীয়মান খেলোয়াড়ের ট্রফি নিলেন ১৯ বছর বয়সী লামিনে ইয়ামাল। ইয়ামাল অল্প কথায় বক্তব্য সারার পর তাঁকে অদ্ভুত এক প্রশ্ন করলেন অঁরি, ‘এই পুরস্কারটা সত্যিই চেয়েছিলে?’ ইয়ামাল বেশ লাজুক চাহনিতে বক্তব্য সারলেন। সবাই বুঝে নিলেন, ইয়ামা</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/8wf198055f\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "মেয়েদের উদীয়মান লোপেজ ইংল্যান্ডের ফুটবলার লুসি ব্রোঞ্জের কাছ থেকে মেয়েদের উদীয়মান খেলোয়াড়ের পুরস্কার নিলেন বার্সেলোনার ২০ বছর বয়সী অ্যাটাকিং মিডফিল্ডার ভিকি লোপেজ। ব্যালন ডি’অর মঞ্চে ভিকি লোপেজ তরুণ উদীয়মান ইয়ামাল ইউক্রেন কিংবদন্তি আন্দ্রে শেভচেঙ্কোর হাত থেকে ছেলেদের ২০২৬ তরুণ উদীয়মান খেলোয়াড়ের ট্রফ",
+      "sourceUrl": "https://www.prothomalo.com/sports/football/8wf198055f",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss7d22dd73ed756c",
+      "slug": "পিএইচপির-ত্রুটিতে-বন্ধ-মাইগভ-মিলছে-না-সর",
+      "title": "পিএইচপির ত্রুটিতে বন্ধ ‘মাইগভ’, মিলছে না সরকারি সেবা",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%97%E0%A6%AD-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%B8%E0%A6%B0.webp",
+      "publishedAt": "2026-10-26T21:04:19.915Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>পিএইচপির নিরাপত্তা ত্রুটির কারণে সিস্টেম হালনাগাদ ও নিরাপত্তা জোরদার করতে বন্ধ রাখা হয়েছে সরকারি সেবার কেন্দ্রীয় অনলাইন প্ল্যাটফর্ম মাইগভের ওয়েবসাইট (mygov.bd)। রবিবার (২৫ অক্টোবর) রাত থেকে ওয়েবসাইটটি বন্ধ রয়েছে। সোমবার একাধিকবার প্রবেশের চেষ্টা করেও সাইটটি সচল পাওয়া যায়নি। এ সময় ‘ওয়েব সার্ভার ইজ ডাউন’ বার্তা দেখা যায়। এ বিষয়ে অ্যাসপায়ার টু ইনোভেটের (এটুআই) সিনিয়র কনসালট্যান্ট... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/976955/%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E2%80%98%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%97%E0%A6%AD%E2%80%99-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "পিএইচপির নিরাপত্তা ত্রুটির কারণে সিস্টেম হালনাগাদ ও নিরাপত্তা জোরদার করতে বন্ধ রাখা হয়েছে সরকারি সেবার কেন্দ্রীয় অনলাইন প্ল্যাটফর্ম মাইগভের ওয়েবসাইট (mygov.bd)। রবিবার (২৫ অক্টোবর) রাত থেকে ওয়েবসাইটটি বন্ধ রয়েছে। সোমবার একাধিকবার প্রবেশের চেষ্টা করেও সাইটটি সচল পাওয়া যায়নি। এ সময় ‘ওয়েব সার্ভার ইজ ডা",
+      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/976955/%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E2%80%98%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%97%E0%A6%AD%E2%80%99-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss3faabfef59f564",
+      "slug": "অনুমোদনের-কাগজ-দেখাতে-না-পারায়-গুঁড়িয়ে-দ",
+      "title": "অনুমোদনের কাগজ দেখাতে না পারায় গুঁড়িয়ে দেওয়া হলো চারতলা রিসোর্ট",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%81%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6.webp",
+      "publishedAt": "2026-10-26T21:04:19.869Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>নির্মাণকাজ প্রায় শেষ পর্যায়ে, চলছিল উদ্বোধনের শেষ মুহূর্তের প্রস্তুতি। কিন্তু শেষ রক্ষা হলো না। বৈধ নথিপত্র দেখাতে ব্যর্থ হওয়ায় কক্সবাজারের উখিয়ার ইনানীতে মেরিন ড্রাইভ সড়কের পাশে প্রায় ৬ কোটি টাকা ব্যয়ে নির্মাণাধীন চারতলা ‘বে হিলটন রিসোর্ট’ গুঁড়িয়ে দিয়েছে প্রশাসন। সোমবার (২৬ অক্টোবর) দুপুরের দিকে কউকের নেতৃত্বে এবং জেলা প্রশাসনের সমন্বয়ে মেরিন ড্রাইভ এলাকায় এই সাঁড়াশি উচ্ছেদ অভিযান... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817496/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%81%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "নির্মাণকাজ প্রায় শেষ পর্যায়ে, চলছিল উদ্বোধনের শেষ মুহূর্তের প্রস্তুতি। কিন্তু শেষ রক্ষা হলো না। বৈধ নথিপত্র দেখাতে ব্যর্থ হওয়ায় কক্সবাজারের উখিয়ার ইনানীতে মেরিন ড্রাইভ সড়কের পাশে প্রায় ৬ কোটি টাকা ব্যয়ে নির্মাণাধীন চারতলা ‘বে হিলটন রিসোর্ট’ গুঁড়িয়ে দিয়েছে প্রশাসন। সোমবার (২৬ অক্টোবর) দুপুরের দিকে কউ",
+      "sourceUrl": "https://www.ittefaq.com.bd/817496/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AE%E0%A7%8B%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%97%E0%A6%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%81%E0%A6%81%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssa2c094bb44d619",
+      "slug": "জয়-বাংলা-স্লোগান-সিপিবির-নেতা-কর্মীদের-ও",
+      "title": "‘জয় বাংলা’ স্লোগান: সিপিবির নেতা–কর্মীদের ওপর হামলা, কেন্দ্রীয় কার্যালয় অবরুদ্ধ করে স্লোগান",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93.avif",
+      "publishedAt": "2026-10-26T21:04:19.855Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>যুবদল-ছাত্রদলের নেতা-কর্মীরা সোমবার রাত ১০টার দিকে এ হামলা শুরু করার পর প্রায় এক ঘণ্টা পুরানা পল্টনে সিপিবির কেন্দ্রীয় কার্যালয়ের সামনে অবস্থান নিয়ে নানা স্লোগান দেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/kfo9vpa2td\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "যুবদল-ছাত্রদলের নেতা-কর্মীরা সোমবার রাত ১০টার দিকে এ হামলা শুরু করার পর প্রায় এক ঘণ্টা পুরানা পল্টনে সিপিবির কেন্দ্রীয় কার্যালয়ের সামনে অবস্থান নিয়ে নানা স্লোগান দেন।",
+      "sourceUrl": "https://www.prothomalo.com/politics/kfo9vpa2td",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss87633e0fb38a2e",
+      "slug": "ইতালিজুড়ে-তরুণদের-বিক্ষোভ-সহিংসতার-পেছন",
+      "title": "ইতালিজুড়ে তরুণদের বিক্ষোভ-সহিংসতার পেছনে কী, উদ্বেগে প্রবাসী বাংলাদেশিরাও",
+      "category": "প্রবাস",
+      "lead": false,
+      "image": "/img/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%9C%E0%A7%81%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD-%E0%A6%B8%E0%A6%B9%E0%A6%BF%E0%A6%82%E0%A6%B8%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%87%E0%A6%9B%E0%A6%A8.avif",
+      "publishedAt": "2026-10-26T21:04:19.851Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>জীবনযাত্রার ব্যয় বৃদ্ধি, আবাসনসংকট, শিক্ষাব্যবস্থার দুরবস্থা এবং সরকারের বিভিন্ন নীতির প্রতিবাদে ইতালির শহরে শহরে বিক্ষোভ–সহিংসতার ঘটনা ঘটছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/4a7w0vdc6y\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "জীবনযাত্রার ব্যয় বৃদ্ধি, আবাসনসংকট, শিক্ষাব্যবস্থার দুরবস্থা এবং সরকারের বিভিন্ন নীতির প্রতিবাদে ইতালির শহরে শহরে বিক্ষোভ–সহিংসতার ঘটনা ঘটছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/4a7w0vdc6y",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss8d1f54c488ded2",
+      "slug": "গুলশানে-কিংফিশার-রেস্তোরাঁয়-অভিযান-বিলব",
+      "title": "গুলশানে কিংফিশার রেস্তোরাঁয় অভিযান: বিলবোর্ডের আড়ালে গোপন গুদাম, বিপুল মদ-বিয়ার জব্দ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%82%E0%A6%AB%E0%A6%BF%E0%A6%B6%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%81%E0%A7%9F-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%AC.avif",
+      "publishedAt": "2026-10-26T21:04:19.849Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>অভিযানের সময় সরকারি সংস্থার সদস্যদের নিরাপত্তা নিশ্চিত করতে এসআরবি সহযোগিতা করে। তবে এ বিষয়ে থানায় কোনো মামলা হয়নি বলে জানিয়েছে পুলিশ।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/ebfhqbd2zd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "অভিযানের সময় সরকারি সংস্থার সদস্যদের নিরাপত্তা নিশ্চিত করতে এসআরবি সহযোগিতা করে। তবে এ বিষয়ে থানায় কোনো মামলা হয়নি বলে জানিয়েছে পুলিশ।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/ebfhqbd2zd",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss084b1445f9d937",
+      "slug": "বাইয়েজিদের-জোড়া-জাদুতে-ফিজিকে-ওড়ালো-ব",
+      "title": "বাইয়েজিদের জোড়া জাদুতে ফিজিকে ওড়ালো বাংলাদেশ",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A4%E0%A7%87-%E0%A6%AB%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%93%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AC.webp",
+      "publishedAt": "2026-10-26T20:34:19.870Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>সোমবার সকালে বুরুন্ডির বিপক্ষে হারের ধাক্কা সামলে রাতে ফিজির বিপক্ষে জিতে ফিফা অনূর্ধ্ব-১৫ বিশ্বকাপ ও ফেস্টিভ্যালের গ্রুপ পর্ব শেষ করলো বাংলাদেশ। আজারবাইজানের বাকুতে বাছাইয়ে ‘জি’ গ্রুপের সোমবার দুটি ম্যাচ খেলেছে বাংলাদেশ। বুরুন্ডির বিপক্ষে ২-০ গোলে হারের পর ফিজির বিপক্ষে ৩-১ ব্যবধানে জিতেছে দল। এ নিয়ে বাছাইয়ে পাঁচ ম্যাচে এক জয়, দুটি করে হার ও ড্র করল বাংলাদেশ। ওয়েলসের বিপক্ষে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/976954/%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A4%E0%A7%87-%E0%A6%AB%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%93%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "সোমবার সকালে বুরুন্ডির বিপক্ষে হারের ধাক্কা সামলে রাতে ফিজির বিপক্ষে জিতে ফিফা অনূর্ধ্ব-১৫ বিশ্বকাপ ও ফেস্টিভ্যালের গ্রুপ পর্ব শেষ করলো বাংলাদেশ। আজারবাইজানের বাকুতে বাছাইয়ে ‘জি’ গ্রুপের সোমবার দুটি ম্যাচ খেলেছে বাংলাদেশ। বুরুন্ডির বিপক্ষে ২-০ গোলে হারের পর ফিজির বিপক্ষে ৩-১ ব্যবধানে জিতেছে দল। এ নি",
+      "sourceUrl": "https://www.banglatribune.com/sport/football/976954/%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%8B%E0%A6%A1%E0%A6%BC%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A4%E0%A7%87-%E0%A6%AB%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%93%E0%A6%A1%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss0aa88eda447a51",
+      "slug": "সাভারে-১৩-বছরের-মাদ্রাসাছাত্রীকে-ধর্ষণ-ম",
+      "title": "সাভারে ১৩ বছরের মাদ্রাসাছাত্রীকে ধর্ষণ মামলার বাদীর বিরুদ্ধেই পাল্টা লুটের মামলা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%AE.webp",
+      "publishedAt": "2026-10-26T20:34:19.838Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>১৩ বছর বয়সী এক মাদ্রাসাছাত্রীকে ধর্ষণের অভিযোগে করা মামলার রেশ কাটতে না কাটতেই এবার সেই মামলার বাদী ও ভুক্তভোগীর পরিবারের বিরুদ্ধেই দায়ের হলো ৭৭ লাখ টাকা লুটের পাল্টা মামলা। সাভারের বিরুলিয়া ইউনিয়নের ছোট কালিয়াকৈর এলাকার ‘তোহফাতুল জান্নাত মহিলা মাদ্রাসা’ থেকে নগদ অর্থ ও স্বর্ণালংকারসহ বিপুল পরিমাণ মালামাল লুটের অভিযোগে এ মামলাটি করা হয়েছে। গত শনিবার (২৪ অক্টোবর) রাতে সাভার মডেল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817495/%E0%A6%B8%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "১৩ বছর বয়সী এক মাদ্রাসাছাত্রীকে ধর্ষণের অভিযোগে করা মামলার রেশ কাটতে না কাটতেই এবার সেই মামলার বাদী ও ভুক্তভোগীর পরিবারের বিরুদ্ধেই দায়ের হলো ৭৭ লাখ টাকা লুটের পাল্টা মামলা। সাভারের বিরুলিয়া ইউনিয়নের ছোট কালিয়াকৈর এলাকার ‘তোহফাতুল জান্নাত মহিলা মাদ্রাসা’ থেকে নগদ অর্থ ও স্বর্ণালংকারসহ বিপুল পরিমাণ ",
+      "sourceUrl": "https://www.ittefaq.com.bd/817495/%E0%A6%B8%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssc5be67b4d88b83",
+      "slug": "বাংলাদেশের-উন্নয়নে-জাপানের-সহযোগিতা-অব্",
+      "title": "বাংলাদেশের উন্নয়নে জাপানের সহযোগিতা অব্যাহত রাখার আহ্বান",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A7%9F%E0%A6%A8%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A7%8D.avif",
+      "publishedAt": "2026-10-26T20:34:19.818Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>গতকাল টোকিওতে বাংলাদেশ দূতাবাসে প্রধানমন্ত্রীর জাপান সফর উপলক্ষে আয়োজিত সংবাদ সম্মেলনে পররাষ্ট্র প্রতিমন্ত্রী এ কথা বলেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/3vpflqj5ks\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "গতকাল টোকিওতে বাংলাদেশ দূতাবাসে প্রধানমন্ত্রীর জাপান সফর উপলক্ষে আয়োজিত সংবাদ সম্মেলনে পররাষ্ট্র প্রতিমন্ত্রী এ কথা বলেন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/3vpflqj5ks",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rsse088c1a8b92f29",
+      "slug": "ব্যালন-ডিঅর-এমবাপ্পে-কেইন-ইয়ামালে-আলো-ঝল",
+      "title": "ব্যালন ডি’অর: এমবাপ্পে, কেইন, ইয়ামালে আলো ঝলমলে লন্ডন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%A8-%E0%A6%A1%E0%A6%BF%E0%A6%85%E0%A6%B0-%E0%A6%8F%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%87%E0%A6%A8-%E0%A6%87%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%86%E0%A6%B2%E0%A7%8B-%E0%A6%9D%E0%A6%B2.avif",
+      "publishedAt": "2026-10-26T20:34:19.815Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>হ্যারি কেইনও লাল গালিচায় মেসি, এমবাপ্পে ও ইয়ামালের পরে এলেন হ্যারি কেইন। সঙ্গে তাঁর স্ত্রী। জটলা থেকে কেউ একজন বায়ার্ন মিউনিখ তারকাকে দেখে বলে উঠলেন, ‘ব্যালন ডি’অর’! আসলেই কি এটাই হতে যাচ্ছে? বাতাসে জোর গুঞ্জন! ভালো কথা, এবার ব্যালন ডি’অর গালায় সঞ্চালক ফরাসি কিংবদন্তি থিয়েরি অঁরি ও ব্রিটিশ সম্প্রচারক কেট স্কট। গত বছর ব্যালন ডি’অর জয়ী ফরাসি তারকা ওসমান দেম্বেলেও লাল গালিচায় পা রাখলেন। স্যুট ও সানগ্লাসে দারুণ লাগছে! স্ত্রীর সঙ্গে বায়ার্ন তারকা হ্যারি কেইন ব্যালন ডি’অর অনুষ্ঠানে রিয়াল তারকা এমবাপ্প</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/8wf198055f\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "হ্যারি কেইনও লাল গালিচায় মেসি, এমবাপ্পে ও ইয়ামালের পরে এলেন হ্যারি কেইন। সঙ্গে তাঁর স্ত্রী। জটলা থেকে কেউ একজন বায়ার্ন মিউনিখ তারকাকে দেখে বলে উঠলেন, ‘ব্যালন ডি’অর’! আসলেই কি এটাই হতে যাচ্ছে? বাতাসে জোর গুঞ্জন! ভালো কথা, এবার ব্যালন ডি’অর গালায় সঞ্চালক ফরাসি কিংবদন্তি থিয়েরি অঁরি ও ব্রিটিশ সম্প্রচার",
+      "sourceUrl": "https://www.prothomalo.com/sports/football/8wf198055f",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rss669232715325e8",
@@ -338,6 +498,38 @@
       "summary": "দেশের বিভিন্ন জেলা ও প্রত্যন্ত অঞ্চল থেকে এভাবেই জটিল ও সংকটাপন্ন অবস্থায় হামে আক্রান্ত শিশুদের রাজধানীর শিশু হাসপাতালে আনা হচ্ছে।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/lpl143t1y9",
       "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rssff55deb4912c2e",
+      "slug": "এনসিপির-স্বেচ্ছাসেবক-সংগঠনের-আত্মপ্রকা",
+      "title": "এনসিপির স্বেচ্ছাসেবক সংগঠনের আত্মপ্রকাশ, মাহিন–আরিফের সঙ্গে শীর্ষ নেতৃত্বে সেই রনি",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE.avif",
+      "publishedAt": "2026-10-26T19:04:19.709Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>এনসিপির সহযোগী সংগঠন হিসেবে এবার যুক্ত হলো ‘জাতীয় স্বেচ্ছাসেবক শক্তি’। এনসিপির আহ্বায়ক নাহিদ ইসলাম ও সদস্যসচিব আখতার হোসেনের অনুমোদনে এই আহ্বায়ক কমিটি গঠন করা হয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/6aqvym9r6g\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "এনসিপির সহযোগী সংগঠন হিসেবে এবার যুক্ত হলো ‘জাতীয় স্বেচ্ছাসেবক শক্তি’। এনসিপির আহ্বায়ক নাহিদ ইসলাম ও সদস্যসচিব আখতার হোসেনের অনুমোদনে এই আহ্বায়ক কমিটি গঠন করা হয়েছে।",
+      "sourceUrl": "https://www.prothomalo.com/politics/6aqvym9r6g",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss0216db6e47f282",
+      "slug": "প্ল্যান-ইন্টারন্যাশনালে-জব-সার্কুলার-আছ",
+      "title": "প্ল্যান ইন্টারন্যাশনালে জব সার্কুলার, আছে প্রভিডেন্ট ফান্ড-গ্র্যাচুইটি",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-26T19:04:19.648Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZaHdZS005QklHZjlMOXlobWtpN3NiYmNOOExPVjRmT3dSYmRIZ1NfN3lBZk5iMFljQV9nWUFYbjh4dFZLUFRLQnd4RFJuR21nNnItUkxSRGxYYjA?oc=5&quot; target=&quot;_blank&quot;&amp;gt;প্ল্যান ইন্টারন্যাশনালে জব সার্কুলার, আছে প্রভিডেন্ট ফান্ড-গ্র্যাচুইটি&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;CZN24&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZaHdZS005QklHZjlMOXlobWtpN3NiYmNOOExPVjRmT3dSYmRIZ1NfN3lBZk5iMFljQV9nWUFYbjh4dFZLUFRLQnd4RFJuR21nNnItUkxSRGxYYjA?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZaHdZS005QklHZjlMOXlobWtpN3NiYmNOOExPVjRmT3dSYmRIZ1NfN3lBZk5iMFljQV9nWUFYbjh4dFZLUFRLQnd4RFJuR21nNnItUkxSRGxYYjA?oc=5\" target=\"_blank\"&gt;প্ল্যান ইন্টারন্যাশনালে জব সার্কুলার, আছে প্রভিডেন্ট ফান্ড-গ্র্যাচুইটি&lt;/a&gt;&nbsp;&nbsp;&lt;fo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZaHdZS005QklHZjlMOXlobWtpN3NiYmNOOExPVjRmT3dSYmRIZ1NfN3lBZk5iMFljQV9nWUFYbjh4dFZLUFRLQnd4RFJuR21nNnItUkxSRGxYYjA?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
     },
     {
       "id": "rssc2ca410499d640",
@@ -7825,198 +8017,6 @@
       "body": "<p>ইসলামের পবিত্র দুই নগরী মক্কা ও মদিনায় হামলার খবর অস্বীকার করেছে ইয়েমেনের ইরানপন্থি সশস্ত্র গোষ্ঠী হুথি। এর আগে সৌদি আরব জানিয়েছিল, ওই দুই অঞ্চলের দিকে ছোড়া ক্ষেপণাস্ত্র প্রতিহত করা হয়েছে এবং কয়েকটি স্থানে এর ধ্বংসাবশেষ পড়েছে। শনিবার (২৫ অক্টোবর) এ নিয়ে পাল্টাপাল্টি বক্তব্যের মধ্যে সৌদি আরবের বিভিন্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মধ্যপ্রাচ্যের এই উত্তেজনাপূর্ণ পরিস্থিতি বৈশ্বিক জ্বালানি বাজার ও প্রবাসীদের নিরাপত্তার ওপর দীর্ঘমেয়াদী চাপ সৃষ্টি করতে পারে। স্থানীয় বাসিন্দাদের এ ধরনের অস্থিতিশীল সময়ে সতর্ক থাকা এবং সংশ্লিষ্ট দূতাবাসের নির্দেশনা মেনে চলা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/976550/%E0%A6%AE%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%AE%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "ইসলামের পবিত্র দুই নগরী মক্কা ও মদিনায় হামলার খবর অস্বীকার করেছে ইয়েমেনের ইরানপন্থি সশস্ত্র গোষ্ঠী হুথি। এর আগে সৌদি আরব জানিয়েছিল, ওই দুই অঞ্চলের দিকে ছোড়া ক্ষেপণাস্ত্র প্রতিহত করা হয়েছে এবং কয়েকটি স্থানে এর ধ্বংসাবশেষ পড়েছে। শনিবার (২৫ অক্টোবর) এ নিয়ে পাল্টাপাল্টি বক্তব্যের মধ্যে সৌদি আরবের বিভিন্",
       "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/976550/%E0%A6%AE%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%AE%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%A5%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8C%E0%A6%A6%E0%A6%BF%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss54c25dbaacda32",
-      "slug": "বিশ্বজুড়ে-সাইবার-ঝুঁকি-চরম-হুমকিতে-বাংলা",
-      "title": "বিশ্বজুড়ে সাইবার ঝুঁকি, চরম হুমকিতে বাংলাদেশের তথ্যভান্ডার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss54c25dbaacda32-1200x630.jpg",
-      "publishedAt": "2026-10-25T03:49:17.523Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>বিশ্বজুড়ে ওয়েবসাইট তৈরির অন্যতম জনপ্রিয় প্রোগ্রামিং ভাষা পিএইচপিতে গুরুতর নিরাপত্তা ত্রুটি ধরা পড়ায় সাইবার হামলার আশঙ্কায় বাংলাদেশ ব্যাংক ও ডিজিটাল ভূমি সেবাসহ দেশের অন্তত সাতটি ব্যাংকের ওয়েবসাইট সাময়িকভাবে বন্ধ রাখা হয়েছে। সরকারের সাইবার নিরাপত্তাসংশ্লিষ্ট সংস্থা...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">গুরুত্বপূর্ণ জাতীয় তথ্যভাণ্ডার সুরক্ষায় ডিজিটাল অবকাঠামোর নিরাপত্তা জোরদার করা এখন সময়ের দাবি। নাগরিকদের ব্যক্তিগত তথ্যের নিরাপত্তা নিশ্চিত করতে সংশ্লিষ্ট কর্তৃপক্ষকে নিয়মিত কারিগরি অডিট ও সাইবার সচেতনতা বৃদ্ধিতে কার্যকর পদক্ষেপ নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314695/বিশ্বজুড়ে-সাইবার-ঝুঁকি-চরম-হুমকিতে-বাংলাদেশের-তথ্যভান্ডার\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "বিশ্বজুড়ে ওয়েবসাইট তৈরির অন্যতম জনপ্রিয় প্রোগ্রামিং ভাষা পিএইচপিতে গুরুতর নিরাপত্তা ত্রুটি ধরা পড়ায় সাইবার হামলার আশঙ্কায় বাংলাদেশ ব্যাংক ও ডিজিটাল ভূমি সেবাসহ দেশের অন্তত সাতটি ব্যাংকের ওয়েবসাইট সাময়িকভাবে বন্ধ রাখা হয়েছে। সরকারের সাইবার নিরাপত্তাসংশ্লিষ্ট সংস্থা...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/314695/বিশ্বজুড়ে-সাইবার-ঝুঁকি-চরম-হুমকিতে-বাংলাদেশের-তথ্যভান্ডার",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssa1b8127580e02f",
-      "slug": "বাপের-বাড়ির-নাশতা-কম-হওয়া-নিয়ে-বিরোধ-মারধ",
-      "title": "বাপের বাড়ির নাশতা কম হওয়া নিয়ে বিরোধ: মারধরের শিকার অন্তঃসত্ত্বা গৃহবধূর মৃত্যু, শাশুড়ি গ্রেপ্তার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%AE-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A6%A7.webp",
-      "publishedAt": "2026-10-25T03:49:17.486Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>চট্টগ্রামের পটিয়ায় বাবার বাড়ি থেকে নিয়ে আসা নাশতার পরিমাণ কম হওয়াকে কেন্দ্র করে মারধরের শিকার তিন মাসের অন্তঃসত্ত্বা গৃহবধূ সিফাতুন নূর সিফাতের (২২) মৃত্যু হয়েছে। চট্টগ্রাম মেডিকেল কলেজ (চমেক) হাসপাতালের নিবিড় পরিচর্যাকেন্দ্রে (আইসিইউ) টানা ৯ দিন চিকিৎসাধীন থাকার পর গত শুক্রবার (২৩ অক্টোবর) মারা যান</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক তুচ্ছ বিষয়ে এমন সহিংসতা ও অমানবিক আচরণ সামাজিক অবক্ষয়েরই বহিঃপ্রকাশ। নারীর প্রতি নির্যাতন রোধে স্থানীয় সমাজ ও পরিবারকে সচেতন হওয়ার পাশাপাশি অপরাধীকে আইনের আওতায় এনে দৃষ্টান্তমূলক শাস্তি নিশ্চিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817119/%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%AE-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A6%A7%E0%A6%B0%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "চট্টগ্রামের পটিয়ায় বাবার বাড়ি থেকে নিয়ে আসা নাশতার পরিমাণ কম হওয়াকে কেন্দ্র করে মারধরের শিকার তিন মাসের অন্তঃসত্ত্বা গৃহবধূ সিফাতুন নূর সিফাতের (২২) মৃত্যু হয়েছে। চট্টগ্রাম মেডিকেল কলেজ (চমেক) হাসপাতালের নিবিড় পরিচর্যাকেন্দ্রে (আইসিইউ) টানা ৯ দিন চিকিৎসাধীন থাকার পর গত শুক্রবার (২৩ অক্টোবর) মারা যান",
-      "sourceUrl": "https://www.ittefaq.com.bd/817119/%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%AE-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A6%A7%E0%A6%B0%E0%A7%87%E0%A6%B0",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss2f0eeff12689cd",
-      "slug": "কুমিল্লা-দক্ষিণ-জেলা-ছাত্রলীগের-সাবেক-সভ",
-      "title": "কুমিল্লা দক্ষিণ জেলা ছাত্রলীগের সাবেক সভাপতি গ্রেপ্তার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A6%AD.webp",
-      "publishedAt": "2026-10-25T03:49:17.484Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>কুমিল্লা দক্ষিণ জেলা ছাত্রলীগের (কার্যক্রম নিষিদ্ধ) সাবেক সভাপতি আ ফ ম আহসান উদ্দিন টুটুলকে গ্রেপ্তার করেছে পুলিশ। সন্ত্রাসবিরোধী মামলায় গ্রেপ্তার দেখিয়ে শনিবার (২৪ অক্টোবর) বিকেলে আদালতের মাধ্যমে জেলহাজতে পাঠানো হয়েছে তাকে। এর আগে এদিন দুপুরে জেলার আদর্শ সদর উপজেলার জগন্নাথপুর ইউনিয়নের বালুতোপা এলা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনশৃঙ্খলা পরিস্থিতির উন্নয়নে এ ধরনের পদক্ষেপ জনমনে স্বস্তি ফেরাতে সহায়ক হবে। স্থানীয় বাসিন্দাদের উচিত কোনো প্ররোচনায় বিভ্রান্ত না হয়ে আইনের প্রতি শ্রদ্ধা বজায় রাখা। যেকোনো বিশৃঙ্খলা এড়াতে এলাকাবাসীকে সতর্ক ও শান্ত থাকার আহ্বান জানাই।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817120/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "কুমিল্লা দক্ষিণ জেলা ছাত্রলীগের (কার্যক্রম নিষিদ্ধ) সাবেক সভাপতি আ ফ ম আহসান উদ্দিন টুটুলকে গ্রেপ্তার করেছে পুলিশ। সন্ত্রাসবিরোধী মামলায় গ্রেপ্তার দেখিয়ে শনিবার (২৪ অক্টোবর) বিকেলে আদালতের মাধ্যমে জেলহাজতে পাঠানো হয়েছে তাকে। এর আগে এদিন দুপুরে জেলার আদর্শ সদর উপজেলার জগন্নাথপুর ইউনিয়নের বালুতোপা এলা",
-      "sourceUrl": "https://www.ittefaq.com.bd/817120/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A6%BF",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss2641ad081d80c7",
-      "slug": "বিশেষ-উদ্দেশ্যে-আজ-ঢাকায়-আসছেন-জার্মানির",
-      "title": "বিশেষ উদ্দেশ্যে আজ ঢাকায় আসছেন জার্মানির ভাইস মিনিস্টার",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0.webp",
-      "publishedAt": "2026-10-25T03:34:17.673Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বাংলাদেশ ও জার্মানির মধ্যকার ভবিষ্যৎ উন্নয়ন সহযোগিতা নতুন রূপ দিতে এবং দুই সরকারের মধ্যে দ্বিপক্ষীয় আলোচনার লক্ষ্যে তিন দিনের সরকারি সফরে আজ রবিবার (২৫ অক্টোবর) ঢাকা আসবেন দেশটির ভাইস মিনিস্টার ড. বারবেল কফলার। গতকাল শনিবার সন্ধ্যায় জার্মান দূতাবাস থেকে দেওয়া এক সংবাদ বিজ্ঞপ্তিতে জানানো হয়, কফলার জা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জার্মানির সঙ্গে দ্বিপক্ষীয় সম্পর্ক জোরদার হওয়ার এই সম্ভাবনা বাংলাদেশের দক্ষ জনশক্তির জন্য নতুন কর্মসংস্থানের পথ প্রশস্ত করতে পারে। উন্নয়ন সহযোগিতার এই ধারা বজায় থাকলে ভবিষ্যতে জার্মান শ্রমবাজারে বাংলাদেশি পেশাজীবীদের সুযোগ আরও বৃদ্ধি পাবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/976546/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%87%E0%A6%B8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বাংলাদেশ ও জার্মানির মধ্যকার ভবিষ্যৎ উন্নয়ন সহযোগিতা নতুন রূপ দিতে এবং দুই সরকারের মধ্যে দ্বিপক্ষীয় আলোচনার লক্ষ্যে তিন দিনের সরকারি সফরে আজ রবিবার (২৫ অক্টোবর) ঢাকা আসবেন দেশটির ভাইস মিনিস্টার ড. বারবেল কফলার। গতকাল শনিবার সন্ধ্যায় জার্মান দূতাবাস থেকে দেওয়া এক সংবাদ বিজ্ঞপ্তিতে জানানো হয়, কফলার জা",
-      "sourceUrl": "https://www.banglatribune.com/others/976546/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%87%E0%A6%B8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss2e227259e0ede0",
-      "slug": "ফ্রান্সে-চার-লাখের-বেশি-মানুষের-শান্তিপূ",
-      "title": "ফ্রান্সে চার লাখের বেশি মানুষের শান্তিপূর্ণ বিক্ষোভ, রাত নামতেই সংঘর্ষ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%82.webp",
-      "publishedAt": "2026-10-25T03:34:17.668Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>গত সপ্তাহের অস্থিরতার পুনরাবৃত্তি রোধে বিশাল নিরাপত্তা ব্যবস্থার মধ্যেও শনিবার ফ্রান্সে শত শত হাজার হাজার বিক্ষোভকারী রাস্তায় নেমেছেন। শান্তিপূর্ণভাবে বিক্ষোভ শুরু হলেও রাত নামার সঙ্গে সঙ্গে প্যারিস ও মার্সেইসহ বিভিন্ন শহরে সংঘর্ষের ঘটনা ঘটে। ব্রিটিশ বার্তা সংস্থা রয়টার্স এ খবর জানিয়েছে। স্বরাষ্ট্র </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ফ্রান্সে চলমান এই অস্থিরতা জননিরাপত্তার পাশাপাশি নাগরিক স্বাভাবিক জীবনযাত্রাকে চরম ঝুঁকির মুখে ফেলেছে। সংঘাতময় পরিস্থিতি এড়াতে স্থানীয় বাসিন্দাদের সতর্ক থাকা এবং জরুরি প্রয়োজনে প্রশাসনের নির্দেশনা মেনে চলা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/europe/976548/%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "গত সপ্তাহের অস্থিরতার পুনরাবৃত্তি রোধে বিশাল নিরাপত্তা ব্যবস্থার মধ্যেও শনিবার ফ্রান্সে শত শত হাজার হাজার বিক্ষোভকারী রাস্তায় নেমেছেন। শান্তিপূর্ণভাবে বিক্ষোভ শুরু হলেও রাত নামার সঙ্গে সঙ্গে প্যারিস ও মার্সেইসহ বিভিন্ন শহরে সংঘর্ষের ঘটনা ঘটে। ব্রিটিশ বার্তা সংস্থা রয়টার্স এ খবর জানিয়েছে। স্বরাষ্ট্র ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/europe/976548/%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%96%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssbf57bad2a68e19",
-      "slug": "পশ্চিমঘাটের-পাহাড়-দেখতে-এবার-কাচের-ছাদ-জ",
-      "title": "পশ্চিমঘাটের পাহাড় দেখতে এবার কাচের ছাদ-জানালাযুক্ত বিশেষ ট্রেন",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A6-%E0%A6%9C.webp",
-      "publishedAt": "2026-10-25T03:34:17.665Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>পাহাড়, সবুজ বনভূমি আর উপত্যকার মনোরম দৃশ্য দেখতে দেখতে ট্রেন সফর। যাত্রীদের এই অভিজ্ঞতা দিতেই দক্ষিণ রেলওয়ের মাদুরাই ডিভিশনে প্রথমবার চালু করা হল ভিস্তাডোম কোচ। মাদুরাই-গুরুভায়ুর এক্সপ্রেসে এই বিশেষ কোচে চেপে পশ্চিমঘাট পর্বতমালার প্রাকৃতিক সৌন্দর্য উপভোগ করতে পারবেন যাত্রীরা। আপাতত পরীক্ষামূলকভাবে </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রকৃতি পাঠ ও ভৌগোলিক জ্ঞান অর্জনে এমন ভ্রমণ শিক্ষার্থীদের বাস্তব অভিজ্ঞতার প্রসার ঘটাবে। অভিভাবকদের উচিত সন্তানদের যান্ত্রিক পড়াশোনার বাইরে এমন শিক্ষামূলক ভ্রমণে উৎসাহিত করা, যা তাদের নান্দনিক দৃষ্টিভঙ্গি ও মানসিক বিকাশে সহায়ক হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/976461/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A6-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "পাহাড়, সবুজ বনভূমি আর উপত্যকার মনোরম দৃশ্য দেখতে দেখতে ট্রেন সফর। যাত্রীদের এই অভিজ্ঞতা দিতেই দক্ষিণ রেলওয়ের মাদুরাই ডিভিশনে প্রথমবার চালু করা হল ভিস্তাডোম কোচ। মাদুরাই-গুরুভায়ুর এক্সপ্রেসে এই বিশেষ কোচে চেপে পশ্চিমঘাট পর্বতমালার প্রাকৃতিক সৌন্দর্য উপভোগ করতে পারবেন যাত্রীরা। আপাতত পরীক্ষামূলকভাবে ",
-      "sourceUrl": "https://www.banglatribune.com/journey/976461/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%98%E0%A6%BE%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A6-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss5bfabe695e4901",
-      "slug": "মক্কা-মদিনায়-ক্ষেপণাস্ত্রের-ধ্বংসাবশেষ",
-      "title": "মক্কা-মদিনায় ক্ষেপণাস্ত্রের ধ্বংসাবশেষ: হামলার অভিযোগ অস্বীকার হুথিদের",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss5bfabe695e4901-1200x630.jpg",
-      "publishedAt": "2026-10-25T03:19:17.512Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>সৌদি আরবে আবারও ব্যালিস্টিক ক্ষেপণাস্ত্র হামলা চালিয়েছে ইয়েমেনের ইরান-সমর্থিত হুথি বিদ্রোহীরা। আকাশে থাকা অবস্থাতেই এসব ক্ষেপণাস্ত্র প্রতিহত করার দাবি করেছে সৌদি আরব। শনিবার (২৪ অক্টোবর) এই হামলার পর মক্কা ও মদিনাসহ দেশের বেশ কয়েকটি অঞ্চলে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পবিত্র স্থানগুলোর নিরাপত্তা বিঘ্নিত হওয়ার এ ঘটনা মধ্যপ্রাচ্যের অস্থিতিশীল পরিস্থিতিরই বহিঃপ্রকাশ। স্থানীয় বাসিন্দাদের সতর্ক থাকার পাশাপাশি যেকোনো জরুরি পরিস্থিতিতে কর্তৃপক্ষের নির্দেশনা কঠোরভাবে মেনে চলা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/314694/মক্কা-মদিনায়-ক্ষেপণাস্ত্রের-ধ্বংসাবশেষ-হামলার-অভিযোগ-অস্বীকার-হুথিদের\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "সৌদি আরবে আবারও ব্যালিস্টিক ক্ষেপণাস্ত্র হামলা চালিয়েছে ইয়েমেনের ইরান-সমর্থিত হুথি বিদ্রোহীরা। আকাশে থাকা অবস্থাতেই এসব ক্ষেপণাস্ত্র প্রতিহত করার দাবি করেছে সৌদি আরব। শনিবার (২৪ অক্টোবর) এই হামলার পর মক্কা ও মদিনাসহ দেশের বেশ কয়েকটি অঞ্চলে...",
-      "sourceUrl": "https://www.bd-journal.com/international/314694/মক্কা-মদিনায়-ক্ষেপণাস্ত্রের-ধ্বংসাবশেষ-হামলার-অভিযোগ-অস্বীকার-হুথিদের",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss57bdf516a330d7",
-      "slug": "কোন-কোন-কোম্পানির-শেয়ার-কিনলে-ঠকবেন-না",
-      "title": "কোন কোন কোম্পানির শেয়ার কিনলে ঠকবেন না",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B6%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%B2%E0%A7%87-%E0%A6%A0%E0%A6%95%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE.webp",
-      "publishedAt": "2026-10-25T03:19:17.503Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শেয়ারবাজারে বিনিয়োগ করে মুনাফা করতে চান, কিন্তু কষ্টের জমানো টাকা হারানোর ভয় রয়েছে? কোন শেয়ার কিনলে লোকসানের ঝুঁকি কম হবে, কোন কোম্পানির শেয়ারের দাম তুলনামূলক কম এবং কোনটি নিয়মিত মুনাফা ও লভ্যাংশ দিচ্ছে&amp;mdash;এসব প্রশ্ন ঘুরেফিরে আসে বিনিয়োগকারীদের মনে। বিশেষ করে ব্যাংকের শেয়ারের মূল্য আয় অনুপাত (পিই</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শেয়ারবাজারে বিনিয়োগের ক্ষেত্রে মৌলভিত্তি যাচাই না করে আবেগের বশবর্তী হওয়া ক্ষুদ্র বিনিয়োগকারীদের জন্য দীর্ঘমেয়াদী ক্ষতির কারণ হতে পারে। টেকসই লভ্যাংশ প্রদানের সক্ষমতা ও স্বচ্ছ আর্থিক প্রতিবেদন বিশ্লেষণই বাজার স্থিতিশীলতা নিশ্চিত করার একমাত্র উপায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/976544/%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B6%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%B2%E0%A7%87-%E0%A6%A0%E0%A6%95%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শেয়ারবাজারে বিনিয়োগ করে মুনাফা করতে চান, কিন্তু কষ্টের জমানো টাকা হারানোর ভয় রয়েছে? কোন শেয়ার কিনলে লোকসানের ঝুঁকি কম হবে, কোন কোম্পানির শেয়ারের দাম তুলনামূলক কম এবং কোনটি নিয়মিত মুনাফা ও লভ্যাংশ দিচ্ছে&mdash;এসব প্রশ্ন ঘুরেফিরে আসে বিনিয়োগকারীদের মনে। বিশেষ করে ব্যাংকের শেয়ারের মূল্য আয় অনুপাত (পিই",
-      "sourceUrl": "https://www.banglatribune.com/business/976544/%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%95%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%B6%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%B2%E0%A7%87-%E0%A6%A0%E0%A6%95%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssfcb5c5f704082d",
-      "slug": "চুরির-৯৬-লাখ-টাকা-ভাগ-নেওয়ার-অভিযোগে-গ্রে",
-      "title": "চুরির ৯৬ লাখ টাকা ভাগ নেওয়ার অভিযোগে গ্রেফতার ইউপি চেয়ারম্যান",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A7%AF%E0%A7%AC-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87.webp",
-      "publishedAt": "2026-10-25T03:19:17.501Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দুবাইয়ে এক বাংলাদেশির দোকান থেকে ৯৬ লাখ ৩২ হাজার টাকা চুরি ও আত্মসাতের মামলায় অর্থের ভাগ নেওয়ার অভিযোগে কক্সবাজারের রামু উপজেলার রশিদনগর ইউনিয়ন পরিষদের (ইউপি) চেয়ারম্যান শাহ আলমকে গ্রেফতার করেছে পুলিশ। চুরির টাকা থেকে তিনি ৪ লাখ ৪০ হাজার টাকা পেয়েছেন বলে মামলার এক আসামির স্বীকারোক্তিতে উল্লেখ করা হয়</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের এমন অনৈতিক কর্মকাণ্ড স্থানীয় শাসনব্যবস্থায় জনআস্থার সংকট তৈরি করে। অপরাধের সঙ্গে যুক্তদের দ্রুত আইনের আওতায় এনে বিচার নিশ্চিত করা জরুরি। স্বচ্ছতা বজায় রাখতে স্থানীয়দেরও জনপ্রতিনিধিদের বিষয়ে আরও সচেতন ও সতর্ক থাকা প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/976545/%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A7%AF%E0%A7%AC-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%89%E0%A6%AA%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দুবাইয়ে এক বাংলাদেশির দোকান থেকে ৯৬ লাখ ৩২ হাজার টাকা চুরি ও আত্মসাতের মামলায় অর্থের ভাগ নেওয়ার অভিযোগে কক্সবাজারের রামু উপজেলার রশিদনগর ইউনিয়ন পরিষদের (ইউপি) চেয়ারম্যান শাহ আলমকে গ্রেফতার করেছে পুলিশ। চুরির টাকা থেকে তিনি ৪ লাখ ৪০ হাজার টাকা পেয়েছেন বলে মামলার এক আসামির স্বীকারোক্তিতে উল্লেখ করা হয়",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/976545/%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A7%AF%E0%A7%AC-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%89%E0%A6%AA%E0%A6%BF",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf4ddf0854a6f28",
-      "slug": "হেলমেট-পরে-চায়ের-দোকানে-বসা-বৃদ্ধকে-গুল",
-      "title": "হেলমেট পরে চায়ের দোকানে বসা বৃদ্ধকে গুলি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B9%E0%A7%87%E0%A6%B2%E0%A6%AE%E0%A7%87%E0%A6%9F-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B2.webp",
-      "publishedAt": "2026-10-25T03:04:17.912Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>নোয়াখালীর সোনাইমুড়ীতে কালো পোশাক ও হেলমেট পরা দুই দুর্বৃত্তের গুলিতে জামাল উদ্দিন (৬০) নামে এক বৃদ্ধ আহত হয়েছেন। শনিবার (২৪ অক্টোবর) রাত সাড়ে ১০টার দিকে উপজেলার নাটেশ্বর ইউনিয়নের ঘোষকামতা গ্রামের বটতলী এলাকায় একটি চায়ের দোকানে এ ঘটনা ঘটে। গুলিতে তার বাম পা ও রান আহত হয়েছে। বর্তমানে তিনি নোয়াখালী জেন</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জননিরাপত্তার এমন অবনতি স্থানীয়দের মধ্যে গভীর শঙ্কা তৈরি করেছে। অপরাধীদের শনাক্ত করতে এলাকাবাসীকে সিসিটিভি ফুটেজ সংগ্রহ ও পুলিশের সাথে তথ্য আদান-প্রদানে সক্রিয় হতে হবে। অপরাধী চক্রের দৌরাত্ম্য রুখতে সামাজিক সচেতনতা ও নজরদারি বাড়ানো জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/976542/%E0%A6%B9%E0%A7%87%E0%A6%B2%E0%A6%AE%E0%A7%87%E0%A6%9F-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "নোয়াখালীর সোনাইমুড়ীতে কালো পোশাক ও হেলমেট পরা দুই দুর্বৃত্তের গুলিতে জামাল উদ্দিন (৬০) নামে এক বৃদ্ধ আহত হয়েছেন। শনিবার (২৪ অক্টোবর) রাত সাড়ে ১০টার দিকে উপজেলার নাটেশ্বর ইউনিয়নের ঘোষকামতা গ্রামের বটতলী এলাকায় একটি চায়ের দোকানে এ ঘটনা ঘটে। গুলিতে তার বাম পা ও রান আহত হয়েছে। বর্তমানে তিনি নোয়াখালী জেন",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/976542/%E0%A6%B9%E0%A7%87%E0%A6%B2%E0%A6%AE%E0%A7%87%E0%A6%9F-%E0%A6%AA%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8B%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss6af3b2a992be32",
-      "slug": "হাসি-ঠাট্টার-আড়ালে-সম্পর্কের-গুরুত্ব-মনে",
-      "title": "হাসি-ঠাট্টার আড়ালে সম্পর্কের গুরুত্ব মনে করিয়ে দেয় শাশুড়ি দিবস",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF-%E0%A6%A0%E0%A6%BE%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AE%E0%A6%A8%E0%A7%87.webp",
-      "publishedAt": "2026-10-25T03:04:17.910Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শাশুড়িকে নিয়ে রসিকতা ও মজার গল্পের অভাব নেই। কখনও তাঁকে অতিরিক্ত উপদেশ দেওয়া মানুষ হিসেবে তুলে ধরা হয়, কখনও আবার দাম্পত্য জীবনের নানা টানাপোড়েনের কারণ হিসেবে দেখা হয়। তবে হাসি-ঠাট্টার আড়ালে শাশুড়ির সঙ্গে পারিবারিক সম্পর্কের গুরুত্বও কম নয়। এই সম্পর্কের ইতিবাচক দিকগুলো উপলব্ধি করা, সম্মান জানানো এবং </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক সংহতি রক্ষায় শাশুড়ির সঙ্গে শ্রদ্ধাপূর্ণ ও সৌহার্দ্যপূর্ণ সম্পর্ক অত্যন্ত জরুরি। সামাজিক কুসংস্কার বা হাস্যরসের ঊর্ধ্বে গিয়ে পারস্পরিক বোঝাপড়া বাড়ালে তা গৃহস্থালির মানসিক চাপ কমিয়ে সুন্দর জীবনযাপনে সহায়তা করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/976445/%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF-%E0%A6%A0%E0%A6%BE%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A7%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শাশুড়িকে নিয়ে রসিকতা ও মজার গল্পের অভাব নেই। কখনও তাঁকে অতিরিক্ত উপদেশ দেওয়া মানুষ হিসেবে তুলে ধরা হয়, কখনও আবার দাম্পত্য জীবনের নানা টানাপোড়েনের কারণ হিসেবে দেখা হয়। তবে হাসি-ঠাট্টার আড়ালে শাশুড়ির সঙ্গে পারিবারিক সম্পর্কের গুরুত্বও কম নয়। এই সম্পর্কের ইতিবাচক দিকগুলো উপলব্ধি করা, সম্মান জানানো এবং ",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/976445/%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF-%E0%A6%A0%E0%A6%BE%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A7%9F",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssd8362a92b22ef8",
-      "slug": "ঋতুস্রাবের-সময়-বিজয়ের-সেবাযত্নের-প্রশংস",
-      "title": "ঋতুস্রাবের সময় বিজয়ের সেবাযত্নের প্রশংসায় রাশমিকা",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%8B%E0%A6%A4%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%82%E0%A6%B8.webp",
-      "publishedAt": "2026-10-25T03:04:17.904Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ঋতুস্রাবের সময় অসহ্য যন্ত্রণায় কাতর হয়ে পড়েন অভিনেত্রী রাশমিকা মান্দানা। মাসের সেই বিশেষ দিনগুলি আসার আগেই শুরু হয় উদ্বেগ তার। এমন কঠিন সময়ে কীভাবে তার যত্ন নেন স্বামী বিজয় দেবেরাকোন্ডা? সম্প্রতি এক সাক্ষাৎকারে প্রথম ঋতুস্রাবের ভয়াবহ অভিজ্ঞতা থেকে দাম্পত্যের ব্যক্তিগত মুহূর্ত, সবটা খোলামেলা জানালেন</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক ও ব্যক্তিগত জীবনের এমন খোলামেলা প্রকাশ তারকাদের প্রতি দর্শকের মমত্ববোধ বাড়ায়। মানসিক ও শারীরিক সংকটে সঙ্গীর এমন সমর্থন সুস্থ সম্পর্কের এক উজ্জ্বল দৃষ্টান্ত, যা সমাজ ও শিল্পাঙ্গনে ইতিবাচক প্রভাব ফেলে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/entertainment/bollywood/976491/%E0%A6%8B%E0%A6%A4%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%82%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ঋতুস্রাবের সময় অসহ্য যন্ত্রণায় কাতর হয়ে পড়েন অভিনেত্রী রাশমিকা মান্দানা। মাসের সেই বিশেষ দিনগুলি আসার আগেই শুরু হয় উদ্বেগ তার। এমন কঠিন সময়ে কীভাবে তার যত্ন নেন স্বামী বিজয় দেবেরাকোন্ডা? সম্প্রতি এক সাক্ষাৎকারে প্রথম ঋতুস্রাবের ভয়াবহ অভিজ্ঞতা থেকে দাম্পত্যের ব্যক্তিগত মুহূর্ত, সবটা খোলামেলা জানালেন",
-      "sourceUrl": "https://www.banglatribune.com/entertainment/bollywood/976491/%E0%A6%8B%E0%A6%A4%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%82%E0%A6%B8%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
