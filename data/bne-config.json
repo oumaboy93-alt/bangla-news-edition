@@ -1,6 +1,6 @@
 {
-  "version": 1005,
-  "updatedAt": "2026-10-26T10:37:37.069Z",
+  "version": 1006,
+  "updatedAt": "2026-10-26T10:50:12.653Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss7fe7f3aab68b5a",
+      "slug": "পদ্মায়-অবৈধ-বালু-উত্তোলন-প্রতিবাদেএলাকা",
+      "title": "পদ্মায় অবৈধ বালু উত্তোলন, প্রতিবাদেএলাকাবাসীর মানববন্ধন",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%A6%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A7%9F-%E0%A6%85%E0%A6%AC%E0%A7%88%E0%A6%A7-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%81-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%8F%E0%A6%B2%E0%A6%BE%E0%A6%95%E0%A6%BE.jpg",
+      "publishedAt": "2026-10-26T10:49:19.185Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>পাবনার ঈশ্বরদীতে পদ্মা নদীসহ বিভিন্ন এলাকায় অবৈধভাবে বালু উত্তোলনের প্রতিবাদে মানববন্ধন করেছেন শিক্ষার্থী ও এলাকাবাসী। তাঁদের অভিযোগ, প্রভাবশালী একটি চক্র দীর্ঘ...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/539524\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "পাবনার ঈশ্বরদীতে পদ্মা নদীসহ বিভিন্ন এলাকায় অবৈধভাবে বালু উত্তোলনের প্রতিবাদে মানববন্ধন করেছেন শিক্ষার্থী ও এলাকাবাসী। তাঁদের অভিযোগ, প্রভাবশালী একটি চক্র দীর্ঘ...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/539524",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssf21b2f8c839dc1",
+      "slug": "দেশে-বর্তমানে-পর্যাপ্ত-সার-মজুদ-আছে-কৃষি",
+      "title": "দেশে বর্তমানে পর্যাপ্ত সার মজুদ আছে: কৃষিমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%A6-%E0%A6%86%E0%A6%9B%E0%A7%87-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF.jpg",
+      "publishedAt": "2026-10-26T10:49:19.180Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>দেশে বর্তমানে সারের পর্যাপ্ত মজুদ রয়েছে বলে জানিয়েছেন কৃষিমন্ত্রী হাজি আমিনুর রশিদ ইয়াসিন। তিনি বলেন, দেশে সারের কোনো সংকট ছিল না এবং বর্তমানেও কোনো সংকট নেই। সোমবার (২৬ অক্টোবর) দুপুরে কৃষি মন্ত্রণালয় সম্পর্কিত স্থায়ী কমিটির বৈঠক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সারের পর্যাপ্ত মজুদ নিশ্চিত করার সরকারি ঘোষণা কৃষি উৎপাদন ও খাদ্য নিরাপত্তা নিয়ে রাজনৈতিক অস্বস্তি দূর করতে কার্যকর ভূমিকা রাখবে। এর ফলে কৃত্রিম সংকট তৈরির পথ বন্ধ হবে এবং প্রান্তিক কৃষকরা ন্যায্য মূল্যে সার পেয়ে নিশ্চিন্ত হতে পারবেন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314763/দেশে-বর্তমানে-পর্যাপ্ত-সার-মজুদ-আছে-কৃষিমন্ত্রী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "দেশে বর্তমানে সারের পর্যাপ্ত মজুদ রয়েছে বলে জানিয়েছেন কৃষিমন্ত্রী হাজি আমিনুর রশিদ ইয়াসিন। তিনি বলেন, দেশে সারের কোনো সংকট ছিল না এবং বর্তমানেও কোনো সংকট নেই। সোমবার (২৬ অক্টোবর) দুপুরে কৃষি মন্ত্রণালয় সম্পর্কিত স্থায়ী কমিটির বৈঠক...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314763/দেশে-বর্তমানে-পর্যাপ্ত-সার-মজুদ-আছে-কৃষিমন্ত্রী",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rssc6f650de82129d",
+      "slug": "হাম-উপসর্গে-আরও-৬-শিশুর-মৃত্যু",
+      "title": "হাম উপসর্গে আরও ৬ শিশুর মৃত্যু",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%B9%E0%A6%BE%E0%A6%AE-%E0%A6%89%E0%A6%AA%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A7%AC-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81.jpg",
+      "publishedAt": "2026-10-26T10:49:19.175Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>দেশে গত ২৪ ঘণ্টায় হাম উপসর্গ নিয়ে আরও ৬ শিশুর মৃত্যু হয়েছে। এ নিয়ে হামের প্রাদুর্ভাব শুরুর পর থেকে এখন পর্যন্ত হাম ও হামের উপসর্গ নিয়ে মৃত্যুর সংখ্যা দাঁড়িয়েছে এক হাজার ২৩৩ জনে। এদিকে, গত...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হামের এই ক্রমবর্ধমান প্রকোপ জনস্বাস্থ্যের চরম অবনতিরই বার্তা দেয়, যা প্রতিটি অভিভাবকের জন্য উদ্বেগজনক। শিশুদের জীবন রক্ষায় দ্রুত টিকাদান কর্মসূচি জোরদার এবং জরুরি স্বাস্থ্যসেবা নিশ্চিত করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/other/314764/হাম-উপসর্গে-আরও-৬-শিশুর-মৃত্যু\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "দেশে গত ২৪ ঘণ্টায় হাম উপসর্গ নিয়ে আরও ৬ শিশুর মৃত্যু হয়েছে। এ নিয়ে হামের প্রাদুর্ভাব শুরুর পর থেকে এখন পর্যন্ত হাম ও হামের উপসর্গ নিয়ে মৃত্যুর সংখ্যা দাঁড়িয়েছে এক হাজার ২৩৩ জনে। এদিকে, গত...",
+      "sourceUrl": "https://www.bd-journal.com/other/314764/হাম-উপসর্গে-আরও-৬-শিশুর-মৃত্যু",
+      "sourceName": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss64cfcf77d82745",
@@ -7953,54 +8001,6 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMitwVBVV95cUxPSHlaTHRteGMzZFNySTFTNGFMS1ItUUt6TkhBN3BjSFlhc1dJRjZ4a0VlbFJXck41LVdBSGRBLVVZVHo0T1h3R3hBdWtiX3ZXci1hNkY5MnpqMkN6VDhqeW00bmg4NFdkR294eldRYjZzNHdpcGpJT2FkUFA2cVk0Q3IxUU1femYyQXhOUkxVSXJ2cmRnNE4tSTAtTElla2M5QVhUckpFaHVEdW5jbFZzYjlmX2drVTZEMk0wUWJVcXM4R3VJZkZPSHRiQlFnM2l2QWRFMlNrX0Rvd2JKY0xpdktVanNIeWtDQk9XcERwQ3NGbGJVcnpsWE9ndkxYd0NwbW54aUVwVHlHZjRwbGRfSDdLYUdOYjgzRkhzS2NWV3FyWjIxa0N0ZHZRamV6Qko3N05MMFJ1OER5ODRHZ21EMWJOeWNJODBiWmlILTl</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMitwVBVV95cUxPSHlaTHRteGMzZFNySTFTNGFMS1ItUUt6TkhBN3BjSFlhc1dJRjZ4a0VlbFJXck41LVdBSGRBLVVZVHo0T1h3R3hBdWtiX3ZXci1hNkY5MnpqMkN6VDhqeW00bmg4NFdkR294eldRYjZzNHdpcGpJT2FkUFA2cVk0Q3IxUU1femYyQXhOUkxVSXJ2cmRnNE4tSTAtTElla2M5QVhUckpFaHVEdW5jbFZzYjlmX2drVTZEMk0wUWJVcXM4R3VJZkZPSHRiQlFnM2l2QWRFMlNrX0Rvd2JKY0xpdktVanNIeWtDQk9XcERwQ3NGbGJVcnpsWE9ndkxYd0NwbW54aUVwVHlHZjRwbGRfSDdLYUdOYjgzRkhzS2NWV3FyWjIxa0N0ZHZRamV6Qko3N05MMFJ1OER5ODRHZ21EMWJOeWNJODBiWmlILTlacmY4bS1vRzFFRGtEVlRQVzEwVk1KUWktNmpmRklnRFhTM2RNenkzY0kySl94c3E0eGo5R21Md3VsbFA0SnBlc2dQdy1SSV8yQU5qNXl0RUt6OUk3Q2pmc3BiY0czOGswWFR2SDUyWW9Ja2RZeE1obThQSnR1TDlzbExVaXMzdWZxNHhkZXZ4UUdSdW4tbHlWZGswd3RHTVpocWxJSHpKaDNqTExNWk1UNkFDNktVcWVoTEw1N195bW1JVm1pN01MLWJPRjBTdTY1aHVNN3FmemNFLUwxWERQa1VNb0NVUmVRMzJ3MktWSjd2bVVsblhIYS1QWVZ3M3YwLTlOTVJTWDFLOE1CbjhicTJmbXlVX2o5bDdKT082N2lHMHJ2dG9DMFZZQ3N2dzhud1VWbllUc0NwejFOdlRCN1BVV1g1OXFUUWxsY3J2T3VGdTNzNlViLXpIanVNZUFVZWktQ3lOOWJrMzgxTVlQWQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMitwVBVV95cUxPSHlaTHRteGMzZFNySTFTNGFMS1ItUUt6TkhBN3BjSFlhc1dJRjZ4a0VlbFJXck41LVdBSGRBLVVZVHo0T1h3R3hBdWtiX3ZXci1hNkY5MnpqMkN6VDhqeW00bmg4NFdkR294eldRYjZzNHdpcGpJT2FkUFA2cVk0Q3IxUU1femYyQXhOUkxVSXJ2cmRnNE4tSTAtTElla2M5QVhUckpFaHVEdW5jbFZzYjlmX2drVTZ",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitwVBVV95cUxPSHlaTHRteGMzZFNySTFTNGFMS1ItUUt6TkhBN3BjSFlhc1dJRjZ4a0VlbFJXck41LVdBSGRBLVVZVHo0T1h3R3hBdWtiX3ZXci1hNkY5MnpqMkN6VDhqeW00bmg4NFdkR294eldRYjZzNHdpcGpJT2FkUFA2cVk0Q3IxUU1femYyQXhOUkxVSXJ2cmRnNE4tSTAtTElla2M5QVhUckpFaHVEdW5jbFZzYjlmX2drVTZEMk0wUWJVcXM4R3VJZkZPSHRiQlFnM2l2QWRFMlNrX0Rvd2JKY0xpdktVanNIeWtDQk9XcERwQ3NGbGJVcnpsWE9ndkxYd0NwbW54aUVwVHlHZjRwbGRfSDdLYUdOYjgzRkhzS2NWV3FyWjIxa0N0ZHZRamV6Qko3N05MMFJ1OER5ODRHZ21EMWJOeWNJODBiWmlILTlacmY4bS1vRzFFRGtEVlRQVzEwVk1KUWktNmpmRklnRFhTM2RNenkzY0kySl94c3E0eGo5R21Md3VsbFA0SnBlc2dQdy1SSV8yQU5qNXl0RUt6OUk3Q2pmc3BiY0czOGswWFR2SDUyWW9Ja2RZeE1obThQSnR1TDlzbExVaXMzdWZxNHhkZXZ4UUdSdW4tbHlWZGswd3RHTVpocWxJSHpKaDNqTExNWk1UNkFDNktVcWVoTEw1N195bW1JVm1pN01MLWJPRjBTdTY1aHVNN3FmemNFLUwxWERQa1VNb0NVUmVRMzJ3MktWSjd2bVVsblhIYS1QWVZ3M3YwLTlOTVJTWDFLOE1CbjhicTJmbXlVX2o5bDdKT082N2lHMHJ2dG9DMFZZQ3N2dzhud1VWbllUc0NwejFOdlRCN1BVV1g1OXFUUWxsY3J2T3VGdTNzNlViLXpIanVNZUFVZWktQ3lOOWJrMzgxTVlQWQ?oc=5",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssdc1bfb25b712df",
-      "slug": "যুক্তরাজ্যের-নাগরিকদের-৩-দিনের-জরুরি-রসদ",
-      "title": "যুক্তরাজ্যের নাগরিকদের ৩ দিনের জরুরি রসদ রাখার পরামর্শ",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssdc1bfb25b712df-1200x630.jpg",
-      "publishedAt": "2026-10-24T16:49:17.456Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMimgVBVV95cUxNVW1PX1drZ2s5OGg1elZ4ZXFlT3d1U2ZvaWtLVWNJWmVHQ2N0QWNtdENuNk1IbFBuSG1mUjcwZ1Z6b0ZZRWMwRVFLVEhoQzVjNUk0N3MxMzlONzFWZ1gzdkhGZ3QwZ2p3d1VoN0lqeVlrTFlxY1pOQ1AxNV83ZUJpNkJSRnRyUmEzUm1ERmhFb1VYVGhfQ1BlbWFIanZRcnltelJCaG9BT1FyQ0dJT1RVR0FXZ2ZUamJuTnpXZE5pM0pCelNvUmU3V3VKMURFYlpxRDdNMEFzZ1ZaQjNjbmZ1b2FWelY2OVFsMDNDM3lPTTlnd2lsUkJrNGQwSU5VS2NaX3pGTmNGdTFMVUlPd2NuUUhudjhWb1ZiSTBYSWY3MjA4aC1ZRVROU2xwNDFyeGN1cl9xVURSelVwdy1lOU15Q3Rkc29fcHplcFh6alR</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMimgVBVV95cUxNVW1PX1drZ2s5OGg1elZ4ZXFlT3d1U2ZvaWtLVWNJWmVHQ2N0QWNtdENuNk1IbFBuSG1mUjcwZ1Z6b0ZZRWMwRVFLVEhoQzVjNUk0N3MxMzlONzFWZ1gzdkhGZ3QwZ2p3d1VoN0lqeVlrTFlxY1pOQ1AxNV83ZUJpNkJSRnRyUmEzUm1ERmhFb1VYVGhfQ1BlbWFIanZRcnltelJCaG9BT1FyQ0dJT1RVR0FXZ2ZUamJuTnpXZE5pM0pCelNvUmU3V3VKMURFYlpxRDdNMEFzZ1ZaQjNjbmZ1b2FWelY2OVFsMDNDM3lPTTlnd2lsUkJrNGQwSU5VS2NaX3pGTmNGdTFMVUlPd2NuUUhudjhWb1ZiSTBYSWY3MjA4aC1ZRVROU2xwNDFyeGN1cl9xVURSelVwdy1lOU15Q3Rkc29fcHplcFh6alRnVm81X0xCQWY5c0o0ZFR4RTNjOV9RdFNOSng1VWZDaTlRR1RVLW9NSkphT0VpUVhBdWNlaFZKcEo4VnAxRmN5U2JsODNpd0R4QUROVE45d3JWOWh6M05RMC0zeEppSXg3bmxIZVBrdWc0SkliMnNvdTZ2dGVrTy1wVWJEdFdmYnpfU29mdlRYbl9kbjVlREZZdEJFb1NqQkM4akF3eGhKM043RWxsVnZYVnhSdXFkLVBnYm9wQjVlRTYtYjhfOFVfd2tYNHViQjhJUEJJUG5USjBkbUNfT3ZKZUdFT0t1RXNvUUhsTjFDQmtQYnpaVEtYS05rZVZUbUVOZTZjaG14TFFwVDBBVXZGRFljdEExQkMzUkRBVFdiU1FQSmdQR0ZTVmEtNUhFNGV0UldQWFQ0NTRXWVR3MFQwamVRSHk4NjI3c1pMNUNlM1hsSWc?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMimgVBVV95cUxNVW1PX1drZ2s5OGg1elZ4ZXFlT3d1U2ZvaWtLVWNJWmVHQ2N0QWNtdENuNk1IbFBuSG1mUjcwZ1Z6b0ZZRWMwRVFLVEhoQzVjNUk0N3MxMzlONzFWZ1gzdkhGZ3QwZ2p3d1VoN0lqeVlrTFlxY1pOQ1AxNV83ZUJpNkJSRnRyUmEzUm1ERmhFb1VYVGhfQ1BlbWFIanZRcnltelJCaG9BT1FyQ0dJT1RVR0FXZ2ZUamJ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimgVBVV95cUxNVW1PX1drZ2s5OGg1elZ4ZXFlT3d1U2ZvaWtLVWNJWmVHQ2N0QWNtdENuNk1IbFBuSG1mUjcwZ1Z6b0ZZRWMwRVFLVEhoQzVjNUk0N3MxMzlONzFWZ1gzdkhGZ3QwZ2p3d1VoN0lqeVlrTFlxY1pOQ1AxNV83ZUJpNkJSRnRyUmEzUm1ERmhFb1VYVGhfQ1BlbWFIanZRcnltelJCaG9BT1FyQ0dJT1RVR0FXZ2ZUamJuTnpXZE5pM0pCelNvUmU3V3VKMURFYlpxRDdNMEFzZ1ZaQjNjbmZ1b2FWelY2OVFsMDNDM3lPTTlnd2lsUkJrNGQwSU5VS2NaX3pGTmNGdTFMVUlPd2NuUUhudjhWb1ZiSTBYSWY3MjA4aC1ZRVROU2xwNDFyeGN1cl9xVURSelVwdy1lOU15Q3Rkc29fcHplcFh6alRnVm81X0xCQWY5c0o0ZFR4RTNjOV9RdFNOSng1VWZDaTlRR1RVLW9NSkphT0VpUVhBdWNlaFZKcEo4VnAxRmN5U2JsODNpd0R4QUROVE45d3JWOWh6M05RMC0zeEppSXg3bmxIZVBrdWc0SkliMnNvdTZ2dGVrTy1wVWJEdFdmYnpfU29mdlRYbl9kbjVlREZZdEJFb1NqQkM4akF3eGhKM043RWxsVnZYVnhSdXFkLVBnYm9wQjVlRTYtYjhfOFVfd2tYNHViQjhJUEJJUG5USjBkbUNfT3ZKZUdFT0t1RXNvUUhsTjFDQmtQYnpaVEtYS05rZVZUbUVOZTZjaG14TFFwVDBBVXZGRFljdEExQkMzUkRBVFdiU1FQSmdQR0ZTVmEtNUhFNGV0UldQWFQ0NTRXWVR3MFQwamVRSHk4NjI3c1pMNUNlM1hsSWc?oc=5",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssf8dbbaae0c635a",
-      "slug": "আপিল-বিভাগের-বিচারিক-কার্যক্রম-বন্ধ-থাকব",
-      "title": "আপিল বিভাগের বিচারিক কার্যক্রম বন্ধ থাকবে কাল",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssf8dbbaae0c635a-1200x630.jpg",
-      "publishedAt": "2026-10-24T16:49:17.451Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMirgRBVV95cUxOb0xjMFZ2c2NHbERoejdnOWF4UmVNYWpFTTlsNXFYdmIxT0k5MmxHb3RtUUg0MVZ4ODhQQWp1VmRqT1V5bm43Y3piWTNXdHJfOVl4VDNlbm1ISTZrd1RZRDFZT04zTkFXRTNEMVdUbl9SbE5Oa00wdGVIRFA4ZFhwV1o2ZWs1VFBPLWtCYXVPNDNQb0JpZ0ZJUFhHTndVbTcxcXJqVnNHdHJvc1U1Zms5Q1Uyc0xBNzRMYUlZck9aS3lBQy1OeWsxclpJdDJFSjVJZG9DV2NSV25aOVFLTXM3TDFoRWphSnU1S0RkbDZKNERvX2ZQMVd0WW1FRkQwSVBjQVJwcVNUTWVpc1QzSDlMWFdGdTJkWFQxVm1zV2RUSFV2ZkdGd09MVnFmM1FnNEI4OHFKVUJYWGhPOW95cWpxOTdYbUh1VlQ1YWVobjA</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMirgRBVV95cUxOb0xjMFZ2c2NHbERoejdnOWF4UmVNYWpFTTlsNXFYdmIxT0k5MmxHb3RtUUg0MVZ4ODhQQWp1VmRqT1V5bm43Y3piWTNXdHJfOVl4VDNlbm1ISTZrd1RZRDFZT04zTkFXRTNEMVdUbl9SbE5Oa00wdGVIRFA4ZFhwV1o2ZWs1VFBPLWtCYXVPNDNQb0JpZ0ZJUFhHTndVbTcxcXJqVnNHdHJvc1U1Zms5Q1Uyc0xBNzRMYUlZck9aS3lBQy1OeWsxclpJdDJFSjVJZG9DV2NSV25aOVFLTXM3TDFoRWphSnU1S0RkbDZKNERvX2ZQMVd0WW1FRkQwSVBjQVJwcVNUTWVpc1QzSDlMWFdGdTJkWFQxVm1zV2RUSFV2ZkdGd09MVnFmM1FnNEI4OHFKVUJYWGhPOW95cWpxOTdYbUh1VlQ1YWVobjAtS0JWUklWeDFKcnRLd2dUNGtPQWZ1UjhrbkpDMVJKeVVHczY4b1RHZFhveTR3WTgxNnBSLUtTMUpVZUNWSmQzN1lXM3BfcjhlZGloV3hvZFktSkNxUXBJdGM0QnZFS3RGcE1YN0xhSUtWRlFIZ0VDbkN1OE1uV2ZFcTdWVnNYSmhSQnRNSjl2VEc4THNIbGlyQU40SWVHZndBaTVzcUNJclR0N0RPakNqN1VBX3ZrMEU1OU9Hd2Y5T2JlN0ppWHM0cTlaOExpMll1Z3ZhdktfSGd2cFdIS3NKeVRPUW1FM0E?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMirgRBVV95cUxOb0xjMFZ2c2NHbERoejdnOWF4UmVNYWpFTTlsNXFYdmIxT0k5MmxHb3RtUUg0MVZ4ODhQQWp1VmRqT1V5bm43Y3piWTNXdHJfOVl4VDNlbm1ISTZrd1RZRDFZT04zTkFXRTNEMVdUbl9SbE5Oa00wdGVIRFA4ZFhwV1o2ZWs1VFBPLWtCYXVPNDNQb0JpZ0ZJUFhHTndVbTcxcXJqVnNHdHJvc1U1Zms5Q1Uyc0xBNzR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMirgRBVV95cUxOb0xjMFZ2c2NHbERoejdnOWF4UmVNYWpFTTlsNXFYdmIxT0k5MmxHb3RtUUg0MVZ4ODhQQWp1VmRqT1V5bm43Y3piWTNXdHJfOVl4VDNlbm1ISTZrd1RZRDFZT04zTkFXRTNEMVdUbl9SbE5Oa00wdGVIRFA4ZFhwV1o2ZWs1VFBPLWtCYXVPNDNQb0JpZ0ZJUFhHTndVbTcxcXJqVnNHdHJvc1U1Zms5Q1Uyc0xBNzRMYUlZck9aS3lBQy1OeWsxclpJdDJFSjVJZG9DV2NSV25aOVFLTXM3TDFoRWphSnU1S0RkbDZKNERvX2ZQMVd0WW1FRkQwSVBjQVJwcVNUTWVpc1QzSDlMWFdGdTJkWFQxVm1zV2RUSFV2ZkdGd09MVnFmM1FnNEI4OHFKVUJYWGhPOW95cWpxOTdYbUh1VlQ1YWVobjAtS0JWUklWeDFKcnRLd2dUNGtPQWZ1UjhrbkpDMVJKeVVHczY4b1RHZFhveTR3WTgxNnBSLUtTMUpVZUNWSmQzN1lXM3BfcjhlZGloV3hvZFktSkNxUXBJdGM0QnZFS3RGcE1YN0xhSUtWRlFIZ0VDbkN1OE1uV2ZFcTdWVnNYSmhSQnRNSjl2VEc4THNIbGlyQU40SWVHZndBaTVzcUNJclR0N0RPakNqN1VBX3ZrMEU1OU9Hd2Y5T2JlN0ppWHM0cTlaOExpMll1Z3ZhdktfSGd2cFdIS3NKeVRPUW1FM0E?oc=5",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssbd7969395461eb",
-      "slug": "শনিবার-২৪-অক্টোবর-২০২৬-bdjournal",
-      "title": "শনিবার, ২৪ অক্টোবর, ২০২৬ - bdjournal",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssbd7969395461eb-1200x630.jpg",
-      "publishedAt": "2026-10-24T16:49:17.449Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTdJQ2h4aEFxaXM4cU9kVjlJU2JGYXlfWTQyZzgyMHhneXJ0NTJVZW5PQjk0ckk4NkdqY2JNZ3VDaGx4S0tOdDRFSFl2SVpfNG42eTU1a1h3VS13VjZNeWw0ZXExc0pyVUp4UEFhUk0xM3Q5bkItQUdMR2RvUE1JYk9hek9YMzEzU2Y3RkpROVM0S1Zpb3h5UVRxWFhzeDB</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTdJQ2h4aEFxaXM4cU9kVjlJU2JGYXlfWTQyZzgyMHhneXJ0NTJVZW5PQjk0ckk4NkdqY2JNZ3VDaGx4S0tOdDRFSFl2SVpfNG42eTU1a1h3VS13VjZNeWw0ZXExc0pyVUp4UEFhUk0xM3Q5bkItQUdMR2RvUE1JYk9hek9YMzEzU2Y3RkpROVM0S1Zpb3h5UVRxWFhzeDBPOVlhLXd3TUxudk10VnI2TG5zb3IyTnZJSTN5YlBVdmNPV0FNbklrcEJ3OHA0Q05NRnQySkU0dzBVSkhtc1FldHNPazZsRGpBcmxxUUZ0aHpiNENQMkVfQkdsWlNHTy1GTUtBbDNPQm9uV1BUak9uQk91TUJmeDZhenBvblBaOGplZklYSjIzSWZ6S2RLSHZJbEZuaGYxbXhQNFI1bHJNemJYTUVtRTJaUV81SFlzVUVEMVlOYnc3TFc1SjRJUTRMSHZMdndLekVvQ1hUcEQ1QjFoajZBQy10VG9FMWFNTDIwbnREU1Ztc18zUFdfeDF0cFd2REpPQWtqUDFURFEtU0E5NnYta2lES0pxRkJhTnVaWWg4anFHYjlVRXk0cHREZGNuNzJ6eEJ0X09tRnplNDAycmNnUlRaLWtQckpQSi1CRnJJM2E2X0x4UjYwWGNhSndCMnBfdkFqWXhXYzM4OEFqWTZRSlQ3UlBmTFdTTkE5REZ6SmcwTUJLMlFNTExkcDhKa3JVdm5XVkNfVzhvT2ZjMmo3YkxTS0dNLV9lWlhuNFZzODJfcDdfa3VsMHk2OUx5aVppRlQyRjBnUTctcGpTNV9Ram0wZ0dlSG9kZk80NXF6Umx6VnJiOU5pQUxTZlF2OEFCQVNLT1BtV200YjFzRS1BY2Rn?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTd",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixgZBVV95cUxONzQ0dUtkcF85Ty1HNkxzWlZOMFNzZXF1M24xcVl1NlpmNV9reUM0clV3Y2h1OUhKcTRycEU4b19lT2hoQy1VTFZKRWJFaGVWcXhqY0ZMdzRlbDBZcF9xUjFKcEZ4R0JUVElfSVNLeWROMWEtU1RxZFlXRlFwNnJQcDV1ZzVjUVpwNXpQbFlQSmxaeWVMQ1pyWDc2Qnp3NTl0YWxyUUFhMi1rYmRkejRkY1UxMTZHYTdJQ2h4aEFxaXM4cU9kVjlJU2JGYXlfWTQyZzgyMHhneXJ0NTJVZW5PQjk0ckk4NkdqY2JNZ3VDaGx4S0tOdDRFSFl2SVpfNG42eTU1a1h3VS13VjZNeWw0ZXExc0pyVUp4UEFhUk0xM3Q5bkItQUdMR2RvUE1JYk9hek9YMzEzU2Y3RkpROVM0S1Zpb3h5UVRxWFhzeDBPOVlhLXd3TUxudk10VnI2TG5zb3IyTnZJSTN5YlBVdmNPV0FNbklrcEJ3OHA0Q05NRnQySkU0dzBVSkhtc1FldHNPazZsRGpBcmxxUUZ0aHpiNENQMkVfQkdsWlNHTy1GTUtBbDNPQm9uV1BUak9uQk91TUJmeDZhenBvblBaOGplZklYSjIzSWZ6S2RLSHZJbEZuaGYxbXhQNFI1bHJNemJYTUVtRTJaUV81SFlzVUVEMVlOYnc3TFc1SjRJUTRMSHZMdndLekVvQ1hUcEQ1QjFoajZBQy10VG9FMWFNTDIwbnREU1Ztc18zUFdfeDF0cFd2REpPQWtqUDFURFEtU0E5NnYta2lES0pxRkJhTnVaWWg4anFHYjlVRXk0cHREZGNuNzJ6eEJ0X09tRnplNDAycmNnUlRaLWtQckpQSi1CRnJJM2E2X0x4UjYwWGNhSndCMnBfdkFqWXhXYzM4OEFqWTZRSlQ3UlBmTFdTTkE5REZ6SmcwTUJLMlFNTExkcDhKa3JVdm5XVkNfVzhvT2ZjMmo3YkxTS0dNLV9lWlhuNFZzODJfcDdfa3VsMHk2OUx5aVppRlQyRjBnUTctcGpTNV9Ram0wZ0dlSG9kZk80NXF6Umx6VnJiOU5pQUxTZlF2OEFCQVNLT1BtV200YjFzRS1BY2Rn?oc=5",
       "sourceName": "বাংলাদেশ জার্নাল"
     }
   ],
