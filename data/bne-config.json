@@ -1,6 +1,6 @@
 {
-  "version": 1049,
-  "updatedAt": "2026-10-27T03:20:21.698Z",
+  "version": 1050,
+  "updatedAt": "2026-10-27T03:33:09.504Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "ভেজাল স্বর্ণ কিনছেন না তো, খাঁটিত্ব যাচাই করবেন যেভাবে",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/%E0%A6%AD%E0%A7%87%E0%A6%9C%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%A4%E0%A7%8B-%E0%A6%96%E0%A6%BE%E0%A6%81%E0%A6%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%87.webp",
       "publishedAt": "2026-10-27T03:19:20.345Z",
       "tags": [
         "বাংলা ট্রিবিউন"
@@ -89,7 +89,7 @@
       "title": "মায়ের তৈরি তেলে মালাইকা-আমৃতার ঘন কালো চুল",
       "category": "বিনোদন",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/10/25/13d5460575c609380a719cb873c04e0d-6ade127b2d4eb.jpg",
+      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF-%E0%A6%A4%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%98%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%9A%E0%A7%81.webp",
       "publishedAt": "2026-10-27T03:19:20.344Z",
       "tags": [
         "বাংলা ট্রিবিউন"
