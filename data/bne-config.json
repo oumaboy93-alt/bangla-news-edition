@@ -1,6 +1,6 @@
 {
-  "version": 1066,
-  "updatedAt": "2026-10-27T16:02:57.082Z",
+  "version": 1067,
+  "updatedAt": "2026-10-27T16:17:35.367Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rss73358e1adb5f07",
+      "slug": "দেশবিরোধী-ষড়যন্ত্র-রুখে-দিতে-যুবদল-রাজপ",
+      "title": "দেশবিরোধী ষড়যন্ত্র রুখে দিতে যুবদল রাজপথে থাকবে: হুইপ দুলু",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%B7%E0%A6%A1%E0%A6%BC%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B0%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AA.jpg",
+      "publishedAt": "2026-10-27T16:14:07.874Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জাতীয় সংসদের হুইপ ও নাটোর-২ আসনের সংসদ সদস্য অ্যাডভোকেট এম রুহুল কুদ্দুস তালুকদার দুলু বলেছেন, পাশের রাষ্ট্র বা রাজ্য থেকে পতিত ফ্যাসিবাদের দোসররা এখনো বসে নেই...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/539658\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জাতীয় সংসদের হুইপ ও নাটোর-২ আসনের সংসদ সদস্য অ্যাডভোকেট এম রুহুল কুদ্দুস তালুকদার দুলু বলেছেন, পাশের রাষ্ট্র বা রাজ্য থেকে পতিত ফ্যাসিবাদের দোসররা এখনো বসে নেই...",
+      "sourceUrl": "https://daily-bangladesh.com/country/539658",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssdda70f45a83343",
+      "slug": "জাপানের-মাধ্যমে-ভারতকে-সুবিধা-দেওয়ার-চেষ",
+      "title": "জাপানের মাধ্যমে ভারতকে সুবিধা দেওয়ার চেষ্টা চলছে: আখতার হোসেন",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "",
+      "publishedAt": "2026-10-27T16:14:07.864Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>জাপানের সঙ্গে চুক্তির নামে বাংলাদেশের স্বার্থের বিপক্ষে গিয়ে ভারতকে সুবিধা দেওয়ার এক ধরনের প্রচেষ্টা চলছে বলে মন্তব্য করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) সদস্য সচিব আখতার হোসেন। তিনি বলেন, &amp;ldquo;মাননীয় প্রধানমন্ত্রী এখন জাপান সফরে আছেন। সেই জাপান...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/politics/314835/জাপানের-মাধ্যমে-ভারতকে-সুবিধা-দেওয়ার-চেষ্টা-চলছে-আখতার-হোসেন\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "জাপানের সঙ্গে চুক্তির নামে বাংলাদেশের স্বার্থের বিপক্ষে গিয়ে ভারতকে সুবিধা দেওয়ার এক ধরনের প্রচেষ্টা চলছে বলে মন্তব্য করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) সদস্য সচিব আখতার হোসেন। তিনি বলেন, &ldquo;মাননীয় প্রধানমন্ত্রী এখন জাপান সফরে আছেন। সেই জাপান...",
+      "sourceUrl": "https://www.bd-journal.com/politics/314835/জাপানের-মাধ্যমে-ভারতকে-সুবিধা-দেওয়ার-চেষ্টা-চলছে-আখতার-হোসেন",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss8db8966ef0d585",
+      "slug": "খাল-কেটে-এমন-এক-কুমির-এনেছি-আগে-১০-নিতো-এখন",
+      "title": "খাল কেটে এমন এক কুমির এনেছি, আগে ১০% নিতো এখন ২০% নেয়: হান্নান মাসউদ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%96%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%A8-%E0%A6%8F%E0%A6%95-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%A8%E0%A7%87%E0%A6%9B%E0%A6%BF-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A7%A7%E0%A7%A6-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8B-%E0%A6%8F%E0%A6%96%E0%A6%A8.webp",
+      "publishedAt": "2026-10-27T16:14:07.850Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>জাতীয় নাগরিক পার্টির (এনসিপি) যুগ্ম আহ্বায়ক ও সংসদ সদস্য আব্দুল হান্নান মাসউদ বলেছেন, ‘আমরা সত্যিই খাল কেটে এমন এক কুমির নিয়ে এসেছি। আগে ১০ পারসেন্ট নিতো, এখন ২০ পারসেন্ট নেয়।’ বিএনপির নেতাকর্মীদের বিরুদ্ধে ব্যবসায়ীদের কাছ থেকে চাঁদাবাজির অভিযোগ তুলে তিনি বলেন, দলীয় নেতাকর্মীদের চাঁদাবাজির জন্য রাস্তায় নামিয়ে দেওয়া হয়েছে। মঙ্গলবার (২৭ অক্টোবর) রাজধানীর মোহাম্মদপুরে এনসিপির গণসংযোগ... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/ncp/977148/%E0%A6%96%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%A8-%E0%A6%8F%E0%A6%95-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%A8%E0%A7%87%E0%A6%9B%E0%A6%BF-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A7%A7%E0%A7%A6%25-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8B-%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A7%A8%E0%A7%A6%25\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "জাতীয় নাগরিক পার্টির (এনসিপি) যুগ্ম আহ্বায়ক ও সংসদ সদস্য আব্দুল হান্নান মাসউদ বলেছেন, ‘আমরা সত্যিই খাল কেটে এমন এক কুমির নিয়ে এসেছি। আগে ১০ পারসেন্ট নিতো, এখন ২০ পারসেন্ট নেয়।’ বিএনপির নেতাকর্মীদের বিরুদ্ধে ব্যবসায়ীদের কাছ থেকে চাঁদাবাজির অভিযোগ তুলে তিনি বলেন, দলীয় নেতাকর্মীদের চাঁদাবাজির জন্য রাস্",
+      "sourceUrl": "https://www.banglatribune.com/politics/ncp/977148/%E0%A6%96%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%A8-%E0%A6%8F%E0%A6%95-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%A8%E0%A7%87%E0%A6%9B%E0%A6%BF-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A7%A7%E0%A7%A6%25-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8B-%E0%A6%8F%E0%A6%96%E0%A6%A8-%E0%A7%A8%E0%A7%A6%25",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
       "id": "rsse48be20c9ef4db",
       "slug": "অভিন্ন-সমৃদ্ধিতে-বাংলাদেশের-সঙ্গে-ঘনিষ্",
       "title": "অভিন্ন সমৃদ্ধিতে বাংলাদেশের সঙ্গে ঘনিষ্ঠভাবে কাজ করবে জাপান",
@@ -73,7 +121,7 @@
       "title": "যাত্রাবাড়ীতে গুলিতে প্রাণ গেল যুবকের",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "/img/rsscd7f3f2454a8e3-1200x630.jpg",
       "publishedAt": "2026-10-27T15:59:07.721Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -89,7 +137,7 @@
       "title": "সৌদির ৪ স্থানে ব্যালিস্টিক ক্ষেপণাস্ত্র ও ড্রোন হামলার দাবি হুথিদের",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "/img/rssc39291461885da-1200x630.jpg",
       "publishedAt": "2026-10-27T15:59:07.708Z",
       "tags": [
         "বাংলা ট্রিবিউন"
@@ -110,7 +158,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>ভালো চাকরির প্রলোভনে কম্বোডিয়ায় গিয়ে স্ক্যাম সেন্টারে বিক্রি, নির্যাতন ও বন্দিদশার শিকার হন দুই বাংলাদেশি তরুণ। প্রত্যেকের পরিবারের কাছ থেকে বিদেশে পাঠানোর জন্য...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/539657\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>ভালো চাকরির প্রলোভনে কম্বোডিয়ায় গিয়ে স্ক্যাম সেন্টারে বিক্রি, নির্যাতন ও বন্দিদশার শিকার হন দুই বাংলাদেশি তরুণ। প্রত্যেকের পরিবারের কাছ থেকে বিদেশে পাঠানোর জন্য...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">চাকরির প্রলোভনে বিদেশে পাচারের এই ঘটনা জনমনে গভীর শঙ্কা তৈরি করেছে। প্রতারকদের ফাঁদ এড়াতে বিদেশ গমনেচ্ছুদের সরকারি মাধ্যম যাচাই করা জরুরি। সাধারণ মানুষকে যেকোনো নিয়োগ প্রক্রিয়ায় অধিক সতর্ক থেকে আইনি সুরক্ষা নিশ্চিত করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/539657\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "ভালো চাকরির প্রলোভনে কম্বোডিয়ায় গিয়ে স্ক্যাম সেন্টারে বিক্রি, নির্যাতন ও বন্দিদশার শিকার হন দুই বাংলাদেশি তরুণ। প্রত্যেকের পরিবারের কাছ থেকে বিদেশে পাঠানোর জন্য...",
       "sourceUrl": "https://www.daily-bangladesh.com/national/539657",
       "sourceName": "ডেইলি বাংলাদেশ"
@@ -121,7 +169,7 @@
       "title": "এশিয়ায় জ্বালানি সংকট এড়াতে সিঙ্গাপুরে তেল মজুত করবে সৌদি আরব",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "",
+      "image": "/img/rss5e34b493478480-1200x630.jpg",
       "publishedAt": "2026-10-27T15:44:08.022Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -137,7 +185,7 @@
       "title": "বেতন বৃদ্ধির দাবিতে পোশাক শ্রমিকদের মহাসড়ক অবরোধ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "/img/rsse847b92c2187b1-1200x630.jpg",
       "publishedAt": "2026-10-27T15:44:08.003Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -174,7 +222,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>জগন্নাথ বিশ্ববিদ্যালয়ের (জবি) নতুন প্রক্টর হিসেবে ইতিহাস বিভাগের অধ্যাপক ড. নাছির আহমদ এবং জনসংযোগ, তথ্য ও প্রকাশনা দফতরের পরিচালক হিসেবে ইসলামের ইতিহাস ও সংস্কৃতি বিভাগের অধ্যাপক ড. মো. আনিসুর রহমান নিয়োগ পেয়েছেন। আগামী দুই বছরের জন্য তাদের এ দায়িত্ব দেওয়া হয়েছে। মঙ্গলবার (২৭ অক্টোবর) বিশ্ববিদ্যালয়ের ভারপ্রাপ্ত রেজিস্ট্রার অধ্যাপক ড. মো. শেখ গিয়াস উদ্দিন স্বাক্ষরিত পৃথক অফিস আদেশে এ তথ্য... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/my-campus/977140/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%9B%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%95\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>জগন্নাথ বিশ্ববিদ্যালয়ের (জবি) নতুন প্রক্টর হিসেবে ইতিহাস বিভাগের অধ্যাপক ড. নাছির আহমদ এবং জনসংযোগ, তথ্য ও প্রকাশনা দফতরের পরিচালক হিসেবে ইসলামের ইতিহাস ও সংস্কৃতি বিভাগের অধ্যাপক ড. মো. আনিসুর রহমান নিয়োগ পেয়েছেন। আগামী দুই বছরের জন্য তাদের এ দায়িত্ব দেওয়া হয়েছে। মঙ্গলবার (২৭ অক্টোবর) বিশ্ববিদ্যালয়</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিক্ষাঙ্গনে দায়িত্বশীল পদে যোগ্য শিক্ষকদের পদায়ন সুস্থ ধারার চর্চা ও শৃঙ্খলার বিকাশে সহায়ক। ধর্মীয় ও মানবিক মূল্যবোধের সমন্বয় ঘটিয়ে এই নীতিনির্ধারকরা বিশ্ববিদ্যালয়ের ভাবমূর্তি উজ্জ্বল করতে গুরুত্বপূর্ণ ভূমিকা পালন করবেন বলে প্রত্যাশা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/my-campus/977140/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%9B%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%95\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "জগন্নাথ বিশ্ববিদ্যালয়ের (জবি) নতুন প্রক্টর হিসেবে ইতিহাস বিভাগের অধ্যাপক ড. নাছির আহমদ এবং জনসংযোগ, তথ্য ও প্রকাশনা দফতরের পরিচালক হিসেবে ইসলামের ইতিহাস ও সংস্কৃতি বিভাগের অধ্যাপক ড. মো. আনিসুর রহমান নিয়োগ পেয়েছেন। আগামী দুই বছরের জন্য তাদের এ দায়িত্ব দেওয়া হয়েছে। মঙ্গলবার (২৭ অক্টোবর) বিশ্ববিদ্যালয়",
       "sourceUrl": "https://www.banglatribune.com/my-campus/977140/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%9F%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%9B%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B2%E0%A6%95",
       "sourceName": "বাংলা ট্রিবিউন"
@@ -190,7 +238,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>পিরোজপুরে বীর মুক্তিযোদ্ধা মানিক পশারীর মরদেহ দাফনে বাধা নিয়ে আলোচনা-সমালোচনার পর এ ঘটনা তদন্ত করতে কমিটি গঠন করেছে জামায়াতে ইসলামী। মঙ্গলবার (২৭ অক্টোবর) সন্ধ্যায় কেন্দ্রীয় কার্যালয়ে অনুষ্ঠিত কেন্দ্রীয় নির্বাহী পরিষদের বিশেষ বৈঠকে এমন সিদ্ধান্ত নেওয়া হয়। সভায় সভাপতিত্ব করেন জামায়াত আমির ও বিরোধীদলীয় নেতা ডা. শফিকুর রহমান। বৈঠক শেষে দলের মিডিয়া সেল থেকে জানানো হয়, বৈঠকে পিরোজপুরে সংঘটিত... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/jamat-e-islam/977141/%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%A6%E0%A6%BE%E0%A6%AB%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%A4%E0%A6%A6%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>পিরোজপুরে বীর মুক্তিযোদ্ধা মানিক পশারীর মরদেহ দাফনে বাধা নিয়ে আলোচনা-সমালোচনার পর এ ঘটনা তদন্ত করতে কমিটি গঠন করেছে জামায়াতে ইসলামী। মঙ্গলবার (২৭ অক্টোবর) সন্ধ্যায় কেন্দ্রীয় কার্যালয়ে অনুষ্ঠিত কেন্দ্রীয় নির্বাহী পরিষদের বিশেষ বৈঠকে এমন সিদ্ধান্ত নেওয়া হয়। সভায় সভাপতিত্ব করেন জামায়াত আমির ও বিরোধীদলী</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মর্যাদাপূর্ণ বীর মুক্তিযোদ্ধার দাফনে বাধার মতো সংবেদনশীল ঘটনা সামাজিক সম্প্রীতির পরিপন্থী। স্থানীয় পর্যায়ে রাজনৈতিক সহনশীলতা বজায় রাখা ও সাম্প্রদায়িক শান্তি রক্ষায় দায়ীদের বিরুদ্ধে দ্রুত নিরপেক্ষ বিচার নিশ্চিত করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/jamat-e-islam/977141/%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%A6%E0%A6%BE%E0%A6%AB%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%A4%E0%A6%A6%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "পিরোজপুরে বীর মুক্তিযোদ্ধা মানিক পশারীর মরদেহ দাফনে বাধা নিয়ে আলোচনা-সমালোচনার পর এ ঘটনা তদন্ত করতে কমিটি গঠন করেছে জামায়াতে ইসলামী। মঙ্গলবার (২৭ অক্টোবর) সন্ধ্যায় কেন্দ্রীয় কার্যালয়ে অনুষ্ঠিত কেন্দ্রীয় নির্বাহী পরিষদের বিশেষ বৈঠকে এমন সিদ্ধান্ত নেওয়া হয়। সভায় সভাপতিত্ব করেন জামায়াত আমির ও বিরোধীদলী",
       "sourceUrl": "https://www.banglatribune.com/politics/jamat-e-islam/977141/%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%B6-%E0%A6%A6%E0%A6%BE%E0%A6%AB%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%A4%E0%A6%A6%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4",
       "sourceName": "বাংলা ট্রিবিউন"
@@ -206,7 +254,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>ঐতিহ্য, সংগ্রাম ও সাফল্যের ধারাবাহিকতায় বাংলাদেশ জাতীয়তাবাদী যুবদলের ৪৮তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে ভোলায় বর্ণাঢ্য র‌্যালি ও সমাবেশ অনুষ্ঠিত হয়েছে। মঙ্গলবার (২৭...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/539655\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>বাংলাদেশ জাতীয়তাবাদী যুবদলের ৪৮তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে মঙ্গলবার ভোলায় বর্ণাঢ্য র‌্যালি ও সমাবেশের আয়োজন করা হয়। জেলা যুবদলের উদ্যোগে আয়োজিত এই কর্মসূচিতে অংশ নিতে সকাল থেকেই ভোলা সদর উপজেলার ১৩টি ইউনিয়ন থেকে বিপুলসংখ্যক নেতাকর্মী খণ্ড খণ্ড মিছিল নিয়ে দলীয় কার্যালয়ের সামনে সমবেত হন। বাদ্যযন্ত্রের তালে তালে বিভিন্ন স্লোগানে পুরো এলাকা উৎসবমুখর হয়ে ওঠে।</p>\n<p>প্রতিষ্ঠাবার্ষিকীর শোভাযাত্রাটি শহরের গুরুত্বপূর্ণ সড়ক প্রদক্ষিণ করে। র‌্যালিটি শেষ হয় জেলা বিএনপি কার্যালয়ের সামনে এসে। শোভাযাত্রা শেষে সেখানে এক সংক্ষিপ্ত আলোচনা সভা ও সমাবেশের আয়োজন করা হয়। সভায় বক্তারা যুবদলের দীর্ঘ ইতিহাস, ঐতিহ্য এবং সাধারণ মানুষের অধিকার আদায়ে সংগঠনটির অবদানের কথা স্মরণ করেন।</p>\n<p>জেলা বিএনপির আহ্বায়ক গোলাম নবী আলমগীর এই আয়োজনে প্রধান অতিথি হিসেবে উপস্থিত ছিলেন। বিশেষ অতিথি হিসেবে বক্তব্য রাখেন জেলা বিএনপির সদস্য সচিব রাইসুল আলম, যুগ্ম আহ্বায়ক শফিউর রহমান কিরন ও হুমায়ুন কবির সোপান, উপজেলা বিএনপির আহ্বায়ক আসিফ আলতাফ এবং সদস্য সচিব হেলাল উদ্দিন।</p>\n<p>অনুষ্ঠানটিতে সভাপতিত্ব করেন জেলা যুবদলের সভাপতি জামাল উদ্দিন লিটন এবং সঞ্চালনা করেন সাধারণ সম্পাদক আব্দুল কাদের সেলিম। এ সময় উপজেলা যুবদলের আহ্বায়ক আব্দুল লতিফ টিটু, সদস্য সচিব বেলাল হোসেনসহ জেলা বিএনপি ও যুবদলের বিভিন্ন স্তরের নেতাকর্মী এবং সহযোগী সংগঠনের প্রতিনিধিরা উপস্থিত ছিলেন। পুরো আয়োজনটি ছিল সংগ্রাম ও সাফল্যের ঐতিহ্যের ধারাবাহিকতায় যুবদলের প্রতিষ্ঠাবার্ষিকী উদযাপনের একটি অংশ।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/539655\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "ঐতিহ্য, সংগ্রাম ও সাফল্যের ধারাবাহিকতায় বাংলাদেশ জাতীয়তাবাদী যুবদলের ৪৮তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে ভোলায় বর্ণাঢ্য র‌্যালি ও সমাবেশ অনুষ্ঠিত হয়েছে। মঙ্গলবার (২৭...",
       "sourceUrl": "https://daily-bangladesh.com/country/539655",
       "sourceName": "ডেইলি বাংলাদেশ"
@@ -7970,54 +8018,6 @@
       "summary": "আন্তর্জাতিক মুদ্রা তহবিলের (আইএমএফ) সর্বশেষ প্রতিবেদন অনুযায়ী, মাথাপিছু জিডিপির দিক থেকে এশিয়ার তৃতীয় বৃহত্তম অর্থনীতির দেশ ভারতকে পেছনে ফেলতে যাচ্ছে বাংলাদেশ। তবে মাথাপিছু জিডিপিতে এগিয়ে থাকলেই যে একটি দেশের মানুষের জীবনযাত্রার মান অন্য দেশের চেয়ে ভালো, এমন নয়। মূল্যস্ফীতি, মানুষের ক্রয়ক্ষমতা, আয়",
       "sourceUrl": "https://www.ittefaq.com.bd/817301/%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%AA%E0%A6%BF%E0%A6%9B%E0%A7%81-%E0%A6%86%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A6%95%E0%A7%87-%E0%A6%AA%E0%A7%87%E0%A6%9B%E0%A6%A8%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6",
       "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssf2feeb80cb951e",
-      "slug": "ডেন্টাল-হাইজিনিস্ট-থেকে-শিল্পী-ফ্লোরিডা",
-      "title": "ডেন্টাল হাইজিনিস্ট থেকে শিল্পী, ফ্লোরিডায় উদ্যোক্তা হিসেবে এগিয়ে চলেছেন সন্দ্বীপের জাহান রিমা",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B2-%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A7%80-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%A1%E0%A6%BE.avif",
-      "publishedAt": "2026-10-25T22:04:18.644Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>সন্দ্বীপের মেয়ে মাসুমা জাহান রিমা বর্তমানে যুক্তরাষ্ট্রের ফ্লোরিডায় এক বহুমুখী প্রতিভার নাম। ডেন্টাল হাইজিনিস্ট হিসেবে পেশাগত জীবন শুরু করলেও, সময়ের ব্যবধানে তিনি নিজেকে লেখক, শিল্পী এবং উদ্যোক্তা হিসেবে প্রতিষ্ঠিত করেছেন। ফ্লোরিডার ব্যস্ততম শপিং মলগুলোতে এখন তার নিজস্ব ব্যবসাপ্রতিষ্ঠান সফলতার সঙ্গে পরিচালিত হচ্ছে। বিভিন্ন পরিচয়কে তিনি প্রতিযোগিতার ক্ষেত্র হিসেবে না দেখে বরং জীবনের একেকটি রূপান্তর হিসেবে গণ্য করেন।</p>\n<p>পেশাগত জীবনে স্বাস্থ্যসেবার সঙ্গে যুক্ত থাকলেও রিমার সৃজনশীল সত্তা বরাবরই সক্রিয়। দীর্ঘ এক যুগেরও বেশি সময় ধরে তিনি লেখালেখির জগতে পদচারণা করছেন। ২০১৯ সালে তার প্রথম গল্পের বই ‘যে তুমি মানুষ খোঁজো’ প্রকাশিত হয়। এরপর ২০২১ সালে যমজ বোন জাহান রিপার সঙ্গে যৌথভাবে প্রকাশ করেন কবিতার বই ‘রিপাবনে বিভোরিমা’। বর্তমানে তিনি তার তৃতীয় বই ‘আনন্দবাড়ির আব্বু’ নিয়ে কাজ করছেন। এছাড়াও এক দশকের বেশি সময় ধরে তিনি অরল্যান্ডোভিত্তিক বাংলা সাময়িকী একতারার সম্পাদকীয় ও ব্যবস্থাপনার দায়িত্ব পালন করছেন।</p>\n<p>২০২০ সালের করোনা মহামারির কঠিন সময়ে রিমা সম্মুখসারির যোদ্ধা হিসেবে কাজ করেছেন। ডেন্টাল হাইজিনিস্ট হিসেবে আক্রান্ত রোগীদের পাশে দাঁড়ানোয় তিনি ‘রিমোট এরিয়া মেডিক্যাল’ (র‌্যাম) থেকে প্রশংসাপত্র লাভ করেন। তার এই সেবানিষ্ঠা ও সাহসের গল্প যেমন উজ্জ্বল, তেমনি তার ব্যবসায়িক উদ্যোগও প্রশংসনীয়। রাষ্ট্রবিজ্ঞানে স্নাতক শেষ করে যুক্তরাষ্ট্রে নতুন করে স্বাস্থ্যবিজ্ঞানে পড়াশোনা সম্পন্ন করা রিমা পাঁচ বছর আগে ‘দ্য ফ্লোরিডা মল’-এ ‘জাহান’স আর্টিস্টিক ওয়ার্ল্ড’ নামে একটি কিয়স্ক চালু করেন। বর্তমানে ফ্লোরিডার বিভিন্ন হাই-এন্ড শপিং মল এবং অরল্যান্ডো আন্তর্জাতিক বিমানবন্দরে তার ব্যবসার পরিধি বিস্তৃত হয়েছে।</p>\n<p>ব্যবসায়িক অনিশ্চয়তা ও মলের উচ্চ ভাড়ার চ্যালেঞ্জ সত্ত্বেও নিজের শিল্পবোধের ওপর আস্থা রেখেছিলেন তিনি। ডিজনি ওয়ার্ল্ডের মতো জায়গায় কাজের সুযোগ ছেড়ে দিয়ে তিনি নিজের প্ল্যাটফর্মকেই বেছে নেন। বর্তমানে মেহেদি আর্ট, বডি পেইন্টিং, পোর্ট্রেট ও ক্যারিকেচারের মাধ্যমে তিনি দেশীয় ঐতিহ্যকে আন্তর্জাতিক অঙ্গনে তুলে ধরছেন। তার মতে, যেখানে মনের সুখ ও আনন্দ আছে, সেখানেই সাফল্য নিহিত। পরিবারকে নিজের ‘পাওয়ারহাউস’ হিসেবে আখ্যায়িত করা রিমা প্রতিনিয়ত নতুন কিছু শেখার আগ্রহ নিয়ে কাজ করে যাচ্ছেন, যাকে তিনি তার জীবনের এক অবিরাম যাত্রা বলে মনে করেন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রবাসে পেশাগত দক্ষতার পাশাপাশি সৃজনশীল ও ব্যবসায়িক উদ্যোগ জনস্বাস্থ্যের সচেতনতা প্রসারে নতুন মাত্রা যোগ করতে পারে। সুস্থ জীবনধারার প্রচারে এমন বহুমুখী ভূমিকা অভিবাসী কমিউনিটির মানসিক ও শারীরিক সুস্থতার মানদণ্ড উন্নত করতে সহায়ক।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/s3mzfhneyd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "বাংলাদেশের মেয়ে মাসুমা জাহান রিমা। পেশায় যুক্তরাষ্ট্রের একজন ডেন্টাল হাইজিনিস্ট। লেখক হিসেবে নিজেকে প্রকাশ করেছেন এক যুগের বেশি সময় আগে। শিল্পী হিসেবেও পরিচিতি গড়ে তুলেছেন অর্ধযুগ ধরে; আর সর্বশেষ নাম লিখিয়েছেন উদ্যোক্তা হিসেবে। যুক্তরাষ্ট্রে বড় শপিং মলে এখন তিনি নিজস্ব ব্যবসাপ্রতিষ্ঠানের স্বত্বাধিকা",
-      "sourceUrl": "https://www.prothomalo.com/bangladesh/s3mzfhneyd",
-      "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss642e191527b760",
-      "slug": "সীমান্তে-কঠোর-বিধিনিষেধ-স্থল-বাণিজ্যেও-ব",
-      "title": "সীমান্তে কঠোর বিধিনিষেধ, স্থল বাণিজ্যেও বিপর্যয়ের মুখে ইরান",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rss642e191527b760-1200x630.jpg",
-      "publishedAt": "2026-10-25T21:49:18.627Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE15anJjbU1LLTZ0cTA2WDJOcmJLUng0bEdMWi1wY2NmZHpiX25rMWc5RVc3WENNTnVsTFlaX1dWR3UzN2VPblppN2NrRkFJd3VDXzRFUXdoZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সীমান্তে কঠোর বিধিনিষেধ, স্থল বাণিজ্যেও বিপর্যয়ের মুখে ইরান&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সীমান্ত বাণিজ্যে স্থবিরতা নিত্যপ্রয়োজনীয় পণ্যের সরবরাহ কমিয়ে সাধারণ মানুষের জীবনযাত্রার ব্যয় বহুগুণ বাড়িয়ে দিতে পারে। পণ্য সংকটে স্থানীয় বাজারে অস্থিরতা দেখা দিলে তা নিম্ন ও মধ্যবিত্তের ক্রয়ক্ষমতার ওপর সরাসরি নেতিবাচক চাপ সৃষ্টি করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE15anJjbU1LLTZ0cTA2WDJOcmJLUng0bEdMWi1wY2NmZHpiX25rMWc5RVc3WENNTnVsTFlaX1dWR3UzN2VPblppN2NrRkFJd3VDXzRFUXdoZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE15anJjbU1LLTZ0cTA2WDJOcmJLUng0bEdMWi1wY2NmZHpiX25rMWc5RVc3WENNTnVsTFlaX1dWR3UzN2VPblppN2NrRkFJd3VDXzRFUXdoZw?oc=5\" target=\"_blank\"&gt;সীমান্তে কঠোর বিধিনিষেধ, স্থল বাণিজ্যেও বিপর্যয়ের মুখে ইরান&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15anJjbU1LLTZ0cTA2WDJOcmJLUng0bEdMWi1wY2NmZHpiX25rMWc5RVc3WENNTnVsTFlaX1dWR3UzN2VPblppN2NrRkFJd3VDXzRFUXdoZw?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rss8b86d55d8a830a",
-      "slug": "মুখ-ফসকে-বলেছিলেন-শুভ-শক্তির-অবসান-হোক-রা",
-      "title": "মুখ ফসকে বলেছিলেন, ‘শুভ শক্তির অবসান হোক’, রাণবীরের ক্ষমা প্রার্থনা",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rss8b86d55d8a830a-1200x630.jpg",
-      "publishedAt": "2026-10-25T21:49:18.622Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHNGpqVEYwTWRMaDJIS0FKN0xOZXFNQ1c2WVZjMEtfaDUwN1NJNTJrOVNXMTlOZVJrUUd1M29IUVdZU1VQdENyd0pMMk9QVWVGVEtkV25xSQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মুখ ফসকে বলেছিলেন, ‘শুভ শক্তির অবসান হোক’, রাণবীরের ক্ষমা প্রার্থনা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের প্রতিটি শব্দ জনমনে গভীর প্রভাব ফেলে, তাই দায়িত্বশীল পদে থাকা ব্যক্তিদের ভাষার ব্যবহারে আরও সচেতন হওয়া জরুরি। অনিচ্ছাকৃত ভুল স্বীকার করে ক্ষমা চাওয়া ইতিবাচক হলেও, এমন অসংলগ্ন মন্তব্য জনমনে বিভ্রান্তি ও আস্থার সংকট তৈরি করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHNGpqVEYwTWRMaDJIS0FKN0xOZXFNQ1c2WVZjMEtfaDUwN1NJNTJrOVNXMTlOZVJrUUd1M29IUVdZU1VQdENyd0pMMk9QVWVGVEtkV25xSQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHNGpqVEYwTWRMaDJIS0FKN0xOZXFNQ1c2WVZjMEtfaDUwN1NJNTJrOVNXMTlOZVJrUUd1M29IUVdZU1VQdENyd0pMMk9QVWVGVEtkV25xSQ?oc=5\" target=\"_blank\"&gt;মুখ ফসকে বলেছিলেন, ‘শুভ শক্তির অবসান হোক’, রাণবীরের ক্ষমা প্রার্থনা&lt;/a&gt;&nbsp;&nbsp;&lt;font color",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHNGpqVEYwTWRMaDJIS0FKN0xOZXFNQ1c2WVZjMEtfaDUwN1NJNTJrOVNXMTlOZVJrUUd1M29IUVdZU1VQdENyd0pMMk9QVWVGVEtkV25xSQ?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
     }
   ],
   "ads": [
