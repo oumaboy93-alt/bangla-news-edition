@@ -1,6 +1,6 @@
 {
-  "version": 1071,
-  "updatedAt": "2026-10-27T17:41:37.297Z",
+  "version": 1072,
+  "updatedAt": "2026-10-27T17:56:11.977Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rsse4fde2da6a8ece",
+      "slug": "ফারজানার-মৃত্যুর-নিরপেক্ষ-তদন্তসহ-চার-দফ",
+      "title": "ফারজানার মৃত্যুর নিরপেক্ষ তদন্তসহ চার দফা দাবি সহপাঠীদের",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%AB%E0%A6%BE%E0%A6%B0%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7-%E0%A6%A4%E0%A6%A6%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B8%E0%A6%B9-%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%AB.jpg",
+      "publishedAt": "2026-10-27T17:44:07.800Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>কুমিল্লা বিশ্ববিদ্যালয়ের (কুবি) ফার্মেসী বিভাগের ২০১৯-২০ শিক্ষাবর্ষের শিক্ষার্থী ফারজানা ইসলামের মৃত্যুর প্রকৃত কারণ উদঘাটন, ন্যায় বিচার ও ঘটনার সাথে সংশ্লিষ্...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/campus/539659\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "কুমিল্লা বিশ্ববিদ্যালয়ের (কুবি) ফার্মেসী বিভাগের ২০১৯-২০ শিক্ষাবর্ষের শিক্ষার্থী ফারজানা ইসলামের মৃত্যুর প্রকৃত কারণ উদঘাটন, ন্যায় বিচার ও ঘটনার সাথে সংশ্লিষ্...",
+      "sourceUrl": "https://daily-bangladesh.com/campus/539659",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss3049bfe6ba4d0e",
+      "slug": "মাকসুদ-কামাল-জাফর-ইকবালসহ-৫-জনকে-আত্মসমর",
+      "title": "মাকসুদ কামাল-জাফর ইকবালসহ ৫ জনকে আত্মসমর্পণে বিজ্ঞপ্তি প্রকাশের নির্দেশ",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81%E0%A6%A6-%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%BE%E0%A6%AB%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%B8%E0%A6%B9-%E0%A7%AB-%E0%A6%9C%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%AE%E0%A6%B0.webp",
+      "publishedAt": "2026-10-27T17:44:07.781Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>২০২৪ সালের জুলাই আন্দোলনের সময় সংঘটিত মানবতাবিরোধী অপরাধের মামলায় ঢাকা বিশ্ববিদ্যালয়ের সাবেক উপাচার্য এ এস এম মাকসুদ কামাল ও অধ্যাপক মুহম্মদ জাফর ইকবালসহ পাঁচ আসামিকে আত্মসমর্পণের নির্দেশ দিয়ে সংবাদপত্রে বিজ্ঞপ্তি প্রকাশ করতে বলেছেন আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল-১। একটি বাংলা ও একটি ইংরেজি সংবাদপত্রে এ বিজ্ঞপ্তি প্রকাশ করতে নির্দেশ দেওয়া হয়েছে। মঙ্গলবার (২৭ অক্টোবর) ট্রাইব্যুনাল এ আদেশ দেন।... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/977160/%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81%E0%A6%A6-%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%BE%E0%A6%AB%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%B8%E0%A6%B9-%E0%A7%AB-%E0%A6%9C%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AA%E0%A6%A3%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "২০২৪ সালের জুলাই আন্দোলনের সময় সংঘটিত মানবতাবিরোধী অপরাধের মামলায় ঢাকা বিশ্ববিদ্যালয়ের সাবেক উপাচার্য এ এস এম মাকসুদ কামাল ও অধ্যাপক মুহম্মদ জাফর ইকবালসহ পাঁচ আসামিকে আত্মসমর্পণের নির্দেশ দিয়ে সংবাদপত্রে বিজ্ঞপ্তি প্রকাশ করতে বলেছেন আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল-১। একটি বাংলা ও একটি ইংরেজি সংবাদপত্",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/977160/%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81%E0%A6%A6-%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2-%E0%A6%9C%E0%A6%BE%E0%A6%AB%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%B8%E0%A6%B9-%E0%A7%AB-%E0%A6%9C%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%AA%E0%A6%A3%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss311d50bf408172",
+      "slug": "বিদেশি-গোয়েন্দা-সংস্থার-সঙ্গে-গোলাম-পরওয়",
+      "title": "বিদেশি গোয়েন্দা সংস্থার সঙ্গে গোলাম পরওয়ারের বৈঠকের তথ্য সঠিক নয়: জামায়াত",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%97%E0%A7%8B%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%AA%E0%A6%B0%E0%A6%93%E0%A7%9F.webp",
+      "publishedAt": "2026-10-27T17:44:07.769Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>দলের সেক্রেটারি জেনারেল অধ্যাপক মিয়া গোলাম পরওয়ার বিদেশি একটি রাষ্ট্রের গোয়েন্দা সংস্থার কর্মকর্তার সঙ্গে গোপন বৈঠক করেছেন বলে বিভিন্ন গণমাধ্যমে প্রকাশিত সংবাদকে সম্পূর্ণ ‘অসত্য, কাল্পনিক ও ভিত্তিহীন’ বলে দাবি করেছে বাংলাদেশ জামায়াতে ইসলামী। দলটির রাজনৈতিক মর্যাদা ও সুনাম ক্ষুণ্ন করতেই পরিকল্পিতভাবে এই বিভ্রান্তিকর অপপ্রচার চালানো হচ্ছে বলে তীব্র প্রতিবাদ জানিয়েছে দলটি। মঙ্গলবার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817674/%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%97%E0%A7%8B%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%AA%E0%A6%B0%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "দলের সেক্রেটারি জেনারেল অধ্যাপক মিয়া গোলাম পরওয়ার বিদেশি একটি রাষ্ট্রের গোয়েন্দা সংস্থার কর্মকর্তার সঙ্গে গোপন বৈঠক করেছেন বলে বিভিন্ন গণমাধ্যমে প্রকাশিত সংবাদকে সম্পূর্ণ ‘অসত্য, কাল্পনিক ও ভিত্তিহীন’ বলে দাবি করেছে বাংলাদেশ জামায়াতে ইসলামী। দলটির রাজনৈতিক মর্যাদা ও সুনাম ক্ষুণ্ন করতেই পরিকল্পিতভা",
+      "sourceUrl": "https://www.ittefaq.com.bd/817674/%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%97%E0%A7%8B%E0%A7%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%AA%E0%A6%B0%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0",
+      "sourceName": "ইত্তেফাক"
     },
     {
       "id": "rss710c6efbce443e",
@@ -7970,54 +8018,6 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JNnpnVDFJYm5iVUtBSWNwdGlYeUpmYVhDOURRS3BjM2pBV2pCYmJmanNOZldud29IV0VZay0zLXg1SlRSaTdkNGZpTGdVQ1RmNm83QTJVbw?oc=5\" target=\"_blank\"&gt;কোমরের পিস্তল খুলে গাড়িতে রেখেছিলেন বাবা, ‘খেলতে গিয়ে’ ৩ বছরের শিশুর মৃত্যু&lt;/a&gt;&nbsp;&nbsp;&lt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JNnpnVDFJYm5iVUtBSWNwdGlYeUpmYVhDOURRS3BjM2pBV2pCYmJmanNOZldud29IV0VZay0zLXg1SlRSaTdkNGZpTGdVQ1RmNm83QTJVbw?oc=5",
       "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rss5c6ef6c5573371",
-      "slug": "ফ্রান্সজুড়ে-বিক্ষোভে-লাখ-লাখ-মানুষ-প্যা",
-      "title": "ফ্রান্সজুড়ে বিক্ষোভে লাখ লাখ মানুষ, প্যারিসে সহিংসতা",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rss5c6ef6c5573371-1200x630.jpg",
-      "publishedAt": "2026-10-26T00:04:18.631Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3b1NodzFZM242TmlYNkpHNjdaeUNpOVpTbVlfejNJOGlzV2V5SU5fbXBmMlg1RXVuQlRrcGgzRmNfZC1MQlJNZy05ckVhSE9lWl96U0RDYw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ফ্রান্সজুড়ে বিক্ষোভে লাখ লাখ মানুষ, প্যারিসে সহিংসতা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ফ্রান্সের এই ব্যাপক অস্থিরতা জনজীবনে স্থবিরতা ও নিরাপত্তাহীনতা তৈরি করছে, যা সাধারণ মানুষের স্বাভাবিক যাতায়াত ও প্রাত্যহিক কার্যক্রমে বড় ধরনের বিঘ্ন ঘটাচ্ছে। জননিরাপত্তা নিশ্চিত করতে দ্রুত কার্যকর সংলাপ ও শান্তিপূর্ণ সমাধান এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3b1NodzFZM242TmlYNkpHNjdaeUNpOVpTbVlfejNJOGlzV2V5SU5fbXBmMlg1RXVuQlRrcGgzRmNfZC1MQlJNZy05ckVhSE9lWl96U0RDYw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3b1NodzFZM242TmlYNkpHNjdaeUNpOVpTbVlfejNJOGlzV2V5SU5fbXBmMlg1RXVuQlRrcGgzRmNfZC1MQlJNZy05ckVhSE9lWl96U0RDYw?oc=5\" target=\"_blank\"&gt;ফ্রান্সজুড়ে বিক্ষোভে লাখ লাখ মানুষ, প্যারিসে সহিংসতা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3b1NodzFZM242TmlYNkpHNjdaeUNpOVpTbVlfejNJOGlzV2V5SU5fbXBmMlg1RXVuQlRrcGgzRmNfZC1MQlJNZy05ckVhSE9lWl96U0RDYw?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rssd0f3efb3f845d6",
-      "slug": "ব্যবসায়ীরা-সহযোগিতা-করলে-অগ্নিদুর্ঘটনা",
-      "title": "ব্যবসায়ীরা সহযোগিতা করলে অগ্নিদুর্ঘটনা কমানো সম্ভব: ডিএসসিসি প্রশাসক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE.webp",
-      "publishedAt": "2026-10-25T23:49:18.548Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>আসন্ন শুষ্ক মৌসুমে অগ্নিকাণ্ডের ঝুঁকি মোকাবিলায় ব্যবসায়ীদের সহযোগিতা চেয়েছেন ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) প্রশাসক বীর মুক্তিযোদ্ধা আবদুস সালাম। তিনি বলেছেন, পুরান ঢাকার ব্যবসায়ীরা যদি একটু সহযোগিতা করেন, তাহলে অনেক অগ্নিদুর্ঘটনা এড়ানো সম্ভব। রোববার (২৫ অক্টোবর) রাজধানীর চকবাজার মৌলভীবাজার </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পুরান ঢাকার ঘনবসতিপূর্ণ এলাকায় অগ্নিকাণ্ড রোধে ব্যবসায়ীদের সচেতনতা ও দায়িত্বশীল অংশগ্রহণই এখন সময়ের দাবি। ব্যবসায়ীরা যথাযথ সতর্কবার্তা মেনে চললে বড় ধরনের প্রাণহানি ও ক্ষয়ক্ষতি এড়ানো সম্ভব। এ ক্ষেত্রে স্থানীয়দের নিয়মিত তদারকি ও সচেতনতা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817302/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8B\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "আসন্ন শুষ্ক মৌসুমে অগ্নিকাণ্ডের ঝুঁকি মোকাবিলায় ব্যবসায়ীদের সহযোগিতা চেয়েছেন ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) প্রশাসক বীর মুক্তিযোদ্ধা আবদুস সালাম। তিনি বলেছেন, পুরান ঢাকার ব্যবসায়ীরা যদি একটু সহযোগিতা করেন, তাহলে অনেক অগ্নিদুর্ঘটনা এড়ানো সম্ভব। রোববার (২৫ অক্টোবর) রাজধানীর চকবাজার মৌলভীবাজার ",
-      "sourceUrl": "https://www.ittefaq.com.bd/817302/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8B",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssaad51939efe309",
-      "slug": "এমবাপ্পের-জোড়া-গোলে-বার্সার-প্রথম-হারে-ঘ",
-      "title": "এমবাপ্পের জোড়া গোলে বার্সার প্রথম হারে ঘরও তছনছ",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%8F%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%8B%E0%A7%9C%E0%A6%BE-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%98.avif",
-      "publishedAt": "2026-10-25T23:49:18.532Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>স্প্যানিশ লা লিগার চলতি মৌসুমে টানা নয় ম্যাচ জয়ের পর প্রথমবারের মতো হারের স্বাদ পেল বার্সেলোনা। ক্যাম্প ন্যুতে অনুষ্ঠিত মৌসুমের প্রথম এল ক্লাসিকোয় রিয়াল মাদ্রিদের কাছে ২-১ ব্যবধানে হেরেছে স্বাগতিকরা। কিলিয়ান এমবাপ্পের জোড়া গোলে দীর্ঘ সময় ধরে বজায় থাকা ঘরের মাঠে বার্সার টানা ২৩ জয়ের অজেয় যাত্রা থমকে গেছে। এই জয়ে পয়েন্ট টেবিলে শীর্ষে থাকা বার্সেলোনার সঙ্গে ব্যবধান কমিয়ে এনেছে রিয়াল মাদ্রিদ।</p>\n<p>ম্যাচের ৪১ মিনিটে বার্সা ডিফেন্ডার মার্তিনের ভুলে গোল করে রিয়ালকে এগিয়ে দেন এমবাপ্পে। প্রথমার্ধে বার্সেলোনা ৫৯ শতাংশ বল দখলে রাখলেও সুযোগ কাজে লাগাতে ব্যর্থ হয়। দ্বিতীয়ার্ধের ৬১ মিনিটে রাফিনিয়ার নিখুঁত শটে সমতায় ফেরে বার্সা। তবে ৮৭ মিনিটে এদুয়ার্দো কামাভিঙ্গার ক্রস থেকে গোল করে রিয়ালের জয় নিশ্চিত করেন এমবাপ্পে। রিয়ালের জার্সিতে এটি তার শততম গোল। এল ক্লাসিকোর ইতিহাসে প্রথম সাত ম্যাচে ৮ গোল করে লিওনেল মেসির রেকর্ড ছাড়িয়ে গেছেন ফরাসি এই তারকা।</p>\n<p>বার্সার বিপক্ষে রিয়ালের এই জয়ে বড় ভূমিকা রেখেছেন গোলরক্ষক আন্দ্রে লুনিন। থিবো কোর্তোয়া ফ্লুতে আক্রান্ত হওয়ায় একাদশে সুযোগ পাওয়া লুনিন বার্সার বেশ কয়েকটি নিশ্চিত গোল ঠেকিয়ে দেন। বিশেষ করে ৬৫ মিনিটে জেরার্দ মার্তিনের হেড এবং অ্যান্থনি গর্ডনের শট রুখে দেওয়া ছিল অসাধারণ। এছাড়া প্রথমার্ধে লামিনে ইয়ামালের গোল করার সুযোগ হাতছাড়া হওয়া বার্সার জন্য বড় ধাক্কা ছিল। হান্সি ফ্লিকের দলের হয়ে রাফিনিয়া ভালো খেললেও শেষ পর্যন্ত এমবাপ্পের নৈপুণ্যের কাছে হার মানতে হয়েছে স্বাগতিকদের।</p>\n<p>লিগে ১০ ম্যাচে ২৭ পয়েন্ট নিয়ে বার্সেলোনা শীর্ষে থাকলেও রিয়াল মাদ্রিদের সঙ্গে তাদের পয়েন্ট ব্যবধান এখন মাত্র তিন। সমান ম্যাচে ২৪ পয়েন্ট নিয়ে তিনে রয়েছে রিয়াল। মাঝখানে ২৫ পয়েন্ট নিয়ে দ্বিতীয় স্থানে আছে আতলেতিকো মাদ্রিদ। সব প্রতিযোগিতা মিলিয়ে চলতি মৌসুমে এটি বার্সেলোনার দ্বিতীয় হার। অন্যদিকে, ১৩ বছর পর এল ক্লাসিকোয় ফিরে রিয়ালকে জয় উপহার দিয়ে কোচ জোসে মরিনিও নিজের সাফল্যের ধারাবাহিকতা ধরে রাখলেন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এল ক্লাসিকোর এই জয় রিয়াল মাদ্রিদকে লিগ শিরোপার দৌড়ে নতুন প্রাণ দিয়েছে এবং পয়েন্ট টেবিলের সমীকরণকে আরও উত্তপ্ত করে তুলল। এমবাপ্পের এমন ছন্দময় পারফরম্যান্স বার্সার আধিপত্যে বড়সড় ধাক্কা দেওয়ার পাশাপাশি মৌসুমের বাকি অংশে তীব্র প্রতিদ্বন্দ্বিতার বার্তা দিচ্ছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/b49m9a95jl\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "স্প্যানিশ লা লিগায় এল ক্লাসিকোয় বার্সেলোনার বিপক্ষে জিতেছে রিয়াল মাদ্রিদ। পয়েন্ট টেবিলে শীর্ষে থাকা বার্সার সঙ্গে ব্যবধান কমাল রিয়াল।",
-      "sourceUrl": "https://www.prothomalo.com/sports/football/b49m9a95jl",
-      "sourceName": "প্রথম আলো"
     }
   ],
   "ads": [
