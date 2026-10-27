@@ -1,6 +1,6 @@
 {
-  "version": 1060,
-  "updatedAt": "2026-10-27T13:35:16.970Z",
+  "version": 1061,
+  "updatedAt": "2026-10-27T13:46:51.198Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rssf7663f29fbb17d",
+      "slug": "অন্তরঙ্গ-মুহূর্তের-ভিডিও-ধারণ-করে-গৃহবধূ-2",
+      "title": "অন্তরঙ্গ মুহূর্তের ভিডিও ধারণ করে গৃহবধূকে শারীরিক সম্পর্কে বাধ্য করে সাব্বির",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%99%E0%A7%8D%E0%A6%97-%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%93-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%97%E0%A7%83%E0%A6%B9%E0%A6%AC%E0%A6%A7%E0%A7%82-2.jpg",
+      "publishedAt": "2026-10-27T13:44:07.679Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ভোলার লালমোহন উপজেলায় বিয়ের আশ্বাসে ঘনিষ্ঠ সম্পর্কের পর অশ্লীল ভিডিও রেকর্ড করে তা ছড়িয়ে দেয়ার ভয় দেখিয়ে গৃহবধূকে একাধিকবার শারীরিক সম্পর্কে বাধ্য করার অভিযোগ ও...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তির অপব্যবহারের মাধ্যমে নারীর ব্যক্তিগত গোপনীয়তা লঙ্ঘন ও ব্ল্যাকমেইল করার এমন ঘটনা সামাজিক অবক্ষয়ের চরম নিদর্শন। স্থানীয় সচেতন মহলকে ভুক্তভোগীর পাশে দাঁড়িয়ে আইনি সুরক্ষা নিশ্চিত করতে হবে এবং সাইবার অপরাধ মোকাবিলায় প্রশাসনিক তৎপরতা বাড়াতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/539645\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ভোলার লালমোহন উপজেলায় বিয়ের আশ্বাসে ঘনিষ্ঠ সম্পর্কের পর অশ্লীল ভিডিও রেকর্ড করে তা ছড়িয়ে দেয়ার ভয় দেখিয়ে গৃহবধূকে একাধিকবার শারীরিক সম্পর্কে বাধ্য করার অভিযোগ ও...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/539645",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssac69a4047f8032",
+      "slug": "নেতানিয়াহুর-ভাগ্য-নির্ধারণে-ইসরায়েলে-চল",
+      "title": "নেতানিয়াহুর ভাগ্য নির্ধারণে ইসরায়েলে চলছে ভোট",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B9%E0%A7%81%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%AF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%9A%E0%A6%B2.jpg",
+      "publishedAt": "2026-10-27T13:44:07.677Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ইসরায়েলের দীর্ঘমেয়াদী প্রধানমন্ত্রী বেনিয়ামিন নেতানিয়াহুর রাজনৈতিক ভবিষ্যৎ নির্ধারণে মঙ্গলবার দেশটিতে জাতীয় নির্বাচন অনুষ্ঠিত হচ্ছে। গাজা উপত্যকায় চলমান যুদ্ধ, ইরানের সঙ্গে উদ্ভূত উত্তেজনা এবং ২০২৩ সালের ৭ অক্টোবরের ভয়াবহ নিরাপত্তা ব্যর্থতার প্রেক্ষাপটে এই নির্বাচন অত্যন্ত গুরুত্বপূর্ণ হয়ে দাঁড়িয়েছে। ভোটগ্রহণের প্রথম পাঁচ ঘণ্টায় ৩১ দশমিক ৫ শতাংশ নাগরিক তাদের ভোটাধিকার প্রয়োগ করেছেন, যা ১৯৭৭ সালের পর থেকে এ পর্যন্ত রেকর্ড পরিমাণ সর্বোচ্চ হার।</p>\n<p>গত বছরের ৭ অক্টোবর হামাসের হামলার পর এটিই ইসরায়েলের প্রথম জাতীয় নির্বাচন। ওই হামলায় প্রায় ১ হাজার ২০০ মানুষ প্রাণ হারান এবং ২৫১ জনকে জিম্মি করে গাজায় নিয়ে যাওয়া হয়। এই ঘটনার পর শুরু হওয়া সামরিক অভিযান এবং আঞ্চলিক অস্থিরতা দেশটির রাজনীতি ও নিরাপত্তাব্যবস্থাকে প্রবলভাবে নাড়া দিয়েছে। নির্বাচনী প্রচারণায় প্রধান আলোচনার বিষয় হয়ে দাঁড়িয়েছে সরকারের নিরাপত্তা ব্যর্থতা এবং এর দায়বদ্ধতা। বিরোধীরা এ ঘটনার পূর্ণাঙ্গ জাতীয় তদন্তের দাবি জানালেও বর্তমান সরকার তাতে অসম্মতি জানিয়ে আসছে।</p>\n<p>প্রায় ১৯ বছর ধরে ক্ষমতায় থাকা নেতানিয়াহুর ডানপন্থী ও ধর্মীয় রক্ষণশীল জোট এবার তীব্র প্রতিদ্বন্দ্বিতার মুখে পড়েছে। সাবেক সেনাপ্রধান গাদি আইজেনকট বিরোধী শিবিরের নেতৃত্ব দিচ্ছেন, যিনি সরকার পরিবর্তনের ডাক দিয়েছেন। আইজেনকট অভিযোগ করেছেন যে, গাজায় দীর্ঘ সামরিক অভিযান চললেও হামাসের শক্তি পুরোপুরি নির্মূল করা সম্ভব হয়নি। তিনি জয়ী হলে ১৮ মাসের মধ্যে হামাসের সামরিক ও প্রশাসনিক সক্ষমতা ভেঙে ফেলার প্রতিশ্রুতি দিয়েছেন। অন্যদিকে, নেতানিয়াহু তার যুদ্ধকালীন নেতৃত্বের ওপর জোর দিচ্ছেন এবং ডোনাল্ড ট্রাম্পের সমর্থনকে নিজের পক্ষে কাজে লাগাচ্ছেন।</p>\n<p>দেশটির অভ্যন্তরীণ রাজনীতিতে দুর্নীতির অভিযোগ এবং উগ্র ডানপন্থী জোটসঙ্গীদের নীতি নিয়েও তীব্র অসন্তোষ রয়েছে। নেতানিয়াহু অবশ্য তার বিরুদ্ধে ওঠা দুর্নীতির অভিযোগগুলো বরাবরই অস্বীকার করে আসছেন। পাশাপাশি, ইসরায়েলের মোট জনসংখ্যার এক-পঞ্চমাংশ আরব বংশোদ্ভূত নাগরিকদের ভোট এবার বেশ গুরুত্বপূর্ণ হয়ে উঠেছে। বিশ্লেষকদের মতে, তাদের অংশগ্রহণের হার বিরোধী জোটের জয়ের সম্ভাবনা বাড়িয়ে দিতে পারে, যদিও আইজেনকট আরব দলগুলোর সঙ্গে আনুষ্ঠানিক জোটে যেতে অনাগ্রহী।</p>\n<p>ইসরায়েলের ১২০ আসনের সংসদে সরকার গঠনের জন্য ৬১ জন আইনপ্রণেতার সমর্থন প্রয়োজন। জনমত জরিপ অনুযায়ী, সরকারি ও বিরোধী শিবিরের ব্যবধান খুবই কম হওয়ায় চূড়ান্ত ফলাফল নিয়ে অনিশ্চয়তা রয়েছে। কোনো পক্ষই এককভাবে সংখ্যাগরিষ্ঠতা না পেলে নতুন করে রাজনৈতিক সংকট তৈরি হতে পারে। সেক্ষেত্রে সরকার গঠনে ব্যর্থ হলে নেতানিয়াহু তত্ত্বাবধায়ক প্রধানমন্ত্রী হিসেবে দায়িত্ব পালন করতে পারেন অথবা দেশটিতে নতুন করে নির্বাচনের পরিস্থিতি সৃষ্টি হতে পারে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মধ্যপ্রাচ্যের এই রাজনৈতিক অস্থিরতা ও সংঘাতের ফলাফল বিশ্ব অর্থনীতিসহ আমাদের জনজীবনেও দীর্ঘমেয়াদী প্রভাব ফেলতে পারে। তাই ভূ-রাজনৈতিক পরিস্থিতির পরিবর্তনের সাথে সামঞ্জস্য রেখে দেশের জ্বালানি ও নিত্যপণ্যের সরবরাহ চেইন নিয়ে সতর্ক থাকা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/539646\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ফিলিস্তিনের গাজা উপত্যকায় যুদ্ধ, ইরানের সঙ্গে সংঘাত এবং ২০২৩ সালের ৭ অক্টোবরের হামলায় নিরাপত্তা ব্যর্থতার জবাব দিতে ইসরায়েলের নির্বাচনে ভোট দিচ্ছেন দেশটির নাগরি...",
+      "sourceUrl": "https://www.daily-bangladesh.com/international/539646",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsseedd57d918b90a",
+      "slug": "ছাত্রদল-নেতা-হত্যায়-মামলা-নাটোরের-এমপিপু",
+      "title": "ছাত্রদল নেতা হত্যায় মামলা: নাটোরের এমপিপুত্র ৩ দিনের রিমান্ডে",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF%E0%A6%AA%E0%A7%81.jpg",
+      "publishedAt": "2026-10-27T13:44:07.675Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>নাটোরের গুরুদাসপুর পৌর ছাত্রদলের সদস্যসচিব শাকিল ইসলাম হত্যা মামলায় নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপিদলীয় সংসদ সদস্য আব্দুল আজিজের ছেলে ও যুবদল নেতা ন...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক প্রতিহিংসার বলি হয়ে একটি প্রাণ ঝরে যাওয়া সামাজিক ও নৈতিক অবক্ষয়ের চরম বহিঃপ্রকাশ। অপরাধী যে-ই হোক, আইনের যথাযথ প্রয়োগ ও বিচার নিশ্চিত করাই এখন ন্যায়বিচার ও সামাজিক সংহতি রক্ষার প্রধান পথ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/539647\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "নাটোরের গুরুদাসপুর পৌর ছাত্রদলের সদস্যসচিব শাকিল ইসলাম হত্যা মামলায় নাটোর-৪ (গুরুদাসপুর-বড়াইগ্রাম) আসনের বিএনপিদলীয় সংসদ সদস্য আব্দুল আজিজের ছেলে ও যুবদল নেতা ন...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/539647",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
       "id": "rsse9457e7ec378b8",
       "slug": "রাজবাড়ীতে-প্রকাশ্যে-যুবককে-গুলি",
       "title": "রাজবাড়ীতে প্রকাশ্যে যুবককে গুলি",
@@ -94,7 +142,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>রাজধানীর বসুন্ধরা আবাসিক এলাকায় প্রয়াত চিত্রনায়ক মান্নার স্মৃতিবিজড়িত একটি গাড়ি মেরামতের সময় অগ্নিকাণ্ডের ঘটনায় ৯০ লাখ টাকার ক্ষয়ক্ষতির অভিযোগে গ্রেফতার দুজনকে কারাগারে পাঠিয়েছেন আদালত। মঙ্গলবার (২৭ অক্টোবর) মামলার তদন্ত কর্মকর্তা ও ভাটারা থানার উপপরিদর্শক (এসআই) মো. ইয়াউর রহমানের আবেদনের পরিপ্রেক্ষিতে ঢাকা মেট্রোপলিটন ম্যাজিস্ট্রেট আমিনুল ইসলাম জুনাইদের আদালত এ আদেশ দেন। কারাগারে পাঠানো দুই... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/entertainment/977101/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%B0%E0%A6%BF%E0%A6%A4-%E0%A6%97%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>রাজধানীর বসুন্ধরা আবাসিক এলাকায় প্রয়াত চিত্রনায়ক মান্নার স্মৃতিবিজড়িত একটি গাড়ি মেরামতের সময় অগ্নিকাণ্ডের ঘটনায় ৯০ লাখ টাকার ক্ষয়ক্ষতির অভিযোগে গ্রেফতার দুজনকে কারাগারে পাঠিয়েছেন আদালত। মঙ্গলবার (২৭ অক্টোবর) মামলার তদন্ত কর্মকর্তা ও ভাটারা থানার উপপরিদর্শক (এসআই) মো. ইয়াউর রহমানের আবেদনের পরিপ্রেক্ষ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাংস্কৃতিক ঐতিহ্যের স্মারক রক্ষা ও কর্মক্ষেত্রে অগ্নিনিরাপত্তা নিশ্চিত করা এখন সময়ের দাবি। এ ধরনের অবহেলা রোধে সংশ্লিষ্ট মেরামত কেন্দ্রগুলোকে কঠোর নজরদারিতে রাখতে হবে এবং স্থানীয়দের সচেতনতা বৃদ্ধিতে প্রশাসনকে আরও সক্রিয় ভূমিকা নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/entertainment/977101/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%B0%E0%A6%BF%E0%A6%A4-%E0%A6%97%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "রাজধানীর বসুন্ধরা আবাসিক এলাকায় প্রয়াত চিত্রনায়ক মান্নার স্মৃতিবিজড়িত একটি গাড়ি মেরামতের সময় অগ্নিকাণ্ডের ঘটনায় ৯০ লাখ টাকার ক্ষয়ক্ষতির অভিযোগে গ্রেফতার দুজনকে কারাগারে পাঠিয়েছেন আদালত। মঙ্গলবার (২৭ অক্টোবর) মামলার তদন্ত কর্মকর্তা ও ভাটারা থানার উপপরিদর্শক (এসআই) মো. ইয়াউর রহমানের আবেদনের পরিপ্রেক্ষ",
       "sourceUrl": "https://www.banglatribune.com/entertainment/977101/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%95-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%B0%E0%A6%BF%E0%A6%A4-%E0%A6%97%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8",
       "sourceName": "বাংলা ট্রিবিউন"
@@ -110,7 +158,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>রাজনীতি শুধু সভা-সমাবেশ কিংবা শ্লোগানে সীমাবদ্ধ নয়, মানুষের বিপদে-আপদে পাশে দাঁড়ানোও রাজনীতির একটি গুরুত্বপূর্ণ দায়িত্ব। সেই মানবিক ভাবনাকে সামনে রেখে বাংলাদেশ...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/539640\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>রাজনীতি শুধু সভা-সমাবেশ কিংবা শ্লোগানে সীমাবদ্ধ নয়, মানুষের বিপদে-আপদে পাশে দাঁড়ানোও রাজনীতির একটি গুরুত্বপূর্ণ দায়িত্ব। সেই মানবিক ভাবনাকে সামনে রেখে বাংলাদেশ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক কর্মসূচির আড়ালে এমন সেবামূলক আয়োজন স্থানীয় পর্যায়ের স্বাস্থ্যসেবা প্রাপ্তিকে সহজতর করে। এতে কর্মপ্রত্যাশী তরুণরা সামাজিক দায়বদ্ধতার চর্চায় উদ্বুদ্ধ হওয়ার পাশাপাশি সুস্বাস্থ্যের প্রয়োজনীয়তা সম্পর্কেও সচেতন হতে পারবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/539640\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "রাজনীতি শুধু সভা-সমাবেশ কিংবা শ্লোগানে সীমাবদ্ধ নয়, মানুষের বিপদে-আপদে পাশে দাঁড়ানোও রাজনীতির একটি গুরুত্বপূর্ণ দায়িত্ব। সেই মানবিক ভাবনাকে সামনে রেখে বাংলাদেশ...",
       "sourceUrl": "https://daily-bangladesh.com/country/539640",
       "sourceName": "ডেইলি বাংলাদেশ"
@@ -190,7 +238,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>মাঠের বাইরের এক মন্তব্যে এবার বড় বিতর্কে জড়ালেন কিলিয়ান এমবাপ্পে। ফরাসি এই তারকার মুখে সাবেক চীনা নেতা মাও সে তুংয়ের ব্যঙ্গাত্মক ছবির প্রসঙ্গ আসতেই ক্ষুব্ধ প্রতিক্রিয়া দেখিয়েছে চীন। এর জেরে দেশটির রাষ্ট্রীয় সম্প্রচারমাধ্যম সিসিটিভি স্প্যানিশ লা লিগার খেলা সম্প্রচার বন্ধ করেছে। একই সঙ্গে এমবাপ্পে সংশ্লিষ্ট ম্যাচও সম্প্রচার থেকে বাদ দেওয়া হয়েছে। স্প্যানিশ সংবাদ সংস্থা ইএফই মঙ্গলবার জানিয়েছে,... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/977094/%E0%A6%AE%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A7%87%E0%A6%A4%E0%A7%81%E0%A6%82%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>মাঠের বাইরের এক মন্তব্যে এবার বড় বিতর্কে জড়ালেন কিলিয়ান এমবাপ্পে। ফরাসি এই তারকার মুখে সাবেক চীনা নেতা মাও সে তুংয়ের ব্যঙ্গাত্মক ছবির প্রসঙ্গ আসতেই ক্ষুব্ধ প্রতিক্রিয়া দেখিয়েছে চীন। এর জেরে দেশটির রাষ্ট্রীয় সম্প্রচারমাধ্যম সিসিটিভি স্প্যানিশ লা লিগার খেলা সম্প্রচার বন্ধ করেছে। একই সঙ্গে এমবাপ্পে সংশ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ফুটবল মাঠের বাইরের বিতর্কিত মন্তব্য ক্রীড়াক্ষেত্রে ভূ-রাজনৈতিক অস্থিরতা সৃষ্টির এক নতুন উদাহরণ তৈরি করল। এমন বাণিজ্যিক ও কূটনৈতিক টানাপোড়েন লা লিগার বৈশ্বিক সম্প্রচার এবং খেলোয়াড়দের পেশাদার ভাবমূর্তির ওপর দীর্ঘমেয়াদী নেতিবাচক প্রভাব ফেলতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/977094/%E0%A6%AE%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A7%87%E0%A6%A4%E0%A7%81%E0%A6%82%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "মাঠের বাইরের এক মন্তব্যে এবার বড় বিতর্কে জড়ালেন কিলিয়ান এমবাপ্পে। ফরাসি এই তারকার মুখে সাবেক চীনা নেতা মাও সে তুংয়ের ব্যঙ্গাত্মক ছবির প্রসঙ্গ আসতেই ক্ষুব্ধ প্রতিক্রিয়া দেখিয়েছে চীন। এর জেরে দেশটির রাষ্ট্রীয় সম্প্রচারমাধ্যম সিসিটিভি স্প্যানিশ লা লিগার খেলা সম্প্রচার বন্ধ করেছে। একই সঙ্গে এমবাপ্পে সংশ",
       "sourceUrl": "https://www.banglatribune.com/sport/football/977094/%E0%A6%AE%E0%A6%BE%E0%A6%93-%E0%A6%B8%E0%A7%87%E0%A6%A4%E0%A7%81%E0%A6%82%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%8F%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A",
       "sourceName": "বাংলা ট্রিবিউন"
@@ -7970,54 +8018,6 @@
       "summary": "চার দিনের এই সফরে প্রধানমন্ত্রী জাপানের প্রধানমন্ত্রীর সঙ্গে উচ্চপর্যায়ের দ্বিপক্ষীয় বৈঠক করবেন। এ ছাড়া প্রধানমন্ত্রী জাপানের বড় কোম্পানি ও উন্নয়ন সংস্থার প্রতিনিধিদের সঙ্গে সাক্ষাৎ করবেন।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/8ftpwbotw3",
       "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss2c387640f8a9a3",
-      "slug": "দীর্ঘদিন-নজরদারিতে-থাকা-চিকিৎসককে-চেম্ব",
-      "title": "দীর্ঘদিন নজরদারিতে থাকা ‘চিকিৎসককে’ চেম্বার থেকে আটক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%95%E0%A6%95%E0%A7%87-%E0%A6%9A%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC.webp",
-      "publishedAt": "2026-10-25T19:49:18.413Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>হবিগঞ্জ শহরে অন্য চিকিৎসকের পরিচয় ও চিকিৎসাপত্র ব্যবহার করে রোগীদের চিকিৎসাসেবা দেওয়ার অভিযোগে আরিফ মিয়া নামে এক ভুয়া চিকিৎসককে আটক করেছে এসআরবি-৯। রবিবার (২৫ অক্টোবর) রাতে শহরের শায়েস্তানগর এলাকার মধুমতি ডায়াগনস্টিক সেন্টারে জেলা প্রশাসন ও সিভিল সার্জন কার্যালয়ের সহায়তায় এসআরবি অভিযান চালিয়ে তাকে আ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভুয়া চিকিৎসকদের দৌরাত্ম্য জনস্বাস্থ্যের জন্য চরম ঝুঁকিপূর্ণ, যা রোধে ডায়াগনস্টিক সেন্টারগুলোর কঠোর নজরদারি নিশ্চিত করা জরুরি। রোগীদের উচিত যেকোনো চিকিৎসা সেবা গ্রহণের আগে সংশ্লিষ্ট চিকিৎসকের নিবন্ধন যাচাই করা। প্রশাসনের এই তৎপরতা অব্যাহত থাকলে প্রতারণা ও অপচিকিৎসা থেকে সাধারণ মানুষ রক্ষা পাবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/sylhet/976765/%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E2%80%98%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%95%E0%A6%95%E0%A7%87%E2%80%99-%E0%A6%9A%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%9F%E0%A6%95\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "হবিগঞ্জ শহরে অন্য চিকিৎসকের পরিচয় ও চিকিৎসাপত্র ব্যবহার করে রোগীদের চিকিৎসাসেবা দেওয়ার অভিযোগে আরিফ মিয়া নামে এক ভুয়া চিকিৎসককে আটক করেছে এসআরবি-৯। রবিবার (২৫ অক্টোবর) রাতে শহরের শায়েস্তানগর এলাকার মধুমতি ডায়াগনস্টিক সেন্টারে জেলা প্রশাসন ও সিভিল সার্জন কার্যালয়ের সহায়তায় এসআরবি অভিযান চালিয়ে তাকে আ",
-      "sourceUrl": "https://www.banglatribune.com/country/sylhet/976765/%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E2%80%98%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%95%E0%A6%95%E0%A7%87%E2%80%99-%E0%A6%9A%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%9F%E0%A6%95",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss09bc5e9dd2fcc9",
-      "slug": "সাইবার-ওয়ারফেয়ারের-জন্য-কতটা-প্রস্তুত",
-      "title": "সাইবার ওয়ারফেয়ারের জন্য কতটা প্রস্তুত বাংলাদেশ",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/rss09bc5e9dd2fcc9-1200x630.jpg",
-      "publishedAt": "2026-10-25T19:49:18.379Z",
-      "tags": [
-        "যুগান্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZWRrdG5ibXZQNl9BRExvSEszN29pTTBUdnlKeHFiTDBReFFWX05oeF9yTFVLSEZRM2hsN0thUnkzSm9ubi1jREZHaXZuOUFMVWJF?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সাইবার ওয়ারফেয়ারের জন্য কতটা প্রস্তুত বাংলাদেশ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাইবার নিরাপত্তার ঝুঁকি মোকাবিলায় ব্যক্তিগত ও প্রাতিষ্ঠানিক পর্যায়ে সচেতনতা এবং আধুনিক প্রযুক্তির কার্যকর প্রয়োগ এখন সময়ের দাবি। ডিজিটাল অবকাঠামো সুরক্ষায় শক্তিশালী প্রতিরক্ষা ব্যবস্থা গড়ে তুলতে না পারলে ব্যবহারকারীদের ব্যক্তিগত তথ্যের গোপনীয়তা চরম হুমকির মুখে পড়বে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZWRrdG5ibXZQNl9BRExvSEszN29pTTBUdnlKeHFiTDBReFFWX05oeF9yTFVLSEZRM2hsN0thUnkzSm9ubi1jREZHaXZuOUFMVWJF?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZWRrdG5ibXZQNl9BRExvSEszN29pTTBUdnlKeHFiTDBReFFWX05oeF9yTFVLSEZRM2hsN0thUnkzSm9ubi1jREZHaXZuOUFMVWJF?oc=5\" target=\"_blank\"&gt;সাইবার ওয়ারফেয়ারের জন্য কতটা প্রস্তুত বাংলাদেশ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZWRrdG5ibXZQNl9BRExvSEszN29pTTBUdnlKeHFiTDBReFFWX05oeF9yTFVLSEZRM2hsN0thUnkzSm9ubi1jREZHaXZuOUFMVWJF?oc=5",
-      "sourceName": "যুগান্তর"
-    },
-    {
-      "id": "rss504f106dae20e6",
-      "slug": "মোটরসাইকেলে-একই-পরিবারের-৩-জন-পিকআপের-ধা-2",
-      "title": "মোটরসাইকেলে একই পরিবারের ৩ জন, পিকআপের ধাক্কায় প্রাণ গেলো মা-ছেলের",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%A9-%E0%A6%9C%E0%A6%A8-%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%86%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE-2.webp",
-      "publishedAt": "2026-10-25T19:34:18.337Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>যশোরের মণিরামপুরে মোটরসাইকেলে পিকআপের ধাক্কায় মা ও শিশুসন্তান নিহত হয়েছেন। গুরুতর আহত হয়েছেন বাবা। রবিবার (২৬ অক্টোবর) রাত ৮টার দিকে উপজেলার রাজগঞ্জ-পুলেরহাট সড়কের দোঁদাড়িয়া মোড়ে এ মর্মান্তিক সড়ক দুর্ঘটনা ঘটে। নিহতরা হলেন- উপজেলার রাজগঞ্জের হানুয়ার মানিকগঞ্জ গ্রামের ওমর ফারুকের স্ত্রী মৌসুমী (৩২) ও</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সড়কের নিরাপত্তা নিশ্চিত করতে মোটরসাইকেলে অতিরিক্ত যাত্রী বহন থেকে বিরত থাকা জরুরি। ব্যক্তিগত সচেতনতার পাশাপাশি ভারী যানবাহনের চালকদের বেপরোয়া গতি নিয়ন্ত্রণে স্থানীয় প্রশাসনের কঠোর নজরদারি এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/976761/%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%A9-%E0%A6%9C%E0%A6%A8-%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%86%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "যশোরের মণিরামপুরে মোটরসাইকেলে পিকআপের ধাক্কায় মা ও শিশুসন্তান নিহত হয়েছেন। গুরুতর আহত হয়েছেন বাবা। রবিবার (২৬ অক্টোবর) রাত ৮টার দিকে উপজেলার রাজগঞ্জ-পুলেরহাট সড়কের দোঁদাড়িয়া মোড়ে এ মর্মান্তিক সড়ক দুর্ঘটনা ঘটে। নিহতরা হলেন- উপজেলার রাজগঞ্জের হানুয়ার মানিকগঞ্জ গ্রামের ওমর ফারুকের স্ত্রী মৌসুমী (৩২) ও",
-      "sourceUrl": "https://www.banglatribune.com/country/khulna/976761/%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%87-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A7%A9-%E0%A6%9C%E0%A6%A8-%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%86%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
