@@ -1,6 +1,6 @@
 {
-  "version": 1039,
-  "updatedAt": "2026-10-27T00:47:11.355Z",
+  "version": 1040,
+  "updatedAt": "2026-10-27T00:47:33.750Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -137,7 +137,7 @@
       "title": "ছাত্রদের যৌন নির্যাতন চালানোর অভিযোগ ওঠা ৫১% মাদ্রাসা শিক্ষক: জেএমবিএফ",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-27T00:04:20.059Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -169,7 +169,7 @@
       "title": "৭ নভেম্বর সাধারণ ছুটি ঘোষণা করে প্রজ্ঞাপন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T23:49:19.963Z",
       "tags": [
         "বাংলাদেশ সরকার"
@@ -201,7 +201,7 @@
       "title": "প্রধানমন্ত্রী টোকিওতে",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T23:19:20.265Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -233,7 +233,7 @@
       "title": "৩৯৩ জনকে চাকরি দেবে চট্টগ্রাম বন্দর কর্তৃপক্ষ, এসএসসি পাসেই আবেদন",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T23:19:20.167Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -377,7 +377,7 @@
       "title": "সর্বশেষ - Bangla Edition",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T22:04:19.959Z",
       "tags": [
         "বাংলা এডিশন"
@@ -393,7 +393,7 @@
       "title": "সাবমিট - Bangla Edition",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T22:04:19.950Z",
       "tags": [
         "বাংলা এডিশন"
@@ -409,7 +409,7 @@
       "title": "বিআরপিডি সার্কুলার নং-০১",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T21:49:19.859Z",
       "tags": [
         "বাংলাদেশ ব্যাংক"
@@ -729,7 +729,7 @@
       "title": "বস্ত্র ও পাট মন্ত্রণালয়ের অধীনে চাকরির সুযোগ, পদ ৪২",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T20:04:19.623Z",
       "tags": [
         "বাংলাদেশ সরকার"
@@ -745,7 +745,7 @@
       "title": "মহিলা ও শিশু বিষয়ক মন্ত্রণালয়ের নাম পরিবর্তন করে গেজেট প্রকাশ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T20:04:19.611Z",
       "tags": [
         "বাংলাদেশ সরকার"
@@ -969,7 +969,7 @@
       "title": "প্ল্যান ইন্টারন্যাশনালে জব সার্কুলার, আছে প্রভিডেন্ট ফান্ড-গ্র্যাচুইটি",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T19:04:19.648Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -1177,7 +1177,7 @@
       "title": "চাকরি দেবে এসিআই কোম্পানি, লাগবে না অভিজ্ঞতা",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T18:34:19.628Z",
       "tags": [
         "সরকারি দপ্তর"
@@ -1241,7 +1241,7 @@
       "title": "এশিয়ায় জ্বালানি সরবরাহ নিরবিচ্ছিন্ন রাখতে সিঙ্গাপুরে তেল মজুত করবে সৌদি আরব",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "",
       "publishedAt": "2026-10-26T18:19:19.669Z",
       "tags": [
         "বিডিনিউজ২৪"
