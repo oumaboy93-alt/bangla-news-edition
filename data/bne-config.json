@@ -1,6 +1,6 @@
 {
-  "version": 1103,
-  "updatedAt": "2026-10-28T04:01:50.539Z",
+  "version": 1104,
+  "updatedAt": "2026-10-28T04:12:56.291Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "বিনিয়োগ বাড়াতে জেবিআইসি গভর্নরের সঙ্গে প্রধানমন্ত্রীর বৈঠক",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss76287b3e86140e-1200x630.jpg",
       "publishedAt": "2026-10-28T03:59:08.248Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -217,7 +217,7 @@
       "title": "চাকরির ফাঁদে রাশিয়ার রণাঙ্গনে বাংলাদেশিরা!",
       "category": "চাকরি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss2e61fb012aa6fd-1200x630.jpg",
       "publishedAt": "2026-10-28T03:14:08.443Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
