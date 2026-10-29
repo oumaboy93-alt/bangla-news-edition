@@ -1,6 +1,6 @@
 {
-  "version": 1233,
-  "updatedAt": "2026-10-29T23:00:48.444Z",
+  "version": 1234,
+  "updatedAt": "2026-10-29T23:11:55.842Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -505,7 +505,7 @@
       "title": "তাহসিফের লাশ উদ্ধারের পর বন্ধুর পোস্ট, উঠে এলো কিছু ‘রহস্যময় প্রশ্ন’",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss24d86bc749d5f2-1200x630.jpg",
       "publishedAt": "2026-10-29T20:29:14.975Z",
       "tags": [
         "যুগান্তর"
@@ -969,7 +969,7 @@
       "title": "ব্যাংকিং খাত ধ্বংসের দ্বারপ্রান্তে, অর্থনীতি পড়তে পারে নদীতে: মাহবুব উল্লাহ",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssdab442c0ad3500-1200x630.jpg",
       "publishedAt": "2026-10-29T18:14:15.064Z",
       "tags": [
         "বিডিনিউজ২৪"
