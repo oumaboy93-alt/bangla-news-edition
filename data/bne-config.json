@@ -1,6 +1,6 @@
 {
-  "version": 1225,
-  "updatedAt": "2026-10-29T20:51:36.773Z",
+  "version": 1226,
+  "updatedAt": "2026-10-29T21:18:58.443Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,12 +52,108 @@
       "sourceName": ""
     },
     {
+      "id": "rss2f7fa47c9c7c9c",
+      "slug": "এসআরবির-অভিযানের-সময়-তরুণের-মৃত্যু-গুলি",
+      "title": "এসআরবির অভিযানের সময় তরুণের মৃত্যু, গুলি করেছে কে",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%B8%E0%A6%86%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF.avif",
+      "publishedAt": "2026-10-29T21:14:15.047Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>রাজধানীর যাত্রাবাড়ীর ধলপুরে গত মঙ্গলবার সন্ধ্যায় গুলিবিদ্ধ হয়ে মারা যান মারুফ ওরফে দুখু মিয়া।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/crime/g955xvbf62\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "রাজধানীর যাত্রাবাড়ীর ধলপুরে গত মঙ্গলবার সন্ধ্যায় গুলিবিদ্ধ হয়ে মারা যান মারুফ ওরফে দুখু মিয়া।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/crime/g955xvbf62",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss9d8201f5068b9a",
+      "slug": "প্রভিডেন্ট-ফান্ড-মোবাইল-বিল-সুবিধাসহ-চাক",
+      "title": "প্রভিডেন্ট ফান্ড-মোবাইল বিল সুবিধাসহ চাকরি দিচ্ছে ওয়ালটন, বয়স ২০ হলেই আবেদন",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-29T21:14:14.968Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrd0oyMFpoX3hzc3hyLXRHSTMtSFlmUEkxRVVXTHpPM3pWa2YzZmhrRDNNbzNFYU5OU29KUTAwWTNxMFNkcjJoQw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;প্রভিডেন্ট ফান্ড-মোবাইল বিল সুবিধাসহ চাকরি দিচ্ছে ওয়ালটন, বয়স ২০ হলেই আবেদন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;RTV News&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrd0oyMFpoX3hzc3hyLXRHSTMtSFlmUEkxRVVXTHpPM3pWa2YzZmhrRDNNbzNFYU5OU29KUTAwWTNxMFNkcjJoQw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrd0oyMFpoX3hzc3hyLXRHSTMtSFlmUEkxRVVXTHpPM3pWa2YzZmhrRDNNbzNFYU5OU29KUTAwWTNxMFNkcjJoQw?oc=5\" target=\"_blank\"&gt;প্রভিডেন্ট ফান্ড-মোবাইল বিল সুবিধাসহ চাকরি দিচ্ছে ওয়ালটন, বয়স ২০ হলেই আবেদন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrd0oyMFpoX3hzc3hyLXRHSTMtSFlmUEkxRVVXTHpPM3pWa2YzZmhrRDNNbzNFYU5OU29KUTAwWTNxMFNkcjJoQw?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
+    },
+    {
+      "id": "rss4e15af41395880",
+      "slug": "আকর্ষণীয়-বেতনে-স্কয়ার-গ্রুপে-চাকরি-আবে",
+      "title": "আকর্ষণীয় বেতনে স্কয়ার গ্রুপে চাকরি, আবেদন করতে পারবেন যারা",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-10-29T21:14:14.964Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Ybk9SOFdIR0E0S19Ma0luRDBHbkM5ZnpUQzlFa1hJc2tNb0YwN2t2MG1ybzQ5ekhicXZhRVpqZFlCaEpqdDJHQg?oc=5&quot; target=&quot;_blank&quot;&amp;gt;আকর্ষণীয় বেতনে স্কয়ার গ্রুপে চাকরি, আবেদন করতে পারবেন যারা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;RTV News&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Ybk9SOFdIR0E0S19Ma0luRDBHbkM5ZnpUQzlFa1hJc2tNb0YwN2t2MG1ybzQ5ekhicXZhRVpqZFlCaEpqdDJHQg?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Ybk9SOFdIR0E0S19Ma0luRDBHbkM5ZnpUQzlFa1hJc2tNb0YwN2t2MG1ybzQ5ekhicXZhRVpqZFlCaEpqdDJHQg?oc=5\" target=\"_blank\"&gt;আকর্ষণীয় বেতনে স্কয়ার গ্রুপে চাকরি, আবেদন করতে পারবেন যারা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;RTV News&lt;/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Ybk9SOFdIR0E0S19Ma0luRDBHbkM5ZnpUQzlFa1hJc2tNb0YwN2t2MG1ybzQ5ekhicXZhRVpqZFlCaEpqdDJHQg?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
+    },
+    {
+      "id": "rssf8962eb1c19c8d",
+      "slug": "শিক্ষকের-বিরুদ্ধে-চতুর্থ-শ্রেণির-ছাত্রী",
+      "title": "শিক্ষকের বিরুদ্ধে চতুর্থ শ্রেণির ছাত্রীকে ধর্ষণের অভিযোগ, প্রধান শিক্ষিকা ও দফতরি গ্রেফতার",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80.webp",
+      "publishedAt": "2026-10-29T20:59:15.077Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>যশোরের অভয়নগরে স্কুল চলাকালে চতুর্থ শ্রেণির এক ছাত্রীকে ধর্ষণের অভিযোগে করা মামলায় সহায়তার অভিযোগে ভারপ্রাপ্ত প্রধান শিক্ষিকা জুলিয়া আফরিন ও দফতরি মোস্তাফিজুর রহমানকে আটক করেছে পুলিশ। ঘটনার পর থেকে মূল অভিযুক্ত সহকারী শিক্ষক ইমরান হোসেন পলাতক রয়েছেন। বুধবার (৩০ অক্টোবর) রাতে নওয়াপাড়া বাজার এলাকা থেকে তাদের আটক করা হয়। পরে বৃহস্পতিবার তাদের ধর্ষণ মামলায় গ্রেফতার দেখিয়ে আদালতে সোপর্দ করা হয়েছে।... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/977632/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "যশোরের অভয়নগরে স্কুল চলাকালে চতুর্থ শ্রেণির এক ছাত্রীকে ধর্ষণের অভিযোগে করা মামলায় সহায়তার অভিযোগে ভারপ্রাপ্ত প্রধান শিক্ষিকা জুলিয়া আফরিন ও দফতরি মোস্তাফিজুর রহমানকে আটক করেছে পুলিশ। ঘটনার পর থেকে মূল অভিযুক্ত সহকারী শিক্ষক ইমরান হোসেন পলাতক রয়েছেন। বুধবার (৩০ অক্টোবর) রাতে নওয়াপাড়া বাজার এলাকা থেক",
+      "sourceUrl": "https://www.banglatribune.com/country/khulna/977632/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A6%BF%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssa91440c3f44614",
+      "slug": "পশ্চিমবঙ্গে-গরু-জবাই-হলে-আমার-চেয়ে-খারাপ",
+      "title": "পশ্চিমবঙ্গে গরু জবাই হলে আমার চেয়ে খারাপ কেউ হবে না: শুভেন্দু অধিকারী",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%87-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AA.webp",
+      "publishedAt": "2026-10-29T20:59:15.055Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>পশ্চিমবঙ্গে গোহত্যা, অবৈধ অনুপ্রবেশ এবং সীমান্ত এলাকায় জাতীয়তাবিরোধী কার্যক্রমের বিরুদ্ধে কড়া হুঁশিয়ারি দিয়েছেন রাজ্যের বিরোধী দলনেতা শুভেন্দু অধিকারী। হিন্দু ধর্মাবলম্বীদের কাছে অত্যন্ত পবিত্র &#39;গোমাতা&#39;র ক্ষতি করা হলে কঠোর পরিণতির সম্মুখীন হতে হবে বলে স্পষ্ট বার্তা দেন তিনি। বৃহস্পতিবার (২৯ অক্টোবর) উত্তর দিনাজপুর জেলার রায়গঞ্জে আয়োজিত এক জনসভায় বক্তব্য রাখতে গিয়ে বিজেপি নেতা শুভেন্দু অধিকারী... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/818067/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%87-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AA-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%B9%E0%A6%AC%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "পশ্চিমবঙ্গে গোহত্যা, অবৈধ অনুপ্রবেশ এবং সীমান্ত এলাকায় জাতীয়তাবিরোধী কার্যক্রমের বিরুদ্ধে কড়া হুঁশিয়ারি দিয়েছেন রাজ্যের বিরোধী দলনেতা শুভেন্দু অধিকারী। হিন্দু ধর্মাবলম্বীদের কাছে অত্যন্ত পবিত্র 'গোমাতা'র ক্ষতি করা হলে কঠোর পরিণতির সম্মুখীন হতে হবে বলে স্পষ্ট বার্তা দেন তিনি। বৃহস্পতিবার (২৯ অক্টোবর)",
+      "sourceUrl": "https://www.ittefaq.com.bd/818067/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%87-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AA-%E0%A6%95%E0%A7%87%E0%A6%89-%E0%A6%B9%E0%A6%AC%E0%A7%87",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss1fd31a2d9228a8",
+      "slug": "১২০০-পিস-ইয়াবা-উদ্ধার-ছাত্রদল-নেতাসহ-গ্",
+      "title": "১২০০ পিস ইয়াবা উদ্ধার, ছাত্রদল নেতাসহ গ্রেপ্তার ৫",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A7%A7%E0%A7%A8%E0%A7%A6%E0%A7%A6-%E0%A6%AA%E0%A6%BF%E0%A6%B8-%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A6%97%E0%A7%8D.webp",
+      "publishedAt": "2026-10-29T20:59:15.050Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>ময়মনসিংহ শহরে ইয়াবা কেনাবেচার প্রস্তুতির সময় ময়মনসিংহ দক্ষিণ জেলা ছাত্রদলের যুগ্ম সাধারণ সম্পাদক মনিরুল ইসলামসহ পাঁচজনকে গ্রেপ্তার করেছে জেলা গোয়েন্দা পুলিশ (ডিবি)। বুধবার দিবাগত রাত একটার দিকে নগরের সেওড়া মুন্সিবাড়ি এলাকার একটি দোতলা বাড়ির নিচতলার একটি কক্ষ থেকে তাদের গ্রেপ্তার করা হয়। অভিযানকালে তাদের কাছ থেকে আনুমানিক ৬ লাখ টাকা মূল্যের ১ হাজার ২০০ পিস ইয়াবা উদ্ধার করা হয়।... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/818066/%E0%A7%A7%E0%A7%A8%E0%A7%A6%E0%A7%A6-%E0%A6%AA%E0%A6%BF%E0%A6%B8-%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AB\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "ময়মনসিংহ শহরে ইয়াবা কেনাবেচার প্রস্তুতির সময় ময়মনসিংহ দক্ষিণ জেলা ছাত্রদলের যুগ্ম সাধারণ সম্পাদক মনিরুল ইসলামসহ পাঁচজনকে গ্রেপ্তার করেছে জেলা গোয়েন্দা পুলিশ (ডিবি)। বুধবার দিবাগত রাত একটার দিকে নগরের সেওড়া মুন্সিবাড়ি এলাকার একটি দোতলা বাড়ির নিচতলার একটি কক্ষ থেকে তাদের গ্রেপ্তার করা হয়। অভি",
+      "sourceUrl": "https://www.ittefaq.com.bd/818066/%E0%A7%A7%E0%A7%A8%E0%A7%A6%E0%A7%A6-%E0%A6%AA%E0%A6%BF%E0%A6%B8-%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%B2-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A7%AB",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
       "id": "rss1af64a394636ae",
       "slug": "মানবতাবিরোধী-অপরাধে-আ-লীগের-৩-নেতার-আমৃত",
       "title": "মানবতাবিরোধী অপরাধে আ.লীগের ৩ নেতার আমৃত্যু কারাদণ্ড",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/health.jpg",
+      "image": "/img/rss1af64a394636ae-1200x630.jpg",
       "publishedAt": "2026-10-29T20:44:15.025Z",
       "tags": [
         "যুগান্তর"
@@ -73,7 +169,7 @@
       "title": "প্রধানমন্ত্রীর ফিরতি ফ্লাইটে যান্ত্রিক ত্রুটি, যাত্রায় বিলম্ব",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/biman-1793273470.jpg",
+      "image": "/img/rss891869ff17f8b5-1200x630.jpg",
       "publishedAt": "2026-10-29T20:44:15.022Z",
       "tags": [
         "যুগান্তর"
@@ -89,7 +185,7 @@
       "title": "সরকার গঠনে এগিয়ে নেতানিয়াহু, সামনে কঠিন হিসাব",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rss66fce9be2b0302-1200x630.jpg",
       "publishedAt": "2026-10-29T20:44:15.020Z",
       "tags": [
         "যুগান্তর"
@@ -137,7 +233,7 @@
       "title": "স্পেনে ভয়াবহ ট্রেন দুর্ঘটনা ঘটল কী কারণে",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssb978e54cb7e0f0-1200x630.jpg",
       "publishedAt": "2026-10-29T20:29:14.977Z",
       "tags": [
         "যুগান্তর"
@@ -7922,102 +8018,6 @@
       "summary": "জাপান সফররত বাংলাদেশের প্রধানমন্ত্রী তারেক রহমানের সঙ্গে জাপান ব্যাংক ফর ইন্টারন্যাশনাল কো-অপারেশনের (জেবিআইসি) গভর্নর আমাকাওয়া কাজুহিকোর এক গুরুত্বপূর্ণ বৈঠক অনুষ্ঠিত হয়েছে। বুধবার (২৮ অক্টোবর) জাপানের স্থানীয় সময় সকাল সাড়ে ৯টায় এই বৈঠক অনুষ্ঠিত হয়। বৈঠকে...",
       "sourceUrl": "https://www.bd-journal.com/bangladesh/314843/বিনিয়োগ-বাড়াতে-জেবিআইসি-গভর্নরের-সঙ্গে-প্রধানমন্ত্রীর-বৈঠক",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss04aa45aa589736",
-      "slug": "বাংলাদেশের-তিন-খাতে-বিনিয়োগ-নিয়ে-জাপানে",
-      "title": "বাংলাদেশের তিন খাতে বিনিয়োগ নিয়ে জাপানে আলোচনা",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87.jpg",
-      "publishedAt": "2026-10-28T03:44:08.363Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>জাপানের সঙ্গে অর্থনৈতিক সম্পর্ক জোরদার এবং বিনিয়োগের নতুন ক্ষেত্র উন্মোচনে আলোচনা করেছেন প্রধানমন্ত্রী তারেক রহমান। জাপানের স্থানীয় সময় বুধবার সকাল সাড়ে ৯টায় অনুষ্ঠিত এই বৈঠকে জাপান ব্যাংক ফর ইন্টারন্যাশনাল কো-অপারেশনের (জেবিআইসি) গভর্নর আমাকাওয়া কাজুহিকোর সঙ্গে দ্বিপাক্ষিক বিভিন্ন বিষয়ে মতবিনিময় করেন প্রধানমন্ত্রী। আলোচনার মূল কেন্দ্রে ছিল বাংলাদেশের জ্বালানি, তথ্য ও যোগাযোগপ্রযুক্তি এবং অবকাঠামো খাতে জাপানি বিনিয়োগ ও অর্থনৈতিক সহযোগিতা বৃদ্ধি করা।</p>\n<p>সাক্ষাতের এক পর্যায়ে প্রধানমন্ত্রীর পক্ষ থেকে বাংলাদেশে জেবিআইসির একটি কার্যালয় স্থাপনের অনুরোধ জানানো হয়। এই প্রস্তাবের প্রেক্ষিতে সংস্থাটির গভর্নর ইতিবাচক সাড়া দিয়েছেন এবং বিষয়টি গুরুত্বের সঙ্গে পর্যালোচনার আশ্বাস দিয়েছেন। বৈঠকে বাংলাদেশের উন্নয়ন যাত্রায় জেবিআইসির ধারাবাহিক সহায়তা ও বিভিন্ন প্রকল্পে তাদের অংশীদারিত্বের জন্য কৃতজ্ঞতা প্রকাশ করেন প্রধানমন্ত্রী। তিনি উল্লেখ করেন, জেবিআইসির অগ্রাধিকারপ্রাপ্ত প্রকল্পসমূহ বর্তমান সরকারের উন্নয়ন লক্ষ্যমাত্রার সঙ্গে সামঞ্জস্যপূর্ণ।</p>\n<p>প্রধানমন্ত্রী তারেক রহমান জানিয়েছেন, দেশে বিনিয়োগের পরিবেশ আরও সহজ ও আকর্ষণীয় করতে সরকার বদ্ধপরিকর। বিদেশি বিনিয়োগকারীদের জন্য ব্যবসাবান্ধব পরিবেশ নিশ্চিত করতে বিদ্যমান বিভিন্ন বিধিবিধান সংস্কার ও যুগোপযোগী করার প্রক্রিয়া চলমান রয়েছে। বিনিয়োগবান্ধব নীতি প্রণয়নের মাধ্যমে ব্যবসার সুযোগ সম্প্রসারণে সরকার সর্বোচ্চ অগ্রাধিকার দিচ্ছে বলেও তিনি জানান।</p>\n<p>উচ্চপর্যায়ের এই বৈঠকে বাংলাদেশের প্রতিনিধি দলের নেতৃত্ব দেন প্রধানমন্ত্রী। এ সময় অর্থ ও পরিকল্পনামন্ত্রী আমির খসরু মাহমুদ চৌধুরী, প্রধানমন্ত্রীর অর্থ ও পরিকল্পনাবিষয়ক উপদেষ্টা রাশেদ আল মাহমুদ তিতুমীর, পররাষ্ট্র প্রতিমন্ত্রী-১ হুমায়ুন কবির উপস্থিত ছিলেন। এছাড়া ইনভেস্ট বাংলাদেশের চেয়ারম্যান আশিক চৌধুরী, বাংলাদেশ ব্যাংকের গভর্নর মো. মোস্তাকুর রহমান, প্রধানমন্ত্রীর বিশেষ সহকারী ড. শাকিরুল ইসলাম খান এবং অতিরিক্ত প্রেস সচিব আতিকুর রহমান রুমনসহ সংশ্লিষ্ট ঊর্ধ্বতন কর্মকর্তারা উপস্থিত ছিলেন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জাপানি বিনিয়োগের এই উদ্যোগ দেশের প্রযুক্তিগত সক্ষমতা বৃদ্ধিতে সহায়ক ভূমিকা রাখবে, যা সাধারণ ব্যবহারকারীদের জন্য ডিজিটাল সেবা আরও সহজলভ্য ও উন্নত করবে। মানসম্মত অবকাঠামো ও প্রযুক্তির সমন্বয় দীর্ঘমেয়াদে প্রযুক্তি খাতের কর্মসংস্থান ও সেবার মানোন্নয়ন নিশ্চিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/539676\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "বাংলাদেশের জ্বালানি, তথ্য ও যোগাযোগপ্রযুক্তি (আইসিটি) এবং অবকাঠামো খাতে বিনিয়োগ ও অর্থনৈতিক সহযোগিতা বাড়ানোর বিষয়ে জাপান ব্যাংক ফর ইন্টারন্যাশনাল কো-অপারেশনের (...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/539676",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssf3c588d95c8ac9",
-      "slug": "ইউরোপের-ট্রেনের-সঙ্গে-বন্দে-ভারতের-তুলনা",
-      "title": "ইউরোপের ট্রেনের সঙ্গে বন্দে ভারতের তুলনা করে যা জানালেন পোল্যান্ডের পর্যটক",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%89%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE.webp",
-      "publishedAt": "2026-10-28T03:44:08.345Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ভারতের ট্রেন পরিষেবা নিয়ে নিজের অভিজ্ঞতা জানিয়ে আলোচনায় এসেছেন পোল্যান্ডের ভ্রমণবিষয়ক কনটেন্ট ক্রিয়েটর ডমিনিকা পাতালাস-কালরা। বন্দে ভারত এক্সপ্রেসে ভ্রমণের পর ইউরোপের ট্রেনের সঙ্গে ভারতের এই ট্রেনের খাবার, আসনের আরাম ও সময়ানুবর্তিতার তুলনা করেছেন তিনি। তার অভিজ্ঞতায়, কয়েকটি ক্ষেত্রে বন্দে ভারতের পরি</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভারতীয় রেল পরিষেবার এমন ইতিবাচক আন্তর্জাতিক প্রচার আঞ্চলিক যোগাযোগ ব্যবস্থায় বাংলাদেশের জন্য নতুন সম্ভাবনার ইঙ্গিত দেয়। প্রতিবেশী দেশগুলোর উন্নত রেল অবকাঠামো থেকে শিক্ষা নিয়ে বাংলাদেশও কানেক্টিভিটি ও যাত্রীসেবার মানোন্নয়নে দ্বিপাক্ষিক সহযোগিতা বাড়াতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/977083/%E0%A6%87%E0%A6%89%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AF%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ভারতের ট্রেন পরিষেবা নিয়ে নিজের অভিজ্ঞতা জানিয়ে আলোচনায় এসেছেন পোল্যান্ডের ভ্রমণবিষয়ক কনটেন্ট ক্রিয়েটর ডমিনিকা পাতালাস-কালরা। বন্দে ভারত এক্সপ্রেসে ভ্রমণের পর ইউরোপের ট্রেনের সঙ্গে ভারতের এই ট্রেনের খাবার, আসনের আরাম ও সময়ানুবর্তিতার তুলনা করেছেন তিনি। তার অভিজ্ঞতায়, কয়েকটি ক্ষেত্রে বন্দে ভারতের পরি",
-      "sourceUrl": "https://www.banglatribune.com/journey/977083/%E0%A6%87%E0%A6%89%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AF%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss525d665df47f36",
-      "slug": "তিন-বন্দুকধারী-দেহরক্ষীসহসহ-বেলুচ-রাজপু",
-      "title": "তিন বন্দুকধারী দেহরক্ষীসহসহ বেলুচ রাজপুত্রকে অপহরণ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%95%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%A6%E0%A7%87%E0%A6%B9%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%80%E0%A6%B8%E0%A6%B9%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%9A-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AA%E0%A7%81.webp",
-      "publishedAt": "2026-10-28T03:44:08.324Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>পাকিস্তানের অশান্ত বেলুচিস্তান প্রদেশ থেকে নিজের তিন বন্দুকধারী দেহরক্ষীসহ কালাতের বর্তমান খানের ছেলে শাহজাদা মুহাম্মদ খান আহমেদজাই অপহৃত হয়েছেন। মঙ্গলবার (২৭ অক্টোবর) পুলিশের তরফ থেকে এই তথ্য জানানো হয়। বুধবার ভারতীয় সংবাদমাধ্যম এনডিটিভির এক প্রতিবেদন থেকে এ তথ্য জানা যায়। কোয়েটার পুলিশ সদর দপ্তর থ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বেলুচিস্তানে প্রভাবশালীদের অপহরণ জননিরাপত্তার চরম অবনতি ও রাজনৈতিক অস্থিতিশীলতার ইঙ্গিত দেয়। স্থানীয়দের জন্য এটি ভীতিকর পরিস্থিতি তৈরি করেছে, তাই নিজ এলাকায় সতর্ক থাকা ও প্রশাসনের নিরাপত্তা জোরদারে চাপ সৃষ্টি করা এখন জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817712/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%95%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%A6%E0%A7%87%E0%A6%B9%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%80%E0%A6%B8%E0%A6%B9%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%9A-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B9%E0%A6%B0%E0%A6%A3\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "পাকিস্তানের অশান্ত বেলুচিস্তান প্রদেশ থেকে নিজের তিন বন্দুকধারী দেহরক্ষীসহ কালাতের বর্তমান খানের ছেলে শাহজাদা মুহাম্মদ খান আহমেদজাই অপহৃত হয়েছেন। মঙ্গলবার (২৭ অক্টোবর) পুলিশের তরফ থেকে এই তথ্য জানানো হয়। বুধবার ভারতীয় সংবাদমাধ্যম এনডিটিভির এক প্রতিবেদন থেকে এ তথ্য জানা যায়। কোয়েটার পুলিশ সদর দপ্তর থ",
-      "sourceUrl": "https://www.ittefaq.com.bd/817712/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%95%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%A6%E0%A7%87%E0%A6%B9%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%80%E0%A6%B8%E0%A6%B9%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%9A-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%87-%E0%A6%85%E0%A6%AA%E0%A6%B9%E0%A6%B0%E0%A6%A3",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss0f35fb40fe2451",
-      "slug": "প্রতিদিনের-ভাতের-ফ্যানেই-ত্বকের-যত্ন",
-      "title": "প্রতিদিনের ভাতের ফ্যানেই ত্বকের যত্ন!",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8.webp",
-      "publishedAt": "2026-10-28T03:29:08.253Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সুন্দর, উজ্জ্বল ও মসৃণ ত্বক পেতে দামি প্রসাধনী ব্যবহার করেন অনেকেই। অথচ রান্নাঘরেই প্রতিদিন তৈরি হওয়া একটি উপাদান নিয়ে রয়েছে নানা আলোচনা। সেটি হলো ভাতের ফ্যান বা মাড়। ত্বকের আর্দ্রতা ধরে রাখা ও সুস্থতা বজায় রাখতে এর কিছু উপাদান ভূমিকা রাখে। তবে ভাতের ফ্যান খেলেই ‘গ্লাস স্কিন’ পাওয়া যাবে, এমন দ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রসাধনীর উচ্চমূল্যের বাজারে ভাতের ফ্যানের মতো সহজলভ্য উপাদানের ব্যবহার সাধারণ মানুষের জন্য সাশ্রয়ী বিকল্প হতে পারে। তবে সামাজিক মাধ্যমে ছড়িয়ে পড়া অতিশয়োক্তির বিভ্রান্তি থেকে বাঁচতে এর সঠিক ব্যবহারবিধি ও সীমাবদ্ধতা সম্পর্কে সচেতন থাকা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/977081/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সুন্দর, উজ্জ্বল ও মসৃণ ত্বক পেতে দামি প্রসাধনী ব্যবহার করেন অনেকেই। অথচ রান্নাঘরেই প্রতিদিন তৈরি হওয়া একটি উপাদান নিয়ে রয়েছে নানা আলোচনা। সেটি হলো ভাতের ফ্যান বা মাড়। ত্বকের আর্দ্রতা ধরে রাখা ও সুস্থতা বজায় রাখতে এর কিছু উপাদান ভূমিকা রাখে। তবে ভাতের ফ্যান খেলেই ‘গ্লাস স্কিন’ পাওয়া যাবে, এমন দ",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/977081/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A6%A4%E0%A7%8D%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss7a7e50d952192c",
-      "slug": "১-হাজার-৫০-টাকার-সার-১৬০০-টাকায়-মিলছে-না-অন",
-      "title": "১ হাজার ৫০ টাকার সার ১৬০০ টাকায় মিলছে না, অনিশ্চয়তায় পেঁয়াজ চাষ",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A7%A7-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A7%AB%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A7%A7%E0%A7%AC%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%85%E0%A6%A8.webp",
-      "publishedAt": "2026-10-28T03:29:08.248Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শীত মৌসুমে দেশের পেঁয়াজের বাজারে সরবরাহ স্বাভাবিক রাখতে গুরুত্বপূর্ণ ভূমিকা রাখে ফরিদপুর ও পাবনা অঞ্চলে উৎপাদিত মুড়িকাটা পেঁয়াজ। বর্ষার পানি নেমে যাওয়ার পর নতুন মৌসুমের আবাদ নিয়ে ব্যস্ত সময় পার করছেন কৃষকেরা। তবে সার ও জ্বালানির সংকট, শ্রমিকের বাড়তি মজুরি এবং উৎপাদন উপকরণের ঊর্ধ্বমুখী দামে বাড়ছে উৎ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সার ও উপকরণের আকাশচুম্বী দাম এবং তীব্র সংকট পেঁয়াজ চাষিদের উৎপাদন ব্যাহত করছে, যা অদূর ভবিষ্যতে বাজারে সরবরাহ ঘাটতি ও দাম বৃদ্ধির আশঙ্কা তৈরি করেছে। সময়মতো ন্যায্যমূল্যে উপকরণ নিশ্চিত করা না গেলে এর দায়ভার শেষ পর্যন্ত সাধারণ ভোক্তাকেই বহন করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/dhaka/977166/%E0%A7%A7-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A7%AB%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A7%A7%E0%A7%AC%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শীত মৌসুমে দেশের পেঁয়াজের বাজারে সরবরাহ স্বাভাবিক রাখতে গুরুত্বপূর্ণ ভূমিকা রাখে ফরিদপুর ও পাবনা অঞ্চলে উৎপাদিত মুড়িকাটা পেঁয়াজ। বর্ষার পানি নেমে যাওয়ার পর নতুন মৌসুমের আবাদ নিয়ে ব্যস্ত সময় পার করছেন কৃষকেরা। তবে সার ও জ্বালানির সংকট, শ্রমিকের বাড়তি মজুরি এবং উৎপাদন উপকরণের ঊর্ধ্বমুখী দামে বাড়ছে উৎ",
-      "sourceUrl": "https://www.banglatribune.com/country/dhaka/977166/%E0%A7%A7-%E0%A6%B9%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A7%AB%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A7%A7%E0%A7%AC%E0%A7%A6%E0%A7%A6-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssb011799a713f64",
-      "slug": "কক্সবাজারে-২৪-ঘণ্টা-পরও-নেভেনি-আগুন-সতর্",
-      "title": "কক্সবাজারে ২৪ ঘণ্টা পরও নেভেনি আগুন, সতর্কতা জারি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%A8%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D.webp",
-      "publishedAt": "2026-10-28T03:29:08.246Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>কক্সবাজারের উখিয়ার ইনানীতে গভীর নলকূপ স্থাপনের জন্য খননকাজের সময় ভূগর্ভ থেকে বের হওয়া গ্যাসে লাগা আগুন ২৪ ঘণ্টা পেরিয়েও নেভানো যায়নি। আগুনের শিখা বিদ্যুতের তারে ছড়িয়ে পড়ার আশঙ্কায় মনখালী থেকে পাটুয়ারটেক পর্যন্ত প্রায় ১৫ কিলোমিটার এলাকায় বিদ্যুৎ সরবরাহ বন্ধ রাখা হয়েছে। ঝুঁকি এড়াতে ঘটনাস্থলের চারপাশের</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভূগর্ভস্থ গ্যাসের অনিয়ন্ত্রিত নিঃসরণ স্থানীয় জনজীবন ও অবকাঠামোর জন্য বড় ধরনের ঝুঁকি তৈরি করেছে। বিদ্যুৎ সরবরাহ বিচ্ছিন্ন থাকায় জনদুর্ভোগ বাড়লেও প্রাণহানি এড়াতে এলাকাবাসীকে জরুরি ভিত্তিতে নিরাপদ দূরত্ব বজায় রেখে সতর্ক অবস্থানে থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/977200/%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%A8%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A7%A7%E0%A7%AB\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "কক্সবাজারের উখিয়ার ইনানীতে গভীর নলকূপ স্থাপনের জন্য খননকাজের সময় ভূগর্ভ থেকে বের হওয়া গ্যাসে লাগা আগুন ২৪ ঘণ্টা পেরিয়েও নেভানো যায়নি। আগুনের শিখা বিদ্যুতের তারে ছড়িয়ে পড়ার আশঙ্কায় মনখালী থেকে পাটুয়ারটেক পর্যন্ত প্রায় ১৫ কিলোমিটার এলাকায় বিদ্যুৎ সরবরাহ বন্ধ রাখা হয়েছে। ঝুঁকি এড়াতে ঘটনাস্থলের চারপাশের",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/977200/%E0%A6%95%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%A8%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A7%A7%E0%A7%AB",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
