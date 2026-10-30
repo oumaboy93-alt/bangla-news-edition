@@ -1,6 +1,6 @@
 {
-  "version": 1240,
-  "updatedAt": "2026-10-30T12:25:59.985Z",
+  "version": 1241,
+  "updatedAt": "2026-10-30T12:38:30.409Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rssb125f8b2af6bce",
+      "slug": "গরুর-হাটের-কার্যালয়ে-মুখোশধারীদের-গুলিত",
+      "title": "গরুর হাটের কার্যালয়ে মুখোশধারীদের গুলিতে মামা-ভাগনে নিহত",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-10-30T12:29:16.256Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>পাবনা সদর উপজেলার আতাইকুলা থানার পুষ্পপাড়া গরুর হাটের কার্যালয়ে ১০ থেকে ১২ জন মুখোশধারী দুর্বৃত্ত অতর্কিত হামলা চালিয়ে দুজনকে গুলি করে হত্যা করেছে। বৃহস্পতিবার (২৯ অক্টোবর) সন্ধ্যা পৌনে সাতটার দিকের এ ঘটনায় নিহতরা হলেন, কার্যক্রম...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনবহুল হাটের কার্যালয়ে এমন নৃশংস হত্যাকাণ্ড জনমনে গভীর আতঙ্ক ও নিরাপত্তার সংকট তৈরি করেছে। স্থানীয় প্রশাসনকে অবিলম্বে অপরাধীদের আইনের আওতায় এনে জননিরাপত্তা নিশ্চিত করতে হবে এবং সর্বস্তরের মানুষকে এ ধরনের অপরাধের বিরুদ্ধে সচেতন ও সোচ্চার হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314967/গরুর-হাটের-কার্যালয়ে-মুখোশধারীদের-গুলিতে-মামা-ভাগনে-নিহত\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "পাবনা সদর উপজেলার আতাইকুলা থানার পুষ্পপাড়া গরুর হাটের কার্যালয়ে ১০ থেকে ১২ জন মুখোশধারী দুর্বৃত্ত অতর্কিত হামলা চালিয়ে দুজনকে গুলি করে হত্যা করেছে। বৃহস্পতিবার (২৯ অক্টোবর) সন্ধ্যা পৌনে সাতটার দিকের এ ঘটনায় নিহতরা হলেন, কার্যক্রম...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314967/গরুর-হাটের-কার্যালয়ে-মুখোশধারীদের-গুলিতে-মামা-ভাগনে-নিহত",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss1bc4eeb2d8caec",
+      "slug": "তাহসিফের-পরিবার-না-করলে-পুলিশ-বাদী-হয়ে-মা",
+      "title": "তাহসিফের পরিবার না করলে পুলিশ বাদী হয়ে মামলা করবে: নৌপুলিশ প্রধান",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%B8%E0%A6%BF%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE.webp",
+      "publishedAt": "2026-10-30T12:29:16.246Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>বিমানবাহিনীর সাবেক ফ্লাইট লেফটেন্যান্ট কে এম তাহসিফ সাউরির (২৮) মরদেহ উদ্ধারের ঘটনায় এখনও মামলা করেনি তার পরিবার। পরিবারের পক্ষ থেকে মামলা করার বিষয়ে অপেক্ষা করছে পুলিশ। তবে পরিবার যদি মামলা না করে, তাহলে পুলিশ বাদী হয়ে মামলা করার সিদ্ধান্ত নেওয়া হবে বলে জানিয়েছেন নৌ পুলিশের প্রধান অতিরিক্ত আইজিপি মো. রেজাউল করিম। শুক্রবার (৩০ অক্টোবর) বিকালে তিনি বাংলা ট্রিবিউনকে জানান, তাহসিফের মৃত্যুর ঘটনায়... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/977735/%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%B8%E0%A6%BF%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%AC%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "বিমানবাহিনীর সাবেক ফ্লাইট লেফটেন্যান্ট কে এম তাহসিফ সাউরির (২৮) মরদেহ উদ্ধারের ঘটনায় এখনও মামলা করেনি তার পরিবার। পরিবারের পক্ষ থেকে মামলা করার বিষয়ে অপেক্ষা করছে পুলিশ। তবে পরিবার যদি মামলা না করে, তাহলে পুলিশ বাদী হয়ে মামলা করার সিদ্ধান্ত নেওয়া হবে বলে জানিয়েছেন নৌ পুলিশের প্রধান অতিরিক্ত আইজিপি ম",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/977735/%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%B8%E0%A6%BF%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%80-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%AC%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss6dcf31b7b0dc38",
+      "slug": "এনভিডিয়া-প্রধানকে-ঘিরে-চীনা-গুপ্তচর-চক্",
+      "title": "এনভিডিয়া প্রধানকে ঘিরে চীনা গুপ্তচর চক্রান্তের খবর ভিত্তিহীন: বেইজিং",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%A8%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%98%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%9A%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D.webp",
+      "publishedAt": "2026-10-30T12:29:16.242Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>এনভিডিয়ার প্রধান নির্বাহী জেনসেন হুয়াংকে লক্ষ্য করে চীনা গুপ্তচর চক্রান্তের যে দাবি করা হয়েছে, তা ভিত্তিহীন জল্পনা বলে উড়িয়ে দিয়েছে বেইজিং। শুক্রবার (৩০ অক্টোবর) চীনের পররাষ্ট্র মন্ত্রণালয় এ কথা জানায়। তুরস্কের সরকারি সংবাদমাধ্যম টিআরটি ওয়ার্ল্ড এ খবর জানিয়েছে। নিয়মিত ব্রিফিংয়ে মন্ত্রণালয়</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তিগত আধিপত্যের বৈশ্বিক লড়াইয়ে এমন অভিযোগ দুই পরাশক্তির মধ্যে অবিশ্বাসের দেয়াল আরও শক্তিশালী করবে। বাংলাদেশের মতো উন্নয়নশীল দেশের জন্য বিশ্ববাজারের এই অস্থিরতা ও ভূ-রাজনৈতিক মেরুকরণ সতর্কতার সাথে পর্যবেক্ষণ করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/asia/977736/%E0%A6%8F%E0%A6%A8%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%98%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%9A%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "এনভিডিয়ার প্রধান নির্বাহী জেনসেন হুয়াংকে লক্ষ্য করে চীনা গুপ্তচর চক্রান্তের যে দাবি করা হয়েছে, তা ভিত্তিহীন জল্পনা বলে উড়িয়ে দিয়েছে বেইজিং। শুক্রবার (৩০ অক্টোবর) চীনের পররাষ্ট্র মন্ত্রণালয় এ কথা জানায়। তুরস্কের সরকারি সংবাদমাধ্যম টিআরটি ওয়ার্ল্ড এ খবর জানিয়েছে। নিয়মিত ব্রিফিংয়ে মন্ত্রণালয়",
+      "sourceUrl": "https://www.banglatribune.com/foreign/asia/977736/%E0%A6%8F%E0%A6%A8%E0%A6%AD%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%98%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A6%BE-%E0%A6%97%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%9A%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
       "id": "rssc6aeec893623fb",
       "slug": "পাবনায়-বিলে-বজ্রপাতে-একসঙ্গে-৬-তরুণের-মৃ",
       "title": "পাবনায় বিলে বজ্রপাতে একসঙ্গে ৬ তরুণের মৃত্যু, আহত ৩",
@@ -73,7 +121,7 @@
       "title": "ডেঙ্গুতে আরও ৩ জনের মৃত্যু",
       "category": "চাকরি",
       "lead": false,
-      "image": "",
+      "image": "images/health.jpg",
       "publishedAt": "2026-10-30T12:14:15.970Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -89,7 +137,7 @@
       "title": "স্বরাষ্ট্র ও জ্বালানিমন্ত্রী পদত্যাগ না করলে আমাদের মিছিল বড় হবে: নাহিদ",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "",
+      "image": "images/economy.jpg",
       "publishedAt": "2026-10-30T12:14:15.969Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -2782,7 +2830,7 @@
       "tags": [
         "ইত্তেফাক"
       ],
-      "body": "<p>ইসরায়েলের পার্লামেন্ট (নেসেট) নির্বাচনের ভোট গণনা প্রায় শেষ পর্যায়ে পৌঁছালেও কোনো দল বা জোট সরকার গঠনের জন্য প্রয়োজনীয় ৬১টি আসনের একক সংখ্যাগরিষ্ঠতা পেতে ব্যর্থ হয়েছে। ফলে নতুন সরকার কে গঠন করবে কিংবা পরবর্তী প্রধানমন্ত্রী কে হবেন, তা নিয়ে তীব্র রাজনৈতিক অনিশ্চয়তা ও জটিল সমীকরণ দেখা দিয়েছে। প্রায় ৯৭ শতাংশ ভোট গণনা শেষে প্রধানমন্ত্রী বেনিয়ামিন নেতানিয়াহুর নেতৃত্বাধীন জোট ৫৩টি আসন, গাদি... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/818065/%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B9%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%9F%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%AC-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "body": "<p>ইসরায়েলের পার্লামেন্ট (নেসেট) নির্বাচনের ভোট গণনা প্রায় শেষ পর্যায়ে পৌঁছালেও কোনো দল বা জোট সরকার গঠনের জন্য প্রয়োজনীয় ৬১টি আসনের একক সংখ্যাগরিষ্ঠতা পেতে ব্যর্থ হয়েছে। ফলে নতুন সরকার কে গঠন করবে কিংবা পরবর্তী প্রধানমন্ত্রী কে হবেন, তা নিয়ে তীব্র রাজনৈতিক অনিশ্চয়তা ও জটিল সমীকরণ দেখা দিয়েছে। প্রায় </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ইসরায়েলের রাজনৈতিক অচলাবস্থা দেশটির অভ্যন্তরীণ স্থিতিশীলতাকে চরম ঝুঁকির মুখে ফেলেছে, যা মধ্যপ্রাচ্যের ভূ-রাজনীতিতে বড় ধরনের প্রভাব ফেলতে পারে। সরকার গঠনে ব্যর্থতা সাধারণ নাগরিকদের জনসেবা ও অর্থনৈতিক নিরাপত্তাকে দীর্ঘমেয়াদী অনিশ্চয়তায় ঠেলে দিচ্ছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/818065/%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B9%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%9F%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%AC-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "ইসরায়েলের পার্লামেন্ট (নেসেট) নির্বাচনের ভোট গণনা প্রায় শেষ পর্যায়ে পৌঁছালেও কোনো দল বা জোট সরকার গঠনের জন্য প্রয়োজনীয় ৬১টি আসনের একক সংখ্যাগরিষ্ঠতা পেতে ব্যর্থ হয়েছে। ফলে নতুন সরকার কে গঠন করবে কিংবা পরবর্তী প্রধানমন্ত্রী কে হবেন, তা নিয়ে তীব্র রাজনৈতিক অনিশ্চয়তা ও জটিল সমীকরণ দেখা দিয়েছে। প্রায় ",
       "sourceUrl": "https://www.ittefaq.com.bd/818065/%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B9%E0%A7%81%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%9F%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%AC-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A8",
       "sourceName": "ইত্তেফাক"
@@ -2798,7 +2846,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;স্পেনে ভয়াবহ ট্রেন দুর্ঘটনা ঘটল কী কারণে&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;স্পেনে ভয়াবহ ট্রেন দুর্ঘটনা ঘটল কী কারণে&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদেশের মাটিতে এ ধরনের দুর্ঘটনা রেল যোগাযোগ ব্যবস্থার নিরাপত্তা ও প্রযুক্তিগত ত্রুটি নিয়ে নতুন করে সতর্কবার্তা দেয়। আমাদের স্থানীয় রেল অবকাঠামোতেও নিয়মিত রক্ষণাবেক্ষণ ও আধুনিক প্রযুক্তি নিশ্চিত করা জরুরি, যাতে জননিরাপত্তা বিঘ্নিত না হয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5\" target=\"_blank\"&gt;স্পেনে ভয়াবহ ট্রেন দুর্ঘটনা ঘটল কী কারণে&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50Tl9QZU9ORlZiOUhOWktKejIxWDRXSTYwSTFDdVh6OTJJRkg1d2dzRG9hNWNGNEc1VEgzSC16aUI5bENSbEpEZ2x6N3RUcU54MmhBcXVzZ0R5Zw?oc=5",
       "sourceName": "যুগান্তর"
@@ -2814,7 +2862,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5&quot; target=&quot;_blank&quot;&amp;gt;তাহসিফের লাশ উদ্ধারের পর বন্ধুর পোস্ট, উঠে এলো কিছু ‘রহস্যময় প্রশ্ন’&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5&quot; target=&quot;_blank&quot;&amp;gt;তাহসিফের লাশ উদ্ধারের পর বন্ধুর পোস্ট, উঠে এলো কিছু ‘রহস্যময় প্রশ্ন’&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সামাজিক যোগাযোগমাধ্যমে রহস্যময় পোস্ট জনমনে বিভ্রান্তি ও উদ্বেগের জন্ম দেয়, যা তদন্ত প্রক্রিয়াকে প্রভাবিত করতে পারে। নির্ভরযোগ্য তথ্যের জন্য আইনপ্রয়োগকারী সংস্থার ওপর ভরসা রাখুন এবং গুজবে কান না দিয়ে ধৈর্য ধারণ করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5\" target=\"_blank\"&gt;তাহসিফের লাশ উদ্ধারের পর বন্ধুর পোস্ট, উঠে এলো কিছু ‘রহস্যময় প্রশ্ন’&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XU3N3NENPeHE2M3dtQm5lVWZ3di12ODZYdUs4WFdLYm52QW4wR0ZDVFRvWkJFdTlVVjIzNzBEdFUxaE9qMkVpdW5kVDJLRWJoSGFj?oc=5",
       "sourceName": "যুগান্তর"
@@ -2846,7 +2894,7 @@
       "tags": [
         "প্রথম আলো"
       ],
-      "body": "<p>রাজধানীর রামপুরা ব্রিজে বাসচালকদের বেপরোয়া প্রতিযোগিতার বলি হয়েছেন মো. শহীদুল্লাহ নামের এক ব্যক্তি। বৃহস্পতিবার দুপুর সাড়ে ১২টার দিকে দুই বাসের পাল্লাপাল্লির মাঝে পড়ে গিয়ে তিনি মারাত্মকভাবে আহত হন। ঘটনার পর তাকে উদ্ধার করে স্থানীয় একটি হাসপাতালে নেওয়া হয়েছিল। অবস্থার অবনতি হলে রাতে তাকে ঢাকা মেডিকেল কলেজ হাসপাতালের জরুরি বিভাগে নিয়ে যাওয়া হয়, যেখানে দায়িত্বরত চিকিৎসকরা তাকে মৃত ঘোষণা করেন।</p>\n<p>৩৭ বছর বয়সী নিহত শহীদুল্লাহ পেশায় একজন বৈদ্যুতিক মিস্ত্রি ছিলেন। তিনি কুয়েত মৌসুমি ইন্ডাস্ট্রিজ নামের একটি কারখানায় কর্মরত ছিলেন। তার পরিবারের পক্ষ থেকে জানানো হয়েছে, তিনি রাজধানীর ডেমরার নড়াইবাগ এলাকায় বসবাস করতেন। নিহতের স্বজনদের ভাষ্যমতে, তিনি গত শনিবার চীন সফরে গিয়েছিলেন এবং দুর্ঘটনার দিন বৃহস্পতিবার বেলা ১১টার দিকেই দেশে ফিরেছিলেন। বাড়ি ফেরার পথে রামপুরা ব্রিজে বাস থেকে নামার পরপরই তিনি মর্মান্তিক এই দুর্ঘটনার শিকার হন।</p>\n<p>দুর্ঘটনার খবর পেয়ে রামপুরা থানার পুলিশ ঘটনাস্থলে পৌঁছায়। এই বিষয়ে থানার উপপরিদর্শক (এসআই) সাইফুল ইসলাম জানিয়েছেন, পুরো বিষয়টি আইনগতভাবে খতিয়ে দেখা হয়েছে। নিহতের পরিবারের পক্ষ থেকে কোনো অভিযোগ না থাকায় এবং তাদের লিখিত আবেদনের ভিত্তিতে আইনি প্রক্রিয়া শেষে ময়নাতদন্ত ছাড়াই মরদেহ স্বজনদের কাছে হস্তান্তর করা হয়েছে। বৃহস্পতিবার রাতেই তার পরিবারের সদস্যরা মরদেহ বুঝে নিয়েছেন।</p>\n<p>সড়কে বাসের পাল্লাপাল্লির কারণে প্রাণহানির এমন ঘটনায় এলাকায় শোকের ছায়া নেমে এসেছে। প্রত্যক্ষদর্শীদের মতে, যাতায়াতের সময় চালকদের এমন প্রতিযোগিতামূলক মনোভাব প্রায়শই সাধারণ পথচারীদের জীবনের ঝুঁকি বাড়িয়ে দিচ্ছে। আইন প্রয়োগকারী সংস্থাগুলোর পক্ষ থেকে এই ধরনের ঘটনার পুনরাবৃত্তি রোধে কঠোর ব্যবস্থা নেওয়ার দাবি জানিয়েছেন স্থানীয়রা।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/9yuqzxo3im\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "body": "<p>রাজধানীর রামপুরা ব্রিজে বাসচালকদের বেপরোয়া প্রতিযোগিতার বলি হয়েছেন মো. শহীদুল্লাহ নামের এক ব্যক্তি। বৃহস্পতিবার দুপুর সাড়ে ১২টার দিকে দুই বাসের পাল্লাপাল্লির মাঝে পড়ে গিয়ে তিনি মারাত্মকভাবে আহত হন। ঘটনার পর তাকে উদ্ধার করে স্থানীয় একটি হাসপাতালে নেওয়া হয়েছিল। অবস্থার অবনতি হলে রাতে তাকে ঢাকা মেডিকেল কলেজ হাসপাতালের জরুরি বিভাগে নিয়ে যাওয়া হয়, যেখানে দায়িত্বরত চিকিৎসকরা তাকে মৃত ঘোষণা করেন।</p>\n<p>৩৭ বছর বয়সী নিহত শহীদুল্লাহ পেশায় একজন বৈদ্যুতিক মিস্ত্রি ছিলেন। তিনি কুয়েত মৌসুমি ইন্ডাস্ট্রিজ নামের একটি কারখানায় কর্মরত ছিলেন। তার পরিবারের পক্ষ থেকে জানানো হয়েছে, তিনি রাজধানীর ডেমরার নড়াইবাগ এলাকায় বসবাস করতেন। নিহতের স্বজনদের ভাষ্যমতে, তিনি গত শনিবার চীন সফরে গিয়েছিলেন এবং দুর্ঘটনার দিন বৃহস্পতিবার বেলা ১১টার দিকেই দেশে ফিরেছিলেন। বাড়ি ফেরার পথে রামপুরা ব্রিজে বাস থেকে নামার পরপরই তিনি মর্মান্তিক এই দুর্ঘটনার শিকার হন।</p>\n<p>দুর্ঘটনার খবর পেয়ে রামপুরা থানার পুলিশ ঘটনাস্থলে পৌঁছায়। এই বিষয়ে থানার উপপরিদর্শক (এসআই) সাইফুল ইসলাম জানিয়েছেন, পুরো বিষয়টি আইনগতভাবে খতিয়ে দেখা হয়েছে। নিহতের পরিবারের পক্ষ থেকে কোনো অভিযোগ না থাকায় এবং তাদের লিখিত আবেদনের ভিত্তিতে আইনি প্রক্রিয়া শেষে ময়নাতদন্ত ছাড়াই মরদেহ স্বজনদের কাছে হস্তান্তর করা হয়েছে। বৃহস্পতিবার রাতেই তার পরিবারের সদস্যরা মরদেহ বুঝে নিয়েছেন।</p>\n<p>সড়কে বাসের পাল্লাপাল্লির কারণে প্রাণহানির এমন ঘটনায় এলাকায় শোকের ছায়া নেমে এসেছে। প্রত্যক্ষদর্শীদের মতে, যাতায়াতের সময় চালকদের এমন প্রতিযোগিতামূলক মনোভাব প্রায়শই সাধারণ পথচারীদের জীবনের ঝুঁকি বাড়িয়ে দিচ্ছে। আইন প্রয়োগকারী সংস্থাগুলোর পক্ষ থেকে এই ধরনের ঘটনার পুনরাবৃত্তি রোধে কঠোর ব্যবস্থা নেওয়ার দাবি জানিয়েছেন স্থানীয়রা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সড়ক নিরাপত্তার চরম অবহেলা কেবল জননিরাপত্তাই বিঘ্নিত করছে না, বরং আন্তর্জাতিক অঙ্গনে দেশের ভাবমূর্তির ওপর নেতিবাচক প্রভাব ফেলছে। প্রবাসী নাগরিকদের এমন মর্মান্তিক মৃত্যু অভিবাসন ও কূটনৈতিক আস্থার ক্ষেত্রে একটি বড় চ্যালেঞ্জ। দায়িত্বশীল কর্তৃপক্ষের কঠোর তদারকি ও জবাবদিহি নিশ্চিত করাই এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/9yuqzxo3im\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "শহীদুল্লাহর ছোট ভাই জুয়েল রানা বলেন, তাঁর বড় ভাই গত শনিবার চীন ভ্রমণে গিয়েছিলেন। বৃহস্পতিবার বেলা ১১টার দিকে দেশে ফেরেন তিনি।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/9yuqzxo3im",
       "sourceName": "প্রথম আলো"
@@ -7970,54 +8018,6 @@
       "summary": "আগামী ৩ নভেম্বরের মার্কিন মধ্যবর্তী নির্বাচনের পর ইরানের বিরুদ্ধে একটি স্বল্পমেয়াদি কিন্তু তীব্র সামরিক অভিযানের জন্য প্রস্তুত থাকতে বেশ কয়েকটি উপসাগরীয় আরব দেশকে সতর্ক করেছে যুক্তরাষ্ট্র। বুধবার দ্য ওয়াল স্ট্রিট জার্নাল-এর এক প্রতিবেদনে এই তথ্য জানানো হয়েছে। যুক্তরাষ্ট্রের সঙ্গে যুদ্ধবিরতির কাতারি ",
       "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/977393/%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A7%80-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%AA%E0%A6%B0%E0%A6%87-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%A4%E0%A7%80%E0%A6%AC%E0%A7%8D%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf606ec806e025c",
-      "slug": "বেশি-বেতনে-চীনে-চাকরির-প্রলোভন-পাচারের-জ",
-      "title": "বেশি বেতনে চীনে চাকরির প্রলোভন, পাচারের জন্য আটকে রেখে ১২ নারীকে নির্যাতন",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9C.webp",
-      "publishedAt": "2026-10-28T17:44:09.146Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>উচ্চ বেতনের চাকরি ও নানা সুযোগ-সুবিধার লোভ দেখিয়ে চট্টগ্রাম থেকে ঢাকায় এনে আটকে রাখা ১২ জন নারীকে উদ্ধার করেছে স্পেশাল রেসপন্স ব্যাটালিয়ন (এসআরবি-১)। উদ্ধার হওয়া নারীদের বৈধ কাগজপত্র ও পাসপোর্ট ছাড়াই অবৈধভাবে চীনে পাচারের পরিকল্পনা চলছিল। বাসায় আটকে রেখে তাদের ওপর শারীরিক ও মানসিক নির্যাতনের প</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">চাকরির প্রলোভনে এমন অমানবিক পাচারচক্রের তৎপরতা আমাদের সামাজিক নিরাপত্তার চরম ঘাটতিকেই স্পষ্ট করে। সাধারণ মানুষকে সচেতন হতে হবে এবং যেকোনো চাকরির প্রস্তাব যাচাইয়ে সতর্ক থাকতে হবে। প্রশাসনকে পাচারকারী চক্রের মূল হোতাদের দ্রুত আইনের আওতায় আনতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817862/%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%86%E0%A6%9F%E0%A6%95%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "উচ্চ বেতনের চাকরি ও নানা সুযোগ-সুবিধার লোভ দেখিয়ে চট্টগ্রাম থেকে ঢাকায় এনে আটকে রাখা ১২ জন নারীকে উদ্ধার করেছে স্পেশাল রেসপন্স ব্যাটালিয়ন (এসআরবি-১)। উদ্ধার হওয়া নারীদের বৈধ কাগজপত্র ও পাসপোর্ট ছাড়াই অবৈধভাবে চীনে পাচারের পরিকল্পনা চলছিল। বাসায় আটকে রেখে তাদের ওপর শারীরিক ও মানসিক নির্যাতনের প",
-      "sourceUrl": "https://www.ittefaq.com.bd/817862/%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A7%87%E0%A6%A4%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%8B%E0%A6%AD%E0%A6%A8-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%86%E0%A6%9F%E0%A6%95%E0%A7%87",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss05131e40c3bd1c",
-      "slug": "আসামে-কনটেন্ট-ক্রিয়েটরের-রহস্যজনক-মৃত্য",
-      "title": "আসামে কনটেন্ট ক্রিয়েটরের রহস্যজনক মৃত্যু",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9F%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%9C%E0%A6%A8%E0%A6%95-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF.webp",
-      "publishedAt": "2026-10-28T17:44:09.144Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>ভারতের আসাম রাজ্যের তিনসুকিয়া জেলার কাকপাথারের বাসিন্দা ও সামাজিক যোগাযোগমাধ্যমের পরিচিত মুখ যুগমায়া দত্তের আকস্মিক মৃত্যু ঘিরে তৈরি হয়েছে রহস্য। লাইফস্টাইল ভ্লগ ও ট্রেন্ডিং রিল ভিডিওর মাধ্যমে পরিচিতি পাওয়া এই তরুণীর মৃত্যুর কারণ এখনো নিশ্চিত হওয়া যায়নি। ঘটনার তদন্তে তার মুঠোফোন জব্দ করেছে পুলিশ। সো</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সামাজিক যোগাযোগমাধ্যমে পরিচিত মুখগুলোর এমন অকাল মৃত্যু তরুণ প্রজন্মের নিরাপত্তা ও মানসিক স্বাস্থ্যের ঝুঁকিকেই সামনে আনছে। স্থানীয় বাসিন্দাদের উচিত গুজবে কান না দিয়ে সুষ্ঠু তদন্তের অপেক্ষায় থাকা এবং সাইবার জগতের নেতিবাচক প্রভাব থেকে সতর্ক থাকা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/817863/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9F%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%9C%E0%A6%A8%E0%A6%95-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "ভারতের আসাম রাজ্যের তিনসুকিয়া জেলার কাকপাথারের বাসিন্দা ও সামাজিক যোগাযোগমাধ্যমের পরিচিত মুখ যুগমায়া দত্তের আকস্মিক মৃত্যু ঘিরে তৈরি হয়েছে রহস্য। লাইফস্টাইল ভ্লগ ও ট্রেন্ডিং রিল ভিডিওর মাধ্যমে পরিচিতি পাওয়া এই তরুণীর মৃত্যুর কারণ এখনো নিশ্চিত হওয়া যায়নি। ঘটনার তদন্তে তার মুঠোফোন জব্দ করেছে পুলিশ। সো",
-      "sourceUrl": "https://www.ittefaq.com.bd/817863/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%95%E0%A6%A8%E0%A6%9F%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9F%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%9C%E0%A6%A8%E0%A6%95-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssdab150627c3c7d",
-      "slug": "ইবনে-সিনায়-চাকরির-সুযোগ-প্রভিডেন্ট-ফান্",
-      "title": "ইবনে সিনায় চাকরির সুযোগ, প্রভিডেন্ট ফান্ড-গ্র্যাচুইটিসহ রয়েছে নানান সুবিধা",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/rssdab150627c3c7d-1200x630.jpg",
-      "publishedAt": "2026-10-28T17:44:09.056Z",
-      "tags": [
-        "সরকারি দপ্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMi7wZBVV95cUxPdk9KRWhCSHVmWTEtMElrTjJFTkVtR1ZSTnBCRlY1NXhIMFZRQTRmZklVeXJoTnp5WU9KSkdEWkVjbWNhZFlDOUczU3lxTEJPTGdEX2Z5M2NEYjVpLURLallUR3J1dHdmVWQ2alZkTnMzT041NS16V0tHTUVaQ2RDWlo4Rl9RU1N6azVnVTF6R3lwbUVYR3lNalBkWW56MnVfZnZ3Y2lNZVVVS1R5QkxMWEFmRm1yRWZ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নিশ্চিত পেশাগত ভবিষ্যৎ ও আর্থিক নিরাপত্তার সন্ধানে থাকা প্রার্থীদের জন্য এমন সুযোগ অত্যন্ত ইতিবাচক। প্রভিডেন্ট ফান্ড ও গ্র্যাচুইটির মতো সুবিধাসমূহ দীর্ঘমেয়াদী কর্মজীবনের মানোন্নয়নে সহায়ক ভূমিকা পালন করবে। আগ্রহী প্রার্থীদের দ্রুত প্রস্তুতির মাধ্যমে এই সুযোগ কাজে লাগানো উচিত।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMi7wZBVV95cUxPdk9KRWhCSHVmWTEtMElrTjJFTkVtR1ZSTnBCRlY1NXhIMFZRQTRmZklVeXJoTnp5WU9KSkdEWkVjbWNhZFlDOUczU3lxTEJPTGdEX2Z5M2NEYjVpLURLallUR3J1dHdmVWQ2alZkTnMzT041NS16V0tHTUVaQ2RDWlo4Rl9RU1N6azVnVTF6R3lwbUVYR3lNalBkWW56MnVfZnZ3Y2lNZVVVS1R5QkxMWEFmRm1yRWZXOU43ZjI1amdDUVV5bFVCV3F4NmZxOEJvWHlmMXFVX01jYXctWF9RdVlEcHp6TkhQQjNZSHFYTzVSMmVnaUo4TnJLVjlCczlTTVQ1NUs1VHFVSXZwcmJhaTNuMnVEd29UckFyZUZlc041Q1g4aFpPMlp5bzRMVEJfVzg3SDhaYlNjSVRVSGtyTGZuM09xZnVSMGMwZ1lRa2x4V2dpLUdBazVGeTZxRnREWVpjRGdNMHlzamJZUVJVQWtiNmNEbWNkM3FzcW1XcE5mcFFCdUhFZHhJb3AtSkVPLWI1ZDcxNFU5c0RIS0w2akY2SmFwdS1VVkRoUkkzLTY1NWR0TkdBU1p3bmRabWdXSm96bVpVM1FrNzhnSnI2MmUtOVA5MVB1SlI2NG45MGt1d3o0VUpGNGludUIzSUphZzVOd2dzaDhGR0NWTzBYYXdvek1WSUVZNnZKS2x3eTNZQ253TWItbk1lcmtuZndtOWZhUFE4Yk9DM2lhVFlhbFJ6bGVJclRRd1VHZVZXaU5wbjVoSVNMOVB2cThORG1rZkk2Wmh4Q0hWY19IMEF3S05vTmE4WDF5cVg5VnRnSkh2LWhJekd3SkN5NTA0ejVrb2sySUVheE9GVW0xaWdnaUQ4UUFjS2QtZGJFamloRU9KMkJZdVhzY25DMVBGU1NsSFhPZ0tTNlMzOGNUeEJDTXZMMm9FS3padHh5Zk5lY2JpcjEtZmVTRTFQQ0FDUGpFekZQSjliZzFBSUlxZVZDRk5lWHoxUDdTVWxjNnBLY01vUGhvUzcyZm9tYWN2YW8tcmc5dGpFd1RCczNwcEpYTm92Z0I2dXNLLUtMZ1Y5ZmVUOVFnN1hMVzFkMndUSkNRdnd6V21vSDdFZFNUWC11SXloX0RsZzB0eHhKVzRHcDhMc0xaREZETFdhYXlNaVE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">সরকারি নিয়োগ</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMi7wZBVV95cUxPdk9KRWhCSHVmWTEtMElrTjJFTkVtR1ZSTnBCRlY1NXhIMFZRQTRmZklVeXJoTnp5WU9KSkdEWkVjbWNhZFlDOUczU3lxTEJPTGdEX2Z5M2NEYjVpLURLallUR3J1dHdmVWQ2alZkTnMzT041NS16V0tHTUVaQ2RDWlo4Rl9RU1N6azVnVTF6R3lwbUVYR3lNalBkWW56MnVfZnZ3Y2lNZVVVS1R5QkxMWEFmRm1yRWZ",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wZBVV95cUxPdk9KRWhCSHVmWTEtMElrTjJFTkVtR1ZSTnBCRlY1NXhIMFZRQTRmZklVeXJoTnp5WU9KSkdEWkVjbWNhZFlDOUczU3lxTEJPTGdEX2Z5M2NEYjVpLURLallUR3J1dHdmVWQ2alZkTnMzT041NS16V0tHTUVaQ2RDWlo4Rl9RU1N6azVnVTF6R3lwbUVYR3lNalBkWW56MnVfZnZ3Y2lNZVVVS1R5QkxMWEFmRm1yRWZXOU43ZjI1amdDUVV5bFVCV3F4NmZxOEJvWHlmMXFVX01jYXctWF9RdVlEcHp6TkhQQjNZSHFYTzVSMmVnaUo4TnJLVjlCczlTTVQ1NUs1VHFVSXZwcmJhaTNuMnVEd29UckFyZUZlc041Q1g4aFpPMlp5bzRMVEJfVzg3SDhaYlNjSVRVSGtyTGZuM09xZnVSMGMwZ1lRa2x4V2dpLUdBazVGeTZxRnREWVpjRGdNMHlzamJZUVJVQWtiNmNEbWNkM3FzcW1XcE5mcFFCdUhFZHhJb3AtSkVPLWI1ZDcxNFU5c0RIS0w2akY2SmFwdS1VVkRoUkkzLTY1NWR0TkdBU1p3bmRabWdXSm96bVpVM1FrNzhnSnI2MmUtOVA5MVB1SlI2NG45MGt1d3o0VUpGNGludUIzSUphZzVOd2dzaDhGR0NWTzBYYXdvek1WSUVZNnZKS2x3eTNZQ253TWItbk1lcmtuZndtOWZhUFE4Yk9DM2lhVFlhbFJ6bGVJclRRd1VHZVZXaU5wbjVoSVNMOVB2cThORG1rZkk2Wmh4Q0hWY19IMEF3S05vTmE4WDF5cVg5VnRnSkh2LWhJekd3SkN5NTA0ejVrb2sySUVheE9GVW0xaWdnaUQ4UUFjS2QtZGJFamloRU9KMkJZdVhzY25DMVBGU1NsSFhPZ0tTNlMzOGNUeEJDTXZMMm9FS3padHh5Zk5lY2JpcjEtZmVTRTFQQ0FDUGpFekZQSjliZzFBSUlxZVZDRk5lWHoxUDdTVWxjNnBLY01vUGhvUzcyZm9tYWN2YW8tcmc5dGpFd1RCczNwcEpYTm92Z0I2dXNLLUtMZ1Y5ZmVUOVFnN1hMVzFkMndUSkNRdnd6V21vSDdFZFNUWC11SXloX0RsZzB0eHhKVzRHcDhMc0xaREZETFdhYXlNaVE?oc=5",
-      "sourceName": "সরকারি নিয়োগ"
     }
   ],
   "ads": [
