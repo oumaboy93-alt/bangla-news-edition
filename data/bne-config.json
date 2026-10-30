@@ -1,6 +1,6 @@
 {
-  "version": 1238,
-  "updatedAt": "2026-10-30T11:30:54.176Z",
+  "version": 1239,
+  "updatedAt": "2026-10-30T11:41:27.988Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -681,7 +681,7 @@
       "title": "বিশ্ববাজারে জ্বালানি তেলের দাম ছাড়াল ১১৫ ডলার",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/30/5ef36ebaaff46d2bbd7871d1dcf5f2f5-6ae412e462177.jpg?jadewits_media_id=319811",
+      "image": "https://cdn.ittefaqbd.com/contents/cache/images/300x300x1/uploads/media/2026/10/30/5ef36ebaaff46d2bbd7871d1dcf5f2f5-6ae412e462177.jpg?jadewits_media_id=319811",
       "publishedAt": "2026-10-30T08:14:15.772Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1001,7 +1001,7 @@
       "title": "শাহবাগে এনসিপির গণবিক্ষোভ আজ, সর্বস্তরের মানুষকে অংশ নেওয়ার আহ্বান",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/30/d53ab0bf97e74369f679a755e6578b36-6ae4133adcff0.jpg?jadewits_media_id=319812",
+      "image": "https://cdn.ittefaqbd.com/contents/cache/images/300x300x1/uploads/media/2026/10/30/d53ab0bf97e74369f679a755e6578b36-6ae4133adcff0.jpg?jadewits_media_id=319812",
       "publishedAt": "2026-10-30T06:44:15.822Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1593,7 +1593,7 @@
       "title": "তিন মাসে রাজস্ব ঘাটতি ৪২ হাজার কোটি টাকা",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x0x1/uploads/media/2026/10/30/8eb3a487156e6b5f4b51609ac05a5d9d-6ae41af777e40.jpg?jadewits_media_id=319817",
+      "image": "images/economy.jpg",
       "publishedAt": "2026-10-30T03:29:15.618Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -1929,7 +1929,7 @@
       "title": "মূল্যবৃদ্ধির বোঝা বহন করিবে কে?",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/1200x630x1xxxxx1/uploads/media/2021/10/05/25f438e616ffb9b4ea6cac6720f7e99e-615bd6ff7ff0e.png",
+      "image": "images/economy.jpg",
       "publishedAt": "2026-10-30T01:44:15.310Z",
       "tags": [
         "ইত্তেফাক"
