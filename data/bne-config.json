@@ -1,6 +1,6 @@
 {
-  "version": 1283,
-  "updatedAt": "2026-11-05T20:09:42.232Z",
+  "version": 1284,
+  "updatedAt": "2026-11-05T20:20:54.995Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rss49bcc3c4b53da1",
+      "slug": "বাংলাদেশের-মতো-স্কোয়াডের-গভীরতা-আমাদের-ন",
+      "title": "বাংলাদেশের মতো স্কোয়াডের গভীরতা আমাদের নেই: ভুটানের কোচ",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A4%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AD%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A8.webp",
+      "publishedAt": "2026-11-05T20:14:24.386Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>বাংলাদেশের বিপক্ষে প্রথম এক ঘণ্টা সাধ্য মতো খেলেছে ভুটান। রক্ষণ সামলে মাঝে মধ্যে প্রতি-আক্রমণে উঠে কয়েকটি সুযোগও তৈরি করেছিল তারা। কিন্তু শেষ পর্যন্ত ফিটনেসের ঘাটতিতে আর পেরে ওঠেনি দলটি। ম্যাচের শেষে বাংলাদেশের কাছে ১-০ গোলে হারতে হয়েছে ভুটানকে। সাফ চ্যাম্পিয়নশিপে নিজেদের প্রথম ম্যাচে হারের পর দলের পারফরম্যান্সে অবশ্য সন্তুষ্ট ভুটানের কোচ গ্যারি মাইকেল ফিলিপস। খেলোয়াড়দের লড়াকু মানসিকতা ও... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/979105/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A4%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AD%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "বাংলাদেশের বিপক্ষে প্রথম এক ঘণ্টা সাধ্য মতো খেলেছে ভুটান। রক্ষণ সামলে মাঝে মধ্যে প্রতি-আক্রমণে উঠে কয়েকটি সুযোগও তৈরি করেছিল তারা। কিন্তু শেষ পর্যন্ত ফিটনেসের ঘাটতিতে আর পেরে ওঠেনি দলটি। ম্যাচের শেষে বাংলাদেশের কাছে ১-০ গোলে হারতে হয়েছে ভুটানকে। সাফ চ্যাম্পিয়নশিপে নিজেদের প্রথম ম্যাচে হারের পর দলের ",
+      "sourceUrl": "https://www.banglatribune.com/sport/football/979105/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A4%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%AD%E0%A7%80%E0%A6%B0%E0%A6%A4%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss7438bb23bd46f0",
+      "slug": "মুসলিমবান্ধব-পর্যটনের-বৈশ্বিক-গন্তব্য-হ",
+      "title": "মুসলিমবান্ধব পর্যটনের বৈশ্বিক গন্তব্য হতে চায় মালয়েশিয়ার পাহাং রাজ্য",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "images/international.jpg",
+      "publishedAt": "2026-11-05T20:14:24.356Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oNldGMkEyX1E3SDZDTmlhMkpUWEQyZnNBN0htU0tMbndjTEZXQVFTSTlNQ0NhVWkxM2VBdWdqOTRZamdZemFOYjJYRmRvZXQzd0pid0hfV2NsZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মুসলিমবান্ধব পর্যটনের বৈশ্বিক গন্তব্য হতে চায় মালয়েশিয়ার পাহাং রাজ্য&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oNldGMkEyX1E3SDZDTmlhMkpUWEQyZnNBN0htU0tMbndjTEZXQVFTSTlNQ0NhVWkxM2VBdWdqOTRZamdZemFOYjJYRmRvZXQzd0pid0hfV2NsZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oNldGMkEyX1E3SDZDTmlhMkpUWEQyZnNBN0htU0tMbndjTEZXQVFTSTlNQ0NhVWkxM2VBdWdqOTRZamdZemFOYjJYRmRvZXQzd0pid0hfV2NsZw?oc=5\" target=\"_blank\"&gt;মুসলিমবান্ধব পর্যটনের বৈশ্বিক গন্তব্য হতে চায় মালয়েশিয়ার পাহাং রাজ্য&lt;/a&gt;&nbsp;&nbsp;&lt;fo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oNldGMkEyX1E3SDZDTmlhMkpUWEQyZnNBN0htU0tMbndjTEZXQVFTSTlNQ0NhVWkxM2VBdWdqOTRZamdZemFOYjJYRmRvZXQzd0pid0hfV2NsZw?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
       "id": "rss90a56673093b69",
       "slug": "বাংলাদেশ-ও-যুক্তরাষ্ট্রের-যৌথ-বিমান-মহড়া",
       "title": "বাংলাদেশ ও যুক্তরাষ্ট্রের যৌথ বিমান মহড়া ‘কোপ সাউথ’ সম্পন্ন",
@@ -97,6 +129,22 @@
       "body": "<p>আসামি মির্জা আজম পলাতক। তাঁর বিরুদ্ধে ট্রাইব্যুনাল গ্রেপ্তারি পরোয়ানা জারি করেছেন। গ্রেপ্তার থাকা বাকি ছয় আসামিকে ২২ নভেম্বর হাজির করার নির্দেশ দিয়েছেন ট্রাইব্যুনাল।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/yd0mwooclk\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "আসামি মির্জা আজম পলাতক। তাঁর বিরুদ্ধে ট্রাইব্যুনাল গ্রেপ্তারি পরোয়ানা জারি করেছেন। গ্রেপ্তার থাকা বাকি ছয় আসামিকে ২২ নভেম্বর হাজির করার নির্দেশ দিয়েছেন ট্রাইব্যুনাল।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/yd0mwooclk",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss4afe9dc4cebce1",
+      "slug": "ক্যালিফোর্নিয়ায়-১৫১-বছর-পর-লাতিনো-গভর্নর",
+      "title": "ক্যালিফোর্নিয়ায় ১৫১ বছর পর লাতিনো গভর্নর বেসেরা, চ্যালেঞ্জ কতটা সামাল দিতে পারবেন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%AB%E0%A7%A7-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%8B-%E0%A6%97%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%B0.avif",
+      "publishedAt": "2026-11-05T19:59:24.773Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>রিপাবলিকান প্রার্থী স্টিভ হিলটনকে হারিয়ে ক্যালিফোর্নিয়ার গভর্নর হচ্ছেন জাভিয়ের বেসেরা। ১৫১ বছর পর রাজ্যটি পাচ্ছে প্রথম সরাসরি নির্বাচিত লাতিনো গভর্নর।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/usa/kdrl9li5c9\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "রিপাবলিকান প্রার্থী স্টিভ হিলটনকে হারিয়ে ক্যালিফোর্নিয়ার গভর্নর হচ্ছেন জাভিয়ের বেসেরা। ১৫১ বছর পর রাজ্যটি পাচ্ছে প্রথম সরাসরি নির্বাচিত লাতিনো গভর্নর।",
+      "sourceUrl": "https://www.prothomalo.com/world/usa/kdrl9li5c9",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7969,54 +8017,6 @@
       "body": "<p>রাজধানীর কল্যাণপুরে যাত্রীবাহী বাস ও লেগুনার মুখোমুখি সংঘর্ষে চারজন নিহত হয়েছেন। বুধবার (৪ নভেম্বর) সকাল ৭টা ৩৮ মিনিটের দিকে কল্যাণপুরের উত্তরপাড়ার নবাবের রাস্তায় এই ভয়াবহ দুর্ঘটনা ঘটে। নিহতদের মধ্যে দুজন পুরুষ ও দুজন নারী রয়েছেন। খবর পেয়ে কল্যাণপুর ফায়ার স্টেশনের একটি ইউনিট দ্রুত ঘটনাস্থলে পৌঁছে উদ্ধার অভিযান শুরু করে। ফায়ার সার্ভিস ও স্থানীয় সূত্রের তথ্যমতে, সকাল সাড়ে সাতটার দিকে নবাবের... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/978662/%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B8-%E0%A6%B2%E0%A7%87%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A6%BE-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8B%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A7%A8-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B8%E0%A6%B9\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "রাজধানীর কল্যাণপুরে যাত্রীবাহী বাস ও লেগুনার মুখোমুখি সংঘর্ষে চারজন নিহত হয়েছেন। বুধবার (৪ নভেম্বর) সকাল ৭টা ৩৮ মিনিটের দিকে কল্যাণপুরের উত্তরপাড়ার নবাবের রাস্তায় এই ভয়াবহ দুর্ঘটনা ঘটে। নিহতদের মধ্যে দুজন পুরুষ ও দুজন নারী রয়েছেন। খবর পেয়ে কল্যাণপুর ফায়ার স্টেশনের একটি ইউনিট দ্রুত ঘটনাস্থলে পৌঁছে উ",
       "sourceUrl": "https://www.banglatribune.com/law-and-crime/978662/%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A3%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B8-%E0%A6%B2%E0%A7%87%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A6%BE-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%8B%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A7%A8-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B8%E0%A6%B9",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssbc5475ca2b891c",
-      "slug": "বিশ্বের-দূষিত-শহরের-তালিকায়-আজ-৬-নম্বরে-ঢ",
-      "title": "বিশ্বের দূষিত শহরের তালিকায় আজ ৬ নম্বরে ঢাকা, শীর্ষে লাহোর",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%9C-%E0%A7%AC-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A2.webp",
-      "publishedAt": "2026-11-04T02:44:22.119Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বিশ্বের প্রধান শহরগুলোর মধ্যে বায়ুদূষণের শীর্ষে অবস্থান করছে পাকিস্তানের লাহোর। বুধবার (৪ নভেম্বর) সকাল ৭টা থেকে ৮টা পর্যন্ত সময়ের লাইভ সূচক অনুযায়ী, ৩৬২ একিউআই স্কোর নিয়ে ‘বিপজ্জনক’ বাতাসে বিশ্বের সবচেয়ে দূষিত শহরের তালিকায় শীর্ষে রয়েছে শহরটি। এ সময় ১৫৯ একিউআই স্কোর নিয়ে ঢাকার অবস্থান বিশ্বে ষষ্ঠ, যা মানুষের স্বাস্থ্যের জন্য ‘অস্বাস্থ্যকর’। শীর্ষ ১০ দূষিত শহরের তালিকা:... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/weather/978658/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%9C-%E0%A7%AC-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বিশ্বের প্রধান শহরগুলোর মধ্যে বায়ুদূষণের শীর্ষে অবস্থান করছে পাকিস্তানের লাহোর। বুধবার (৪ নভেম্বর) সকাল ৭টা থেকে ৮টা পর্যন্ত সময়ের লাইভ সূচক অনুযায়ী, ৩৬২ একিউআই স্কোর নিয়ে ‘বিপজ্জনক’ বাতাসে বিশ্বের সবচেয়ে দূষিত শহরের তালিকায় শীর্ষে রয়েছে শহরটি। এ সময় ১৫৯ একিউআই স্কোর নিয়ে ঢাকার অবস্থান বিশ্বে ষষ্ঠ, ",
-      "sourceUrl": "https://www.banglatribune.com/weather/978658/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%82%E0%A6%B7%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%9C-%E0%A7%AC-%E0%A6%A8%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rsse6efe33eb96f5d",
-      "slug": "সমুদ্রের-ধারে-অন্য-এক-বাংলাদেশ-কোথায়-এই-শ",
-      "title": "সমুদ্রের ধারে অন্য এক বাংলাদেশ, কোথায় এই শাহপরীর দ্বীপ?",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%8F%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%87-%E0%A6%B6.webp",
-      "publishedAt": "2026-11-04T02:44:22.115Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>কক্সবাজারের পরিচিত পর্যটনকেন্দ্রগুলির বাইরে একটু অন্য রকম পরিবেশ খুঁজছেন? তা হলে ঘুরে আসতে পারেন টেকনাফের শাহপরীর দ্বীপ থেকে। সাবরাং ইউনিয়নের অন্তর্গত এই জনপদ একসময় চারদিকে জলবেষ্টিত ছিল। পরে ভৌগোলিক পরিবর্তনের ফলে মূল ভূখণ্ডের সঙ্গে যুক্ত হয়েছে। টেকনাফ উপজেলা শহর থেকে এর দূরত্ব প্রায় ১৫ কিলোমিটার। শাহপরীর দ্বীপের দৃশ্যপট বেশ আলাদা। দ্বীপের এক পাশে বয়ে চলেছে নাফ নদী। নদীর ওপারেই মায়ানমার। দূরে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/978565/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%8F%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "কক্সবাজারের পরিচিত পর্যটনকেন্দ্রগুলির বাইরে একটু অন্য রকম পরিবেশ খুঁজছেন? তা হলে ঘুরে আসতে পারেন টেকনাফের শাহপরীর দ্বীপ থেকে। সাবরাং ইউনিয়নের অন্তর্গত এই জনপদ একসময় চারদিকে জলবেষ্টিত ছিল। পরে ভৌগোলিক পরিবর্তনের ফলে মূল ভূখণ্ডের সঙ্গে যুক্ত হয়েছে। টেকনাফ উপজেলা শহর থেকে এর দূরত্ব প্রায় ১৫ কিলোমিটার। ",
-      "sourceUrl": "https://www.banglatribune.com/journey/978565/%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%8F%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%87-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssff274dd9cb2a6d",
-      "slug": "বিকাশে-লেনদেনের-কথা-বলে-টাকা-চুরি-হাতেনা",
-      "title": "বিকাশে লেনদেনের কথা বলে টাকা চুরি, হাতেনাতে ধরা দুই পাকিস্তানি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%A6%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%A8%E0%A6%BE.webp",
-      "publishedAt": "2026-11-04T02:44:22.107Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সুনামগঞ্জের শান্তিগঞ্জ উপজেলার পাগলাবাজারে বিকাশে টাকা লেনদেনের কথা বলে প্রতারণার চেষ্টার অভিযোগে দুই পাকিস্তানি নাগরিককে হাতেনাতে ধরেছেন এক ব্যবসায়ী। পরে স্থানীয়দের মধ্যস্থতায় তারা ছাড়া পেয়ে চলে যান। মঙ্গলবার (৩ নভেম্বর) সন্ধ্যায় পাগলাবাজারের ‘পৌশী টেলিকম’ নামের একটি বিকাশের দোকানে এ ঘটনা ঘটে। স্থানীয় ব্যবসায়ীদের ভাষ্য, দুই ব্যক্তি দোকানে এসে উর্দু ভাষায় দোকান মালিকের সঙ্গে কথা... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/sylhet/978659/%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%A6%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সুনামগঞ্জের শান্তিগঞ্জ উপজেলার পাগলাবাজারে বিকাশে টাকা লেনদেনের কথা বলে প্রতারণার চেষ্টার অভিযোগে দুই পাকিস্তানি নাগরিককে হাতেনাতে ধরেছেন এক ব্যবসায়ী। পরে স্থানীয়দের মধ্যস্থতায় তারা ছাড়া পেয়ে চলে যান। মঙ্গলবার (৩ নভেম্বর) সন্ধ্যায় পাগলাবাজারের ‘পৌশী টেলিকম’ নামের একটি বিকাশের দোকানে এ ঘটনা ঘটে। স্থা",
-      "sourceUrl": "https://www.banglatribune.com/country/sylhet/978659/%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%A6%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE-%E0%A6%AC%E0%A6%B2%E0%A7%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
