@@ -1,6 +1,6 @@
 {
-  "version": 1365,
-  "updatedAt": "2026-11-18T20:06:27.895Z",
+  "version": 1366,
+  "updatedAt": "2026-11-18T20:17:46.024Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rssc4c129a59c5eb6",
+      "slug": "ট্রাইব্যুনাল-সাজা-দেওয়ায়-গোপালগঞ্জ-গাজী",
+      "title": "ট্রাইব্যুনাল সাজা দেওয়ায় গোপালগঞ্জ-গাজীপুরে আন্দোলন হলেও গুলি করা হয় না: প্রসিকিউটর",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80.avif",
+      "publishedAt": "2026-11-18T20:12:08.059Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>শুনানিতে প্রসিকিউশনের অভিযোগ, আন্দোলন দমাতেই জামায়াত–শিবির নিষিদ্ধ করা হয়েছিল। তবে আসামিপক্ষের দাবি, এটি ছিল রাজনৈতিক সিদ্ধান্ত; জাহাংগীর আলম কেবল সরকারি দায়িত্ব পালন করেছেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/s1pctyxjxd\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "শুনানিতে প্রসিকিউশনের অভিযোগ, আন্দোলন দমাতেই জামায়াত–শিবির নিষিদ্ধ করা হয়েছিল। তবে আসামিপক্ষের দাবি, এটি ছিল রাজনৈতিক সিদ্ধান্ত; জাহাংগীর আলম কেবল সরকারি দায়িত্ব পালন করেছেন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/s1pctyxjxd",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss8f0da1b418da94",
       "slug": "দীপু-মনি-ও-সুজিত-নন্দীর-বাড়িতে-আগুন",
       "title": "দীপু মনি ও সুজিত নন্দীর বাড়িতে আগুন",
@@ -89,7 +105,7 @@
       "title": "১৯৩ কোটি টাকা পাচার, শামীম ওসমানসহ ৬ জনের বিরুদ্ধে চার্জশিট",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss7bb1be30e84c40-1200x630.jpg",
       "publishedAt": "2026-11-18T19:57:08.211Z",
       "tags": [
         "যুগান্তর"
@@ -98,6 +114,38 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE93OGdDWk5NcUo2d3VmTHpUOVY5cVV4ZFJEcHRqQVhYSjNDSjIwTV9TWHZfLVM5WHhicmJsVW9UNXVoUXpyYTlvVmhpdTlhaHZNY0M0?oc=5\" target=\"_blank\"&gt;১৯৩ কোটি টাকা পাচার, শামীম ওসমানসহ ৬ জনের বিরুদ্ধে চার্জশিট&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93OGdDWk5NcUo2d3VmTHpUOVY5cVV4ZFJEcHRqQVhYSjNDSjIwTV9TWHZfLVM5WHhicmJsVW9UNXVoUXpyYTlvVmhpdTlhaHZNY0M0?oc=5",
       "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss2e6c7055a9a3dd",
+      "slug": "৭-ডিসেম্বর-ঢাকায়-আসছেন-আনোয়ার-ইব্রাহিম",
+      "title": "৭ ডিসেম্বর ঢাকায় আসছেন আনোয়ার ইব্রাহিম",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-18T19:57:08.197Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE83TjNhMlVmVzVlZFZoSXEyOVIxN0JkSmgzR2RtcUJXLWdsTzJaTWNRUVFvSkhJOUJpT3Z0SEZvY2xjaFNDSFV2SE9xQWlkazNpUzdN?oc=5&quot; target=&quot;_blank&quot;&amp;gt;৭ ডিসেম্বর ঢাকায় আসছেন আনোয়ার ইব্রাহিম&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE83TjNhMlVmVzVlZFZoSXEyOVIxN0JkSmgzR2RtcUJXLWdsTzJaTWNRUVFvSkhJOUJpT3Z0SEZvY2xjaFNDSFV2SE9xQWlkazNpUzdN?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE83TjNhMlVmVzVlZFZoSXEyOVIxN0JkSmgzR2RtcUJXLWdsTzJaTWNRUVFvSkhJOUJpT3Z0SEZvY2xjaFNDSFV2SE9xQWlkazNpUzdN?oc=5\" target=\"_blank\"&gt;৭ ডিসেম্বর ঢাকায় আসছেন আনোয়ার ইব্রাহিম&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&g",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83TjNhMlVmVzVlZFZoSXEyOVIxN0JkSmgzR2RtcUJXLWdsTzJaTWNRUVFvSkhJOUJpT3Z0SEZvY2xjaFNDSFV2SE9xQWlkazNpUzdN?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rssa55c7a6a80174c",
+      "slug": "হাতির-গায়ে-আটটি-গুলি-সন্দেহে-মানবপাচারকা",
+      "title": "হাতির গায়ে আটটি গুলি, সন্দেহে মানবপাচারকারীরা",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%9F%E0%A6%9F%E0%A6%BF-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B9%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A6%BE.avif",
+      "publishedAt": "2026-11-18T19:57:08.101Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>মাঠপর্যায়ের বন কর্মকর্তা ও সার্জনরা জানান, কক্সবাজারে যত হাতি হত্যা করা হয়, ময়নাতদন্তের সময় কমপক্ষে ৭০ শতাংশকে গুলিবিদ্ধ অবস্থায় পাওয়া গেছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/posvzvu3l4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "মাঠপর্যায়ের বন কর্মকর্তা ও সার্জনরা জানান, কক্সবাজারে যত হাতি হত্যা করা হয়, ময়নাতদন্তের সময় কমপক্ষে ৭০ শতাংশকে গুলিবিদ্ধ অবস্থায় পাওয়া গেছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/posvzvu3l4",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rssba97d2adf1d9e3",
@@ -329,7 +377,7 @@
       "title": "মার্কিন অর্থায়নের নতুন দুয়ার",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssb00ef1a26d1290-1200x630.jpg",
       "publishedAt": "2026-11-18T18:42:07.956Z",
       "tags": [
         "যুগান্তর"
@@ -7970,54 +8018,6 @@
       "summary": "আওয়ামী লীগকে রাজনৈতিকভাবে প্রাসঙ্গিক করে রাখতে সরকার সুকৌশলে ষড়যন্ত্র করছে বলে গুরুতর অভিযোগ করেছে জাতীয় নাগরিক পার্টি (এনসিপি)। দলটির নেতাদের দাবি, সরকারের প্রত্যক্ষ মদদেই দেশের আইনশৃঙ্খলা পরিস্থিতির অবনতি ঘটছে। মূলত আইনশৃঙ্খলা রক্ষাকারী বাহিনীকে ইচ্ছাকৃতভাবে নিষ্ক্রিয়...",
       "sourceUrl": "https://www.bd-journal.com/bangladesh/315761/আ.লীগকে-প্রাসঙ্গিক-রাখার-পেছনে-সরকারের-গভীর-ষড়যন্ত্র-রয়েছে-এনসিপি",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssac832919d72ea9",
-      "slug": "মজলুম-জননেতা-মওলানা-ভাসানীর-মৃত্যুবার্ষ",
-      "title": "মজলুম জননেতা মওলানা ভাসানীর মৃত্যুবার্ষিকী আজ",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%9C%E0%A6%B2%E0%A7%81%E0%A6%AE-%E0%A6%9C%E0%A6%A8%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%AE%E0%A6%93%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7.jpg",
-      "publishedAt": "2026-11-17T02:42:02.802Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>শোষিত ও বঞ্চিত মানুষের অধিকার আদায়ের আপসহীন কণ্ঠস্বর মজলুম জননেতা মওলানা আবদুল হামিদ খান ভাসানীর ৫০তম মৃত্যুবার্ষিকী আজ। আজ থেকে পাঁচ দশক আগে ১৯৭৬ সালের ১৭ নভেম্বর ঢাকার তৎকালীন পিজি হাসপাতালে চিকিৎসাধীন অবস্থায় তিনি শেষনিঃশ্বাস ত্যাগ করেন। পরবর্তী সময়ে তাকে টাঙ্গাইলের সন্তোষে সমাহিত করা হয়। মহান এই নেতার প্রয়াণ দিবস উপলক্ষে ঢাকা ও টাঙ্গাইলের সন্তোষে বিভিন্ন কর্মসূচি গ্রহণ করা হয়েছে। দিবসটি উপলক্ষে রাষ্ট্রপতি ও মির্জা ফখরুল ইসলাম আলমগীর পৃথক বাণী দিয়েছেন।</p>\n<p>ব্রিটিশবিরোধী আন্দোলন থেকে শুরু করে বাংলাদেশের স্বাধীনতা সংগ্রাম পর্যন্ত প্রতিটি গুরুত্বপূর্ণ রাজনৈতিক অধ্যায়ে মওলানা ভাসানী ছিলেন এক উজ্জ্বল নক্ষত্র। ব্যক্তিগত ক্ষমতার মোহ বা স্বার্থের চেয়ে তিনি সব সময় সাধারণ মানুষের ন্যায়বিচার ও অধিকারকে প্রাধান্য দিয়েছেন। ১৮৮০ সালের ১২ ডিসেম্বর সিরাজগঞ্জের ধানগড়া গ্রামে শরাফত আলী খান ও মোসাম্মৎ মজিরন বিবির ঘরে জন্মগ্রহণ করা এই নেতা ধর্মীয় শিক্ষার পাশাপাশি দেওবন্দে ইসলামি শিক্ষায় শিক্ষিত হয়েছিলেন। পরবর্তী সময়ে সামাজিক বৈষম্য ও অন্যায়ের বিরুদ্ধে সোচ্চার হয়ে তিনি রাজনীতিতে জড়িয়ে পড়েন।</p>\n<p>রাজনৈতিক জীবনে তিনি কৃষক, শ্রমিক ও ভূমিহীন মেহনতি মানুষের প্রতিনিধি হিসেবে নিজেকে প্রতিষ্ঠিত করেছিলেন। ১৯৪৭ সালে পাকিস্তান সৃষ্টির পর পূর্ব বাংলার মানুষের অধিকার আদায়ে তিনি বলিষ্ঠ ভূমিকা রাখেন। ১৯৪৯ সালের ২৩ জুন ঢাকার রোজ গার্ডেনে আওয়ামী মুসলিম লীগ গঠিত হলে তিনি এর প্রথম সভাপতি হিসেবে দায়িত্ব গ্রহণ করেন। পাকিস্তানি শাসকগোষ্ঠীর শোষণ ও বৈষম্যমূলক নীতির বিরুদ্ধে দীর্ঘসময় ধরে তিনি আপসহীন নেতৃত্ব দিয়েছেন।</p>\n<p>১৯৭১ সালে মহান মুক্তিযুদ্ধ শুরু হলে তিনি স্বাধীনতার পক্ষে দৃঢ় অবস্থান নেন এবং আন্তর্জাতিক পর্যায়ে জনমত গঠনে সচেষ্ট থাকেন। প্রবাসী সরকারের উপদেষ্টা পরিষদের সদস্য হিসেবেও তিনি দায়িত্ব পালন করেন। স্বাধীনতার পর ১৯৭২ সালের ২২ জানুয়ারি দেশে ফিরে তিনি পুনরায় সাধারণ মানুষের অর্থনৈতিক মুক্তি ও সামাজিক সাম্য প্রতিষ্ঠার সংগ্রামে মনোনিবেশ করেন। বিশেষ করে ১৯৭৩ সালে খাদ্যের দাবিতে তার অনশন কর্মসূচি সাধারণ মানুষের প্রতি তার গভীর দায়বদ্ধতার এক অনন্য নজির হিসেবে আজও সমাদৃত।</p>\n<p>দীর্ঘ রাজনৈতিক পথচলায় সাধারণ মানুষের অবিসংবাদিত নেতা হিসেবে তিনি ‘মজলুম জননেতা’ উপাধিতে ভূষিত হন। তার রাজনৈতিক দর্শনের মূল ভিত্তি ছিল কেবল একটি স্বাধীন রাষ্ট্র গঠন নয়, বরং একটি শোষণমুক্ত ও গণতান্ত্রিক সমাজ প্রতিষ্ঠা করা। মৃত্যুর পাঁচ দশক পরও শোষিত মানুষের অধিকার আদায়ে তার লড়াই ও আদর্শ দেশের রাজনৈতিক ইতিহাসে এক অনুপ্রেরণার উৎস হয়ে আছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভাসানীর আদর্শের অনুকরণে বৈষম্যহীন সমাজ গড়ার অঙ্গীকার রাজনৈতিক মেরুকরণে নতুন মাত্রা যোগ করতে পারে। তবে কেবল স্মরণে সীমাবদ্ধ না থেকে তাঁর শোষনবিরোধী চেতনা বাস্তবায়নে কার্যকর পদক্ষেপই সাধারণ মানুষের অধিকার রক্ষায় আশার আলো দেখাতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/541999\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "জাতির শোষণ, বৈষম্য ও অন্যায়ের বিরুদ্ধে আজীবন সোচ্চার থাকা মজলুম জননেতা মওলানা আবদুল হামিদ খান ভাসানীর ৫০তম মৃত্যুবার্ষিকী আজ। কৃষক, শ্রমিক, মেহনতি ও অধিকারবঞ্চি...",
-      "sourceUrl": "https://daily-bangladesh.com/national/541999",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss3b58825caa6d65",
-      "slug": "লন্ডনে-প্রবাসী-বাংলাদেশি-ও-শিক্ষার্থীদে",
-      "title": "লন্ডনে প্রবাসী বাংলাদেশি ও শিক্ষার্থীদের ওপর হামলায় ক্ষুব্ধ নাহিদ ইসলাম",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B2%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87.webp",
-      "publishedAt": "2026-11-17T02:42:02.776Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>লন্ডনে আয়োজিত সংবর্ধনা অনুষ্ঠান শেষে প্রবাসী বাংলাদেশি ও বিভিন্ন বিশ্ববিদ্যালয়ের শিক্ষার্থীদের ওপর হামলার অভিযোগ করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) আহ্বায়ক ও বিরোধীদলীয় চিফ হুইপ নাহিদ ইসলাম। এ ঘটনায় বেশ কয়েকজন আহত হয়েছেন বলে জানিয়েছেন তিনি। মঙ্গলবার (১৭ নভেম্বর) নিজের ফেসবুক স্ট্যাটাসে নাহিদ ইসলা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদেশে অবস্থানরত বাংলাদেশিদের নিরাপত্তা নিশ্চিত করা এবং এ ধরনের সহিংসতা কূটনৈতিক পর্যায়ে দ্রুত সুরাহা করা এখন জরুরি। প্রবাসীদের ওপর এমন হামলা উদ্বেগের, তাই ভুক্তভোগীদের আইনি সহায়তা প্রদানের পাশাপাশি দূতাবাসকে কঠোর পদক্ষেপ নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/politics/ncp/981418/%E0%A6%B2%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "লন্ডনে আয়োজিত সংবর্ধনা অনুষ্ঠান শেষে প্রবাসী বাংলাদেশি ও বিভিন্ন বিশ্ববিদ্যালয়ের শিক্ষার্থীদের ওপর হামলার অভিযোগ করেছেন জাতীয় নাগরিক পার্টির (এনসিপি) আহ্বায়ক ও বিরোধীদলীয় চিফ হুইপ নাহিদ ইসলাম। এ ঘটনায় বেশ কয়েকজন আহত হয়েছেন বলে জানিয়েছেন তিনি। মঙ্গলবার (১৭ নভেম্বর) নিজের ফেসবুক স্ট্যাটাসে নাহিদ ইসলা",
-      "sourceUrl": "https://www.banglatribune.com/politics/ncp/981418/%E0%A6%B2%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%80-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%93-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssa49ebe67d5ee91",
-      "slug": "ঘন-কুয়াশায়-মহাসড়কে-ট্রাকচাপায়-প্রাণ-গেলো",
-      "title": "ঘন কুয়াশায় মহাসড়কে ট্রাকচাপায় প্রাণ গেলো দুজনের",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%98%E0%A6%A8-%E0%A6%95%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%B2%E0%A7%8B.webp",
-      "publishedAt": "2026-11-17T02:42:02.773Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সিরাজগঞ্জের হাটিকুমরুলে পাথরবোঝাই ট্রাকের চাপায় দুই ব্যক্তি নিহত হয়েছেন। নিহতদের একজন কৃষক, অন্যজন দলিল লেখক। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে ঢাকা-বগুড়া মহাসড়কের হাটিকুমরুল ইন্টারচেঞ্জের ধোপাকান্দি এলাকায় এ দুর্ঘটনা ঘটে। নিহতরা হলেন, হাটিকুমরুল ইউনিয়নের ধোপাকান্দি এলাকার মৃত রহিম উদ্দিনের ছেলে </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মহাসড়কে কুয়াশাজনিত দৃশ্যমানতা কমে যাওয়ায় যাতায়াত ঝুঁকি চরম আকার ধারণ করেছে, যা স্থানীয় বাসিন্দাদের নিরাপত্তার জন্য বড় হুমকি। এ ধরনের প্রাণহানি এড়াতে কুয়াশার মধ্যে সতর্ক চলাচল এবং চালকদের গতি নিয়ন্ত্রণের বিকল্প নেই।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/rajshahi/981419/%E0%A6%98%E0%A6%A8-%E0%A6%95%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%B2%E0%A7%8B-%E0%A6%A6%E0%A7%81%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সিরাজগঞ্জের হাটিকুমরুলে পাথরবোঝাই ট্রাকের চাপায় দুই ব্যক্তি নিহত হয়েছেন। নিহতদের একজন কৃষক, অন্যজন দলিল লেখক। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে ঢাকা-বগুড়া মহাসড়কের হাটিকুমরুল ইন্টারচেঞ্জের ধোপাকান্দি এলাকায় এ দুর্ঘটনা ঘটে। নিহতরা হলেন, হাটিকুমরুল ইউনিয়নের ধোপাকান্দি এলাকার মৃত রহিম উদ্দিনের ছেলে ",
-      "sourceUrl": "https://www.banglatribune.com/country/rajshahi/981419/%E0%A6%98%E0%A6%A8-%E0%A6%95%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%B2%E0%A7%8B-%E0%A6%A6%E0%A7%81%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
