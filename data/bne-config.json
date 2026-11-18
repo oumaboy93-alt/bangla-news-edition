@@ -1,6 +1,6 @@
 {
-  "version": 1373,
-  "updatedAt": "2026-11-18T22:04:10.559Z",
+  "version": 1374,
+  "updatedAt": "2026-11-18T22:16:20.438Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "দেশপ্রেমিক শক্তিকে মাঠে নামার আহ্বান জামায়াতের",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rss7bdf838bc7a256-1200x630.jpg",
       "publishedAt": "2026-11-18T21:42:08.591Z",
       "tags": [
         "যুগান্তর"
@@ -105,7 +105,7 @@
       "title": "সম্পাদক ও প্রকাশক: ইলিয়াস হোসাইন - Bangla Edition",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssfb35aaf91c3fa9-1200x630.jpg",
       "publishedAt": "2026-11-18T21:42:08.551Z",
       "tags": [
         "বাংলা এডিশন"
@@ -185,7 +185,7 @@
       "title": "যুক্তরাষ্ট্রে ঘন ঘন প্রযুক্তি বিভ্রাট, ট্রাম্প বলছেন ‘সব ঠিক আছে’",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssa8bc3c28638666-1200x630.jpg",
       "publishedAt": "2026-11-18T21:12:19.192Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -217,7 +217,7 @@
       "title": "মুহূর্তেই শেষ শতাধিক পরিবারের সংসার",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss6d3e65d65bc5b7-1200x630.jpg",
       "publishedAt": "2026-11-18T21:12:19.125Z",
       "tags": [
         "যুগান্তর"
@@ -233,7 +233,7 @@
       "title": "ক্লু বের করতে পারছে না পুলিশ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rssc6b3186e764a5c-1200x630.jpg",
       "publishedAt": "2026-11-18T21:12:19.117Z",
       "tags": [
         "যুগান্তর"
@@ -241,6 +241,38 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ITWxxMmZ4bWxYaXliNHFwUHFWUDRGdFREWlp2M2E5ZXdFNnpyaTRFamhhV1lycjZMY21UN3JHNVBQSFZZdE91cVp0NW1samZaRjYtT1dsc0gzRDg?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ক্লু বের করতে পারছে না পুলিশ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ITWxxMmZ4bWxYaXliNHFwUHFWUDRGdFREWlp2M2E5ZXdFNnpyaTRFamhhV1lycjZMY21UN3JHNVBQSFZZdE91cVp0NW1samZaRjYtT1dsc0gzRDg?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ITWxxMmZ4bWxYaXliNHFwUHFWUDRGdFREWlp2M2E5ZXdFNnpyaTRFamhhV1lycjZMY21UN3JHNVBQSFZZdE91cVp0NW1samZaRjYtT1dsc0gzRDg?oc=5\" target=\"_blank\"&gt;ক্লু বের করতে পারছে না পুলিশ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ITWxxMmZ4bWxYaXliNHFwUHFWUDRGdFREWlp2M2E5ZXdFNnpyaTRFamhhV1lycjZMY21UN3JHNVBQSFZZdE91cVp0NW1samZaRjYtT1dsc0gzRDg?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rssd56d19b618cf88",
+      "slug": "নতুন-স্পিকার-আরও-দুর্বল-নেতানিয়াহু",
+      "title": "নতুন স্পিকার, আরও দুর্বল নেতানিয়াহু",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "images/international.jpg",
+      "publishedAt": "2026-11-18T21:12:19.107Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiYUF3bW1JN0phWUlRbXlKSkwzTkkxSXRhd09IcHhVNFFNX3c2ZDlmbVgtSThMVVBHR1Y1bWhPdHNwQzRLZ2VMak9UNXpka3lqSUpPQm9adngxcDA?oc=5&quot; target=&quot;_blank&quot;&amp;gt;নতুন স্পিকার, আরও দুর্বল নেতানিয়াহু&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiYUF3bW1JN0phWUlRbXlKSkwzTkkxSXRhd09IcHhVNFFNX3c2ZDlmbVgtSThMVVBHR1Y1bWhPdHNwQzRLZ2VMak9UNXpka3lqSUpPQm9adngxcDA?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiYUF3bW1JN0phWUlRbXlKSkwzTkkxSXRhd09IcHhVNFFNX3c2ZDlmbVgtSThMVVBHR1Y1bWhPdHNwQzRLZ2VMak9UNXpka3lqSUpPQm9adngxcDA?oc=5\" target=\"_blank\"&gt;নতুন স্পিকার, আরও দুর্বল নেতানিয়াহু&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiYUF3bW1JN0phWUlRbXlKSkwzTkkxSXRhd09IcHhVNFFNX3c2ZDlmbVgtSThMVVBHR1Y1bWhPdHNwQzRLZ2VMak9UNXpka3lqSUpPQm9adngxcDA?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss66a5ceabc24cfc",
+      "slug": "টুঙ্গিপাড়া-থানায়-আগুন",
+      "title": "টুঙ্গিপাড়া থানায় আগুন",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-18T21:12:19.088Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HTkxtRUx2SXdyejZKSjUtSFY1ZmxsbndiTHJ4akVIN3ZLemZlVWlCMVRtNmtsRC1OeGJYY3lLODN1TXFsd3V6QnpzTTNZUzNGazBtWV8zV1o?oc=5&quot; target=&quot;_blank&quot;&amp;gt;টুঙ্গিপাড়া থানায় আগুন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HTkxtRUx2SXdyejZKSjUtSFY1ZmxsbndiTHJ4akVIN3ZLemZlVWlCMVRtNmtsRC1OeGJYY3lLODN1TXFsd3V6QnpzTTNZUzNGazBtWV8zV1o?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HTkxtRUx2SXdyejZKSjUtSFY1ZmxsbndiTHJ4akVIN3ZLemZlVWlCMVRtNmtsRC1OeGJYY3lLODN1TXFsd3V6QnpzTTNZUzNGazBtWV8zV1o?oc=5\" target=\"_blank\"&gt;টুঙ্গিপাড়া থানায় আগুন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HTkxtRUx2SXdyejZKSjUtSFY1ZmxsbndiTHJ4akVIN3ZLemZlVWlCMVRtNmtsRC1OeGJYY3lLODN1TXFsd3V6QnpzTTNZUzNGazBtWV8zV1o?oc=5",
       "sourceName": "যুগান্তর"
     },
     {
@@ -385,6 +417,22 @@
       "body": "<p>আওয়ামী লীগের নেতা-কর্মীরা অগ্নিসংযোগ করলে তাঁদের বাড়িঘরেও পাল্টা আগুন দেওয়ার হুমকি দিয়েছেন জাতীয়তাবাদী যুবদলের নেতারা। বিএনপির কেন্দ্রীয় কার্যালয়ের সামনে বিক্ষোভ সমাবেশ করে দলের অঙ্গসংগঠনটি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/0mlqi97ljv\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "আওয়ামী লীগের নেতা-কর্মীরা অগ্নিসংযোগ করলে তাঁদের বাড়িঘরেও পাল্টা আগুন দেওয়ার হুমকি দিয়েছেন জাতীয়তাবাদী যুবদলের নেতারা। বিএনপির কেন্দ্রীয় কার্যালয়ের সামনে বিক্ষোভ সমাবেশ করে দলের অঙ্গসংগঠনটি।",
       "sourceUrl": "https://www.prothomalo.com/politics/0mlqi97ljv",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss5a2230ba574ac8",
+      "slug": "বিশেষ-সৌরবিদ্যুৎ-স্থাপন-বিল-পাস-ক্রয়-প্র",
+      "title": "বিশেষ সৌরবিদ্যুৎ স্থাপন বিল পাস, ক্রয় প্রক্রিয়ায় ই-জিপি আবশ্যক নয়",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%B8%E0%A7%8C%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%AA%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%B2-%E0%A6%AA%E0%A6%BE%E0%A6%B8-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0.avif",
+      "publishedAt": "2026-11-18T20:27:07.964Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>বিলে ক্রয় প্রক্রিয়ায় ই–জিপি ব্যবহার আবশ্যক থাকছে না। পাশাপাশি বিদ্যুৎ বা যন্ত্রাংশ চুরিতে সর্বোচ্চ তিন বছরের কারাদণ্ড বা অর্থদণ্ডের বিধান রাখা হয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/w27ntdzxlr\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "বিলে ক্রয় প্রক্রিয়ায় ই–জিপি ব্যবহার আবশ্যক থাকছে না। পাশাপাশি বিদ্যুৎ বা যন্ত্রাংশ চুরিতে সর্বোচ্চ তিন বছরের কারাদণ্ড বা অর্থদণ্ডের বিধান রাখা হয়েছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/w27ntdzxlr",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7969,54 +8017,6 @@
       "body": "<p>বর্তমান সময়ে সাধারণ মানুষের মধ্যে কবিতা পড়ার আগ্রহ কমে যাওয়া নিয়ে এক গভীর সংকট তৈরি হয়েছে। বাস্তবতা হলো, এখন যারা কবিতা পড়েন, তাদের বড় একটি অংশই মূলত অন্য কবি। এমনকি স্কুল পর্যায়ের শিক্ষার্থীদের মধ্যেও কবিতার অন্তর্নিহিত অর্থ অনুধাবনের ক্ষমতা ক্রমেই হ্রাস পাচ্ছে। এর প্রধান কারণ হিসেবে আমাদের বিদ্যমান পরীক্ষা-কেন্দ্রিক শিক্ষাব্যবস্থাকেই দায়ী করা হচ্ছে, যেখানে শিক্ষার্থীরা ভালো ফলাফলের আশায় কবিতার প্রতিটি লাইন মুখস্থ করতে বাধ্য হয়।</p>\n<p>শিক্ষার্থীদের এই যান্ত্রিক মুখস্থবিদ্যার পেছনে বাজারের গাইডবুকগুলোর ভূমিকাও কম নয়। এসব বই অনুধাবনমূলক প্রশ্ন ও উত্তরের কাঠামো দিয়ে শিক্ষার্থীদের চিন্তাশক্তিকে স্থবির করে দিয়েছে। অনেকটা ছোট শিশুদের মায়ের হাতে খাইয়ে দেওয়ার মতো শিক্ষাব্যবস্থা শিক্ষার্থীদের পরনির্ভরশীল করে তুলছে। এর ফলে পরীক্ষার খাতায় সাহিত্যের নিজস্ব ভাষা ও কাঠামোর পরিবর্তে এক কঙ্কালসার রূপ ফুটে উঠছে, যা মেধার প্রকৃত মূল্যায়নে বড় বাধা হয়ে দাঁড়িয়েছে।</p>\n<p>সাহিত্য সমালোচনায় প্রাতিষ্ঠানিক তত্ত্ব বা নান্দনিক 'বাদ'-এর ওপর অতিরিক্ত নির্ভরশীলতা সাধারণ পাঠকের জন্য কবিতার পথকে আরও দুর্গম করে তুলেছে। অনেক পাঠকই কৃত্রিম উপায়ে কবিতার গভীরে প্রবেশের চেষ্টা করেন, কিন্তু সফল হতে পারেন না। এমনকি আল মাহমুদ কিংবা জীবনানন্দ দাশের মতো মহান কবিদের সৃষ্টিও অনেক সময় সাধারণ পাঠকের হৃদয়ে জায়গা করে নিতে ব্যর্থ হয়। তবে দেড় শ বছরের সাহিত্য ইতিহাসে রবীন্দ্রনাথ ঠাকুর ও কাজী নজরুল ইসলাম এক্ষেত্রে ব্যতিক্রম। বিশেষ করে সাধারণ মানুষের মাটিঘেঁষা জীবনে নজরুলের প্রভাব অত্যন্ত প্রখর।</p>\n<p>বঞ্চনা, শোষণ ও দারিদ্র্য এদেশের মানুষের নিত্যসঙ্গী। তাই নজরুলের কবিতার ইস্পাতকঠিন ঝংকার, দ্রোহের সুর এবং শব্দের ছন্দ তাদের অবচেতন মনকে গভীরভাবে নাড়া দেয়। শোষিত মানুষের অস্তিত্বের কথা তিনি যেভাবে নিজের কণ্ঠে ধারণ করেছেন, তা সাধারণ মানুষ অত্যন্ত আপন করে নিয়েছে। তাদের এই দ্রোহ ও সুরের প্রতি টান আজও অটুট।</p>\n<p>সাধারণ মানুষের কবিতা বিমুখতার পেছনে সাহিত্যের তথাকথিত অভিজাত শ্রেণির দায়বদ্ধতাকেও বড় করে দেখা হচ্ছে। সাহিত্যিকদের একটি অংশ কবিতাকে জটিল করে সাধারণের নাগাল থেকে দূরে সরিয়ে নিয়েছে। তবে এই প্রতিকূল পরিস্থিতির মাঝেও প্রবল আশাবাদ রয়েছে যে, সাধারণ মানুষের কবিতা শোনার বা ভালোবাসার আগ্রহ একদমই হারিয়ে যায়নি। মূলত সাহিত্যের সহজ ও প্রাণবন্ত রসিকতা কেড়ে নেওয়ার মাধ্যমেই এই ব্যবধান তৈরি করা হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিক্ষাব্যবস্থায় কেবল পাঠ্যবইয়ের গণ্ডিতে কবিতা সীমাবদ্ধ রাখা সৃজনশীল বিকাশের অন্তরায়। অভিভাবক ও শিক্ষার্থীদের উচিত যান্ত্রিক মুখস্থবিদ্যার বাইরে গিয়ে সাহিত্যের নান্দনিক ও মানবিক অনুভবের চর্চায় মনোযোগী হওয়া।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/art-and-culture/542015\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "পড়লেও কেবল এক কবি আরেক কবির লেখা পড়েন। এমনকি, স্কুলের গণ্ডিতে পাঠ্যবইয়ের কবিতা পড়ার সময়ও শিক্ষার্থীরা তার ভেতরের অনুধাবন শক্তিটাকে কাজে লাগাতে পারে না। এর মূল ক...",
       "sourceUrl": "https://daily-bangladesh.com/art-and-culture/542015",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssdf7c8e2a370243",
-      "slug": "চিত্রনায়ক-জয়-চৌধুরী-পদত্যাগ-করতে-যাচ্ছেন",
-      "title": "চিত্রনায়ক জয় চৌধুরী পদত্যাগ করতে যাচ্ছেন",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%95-%E0%A6%9C%E0%A7%9F-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80-%E0%A6%AA%E0%A6%A6%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8.jpg",
-      "publishedAt": "2026-11-17T04:42:03.069Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বাংলাদেশ চলচ্চিত্র শিল্পী সমিতির সাধারণ সম্পাদক ও চিত্রনায়ক জয় চৌধুরী চলচ্চিত্রসংশ্লিষ্ট ১৯টি সংগঠনের সমন্বয়ে গঠিত আহ্বায়ক কমিটির দায়িত্ব থেকে পদত্যাগ করার সিদ্ধান্ত নিয়েছেন। নিজের এই সিদ্ধান্তের কথা তিনি সংবাদমাধ্যমে পাঠানো এক বার্তার মাধ্যমে নিশ্চিত করেছেন। আগামী মঙ্গলবার বিকেল ৪টায় তিনি আনুষ্ঠানিকভাবে পদত্যাগপত্র জমা দেওয়ার পাশাপাশি বর্তমান পরিস্থিতির প্রেক্ষাপটে নিজের অবস্থান নিয়ে সাংবাদিকদের সঙ্গে বিস্তারিত আলোচনা করবেন।</p>\n<p>সম্প্রতি চলচ্চিত্র অঙ্গনে সৃষ্ট অস্থিরতা ও উত্তেজনার পরিপ্রেক্ষিতে এই সিদ্ধান্তের বিষয়টি সামনে এলো। গত ১৫ নভেম্বর বিকেলে দেশের সাম্প্রতিক পরিস্থিতির প্রতিবাদে এফডিসি গেটে একটি মানববন্ধনের আয়োজন করেছিল চলচ্চিত্রসংশ্লিষ্ট বিভিন্ন সংগঠন। তবে সেই কর্মসূচিতে শিল্পী সমিতির সাধারণ সম্পাদক জয় চৌধুরীসহ কয়েকজন সদস্যের অনুপস্থিতি নিয়ে চলচ্চিত্র পাড়ায় বেশ সমালোচনা ও অসন্তোষের সৃষ্টি হয়।</p>\n<p>মানববন্ধন শেষে জাতীয়তাবাদী সামাজিক সাংস্কৃতিক সংস্থার (জাসাস) আহ্বায়ক ও চিত্রনায়ক হেলাল খান শিল্পী সমিতির কার্যালয়ে গিয়ে জয় চৌধুরীর সঙ্গে তর্কে জড়ান। এক পর্যায়ে হেলাল খান শিল্পী সমিতির সামনে উপস্থিত কয়েকজনকে ‘ফ্যাসিস্ট’ হিসেবে আখ্যায়িত করেন এবং জয় চৌধুরীকেও একই সম্বোধন করেন। এছাড়া এফডিসিকে ফ্যাসিস্টমুক্ত করার ঘোষণাও দেন তিনি।</p>\n<p>এই ঘটনার প্রেক্ষিতে জয় চৌধুরী জানান, ওই সময় শিল্পী সমিতির সামনে উপস্থিত ব্যক্তিরা ছিলেন অভিনেতা ডি এ তায়েবের ভক্ত। তারা মূলত ডি এ তায়েবের জন্মদিন উপলক্ষে সেখানে কেক কাটার জন্য অপেক্ষা করছিলেন। ডি এ তায়েব দেরি করায় তারা সেখানে বসে ছিলেন এবং বিষয়টি সম্পর্কে অভিনেতা নিজেও আগে থেকে জানতেন না। জয় চৌধুরীর দাবি, ডি এ তায়েবকে সমর্থন দেওয়া এবং মানববন্ধনে উপস্থিত হতে দেরি হওয়ার কারণেই মূলত ভুল বোঝাবুঝির সৃষ্টি হয়েছে, যা এই অনাকাঙ্ক্ষিত উত্তেজনার জন্ম দিয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিল্পীদের ঐক্যবদ্ধ প্ল্যাটফর্ম থেকে এমন আকস্মিক সরে দাঁড়ানো সুস্থ চলচ্চিত্র চর্চার পথে বড় বাধা। নেতৃত্ব সংকটের এই অনিশ্চয়তা দর্শকদের মনে শিল্পের মান ও ভবিষ্যৎ নিয়ে গভীর সংশয় তৈরি করবে, যা সামগ্রিক বিনোদন অঙ্গনের জন্য অনাকাঙ্ক্ষিত।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/entertainment/542008\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "চলচ্চিত্রসংশ্লিষ্ট ১৯টি সংগঠনের সমন্বয়ে গঠিত আহ্বায়ক কমিটির নেতৃত্ব থেকে সরে দাঁড়ানোর ঘোষণা দিয়েছেন চিত্রনায়ক ও বাংলাদেশ চলচ্চিত্র শিল্পী সমিতির সাধারণ সম্পাদক...",
-      "sourceUrl": "https://daily-bangladesh.com/entertainment/542008",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssfa84ba98c9b749",
-      "slug": "রাজধানীর-কয়েকটি-স্থানে-ককটেল-বিস্ফোরণ",
-      "title": "রাজধানীর কয়েকটি স্থানে ককটেল বিস্ফোরণ",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3.jpg",
-      "publishedAt": "2026-11-17T04:42:03.066Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>রাজধানীর বেশ কয়েকটি এলাকায় গভীর রাতে রহস্যময় ককটেল বিস্ফোরণের ঘটনা ঘটেছে। সোমবার (১৬ নভেম্বর) দিবাগত রাতে দুর্বৃত্তরা সুপরিকল্পিতভাবে এসব বিস্ফোরণ ঘটিয়ে জনমনে আতঙ্ক সৃষ্টির চেষ্টা করে। তবে সৌভাগ্যবশত এসব বিচ্ছিন্ন ঘটনায় এখন পর্যন্ত কোনো হতাহতের খবর পাওয়া যায়নি।</p>\n<p>পুলিশ ও প্রত্যক্ষদর্শী সূত্রে জানা গেছে, ঘটনার সূত্রপাত হয় রাত ১১টার দিকে গুলিস্তান স্টেডিয়ামের ৩ নম্বর গেটের সামনে ককটেল বিস্ফোরণের মধ্য দিয়ে। এর কিছু সময় পর পৌনে ১২টার দিকে কমলাপুর বিআরটিসি কাউন্টারের সামনে আরও একটি বিস্ফোরণ ঘটে। ধারাবাহিক এই বিস্ফোরণের ঘটনাগুলো এলাকাবাসীর মধ্যে ভীতি সঞ্চার করে।</p>\n<p>মধ্যরাতের দিকে তেজগাঁও এলাকায়ও বিস্ফোরণের ঘটনা ঘটে। রাত ১২টার পর মগবাজার ফ্লাইওভার দিয়ে মোটরসাইকেলে করে এসে একদল দুর্বৃত্ত তেজগাঁও ভূমি অফিস লক্ষ্য করে পরপর দুটি ককটেল নিক্ষেপ করে। এ সময় বিকট শব্দে আশপাশের রিকশাচালক ও পথচারীরা আতঙ্কিত হয়ে ছোটাছুটি শুরু করেন।</p>\n<p>তেজগাঁও শিল্পাঞ্চল থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) মাহবুবুর রহমান ঘটনার সত্যতা নিশ্চিত করেছেন। তিনি জানান, একই সময়ে সাতরাস্তা এলাকায় আকিজ পাম্পের বিপরীত পাশেও দুটি ককটেল বিস্ফোরণের ঘটনা ঘটেছে। আইনশৃঙ্খলা রক্ষাকারী বাহিনী বিষয়টি গুরুত্বের সঙ্গে দেখছে এবং ঘটনার সাথে জড়িতদের শনাক্ত করার চেষ্টা চালাচ্ছে।</p>\n<p>রাজধানীর গুরুত্বপূর্ণ একাধিক স্থানে একই রাতে একের পর এক বিস্ফোরণের ঘটনায় স্থানীয়দের মাঝে উদ্বেগ দেখা দিয়েছে। পুলিশ জানিয়েছে, প্রতিটি ঘটনাস্থল পর্যবেক্ষণ করা হচ্ছে এবং বর্তমানে পরিস্থিতি নিয়ন্ত্রণে রয়েছে। এসব ঘটনায় এখন পর্যন্ত কাউকে আটক বা গ্রেপ্তারের তথ্য পাওয়া যায়নি।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জননিরাপত্তার এমন অবনতি সাধারণ মানুষের মনে গভীর আতঙ্ক ও অস্বস্তির জন্ম দেয়। দৈনন্দিন যাতায়াত ও স্বাভাবিক কর্মজীবনে অনিশ্চয়তা তৈরি করা এসব নাশকতামূলক কর্মকাণ্ড অবিলম্বে বন্ধ হওয়া জরুরি। প্রশাসনকে দ্রুত কার্যকর ব্যবস্থা নিয়ে জনমনে আস্থা ফিরিয়ে আনতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/capital/542010\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "রাজধানীর তেজগাঁও ভূমি অফিসসহ কয়েকটি স্থানে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। সোমবার (১৬ নভেম্বর) দিবাগত রাতে বিভিন্ন সময়ে এসব বিস্ফোরণ ঘটায় দুর্বৃত্তরা। তবে এসব ঘটনা...",
-      "sourceUrl": "https://daily-bangladesh.com/capital/542010",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssba2e40850bd330",
-      "slug": "দেশের-৪-সমুদ্রবন্দরে-সতর্কসংকেত",
-      "title": "দেশের ৪ সমুদ্রবন্দরে সতর্কসংকেত",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A7%AA-%E0%A6%B8%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%87-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%87%E0%A6%A4.jpg",
-      "publishedAt": "2026-11-17T04:42:03.064Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বঙ্গোপসাগরে সৃষ্ট ঘূর্ণিঝড় ‘আকভান’ ক্রমান্বয়ে শক্তি সঞ্চয় করছে। এই ঘূর্ণিঝড়ের প্রভাবে দেশের চারটি সমুদ্রবন্দরে ২ নম্বর দূরবর্তী হুঁশিয়ারি সংকেত দেখাতে বলেছে আবহাওয়া অধিদপ্তর। মঙ্গলবার সকালে অধিদপ্তরের ৮ নম্বর বিশেষ বিজ্ঞপ্তিতে এ তথ্য জানানো হয়। উপকূলীয় এলাকার নিরাপত্তা নিশ্চিত করতে সংশ্লিষ্ট বন্দর কর্তৃপক্ষ ও জেলেদের সতর্ক থাকতে পরামর্শ দেওয়া হয়েছে।</p>\n<p>আবহাওয়ার সর্বশেষ তথ্য অনুযায়ী, ঘূর্ণিঝড়টি দক্ষিণপূর্ব বঙ্গোপসাগর ও তৎসংলগ্ন পশ্চিমমধ্য বঙ্গোপসাগর এলাকায় অবস্থান করছে। বর্তমানে এটি প্রায় স্থির অবস্থায় থাকলেও উত্তর-উত্তরপশ্চিম দিকে অগ্রসর হওয়ার সম্ভাবনা রয়েছে। সোমবার মধ্যরাতে ঘূর্ণিঝড়টি চট্টগ্রাম সমুদ্রবন্দর থেকে ১ হাজার ৩০৫ কিলোমিটার, কক্সবাজার থেকে ১ হাজার ২৪৫ কিলোমিটার, মোংলা থেকে ১ হাজার ২২৫ কিলোমিটার এবং পায়রা সমুদ্রবন্দর থেকে ১ হাজার ২০৫ কিলোমিটার দক্ষিণ-পশ্চিমে অবস্থান করছিল।</p>\n<p>ঘূর্ণিঝড়টির কেন্দ্রের কাছাকাছি সাগর বেশ উত্তাল রয়েছে। কেন্দ্রের ৫৪ কিলোমিটারের মধ্যে বাতাসের একটানা সর্বোচ্চ গতিবেগ ঘণ্টায় ৬২ কিলোমিটার, যা দমকা বা ঝোড়ো হাওয়ার আকারে ৮৮ কিলোমিটার পর্যন্ত বৃদ্ধি পাচ্ছে। পূর্বাভাস অনুযায়ী, ঘূর্ণিঝড়টি আরও শক্তিশালী হয়ে অতিপ্রবল ঘূর্ণিঝড়ে রূপ নিতে পারে। আগামী ২০ নভেম্বর সন্ধ্যা নাগাদ এটি ভারতের অন্ধ্র উপকূল অতিক্রম করতে পারে বলে জানানো হয়েছে।</p>\n<p>এই পরিস্থিতির পরিপ্রেক্ষিতে উত্তর বঙ্গোপসাগরে অবস্থানরত সকল মাছ ধরার নৌকা ও ট্রলারকে বিশেষ সতর্কতার সঙ্গে উপকূলের কাছাকাছি চলাচল করার নির্দেশ দেওয়া হয়েছে। পরবর্তী নির্দেশ না আসা পর্যন্ত তাদের গভীর সমুদ্রে না যাওয়ার পরামর্শ দেওয়া হয়েছে। পরিস্থিতি পর্যবেক্ষণ করে আবহাওয়া অধিদপ্তর থেকে নিয়মিত বিশেষ বিজ্ঞপ্তি প্রচার করা হচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ঘূর্ণিঝড়ের এই সতর্কবার্তা উপকূলীয় জনজীবনে বড় ধরনের ঝুঁকি তৈরি করেছে, যা স্বাভাবিক জীবনযাত্রা ও মৎস্য আহরণকে অনিশ্চিত করে তুলেছে। দুর্যোগের ক্ষয়ক্ষতি এড়াতে এখন সরকারি নির্দেশনার পাশাপাশি নাগরিকদের সর্বোচ্চ সতর্কতা ও প্রস্তুতি গ্রহণ জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/542011\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "দক্ষিণপূর্ব বঙ্গোপসাগর ও তৎসংলগ্ন পশ্চিমমধ্য বঙ্গোপসাগরে অবস্থানরত ঘূর্ণিঝড় ‘আকভান’ ক্রমেই শক্তিশালী হচ্ছে। এটি অতিপ্রবল ঘূর্ণিঝড়ে রূপ নিয়ে আগামী ২০ নভেম্বর ভার...",
-      "sourceUrl": "https://daily-bangladesh.com/national/542011",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
