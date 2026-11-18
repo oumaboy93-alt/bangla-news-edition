@@ -1,6 +1,6 @@
 {
-  "version": 1369,
-  "updatedAt": "2026-11-18T21:05:01.504Z",
+  "version": 1370,
+  "updatedAt": "2026-11-18T21:16:56.231Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,12 +52,60 @@
       "sourceName": ""
     },
     {
+      "id": "rss2bc207a4c2e75b",
+      "slug": "সার্বক্ষণিক-পুলিশ-পাহারায়-থাকা-ড-ইউনূসের",
+      "title": "সার্বক্ষণিক পুলিশ পাহারায় থাকা ড. ইউনূসের বাসায় কীভাবে আগুন দিলো দুর্বৃত্তরা?",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A1-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A7%82%E0%A6%B8%E0%A7%87%E0%A6%B0.webp",
+      "publishedAt": "2026-11-18T21:12:19.226Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>চট্টগ্রাম নগরীতে সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক মুহাম্মদ ইউনূসের পৈতৃক বাড়িতে আগুন দিয়েছে দুর্বৃত্তরা। তবে সার্বক্ষণিক পুলিশ পাহারায় থাকার পরও বাসাটিতে অগ্নিসংযোগের ঘটনা কীভাবে ঘটলো তা নিয়ে প্রশ্ন উঠেছে। তবে পুলিশ বলছে, কার্যক্রম নিষিদ্ধ আওয়ামী লীগের নেতাকর্মীরা পেট্রোল বোমা ছুড়েছে। এতে বাসার নিচতলায় আগুন ধরে গেছে। বুধবার রাত সাড়ে ১১টার দিকে নগরের পাঁচলাইশ এলাকার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/981851/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A1.-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A7%82%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A7%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "চট্টগ্রাম নগরীতে সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা অধ্যাপক মুহাম্মদ ইউনূসের পৈতৃক বাড়িতে আগুন দিয়েছে দুর্বৃত্তরা। তবে সার্বক্ষণিক পুলিশ পাহারায় থাকার পরও বাসাটিতে অগ্নিসংযোগের ঘটনা কীভাবে ঘটলো তা নিয়ে প্রশ্ন উঠেছে। তবে পুলিশ বলছে, কার্যক্রম নিষিদ্ধ আওয়ামী লীগের নেতাকর্মীরা পেট্রোল বোমা ছুড়েছ",
+      "sourceUrl": "https://www.banglatribune.com/country/chitagong/981851/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A1.-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A7%82%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A7%9F",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss5bff10e8c8fcc9",
+      "slug": "সাবেক-শিক্ষামন্ত্রী-নুরুল-ইসলাম-নাহিদ-গ্",
+      "title": "সাবেক শিক্ষামন্ত্রী নুরুল ইসলাম নাহিদ গ্রেফতার",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%A8%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6-%E0%A6%97%E0%A7%8D.webp",
+      "publishedAt": "2026-11-18T21:12:19.217Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>সাবেক শিক্ষামন্ত্রী নুরুল ইসলাম নাহিদকে গ্রেফতার করেছে পুলিশ। বুধবার (১৮ নভেম্বর) দিবাগত রাত ২টা ২০ মিনিটের দিকে রাজধানীর উত্তরার বাসায় অভিযান চালিয়ে তাকে গ্রেফতার করা হয়েছে। উত্তরা পশ্চিম থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) মোহাম্মদ খালিদ মনসুর গ্রেফতারের বিষয়টি নিশ্চিত করেছেন। বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/981853/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%A8%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "সাবেক শিক্ষামন্ত্রী নুরুল ইসলাম নাহিদকে গ্রেফতার করেছে পুলিশ। বুধবার (১৮ নভেম্বর) দিবাগত রাত ২টা ২০ মিনিটের দিকে রাজধানীর উত্তরার বাসায় অভিযান চালিয়ে তাকে গ্রেফতার করা হয়েছে। উত্তরা পশ্চিম থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) মোহাম্মদ খালিদ মনসুর গ্রেফতারের বিষয়টি নিশ্চিত করেছেন। বিস্তারিত",
+      "sourceUrl": "https://www.banglatribune.com/others/981853/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A8%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B2-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%A8%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssa8bc3c28638666",
+      "slug": "যুক্তরাষ্ট্রে-ঘন-ঘন-প্রযুক্তি-বিভ্রাট-ট্",
+      "title": "যুক্তরাষ্ট্রে ঘন ঘন প্রযুক্তি বিভ্রাট, ট্রাম্প বলছেন ‘সব ঠিক আছে’",
+      "category": "প্রযুক্তি",
+      "lead": false,
+      "image": "images/international.jpg",
+      "publishedAt": "2026-11-18T21:12:19.192Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yMEtQdWgwZ1RaM0pNaGQwZFpuUXF4T190c2tWS2JEampqTHI2RzZRaDJmWjk1eW9CMnkyZHZKSzdMdlhDVlJVbHNqQ29RT2lYX0QwQnlR?oc=5&quot; target=&quot;_blank&quot;&amp;gt;যুক্তরাষ্ট্রে ঘন ঘন প্রযুক্তি বিভ্রাট, ট্রাম্প বলছেন ‘সব ঠিক আছে’&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yMEtQdWgwZ1RaM0pNaGQwZFpuUXF4T190c2tWS2JEampqTHI2RzZRaDJmWjk1eW9CMnkyZHZKSzdMdlhDVlJVbHNqQ29RT2lYX0QwQnlR?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yMEtQdWgwZ1RaM0pNaGQwZFpuUXF4T190c2tWS2JEampqTHI2RzZRaDJmWjk1eW9CMnkyZHZKSzdMdlhDVlJVbHNqQ29RT2lYX0QwQnlR?oc=5\" target=\"_blank\"&gt;যুক্তরাষ্ট্রে ঘন ঘন প্রযুক্তি বিভ্রাট, ট্রাম্প বলছেন ‘সব ঠিক আছে’&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yMEtQdWgwZ1RaM0pNaGQwZFpuUXF4T190c2tWS2JEampqTHI2RzZRaDJmWjk1eW9CMnkyZHZKSzdMdlhDVlJVbHNqQ29RT2lYX0QwQnlR?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
       "id": "rssff35120e1c4f48",
       "slug": "শিল্প-ও-সাহিত্য",
       "title": "শিল্প ও সাহিত্য",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssff35120e1c4f48-1200x630.jpg",
       "publishedAt": "2026-11-18T20:57:23.399Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -105,7 +153,7 @@
       "title": "জাতীয় গ্রিডে রূপপুরের সাড়ে ৮ ঘণ্টা বিদ্যুৎ",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss6eeb70a15e684e-1200x630.jpg",
       "publishedAt": "2026-11-18T20:42:07.950Z",
       "tags": [
         "যুগান্তর"
@@ -265,7 +313,7 @@
       "title": "৭ ডিসেম্বর ঢাকায় আসছেন আনোয়ার ইব্রাহিম",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss2e6c7055a9a3dd-1200x630.jpg",
       "publishedAt": "2026-11-18T19:57:08.197Z",
       "tags": [
         "যুগান্তর"
@@ -7969,54 +8017,6 @@
       "body": "<p>ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) সাবেক মেয়র মোহাম্মদ সাঈদ খোকনকে গ্রেফতার করা হয়েছে। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে রাজধানীর বারিধারার একটি বাসা থেকে তাকে গ্রেফতার করা হয়। স্পেশাল রেসপন্স ব্যাটালিয়নের (এসআরবি) বার্তায় জানানো হয়েছে, বারিধারার ৯ নম্বর রোডের ১৩ নম্বর বাসা থেকে এসআরবি-০</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের বিরুদ্ধে এমন আইনি পদক্ষেপ স্বচ্ছতা ও জবাবদিহিতার পথ প্রশস্ত করে। স্থানীয় বাসিন্দাদের উচিত গুজবে কান না দিয়ে আইন-শৃঙ্খলার প্রতি শ্রদ্ধাশীল থাকা। সুষ্ঠু বিচার প্রক্রিয়া নিশ্চিত করতে নাগরিক সচেতনতাই এখন সবচেয়ে জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/981427/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%88%E0%A6%A6-%E0%A6%96%E0%A7%8B%E0%A6%95%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) সাবেক মেয়র মোহাম্মদ সাঈদ খোকনকে গ্রেফতার করা হয়েছে। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে রাজধানীর বারিধারার একটি বাসা থেকে তাকে গ্রেফতার করা হয়। স্পেশাল রেসপন্স ব্যাটালিয়নের (এসআরবি) বার্তায় জানানো হয়েছে, বারিধারার ৯ নম্বর রোডের ১৩ নম্বর বাসা থেকে এসআরবি-০",
       "sourceUrl": "https://www.banglatribune.com/law-and-crime/981427/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%88%E0%A6%A6-%E0%A6%96%E0%A7%8B%E0%A6%95%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf9d4248c8e8ea6",
-      "slug": "ডিএসসিসির-সাবেক-মেয়র-সাঈদ-খোকন-গ্রেফতার",
-      "title": "ডিএসসিসির সাবেক মেয়র সাঈদ খোকন গ্রেফতার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%88%E0%A6%A6-%E0%A6%96%E0%A7%8B%E0%A6%95%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0.webp",
-      "publishedAt": "2026-11-17T03:42:02.821Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) সাবেক মেয়র মোহাম্মদ সাঈদ খোকনকে গ্রেফতার করা হয়েছে। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে রাজধানীর বারিধারার একটি বাসা থেকে তাকে গ্রেফতার করা হয়। স্পেশাল রেসপন্স ব্যাটালিয়নের (এসআরবি) বার্তায় জানানো হয়েছে, বারিধারার ৯ নম্বর রোডের ১৩ নম্বর বাসা থেকে এসআরবি-০</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের বিরুদ্ধে এমন আইনি পদক্ষেপ স্বচ্ছতা ও জবাবদিহিতার পথ প্রশস্ত করে, যা স্থানীয় সুশাসনের জন্য অপরিহার্য। এই পরিস্থিতির প্রেক্ষাপটে নাগরিক হিসেবে আমাদের ধৈর্য ধরে আইনি প্রক্রিয়ার ওপর আস্থা রাখা উচিত।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/981427/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%88%E0%A6%A6-%E0%A6%96%E0%A7%8B%E0%A6%95%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ঢাকা দক্ষিণ সিটি করপোরেশনের (ডিএসসিসি) সাবেক মেয়র মোহাম্মদ সাঈদ খোকনকে গ্রেফতার করা হয়েছে। মঙ্গলবার (১৭ নভেম্বর) সকাল ৭টার দিকে রাজধানীর বারিধারার একটি বাসা থেকে তাকে গ্রেফতার করা হয়। স্পেশাল রেসপন্স ব্যাটালিয়নের (এসআরবি) বার্তায় জানানো হয়েছে, বারিধারার ৯ নম্বর রোডের ১৩ নম্বর বাসা থেকে এসআরবি-০",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/981427/%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%AE%E0%A7%87%E0%A6%AF%E0%A6%BC%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%88%E0%A6%A6-%E0%A6%96%E0%A7%8B%E0%A6%95%E0%A6%A8-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssd462108bcc8713",
-      "slug": "মানুষ-কীভাবে-স্বাস্থ্য-পরামর্শে-এআই-ব্যব",
-      "title": "মানুষ কীভাবে স্বাস্থ্য পরামর্শে এআই ব্যবহার করছে, জানতে অ্যাপ আনলো অ্যাপল",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A7%87-%E0%A6%8F%E0%A6%86%E0%A6%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC.webp",
-      "publishedAt": "2026-11-17T03:42:02.818Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>স্বাস্থ্যসংক্রান্ত বিভিন্ন প্রশ্নের উত্তর জানতে বর্তমানে অনেকেই কৃত্রিম বুদ্ধিমত্তা বা এআই চ্যাটবটের সাহায্য নিচ্ছেন। তবে এসব চ্যাটবটের দেওয়া তথ্য কতটা নির্ভরযোগ্য, ব্যবহারকারীরা সেগুলো কতটা বুঝতে পারছেন এবং চিকিৎসার সিদ্ধান্ত নেওয়ার ক্ষেত্রে কতটা কাজে লাগছে, তা নিয়ে যথেষ্ট প্রশ্ন রয়েছে। এ বিষয়ে তথ্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এআই চ্যাটবটের স্বাস্থ্য পরামর্শ গ্রহণ ব্যক্তিগত চিকিৎসার ক্ষেত্রে বড় ঝুঁকি তৈরি করতে পারে। প্রযুক্তির সীমাবদ্ধতা বিবেচনায় রেখে সংবেদনশীল বিষয়ে তথ্যের সত্যতা যাচাই ও বিশেষজ্ঞ চিকিৎসকের পরামর্শ গ্রহণই এখন জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/tech-news/981289/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A7%87-%E0%A6%8F%E0%A6%86%E0%A6%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "স্বাস্থ্যসংক্রান্ত বিভিন্ন প্রশ্নের উত্তর জানতে বর্তমানে অনেকেই কৃত্রিম বুদ্ধিমত্তা বা এআই চ্যাটবটের সাহায্য নিচ্ছেন। তবে এসব চ্যাটবটের দেওয়া তথ্য কতটা নির্ভরযোগ্য, ব্যবহারকারীরা সেগুলো কতটা বুঝতে পারছেন এবং চিকিৎসার সিদ্ধান্ত নেওয়ার ক্ষেত্রে কতটা কাজে লাগছে, তা নিয়ে যথেষ্ট প্রশ্ন রয়েছে। এ বিষয়ে তথ্",
-      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/tech-news/981289/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A7%87-%E0%A6%8F%E0%A6%86%E0%A6%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss068c9976c6f3f7",
-      "slug": "খুলনা-নগর-ভবনে-পেট্রোল-বোমা-নিক্ষেপের-ঘট",
-      "title": "খুলনা নগর ভবনে পেট্রোল বোমা নিক্ষেপের ঘটনায় মামলা, আটক চালক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%AD%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B2-%E0%A6%AC%E0%A7%8B%E0%A6%AE%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F.webp",
-      "publishedAt": "2026-11-17T03:42:02.815Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>খুলনা সিটি করপোরেশনের (কেসিসি) নগর ভবনে পেট্রোল বোমা নিক্ষেপের ঘটনায় অজ্ঞাতনামা ২০ জনকে আসামি করে মামলা হয়েছে। এ ঘটনায় ব্যবহৃত মোটরসাইকেলসহ চালক আলী অপিকে আটক করেছে পুলিশ। সোমবার (১৬ নভেম্বর) সন্ধ্যায় মহানগরীর মুসলমানপাড়া এলাকা থেকে তাকে আটক করা হয়। আলী অপি অগ্রণী ব্যাংক কলোনি এলাকার বাসিন্দা। এর আগ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নাগরিক সেবার প্রাণকেন্দ্রে এমন সহিংসতা জনমনে গভীর নিরাপত্তাহীনতা তৈরি করেছে। স্থানীয়দের শান্ত থেকে আইনি প্রক্রিয়ায় সহায়তা করা জরুরি, যাতে জননিরাপত্তার এ সংকট দ্রুত নিরসন হয়। প্রশাসনের উচিত অপরাধীদের শনাক্ত করে দৃষ্টান্তমূলক বিচার নিশ্চিত করা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/981428/%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%AD%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B2-%E0%A6%AC%E0%A7%8B%E0%A6%AE%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "খুলনা সিটি করপোরেশনের (কেসিসি) নগর ভবনে পেট্রোল বোমা নিক্ষেপের ঘটনায় অজ্ঞাতনামা ২০ জনকে আসামি করে মামলা হয়েছে। এ ঘটনায় ব্যবহৃত মোটরসাইকেলসহ চালক আলী অপিকে আটক করেছে পুলিশ। সোমবার (১৬ নভেম্বর) সন্ধ্যায় মহানগরীর মুসলমানপাড়া এলাকা থেকে তাকে আটক করা হয়। আলী অপি অগ্রণী ব্যাংক কলোনি এলাকার বাসিন্দা। এর আগ",
-      "sourceUrl": "https://www.banglatribune.com/country/khulna/981428/%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%AD%E0%A6%AC%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B2-%E0%A6%AC%E0%A7%8B%E0%A6%AE%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
