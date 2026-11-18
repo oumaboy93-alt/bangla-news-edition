@@ -1,6 +1,6 @@
 {
-  "version": 1346,
-  "updatedAt": "2026-11-18T16:17:58.101Z",
+  "version": 1347,
+  "updatedAt": "2026-11-18T16:31:02.930Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rss402960b67a3a41",
+      "slug": "পাবলিক-বিশ্ববিদ্যালয়ে-ভর্তি-পরীক্ষা-নিয়",
+      "title": "পাবলিক বিশ্ববিদ্যালয়ে ভর্তি পরীক্ষা নিয়ে ইউজিসির আগের সিদ্ধান্ত বাতিল",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F.webp",
+      "publishedAt": "2026-11-18T16:27:04.849Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>পাবলিক বিশ্ববিদ্যালয়গুলোর ২০২৬-২৭ শিক্ষাবর্ষের ভর্তি কার্যক্রম পরিচালনা নিয়ে গত ৯ নভেম্বর নেওয়া সিদ্ধান্ত বাতিল করেছে বিশ্ববিদ্যালয় মঞ্জুরি কমিশন (ইউজিসি)। ফলে বিশ্ববিদ্যালয়গুলো নিজ নিজ আইন, সংবিধি, বিধি-বিধান, নীতিমালা এবং যথাযথ একাডেমিক কর্তৃপক্ষের সিদ্ধান্ত অনুসরণ করে ভর্তি কার্যক্রম পরিচালনা করত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভর্তি প্রক্রিয়ার এ পরিবর্তন শিক্ষার্থীদের জন্য নতুন চ্যালেঞ্জ ও অনিশ্চয়তা তৈরি করতে পারে। অভিভাবক ও শিক্ষার্থীদের এখন সংশ্লিষ্ট বিশ্ববিদ্যালয়ের নিজস্ব নীতিমালা ও ভর্তি নির্দেশিকা সম্পর্কে বিস্তারিত খোঁজখবর রাখা জরুরি। প্রস্তুতির ক্ষেত্রে এখন প্রতিটি প্রতিষ্ঠানের স্বকীয় নিয়ম ও মানদণ্ড অনুযায়ী আগাম পরিকল্পনা গ্রহণ করাই হবে বুদ্ধিমানের কাজ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/educations/981827/%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "পাবলিক বিশ্ববিদ্যালয়গুলোর ২০২৬-২৭ শিক্ষাবর্ষের ভর্তি কার্যক্রম পরিচালনা নিয়ে গত ৯ নভেম্বর নেওয়া সিদ্ধান্ত বাতিল করেছে বিশ্ববিদ্যালয় মঞ্জুরি কমিশন (ইউজিসি)। ফলে বিশ্ববিদ্যালয়গুলো নিজ নিজ আইন, সংবিধি, বিধি-বিধান, নীতিমালা এবং যথাযথ একাডেমিক কর্তৃপক্ষের সিদ্ধান্ত অনুসরণ করে ভর্তি কার্যক্রম পরিচালনা করত",
+      "sourceUrl": "https://www.banglatribune.com/educations/981827/%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%89%E0%A6%9C%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss8139e7a31a786e",
+      "slug": "স্বেচ্ছাসেবক-লীগ-নেতাকে-গ্রেফতারের-পর-হা",
+      "title": "স্বেচ্ছাসেবক লীগ নেতাকে গ্রেফতারের পর হামলা, দুই পুলিশ কর্মকর্তা আহত",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%95-%E0%A6%B2%E0%A7%80%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE.webp",
+      "publishedAt": "2026-11-18T16:27:04.847Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>কক্সবাজারের রামুতে পুলিশের অভিযানে গ্রেফতার স্বেচ্ছাসেবক লীগের এক নেতাকে ছিনিয়ে নিয়েছেন তার স্বজনরা। এ সময় লাঠিসোঁটার আঘাত ও মারধরে পুলিশের দুই কর্মকর্তা আহত হয়েছেন। মঙ্গলবার (১৮ নভেম্বর) রাত সাড়ে ৮টার দিকে উপজেলার কাউয়ারখোপ ইউনিয়নের ৭ নম্বর ওয়ার্ডের লট উখিয়ার ঘোনা এলাকায় এ ঘটনা ঘটে। বুধবার সন্ধ্যা </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনশৃঙ্খলা রক্ষাকারী বাহিনীর ওপর এমন হামলা জননিরাপত্তার জন্য অশনিসংকেত। স্থানীয় পর্যায়ে রাজনৈতিক প্রভাব খাটিয়ে বিচারহীনতার সংস্কৃতি গড়ে তোলা বন্ধ করতে হবে এবং দোষীদের দ্রুত আইনের আওতায় এনে দৃষ্টান্তমূলক শাস্তির ব্যবস্থা নিশ্চিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/981828/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%95-%E0%A6%B2%E0%A7%80%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "কক্সবাজারের রামুতে পুলিশের অভিযানে গ্রেফতার স্বেচ্ছাসেবক লীগের এক নেতাকে ছিনিয়ে নিয়েছেন তার স্বজনরা। এ সময় লাঠিসোঁটার আঘাত ও মারধরে পুলিশের দুই কর্মকর্তা আহত হয়েছেন। মঙ্গলবার (১৮ নভেম্বর) রাত সাড়ে ৮টার দিকে উপজেলার কাউয়ারখোপ ইউনিয়নের ৭ নম্বর ওয়ার্ডের লট উখিয়ার ঘোনা এলাকায় এ ঘটনা ঘটে। বুধবার সন্ধ্যা ",
+      "sourceUrl": "https://www.banglatribune.com/country/chitagong/981828/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%95-%E0%A6%B2%E0%A7%80%E0%A6%97-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssc8c268f230d6c2",
+      "slug": "পোশাকশ্রমিকদের-ন্যূনতম-মজুরির-আলোচনা-হও",
+      "title": "পোশাকশ্রমিকদের ন্যূনতম মজুরির আলোচনা হওয়া উচিত ১৮ থেকে ২৪ হাজার টাকার মধ্যে: সিপিডি",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "",
+      "publishedAt": "2026-11-18T16:27:04.831Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tYVJZYXhJVjk0cm5GUUhlSGs4TlVDRmVRRTAxNVRreWlaNWp2RllEUDNmMVl3d2dZMm11b3FYYThacDFvZVZPLWNLNnNjTERoWUNwU0lQQW14ekE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;পোশাকশ্রমিকদের ন্যূনতম মজুরির আলোচনা হওয়া উচিত ১৮ থেকে ২৪ হাজার টাকার মধ্যে: সিপিডি&amp;lt;/a&amp;gt;&amp;nbs</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জীবনযাত্রার ক্রমবর্ধমান ব্যয়ের সাথে সামঞ্জস্য রেখে পোশাকশ্রমিকদের মজুরি পুনর্নির্ধারণ করা এখন সময়ের দাবি। ন্যায্য বেতন কাঠামো নিশ্চিত করা গেলে শ্রমিকদের জীবনমান উন্নয়নের পাশাপাশি দেশের সামগ্রিক উৎপাদনশীলতা ও অর্থনৈতিক স্থিতিশীলতা বজায় রাখা সম্ভব হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tYVJZYXhJVjk0cm5GUUhlSGs4TlVDRmVRRTAxNVRreWlaNWp2RllEUDNmMVl3d2dZMm11b3FYYThacDFvZVZPLWNLNnNjTERoWUNwU0lQQW14ekE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tYVJZYXhJVjk0cm5GUUhlSGs4TlVDRmVRRTAxNVRreWlaNWp2RllEUDNmMVl3d2dZMm11b3FYYThacDFvZVZPLWNLNnNjTERoWUNwU0lQQW14ekE?oc=5\" target=\"_blank\"&gt;পোশাকশ্রমিকদের ন্যূনতম মজুরির আলোচনা হওয়া উচিত ১৮ থেকে ২৪ হাজার টাকার মধ্যে: সিপিডি&lt;/a&gt;&nbs",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tYVJZYXhJVjk0cm5GUUhlSGs4TlVDRmVRRTAxNVRreWlaNWp2RllEUDNmMVl3d2dZMm11b3FYYThacDFvZVZPLWNLNnNjTERoWUNwU0lQQW14ekE?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
       "id": "rssd61bea22ed8238",
       "slug": "সংসদে-বিশেষ-সৌরবিদ্যুৎ-স্থাপন-বিল-২০২৬-প",
       "title": "সংসদে বিশেষ সৌরবিদ্যুৎ স্থাপন বিল-২০২৬ পাস",
@@ -62,7 +110,7 @@
       "tags": [
         "বাংলাদেশ জার্নাল"
       ],
-      "body": "<p>দেশে সৌরবিদ্যুৎ স্থাপন কার্যক্রম সম্প্রসারণ ও দ্রুততর করার লক্ষ্যে জাতীয় সংসদে বিশেষ সৌরবিদ্যুৎ স্থাপন বিল-২০২৬ পাস হয়েছে। আজ জাতীয় সংসদে বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রী ইকবাল হাসান মাহমুদের পক্ষে প্রতিমন্ত্রী অনিন্দ্য ইসলাম অমিত বিলটি উত্থাপন...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315875/সংসদে-বিশেষ-সৌরবিদ্যুৎ-স্থাপন-বিল-২০২৬-পাস\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "body": "<p>দেশে সৌরবিদ্যুৎ স্থাপন কার্যক্রম সম্প্রসারণ ও দ্রুততর করার লক্ষ্যে জাতীয় সংসদে বিশেষ সৌরবিদ্যুৎ স্থাপন বিল-২০২৬ পাস হয়েছে। আজ জাতীয় সংসদে বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রী ইকবাল হাসান মাহমুদের পক্ষে প্রতিমন্ত্রী অনিন্দ্য ইসলাম অমিত বিলটি উত্থাপন...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পরিবেশবান্ধব নবায়নযোগ্য জ্বালানির ব্যবহার বৃদ্ধি কেবল টেকসই উন্নয়নেরই শর্ত নয়, বরং এটি পৃথিবীর ভারসাম্য রক্ষায় স্রষ্টার সৃষ্টির প্রতি মানুষের দায়িত্বশীলতার প্রতিফলন। এই উদ্যোগ সামাজিক সচেতনতা বাড়িয়ে জনজীবনে আধুনিক ও পরিচ্ছন্ন বিদ্যুতায়ন নিশ্চিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315875/সংসদে-বিশেষ-সৌরবিদ্যুৎ-স্থাপন-বিল-২০২৬-পাস\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
       "summary": "দেশে সৌরবিদ্যুৎ স্থাপন কার্যক্রম সম্প্রসারণ ও দ্রুততর করার লক্ষ্যে জাতীয় সংসদে বিশেষ সৌরবিদ্যুৎ স্থাপন বিল-২০২৬ পাস হয়েছে। আজ জাতীয় সংসদে বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রী ইকবাল হাসান মাহমুদের পক্ষে প্রতিমন্ত্রী অনিন্দ্য ইসলাম অমিত বিলটি উত্থাপন...",
       "sourceUrl": "https://www.bd-journal.com/bangladesh/315875/সংসদে-বিশেষ-সৌরবিদ্যুৎ-স্থাপন-বিল-২০২৬-পাস",
       "sourceName": "বাংলাদেশ জার্নাল"
@@ -94,7 +142,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>বাংলাদেশের স্বাধীনতা ও সার্বভৌমত্ব দুর্বল করার লক্ষ্যে একটি দেশবিরোধী অপশক্তি দেশে গৃহযুদ্ধ শুরুর পাঁয়তারা চালাচ্ছে বলে মন্তব্য করেছেন জাতীয় সংসদের স্পিকার মেজর (অব.) হাফিজ উদ্দিন আহমদ বীর বিক্রম। এ পরিস্থিতিতে দল-মত নির্বিশেষে ঐক্যবদ্ধভাবে ওই অপশক্তিকে প্রতিহত করার আহ্বান জানিয়েছেন তিনি। বুধবার (১৮ নভেম্বর) ত্রয়োদশ জাতীয় সংসদের চতুর্থ অধিবেশনের সমাপনী বক্তব্যে স্পিকার এ আহ্বান জানান। স্পিকার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/981826/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%97%E0%A7%83%E0%A6%B9%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%81%E0%A7%9F%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>বাংলাদেশের স্বাধীনতা ও সার্বভৌমত্ব দুর্বল করার লক্ষ্যে একটি দেশবিরোধী অপশক্তি দেশে গৃহযুদ্ধ শুরুর পাঁয়তারা চালাচ্ছে বলে মন্তব্য করেছেন জাতীয় সংসদের স্পিকার মেজর (অব.) হাফিজ উদ্দিন আহমদ বীর বিক্রম। এ পরিস্থিতিতে দল-মত নির্বিশেষে ঐক্যবদ্ধভাবে ওই অপশক্তিকে প্রতিহত করার আহ্বান জানিয়েছেন তিনি। বুধবার (১৮</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জাতীয় ঐক্যের এই আহ্বান রাজনৈতিক অস্থিরতা নিরসনে গুরুত্বপূর্ণ হলেও, গৃহযুদ্ধের আশঙ্কার এমন মন্তব্য জনমনে গভীর উদ্বেগ ও ভীতি সৃষ্টি করতে পারে। দেশের স্থিতিশীলতা বজায় রাখতে রাজনৈতিক দলগুলোর মধ্যে পারস্পরিক দোষারোপের চেয়ে গঠনমূলক সমঝোতাই এখন কাম্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/981826/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%97%E0%A7%83%E0%A6%B9%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%81%E0%A7%9F%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "বাংলাদেশের স্বাধীনতা ও সার্বভৌমত্ব দুর্বল করার লক্ষ্যে একটি দেশবিরোধী অপশক্তি দেশে গৃহযুদ্ধ শুরুর পাঁয়তারা চালাচ্ছে বলে মন্তব্য করেছেন জাতীয় সংসদের স্পিকার মেজর (অব.) হাফিজ উদ্দিন আহমদ বীর বিক্রম। এ পরিস্থিতিতে দল-মত নির্বিশেষে ঐক্যবদ্ধভাবে ওই অপশক্তিকে প্রতিহত করার আহ্বান জানিয়েছেন তিনি। বুধবার (১৮",
       "sourceUrl": "https://www.banglatribune.com/national/981826/%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%97%E0%A7%83%E0%A6%B9%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%81%E0%A7%9F%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
@@ -7970,54 +8018,6 @@
       "summary": "ফুটবলে কখনো কখনো স্কোরলাইনই বলে দেয় মাঠে কী ঘটেছে। বার্লিনের অলিম্পিয়াস্টাডিয়নে তেমনই এক রাত কাটাল জার্মানি-নেদারল্যান্ডস। ইয়ুর্গেন ক্লপের জার্মানির সামনে দাঁড়াতেই পারেনি জাভি হার্নান্দেজের নেদারল্যান্ডস। নেশনস লিগে নিজেদের গ্রুপের শেষ ম্যাচে ডাচদের ৫-০ গোলে উড়িয়ে দিয়েছে জার্মানি। প্রতিযোগিতামূলক ফু",
       "sourceUrl": "https://www.prothomalo.com/sports/football/qq7ft9nr4n",
       "sourceName": "প্রথম আলো"
-    },
-    {
-      "id": "rss47453ec668cb36",
-      "slug": "ফিরলো-সেই-জার্মানি-নেদারল্যান্ডসকে-দিলো",
-      "title": "ফিরলো সেই জার্মানি, নেদারল্যান্ডসকে দিলো ৫ গোল",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%B8%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8B.webp",
-      "publishedAt": "2026-11-16T22:27:02.383Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বিশ্বকাপের দ্বিতীয় রাউন্ড থেকেই বাদ পড়েছিল জার্মানি। কোচ নাগেলসম্যানকে পাল্টে দায়িত্ব দেওয়া হলো লিভারপুলকে চ্যাম্পিয়ন্স লিগ জেতানো অভিজ্ঞ কোচ ইউর্গেন ক্লপকে। তিনি দায়িত্ব নিয়ে শুরু করলেন উয়েফা ন্যাশনস লিগ। সেখানে প্রথম ম্যাচে ড্র, পরেরটিতে হার- তাও গ্রিসের সঙ্গে। সেই ধ্বংসস্তূপ থেকে ঘুরে দাঁড়ালো জার</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ইউরোপীয় ফুটবলে জার্মানির এই দাপুটে প্রত্যাবর্তন তাদের হৃত গৌরব পুনরুদ্ধারের স্পষ্ট বার্তা দিচ্ছে। নতুন কৌশলে দলের এমন গোলবন্যা পরবর্তী বড় টুর্নামেন্টগুলোতে তাদের শিরোপা জয়ের অন্যতম দাবিদার হিসেবে প্রতিষ্ঠিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/981413/%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%B8%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A7%AB-%E0%A6%97%E0%A7%8B%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বিশ্বকাপের দ্বিতীয় রাউন্ড থেকেই বাদ পড়েছিল জার্মানি। কোচ নাগেলসম্যানকে পাল্টে দায়িত্ব দেওয়া হলো লিভারপুলকে চ্যাম্পিয়ন্স লিগ জেতানো অভিজ্ঞ কোচ ইউর্গেন ক্লপকে। তিনি দায়িত্ব নিয়ে শুরু করলেন উয়েফা ন্যাশনস লিগ। সেখানে প্রথম ম্যাচে ড্র, পরেরটিতে হার- তাও গ্রিসের সঙ্গে। সেই ধ্বংসস্তূপ থেকে ঘুরে দাঁড়ালো জার",
-      "sourceUrl": "https://www.banglatribune.com/sport/football/981413/%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A7%87%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%B8%E0%A6%95%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8B-%E0%A7%AB-%E0%A6%97%E0%A7%8B%E0%A6%B2",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss9675875d2ec7ad",
-      "slug": "মিরপুরে-যাত্রীবাহী-বাসে-আগুন-আটক-২",
-      "title": "মিরপুরে যাত্রীবাহী বাসে আগুন, আটক ২",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss9675875d2ec7ad-1200x630.jpg",
-      "publishedAt": "2026-11-16T22:27:02.379Z",
-      "tags": [
-        "বিডিনিউজ২৪"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTFBncS1MVThlTW5maTJ3dnZHQmRnclFlTXVtUW9WYTdOQ19tSEcyR0dlemlNa3VnZDhOd2xCUDlhdm42ejNaUnVPZjRtNG5oMzlHTDA4NTMwa1pkczl2REE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মিরপুরে যাত্রীবাহী বাসে আগুন, আটক ২&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনবহুল এলাকায় এমন অগ্নিকাণ্ড জননিরাপত্তার জন্য বড় হুমকি এবং আতঙ্কের কারণ। নিয়মিত যানবাহন পরীক্ষা ও নজরদারি জোরদার করা জরুরি, যাতে সাধারণ যাত্রীরা নির্বিঘ্নে চলাচল করতে পারেন। সচেতন নাগরিক হিসেবে যেকোনো অস্বাভাবিক পরিস্থিতি দ্রুত কর্তৃপক্ষকে জানানো প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBncS1MVThlTW5maTJ3dnZHQmRnclFlTXVtUW9WYTdOQ19tSEcyR0dlemlNa3VnZDhOd2xCUDlhdm42ejNaUnVPZjRtNG5oMzlHTDA4NTMwa1pkczl2REE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBncS1MVThlTW5maTJ3dnZHQmRnclFlTXVtUW9WYTdOQ19tSEcyR0dlemlNa3VnZDhOd2xCUDlhdm42ejNaUnVPZjRtNG5oMzlHTDA4NTMwa1pkczl2REE?oc=5\" target=\"_blank\"&gt;মিরপুরে যাত্রীবাহী বাসে আগুন, আটক ২&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdnews24.",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBncS1MVThlTW5maTJ3dnZHQmRnclFlTXVtUW9WYTdOQ19tSEcyR0dlemlNa3VnZDhOd2xCUDlhdm42ejNaUnVPZjRtNG5oMzlHTDA4NTMwa1pkczl2REE?oc=5",
-      "sourceName": "বিডিনিউজ২৪"
-    },
-    {
-      "id": "rssfcae3b181910f4",
-      "slug": "আগুন-ককটেল-নাশকতা-প্রাসঙ্গিকতার-ভুল-পথ",
-      "title": "আগুন-ককটেল-নাশকতা—প্রাসঙ্গিকতার ভুল পথ",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A7%81%E0%A6%B2-%E0%A6%AA%E0%A6%A5.webp",
-      "publishedAt": "2026-11-16T22:12:02.701Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>ক্ষমতাহীন বা ক্ষমতাসীন যে কোনো অবস্থান থেকেই জোরজবরদস্তি তথা নাশকতায় আওয়ামী লীগ হিম্মতওয়ালা দল। যে কোনো অঘটন ঘটিয়ে নিজেদের প্রাসঙ্গিক রাখার যাবতীয় চর্চায় সিদ্ধহস্ত। কারো কাছে দলটির বিশেষত্ব, সৌন্দর্য, কারো ভাষায় ন্যাচার অব পলিটিকস । সময়ের ব্যবধানে গত কদিন দলটি আবার সেই সক্ষমতার জানান দিচ্ছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা টিকিয়ে রাখার এই অপচেষ্টা কেবল দীর্ঘস্থায়ী সংঘাতের পথই প্রশস্ত করে, যা গণতান্ত্রিক পরিবেশের জন্য হুমকিস্বরূপ। এসব নাশকতা জননিরাপত্তা বিঘ্নিত করার পাশাপাশি সাধারণ মানুষের জীবনযাত্রায় চরম অনিশ্চয়তা ও আতঙ্ক তৈরি করছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/821397/%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE%E2%80%94%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A7%81%E0%A6%B2-%E0%A6%AA%E0%A6%A5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "ক্ষমতাহীন বা ক্ষমতাসীন যে কোনো অবস্থান থেকেই জোরজবরদস্তি তথা নাশকতায় আওয়ামী লীগ হিম্মতওয়ালা দল। যে কোনো অঘটন ঘটিয়ে নিজেদের প্রাসঙ্গিক রাখার যাবতীয় চর্চায় সিদ্ধহস্ত। কারো কাছে দলটির বিশেষত্ব, সৌন্দর্য, কারো ভাষায় ন্যাচার অব পলিটিকস । সময়ের ব্যবধানে গত কদিন দলটি আবার সেই সক্ষমতার জানান দিচ্ছে।",
-      "sourceUrl": "https://www.ittefaq.com.bd/821397/%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE%E2%80%94%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AD%E0%A7%81%E0%A6%B2-%E0%A6%AA%E0%A6%A5",
-      "sourceName": "ইত্তেফাক"
     }
   ],
   "ads": [
