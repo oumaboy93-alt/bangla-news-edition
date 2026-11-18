@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T16:31:05.029Z",
+  "generatedAt": "2026-11-18T16:42:26.440Z",
   "version": 1347,
   "updatedAt": "2026-11-18T16:31:02.930Z",
   "settings": {
@@ -93,7 +93,7 @@
       "tags": [
         "বিডিনিউজ২৪"
       ],
-      "image": "",
+      "image": "images/economy.jpg",
       "og_image": "",
       "author": "ডেস্ক",
       "published_at": "2026-11-18T16:27:04.831Z",
@@ -109,7 +109,7 @@
       "tags": [
         "বাংলাদেশ জার্নাল"
       ],
-      "image": "",
+      "image": "images/politics.jpg",
       "og_image": "",
       "author": "ডেস্ক",
       "published_at": "2026-11-18T16:12:05.276Z",
