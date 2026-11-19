@@ -1,6 +1,6 @@
 {
-  "version": 1382,
-  "updatedAt": "2026-11-18T23:58:53.853Z",
+  "version": 1383,
+  "updatedAt": "2026-11-19T00:10:14.519Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -73,7 +73,7 @@
       "title": "আইসিজের রায়ের আগে মিয়ানমারের আচরণ নিয়ে ‘উদ্বিগ্ন’ জাতিসংঘ বিশেষজ্ঞ",
       "category": "আন্তর্জাতিক",
       "lead": false,
-      "image": "images/international.jpg",
+      "image": "/img/rssc94c8428c9670e-1200x630.jpg",
       "publishedAt": "2026-11-18T23:57:08.503Z",
       "tags": [
         "বিডিনিউজ২৪"
