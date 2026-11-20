@@ -1,6 +1,6 @@
 {
-  "version": 1442,
-  "updatedAt": "2026-11-20T19:47:24.775Z",
+  "version": 1443,
+  "updatedAt": "2026-11-20T19:58:27.842Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rssbcc7bf9c5137d9",
+      "slug": "আইএইউপির-সেমি-অ্যানুয়াল-মিটিং-বিশ্বের-বি",
+      "title": "আইএইউপির সেমি-অ্যানুয়াল মিটিং: বিশ্বের বিশ্ববিদ্যালয়প্রধানদের মিলনমেলা",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%87%E0%A6%8F%E0%A6%87%E0%A6%89%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A6%BF-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%82-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF.avif",
+      "publishedAt": "2026-11-20T19:57:32.653Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>দক্ষিণ এশিয়ায় আইএইউপির এ আয়োজনের স্বাগতিক হিসেবে ডিআইইউ বাংলাদেশের উচ্চশিক্ষা, গবেষণা, উদ্ভাবন ও আন্তর্জাতিক সহযোগিতার সক্ষমতা বিশ্বমঞ্চে তুলে ধরার দায়িত্ব পালন করছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্বমঞ্চে বাংলাদেশের উচ্চশিক্ষার এই উপস্থিতি শিক্ষার্থীদের আন্তর্জাতিক মানদণ্ড ও নেটওয়ার্কিংয়ের নতুন সুযোগ তৈরি করবে। গবেষণাধর্মী শিক্ষার প্রসারে অভিভাবকরা এখন আরও আত্মবিশ্বাসী হতে পারেন, যা দেশের শিক্ষাব্যবস্থাকে বিশ্বমানের পথে এগিয়ে নেবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/zjej1j6y5z\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "দক্ষিণ এশিয়ায় আইএইউপির এ আয়োজনের স্বাগতিক হিসেবে ডিআইইউ বাংলাদেশের উচ্চশিক্ষা, গবেষণা, উদ্ভাবন ও আন্তর্জাতিক সহযোগিতার সক্ষমতা বিশ্বমঞ্চে তুলে ধরার দায়িত্ব পালন করছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/zjej1j6y5z",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rssc3633abe0c1e44",
+      "slug": "পাত্রী-দেখতে-দুই-বন্ধুর-সঙ্গে-গিয়ে-খুন-নে",
+      "title": "পাত্রী দেখতে দুই বন্ধুর সঙ্গে গিয়ে খুন, নেপথ্যে আপন ভাই-ভাবি",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%A8-%E0%A6%A8%E0%A7%87.avif",
+      "publishedAt": "2026-11-20T19:57:32.650Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>পাত্রী দেখানোর কথা বলে ডেকে নিয়ে ইটের আঘাতে আলমগীরকে হত্যা করা হয়। তথ্যপ্রযুক্তির সহায়তায় পিবিআই চার আসামিকে গ্রেপ্তার ও আলামত উদ্ধার করেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক বিবাদের জেরে এমন নৃশংস হত্যাকাণ্ডের ঘটনা সামাজিক সম্পর্কের চরম অবক্ষয়কে নির্দেশ করে। নিরাপদ চলাচলের নিশ্চয়তা রক্ষায় স্থানীয়দের পারস্পরিক নজরদারি বাড়ানো এবং যেকোনো বিরোধ নিরসনে আইনি সহায়তা নেওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/crime/o3mdhl4rds\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "পাত্রী দেখানোর কথা বলে ডেকে নিয়ে ইটের আঘাতে আলমগীরকে হত্যা করা হয়। তথ্যপ্রযুক্তির সহায়তায় পিবিআই চার আসামিকে গ্রেপ্তার ও আলামত উদ্ধার করেছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/crime/o3mdhl4rds",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rsse6f73502292e29",
+      "slug": "ইউনিভার্সিটি-অব-লন্ডনে-SOAS-জুলাই-গণঅভ্যুত্",
+      "title": "ইউনিভার্সিটি অব লন্ডনে (SOAS) ‘জুলাই গণঅভ্যুত্থান ও তৎপরবর্তী বাংলাদেশ’ শীর্ষক উচ্চপর্যায়ের একাডেমিক আলোচনা",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T19:57:32.636Z",
+      "tags": [
+        "বাংলা এডিশন"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMib0FVX3lxTE94MF9kaHZFRVpUaDY1VFhxVE1RYnB1bkttN3B3LUtCdk5kbzVlZGxBSWluSGJQQVc0bTl6RjRvd0ZyUE5SQ2NPSU8xZWhVR3g2azFwYmFkSFVEenkwSzUtRzZQSV81ZWxVa1Zsa0ZVYw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ইউনিভার্সিটি অব লন্ডনে (SOAS) ‘জুলাই গণঅভ্যুত্থান ও তৎপরবর্তী বাংলাদেশ’ শীর্ষক উচ্চপর্যায়ের একাডেমিক আলোচনা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangla Edition&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE94MF9kaHZFRVpUaDY1VFhxVE1RYnB1bkttN3B3LUtCdk5kbzVlZGxBSWluSGJQQVc0bTl6RjRvd0ZyUE5SQ2NPSU8xZWhVR3g2azFwYmFkSFVEenkwSzUtRzZQSV81ZWxVa1Zsa0ZVYw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা এডিশন</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE94MF9kaHZFRVpUaDY1VFhxVE1RYnB1bkttN3B3LUtCdk5kbzVlZGxBSWluSGJQQVc0bTl6RjRvd0ZyUE5SQ2NPSU8xZWhVR3g2azFwYmFkSFVEenkwSzUtRzZQSV81ZWxVa1Zsa0ZVYw?oc=5\" target=\"_blank\"&gt;ইউনিভার্সিটি অব লন্ডনে (SOAS) ‘জুলাই গণঅভ্যুত্থান ও তৎপরবর্তী বাংলাদেশ’",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94MF9kaHZFRVpUaDY1VFhxVE1RYnB1bkttN3B3LUtCdk5kbzVlZGxBSWluSGJQQVc0bTl6RjRvd0ZyUE5SQ2NPSU8xZWhVR3g2azFwYmFkSFVEenkwSzUtRzZQSV81ZWxVa1Zsa0ZVYw?oc=5",
+      "sourceName": "বাংলা এডিশন"
     },
     {
       "id": "rss605a4c671ca0e7",
@@ -7969,54 +8017,6 @@
       "body": "<p>কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও অঙ্গ সংগঠনের নেতাকর্মীরা পাবনার বিভিন্ন স্থানে মশাল মিছিল ও মহাসড়ক অবরোধ করেছেন। জেলার আতাইকুলা, ভাঙ্গুড়া, সাঁথিয়া, বেড়া ও ঈশ্বরদী এলাকায় এসব কর্মসূচি পালন করা হয়েছে। পাবনা জেলা নিষিদ্ধ ছাত্রলীগের ফেসবুক থেকে প্রচারিত ছবি ও তথ্য অনুযায়ী, আতাইকুলা থানা এলাকায় পাবনা-ঢাকা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মহাসড়ক অবরোধের মতো কর্মসূচি সাধারণ মানুষের চলাচলে চরম ভোগান্তি ও নিরাপত্তা ঝুঁকি তৈরি করছে। জনদুর্ভোগ এড়াতে আইনশৃঙ্খলা বাহিনীকে কঠোর নজরদারি বাড়াতে হবে এবং স্থানীয় জনসাধারণকেও যেকোনো উসকানিমূলক পরিস্থিতি এড়িয়ে সতর্ক থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/rajshahi/981865/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95-%E0%A7%A9-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%9B%E0%A6%BF%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও অঙ্গ সংগঠনের নেতাকর্মীরা পাবনার বিভিন্ন স্থানে মশাল মিছিল ও মহাসড়ক অবরোধ করেছেন। জেলার আতাইকুলা, ভাঙ্গুড়া, সাঁথিয়া, বেড়া ও ঈশ্বরদী এলাকায় এসব কর্মসূচি পালন করা হয়েছে। পাবনা জেলা নিষিদ্ধ ছাত্রলীগের ফেসবুক থেকে প্রচারিত ছবি ও তথ্য অনুযায়ী, আতাইকুলা থানা এলাকায় পাবনা-ঢাকা",
       "sourceUrl": "https://www.banglatribune.com/country/rajshahi/981865/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95-%E0%A7%A9-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%9B%E0%A6%BF%E0%A6%B2",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss1632401e2bfc83",
-      "slug": "নাশকতার-শঙ্কায়-ঢাকায়-চেকপোস্ট-বেড়ে-ছয়গুণ",
-      "title": "নাশকতার শঙ্কায় ঢাকায় চেকপোস্ট বেড়ে ছয়গুণ, সতর্ক অবস্থানে আইনশৃঙ্খলা বাহিনী",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss1632401e2bfc83-1200x630.jpg",
-      "publishedAt": "2026-11-19T02:27:08.732Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>কার্যক্রম নিষিদ্ধ আওয়ামী লীগের ঘোষিত বৃহস্পতিবারের লকডাউন কর্মসূচিকে কেন্দ্র করে এবং সাম্প্রতিক ককটেল বিস্ফোরণ ও বাসে অগ্নিসংযোগের প্রেক্ষাপটে রাজধানী ঢাকাসহ সারা দেশে নিরাপত্তা ব্যবস্থা জোরদার করা হয়েছে। নাশকতা ঠেকাতে রাজধানীতে তল্লাশি চৌকির (চেকপোস্ট) সংখ্যা সাধারণ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজধানীতে নিরাপত্তা জোরদারের এই সিদ্ধান্ত জননিরাপত্তায় জরুরি হলেও সাধারণ মানুষের দৈনন্দিন চলাচলে কিছুটা বিঘ্ন ঘটতে পারে। পরিস্থিতির সুযোগ নিয়ে কেউ যেন অস্থিতিশীলতা তৈরি করতে না পারে, সেজন্য নাগরিকদের যেকোনো সন্দেহজনক আচরণ আইনশৃঙ্খলা বাহিনীকে অবহিত করা উচিত।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315880/নাশকতার-শঙ্কায়-ঢাকায়-চেকপোস্ট-বেড়ে-ছয়গুণ-সতর্ক-অবস্থানে-আইনশৃঙ্খলা-বাহিনী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "কার্যক্রম নিষিদ্ধ আওয়ামী লীগের ঘোষিত বৃহস্পতিবারের লকডাউন কর্মসূচিকে কেন্দ্র করে এবং সাম্প্রতিক ককটেল বিস্ফোরণ ও বাসে অগ্নিসংযোগের প্রেক্ষাপটে রাজধানী ঢাকাসহ সারা দেশে নিরাপত্তা ব্যবস্থা জোরদার করা হয়েছে। নাশকতা ঠেকাতে রাজধানীতে তল্লাশি চৌকির (চেকপোস্ট) সংখ্যা সাধারণ...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315880/নাশকতার-শঙ্কায়-ঢাকায়-চেকপোস্ট-বেড়ে-ছয়গুণ-সতর্ক-অবস্থানে-আইনশৃঙ্খলা-বাহিনী",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss4639bdf1c4d434",
-      "slug": "সাবেক-শিক্ষামন্ত্রী-নুরুল-ইসলাম-নাহিদ-আট",
-      "title": "সাবেক শিক্ষামন্ত্রী নুরুল ইসলাম নাহিদ আটক",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rss4639bdf1c4d434-1200x630.jpg",
-      "publishedAt": "2026-11-19T02:27:08.724Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>রাজধানীর উত্তরার একটি বাসা থেকে সাবেক শিক্ষামন্ত্রী ও আওয়ামী লীগ নেতা নুরুল ইসলাম নাহিদকে আটক করেছে পুলিশ। বুধবার (১৮ নভেম্বর) রাতে উত্তরার ৩ নম্বর সেক্টরের ওই বাসা থেকে তাঁকে আটক করা হয়। উত্তরা পশ্চিম থানার...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রভাবশালী রাজনৈতিক ব্যক্তিত্বের এই আটক স্থানীয় জনমনে বিচারপ্রক্রিয়া নিয়ে নতুন প্রত্যাশার জন্ম দিয়েছে। আইনের শাসন সমুন্নত রাখতে এখন স্থানীয়দের ধৈর্য ধরে পরিস্থিতি পর্যবেক্ষণ করা এবং যেকোনো উসকানিমূলক কর্মকাণ্ড থেকে বিরত থাকা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315881/সাবেক-শিক্ষামন্ত্রী-নুরুল-ইসলাম-নাহিদ-আটক\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "রাজধানীর উত্তরার একটি বাসা থেকে সাবেক শিক্ষামন্ত্রী ও আওয়ামী লীগ নেতা নুরুল ইসলাম নাহিদকে আটক করেছে পুলিশ। বুধবার (১৮ নভেম্বর) রাতে উত্তরার ৩ নম্বর সেক্টরের ওই বাসা থেকে তাঁকে আটক করা হয়। উত্তরা পশ্চিম থানার...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315881/সাবেক-শিক্ষামন্ত্রী-নুরুল-ইসলাম-নাহিদ-আটক",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss815c5a3e6f7d50",
-      "slug": "রাতভর-গোটা-শহর-পাহারা-দিয়েছেন-বিএনপির-নে",
-      "title": "রাতভর গোটা শহর পাহারা দিয়েছেন বিএনপির নেতাকর্মীরা",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%AD%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%9F%E0%A6%BE-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87.webp",
-      "publishedAt": "2026-11-19T02:27:08.706Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>খুলনার পাড়া-মহল্লা রাতভর মিছিল স্লোগানে উত্তাল রেখেছেন বিএনপি ও অঙ্গ সংগঠনের নেতাকর্মীরা। প্রতিটি এলাকায় মোটরসাইকেল বহর নিয়ে মিছিলসহ পাহারা দিয়েছেন। বুধবার (১৮ নভেম্বর) সন্ধ্যার পর থেকে মোটরসাইকেলের বহর নিয়ে মিছিল শুরু হয়। তারা রাতের অনেকটা সময় পাহারা দিয়েছেন বলে জানা গেছে। মহানগর বিএনপির সভাপতি শ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক কর্মকাণ্ডের এই বহিঃপ্রকাশ নাগরিক জনজীবনে এক ধরনের অস্থিরতা ও উদ্বেগের জন্ম দেয়, যা সুস্থ বিনোদন ও স্বাভাবিক জনজীবনকে ব্যাহত করে। শৃঙ্খলার নামে এমন মহড়া সাধারণ মানুষের স্বস্তি ক্ষুণ্ণ করার পাশাপাশি জননিরাপত্তার প্রতি এক নতুন চ্যালেঞ্জ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/981863/%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%AD%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%9F%E0%A6%BE-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "খুলনার পাড়া-মহল্লা রাতভর মিছিল স্লোগানে উত্তাল রেখেছেন বিএনপি ও অঙ্গ সংগঠনের নেতাকর্মীরা। প্রতিটি এলাকায় মোটরসাইকেল বহর নিয়ে মিছিলসহ পাহারা দিয়েছেন। বুধবার (১৮ নভেম্বর) সন্ধ্যার পর থেকে মোটরসাইকেলের বহর নিয়ে মিছিল শুরু হয়। তারা রাতের অনেকটা সময় পাহারা দিয়েছেন বলে জানা গেছে। মহানগর বিএনপির সভাপতি শ",
-      "sourceUrl": "https://www.banglatribune.com/country/khulna/981863/%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A6%AD%E0%A6%B0-%E0%A6%97%E0%A7%8B%E0%A6%9F%E0%A6%BE-%E0%A6%B6%E0%A6%B9%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A6%B0%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
