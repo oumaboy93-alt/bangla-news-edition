@@ -1,6 +1,6 @@
 {
-  "version": 1463,
-  "updatedAt": "2026-11-20T23:35:11.160Z",
+  "version": 1464,
+  "updatedAt": "2026-11-20T23:46:22.216Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -193,6 +193,22 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ওটিটিতে যা দেখবেন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5\" target=\"_blank\"&gt;ওটিটিতে যা দেখবেন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss31abe294bcc864",
+      "slug": "ঘূর্ণিঝড়ের-প্রভাবে-কতদিন-ঝরবে-বৃষ্টি",
+      "title": "ঘূর্ণিঝড়ের প্রভাবে কতদিন ঝরবে বৃষ্টি?",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T22:57:33.387Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHa1BkZUx1T1NvMXQwREFDa3hFZWlOTm91NGhxZkFUaXI4ZE5PcnVPTTd0WlJHU3NXV2xjeS1pSVJRa25ObnU1TU9PUHdRQ1dRUE8w?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঘূর্ণিঝড়ের প্রভাবে কতদিন ঝরবে বৃষ্টি?&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHa1BkZUx1T1NvMXQwREFDa3hFZWlOTm91NGhxZkFUaXI4ZE5PcnVPTTd0WlJHU3NXV2xjeS1pSVJRa25ObnU1TU9PUHdRQ1dRUE8w?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHa1BkZUx1T1NvMXQwREFDa3hFZWlOTm91NGhxZkFUaXI4ZE5PcnVPTTd0WlJHU3NXV2xjeS1pSVJRa25ObnU1TU9PUHdRQ1dRUE8w?oc=5\" target=\"_blank\"&gt;ঘূর্ণিঝড়ের প্রভাবে কতদিন ঝরবে বৃষ্টি?&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHa1BkZUx1T1NvMXQwREFDa3hFZWlOTm91NGhxZkFUaXI4ZE5PcnVPTTd0WlJHU3NXV2xjeS1pSVJRa25ObnU1TU9PUHdRQ1dRUE8w?oc=5",
       "sourceName": "যুগান্তর"
     },
     {
@@ -676,6 +692,22 @@
       "sourceName": "যুগান্তর"
     },
     {
+      "id": "rssa38cd99fe1a54e",
+      "slug": "রায়-ঐতিহাসিক-প্রভাব-সুদূরপ্রসারী",
+      "title": "রায় ঐতিহাসিক প্রভাব সুদূরপ্রসারী",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T20:27:32.648Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qMTl6Zl9zRHVySmFVR05lbkNoWUNIX01RX1p4V1J4OU51S2dnU1k5MVFWWTZBWHFEcVV2N2t1NXRqdXZXaTNFSVZpakJYbUU4d0xfRzVaMW0?oc=5&quot; target=&quot;_blank&quot;&amp;gt;রায় ঐতিহাসিক প্রভাব সুদূরপ্রসারী&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qMTl6Zl9zRHVySmFVR05lbkNoWUNIX01RX1p4V1J4OU51S2dnU1k5MVFWWTZBWHFEcVV2N2t1NXRqdXZXaTNFSVZpakJYbUU4d0xfRzVaMW0?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qMTl6Zl9zRHVySmFVR05lbkNoWUNIX01RX1p4V1J4OU51S2dnU1k5MVFWWTZBWHFEcVV2N2t1NXRqdXZXaTNFSVZpakJYbUU4d0xfRzVaMW0?oc=5\" target=\"_blank\"&gt;রায় ঐতিহাসিক প্রভাব সুদূরপ্রসারী&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&g",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qMTl6Zl9zRHVySmFVR05lbkNoWUNIX01RX1p4V1J4OU51S2dnU1k5MVFWWTZBWHFEcVV2N2t1NXRqdXZXaTNFSVZpakJYbUU4d0xfRzVaMW0?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
       "id": "rssd3e75cd80c29c4",
       "slug": "সশস্ত্র-বাহিনী-দেশ-ও-জনগণের-আস্থার-প্রতী",
       "title": "সশস্ত্র বাহিনী দেশ ও জনগণের আস্থার প্রতীকে পরিণত হয়েছে: জামায়াত আমির",
@@ -721,6 +753,22 @@
       "body": "<p>সুনামগঞ্জের শান্তিগঞ্জ উপজেলায় আয়োজিত এক দলীয় অনুষ্ঠানে আমার বাংলাদেশ পার্টির (এবি পার্টি) চেয়ারম্যান মজিবুর রহমান মঞ্জু সতর্ক করে বলেছেন, দেশে আওয়ামী লীগের সন্ত্রাসী কর্মকাণ্ডের মাত্রা আরও বৃদ্ধি পেলে তা গৃহযুদ্ধের পরিস্থিতি তৈরি করতে পারে। শুক্রবার বিকেলে ঝিলমিল মিলনায়তনে আয়োজিত এই অনুষ্ঠানে তিনি স্পষ্ট করেন যে, এমন পরিস্থিতিতে কোনো অস্থিতিশীলতা সৃষ্টি হলে তার দায়ভার বর্তমান সরকার ও আওয়ামী লীগকে যৌথভাবে নিতে হবে। এবি যুব পার্টির সুনামগঞ্জ জেলা শাখা গঠন উপলক্ষে আয়োজিত এই অনুষ্ঠানে তিনি প্রধান অতিথি হিসেবে উপস্থিত ছিলেন।</p>\n<p>সাবেক শাসকদলের সমালোচনা করে মজিবুর রহমান বলেন, অতীতে যারা বাড়িঘর পুড়িয়ে এবং মানুষ হত্যা করে রাজনীতি চালিয়েছে, তাদের উপলব্ধি করা উচিত যে জনগণের ওপর চালানো সীমাহীন নির্যাতনের কারণেই তাদের পতন হয়েছিল। গোপালগঞ্জসহ দেশের বিভিন্ন অঞ্চলে সম্প্রতি ঘটা আওয়ামী লীগের নৈরাজ্য ও সহিংসতার ঘটনায় তিনি তীব্র ক্ষোভ প্রকাশ করেন। তিনি মন্তব্য করেন, পরাজিত ফ্যাসিবাদের পুনরায় স্বরূপে ফিরে আসার পেছনে তরুণদের মধ্যে অনৈক্য এবং বর্তমান সরকারের কিছু প্রহসনমূলক পদক্ষেপ দায়ী।</p>\n<p>অনুষ্ঠানে সভাপতিত্ব করেন এবি পার্টির জেলা শাখার আহ্বায়ক সৈয়দ তালহা আলম। সভায় প্রধান বক্তা হিসেবে বক্তব্য রাখেন যুব পার্টির কেন্দ্রীয় সদস্যসচিব হাদীউজ্জামান খোকন। এছাড়া বিশেষ অতিথি হিসেবে উপস্থিত ছিলেন দলের যুগ্ম সাধারণ সম্পাদক আব্বাস ইসলাম খান ও সাংগঠনিক সম্পাদক গাজী নাসির। বক্তারা দেশের বর্তমান রাজনৈতিক পরিস্থিতি নিয়ে নিজেদের পর্যবেক্ষণ তুলে ধরেন এবং দলের নেতাকর্মীদের সতর্ক থাকার আহ্বান জানান।</p>\n<p>অনুষ্ঠানের শেষ পর্যায়ে এবি যুব পার্টির সুনামগঞ্জ জেলা শাখার নতুন কমিটি ঘোষণা করা হয়। ৩১ সদস্য বিশিষ্ট এই আহ্বায়ক কমিটিতে সুজন আহমদকে আহ্বায়ক এবং আক্তার হুসেনকে সদস্যসচিব হিসেবে মনোনীত করা হয়েছে। নবগঠিত এই কমিটির মাধ্যমে সুনামগঞ্জে দলের যুব সংগঠনকে আরও শক্তিশালী করার প্রত্যয় ব্যক্ত করেন নেতারা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা নিরসনে দলমত নির্বিশেষে জাতীয় ঐক্যের কোনো বিকল্প নেই, অন্যথায় জননিরাপত্তা হুমকির মুখে পড়বে। রাজনৈতিক সংঘাতের উত্তাপ সরাসরি সাধারণ মানুষের স্বাভাবিক জীবনযাত্রা ও জানমালের নিরাপত্তাকে চরম ঝুঁকির দিকে ঠেলে দিচ্ছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/msdc9xuh0n\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "সুনামগঞ্জের অনুষ্ঠানে এবি পার্টির চেয়ারম্যান অভিযোগ করেন, তরুণদের অনৈক্য এবং সরকারি দলের প্রহসনমূলক কর্মকাণ্ডের কারণেই পরাজিত ফ্যাসিবাদ স্বরূপে আবির্ভূত হওয়ার সাহস পাচ্ছে।",
       "sourceUrl": "https://www.prothomalo.com/politics/msdc9xuh0n",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss4e2f615d6783aa",
+      "slug": "আবদুস-শাকুরের-ছবিতে-বাংলার-লোকজীবনের-রঙি",
+      "title": "আবদুস শাকুরের ছবিতে বাংলার লোকজীবনের রঙিন ভুবন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%AC%E0%A6%A6%E0%A7%81%E0%A6%B8-%E0%A6%B6%E0%A6%BE%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%99%E0%A6%BF.avif",
+      "publishedAt": "2026-11-20T20:12:32.699Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>‘মৈমনসিংহ গীতিকা’র মহুয়া, মলুয়া আর গ্রামীণ প্রকৃতি ফুটে উঠেছে ৭৪টি কাজে। অ্যাক্রিলিক, জলরং ও মিশ্রমাধ্যমের এ আয়োজন খোলা থাকবে ২৫ নভেম্বর পর্যন্ত।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/163xjj2eqq\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "‘মৈমনসিংহ গীতিকা’র মহুয়া, মলুয়া আর গ্রামীণ প্রকৃতি ফুটে উঠেছে ৭৪টি কাজে। অ্যাক্রিলিক, জলরং ও মিশ্রমাধ্যমের এ আয়োজন খোলা থাকবে ২৫ নভেম্বর পর্যন্ত।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/163xjj2eqq",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7970,54 +8018,6 @@
       "summary": "প্রয়োজনে চিপ নির্মাতা প্রতিষ্ঠান এনভিডিয়ার সাবেক প্রধান নির্বাহী কর্মকর্তা (সিইও) জেনসেন হুয়াংকে নিয়োগ দিতে চান টেসলা ও স্পেসএক্সের সিইও ইলন মাস্ক।",
       "sourceUrl": "https://daily-bangladesh.com/international/542297",
       "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss85cf23dc94feff",
-      "slug": "৩-বছরের-মধ্যে-নিজস্ব-স্যাটেলাইট-উৎক্ষেপণ",
-      "title": "৩ বছরের মধ্যে নিজস্ব স্যাটেলাইট উৎক্ষেপণের ঘোষণা প্রধানমন্ত্রীর",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rss85cf23dc94feff-1200x630.jpg",
-      "publishedAt": "2026-11-19T06:12:18.294Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>আগামী তিন বছরের মধ্যে নিজেদের তৈরি স্যাটেলাইট মহাকাশে উৎক্ষেপণ করবে বাংলাদেশ এমন ঘোষণা দিয়েছেন প্রধানমন্ত্রী তারেক রহমান। একই সঙ্গে ২০৩৪ সালের মধ্যে বাংলাদেশকে দক্ষিণ এশিয়ার প্রধান এভিয়েশন হাবে পরিণত করার লক্ষ্যে সরকার কাজ শুরু করেছে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নিজস্ব স্যাটেলাইট ও এভিয়েশন হাব গড়ার এই মহাপরিকল্পনা বাংলাদেশের প্রযুক্তিগত সক্ষমতা ও ভূ-রাজনৈতিক অবস্থানকে বিশ্বমঞ্চে সুসংহত করবে। এটি দেশের অর্থনীতিতে গতি সঞ্চারের পাশাপাশি সাধারণ মানুষের জন্য আধুনিক প্রযুক্তিনির্ভর উন্নত জীবনযাত্রার নতুন পথ উন্মোচন করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315890/৩-বছরের-মধ্যে-নিজস্ব-স্যাটেলাইট-উৎক্ষেপণের-ঘোষণা-প্রধানমন্ত্রীর\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "আগামী তিন বছরের মধ্যে নিজেদের তৈরি স্যাটেলাইট মহাকাশে উৎক্ষেপণ করবে বাংলাদেশ এমন ঘোষণা দিয়েছেন প্রধানমন্ত্রী তারেক রহমান। একই সঙ্গে ২০৩৪ সালের মধ্যে বাংলাদেশকে দক্ষিণ এশিয়ার প্রধান এভিয়েশন হাবে পরিণত করার লক্ষ্যে সরকার কাজ শুরু করেছে...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315890/৩-বছরের-মধ্যে-নিজস্ব-স্যাটেলাইট-উৎক্ষেপণের-ঘোষণা-প্রধানমন্ত্রীর",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssb8ff817519e1ab",
-      "slug": "১৩-বছরের-কম-বয়সীদের-সোশ্যাল-মিডিয়া-ব্যবহ",
-      "title": "১৩ বছরের কম বয়সীদের সোশ্যাল মিডিয়া ব্যবহারে নিষেধাজ্ঞা আনছে ইতালি",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9.webp",
-      "publishedAt": "2026-11-19T06:12:18.272Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>কিশোর-কিশোরীদের সামাজিক যোগাযোগমাধ্যম ব্যবহারে বয়সভিত্তিক বিধিনিষেধ আরোপ করতে যাচ্ছে ইতালি। প্রস্তাবিত আইন অনুযায়ী, ১৩ বছরের কম বয়সীরা কোনও সামাজিক যোগাযোগমাধ্যমে অ্যাকাউন্ট খুলতে পারবে না। ১৩ থেকে ১৫ বছর বয়সীরা মা-বাবার অ্যাকাউন্টের সঙ্গে যুক্ত থাকলেই কেবল এসব প্ল্যাটফর্ম ব্যবহার করতে পারবে। আর ১৬ </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কিশোর-কিশোরীদের অনলাইন নিরাপত্তা নিশ্চিত করতে এই উদ্যোগটি অভিভাবকত্বের নতুন মানদণ্ড তৈরি করবে। ডিজিটাল আসক্তি ও সাইবার ঝুঁকি কমাতে এমন নিয়ন্ত্রণমূলক ব্যবস্থা দীর্ঘমেয়াদে তরুণ প্রজন্মের মানসিক বিকাশে ইতিবাচক ভূমিকা রাখতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/981898/%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "কিশোর-কিশোরীদের সামাজিক যোগাযোগমাধ্যম ব্যবহারে বয়সভিত্তিক বিধিনিষেধ আরোপ করতে যাচ্ছে ইতালি। প্রস্তাবিত আইন অনুযায়ী, ১৩ বছরের কম বয়সীরা কোনও সামাজিক যোগাযোগমাধ্যমে অ্যাকাউন্ট খুলতে পারবে না। ১৩ থেকে ১৫ বছর বয়সীরা মা-বাবার অ্যাকাউন্টের সঙ্গে যুক্ত থাকলেই কেবল এসব প্ল্যাটফর্ম ব্যবহার করতে পারবে। আর ১৬ ",
-      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/981898/%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%AE-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss3be21e51882400",
-      "slug": "নারীর-নিরাপত্তা-কি-এখনও-অধরা-স্বপ্ন",
-      "title": "নারীর নিরাপত্তা কি এখনও অধরা স্বপ্ন?",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%93-%E0%A6%85%E0%A6%A7%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8.webp",
-      "publishedAt": "2026-11-19T06:12:18.270Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সকালে মেয়েকে স্কুলে পাঠিয়ে একজন মা কি নিশ্চিন্ত থাকতে পারেন? রাতে কাজ শেষে বাড়ি ফেরার পথে একজন নারী কি নিরাপদ বোধ করেন? আর যে নারী নিজের ঘরেই নির্যাতনের শিকার হন, তিনি কোথায় যাবেন, কার কাছে বিচার চাইবেন? এই প্রশ্নগুলোর উত্তর যদি নিশ্চিতভাবে হ্যাঁ না হয়, তাহলে বুঝতে হবে, নারীর নিরাপত্তা এখনও আমাদের স</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিক্ষাঙ্গন ও কর্মক্ষেত্রে নারীর নিরাপত্তা নিশ্চিত না হওয়া পর্যন্ত প্রকৃত উন্নয়ন সম্ভব নয়। অভিভাবকদের উদ্বেগের অবসান ঘটাতে সামাজিক সচেতনতার পাশাপাশি প্রাতিষ্ঠানিক ও রাষ্ট্রীয় কঠোর নজরদারি অপরিহার্য। সচেতনতাই এখন নারী সুরক্ষার প্রধান ঢাল।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/columns/981792/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%93-%E0%A6%85%E0%A6%A7%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8%C2%A0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সকালে মেয়েকে স্কুলে পাঠিয়ে একজন মা কি নিশ্চিন্ত থাকতে পারেন? রাতে কাজ শেষে বাড়ি ফেরার পথে একজন নারী কি নিরাপদ বোধ করেন? আর যে নারী নিজের ঘরেই নির্যাতনের শিকার হন, তিনি কোথায় যাবেন, কার কাছে বিচার চাইবেন? এই প্রশ্নগুলোর উত্তর যদি নিশ্চিতভাবে হ্যাঁ না হয়, তাহলে বুঝতে হবে, নারীর নিরাপত্তা এখনও আমাদের স",
-      "sourceUrl": "https://www.banglatribune.com/columns/981792/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%93-%E0%A6%85%E0%A6%A7%E0%A6%B0%E0%A6%BE-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8%C2%A0",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
