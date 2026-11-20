@@ -1,6 +1,6 @@
 {
-  "version": 1451,
-  "updatedAt": "2026-11-20T21:17:26.832Z",
+  "version": 1452,
+  "updatedAt": "2026-11-20T21:28:32.752Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,38 @@
       "sourceName": ""
     },
     {
+      "id": "rss4a09f05f2c83b9",
+      "slug": "রাজধানীতে-আজ-বিক্ষোভ-সমাবেশ-জামায়াতের",
+      "title": "রাজধানীতে আজ বিক্ষোভ-সমাবেশ জামায়াতের",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "images/politics.jpg",
+      "publishedAt": "2026-11-20T21:27:33.050Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xOG9aT0J3alZ5MXViYUZPUC1OY21YSTBVNmFVMWJiM3FUVExtd3VMdDBZNHZsd3dCNU1oR3ZkeFhkRUltYnR6M19xbVE5THBBUlM4?oc=5&quot; target=&quot;_blank&quot;&amp;gt;রাজধানীতে আজ বিক্ষোভ-সমাবেশ জামায়াতের&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xOG9aT0J3alZ5MXViYUZPUC1OY21YSTBVNmFVMWJiM3FUVExtd3VMdDBZNHZsd3dCNU1oR3ZkeFhkRUltYnR6M19xbVE5THBBUlM4?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xOG9aT0J3alZ5MXViYUZPUC1OY21YSTBVNmFVMWJiM3FUVExtd3VMdDBZNHZsd3dCNU1oR3ZkeFhkRUltYnR6M19xbVE5THBBUlM4?oc=5\" target=\"_blank\"&gt;রাজধানীতে আজ বিক্ষোভ-সমাবেশ জামায়াতের&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xOG9aT0J3alZ5MXViYUZPUC1OY21YSTBVNmFVMWJiM3FUVExtd3VMdDBZNHZsd3dCNU1oR3ZkeFhkRUltYnR6M19xbVE5THBBUlM4?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss5e351775c217e7",
+      "slug": "সন্ত্রাস-ত্যাগের-ঘোষণা-ছাড়া-রিকনসিলিয়েশ",
+      "title": "সন্ত্রাস ত্যাগের ঘোষণা ছাড়া রিকনসিলিয়েশনের আলাপ অসম্ভব: মাহফুজ আলম",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%B6.avif",
+      "publishedAt": "2026-11-20T21:27:33.031Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সম্ভাব্য সিভিল ওয়ার সিচুয়েশন (গৃহযুদ্ধের পরিস্থিতি) এড়াতে ২০২৪ সালের ২১ আগস্ট তিনি রিকনসিলিয়েশনের কথা তুলেছিলেন বলে ফেসবুক পোস্টে উল্লেখ করেন মাহফুজ আলম৷</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/bdfljw1cq2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সম্ভাব্য সিভিল ওয়ার সিচুয়েশন (গৃহযুদ্ধের পরিস্থিতি) এড়াতে ২০২৪ সালের ২১ আগস্ট তিনি রিকনসিলিয়েশনের কথা তুলেছিলেন বলে ফেসবুক পোস্টে উল্লেখ করেন মাহফুজ আলম৷",
+      "sourceUrl": "https://www.prothomalo.com/politics/bdfljw1cq2",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss6582c4a494017e",
       "slug": "সাড়ে-৩-বছর-ধরে-মৃত-নারীর-খাদ্যবান্ধব-কর্ম",
       "title": "সাড়ে ৩ বছর ধরে মৃত নারীর খাদ্যবান্ধব কর্মসূচির চাল ‘খাচ্ছেন’ ইউপি সদস্য",
@@ -98,6 +130,22 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tSFQ0OHBsbFFhV1NySFhTUk5KdDNRY2gySk9TY0E0SnFzUDJsRmNsSzdtSmMtR3N3dkx6bHk3c1FJSWdSZEFzTHctZjZRbEJDNXpFNTV4Tnk?oc=5\" target=\"_blank\"&gt;আইসিজের ঐতিহাসিক রায়&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tSFQ0OHBsbFFhV1NySFhTUk5KdDNRY2gySk9TY0E0SnFzUDJsRmNsSzdtSmMtR3N3dkx6bHk3c1FJSWdSZEFzTHctZjZRbEJDNXpFNTV4Tnk?oc=5",
       "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss3c1e9511e6d95c",
+      "slug": "পতিত-শক্তি-মনে-করছে-সন্ত্রাস-অরাজকতা-করে",
+      "title": "পতিত শক্তি মনে করছে, সন্ত্রাস–অরাজকতা করে আবার ফিরে আসতে পারবে: জোনায়েদ সাকি",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%A4%E0%A6%BF%E0%A6%A4-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%85%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87.avif",
+      "publishedAt": "2026-11-20T21:12:32.946Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>আইনশৃঙ্খলা, দ্রব্যমূল্য ও কর্মসংস্থানে প্রত্যাশিত পরিবর্তন আসেনি বলে স্বীকার করেছেন পরিকল্পনা প্রতিমন্ত্রী। পাশাপাশি জুলাই শহীদ পরিবার ও আহত যোদ্ধাদের স্বীকৃতির ওপর গুরুত্ব দেন তিনি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/jecm5lmclp\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "আইনশৃঙ্খলা, দ্রব্যমূল্য ও কর্মসংস্থানে প্রত্যাশিত পরিবর্তন আসেনি বলে স্বীকার করেছেন পরিকল্পনা প্রতিমন্ত্রী। পাশাপাশি জুলাই শহীদ পরিবার ও আহত যোদ্ধাদের স্বীকৃতির ওপর গুরুত্ব দেন তিনি।",
+      "sourceUrl": "https://www.prothomalo.com/politics/jecm5lmclp",
+      "sourceName": "প্রথম আলো"
     },
     {
       "id": "rssc78e329724c098",
@@ -7970,54 +8018,6 @@
       "summary": "টেস্ট ক্রিকেটে টানা সবচেয়ে বেশি মেডেন ওভার করার বিশ্ব রেকর্ডটি ছয় দশকেরও বেশি সময় ধরে অক্ষত। ১৯৬৪ সালে ভারতের কিংবদন্তি বাঁহাতি স্পিনার রমেশচন্দ্র গঙ্গারাম নাদকার্নি গড়েছিলেন অবিশ্বাস্য এই কীর্তি। ক্রিকেট বিশ্বে ‘বাপু’ নামে পরিচিত এই স্পিনারের সেই রেকর্ড যেন নিখুঁত লাইন ও লেংথের এক অনন্য দৃষ্টান্ত হ",
       "sourceUrl": "https://www.banglatribune.com/sport/cricket/981793/%E0%A7%AC%E0%A7%A8-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%93-%E0%A6%85%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4-%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%8F%E0%A6%95",
       "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss7a30e95970f52b",
-      "slug": "২২-বছর-পর-লালমনিরহাটের-পথে-প্রধানমন্ত্রী",
-      "title": "২২ বছর পর লালমনিরহাটের পথে প্রধানমন্ত্রী তারেক রহমান",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rss7a30e95970f52b-1200x630.jpg",
-      "publishedAt": "2026-11-19T03:57:08.710Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>একদিনের সফরে তিস্তাপারের জেলা লালমনিরহাটের উদ্দেশে রওনা হয়েছেন প্রধানমন্ত্রী তারেক রহমান। বৃহস্পতিবার (১৯ নভেম্বর) সকাল ৯টা ১৫ মিনিটে রাজধানীর তেজগাঁও বিমানবন্দর থেকে হেলিকপ্টারে করে উত্তরের এই জেলার পথে যাত্রা করেন তিনি। প্রধানমন্ত্রীর অতিরিক্ত প্রেস সচিব আতিকুর...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দীর্ঘদিন পর প্রধানমন্ত্রীর এই সফর উত্তরের অবহেলিত জনপদে রাজনৈতিক প্রাণসঞ্চার ও উন্নয়ন প্রত্যাশা পূরণের নতুন সম্ভাবনা তৈরি করবে। স্থানীয়দের দীর্ঘদিনের দাবি বাস্তবায়নের প্রতিশ্রুতি পূরণ হলে তা প্রান্তিক মানুষের জীবনযাত্রায় ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315884/২২-বছর-পর-লালমনিরহাটের-পথে-প্রধানমন্ত্রী-তারেক-রহমান\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "একদিনের সফরে তিস্তাপারের জেলা লালমনিরহাটের উদ্দেশে রওনা হয়েছেন প্রধানমন্ত্রী তারেক রহমান। বৃহস্পতিবার (১৯ নভেম্বর) সকাল ৯টা ১৫ মিনিটে রাজধানীর তেজগাঁও বিমানবন্দর থেকে হেলিকপ্টারে করে উত্তরের এই জেলার পথে যাত্রা করেন তিনি। প্রধানমন্ত্রীর অতিরিক্ত প্রেস সচিব আতিকুর...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315884/২২-বছর-পর-লালমনিরহাটের-পথে-প্রধানমন্ত্রী-তারেক-রহমান",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss7f1be47fa5dfa2",
-      "slug": "ইরান-যুদ্ধ-বন্ধে-চীন-রাশিয়ার-সহযোগিতা-প্",
-      "title": "ইরান যুদ্ধ বন্ধে চীন-রাশিয়ার সহযোগিতা প্রয়োজন নেই: ট্রাম্প",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D.webp",
-      "publishedAt": "2026-11-19T03:57:08.701Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ইরানের যুদ্ধ শেষ করতে চীন বা রাশিয়ার সহায়তা যুক্তরাষ্ট্রের প্রয়োজন নেই বলে জানিয়েছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। তার দাবি, তেহরানের সামরিক সক্ষমতা মারাত্মকভাবে দুর্বল হয়ে পড়েছে এবং ইরানি কর্মকর্তারা চুক্তিতে পৌঁছাতে চান। বৃহস্পতিবার কাতারভিত্তিক সংবাদমাধ্যম আল জাজিরা এ খবর জানিয়েছে। সংঘাত শেষ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ট্রাম্পের এই অবস্থান মধ্যপ্রাচ্যের ভূ-রাজনীতিতে মার্কিন একাধিপত্যের বহিঃপ্রকাশ, যা বাংলাদেশের মতো উন্নয়নশীল দেশগুলোর জন্য কৌশলগত ভারসাম্যের নতুন চ্যালেঞ্জ তৈরি করতে পারে। বড় শক্তির এই পারস্পরিক দূরত্ব এ অঞ্চলে দীর্ঘমেয়াদী অস্থিরতার ঝুঁকি বাড়াবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/america/981878/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%A8%E0%A7%87%E0%A6%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ইরানের যুদ্ধ শেষ করতে চীন বা রাশিয়ার সহায়তা যুক্তরাষ্ট্রের প্রয়োজন নেই বলে জানিয়েছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। তার দাবি, তেহরানের সামরিক সক্ষমতা মারাত্মকভাবে দুর্বল হয়ে পড়েছে এবং ইরানি কর্মকর্তারা চুক্তিতে পৌঁছাতে চান। বৃহস্পতিবার কাতারভিত্তিক সংবাদমাধ্যম আল জাজিরা এ খবর জানিয়েছে। সংঘাত শেষ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/america/981878/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%A8%E0%A7%87%E0%A6%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss57b8d944a2f3bf",
-      "slug": "২১-জেলায়-নাশকতা-ও-অগ্নিসংযোগে-নিহত-৪-দেশ",
-      "title": "২১ জেলায় নাশকতা ও অগ্নিসংযোগে নিহত ৪, দেশজুড়ে নিরাপত্তা জোরদার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A7%A8%E0%A7%A7-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A7%AA-%E0%A6%A6%E0%A7%87%E0%A6%B6.webp",
-      "publishedAt": "2026-11-19T03:57:08.677Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>রাতের আঁধারে ককটেল বিস্ফোরণ, বাস-ট্রেনে অগ্নিসংযোগ, পুলিশের গাড়িতে হামলা, সড়ক অবরোধ আর ফাঁকা গুলি, রাজধানী থেকে জেলা শহর পর্যন্ত ধারাবাহিক নাশকতায় জনমনে উদ্বেগ বাড়ছে। মঙ্গলবার (১৭ নভেম্বর) রাত থেকে বুধবার রাত পর্যন্ত অন্তত ২১ জেলায় এ ধরনের ঘটনা ঘটেছে। এতে চারজনের প্রাণহানি হয়েছে। বুধবার (১৮ নভ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দেশব্যাপী সহিংসতা ও প্রাণহানির এ ঘটনা জননিরাপত্তার জন্য গভীর উদ্বেগের কারণ। রাজনৈতিক অস্থিরতার দোহাই দিয়ে সাধারণ মানুষের জানমালের ক্ষতি কোনোভাবেই কাম্য নয়। স্থানীয় বাসিন্দাদের সতর্ক থাকার পাশাপাশি যেকোনো নাশকতা প্রতিরোধে প্রশাসনের সঙ্গে সমন্বয় বাড়াতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/821821/%E0%A7%A8%E0%A7%A7-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A7%AA-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%9C%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "রাতের আঁধারে ককটেল বিস্ফোরণ, বাস-ট্রেনে অগ্নিসংযোগ, পুলিশের গাড়িতে হামলা, সড়ক অবরোধ আর ফাঁকা গুলি, রাজধানী থেকে জেলা শহর পর্যন্ত ধারাবাহিক নাশকতায় জনমনে উদ্বেগ বাড়ছে। মঙ্গলবার (১৭ নভেম্বর) রাত থেকে বুধবার রাত পর্যন্ত অন্তত ২১ জেলায় এ ধরনের ঘটনা ঘটেছে। এতে চারজনের প্রাণহানি হয়েছে। বুধবার (১৮ নভ",
-      "sourceUrl": "https://www.ittefaq.com.bd/821821/%E0%A7%A8%E0%A7%A7-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%BE%E0%A6%B6%E0%A6%95%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A7%AA-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%9C%E0%A7%81%E0%A6%A1%E0%A6%BC%E0%A7%87",
-      "sourceName": "ইত্তেফাক"
     }
   ],
   "ads": [
