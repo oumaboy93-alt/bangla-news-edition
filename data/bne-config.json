@@ -1,6 +1,6 @@
 {
-  "version": 1460,
-  "updatedAt": "2026-11-20T23:01:57.692Z",
+  "version": 1461,
+  "updatedAt": "2026-11-20T23:13:08.553Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,12 +52,28 @@
       "sourceName": ""
     },
     {
+      "id": "rss747c91bd11a6b6",
+      "slug": "জাল-সার্টিফিকেটধারীদের-দুর্দিন-আসছে-লুক",
+      "title": "জাল সার্টিফিকেটধারীদের দুর্দিন আসছে, লুকিয়ে রাখতে পারবেন না: শিক্ষামন্ত্রী",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95.webp",
+      "publishedAt": "2026-11-20T23:12:32.995Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>শিক্ষামন্ত্রী ড. আ ন ম এহছানুল হক মিলন বলেছেন, জাল সার্টিফিকেট দিয়ে যারা বিভিন্ন শিক্ষাপ্রতিষ্ঠানে ভর্তি, চাকরি কিংবা সরকারি-বেসরকারি সুযোগ-সুবিধা নিয়েছেন সামনে তাদের দুর্দিন আসছে। কোনো ভাবেই তারা আর জালিয়াতি লুকিয়ে রাখতে পারবেন না। গতকাল শুক্রবার বিকাল ৪টার দিকে মুন্সীগঞ্জের গজারিয়া উপজেলার ভবেরচর ওয়াজীর আলী বহুমুখী উচ্চ বিদ্যালয়ে শিক্ষার মানোন্নয়ন বিষয়ে শিক্ষক, শিক্ষার্থী ও সুধীজনদের সঙ্গে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/822145/%E0%A6%9C%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0%C2%A0%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "শিক্ষামন্ত্রী ড. আ ন ম এহছানুল হক মিলন বলেছেন, জাল সার্টিফিকেট দিয়ে যারা বিভিন্ন শিক্ষাপ্রতিষ্ঠানে ভর্তি, চাকরি কিংবা সরকারি-বেসরকারি সুযোগ-সুবিধা নিয়েছেন সামনে তাদের দুর্দিন আসছে। কোনো ভাবেই তারা আর জালিয়াতি লুকিয়ে রাখতে পারবেন না। গতকাল শুক্রবার বিকাল ৪টার দিকে মুন্সীগঞ্জের গজারিয়া উপজেলার ভবেরচর ",
+      "sourceUrl": "https://www.ittefaq.com.bd/822145/%E0%A6%9C%E0%A6%BE%E0%A6%B2-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0%C2%A0%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A7%87",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
       "id": "rss8732b9f354dbe9",
       "slug": "মনস্টার-এ-ছয়-দেশের-অ্যাকশন-টিম",
       "title": "‘মনস্টার’-এ ছয় দেশের অ্যাকশন টিম",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rss8732b9f354dbe9-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.815Z",
       "tags": [
         "যুগান্তর"
@@ -73,7 +89,7 @@
       "title": "নতুন গানে প্রশংসিত ইমরান",
       "category": "বিনোদন",
       "lead": false,
-      "image": "",
+      "image": "/img/rss8881579797a7f5-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.812Z",
       "tags": [
         "যুগান্তর"
@@ -89,7 +105,7 @@
       "title": "বড়লেখা ও মেহেরপুরে ২৪ জনের পুশইন ঠেকাল বিজিবি",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rss3485074308d325-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.810Z",
       "tags": [
         "যুগান্তর"
@@ -97,6 +113,38 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TanhWYm9BTDh0UVVwWEF4N3M0ZEhGU1BGbldmTFYzTTdLN1lmWkpSaHFqWGt3UXFFNm0zZkZoTHAwWlh5NDgtdjFqallhV2tlbkw1dFhDVQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বড়লেখা ও মেহেরপুরে ২৪ জনের পুশইন ঠেকাল বিজিবি&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TanhWYm9BTDh0UVVwWEF4N3M0ZEhGU1BGbldmTFYzTTdLN1lmWkpSaHFqWGt3UXFFNm0zZkZoTHAwWlh5NDgtdjFqallhV2tlbkw1dFhDVQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TanhWYm9BTDh0UVVwWEF4N3M0ZEhGU1BGbldmTFYzTTdLN1lmWkpSaHFqWGt3UXFFNm0zZkZoTHAwWlh5NDgtdjFqallhV2tlbkw1dFhDVQ?oc=5\" target=\"_blank\"&gt;বড়লেখা ও মেহেরপুরে ২৪ জনের পুশইন ঠেকাল বিজিবি&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Juganto",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TanhWYm9BTDh0UVVwWEF4N3M0ZEhGU1BGbldmTFYzTTdLN1lmWkpSaHFqWGt3UXFFNm0zZkZoTHAwWlh5NDgtdjFqallhV2tlbkw1dFhDVQ?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss88a16bc8503ffd",
+      "slug": "সকাল-৯টার-মধ্যে-১২-জেলায়-ঝড়ের-শঙ্কা",
+      "title": "সকাল ৯টার মধ্যে ১২ জেলায় ঝড়ের শঙ্কা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T22:57:33.804Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FcEJvTDZaVzBPNjNXTDlxSmF1TnVtdGtHZ0RvckRkVFNrdHEwdTRadXJQeU05WmRaYlNMeW1KN2VUWDY2ZHowSE5DMVpZN1FnamZv?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সকাল ৯টার মধ্যে ১২ জেলায় ঝড়ের শঙ্কা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FcEJvTDZaVzBPNjNXTDlxSmF1TnVtdGtHZ0RvckRkVFNrdHEwdTRadXJQeU05WmRaYlNMeW1KN2VUWDY2ZHowSE5DMVpZN1FnamZv?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FcEJvTDZaVzBPNjNXTDlxSmF1TnVtdGtHZ0RvckRkVFNrdHEwdTRadXJQeU05WmRaYlNMeW1KN2VUWDY2ZHowSE5DMVpZN1FnamZv?oc=5\" target=\"_blank\"&gt;সকাল ৯টার মধ্যে ১২ জেলায় ঝড়ের শঙ্কা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FcEJvTDZaVzBPNjNXTDlxSmF1TnVtdGtHZ0RvckRkVFNrdHEwdTRadXJQeU05WmRaYlNMeW1KN2VUWDY2ZHowSE5DMVpZN1FnamZv?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss1b57ff32013dbc",
+      "slug": "ওটিটিতে-যা-দেখবেন",
+      "title": "ওটিটিতে যা দেখবেন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T22:57:33.396Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ওটিটিতে যা দেখবেন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5\" target=\"_blank\"&gt;ওটিটিতে যা দেখবেন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fN0ttam4wbTVGN2Y0Wlh6YzJ3cFBHdm4wRGxkSEJWSlRLbm9kTWp1RXVJUzdVREV1NWFTNmRITzZ2SkVOMzJHUnpFQUNjQnNucXVBSDJkd3J3RFkx?oc=5",
       "sourceName": "যুগান্তর"
     },
     {
@@ -153,7 +201,7 @@
       "title": "পাঁচ দিন পর পুকুরে এজেন্ট ব্যাংক পরিচালকের লাশ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "/img/rsse4aa557ad1574e-1200x630.jpg",
       "publishedAt": "2026-11-20T22:12:33.400Z",
       "tags": [
         "যুগান্তর"
@@ -521,7 +569,7 @@
       "title": "বাণিজ্যিক প্রতিষ্ঠানের দখলে লাকসাম হাউজিং",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rss605831798d4644-1200x630.jpg",
       "publishedAt": "2026-11-20T20:27:32.672Z",
       "tags": [
         "যুগান্তর"
@@ -537,7 +585,7 @@
       "title": "দরপতনে দিশেহারা আলুচাষি",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rssea19acb6407a77-1200x630.jpg",
       "publishedAt": "2026-11-20T20:27:32.667Z",
       "tags": [
         "যুগান্তর"
@@ -553,7 +601,7 @@
       "title": "৭৮ স্থানে ককটেল, ৭৪ পরিবহণে আগুন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rss7c44d9656b58b4-1200x630.jpg",
       "publishedAt": "2026-11-20T20:27:32.663Z",
       "tags": [
         "যুগান্তর"
@@ -569,7 +617,7 @@
       "title": "চট্টগ্রামে নিয়ন্ত্রণহীন চালের বাজার",
       "category": "অর্থনীতি",
       "lead": false,
-      "image": "",
+      "image": "/img/rss9b6b5d94aeaa86-1200x630.jpg",
       "publishedAt": "2026-11-20T20:27:32.661Z",
       "tags": [
         "যুগান্তর"
@@ -7969,54 +8017,6 @@
       "body": "<p>সদর উপজেলার ৪ নম্বর শাহমাহমুদপুর ইউনিয়ন পরিষদ কার্যালয়ে অগ্নিসংযোগের ঘটনা ঘটেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিত্বশীল প্রতিষ্ঠানে এমন সহিংসতা স্থানীয় সেবাপ্রার্থীদের নিরাপত্তা ও প্রশাসনিক কার্যক্রমে বড় ধরনের ঝুঁকি তৈরি করেছে। অপরাধীদের অবিলম্বে আইনের আওতায় আনার পাশাপাশি স্থানীয় বাসিন্দাদের নিজ নিজ এলাকায় শান্তি বজায় রাখতে সতর্ক থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542304\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "সদর উপজেলার ৪ নম্বর শাহমাহমুদপুর ইউনিয়ন পরিষদ কার্যালয়ে অগ্নিসংযোগের ঘটনা ঘটেছে।",
       "sourceUrl": "https://www.daily-bangladesh.com/country/542304",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssef790bee464aed",
-      "slug": "বিশ্বের-বৃহত্তম-ধর্ম-হতে-পারে-ইসলাম",
-      "title": "বিশ্বের বৃহত্তম ধর্ম হতে পারে ইসলাম",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%83%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%AE-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE.jpg",
-      "publishedAt": "2026-11-19T05:42:18.094Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বিশ্বে সবচেয়ে বেশি অনুসারীর ধর্ম হিসেবে খ্রিষ্টধর্মকে ছাড়িয়ে যেতে পারে ইসলাম। ২০৭০ সালের মধ্যে বিশ্বের বৃহত্তম ধর্মে পরিণত হওয়ার সম্ভাবনা রয়েছে ইসলামের। যুক্তরা...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্বজনীন জনসংখ্যার এই পরিবর্তন কেবল পরিসংখ্যানগত নয়, বরং আধ্যাত্মিক ও সামাজিক মূল্যবোধের নতুন বিন্যাসের ইঙ্গিত দেয়। এই ধারা বিশ্বব্যাপী আন্তঃধর্মীয় সহাবস্থান ও পারস্পরিক শ্রদ্ধাবোধের পরিবেশ তৈরিতে নতুন চ্যালেঞ্জ ও সম্ভাবনা তৈরি করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/542298\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "বিশ্বে সবচেয়ে বেশি অনুসারীর ধর্ম হিসেবে খ্রিষ্টধর্মকে ছাড়িয়ে যেতে পারে ইসলাম। ২০৭০ সালের মধ্যে বিশ্বের বৃহত্তম ধর্মে পরিণত হওয়ার সম্ভাবনা রয়েছে ইসলামের। যুক্তরা...",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/542298",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss75d1b5e7b01657",
-      "slug": "গাজায়-দুই-বছর-পর-আবার-স্থল-অভিযান-শুরু-করল",
-      "title": "গাজায় দুই বছর পর আবার স্থল অভিযান শুরু করল ইসরাইল",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A7%9F-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%B2-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A6%95%E0%A6%B0%E0%A6%B2.jpg",
-      "publishedAt": "2026-11-19T05:42:18.090Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দুই বছর ধরে বিমান হামলা চালানোর পর এবার ফিলিস্তিনের গাজা উপত্যকার মধ্যাঞ্চলে স্থল অভিযান শুরু করেছে ইসরাইলি প্রতিরক্ষা বাহিনী (আইডিএফ)। বুধবার (১৮ নভেম্বর) থেকে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">গাজায় নতুন করে শুরু হওয়া স্থল অভিযান মানবিক বিপর্যয়কে আরও ঘনীভূত করবে, যা স্থানীয় বাসিন্দাদের জীবন ও নিরাপত্তাকে চরম অনিশ্চয়তায় ফেলবে। সাধারণ মানুষের সুরক্ষায় আন্তর্জাতিক সম্প্রদায়ের দ্রুত কার্যকর পদক্ষেপ গ্রহণ এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/international/542299\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "দুই বছর ধরে বিমান হামলা চালানোর পর এবার ফিলিস্তিনের গাজা উপত্যকার মধ্যাঞ্চলে স্থল অভিযান শুরু করেছে ইসরাইলি প্রতিরক্ষা বাহিনী (আইডিএফ)। বুধবার (১৮ নভেম্বর) থেকে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/international/542299",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss567ac0e934de11",
-      "slug": "জয়পুরহাটে-নৈরাজ্যের-প্রতিবাদে-যুবদলের-ম",
-      "title": "জয়পুরহাটে নৈরাজ্যের প্রতিবাদে যুবদলের মোটরসাইকেল শোডাউন ও বিক্ষোভ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A7%9F%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B9%E0%A6%BE%E0%A6%9F%E0%A7%87-%E0%A6%A8%E0%A7%88%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AE.jpg",
-      "publishedAt": "2026-11-19T05:42:18.087Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>কার্যক্রম নিষিদ্ধ আওয়ামী লীগের আগুন সন্ত্রাস ও নৈরাজ্যের প্রতিবাদে জয়পুরহাটে মোটরসাইকেল শোডাউন ও বিক্ষোভ সমাবেশ করেছে জেলা যুবদল।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা ও নৈরাজ্য সাধারণ মানুষের জনজীবনে চরম অস্বস্তি ও ভীতি তৈরি করে। শান্তি বজায় রাখতে স্থানীয়দের সব ধরনের উসকানিমূলক কর্মকাণ্ড পরিহার করে ধৈর্য ও সচেতনতা অবলম্বন করা জরুরি। শান্তিপ্রিয় নাগরিকরা যেন কোনো অস্থিতিশীলতায় না জড়ান।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542301\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "কার্যক্রম নিষিদ্ধ আওয়ামী লীগের আগুন সন্ত্রাস ও নৈরাজ্যের প্রতিবাদে জয়পুরহাটে মোটরসাইকেল শোডাউন ও বিক্ষোভ সমাবেশ করেছে জেলা যুবদল।",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/542301",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
