@@ -1,6 +1,6 @@
 {
-  "version": 1446,
-  "updatedAt": "2026-11-20T20:31:52.018Z",
+  "version": 1447,
+  "updatedAt": "2026-11-20T20:43:11.246Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -97,6 +97,54 @@
       "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EZUpzY2pvVzJOVTZtNHF6bkI0Y0NRVXBoM0pZZ2NrbFd4MTBMc3lPVUVGNGVHOWhOYkRBc0VPV0c4eERvLXU1LWlETXVZcnozRFBMclJIUQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;‘গ্রেফতার করলে বংশ শেষ করে দেব’&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EZUpzY2pvVzJOVTZtNHF6bkI0Y0NRVXBoM0pZZ2NrbFd4MTBMc3lPVUVGNGVHOWhOYkRBc0VPV0c4eERvLXU1LWlETXVZcnozRFBMclJIUQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EZUpzY2pvVzJOVTZtNHF6bkI0Y0NRVXBoM0pZZ2NrbFd4MTBMc3lPVUVGNGVHOWhOYkRBc0VPV0c4eERvLXU1LWlETXVZcnozRFBMclJIUQ?oc=5\" target=\"_blank\"&gt;‘গ্রেফতার করলে বংশ শেষ করে দেব’&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1EZUpzY2pvVzJOVTZtNHF6bkI0Y0NRVXBoM0pZZ2NrbFd4MTBMc3lPVUVGNGVHOWhOYkRBc0VPV0c4eERvLXU1LWlETXVZcnozRFBMclJIUQ?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss6db0916db096e0",
+      "slug": "কাগমারী-পরগনা-থেকে-ভাসানী-বিশ্ববিদ্যালয",
+      "title": "কাগমারী পরগনা থেকে ভাসানী বিশ্ববিদ্যালয়",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "images/technology.jpg",
+      "publishedAt": "2026-11-20T20:27:32.698Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wbFJmVmM1THpEaVlHY08wbXg1ZW9KMi0wdG1MYXFySXN1N3lQQzc3SjQ1SklMSDZ0SzNuR3h0a3BMbWdCdm5sUjlQSlhWanluaHI5bXNKZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;কাগমারী পরগনা থেকে ভাসানী বিশ্ববিদ্যালয়&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wbFJmVmM1THpEaVlHY08wbXg1ZW9KMi0wdG1MYXFySXN1N3lQQzc3SjQ1SklMSDZ0SzNuR3h0a3BMbWdCdm5sUjlQSlhWanluaHI5bXNKZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wbFJmVmM1THpEaVlHY08wbXg1ZW9KMi0wdG1MYXFySXN1N3lQQzc3SjQ1SklMSDZ0SzNuR3h0a3BMbWdCdm5sUjlQSlhWanluaHI5bXNKZw?oc=5\" target=\"_blank\"&gt;কাগমারী পরগনা থেকে ভাসানী বিশ্ববিদ্যালয়&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wbFJmVmM1THpEaVlHY08wbXg1ZW9KMi0wdG1MYXFySXN1N3lQQzc3SjQ1SklMSDZ0SzNuR3h0a3BMbWdCdm5sUjlQSlhWanluaHI5bXNKZw?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rssbcf9acd3868080",
+      "slug": "অন্যায্য-বলে-রায়-প্রত্যাখ্যান-মিয়ানমা",
+      "title": "‘অন্যায্য’ বলে রায় প্রত্যাখ্যান মিয়ানমারের",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-20T20:27:32.696Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE90dFF0ampCME1PMkFRWjgwcnNKcU5TU29GeUlnN2lzVnk4VUpzVUFOYXVnRGZSZkJaMUNIYjgyUG04QlFyWXlpdnJuOS1fWDB4LThQSGRCOGo?oc=5&quot; target=&quot;_blank&quot;&amp;gt;‘অন্যায্য’ বলে রায় প্রত্যাখ্যান মিয়ানমারের&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE90dFF0ampCME1PMkFRWjgwcnNKcU5TU29GeUlnN2lzVnk4VUpzVUFOYXVnRGZSZkJaMUNIYjgyUG04QlFyWXlpdnJuOS1fWDB4LThQSGRCOGo?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE90dFF0ampCME1PMkFRWjgwcnNKcU5TU29GeUlnN2lzVnk4VUpzVUFOYXVnRGZSZkJaMUNIYjgyUG04QlFyWXlpdnJuOS1fWDB4LThQSGRCOGo?oc=5\" target=\"_blank\"&gt;‘অন্যায্য’ বলে রায় প্রত্যাখ্যান মিয়ানমারের&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90dFF0ampCME1PMkFRWjgwcnNKcU5TU29GeUlnN2lzVnk4VUpzVUFOYXVnRGZSZkJaMUNIYjgyUG04QlFyWXlpdnJuOS1fWDB4LThQSGRCOGo?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rssf895282ff2fec4",
+      "slug": "হাম-উপসর্গে-আরও-৫-জনের-মৃত্যু-3",
+      "title": "হাম উপসর্গে আরও ৫ জনের মৃত্যু",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/08/10/f6ee68cc9a3520685f63a2d1c8da252b-6a79beae86b0b.jpg?jadewits_media_id=1037806",
+      "publishedAt": "2026-11-20T20:27:32.694Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kQXk2c2tGd1pwM1ZCZ3lJTEVSOXVPY2s2WTVDbGVzZUtiRjVLeERyLUc0RlZZNE9OUTQwODJjM0h5b3IzelRsZktfcEh0aEZzZjJmSFhSZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;হাম উপসর্গে আরও ৫ জনের মৃত্যু&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kQXk2c2tGd1pwM1ZCZ3lJTEVSOXVPY2s2WTVDbGVzZUtiRjVLeERyLUc0RlZZNE9OUTQwODJjM0h5b3IzelRsZktfcEh0aEZzZjJmSFhSZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kQXk2c2tGd1pwM1ZCZ3lJTEVSOXVPY2s2WTVDbGVzZUtiRjVLeERyLUc0RlZZNE9OUTQwODJjM0h5b3IzelRsZktfcEh0aEZzZjJmSFhSZw?oc=5\" target=\"_blank\"&gt;হাম উপসর্গে আরও ৫ জনের মৃত্যু&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kQXk2c2tGd1pwM1ZCZ3lJTEVSOXVPY2s2WTVDbGVzZUtiRjVLeERyLUc0RlZZNE9OUTQwODJjM0h5b3IzelRsZktfcEh0aEZzZjJmSFhSZw?oc=5",
       "sourceName": "যুগান্তর"
     },
     {
@@ -7970,54 +8018,6 @@
       "summary": "ইরানের সঙ্গে চলমান যুদ্ধের অবসান ঘটাতে চীন কিংবা রাশিয়ার সহযোগিতার প্রয়োজন নেই বলে জানিয়েছেন যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। তার দাবি, ইরানের সামরিক সক্ষমতা অনেকটাই কমে এসেছে এবং তেহরান এখন যুক্তরাষ্ট্রের সঙ্গে সমঝোতায় পৌঁছাতে আগ্রহী। বৃহস্পতিবার (১৯ নভেম্বর) চীনের শেনজেনে ফক্স নিউজকে দে",
       "sourceUrl": "https://www.ittefaq.com.bd/821818/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%9A%E0%A7%80%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%A8%E0%A7%87%E0%A6%87",
       "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rssd69c1a99ae3a03",
-      "slug": "চট্টগ্রামে-ড-ইউনূসের-পারিবারিক-বাড়িতে-আগ",
-      "title": "চট্টগ্রামে ড. ইউনূসের পারিবারিক বাড়িতে আগুন",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/rssd69c1a99ae3a03-1200x630.jpg",
-      "publishedAt": "2026-11-19T03:12:09.798Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূসের চট্টগ্রামের পারিবারিক বাড়িতে অগ্নিকাণ্ডের ঘটনা ঘটেছে। বুধবার (১৮ নভেম্বর) রাত ১১টার দিকে চট্টগ্রাম নগরীর পাঁচলাইশ আবাসিক এলাকায় অবস্থিত নিরিবিলি নামের ওই বাড়ির একাংশে এই আগুন লাগে। পরে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতার এই ঘটনা জনমনে গভীর উদ্বেগ ও নিরাপত্তাহীনতার সৃষ্টি করছে। রাষ্ট্রীয় গুরুত্বপূর্ণ ব্যক্তির বাসভবনে এমন হামলা রাজনৈতিক সহনশীলতার অভাবকে নির্দেশ করে, যা সাধারণ মানুষের আতঙ্ক বাড়িয়ে দেশের স্থিতিশীলতাকে ঝুঁকির মুখে ফেলেছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315882/চট্টগ্রামে-ড.-ইউনূসের-পারিবারিক-বাড়িতে-আগুন\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূসের চট্টগ্রামের পারিবারিক বাড়িতে অগ্নিকাণ্ডের ঘটনা ঘটেছে। বুধবার (১৮ নভেম্বর) রাত ১১টার দিকে চট্টগ্রাম নগরীর পাঁচলাইশ আবাসিক এলাকায় অবস্থিত নিরিবিলি নামের ওই বাড়ির একাংশে এই আগুন লাগে। পরে...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315882/চট্টগ্রামে-ড.-ইউনূসের-পারিবারিক-বাড়িতে-আগুন",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss56408103a185f3",
-      "slug": "হঠাৎ-জেঁকে-বসেছে-শীত-পঞ্চগড়ে-মৌসুমের-সর্",
-      "title": "হঠাৎ জেঁকে বসেছে শীত, পঞ্চগড়ে মৌসুমের সর্বনিম্ন তাপমাত্রা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%9C%E0%A7%87%E0%A6%81%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A7%80%E0%A6%A4-%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A7%8C%E0%A6%B8%E0%A7%81%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D.webp",
-      "publishedAt": "2026-11-19T03:12:09.788Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শীতের বার্তা নিয়ে এসেছে অগ্রহায়ণ। মাসটির শুরুতেই উত্তরের জেলা পঞ্চগড়ে জেঁকে বসতে শুরু করেছে শীত। কয়েক দিনের ব্যবধানে তাপমাত্রা কমে বৃহস্পতিবার (১৯ নভেম্বর) সকালে নেমেছে ১২ দশমিক ৫ ডিগ্রি সেলসিয়াসে। এটি চলতি মৌসুমে জেলার সর্বনিম্ন তাপমাত্রা। বৃহস্পতিবার (১৯ নভেম্বর) সকাল ৬টায় জেলার তেঁতুলিয়া আবহাওয়া </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হঠাৎ তাপমাত্রা কমে যাওয়ায় উত্তরের জনজীবনে ভোগান্তি বেড়েছে, বিশেষ করে নিম্নআয়ের মানুষের জন্য স্বাস্থ্যঝুঁকি তৈরি হয়েছে। স্থানীয়দের এখন উষ্ণ পোশাক ও পর্যাপ্ত সতর্কতামূলক ব্যবস্থা গ্রহণের প্রস্তুতি নেওয়া জরুরি। প্রশাসনকেও শীতার্ত মানুষের সহায়তায় দ্রুত এগিয়ে আসতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/rangpur/981870/%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%9C%E0%A7%87%E0%A6%81%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A7%80%E0%A6%A4-%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A7%8C%E0%A6%B8%E0%A7%81%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শীতের বার্তা নিয়ে এসেছে অগ্রহায়ণ। মাসটির শুরুতেই উত্তরের জেলা পঞ্চগড়ে জেঁকে বসতে শুরু করেছে শীত। কয়েক দিনের ব্যবধানে তাপমাত্রা কমে বৃহস্পতিবার (১৯ নভেম্বর) সকালে নেমেছে ১২ দশমিক ৫ ডিগ্রি সেলসিয়াসে। এটি চলতি মৌসুমে জেলার সর্বনিম্ন তাপমাত্রা। বৃহস্পতিবার (১৯ নভেম্বর) সকাল ৬টায় জেলার তেঁতুলিয়া আবহাওয়া ",
-      "sourceUrl": "https://www.banglatribune.com/country/rangpur/981870/%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%9C%E0%A7%87%E0%A6%81%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A7%80%E0%A6%A4-%E0%A6%AA%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%AE%E0%A7%8C%E0%A6%B8%E0%A7%81%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss129b73a7423d35",
-      "slug": "জোহানেসবার্গে-যে-অনন্য-কীর্তি-গড়েছেন-লিট",
-      "title": "জোহানেসবার্গে যে অনন্য কীর্তি গড়েছেন লিটন",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AF%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%97%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%B2%E0%A6%BF%E0%A6%9F.webp",
-      "publishedAt": "2026-11-19T03:12:09.712Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ব্যাট হাতে সেঞ্চুরির সঙ্গে উইকেটের পেছনে বিশ্বরেকর্ড! জোহানেসবার্গে দক্ষিণ আফ্রিকার বিপক্ষে প্রথম টেস্টে অনন্য এই কীর্তি গড়েছেন লিটন দাস। টেস্ট ক্রিকেটের এক ইনিংসে উইকেটরক্ষক হিসেবে সর্বোচ্চ আটটি ডিসমিসালের বিশ্বরেকর্ড এখন তার দখলে। তার চেয়েও বড় বিষয় হচ্ছে একই ইনিংসে সেঞ্চুরি ও আটটি ডিসমিসালের কীর্ত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">লিটনের এই জোড়া সাফল্য টেস্ট ক্রিকেটে একজন উইকেটরক্ষক-ব্যাটার হিসেবে তার সামর্থ্যের নতুন উচ্চতা নির্দেশ করে। এই অনন্য কীর্তি ভবিষ্যতে তাকে বিশ্বমঞ্চে অনন্য মর্যাদায় প্রতিষ্ঠিত করার পাশাপাশি বাংলাদেশের টেস্ট সাফল্যে বড় ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/cricket/981809/%E0%A6%9C%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AF%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%97%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%B2%E0%A6%BF%E0%A6%9F%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ব্যাট হাতে সেঞ্চুরির সঙ্গে উইকেটের পেছনে বিশ্বরেকর্ড! জোহানেসবার্গে দক্ষিণ আফ্রিকার বিপক্ষে প্রথম টেস্টে অনন্য এই কীর্তি গড়েছেন লিটন দাস। টেস্ট ক্রিকেটের এক ইনিংসে উইকেটরক্ষক হিসেবে সর্বোচ্চ আটটি ডিসমিসালের বিশ্বরেকর্ড এখন তার দখলে। তার চেয়েও বড় বিষয় হচ্ছে একই ইনিংসে সেঞ্চুরি ও আটটি ডিসমিসালের কীর্ত",
-      "sourceUrl": "https://www.banglatribune.com/sport/cricket/981809/%E0%A6%9C%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AF%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%97%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%B2%E0%A6%BF%E0%A6%9F%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
