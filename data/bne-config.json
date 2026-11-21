@@ -1,6 +1,6 @@
 {
-  "version": 1486,
-  "updatedAt": "2026-11-21T03:54:30.836Z",
+  "version": 1487,
+  "updatedAt": "2026-11-21T04:05:36.949Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss34bd552d0655d9",
+      "slug": "সশস্ত্র-বাহিনী-দিবসে-শহীদদের-প্রতি-প্রধা",
+      "title": "সশস্ত্র বাহিনী দিবসে শহীদদের প্রতি প্রধানমন্ত্রীর শ্রদ্ধা",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%B6%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%80-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8%E0%A7%87-%E0%A6%B6%E0%A6%B9%E0%A7%80%E0%A6%A6%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE.jpg",
+      "publishedAt": "2026-11-21T03:57:42.261Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>যথাযোগ্য মর্যাদা ও নানা কর্মসূচির মধ্য দিয়ে আজ শনিবার পালিত হচ্ছে সশস্ত্র বাহিনী দিবস। দিবসটি উপলক্ষে সকালে ঢাকা সেনানিবাসের শিখা অনির্বাণে পুষ্পস্তবক অর্পণ করে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/542486\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "যথাযোগ্য মর্যাদা ও নানা কর্মসূচির মধ্য দিয়ে আজ শনিবার পালিত হচ্ছে সশস্ত্র বাহিনী দিবস। দিবসটি উপলক্ষে সকালে ঢাকা সেনানিবাসের শিখা অনির্বাণে পুষ্পস্তবক অর্পণ করে...",
+      "sourceUrl": "https://daily-bangladesh.com/national/542486",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss7d00d0dedebca2",
+      "slug": "হরমুজে-আরও-একটি-মার্কিন-এমকিউ-৯-ড্রোন-ভূপ",
+      "title": "হরমুজে আরও একটি মার্কিন এমকিউ-৯ ড্রোন ভূপাতিত করল ইরান",
+      "category": "বিনোদন",
+      "lead": false,
+      "image": "/img/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%8F%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%89-%E0%A7%AF-%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A8-%E0%A6%AD%E0%A7%82%E0%A6%AA.webp",
+      "publishedAt": "2026-11-21T03:57:42.221Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>হরমুজ প্রণালিতে যুক্তরাষ্ট্রের আরও একটি এমকিউ-৯ রিপার ড্রোন ভূপাতিত করেছে ইরানের ইসলামিক রেভল্যুশনারি গার্ড কোর (আইআরজিসি)। শুক্রবার (২০ নভেম্বর) দিবাগত রাতে দেশটির প্রতিরক্ষা বাহিনীর আকাশ প্রতিরক্ষা ব্যবস্থার মাধ্যমে ড্রোনটি ধ্বংস করা হয় বলে জানিয়েছে সংস্থাটি। শনিবার (২১ নভেম্বর) ইরানের রাষ্ট্রীয় টেলিভিশন চ্যানেল আইআরআইবি এক প্রতিবেদনে এ তথ্য প্রকাশ করে। আইআরজিসির বিবৃতির বরাত দিয়ে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/822160/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%8F%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%89-%E0%A7%AF-%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A8-%E0%A6%AD%E0%A7%82%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "হরমুজ প্রণালিতে যুক্তরাষ্ট্রের আরও একটি এমকিউ-৯ রিপার ড্রোন ভূপাতিত করেছে ইরানের ইসলামিক রেভল্যুশনারি গার্ড কোর (আইআরজিসি)। শুক্রবার (২০ নভেম্বর) দিবাগত রাতে দেশটির প্রতিরক্ষা বাহিনীর আকাশ প্রতিরক্ষা ব্যবস্থার মাধ্যমে ড্রোনটি ধ্বংস করা হয় বলে জানিয়েছে সংস্থাটি। শনিবার (২১ নভেম্বর) ইরানের রাষ্ট্রীয় ট",
+      "sourceUrl": "https://www.ittefaq.com.bd/822160/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A6%93-%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%8F%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%89-%E0%A7%AF-%E0%A6%A1%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A8-%E0%A6%AD%E0%A7%82%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%B2",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss45fb873ade4516",
+      "slug": "ঢাকার-বৃষ্টি-তাপমাত্রা-নিয়ে-নতুন-বার্তা",
+      "title": "ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-21T03:57:42.219Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5\" target=\"_blank\"&gt;ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5",
+      "sourceName": "যুগান্তর"
     },
     {
       "id": "rss5c0398b4de4e75",
@@ -7970,54 +8018,6 @@
       "summary": "দেশে গত ২৪ ঘণ্টায় হামের উপসর্গ নিয়ে আরো ৭ জনের মৃত্যু হয়েছে। এ নিয়ে চলতি বছর নিশ্চিত হামে ১০৫ জন এবং হামের উপসর্গ নিয়ে ১ হাজার ২৩১ জনের মৃত্যু হয়েছে। সব মিলিয়ে হামে ও এর...",
       "sourceUrl": "https://www.bd-journal.com/other/315908/হাম-উপসর্গে-আরো-৭-জনের-মৃত্যু",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss427a055882626c",
-      "slug": "ড-ইউনূসের-বিরুদ্ধে-মামলা-করার-কথা-ভাবছেন",
-      "title": "ড. ইউনূসের বিরুদ্ধে মামলা করার কথা ভাবছেন টিউলিপ",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%A1-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A7%82%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%9B%E0%A7%87%E0%A6%A8.jpg",
-      "publishedAt": "2026-11-19T10:27:18.319Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>বাংলাদেশের সাবেক অন্তর্বর্তীকালীন সরকারপ্রধান ড. মুহাম্মদ ইউনূসের বিরুদ্ধে আইনি পদক্ষেপ নেওয়ার কথা ভাবছেন যুক্তরাজ্যের সাবেক মন্ত্রী টিউলিপ সিদ্দিক। তার অভিযোগ, ইউনূস সরকারের পক্ষ থেকে আনা দুর্নীতির অভিযোগের জেরেই গত বছর তিনি ব্রিটিশ সরকার থেকে পদত্যাগ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক রাজনীতির এই মোড় বাংলাদেশের অভ্যন্তরীণ সংকটকে নতুন মাত্রা দেবে। এমন আইনি পদক্ষেপের ফলে কূটনৈতিক সম্পর্কে অস্থিরতা সৃষ্টির পাশাপাশি সাধারণ মানুষের মধ্যে রাজনৈতিক মেরুকরণের অনিশ্চয়তা আরও ঘনীভূত হওয়ার আশঙ্কা রয়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315903/ড.-ইউনূসের-বিরুদ্ধে-মামলা-করার-কথা-ভাবছেন-টিউলিপ\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "বাংলাদেশের সাবেক অন্তর্বর্তীকালীন সরকারপ্রধান ড. মুহাম্মদ ইউনূসের বিরুদ্ধে আইনি পদক্ষেপ নেওয়ার কথা ভাবছেন যুক্তরাজ্যের সাবেক মন্ত্রী টিউলিপ সিদ্দিক। তার অভিযোগ, ইউনূস সরকারের পক্ষ থেকে আনা দুর্নীতির অভিযোগের জেরেই গত বছর তিনি ব্রিটিশ সরকার থেকে পদত্যাগ...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315903/ড.-ইউনূসের-বিরুদ্ধে-মামলা-করার-কথা-ভাবছেন-টিউলিপ",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssf427f17df5daad",
-      "slug": "আওয়ামী-লীগের-কর্মকাণ্ড-ধৈর্যের-সীমা-ছাড়া",
-      "title": "আওয়ামী লীগের কর্মকাণ্ড ‘ধৈর্যের সীমা’ ছাড়াচ্ছে: রিজভী",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/rssf427f17df5daad-1200x630.jpg",
-      "publishedAt": "2026-11-19T10:27:18.309Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>দেশে অস্থিতিশীলতা ও নাশকতা সৃষ্টিকারী পঞ্চম বাহিনীকে আর কোনো ছাড় দেওয়া হবে না বলে হুঁশিয়ারি দিয়েছেন বিএনপির ভারপ্রাপ্ত মহাসচিব রুহুল কবির রিজভী। তিনি বলেছেন, প্রথম থেকে আমরা ধৈর্যের সীমার মধ্যে থেকে বিষয়গুলো দেখছিলাম। কিন্তু তাদের (আওয়ামী...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা ও সংঘাতময় পরিস্থিতি সরাসরি জনস্বাস্থ্যের ওপর নেতিবাচক প্রভাব ফেলে, যা সাধারণ মানুষের সুরক্ষা ও মানসিক স্বাস্থ্যকে বিপন্ন করে। এ ধরনের সংকটে জননিরাপত্তা নিশ্চিত করতে রাজনৈতিক দলগুলোকে সহনশীলতা ও দায়িত্বশীল আচরণের পরিচয় দিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/politics/315905/আওয়ামী-লীগের-কর্মকাণ্ড-ধৈর্যের-সীমা-ছাড়াচ্ছে-রিজভী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "দেশে অস্থিতিশীলতা ও নাশকতা সৃষ্টিকারী পঞ্চম বাহিনীকে আর কোনো ছাড় দেওয়া হবে না বলে হুঁশিয়ারি দিয়েছেন বিএনপির ভারপ্রাপ্ত মহাসচিব রুহুল কবির রিজভী। তিনি বলেছেন, প্রথম থেকে আমরা ধৈর্যের সীমার মধ্যে থেকে বিষয়গুলো দেখছিলাম। কিন্তু তাদের (আওয়ামী...",
-      "sourceUrl": "https://www.bd-journal.com/politics/315905/আওয়ামী-লীগের-কর্মকাণ্ড-ধৈর্যের-সীমা-ছাড়াচ্ছে-রিজভী",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss244f0493064bad",
-      "slug": "শাকিবের-নায়িকা-এবার-কিয়ারা-আদভানি",
-      "title": "শাকিবের নায়িকা এবার কিয়ারা আদভানি!",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%B6%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%A6%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A6%BF.webp",
-      "publishedAt": "2026-11-19T10:27:18.300Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শাকিবের নতুন সিনেমার নায়িকা নিয়ে বেশ কিছুদিন ধরে নানা গুঞ্জন শোনা যাচ্ছে। কেউ কেউ বলছেন, হিমেল আশরাফ পরিচালিত শাকিব খানের ‘মোহাব্বাত’সিনেমায় পাকিস্তানেরিএক নায়িকাকে দেখা যাবে। সম্প্রতি এক অনুষ্ঠানে শাকিবও পাকিস্তানের সিনেমা নিয়ে কথা বলেন। এরপর সে গুঞ্জন আরও জোরালো হয়। তবে এবার বলিউডের একজনকে নিয়ে নত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দুই ভিন্ন ধারার তারকার এই সম্ভাব্য মেলবন্ধন আন্তর্জাতিক বাজারে দেশীয় চলচ্চিত্রের গ্রহণযোগ্যতা ও শৈল্পিক বৈচিত্র্য বৃদ্ধির সুযোগ তৈরি করবে। বিশ্বায়নের যুগে এমন সমন্বয় দর্শককে নতুন অভিজ্ঞতার স্বাদ দেওয়ার পাশাপাশি শিল্পীদের পেশাদারিত্বের মানোন্নয়নেও সহায়ক হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/entertainment/dhallywood/981955/%E0%A6%B6%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%A6%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শাকিবের নতুন সিনেমার নায়িকা নিয়ে বেশ কিছুদিন ধরে নানা গুঞ্জন শোনা যাচ্ছে। কেউ কেউ বলছেন, হিমেল আশরাফ পরিচালিত শাকিব খানের ‘মোহাব্বাত’সিনেমায় পাকিস্তানেরিএক নায়িকাকে দেখা যাবে। সম্প্রতি এক অনুষ্ঠানে শাকিবও পাকিস্তানের সিনেমা নিয়ে কথা বলেন। এরপর সে গুঞ্জন আরও জোরালো হয়। তবে এবার বলিউডের একজনকে নিয়ে নত",
-      "sourceUrl": "https://www.banglatribune.com/entertainment/dhallywood/981955/%E0%A6%B6%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%86%E0%A6%A6%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A6%BF",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
