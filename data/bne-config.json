@@ -1,6 +1,6 @@
 {
-  "version": 1545,
-  "updatedAt": "2026-11-21T16:01:01.404Z",
+  "version": 1546,
+  "updatedAt": "2026-11-21T16:12:14.030Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -89,7 +89,7 @@
       "title": "তারানা হালিমেরর খোঁজে গুলশানের বাসায় পুলিশের অভিযান",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss9890d776244a46-1200x630.jpg",
       "publishedAt": "2026-11-21T15:57:59.314Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -153,7 +153,7 @@
       "title": "অপরাধীদের আইনি ও রাজনৈতিকভাবেই মোকাবিলা করা হবে: আইনমন্ত্রী",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "https://cdn.banglatribune.net/contents/cache/images/1200x0x1/uploads/media/2026/11/21/9f9bac40da84bb314c1ae548ab23a9b5-6b01b1b12655b.jpg?jadewits_media_id=1056243",
+      "image": "/img/rss8dc0cceae60696-1200x630.jpg",
       "publishedAt": "2026-11-21T15:27:59.300Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -233,7 +233,7 @@
       "title": "নেত্রকোণায় গ্রামীণ ব্যাংকে দুটি পেট্রোল বোমা নিক্ষেপ",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss30461ca281bfea-1200x630.jpg",
       "publishedAt": "2026-11-21T15:13:04.229Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
