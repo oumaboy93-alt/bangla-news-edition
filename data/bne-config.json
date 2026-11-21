@@ -1,6 +1,6 @@
 {
-  "version": 1512,
-  "updatedAt": "2026-11-21T09:46:55.427Z",
+  "version": 1513,
+  "updatedAt": "2026-11-21T09:58:24.808Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss7584a6ec2d7deb",
+      "slug": "হাসিনা-ও-শামীম-ওসমানকে-নিয়ে-সাবেক-প্রেস-স",
+      "title": "হাসিনা ও শামীম ওসমানকে নিয়ে সাবেক প্রেস সচিবের ‘রসিকতা’র পোস্ট",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/kakku-1795252067.jpg",
+      "publishedAt": "2026-11-21T09:57:58.330Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ক্ষমতাচ্যুত ও পলাতক সাবেক প্রধানমন্ত্রী শেখ হাসিনা এবং নারায়ণগঞ্জের সাবেক এমপি শামীম ওসমানকে নিয়ে রসিকতায় মেতেছেন সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. ই...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/bd-politics/542547\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ক্ষমতাচ্যুত ও পলাতক সাবেক প্রধানমন্ত্রী শেখ হাসিনা এবং নারায়ণগঞ্জের সাবেক এমপি শামীম ওসমানকে নিয়ে রসিকতায় মেতেছেন সাবেক অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. ই...",
+      "sourceUrl": "https://daily-bangladesh.com/bd-politics/542547",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss35cb4f2785aec2",
+      "slug": "চামড়াপণ্য-ও-জুতা-কারখানায়-নতুন-মজুরিকাঠা",
+      "title": "চামড়াপণ্য ও জুতা কারখানায় নতুন মজুরিকাঠামো ঘোষণা",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/camra-ponno-1795252506.jpg",
+      "publishedAt": "2026-11-21T09:57:58.327Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>চামড়াপণ্য ও জুতা কারখানার শ্রমিক-কর্মচারীদের ন্যূনতম মাসিক মজুরি বাড়িয়েছে সরকার। নতুন কাঠামোতে শ্রমিকদের ন্যূনতম মজুরি ৪ হাজার ৮০০ টাকা বাড়িয়ে ১১ হাজার ৯০০ টাকা...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/economy/542548\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "চামড়াপণ্য ও জুতা কারখানার শ্রমিক-কর্মচারীদের ন্যূনতম মাসিক মজুরি বাড়িয়েছে সরকার। নতুন কাঠামোতে শ্রমিকদের ন্যূনতম মজুরি ৪ হাজার ৮০০ টাকা বাড়িয়ে ১১ হাজার ৯০০ টাকা...",
+      "sourceUrl": "https://daily-bangladesh.com/economy/542548",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsse4ab98533195f3",
+      "slug": "লক্ষ্যমাত্রার-বেশি-ধান-কিনবে-সরকার-খাদ্য",
+      "title": "লক্ষ্যমাত্রার বেশি ধান কিনবে সরকার: খাদ্য প্রতিমন্ত্রী",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/1795252660464-1795252678.jpg",
+      "publishedAt": "2026-11-21T09:57:58.323Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>শনিবার (২১ নভেম্বর) বেলা সাড়ে ১১টার দিকে কালাই উপজেলা খাদ্যগুদামে ধান-চাল সংগ্রহ কার্যক্রমের উদ্বোধনকালে তিনি এ আশ্বাস দেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542550\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "শনিবার (২১ নভেম্বর) বেলা সাড়ে ১১টার দিকে কালাই উপজেলা খাদ্যগুদামে ধান-চাল সংগ্রহ কার্যক্রমের উদ্বোধনকালে তিনি এ আশ্বাস দেন।",
+      "sourceUrl": "https://daily-bangladesh.com/country/542550",
+      "sourceName": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rss1e4dc6a9430cd1",
@@ -7969,54 +8017,6 @@
       "body": "<p>বরিশাল নগরীতে সাবেক সেনা কর্মকর্তা ও ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টারের (এনটিএমসি) সাবেক মহাপরিচালক মেজর জেনারেল (অব.) জিয়াউল আহসানের বাড়িতে হামলা, ভাঙচুর ও অগ্নিসংযোগের ঘটনা ঘটেছে। বৃহস্পতিবার (১৯ নভেম্বর) সন্ধ্যা ৬টার দিকে নগরীর কলেজ রোড সংলগ্ন বৈদ্যপাড়া এলাকার নাসির উদ্দিন সড়কে অবস্থিত তহু</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইন নিজের হাতে তুলে নেওয়ার প্রবণতা জননিরাপত্তার জন্য বড় হুমকি এবং এটি সামাজিক অস্থিরতাকে উসকে দেয়। স্থানীয়দের উচিত এ ধরনের ধ্বংসাত্মক কর্মকাণ্ড থেকে বিরত থেকে আইনি প্রক্রিয়ার ওপর আস্থা রাখা, যাতে শান্তি ও স্থিতিশীলতা বজায় থাকে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/barishal/982041/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%9C%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%89%E0%A6%B2-%E0%A6%86%E0%A6%B9%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "বরিশাল নগরীতে সাবেক সেনা কর্মকর্তা ও ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টারের (এনটিএমসি) সাবেক মহাপরিচালক মেজর জেনারেল (অব.) জিয়াউল আহসানের বাড়িতে হামলা, ভাঙচুর ও অগ্নিসংযোগের ঘটনা ঘটেছে। বৃহস্পতিবার (১৯ নভেম্বর) সন্ধ্যা ৬টার দিকে নগরীর কলেজ রোড সংলগ্ন বৈদ্যপাড়া এলাকার নাসির উদ্দিন সড়কে অবস্থিত তহু",
       "sourceUrl": "https://www.banglatribune.com/country/barishal/982041/%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%9C%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%89%E0%A6%B2-%E0%A6%86%E0%A6%B9%E0%A6%B8%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssb1505564d8bb50",
-      "slug": "আওয়ামী-লীগের-সন্ত্রাস-নৈরাজ্য-প্রতিরোধে",
-      "title": "আওয়ামী লীগের সন্ত্রাস-নৈরাজ্য প্রতিরোধে মাঠে নেমেছে বিএনপি-যুবদল",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%A8%E0%A7%88%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%87.webp",
-      "publishedAt": "2026-11-19T16:27:18.726Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দেশব্যাপী আওয়ামী লীগের সন্ত্রাস, নাশকতা ও নৈরাজ্যের প্রতিবাদে সাভারে বিক্ষোভ মিছিল ও অবস্থান কর্মসূচি পালন করেছেন বিএনপির নেতাকর্মীরা। এ ছাড়া একই দাবিতে মোটরসাইকেল শোডাউন করেছে যুবদল। বৃহস্পতিবার দুপুর ও বিকালে ঢাকা-আরিচা মহাসড়কের বিভিন্ন এলাকায় এসব কর্মসূচি পালন করা হয়। দুপুরে ঢাকা-আরিচা মহাসড়কের ব</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা ও রাজপথের পাল্টাপাল্টি কর্মসূচি জনজীবনে চরম ভোগান্তি ও নিরাপত্তাহীনতা তৈরি করছে। সাধারণ মানুষের স্বাভাবিক চলাচল নিশ্চিত করতে রাজনৈতিক দলগুলোকে সহনশীলতা বজায় রাখতে হবে এবং সংঘাত এড়িয়ে শান্তিপূর্ণ রাজনৈতিক চর্চায় ফিরতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/dhaka/982037/%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%A8%E0%A7%88%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দেশব্যাপী আওয়ামী লীগের সন্ত্রাস, নাশকতা ও নৈরাজ্যের প্রতিবাদে সাভারে বিক্ষোভ মিছিল ও অবস্থান কর্মসূচি পালন করেছেন বিএনপির নেতাকর্মীরা। এ ছাড়া একই দাবিতে মোটরসাইকেল শোডাউন করেছে যুবদল। বৃহস্পতিবার দুপুর ও বিকালে ঢাকা-আরিচা মহাসড়কের বিভিন্ন এলাকায় এসব কর্মসূচি পালন করা হয়। দুপুরে ঢাকা-আরিচা মহাসড়কের ব",
-      "sourceUrl": "https://www.banglatribune.com/country/dhaka/982037/%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8-%E0%A6%A8%E0%A7%88%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A0%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssad706d76499fb1",
-      "slug": "মিয়ানমারের-বিরুদ্ধে-গণহত্যার-রায়ে-কী-পেল",
-      "title": "মিয়ানমারের বিরুদ্ধে গণহত্যার রায়ে কী পেলো রোহিঙ্গারা?",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%80-%E0%A6%AA%E0%A7%87%E0%A6%B2.webp",
-      "publishedAt": "2026-11-19T16:27:18.720Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রোহিঙ্গা জনগোষ্ঠীর বিরুদ্ধে গণহত্যা চালানোর দায়ে মিয়ানমারকে দোষী সাব্যস্ত করেছেন আন্তর্জাতিক বিচার আদালত (আইসিজে)। সাত বছর শুনানির পর বৃহস্পতিবার এই দীর্ঘ প্রতীক্ষিত রায় ঘোষণা করা হয়। আদালতের প্রেসিডেন্ট ইউজি ইওয়াসাওয়া রায় পড়ে শোনান, যা পড়তে সময় লেগেছে তিন ঘণ্টা। রোহিঙ্গাদের ফেরতের উদ্যোগ </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক আদালতের এই রায় মিয়ানমারের দায়বদ্ধতা নিশ্চিত করলেও বাস্তুচ্যুত মানুষের প্রত্যাবাসন প্রক্রিয়া ত্বরান্বিত না হলে সাধারণ রোহিঙ্গাদের জীবনে এর প্রকৃত সুফল মিলবে না। ন্যায়বিচার প্রতিষ্ঠার এই মাইলফলক তাদের দীর্ঘস্থায়ী সংকট সমাধানে নতুন প্রত্যাশা তৈরি করেছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/asia/982038/%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%80-%E0%A6%AA%E0%A7%87%E0%A6%B2%E0%A7%8B\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রোহিঙ্গা জনগোষ্ঠীর বিরুদ্ধে গণহত্যা চালানোর দায়ে মিয়ানমারকে দোষী সাব্যস্ত করেছেন আন্তর্জাতিক বিচার আদালত (আইসিজে)। সাত বছর শুনানির পর বৃহস্পতিবার এই দীর্ঘ প্রতীক্ষিত রায় ঘোষণা করা হয়। আদালতের প্রেসিডেন্ট ইউজি ইওয়াসাওয়া রায় পড়ে শোনান, যা পড়তে সময় লেগেছে তিন ঘণ্টা। রোহিঙ্গাদের ফেরতের উদ্যোগ ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/asia/982038/%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87-%E0%A6%95%E0%A7%80-%E0%A6%AA%E0%A7%87%E0%A6%B2%E0%A7%8B",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss79fa92fdc932a0",
-      "slug": "যেতে-চেয়েছিলেন-থাইল্যান্ড-শাহজালালে-গ্র",
-      "title": "যেতে চেয়েছিলেন থাইল্যান্ড, শাহজালালে গ্রেফতার আওয়ামী লীগ নেতা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AF%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%A5%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0.webp",
-      "publishedAt": "2026-11-19T16:27:18.717Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে থাইল্যান্ড যাওয়ার সময় রংপুর জেলা পরিষদের সাবেক চেয়ারম্যান ও জেলা মুক্তিযোদ্ধা সংসদের সাবেক কমান্ডার মোছাদ্দেক হোসেন বাবলুকে গ্রেফতার করেছে পুলিশ। বুধবার (১৯ নভেম্বর) রাতে তাকে গ্রেফতার করে ইমিগ্রেশন পুলিশ। পরে তাকে রংপুর পুলিশের কাছে হস্তান্তর করা হয়। বিমানবন্দর</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধিদের এমন পলায়নপর প্রবণতা স্থানীয় পর্যায়ে রাজনৈতিক স্বচ্ছতা ও জবাবদিহিতার সংকটকে স্পষ্ট করে। অপরাধের সুষ্ঠু তদন্ত নিশ্চিত করতে স্থানীয় সচেতন মহলকে সজাগ থাকতে হবে এবং আইন প্রয়োগকারী সংস্থার ওপর পূর্ণ আস্থা বজায় রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/982039/%E0%A6%AF%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%A5%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে থাইল্যান্ড যাওয়ার সময় রংপুর জেলা পরিষদের সাবেক চেয়ারম্যান ও জেলা মুক্তিযোদ্ধা সংসদের সাবেক কমান্ডার মোছাদ্দেক হোসেন বাবলুকে গ্রেফতার করেছে পুলিশ। বুধবার (১৯ নভেম্বর) রাতে তাকে গ্রেফতার করে ইমিগ্রেশন পুলিশ। পরে তাকে রংপুর পুলিশের কাছে হস্তান্তর করা হয়। বিমানবন্দর",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/982039/%E0%A6%AF%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%A5%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
