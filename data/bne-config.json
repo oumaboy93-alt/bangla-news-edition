@@ -1,6 +1,6 @@
 {
-  "version": 1469,
-  "updatedAt": "2026-11-21T00:42:38.310Z",
+  "version": 1470,
+  "updatedAt": "2026-11-21T00:53:48.132Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -1204,6 +1204,22 @@
       "sourceName": "যুগান্তর"
     },
     {
+      "id": "rss097acec8732f5b",
+      "slug": "মৃত্যুর-পরও-যে-৩-গুণ-মুমিনকে-বাঁচিয়ে-রাখে",
+      "title": "মৃত্যুর পরও যে ৩ গুণ মুমিনকে বাঁচিয়ে রাখে",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%AF%E0%A7%87-%E0%A7%A9-%E0%A6%97%E0%A7%81%E0%A6%A3-%E0%A6%AE%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%96%E0%A7%87.avif",
+      "publishedAt": "2026-11-20T18:42:32.535Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>মানুষের সঙ্গে ভালো ব্যবহার করা, কাউকে কষ্ট না দেওয়া, রাগ নিয়ন্ত্রণ করা এবং অন্যের অধিকার রক্ষা করা—এসবই এই মহৎ ইবাদতের অংশ।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/religion/islam/6mb72k2pj6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "মানুষের সঙ্গে ভালো ব্যবহার করা, কাউকে কষ্ট না দেওয়া, রাগ নিয়ন্ত্রণ করা এবং অন্যের অধিকার রক্ষা করা—এসবই এই মহৎ ইবাদতের অংশ।",
+      "sourceUrl": "https://www.prothomalo.com/religion/islam/6mb72k2pj6",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rssd70c6307322eda",
       "slug": "ভালোবাসায়-সিক্ত-৪২তম-জন্মদিনে-লেডি-সুপার",
       "title": "ভালোবাসায় সিক্ত ৪২তম জন্মদিনে ‘লেডি সুপারস্টার’ নয়নতারা",
@@ -1250,6 +1266,38 @@
       "summary": "মানবপাচারের শিকার ব্যক্তিদের অর্থনৈতিক পুনর্বাসন, উদ্যোক্তা হিসেবে প্রতিষ্ঠা এবং তাঁদের উৎপাদিত পণ্য ও সেবার বাজার সম্প্রসারণের লক্ষ্যে সাতক্ষীরায় দুই দিনব্যাপী...",
       "sourceUrl": "https://daily-bangladesh.com/country/542476",
       "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss37ce6859df17cc",
+      "slug": "ন্যায়বিচার-আদালতের-বাইরেও-বাস্তবায়ন-করত",
+      "title": "ন্যায়বিচার আদালতের বাইরেও বাস্তবায়ন করতে হবে: খলিলুর রহমান",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4.webp",
+      "publishedAt": "2026-11-20T18:27:33.507Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>আন্তর্জাতিক বিচার আদালতের (আইসিজে) ঐতিহাসিক রায়কে রোহিঙ্গাদের ন্যায়বিচার পাওয়ার পথে বড় মাইলফলক হিসেবে উল্লেখ করেছেন পররাষ্ট্রমন্ত্রী ও জাতিসংঘের ৮১তম সাধারণ পরিষদের সভাপতি ড. খলিলুর রহমান। তিনি বলেছেন, ন্যায়বিচার শুধু আদালতের মধ্যে সীমাবদ্ধ থাকলে চলবে না। এ রায় বাস্তবায়ন, জবাবদিহি নিশ্চিত করা এবং রোহিঙ্গাদের নিরাপদ ও মর্যাদাপূর্ণ প্রত্যাবাসনের ব্যবস্থা করতে হবে। শুক্রবার রাতে ইউএনজিএ সভাপতির... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/982258/%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "আন্তর্জাতিক বিচার আদালতের (আইসিজে) ঐতিহাসিক রায়কে রোহিঙ্গাদের ন্যায়বিচার পাওয়ার পথে বড় মাইলফলক হিসেবে উল্লেখ করেছেন পররাষ্ট্রমন্ত্রী ও জাতিসংঘের ৮১তম সাধারণ পরিষদের সভাপতি ড. খলিলুর রহমান। তিনি বলেছেন, ন্যায়বিচার শুধু আদালতের মধ্যে সীমাবদ্ধ থাকলে চলবে না। এ রায় বাস্তবায়ন, জবাবদিহি নিশ্চিত করা এবং রো",
+      "sourceUrl": "https://www.banglatribune.com/national/982258/%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rsse6ad9a010fd046",
+      "slug": "পরিবার-ও-দল-দুটোই-ধ্বংস-করেছে-শেখ-হাসিনা-প",
+      "title": "পরিবার ও দল, দুটোই ধ্বংস করেছে শেখ হাসিনা: পররাষ্ট্র প্রতিমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "images/politics.jpg",
+      "publishedAt": "2026-11-20T18:27:33.503Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SckZpakg1N3lZekdzM2Q5R1BMbGU0MF9xSW9ENkt6eFZmeldBTDlUNmFDdmd1WFREUXFmbXZ5VEdFMk04TGJNXzFEd21xaER5VFIwbmtB?oc=5&quot; target=&quot;_blank&quot;&amp;gt;পরিবার ও দল, দুটোই ধ্বংস করেছে শেখ হাসিনা: পররাষ্ট্র প্রতিমন্ত্রী&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SckZpakg1N3lZekdzM2Q5R1BMbGU0MF9xSW9ENkt6eFZmeldBTDlUNmFDdmd1WFREUXFmbXZ5VEdFMk04TGJNXzFEd21xaER5VFIwbmtB?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SckZpakg1N3lZekdzM2Q5R1BMbGU0MF9xSW9ENkt6eFZmeldBTDlUNmFDdmd1WFREUXFmbXZ5VEdFMk04TGJNXzFEd21xaER5VFIwbmtB?oc=5\" target=\"_blank\"&gt;পরিবার ও দল, দুটোই ধ্বংস করেছে শেখ হাসিনা: পররাষ্ট্র প্রতিমন্ত্রী&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SckZpakg1N3lZekdzM2Q5R1BMbGU0MF9xSW9ENkt6eFZmeldBTDlUNmFDdmd1WFREUXFmbXZ5VEdFMk04TGJNXzFEd21xaER5VFIwbmtB?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
     },
     {
       "id": "rss10fb853d347ce5",
@@ -7969,54 +8017,6 @@
       "body": "<p>পার্বত্য অঞ্চলের বেকার যুবকদের কারিগরি দক্ষতা বাড়িয়ে কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে বান্দরবানে তিন সপ্তাহব্যাপী যানবাহন রক্ষণাবেক্ষণ প্রশিক্ষণ কর্মসূচি সম্...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কারিগরি দক্ষতা অর্জনের মাধ্যমে পার্বত্য অঞ্চলের যুবকদের জন্য আত্মকর্মসংস্থানের নতুন দুয়ার উন্মোচিত হলো। এমন বিশেষায়িত প্রশিক্ষণ সনদ অর্জনের পাশাপাশি নিজেদের দক্ষ করে গড়ে তোলা আধুনিক শ্রমবাজারে চাকরিপ্রার্থীদের জন্য দীর্ঘমেয়াদী সুবিধা বয়ে আনবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542320\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "পার্বত্য অঞ্চলের বেকার যুবকদের কারিগরি দক্ষতা বাড়িয়ে কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে বান্দরবানে তিন সপ্তাহব্যাপী যানবাহন রক্ষণাবেক্ষণ প্রশিক্ষণ কর্মসূচি সম্...",
       "sourceUrl": "https://daily-bangladesh.com/country/542320",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssb20bf52b2c16a7",
-      "slug": "ভয়-ও-আচরণ-গঠন-করে-জিনগত-প্রবণতা-এবং-সামাজ",
-      "title": "ভয় ও আচরণ গঠন করে জিনগত প্রবণতা এবং সামাজিক পরিবেশ",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AD%E0%A6%AF%E0%A6%BC-%E0%A6%93-%E0%A6%86%E0%A6%9A%E0%A6%B0%E0%A6%A3-%E0%A6%97%E0%A6%A0%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%97%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%A3%E0%A6%A4%E0%A6%BE-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%9C.jpg",
-      "publishedAt": "2026-11-19T07:12:18.223Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>আগুনের শিখা দেখে সে কখনো অস্বস্তি বা ভয় অনুভব করতে পারে। আবার কৌতূহলবশত আগুনের দিকে হাতও বাড়াতে পারে। এই বিষয়টি আমাদের সামনে একটি গুরুত্বপূর্ণ প্রশ্ন তুলে ধর...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ব্যক্তিগত আচরণ গঠনে বংশগতির পাশাপাশি পরিবেশের প্রভাব অনস্বীকার্য, যা আমাদের দৈনন্দিন সিদ্ধান্ত গ্রহণে গভীর ছাপ ফেলে। সচেতন অভিভাবকত্ব ও সুষ্ঠু সামাজিক পরিবেশ নিশ্চিত করা গেলে ক্ষতিকর প্রবণতা কমিয়ে ইতিবাচক মানসিকতা গড়ে তোলা সম্ভব।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/science/542312\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "আগুনের শিখা দেখে সে কখনো অস্বস্তি বা ভয় অনুভব করতে পারে। আবার কৌতূহলবশত আগুনের দিকে হাতও বাড়াতে পারে। এই বিষয়টি আমাদের সামনে একটি গুরুত্বপূর্ণ প্রশ্ন তুলে ধর...",
-      "sourceUrl": "https://daily-bangladesh.com/science/542312",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsseebedb03235182",
-      "slug": "সিরাজগঞ্জে-আওয়ামী-লীগ-কার্যালয়-ও-সাবেক-এ",
-      "title": "সিরাজগঞ্জে আওয়ামী লীগ কার্যালয় ও সাবেক এমপির বাড়িতে আগুন",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%8F.jpg",
-      "publishedAt": "2026-11-19T07:12:18.222Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সিরাজগঞ্জে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের জেলা কার্যালয় ও দলটির সাবেক সংসদ সদস্য (এমপি) হাবিবে মিল্লাত মুন্নার বাড়িতে বুধবার সন্ধ্যায় আগুন দেওয়া হয়। তাছাড়া একই...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতার এই বহিঃপ্রকাশ জনমনে নিরাপত্তার সংকট ও শঙ্কার পরিবেশ তৈরি করছে। ধারাবাহিক সংঘাত ও ভাঙচুরের এমন ঘটনা নাগরিক জীবনে অস্থিরতা বাড়িয়ে তুলছে, যা অবিলম্বে আইনের শাসন ও রাজনৈতিক স্থিতিশীলতা নিশ্চিত করার দাবি রাখে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542313\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সিরাজগঞ্জে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের জেলা কার্যালয় ও দলটির সাবেক সংসদ সদস্য (এমপি) হাবিবে মিল্লাত মুন্নার বাড়িতে বুধবার সন্ধ্যায় আগুন দেওয়া হয়। তাছাড়া একই...",
-      "sourceUrl": "https://daily-bangladesh.com/country/542313",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssa4d6da981b5420",
-      "slug": "অর্থ-পাচারের-মামলায়-জাবেদসহ-১৭-জনের-সাজা",
-      "title": "অর্থ পাচারের মামলায় জাবেদসহ ১৭ জনের সাজা",
-      "category": "প্রবাস",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%B8%E0%A6%B9-%E0%A7%A7%E0%A7%AD-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BE.jpg",
-      "publishedAt": "2026-11-19T07:12:18.222Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>২৫ কোটি টাকা আত্মসাৎ করে হুন্ডির মাধ্যমে বিদেশে পাচারের মামলায় সাবেক ভূমিমন্ত্রী সাইফুজ্জামান চৌধুরী জাবেদকে ১৫ বছরের কারাদণ্ড দিয়েছেন আদালত। একই সঙ্গে তাকে ৫০...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনি এই কঠোর পদক্ষেপ প্রবাসী বাংলাদেশিদের বৈধ পথে রেমিট্যান্স পাঠাতে আরও সতর্ক ও উৎসাহিত করবে। হুন্ডি বা অনৈতিক লেনদেন রোধে এ ধরনের রায় বিদেশে দেশের ভাবমূর্তি পুনরুদ্ধারে এবং আর্থিক খাতের শৃঙ্খলা ফেরাতে কার্যকর ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/law-and-court/542314\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "২৫ কোটি টাকা আত্মসাৎ করে হুন্ডির মাধ্যমে বিদেশে পাচারের মামলায় সাবেক ভূমিমন্ত্রী সাইফুজ্জামান চৌধুরী জাবেদকে ১৫ বছরের কারাদণ্ড দিয়েছেন আদালত। একই সঙ্গে তাকে ৫০...",
-      "sourceUrl": "https://daily-bangladesh.com/law-and-court/542314",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
