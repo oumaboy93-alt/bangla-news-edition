@@ -1,6 +1,6 @@
 {
-  "version": 1523,
-  "updatedAt": "2026-11-21T11:52:18.303Z",
+  "version": 1524,
+  "updatedAt": "2026-11-21T12:03:36.982Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss37b0280693c8a2",
+      "slug": "বৈশাখী-টিভির-ডিএমডি-গ্রেফতার",
+      "title": "বৈশাখী টিভির ডিএমডি গ্রেফতার",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A7%88%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A7%80-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0-%E0%A6%A1%E0%A6%BF%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0.webp",
+      "publishedAt": "2026-11-21T11:57:58.181Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাজধানীর বনানী থানাধীন মহাখালীতে অবস্থিত বেসরকারি টেলিভিশন বৈশাখীর ডেপুটি ম্যানেজিং ডিরেক্টর (ডিএমডি) ও প্রধান সম্পাদক টিপু আলম মিলনকে গ্রেফতার করেছে পুলিশ। শনিবার (২১ নভেম্বর) বিকালে টেলিভশনের কার্যালয় থেকে তাকে গ্রেফতার করা হয়। বনানী থানার অফিসার ইনচার্জ (ওসি) মো. সালাহউদ্দিন বলেন, টিপু টেলিভিশন কার্যালয়ে প্রবেশের পর তাকে ঘিরে রাখে একদল লোক। পরে সেখান থেকে তাকে উদ্ধার করে থানা হেফাজতে নেওয়া... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/982372/%E0%A6%AC%E0%A7%88%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A7%80-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0%C2%A0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাজধানীর বনানী থানাধীন মহাখালীতে অবস্থিত বেসরকারি টেলিভিশন বৈশাখীর ডেপুটি ম্যানেজিং ডিরেক্টর (ডিএমডি) ও প্রধান সম্পাদক টিপু আলম মিলনকে গ্রেফতার করেছে পুলিশ। শনিবার (২১ নভেম্বর) বিকালে টেলিভশনের কার্যালয় থেকে তাকে গ্রেফতার করা হয়। বনানী থানার অফিসার ইনচার্জ (ওসি) মো. সালাহউদ্দিন বলেন, টিপু টেলিভিশন ক",
+      "sourceUrl": "https://www.banglatribune.com/law-and-crime/982372/%E0%A6%AC%E0%A7%88%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A7%80-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0-%E0%A6%8F%E0%A6%AE%E0%A6%A1%E0%A6%BF-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0%C2%A0",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssdd89be69648c2f",
+      "slug": "ওপরওয়ালার-আশীর্বাদ-না-থাকলে-পারতাম-না-শ",
+      "title": "ওপরওয়ালার আশীর্বাদ না থাকলে পারতাম না: শিবলী মহম্মদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-21T11:57:58.170Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tbDBCZndjUXdPblZsemZseFhDVWdhQmZ2NzJYWG5jVHRvcnJNZ0dvMnVVQWN0bXhIY0VqZ0tpWFJURE9FYzZhenJMRlZYampwTjNDTkZ3?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ওপরওয়ালার আশীর্বাদ না থাকলে পারতাম না: শিবলী মহম্মদ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tbDBCZndjUXdPblZsemZseFhDVWdhQmZ2NzJYWG5jVHRvcnJNZ0dvMnVVQWN0bXhIY0VqZ0tpWFJURE9FYzZhenJMRlZYampwTjNDTkZ3?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tbDBCZndjUXdPblZsemZseFhDVWdhQmZ2NzJYWG5jVHRvcnJNZ0dvMnVVQWN0bXhIY0VqZ0tpWFJURE9FYzZhenJMRlZYampwTjNDTkZ3?oc=5\" target=\"_blank\"&gt;ওপরওয়ালার আশীর্বাদ না থাকলে পারতাম না: শিবলী মহম্মদ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tbDBCZndjUXdPblZsemZseFhDVWdhQmZ2NzJYWG5jVHRvcnJNZ0dvMnVVQWN0bXhIY0VqZ0tpWFJURE9FYzZhenJMRlZYampwTjNDTkZ3?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
+    },
+    {
+      "id": "rssd5c1d0d108bb3a",
+      "slug": "এসএমই-খাতের-বিকাশে-তরুণদের-কর্মসংস্থানে",
+      "title": "এসএমই খাতের বিকাশে তরুণদের কর্মসংস্থানে গুরুত্ব দিচ্ছে সরকার: প্রধানমন্ত্রী",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%AE%E0%A6%87-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%87.webp",
+      "publishedAt": "2026-11-21T11:57:58.154Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>প্রধানমন্ত্রী তারেক রহমান বলেছেন, তরুণ ও যুবসমাজকে দক্ষ ও আত্মনির্ভরশীল করে গড়ে তোলা এবং তাদের জন্য নতুন কর্মসংস্থানের সুযোগ সৃষ্টিতে ক্ষুদ্র ও মাঝারি শিল্প (এসএমই) খাতের বিপুল সম্ভাবনা রয়েছে। সরকার এ সম্ভাবনাকে কাজে লাগাতে প্রয়োজনীয় সহায়তা ও অনুকূল পরিবেশ নিশ্চিত করতে বদ্ধপরিকর। আগামীকাল ২২ নভেম্বর</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">এসএমই খাতের বিস্তারে সরকারি উদ্যোগ তরুণদের জন্য উদ্যোক্তা হওয়ার নতুন দিগন্ত উন্মোচন করবে। প্রথাগত চাকরির পেছনে না ছুটে তরুণরা এখন সরকারি নীতিমালার সুবিধা কাজে লাগিয়ে স্বাবলম্বী হওয়ার কার্যকর প্রস্তুতি নিতে পারেন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/822233/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%AE%E0%A6%87-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "প্রধানমন্ত্রী তারেক রহমান বলেছেন, তরুণ ও যুবসমাজকে দক্ষ ও আত্মনির্ভরশীল করে গড়ে তোলা এবং তাদের জন্য নতুন কর্মসংস্থানের সুযোগ সৃষ্টিতে ক্ষুদ্র ও মাঝারি শিল্প (এসএমই) খাতের বিপুল সম্ভাবনা রয়েছে। সরকার এ সম্ভাবনাকে কাজে লাগাতে প্রয়োজনীয় সহায়তা ও অনুকূল পরিবেশ নিশ্চিত করতে বদ্ধপরিকর। আগামীকাল ২২ নভেম্বর",
+      "sourceUrl": "https://www.ittefaq.com.bd/822233/%E0%A6%8F%E0%A6%B8%E0%A6%8F%E0%A6%AE%E0%A6%87-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%AC",
+      "sourceName": "ইত্তেফাক"
     },
     {
       "id": "rss54e71588f5aade",
@@ -1582,7 +1630,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অস্থির আবহাওয়ার এই পরিবর্তন রাজধানীবাসীর দৈনন্দিন কর্মপরিকল্পনায় বড় ধরনের বিঘ্ন ঘটাচ্ছে। চরম তাপমাত্রার পাশাপাশি আকস্মিক বৃষ্টি জনজীবনে স্বাস্থ্যঝুঁকি ও যাতায়াত সংকট আরও প্রকট করে তুলছে। তাই নগরবাসীকে এখন ব্যক্তিগত সুরক্ষায় বাড়তি সতর্কতা অবলম্বন করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5\" target=\"_blank\"&gt;ঢাকার বৃষ্টি-তাপমাত্রা নিয়ে নতুন বার্তা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0TkxDZkJjcmttek5HTl9CcFFBWGo5SzRJdk51Nzh4dHRWVHh1b1JVMjV2b2lhc25yZkhjSU40QUFETjVCUjBGdTV6SEZnamg0REE?oc=5",
       "sourceName": "যুগান্তর"
@@ -2494,7 +2542,7 @@
       "tags": [
         "প্রথম আলো"
       ],
-      "body": "<p>সম্ভাব্য সিভিল ওয়ার সিচুয়েশন (গৃহযুদ্ধের পরিস্থিতি) এড়াতে ২০২৪ সালের ২১ আগস্ট তিনি রিকনসিলিয়েশনের কথা তুলেছিলেন বলে ফেসবুক পোস্টে উল্লেখ করেন মাহফুজ আলম৷</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/bdfljw1cq2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "body": "<p>সন্ত্রাস ও খুনের রাজনীতির পথ পরিহার না করা পর্যন্ত কোনো ধরনের পুনর্মিলন বা রিকনসিলিয়েশন আলোচনা সম্ভব নয় বলে মন্তব্য করেছেন অন্তর্বর্তী সরকারের সাবেক উপদেষ্টা ও রাজনৈতিক প্ল্যাটফর্ম অলটারনেটিভসের সংগঠক মাহফুজ আলম। শুক্রবার রাতে নিজের ভেরিফায়েড ফেসবুক পেজে দেওয়া এক পোস্টে তিনি স্পষ্টভাবে জানান, ফ্যাসিবাদের ১৭ বছরের কর্মকাণ্ডের সত্যতা স্বীকার, বিচারের মুখোমুখি হওয়া এবং সন্ত্রাসী কর্মকাণ্ড বর্জনের ঘোষণা ছাড়া এ বিষয়ে কোনো আলাপ অর্থহীন।</p>\n<p>জুলাই গণ-অভ্যুত্থানের নেতৃত্ব দেওয়া বৈষম্যবিরোধী ছাত্র আন্দোলনের লিয়াজোঁ কমিটির এই সাবেক সদস্য এমন সময় এই মন্তব্য করলেন, যখন নিষিদ্ধ ঘোষিত দল আওয়ামী লীগের কর্মসূচি ঘিরে দেশে নতুন করে সহিংসতা ও অস্থিতিশীলতা তৈরি হয়েছে। মাহফুজ আলমের মতে, শেখ হাসিনার জন্য এখন কোনো প্রত্যাবর্তন নয়, বরং প্রত্যর্পণ ও আত্মসমর্পণের পথই অবশিষ্ট রয়েছে।</p>\n<p>ফেসবুক পোস্টে তিনি উল্লেখ করেন, দেশে সম্ভাব্য গৃহযুদ্ধের পরিস্থিতি এড়ানোর লক্ষ্য নিয়ে ২০২৪ সালের ২১ আগস্ট তিনি প্রথম পুনর্মিলনের বা রিকনসিলিয়েশনের প্রস্তাব তুলেছিলেন। তবে আওয়ামী লীগের ভেতরে কোনো ধরনের অনুশোচনা বা আত্মসমালোচনার অভাব রয়েছে উল্লেখ করে তিনি বলেন, দলটির অস্থিমজ্জায় সন্ত্রাস গেঁথে আছে।</p>\n<p>সন্ত্রাস ও খুনের রাজনীতি অব্যাহত রাখলে দেশের শিল্পবাণিজ্য ধ্বংস, অস্থিতিশীল পরিস্থিতি এবং জানমালের ক্ষয়ক্ষতির দায়ভার আওয়ামী লীগ ও তাদের আশ্রয়দাতাদের নিতে হবে বলে তিনি সতর্ক করেন। এ ছাড়া বর্তমান প্রেক্ষাপটে ট্রান্স-বর্ডার বা আন্তঃসীমান্ত সন্ত্রাস মোকাবিলায় জাতীয় নিরাপত্তা ও সার্বভৌমত্বের প্রশ্নে সরকার এবং জনসাধারণকে ঐক্যবদ্ধভাবে কাজ করার আহ্বান জানান তিনি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/bdfljw1cq2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "সম্ভাব্য সিভিল ওয়ার সিচুয়েশন (গৃহযুদ্ধের পরিস্থিতি) এড়াতে ২০২৪ সালের ২১ আগস্ট তিনি রিকনসিলিয়েশনের কথা তুলেছিলেন বলে ফেসবুক পোস্টে উল্লেখ করেন মাহফুজ আলম৷",
       "sourceUrl": "https://www.prothomalo.com/politics/bdfljw1cq2",
       "sourceName": "প্রথম আলো"
@@ -2558,7 +2606,7 @@
       "tags": [
         "প্রথম আলো"
       ],
-      "body": "<p>আইনশৃঙ্খলা, দ্রব্যমূল্য ও কর্মসংস্থানে প্রত্যাশিত পরিবর্তন আসেনি বলে স্বীকার করেছেন পরিকল্পনা প্রতিমন্ত্রী। পাশাপাশি জুলাই শহীদ পরিবার ও আহত যোদ্ধাদের স্বীকৃতির ওপর গুরুত্ব দেন তিনি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/jecm5lmclp\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "body": "<p>জুলাই গণ-অভ্যুত্থানে শহীদ পরিবার ও আহত যোদ্ধাদের সঙ্গে আয়োজিত এক মতবিনিময় সভায় পরিকল্পনা প্রতিমন্ত্রী ও গণসংহতি আন্দোলনের নেতা জোনায়েদ সাকি বলেছেন, রাজনৈতিক দলগুলো যদি পুরোনো আমলের শাসনব্যবস্থার আদলে বিরোধিতা চালিয়ে যায়, তবে তা বর্তমান সময়ের বাস্তবতার সঙ্গে সংগতিপূর্ণ হবে না। রাজধানীর খামারবাড়ির তুলা ভবনে আয়োজিত এই অনুষ্ঠানে তিনি আরও বলেন, পতিত শক্তিগুলো সন্ত্রাস ও অরাজকতা সৃষ্টির মাধ্যমে পুনরায় ক্ষমতায় ফেরার স্বপ্ন দেখছে, যা প্রতিহত করা গণতান্ত্রিক শক্তিগুলোর দায়িত্ব।</p>\n<p>বর্তমান সরকারের বিভিন্ন কর্মকাণ্ড নিয়ে জনগণের মধ্যে থাকা হতাশার কথা স্বীকার করেছেন পরিকল্পনা প্রতিমন্ত্রী। তিনি জানান, দ্রব্যমূল্য নিয়ন্ত্রণ, আইনশৃঙ্খলা পরিস্থিতি, কর্মসংস্থান সৃষ্টি এবং জননিরাপত্তা নিশ্চিত করার ক্ষেত্রে মানুষের প্রত্যাশা অনুযায়ী পরিবর্তন এখনো আসেনি। জনগণের এই অনাস্থা দূর করার লক্ষ্যে রাজনৈতিক দলগুলোকে মানুষের সঙ্গে যোগাযোগ বাড়ানোর পাশাপাশি পরিবর্তনের পক্ষে আস্থা অর্জনের ওপর জোর দিতে হবে।</p>\n<p>রাষ্ট্রীয় সংস্কারের গুরুত্ব তুলে ধরে জোনায়েদ সাকি বলেন, কেবল সংবিধান পরিবর্তন করলেই হবে না, বরং পুলিশ, প্রশাসন, বিচার বিভাগ ও শিক্ষাব্যবস্থায় বড় ধরনের সংস্কার প্রয়োজন। রাজনৈতিক দলগুলো এই সংস্কারের দাবিগুলো জোরালোভাবে উপস্থাপন করছে না বলে তিনি মন্তব্য করেন। বর্তমান রাজনৈতিক পরিস্থিতিতে দলগুলোকে সরকারি বা বিরোধী যে অবস্থানেই থাকুক না কেন, রাষ্ট্র পুনর্গঠনের মূল দায়িত্ব এড়িয়ে যাওয়ার কোনো সুযোগ নেই বলে তিনি সতর্ক করেন।</p>\n<p>গণসংহতি আন্দোলনের এই নেতা জুলাই গণ-অভ্যুত্থানে যারা শহীদ হয়েছেন এবং যারা আহত হয়েছেন, তাদের যথাযথ সরকারি স্বীকৃতি, সুচিকিৎসা এবং কর্মসংস্থানের নিশ্চয়তা বিধানের ওপর জোর দেন। এ সময় তিনি দলের কর্মীদের নিজ নিজ এলাকায় গিয়ে ভুক্তভোগী পরিবারগুলোর সমস্যা চিহ্নিত করতে এবং সহায়তার হাত বাড়িয়ে দিতে নির্দেশনা দেন।</p>\n<p>গণসংহতি আন্দোলনের ঢাকা জেলা ও মহানগর শাখার আয়োজনে অনুষ্ঠিত এই সভার শুরুতে মহান মুক্তিযুদ্ধ এবং জুলাই অভ্যুত্থানের শহীদদের স্মরণে এক মিনিট নীরবতা পালন করা হয়। অনুষ্ঠানটি সঞ্চালনা করেন দলের ঢাকা জেলার সমন্বয়কারী বাচ্চু ভূঁইয়া এবং সভাপতিত্ব করেন ঢাকা মহানগর উত্তরের আহ্বায়ক মনিরুল হুদা বাবন। এতে দলের অন্যান্য কেন্দ্রীয় নেতারাও বক্তব্য রাখেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/jecm5lmclp\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "আইনশৃঙ্খলা, দ্রব্যমূল্য ও কর্মসংস্থানে প্রত্যাশিত পরিবর্তন আসেনি বলে স্বীকার করেছেন পরিকল্পনা প্রতিমন্ত্রী। পাশাপাশি জুলাই শহীদ পরিবার ও আহত যোদ্ধাদের স্বীকৃতির ওপর গুরুত্ব দেন তিনি।",
       "sourceUrl": "https://www.prothomalo.com/politics/jecm5lmclp",
       "sourceName": "প্রথম আলো"
@@ -7970,54 +8018,6 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HTlFESHhjTTlvRTRxMmFJam9rb1hiSHVaTW5NWG1zNWNXQjExTFlBNV8xaTUydzVuejVBbVNDYjF4TW1DdXBVZGk0OTVheHlfWjM0?oc=5\" target=\"_blank\"&gt;ডাকসু নেতা মুসাদ্দিকের বাড়িতে হামলা, ফোনে খোঁজ নিলেন জামায়াত আমির&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HTlFESHhjTTlvRTRxMmFJam9rb1hiSHVaTW5NWG1zNWNXQjExTFlBNV8xaTUydzVuejVBbVNDYjF4TW1DdXBVZGk0OTVheHlfWjM0?oc=5",
       "sourceName": "যুগান্তর"
-    },
-    {
-      "id": "rsseb3db80bff2811",
-      "slug": "কুমার-শানুর-আক্ষেপ-বলিউডের-গানে-আর-সৃজনশ",
-      "title": "কুমার শানুর আক্ষেপ: বলিউডের গানে আর সৃজনশীলতা নেই",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B6%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B0-%E0%A6%86%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA-%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%89%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%B8%E0%A7%83%E0%A6%9C%E0%A6%A8%E0%A6%B6.jpg",
-      "publishedAt": "2026-11-19T18:27:31.251Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>বলিউডের বর্তমান সংগীত পরিস্থিতি নিয়ে নিজের হতাশার কথা জানিয়েছেন জনপ্রিয় সংগীতশিল্পী কুমার শানু। চার দশকেরও বেশি সময় ধরে সংগীতাঙ্গনে পথচলা এই শিল্পী মনে করেন, হিন্দি সিনেমার গানে এখন আর আগের মতো সৃজনশীলতার স্বাধীনতা অবশিষ্ট নেই। সম্প্রতি দীর্ঘ ২১ বছর পর উদিত নারায়ণের সঙ্গে একটি গানে কণ্ঠ দেওয়ার পর এক সাক্ষাৎকারে তিনি তার দীর্ঘদিনের অভিজ্ঞতা ও সংগীতজগতের পরিবর্তন নিয়ে এই অভিমত ব্যক্ত করেন।</p>\n<p>কুমার শানু জানান, একসময় সংগীত পরিচালক, গীতিকার এবং শিল্পীরা নিজেদের সৃজনশীলতা প্রকাশের ক্ষেত্রে পূর্ণ স্বাধীনতা উপভোগ করতেন। সেই সময়ে একটি গানের প্রেক্ষাপট অনুযায়ী সংগীত পরিচালকরা দশ ধরনের সুর তৈরি করার সুযোগ পেতেন এবং পুরো দলের সম্মিলিত আলোচনার মাধ্যমে সেরা সুরটি চূড়ান্ত করা হতো। তার দৃষ্টিতে, সৃজনশীল চর্চার এই পদ্ধতিই ছিল শিল্পের প্রকৃত সৌন্দর্যের উৎস।</p>\n<p>প্রযুক্তির ব্যাপক প্রসারে গান তৈরির প্রক্রিয়া সহজতর হলেও এর নেতিবাচক প্রভাব পড়েছে শিল্পীদের একাগ্রতা ও শৃঙ্খলার ওপর। ষাটোর্ধ্ব এই শিল্পী স্মরণ করেন যে, আগে একটি নিখুঁত গান রেকর্ড করার জন্য শিল্পীদের প্রচণ্ড সতর্ক থাকতে হতো। সামান্য ভুল হলেও পুরো সংগীতায়োজন পুনরায় করতে হতো বলে শিল্পীরা সাধারণত এক বা দুই টেকেই গান শেষ করার চেষ্টা করতেন। কিন্তু বর্তমান সময়ে প্রযুক্তির সহায়তায় শব্দ ধরে ধরে রেকর্ডিংয়ের প্রবণতা বেড়েছে।</p>\n<p>অটো-টিউন ও মেলোডাইনের মতো আধুনিক প্রযুক্তির ব্যবহার প্রসঙ্গে কুমার শানু বলেন, প্রযুক্তির ভালো ও মন্দ উভয় দিকই বিদ্যমান। প্রযুক্তি গান গাওয়া বা নাচের কাজকে সহজ করলেও এর মাধ্যমে সত্যিকারের শিল্প সৃষ্টি সম্ভব নয়। তার মতে, শিল্পের প্রকৃত উৎস হলো সৃষ্টিকর্তার আশীর্বাদ কিংবা বংশগত প্রতিভা। তবে বর্তমান সময়ের সংগীত কিংবা সুরকারদের ছোট করে দেখতে রাজি নন নব্বই ও দুই হাজারের দশকের এই জনপ্রিয় গায়ক। তিনি মনে করেন, এখনো ভালো সংগীত সৃষ্টি হচ্ছে এবং প্রতিভাবান সুরকারেরও কোনো অভাব নেই, শুধু সংগীত তৈরির ধরনে বড় ধরনের পরিবর্তন এসেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সুর ও লিরিকের মৌলিকতা হারিয়ে বলিউডের গান এখন বাণিজ্যিক পণ্যমাত্রায় পর্যবসিত হয়েছে। শিল্পীর সৃজনশীলতার এই অবক্ষয় দর্শককে দীর্ঘস্থায়ী সুরের মূর্ছনা থেকে বঞ্চিত করছে। শিল্পের মান রক্ষায় তাই সুস্থ ধারার সংগীত চর্চায় ফিরে আসা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/entertainment/542398\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "জনপ্রিয় সংগীতশিল্পী কুমার শানু বলিউডের বর্তমান সংগীতজগতে আগের মতো সৃজনশীলতার স্বাধীনতা আর নেই বলে আক্ষেপ করেছেন। চার দশকের বেশি সময় ধরে সংগীতজগতে পথচলা এই শিল্প...",
-      "sourceUrl": "https://daily-bangladesh.com/entertainment/542398",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss186555095bb830",
-      "slug": "ইতালি-বিএনপি-আয়োজনে-মরহুম-সালাহউদ্দিন-আ",
-      "title": "ইতালি বিএনপি আয়োজনে মরহুম সালাহউদ্দিন আহমেদের স্মরণে দোয়া মাহফিল",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%B0%E0%A6%B9%E0%A7%81%E0%A6%AE-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86.webp",
-      "publishedAt": "2026-11-19T18:27:31.206Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>বৃহত্তর ঢাকা-৪ ও ৫ আসনের নির্বাচিত সাবেক সংসদ সদস্য, বিএনপির জাতীয় নির্বাহী কমিটির বাণিজ্য বিষয়ক সম্পাদক এবং অবিভক্ত ঢাকা মহানগর বিএনপির সাবেক সাধারণ সম্পাদক মরহুম আলহাজ্ব সালাহউদ্দিন আহমেদের বিদেহী আত্মার মাগফিরাত কামনায় দোয়া মাহফিল অনুষ্ঠিত হয়েছে। বিএনপি ইতালি শাখার উদ্যোগে আজ রোমের টিএমসি মস</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক বলয়ের ঊর্ধ্বে উঠে প্রয়াত ব্যক্তির স্মরণে দোয়া মাহফিলের আয়োজন মানবিক ও ধর্মীয় মূল্যবোধের প্রতিফলন। প্রবাসে এ ধরনের ধর্মীয় কর্মসূচি পারস্পরিক ভ্রাতৃত্ব ও সামাজিক বন্ধনকে সুদৃঢ় করে, যা আমাদের শেকড়ের প্রতি দায়বদ্ধতাকেই স্মরণ করিয়ে দেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/821977/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%B0%E0%A6%B9%E0%A7%81%E0%A6%AE-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "বৃহত্তর ঢাকা-৪ ও ৫ আসনের নির্বাচিত সাবেক সংসদ সদস্য, বিএনপির জাতীয় নির্বাহী কমিটির বাণিজ্য বিষয়ক সম্পাদক এবং অবিভক্ত ঢাকা মহানগর বিএনপির সাবেক সাধারণ সম্পাদক মরহুম আলহাজ্ব সালাহউদ্দিন আহমেদের বিদেহী আত্মার মাগফিরাত কামনায় দোয়া মাহফিল অনুষ্ঠিত হয়েছে। বিএনপি ইতালি শাখার উদ্যোগে আজ রোমের টিএমসি মস",
-      "sourceUrl": "https://www.ittefaq.com.bd/821977/%E0%A6%87%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%B0%E0%A6%B9%E0%A7%81%E0%A6%AE-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0",
-      "sourceName": "ইত্তেফাক"
-    },
-    {
-      "id": "rss2f62980759bb3c",
-      "slug": "আপনি-তো-আলেম-মানুষ-বেশি-না-দুই-টাকা-করে-খাব",
-      "title": "‘আপনি তো আলেম মানুষ, বেশি না দুই টাকা করে খাবেন’",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%B2%E0%A7%87%E0%A6%AE-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC.webp",
-      "publishedAt": "2026-11-19T18:27:31.201Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>ইসলামী বিশ্ববিদ্যালয়ের (ইবি) এক অনুষ্ঠানে নিজের কাছে ঘুষের প্রস্তাব আসার ঘটনা তুলে ধরেছেন কুষ্টিয়া-৩ আসনের সংসদ সদস্য মুফতি আমির হামজা। পাশাপাশি কুষ্টিয়া সদরে চাঁদাবাজি এবং রাষ্ট্রের বিভিন্ন খাতে দুর্নীতির চিত্রও তুলে ধরেন তিনি। বৃহস্পতিবার (১৯ নভেম্বর) ইসলামী বিশ্ববিদ্যালয়ে বাংলাদেশ ইসলামী ছাত্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধির মুখে দুর্নীতি ও চাঁদাবাজির এমন স্বীকারোক্তি স্থানীয় পর্যায়ে সুশাসনের চরম অভাব নির্দেশ করে। অপরাধ নির্মূলে স্থানীয়দের সরব হওয়া এবং প্রশাসনকে স্বচ্ছতা নিশ্চিত করতে বাধ্য করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/821974/%E2%80%98%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%B2%E0%A7%87%E0%A6%AE-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E2%80%99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "ইসলামী বিশ্ববিদ্যালয়ের (ইবি) এক অনুষ্ঠানে নিজের কাছে ঘুষের প্রস্তাব আসার ঘটনা তুলে ধরেছেন কুষ্টিয়া-৩ আসনের সংসদ সদস্য মুফতি আমির হামজা। পাশাপাশি কুষ্টিয়া সদরে চাঁদাবাজি এবং রাষ্ট্রের বিভিন্ন খাতে দুর্নীতির চিত্রও তুলে ধরেন তিনি। বৃহস্পতিবার (১৯ নভেম্বর) ইসলামী বিশ্ববিদ্যালয়ে বাংলাদেশ ইসলামী ছাত্",
-      "sourceUrl": "https://www.ittefaq.com.bd/821974/%E2%80%98%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%B2%E0%A7%87%E0%A6%AE-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E2%80%99",
-      "sourceName": "ইত্তেফাক"
     }
   ],
   "ads": [
