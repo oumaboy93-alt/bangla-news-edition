@@ -1,6 +1,6 @@
 {
-  "version": 1570,
-  "updatedAt": "2026-11-21T21:19:45.422Z",
+  "version": 1571,
+  "updatedAt": "2026-11-21T21:31:08.690Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rss425e50f2d21202",
+      "slug": "নড়াইলের-বেন্দারচর-গ্রামে-যা-দেখা-গেল",
+      "title": "নড়াইলের বেন্দারচর গ্রামে যা দেখা গেল",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A8%E0%A7%9C%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%9A%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE-%E0%A6%97%E0%A7%87%E0%A6%B2.avif",
+      "publishedAt": "2026-11-21T21:28:11.199Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>কালিয়া উপজেলা ফায়ার সার্ভিস স্টেশন কর্মকর্তা হুমায়ুন কবির সাংবাদিকদের বলেন, শুক্রবার বিকেল চারটার দিকে আগুন লাগে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/1yjc43zwk8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "কালিয়া উপজেলা ফায়ার সার্ভিস স্টেশন কর্মকর্তা হুমায়ুন কবির সাংবাদিকদের বলেন, শুক্রবার বিকেল চারটার দিকে আগুন লাগে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/district/1yjc43zwk8",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rsse53ee54a11debe",
       "slug": "মহাসড়কে-চলন্ত-বাসে-আগুন-অল্পের-জন্য-রক্ষ",
       "title": "মহাসড়কে চলন্ত বাসে আগুন, অল্পের জন্য রক্ষা পেলেন যাত্রীরা",
@@ -89,7 +105,7 @@
       "title": "আফগানদের হারিয়ে সেমিফাইনালে বাংলাদেশ",
       "category": "বিনোদন",
       "lead": false,
-      "image": "images/entertainment.jpg",
+      "image": "",
       "publishedAt": "2026-11-21T21:13:11.189Z",
       "tags": [
         "যুগান্তর"
@@ -388,6 +404,22 @@
       "sourceName": "প্রথম আলো"
     },
     {
+      "id": "rss7410bf68043344",
+      "slug": "জ্ঞানভিত্তিক-শোষণহীন-সমাজের-স্বপ্ন-ছিল-আ",
+      "title": "জ্ঞানভিত্তিক শোষণহীন সমাজের স্বপ্ন ছিল আহমদ রফিকের",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B6%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%B9%E0%A7%80%E0%A6%A8-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%86.avif",
+      "publishedAt": "2026-11-21T19:43:11.060Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>অনুষ্ঠানের শুরুতেই আহমদ রফিকের স্মৃতির প্রতি শ্রদ্ধা জানিয়ে এক মিনিট নীরবতা পালন করা হয়। ভাষাসংগ্রামী ও প্রাবন্ধিক আহমদ রফিক গত বছরের ২ অক্টোবর মৃত্যুবরণ করেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/iwuh9a1rlb\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "অনুষ্ঠানের শুরুতেই আহমদ রফিকের স্মৃতির প্রতি শ্রদ্ধা জানিয়ে এক মিনিট নীরবতা পালন করা হয়। ভাষাসংগ্রামী ও প্রাবন্ধিক আহমদ রফিক গত বছরের ২ অক্টোবর মৃত্যুবরণ করেন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/iwuh9a1rlb",
+      "sourceName": "প্রথম আলো"
+    },
+    {
       "id": "rss6e863bb1998e5a",
       "slug": "বেড়া-থানার-ওসি-নয়ন-প্রত্যাহার-এলাকার-পরি",
       "title": "বেড়া থানার ওসি নয়ন প্রত্যাহার, এলাকার পরিস্থিতি থমথমে",
@@ -529,6 +561,22 @@
       "body": "<p>সময়ের সঙ্গে এই প্রতিযোগিতা শুধু সৌন্দর্যের মঞ্চ হয়ে থাকেনি; নারীস্বাধীনতা, বর্ণবৈষম্য, শরীর নিয়ে বিদ্রূপ, ক্ষমতার দ্বন্দ্ব এবং বাণিজ্যিক স্বার্থের প্রশ্নও বারবার সামনে এসেছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/entertainment/world-cinema/f94tfdcmzh\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "সময়ের সঙ্গে এই প্রতিযোগিতা শুধু সৌন্দর্যের মঞ্চ হয়ে থাকেনি; নারীস্বাধীনতা, বর্ণবৈষম্য, শরীর নিয়ে বিদ্রূপ, ক্ষমতার দ্বন্দ্ব এবং বাণিজ্যিক স্বার্থের প্রশ্নও বারবার সামনে এসেছে।",
       "sourceUrl": "https://www.prothomalo.com/entertainment/world-cinema/f94tfdcmzh",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss5bee41b31b00b8",
+      "slug": "ক্ষমতাকেন্দ্রিক-সহিংস-রাজনীতি-মানুষকে-ব",
+      "title": "ক্ষমতাকেন্দ্রিক সহিংস রাজনীতি মানুষকে বিপর্যয়ের দিকে ঠেলে দিচ্ছে: সিপিবি",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%B9%E0%A6%BF%E0%A6%82%E0%A6%B8-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%95%E0%A7%87-%E0%A6%AC.avif",
+      "publishedAt": "2026-11-21T18:58:06.752Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>শনিবার দেওয়া এক বিবৃতিতে বাংলাদেশের কমিউনিস্ট পার্টি (সিপিবি) বলেছে, শাসক শ্রেণির ক্ষমতাকেন্দ্রিক সহিংস রাজনীতি মানুষকে বিপর্যয়ের দিকে ঠেলে দিচ্ছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/jgkns629bz\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "শনিবার দেওয়া এক বিবৃতিতে বাংলাদেশের কমিউনিস্ট পার্টি (সিপিবি) বলেছে, শাসক শ্রেণির ক্ষমতাকেন্দ্রিক সহিংস রাজনীতি মানুষকে বিপর্যয়ের দিকে ঠেলে দিচ্ছে।",
+      "sourceUrl": "https://www.prothomalo.com/politics/jgkns629bz",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -7970,54 +8018,6 @@
       "summary": "কঠোর নিরাপত্তার মধ্য দিয়ে পাবনার ঈশ্বরদী উপজেলার পাকশী ইউনিয়নে নির্মাণাধীন রূপপুর পারমাণবিক বিদ্যুৎকেন্দ্রের দ্বিতীয় ইউনিটের জন্য রাশিয়া থেকে নিয়ে আসা জ্বালানি ফ্রেশ নিউক্লিয়ার ফুয়েল বা ইউরেনিয়ামের সপ্তম চালান প্রকল্প এলাকায় এসে পৌঁছেছে। শুক্রবার (২০ নভেম্বর) সকাল...",
       "sourceUrl": "https://www.bd-journal.com/bangladesh/315938/রূপপুরে-পৌঁছাল-ইউরেনিয়ামের-সপ্তম-চালান",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss51e6b4c15ff7ae",
-      "slug": "চুয়াডাঙ্গায়-গ্রামীণ-ব্যাংক-লক্ষ্য-করে-৪",
-      "title": "চুয়াডাঙ্গায় গ্রামীণ ব্যাংক লক্ষ্য করে ৪ পেট্রোল বোমা নিক্ষেপ",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%9A%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%A1%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%A3-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A7%AA.jpg",
-      "publishedAt": "2026-11-20T03:57:31.912Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>চুয়াডাঙ্গায় গভীর রাতে গ্রামীণ ব্যাংকের একটি শাখা লক্ষ্য করে চারটি পেট্রোল বোমা নিক্ষেপ করেছে দুর্বৃত্তরা। বুধবার (১৮ নভেম্বর) দিবাগত রাত পৌনে ৩টার দিকে সদর উপজে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আর্থিক প্রতিষ্ঠানের ওপর এমন নাশকতা গ্রামীণ অর্থনীতির নিরাপত্তা ও বিনিয়োগকারীদের আস্থায় নেতিবাচক প্রভাব ফেলবে। এ ধরনের সহিংসতা ব্যাংকিং কার্যক্রম ব্যাহত করে সাধারণ ঋণগ্রহীতাদের সেবাপ্রাপ্তি ও স্থানীয় ব্যবসার স্বাভাবিক গতিকে বাধাগ্রস্ত করে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542410\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "চুয়াডাঙ্গায় গভীর রাতে গ্রামীণ ব্যাংকের একটি শাখা লক্ষ্য করে চারটি পেট্রোল বোমা নিক্ষেপ করেছে দুর্বৃত্তরা। বুধবার (১৮ নভেম্বর) দিবাগত রাত পৌনে ৩টার দিকে সদর উপজে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/542410",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssceaaa68fed6dd5",
-      "slug": "মিরসরাইয়ে-মহাসড়কে-গাছ-ফেলে-ব্যারিকেড-ও",
-      "title": "মিরসরাইয়ে মহাসড়কে গাছ ফেলে ব্যারিকেড, ওসি বললেন, ‘প্রাকৃতিক দুর্যোগ’",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%A1%E0%A6%BC%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%9B-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%A1-%E0%A6%93.webp",
-      "publishedAt": "2026-11-20T03:57:31.894Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>চট্টগ্রামের মিরসরাইয়ে ঢাকা-চট্টগ্রাম মহাসড়কে গাছ ফেলে ব্যারিকেড দেওয়ার ঘটনা ঘটেছে। বৃহস্পতিবার (১৯ নভেম্বর) ভোর ৫টার দিকে উপজেলার ১২ নম্বর খৈয়াছড়া ইউনিয়নের নিজতালুক কলঘর এলাকায় এ ঘটনা ঘটে। এতে চট্টগ্রামমুখী লেনে যান চলাচল ব্যাহত হয়ে প্রায় দেড় থেকে তিন কিলোমিটার যানজটের সৃষ্টি হয়। স্থানীয় সূত্রে জানা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মহাসড়কে এ ধরনের বাধা জননিরাপত্তার জন্য বড় হুমকি এবং যানজট নিরসনে দ্রুত প্রশাসনিক হস্তক্ষেপ জরুরি। স্থানীয়রা যে কোনো সন্দেহজনক গতিবিধি দেখলে প্রশাসনকে অবহিত করে সতর্ক থাকতে পারেন। যথাযথ তদন্তের মাধ্যমে ঘটনার প্রকৃত রহস্য উদঘাটন করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/982091/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%A1%E0%A6%BC%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%9B-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%A1-%E0%A6%93%E0%A6%B8%E0%A6%BF-%E0%A6%AC%E0%A6%B2%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "চট্টগ্রামের মিরসরাইয়ে ঢাকা-চট্টগ্রাম মহাসড়কে গাছ ফেলে ব্যারিকেড দেওয়ার ঘটনা ঘটেছে। বৃহস্পতিবার (১৯ নভেম্বর) ভোর ৫টার দিকে উপজেলার ১২ নম্বর খৈয়াছড়া ইউনিয়নের নিজতালুক কলঘর এলাকায় এ ঘটনা ঘটে। এতে চট্টগ্রামমুখী লেনে যান চলাচল ব্যাহত হয়ে প্রায় দেড় থেকে তিন কিলোমিটার যানজটের সৃষ্টি হয়। স্থানীয় সূত্রে জানা",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/982091/%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%A1%E0%A6%BC%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%9B-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%A1-%E0%A6%93%E0%A6%B8%E0%A6%BF-%E0%A6%AC%E0%A6%B2%E0%A6%B2%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss71105ec64638e1",
-      "slug": "সাইবার-নিরাপত্তা-প্রধানকে-বরখাস্ত-করলেন",
-      "title": "সাইবার নিরাপত্তা প্রধানকে বরখাস্ত করলেন ট্রাম্প",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8.webp",
-      "publishedAt": "2026-11-20T03:57:31.886Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>যুক্তরাষ্ট্রের সাইবার নিরাপত্তা প্রধান শন কেয়ার্নক্রসকে বরখাস্ত করেছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। সম্প্রতি দেশটিতে বড় ধরনের প্রযুক্তিগত বিপর্যয় এবং কৃত্রিম বুদ্ধিমত্তা (এআই) থেকে সৃষ্ট হুমকি নিয়ে উদ্বেগ বাড়ার মধ্যে এ সিদ্ধান্ত নেওয়া হলো। বৃহস্পতিবার ফরাসি বার্তা সংস্থা এএফপিকে হোয়াইট হাউসের ঘনিষ্ঠ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সাইবার নিরাপত্তা খাতের শীর্ষপদে এমন আকস্মিক রদবদল ডিজিটাল অবকাঠামোর স্থিতিশীলতাকে অনিশ্চয়তার মুখে ঠেলে দিতে পারে। কৃত্রিম বুদ্ধিমত্তার ক্রমবর্ধমান ঝুঁকির এই সময়ে নীতিনির্ধারণী পর্যায়ের এই অস্থিরতা সাধারণ ব্যবহারকারীদের ব্যক্তিগত তথ্যের সুরক্ষাকে দীর্ঘমেয়াদী সংকটে ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/usa/982092/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "যুক্তরাষ্ট্রের সাইবার নিরাপত্তা প্রধান শন কেয়ার্নক্রসকে বরখাস্ত করেছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। সম্প্রতি দেশটিতে বড় ধরনের প্রযুক্তিগত বিপর্যয় এবং কৃত্রিম বুদ্ধিমত্তা (এআই) থেকে সৃষ্ট হুমকি নিয়ে উদ্বেগ বাড়ার মধ্যে এ সিদ্ধান্ত নেওয়া হলো। বৃহস্পতিবার ফরাসি বার্তা সংস্থা এএফপিকে হোয়াইট হাউসের ঘনিষ্ঠ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/usa/982092/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
