@@ -1,6 +1,6 @@
 {
-  "version": 1471,
-  "updatedAt": "2026-11-21T01:04:55.752Z",
+  "version": 1472,
+  "updatedAt": "2026-11-21T01:16:02.616Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,54 @@
       "sourceName": ""
     },
     {
+      "id": "rssbce3802ba14872",
+      "slug": "অর্থনীতির-অগ্রযাত্রা-বাধাগ্রস্ত-করতে-তৎ",
+      "title": "অর্থনীতির অগ্রযাত্রা বাধাগ্রস্ত করতে তৎপর দুর্বৃত্তরা: অর্থমন্ত্রী",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%A4%E0%A7%8E.webp",
+      "publishedAt": "2026-11-21T01:12:40.985Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>দেশের অর্থনৈতিক অগ্রযাত্রা বাধাগ্রস্ত করতে একটি স্বার্থানেষী মহল তত্পর রয়েছে বলে মন্তব্য করেছেন অর্থ ও পরিকল্পনামন্ত্রী আমির খসরু মাহমুদ চৌধুরী। তিনি বলেন, দেশের উন্নয়ন ও অর্থনৈতিক অগ্রগতি কোনো একক পক্ষের দায়িত্ব নয়। সরকার, রাজনীতিবিদ, ব্যবসায়ীসহ সমাজের সব শ্রেণি-পেশার মানুষকে নিজ নিজ অবস্থান থেকে ঐক্যবদ্ধভাবে এ অপতত্পরতা প্রতিহত করতে হবে। কারণ অর্থনৈতিক অগ্রগতি সরকারের একার স্বার্থ নয়, এটি... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/822144/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%C2%A0%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "দেশের অর্থনৈতিক অগ্রযাত্রা বাধাগ্রস্ত করতে একটি স্বার্থানেষী মহল তত্পর রয়েছে বলে মন্তব্য করেছেন অর্থ ও পরিকল্পনামন্ত্রী আমির খসরু মাহমুদ চৌধুরী। তিনি বলেন, দেশের উন্নয়ন ও অর্থনৈতিক অগ্রগতি কোনো একক পক্ষের দায়িত্ব নয়। সরকার, রাজনীতিবিদ, ব্যবসায়ীসহ সমাজের সব শ্রেণি-পেশার মানুষকে নিজ নিজ অবস্থান থেকে ঐ",
+      "sourceUrl": "https://www.ittefaq.com.bd/822144/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE%C2%A0%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rssef458b5410a32e",
+      "slug": "বৃষ্টি-আর-কতদিন-কমলেই-শীত",
+      "title": "বৃষ্টি আর কতদিন, কমলেই শীত",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/national.jpg",
+      "publishedAt": "2026-11-21T01:12:40.983Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yV3V6a1hxR21pR2hlWVgybHVMYWQ0dXFPaXpwQkI5Y1dZZzlJSk1kUE5xaWRSRHJKU0VhN0lnNlJLYjc3V19zU2tmZndJZzFEZF84?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বৃষ্টি আর কতদিন, কমলেই শীত&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yV3V6a1hxR21pR2hlWVgybHVMYWQ0dXFPaXpwQkI5Y1dZZzlJSk1kUE5xaWRSRHJKU0VhN0lnNlJLYjc3V19zU2tmZndJZzFEZF84?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yV3V6a1hxR21pR2hlWVgybHVMYWQ0dXFPaXpwQkI5Y1dZZzlJSk1kUE5xaWRSRHJKU0VhN0lnNlJLYjc3V19zU2tmZndJZzFEZF84?oc=5\" target=\"_blank\"&gt;বৃষ্টি আর কতদিন, কমলেই শীত&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yV3V6a1hxR21pR2hlWVgybHVMYWQ0dXFPaXpwQkI5Y1dZZzlJSk1kUE5xaWRSRHJKU0VhN0lnNlJLYjc3V19zU2tmZndJZzFEZF84?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
+      "id": "rss2c5baea3d03adc",
+      "slug": "সিনেমা-গেমের-সব-রেকর্ড-ভাঙার-পথে-জিটিএ-৬",
+      "title": "সিনেমা-গেমের সব রেকর্ড ভাঙার পথে জিটিএ ৬",
+      "category": "বিনোদন",
+      "lead": false,
+      "image": "images/entertainment.jpg",
+      "publishedAt": "2026-11-21T01:12:40.975Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfclVzeHMzRkhsbnNISlRtNEp4dHAtU1N0ZERrby0tN1N6U3VzbnBrUTlsZ2h3M0p3emZkUVpHRjZ4YTFTbm93d080V2VPYUpyQlE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সিনেমা-গেমের সব রেকর্ড ভাঙার পথে জিটিএ ৬&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfclVzeHMzRkhsbnNISlRtNEp4dHAtU1N0ZERrby0tN1N6U3VzbnBrUTlsZ2h3M0p3emZkUVpHRjZ4YTFTbm93d080V2VPYUpyQlE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfclVzeHMzRkhsbnNISlRtNEp4dHAtU1N0ZERrby0tN1N6U3VzbnBrUTlsZ2h3M0p3emZkUVpHRjZ4YTFTbm93d080V2VPYUpyQlE?oc=5\" target=\"_blank\"&gt;সিনেমা-গেমের সব রেকর্ড ভাঙার পথে জিটিএ ৬&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfclVzeHMzRkhsbnNISlRtNEp4dHAtU1N0ZERrby0tN1N6U3VzbnBrUTlsZ2h3M0p3emZkUVpHRjZ4YTFTbm93d080V2VPYUpyQlE?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
       "id": "rssc076f47731a0b3",
       "slug": "কোথায়-গিয়ে-দাঁড়াবে-দেশের-পোশাক-খাত",
       "title": "কোথায় গিয়ে দাঁড়াবে দেশের পোশাক খাত",
@@ -73,7 +121,7 @@
       "title": "সাদা বলের সিরিজে বিশ্রামে বাভুমা ও রাবাদা",
       "category": "খেলা",
       "lead": false,
-      "image": "images/sports.jpg",
+      "image": "/img/rss4ea4456a43f1ef-1200x630.jpg",
       "publishedAt": "2026-11-21T00:27:34.144Z",
       "tags": [
         "যুগান্তর"
@@ -121,7 +169,7 @@
       "title": "দিনমজুরের তিন মাসের বিদ্যুৎ বিল ৫০ হাজার টাকা",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/economy.jpg",
+      "image": "/img/rss353fa7782e700c-1200x630.jpg",
       "publishedAt": "2026-11-21T00:12:34.158Z",
       "tags": [
         "যুগান্তর"
@@ -1193,7 +1241,7 @@
       "title": "অকৃতকার্যের উচ্চহার: কারণ ও শিক্ষায় কয়েকটি সুপারিশ",
       "category": "শিক্ষা",
       "lead": false,
-      "image": "images/technology.jpg",
+      "image": "/img/rssc8c4647996c806-1200x630.jpg",
       "publishedAt": "2026-11-20T18:42:32.555Z",
       "tags": [
         "যুগান্তর"
@@ -1289,7 +1337,7 @@
       "title": "পরিবার ও দল, দুটোই ধ্বংস করেছে শেখ হাসিনা: পররাষ্ট্র প্রতিমন্ত্রী",
       "category": "রাজনীতি",
       "lead": false,
-      "image": "images/politics.jpg",
+      "image": "/img/rsse6ad9a010fd046-1200x630.jpg",
       "publishedAt": "2026-11-20T18:27:33.503Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -7969,54 +8017,6 @@
       "body": "<p>মানুষের জীবনে এমন কিছু আমল রয়েছে, যেগুলো উচ্চারণে অত্যন্ত সহজ, অথচ আল্লাহর কাছে তার মর্যাদা ও প্রতিদান অপরিসীম। সামান্য কয়েকটি শব্দের মাধ্যমে একজন মুমিন আল্লাহর...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আল্লাহর স্মরণ ও সহজ জিকির মুমিনের জীবনে আত্মিক প্রশান্তি ও নৈতিক দৃঢ়তা অর্জনে গুরুত্বপূর্ণ ভূমিকা রাখে। এমন আমল চর্চার মাধ্যমে ধর্মীয় অনুশাসনকে দৈনন্দিন জীবনের অবিচ্ছেদ্য অংশে পরিণত করা সামাজিক শৃঙ্খলার জন্য ইতিবাচক।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/religion/542326\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "মানুষের জীবনে এমন কিছু আমল রয়েছে, যেগুলো উচ্চারণে অত্যন্ত সহজ, অথচ আল্লাহর কাছে তার মর্যাদা ও প্রতিদান অপরিসীম। সামান্য কয়েকটি শব্দের মাধ্যমে একজন মুমিন আল্লাহর...",
       "sourceUrl": "https://daily-bangladesh.com/religion/542326",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsse82027d922a673",
-      "slug": "নিষিদ্ধ-আওয়ামী-লীগের-লকডাউনে-অচল-গোপালগঞ",
-      "title": "নিষিদ্ধ আওয়ামী লীগের লকডাউনে অচল গোপালগঞ্জ,থানা ও এমপির বাড়িতে আগুন",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%BF%E0%A6%B7%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%86%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%95%E0%A6%A1%E0%A6%BE%E0%A6%89%E0%A6%A8%E0%A7%87-%E0%A6%85%E0%A6%9A%E0%A6%B2-%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%97%E0%A6%9E.jpg",
-      "publishedAt": "2026-11-19T07:42:18.152Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>আট দফা দাবিতে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের ডাকা লকডাউন কর্মসূচিকে কেন্দ্র করে সহিংসতায় উত্তপ্ত হয়ে উঠেছে গোপালগঞ্জ। জেলার মুকসুদপুর থানায় এবং গোপালগঞ্জ-১ আসনে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতার এমন নজিরবিহীন সহিংসতা স্থানীয় জনজীবনকে চরম নিরাপত্তাহীনতায় ঠেলে দিয়েছে। সাধারণ মানুষকে অহেতুক সংঘাত এড়িয়ে সতর্ক থাকতে হবে এবং যেকোনো প্ররোচনা থেকে নিজেদের দূরে সরিয়ে আইনশৃঙ্খলা পরিস্থিতির স্বাভাবিকতায় সহযোগিতা করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542317\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "আট দফা দাবিতে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের ডাকা লকডাউন কর্মসূচিকে কেন্দ্র করে সহিংসতায় উত্তপ্ত হয়ে উঠেছে গোপালগঞ্জ। জেলার মুকসুদপুর থানায় এবং গোপালগঞ্জ-১ আসনে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/542317",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssf6edfd8420812f",
-      "slug": "থাইল্যান্ডের-পর্যাপ্ততার-অর্থনীতি-দর্শ",
-      "title": "থাইল্যান্ডের পর্যাপ্ততার অর্থনীতি দর্শন",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%A5%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6.jpg",
-      "publishedAt": "2026-11-19T07:42:18.140Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>থাইল্যান্ডের সাফিশিয়েন্সি ইকোনমি দর্শন (Sufficiency Economy Philosophy বা পর্যাপ্ত অর্থনীতি) হলো প্রয়াত রাজা ভূমিবল আদুলিয়াদেজ প্রবর্তিত একটি উন্নয়ন কাঠামো,...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পরিমিতিবোধ ও টেকসই উন্নয়নের এই দর্শন বিশ্ববাজারে অস্থিরতা মোকাবিলায় একটি কার্যকর বিকল্প হতে পারে। সম্পদের সুষম ব্যবহার ও আত্মনির্ভরশীলতা নিশ্চিত করতে পারলে তা অভ্যন্তরীণ বাজারের ভারসাম্য রক্ষা এবং সাধারণ ভোক্তার জীবনযাত্রার মান উন্নয়নে সহায়ক হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/career/542321\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "থাইল্যান্ডের সাফিশিয়েন্সি ইকোনমি দর্শন (Sufficiency Economy Philosophy বা পর্যাপ্ত অর্থনীতি) হলো প্রয়াত রাজা ভূমিবল আদুলিয়াদেজ প্রবর্তিত একটি উন্নয়ন কাঠামো,...",
-      "sourceUrl": "https://www.daily-bangladesh.com/career/542321",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssbc72b0a3484290",
-      "slug": "১৯-নভেম্বরের-মুদ্রা-বিনিময়-হার-জেনে-নিন",
-      "title": "১৯ নভেম্বরের মুদ্রা বিনিময় হার জেনে নিন",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A7%A7%E0%A7%AF-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%9F-%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A8.jpg",
-      "publishedAt": "2026-11-19T07:42:18.138Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দেশের বৈদেশিক মুদ্রাবাজারে আবারও ডলারের দাম বাড়তে শুরু করেছে। ব্যাংকিং চ্যানেলের তুলনায় খোলাবাজারে বেশি দামে বিক্রি হচ্ছে মার্কিন মুদ্রাটি। বর্তমানে খোলাবাজারে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ডলারের এই ঊর্ধ্বমুখী প্রবণতা আমদানিনির্ভর ব্যবসার খরচ বাড়িয়ে দেশের মুদ্রাস্ফীতিকে আরও উসকে দিচ্ছে। ব্যাংকিং ও খোলাবাজারের বিনিময় হারের ব্যবধান অনানুষ্ঠানিক লেনদেন বাড়িয়ে অর্থনীতিতে অস্থিরতা সৃষ্টি করছে, যা সাধারণ ভোক্তার ক্রয়ক্ষমতা সংকুচিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/economy/542322\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "দেশের বৈদেশিক মুদ্রাবাজারে আবারও ডলারের দাম বাড়তে শুরু করেছে। ব্যাংকিং চ্যানেলের তুলনায় খোলাবাজারে বেশি দামে বিক্রি হচ্ছে মার্কিন মুদ্রাটি। বর্তমানে খোলাবাজারে...",
-      "sourceUrl": "https://www.daily-bangladesh.com/economy/542322",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
