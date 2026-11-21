@@ -1,6 +1,6 @@
 {
-  "version": 1466,
-  "updatedAt": "2026-11-21T00:08:43.977Z",
+  "version": 1467,
+  "updatedAt": "2026-11-21T00:19:52.797Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rssbed13ec3ffb37f",
+      "slug": "টিভিতে-আজকের-খেলা-২১-নভেম্বর-২০২৬",
+      "title": "টিভিতে আজকের খেলা (২১ নভেম্বর, ২০২৬)",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A7%A7-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC.webp",
+      "publishedAt": "2026-11-21T00:12:34.198Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&amp;mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ক্রিকেটএশিয়া কাপ রাইজিং স্টার্সবাংলাদেশ এ- আফগানিস্তান এসরাসরি, বিকাল ৪টা, টি স্পোর্টস ফুটবললা লিগাসেভিয়া-রিয়াল বেতিসসরাসরি, রাত ১২-৩০ মিনিট, টি স্পোর্টস রিয়াল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/other-sports/982263/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A7%A7-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা যাবে&mdash;চলুন জেনে নেওয়া যাক আজকের টিভিতে খেলার সূচি। ক্রিকেটএশিয়া কাপ রাইজিং স্টার্সবাংলাদেশ এ- আফগানিস্তান এসরাসরি, বিকাল ৪টা, টি স্পোর্টস ফুটবললা লিগাসেভি",
+      "sourceUrl": "https://www.banglatribune.com/sport/other-sports/982263/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A7%A7-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss8ba362c042aba6",
+      "slug": "জুলাইয়ের-পক্ষের-দলগুলোর-মধ্যে-দ্রুত-সংলা",
+      "title": "জুলাইয়ের পক্ষের দলগুলোর মধ্যে দ্রুত সংলাপের তাগিদ",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A4-%E0%A6%B8%E0%A6%82%E0%A6%B2%E0%A6%BE.webp",
+      "publishedAt": "2026-11-21T00:12:34.170Z",
+      "tags": [
+        "ইত্তেফাক"
+      ],
+      "body": "<p>কার্যক্রম নিষিদ্ধ আওয়ামী লীগের কর্মসূচি ও নাশকতা রাজনৈতিকভাবে মোকাবিলায় জুলাই গণঅভ্যুত্থানের পক্ষের রাজনৈতিক-অরাজনৈতিক শক্তিগুলোর মধ্যে দ্রুত সংলাপ আয়োজনের জন্য সরকারকে তাগিদ দিয়েছে বিরোধী দল-জোটগুলো। প্রধানমন্ত্রী তারেক রহমানের ঐক্যের ডাকে সাড়া দিয়ে তারা এই তাগিদ দিয়েছেন। সংলাপের বিষয়ে ক্ষমতাসীন বিএনপি আগ্রহী হলেও এর দিনক্ষণ নিয়ে এখনো কোনো সিদ্ধান্ত হয়নি। তবে, চলতি মাসের শেষদিকে এই সংলাপ হওয়ার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/822141/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0%C2%A0%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A4-%E0%A6%B8%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%A6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "summary": "কার্যক্রম নিষিদ্ধ আওয়ামী লীগের কর্মসূচি ও নাশকতা রাজনৈতিকভাবে মোকাবিলায় জুলাই গণঅভ্যুত্থানের পক্ষের রাজনৈতিক-অরাজনৈতিক শক্তিগুলোর মধ্যে দ্রুত সংলাপ আয়োজনের জন্য সরকারকে তাগিদ দিয়েছে বিরোধী দল-জোটগুলো। প্রধানমন্ত্রী তারেক রহমানের ঐক্যের ডাকে সাড়া দিয়ে তারা এই তাগিদ দিয়েছেন। সংলাপের বিষয়ে ক্ষমতাসীন বি",
+      "sourceUrl": "https://www.ittefaq.com.bd/822141/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%B2%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B%E0%A6%B0%C2%A0%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A7%81%E0%A6%A4-%E0%A6%B8%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%BF%E0%A6%A6",
+      "sourceName": "ইত্তেফাক"
+    },
+    {
+      "id": "rss353fa7782e700c",
+      "slug": "দিনমজুরের-তিন-মাসের-বিদ্যুৎ-বিল-৫০-হাজার",
+      "title": "দিনমজুরের তিন মাসের বিদ্যুৎ বিল ৫০ হাজার টাকা",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "images/economy.jpg",
+      "publishedAt": "2026-11-21T00:12:34.158Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ibkdKTUlIQ2ZmRksxLWd0YTIxSXpoYXBzZXQwdEVwbjFyQ2RwS1U2aXotTTZLU1RiTVFERlNSajM3bFR6NVg2TDRFWkMtei1vX0lzZ1hvSkJIVkE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;দিনমজুরের তিন মাসের বিদ্যুৎ বিল ৫০ হাজার টাকা&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ibkdKTUlIQ2ZmRksxLWd0YTIxSXpoYXBzZXQwdEVwbjFyQ2RwS1U2aXotTTZLU1RiTVFERlNSajM3bFR6NVg2TDRFWkMtei1vX0lzZ1hvSkJIVkE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ibkdKTUlIQ2ZmRksxLWd0YTIxSXpoYXBzZXQwdEVwbjFyQ2RwS1U2aXotTTZLU1RiTVFERlNSajM3bFR6NVg2TDRFWkMtei1vX0lzZ1hvSkJIVkE?oc=5\" target=\"_blank\"&gt;দিনমজুরের তিন মাসের বিদ্যুৎ বিল ৫০ হাজার টাকা&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jug",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ibkdKTUlIQ2ZmRksxLWd0YTIxSXpoYXBzZXQwdEVwbjFyQ2RwS1U2aXotTTZLU1RiTVFERlNSajM3bFR6NVg2TDRFWkMtei1vX0lzZ1hvSkJIVkE?oc=5",
+      "sourceName": "যুগান্তর"
     },
     {
       "id": "rss76394f2c1a8f5b",
@@ -7969,54 +8017,6 @@
       "body": "<p>বঙ্গোপসাগরে সৃষ্ট ঘূর্ণিঝড় আকভানের প্রভাবে দেশের প্রায় ৯০ থেকে ৯৫ শতাংশ এলাকায় বৃষ্টির সম্ভাবনা রয়েছে। আগামী পাঁচ দিন পর্যায়ক্রমে দেশের বিভিন্ন অঞ্চলে এ বৃষ্টি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দীর্ঘমেয়াদী এই বৃষ্টিপাত সাধারণ মানুষের কর্মজীবন ও যাতায়াত ব্যবস্থায় বড় ধরনের বিঘ্ন ঘটাবে। বিশেষ করে নিম্ন আয়ের শ্রমজীবী মানুষের জীবনযাত্রা ও নিত্যপণ্যের বাজারমূল্য স্থিতিশীল রাখা এখন বড় চ্যালেঞ্জ। দুর্যোগ মোকাবিলায় সতর্কতামূলক প্রস্তুতিই এখন নাগরিক ভোগান্তি কমানোর একমাত্র উপায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/542310\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "বঙ্গোপসাগরে সৃষ্ট ঘূর্ণিঝড় আকভানের প্রভাবে দেশের প্রায় ৯০ থেকে ৯৫ শতাংশ এলাকায় বৃষ্টির সম্ভাবনা রয়েছে। আগামী পাঁচ দিন পর্যায়ক্রমে দেশের বিভিন্ন অঞ্চলে এ বৃষ্টি...",
       "sourceUrl": "https://www.daily-bangladesh.com/national/542310",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssac2c35a0136b6c",
-      "slug": "আখাউড়ায়-রেললাইনের-সিগন্যালের-জেবি-বক্সে",
-      "title": "আখাউড়ায় রেললাইনের সিগন্যালের জেবি বক্সে আগুন",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%96%E0%A6%BE%E0%A6%89%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BF%E0%A6%97%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A7%87%E0%A6%AC%E0%A6%BF-%E0%A6%AC%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87.jpg",
-      "publishedAt": "2026-11-19T06:42:18.273Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ব্রাহ্মণবাড়িয়ার আখাউড়ায় রেললাইনের সিগন্যাল ব্যবস্থার একটি জেবি বক্সে আগুন দেওয়ার ঘটনা ঘটেছে। বুধবার দিবাগত রাত পৌনে ২টার দিকে আখাউড়া রেলওয়ে থানাধীন দুবলা এলাকায়...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রেলপথের মতো সংবেদনশীল স্থাপনায় এমন নাশকতামূলক কর্মকাণ্ড স্থানীয় জননিরাপত্তাকে চরম ঝুঁকিতে ফেলেছে। জরুরি ভিত্তিতে নিরাপত্তা জোরদার করার পাশাপাশি এই ধরনের অপতৎপরতা রুখতে এলাকাবাসীকে স্থানীয় প্রশাসনের সাথে সমন্বিতভাবে সচেতন থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542305\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ব্রাহ্মণবাড়িয়ার আখাউড়ায় রেললাইনের সিগন্যাল ব্যবস্থার একটি জেবি বক্সে আগুন দেওয়ার ঘটনা ঘটেছে। বুধবার দিবাগত রাত পৌনে ২টার দিকে আখাউড়া রেলওয়ে থানাধীন দুবলা এলাকায়...",
-      "sourceUrl": "https://daily-bangladesh.com/country/542305",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss43a59fa0ed5894",
-      "slug": "সিরাজগঞ্জে-তৈরি-হচ্ছে-সুস্বাদু-খেজুর-গুড়",
-      "title": "সিরাজগঞ্জে তৈরি হচ্ছে সুস্বাদু খেজুর গুড়",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A7%81%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A7%81-%E0%A6%96%E0%A7%87%E0%A6%9C%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A7%9C.jpg",
-      "publishedAt": "2026-11-19T06:42:18.271Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>তখনো সূর্য ওঠেনি। গাছিরা রস সংগ্রহ করে মাটির চুলায় জ্বাল দিচ্ছেন। ধীরে ধীরে রসের রং লালচে হতে শুরু করে ও ঘন হয়ে যায়। এভাবে কোনো প্রকার কেমিক্যাল ছাড়া খেজুর গুড়...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভেজালমুক্ত খেজুর গুড়ের উৎপাদন স্থানীয় অর্থনীতিতে নতুন সম্ভাবনা তৈরির পাশাপাশি সাধারণ মানুষের স্বাস্থ্যকর খাদ্যপ্রাপ্তি নিশ্চিত করছে। গ্রামীণ এই ঐতিহ্যবাহী শিল্পের প্রসার ঘটাতে পারলে ক্রেতারা যেমন খাঁটি পণ্য পাবেন, তেমনি কর্মসংস্থানও বৃদ্ধি পাবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542307\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "তখনো সূর্য ওঠেনি। গাছিরা রস সংগ্রহ করে মাটির চুলায় জ্বাল দিচ্ছেন। ধীরে ধীরে রসের রং লালচে হতে শুরু করে ও ঘন হয়ে যায়। এভাবে কোনো প্রকার কেমিক্যাল ছাড়া খেজুর গুড়...",
-      "sourceUrl": "https://daily-bangladesh.com/country/542307",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss93808057e04c43",
-      "slug": "নওগাঁ-বিসিক-শিল্পনগরীতে-বন্ধ-ও-রুগ্ন-কার",
-      "title": "নওগাঁ বিসিক শিল্পনগরীতে বন্ধ ও রুগ্ন কারখানা চালুর উদ্যোগ",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%93%E0%A6%97%E0%A6%BE%E0%A6%81-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%95-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%A8%E0%A6%97%E0%A6%B0%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%93-%E0%A6%B0%E0%A7%81%E0%A6%97%E0%A7%8D%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%B0.jpg",
-      "publishedAt": "2026-11-19T06:42:18.269Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>নওগাঁ বিসিক শিল্পনগরীতে বন্ধ ও রুগ্ন শিল্পকারখানা পুনরায় চালু এবং সচল শিল্পপ্রতিষ্ঠানগুলোর বিভিন্ন সমস্যা চিহ্নিত করে সমাধানের উদ্যোগ নেওয়া হয়েছে। এ লক্ষ্যে গঠি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বন্ধ ও রুগ্ন কারখানাগুলো সচল হলে স্থানীয় পর্যায়ে কর্মসংস্থানের সুযোগ বাড়বে এবং অর্থনৈতিক গতিশীলতা ফিরবে। শিল্পনগরীর উৎপাদনশীলতা বাড়লে পণ্যমূল্য স্থিতিশীল রাখতে তা সাধারণ মানুষের ক্রয়ক্ষমতার ওপর ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542308\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "নওগাঁ বিসিক শিল্পনগরীতে বন্ধ ও রুগ্ন শিল্পকারখানা পুনরায় চালু এবং সচল শিল্পপ্রতিষ্ঠানগুলোর বিভিন্ন সমস্যা চিহ্নিত করে সমাধানের উদ্যোগ নেওয়া হয়েছে। এ লক্ষ্যে গঠি...",
-      "sourceUrl": "https://daily-bangladesh.com/country/542308",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
