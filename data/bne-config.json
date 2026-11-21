@@ -1,6 +1,6 @@
 {
-  "version": 1476,
-  "updatedAt": "2026-11-21T02:01:32.900Z",
+  "version": 1477,
+  "updatedAt": "2026-11-21T02:12:41.459Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -57,7 +57,7 @@
       "title": "একুশে নভেম্বর সশস্ত্র বাহিনীর ইতিহাসে অবিস্মরণীয় অধ্যায়: প্রধানমন্ত্রী",
       "category": "খেলা",
       "lead": false,
-      "image": "",
+      "image": "/img/rssb71d23e0df4fc8-1200x630.jpg",
       "publishedAt": "2026-11-21T01:57:41.171Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -73,7 +73,7 @@
       "title": "ঢাকাসহ ১২ জেলায় দুপুরের মধ্যে ঝড়বৃষ্টির আভাস",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "",
+      "image": "/img/rssa6ef0b9df384a1-1200x630.jpg",
       "publishedAt": "2026-11-21T01:57:41.136Z",
       "tags": [
         "যুগান্তর"
@@ -217,7 +217,7 @@
       "title": "বৃষ্টি আর কতদিন, কমলেই শীত",
       "category": "জাতীয়",
       "lead": false,
-      "image": "",
+      "image": "/img/rssef458b5410a32e-1200x630.jpg",
       "publishedAt": "2026-11-21T01:12:40.983Z",
       "tags": [
         "যুগান্তর"
@@ -233,7 +233,7 @@
       "title": "সিনেমা-গেমের সব রেকর্ড ভাঙার পথে জিটিএ ৬",
       "category": "বিনোদন",
       "lead": false,
-      "image": "",
+      "image": "/img/rss2c5baea3d03adc-1200x630.jpg",
       "publishedAt": "2026-11-21T01:12:40.975Z",
       "tags": [
         "যুগান্তর"
