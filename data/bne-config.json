@@ -1,6 +1,6 @@
 {
-  "version": 1465,
-  "updatedAt": "2026-11-20T23:57:31.706Z",
+  "version": 1466,
+  "updatedAt": "2026-11-21T00:08:43.977Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -52,6 +52,22 @@
       "sourceName": ""
     },
     {
+      "id": "rss76394f2c1a8f5b",
+      "slug": "মিয়ানমারের-গণহত্যার-রায়-টার্নিং-পয়েন",
+      "title": "মিয়ানমারের গণহত্যার রায় ‘টার্নিং পয়েন্ট’: ভলকার তুর্ক",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/rss76394f2c1a8f5b-1200x630.jpg",
+      "publishedAt": "2026-11-20T23:57:34.132Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiUkFVX3lxTE05aklDZUpUUzhOalM4dFNsdkxZd3RaVG9GUTVTX3hQcDRMTmowemFfUnN4Z2d6VTZqb01fa0lvckhpdmVadjE1RWVzR2hoU0tWckE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মিয়ানমারের গণহত্যার রায় ‘টার্নিং পয়েন্ট’: ভলকার তুর্ক&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE05aklDZUpUUzhOalM4dFNsdkxZd3RaVG9GUTVTX3hQcDRMTmowemFfUnN4Z2d6VTZqb01fa0lvckhpdmVadjE1RWVzR2hoU0tWckE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE05aklDZUpUUzhOalM4dFNsdkxZd3RaVG9GUTVTX3hQcDRMTmowemFfUnN4Z2d6VTZqb01fa0lvckhpdmVadjE1RWVzR2hoU0tWckE?oc=5\" target=\"_blank\"&gt;মিয়ানমারের গণহত্যার রায় ‘টার্নিং পয়েন্ট’: ভলকার তুর্ক&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Juga",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05aklDZUpUUzhOalM4dFNsdkxZd3RaVG9GUTVTX3hQcDRMTmowemFfUnN4Z2d6VTZqb01fa0lvckhpdmVadjE1RWVzR2hoU0tWckE?oc=5",
+      "sourceName": "যুগান্তর"
+    },
+    {
       "id": "rss1fbdccd811e34a",
       "slug": "লালমাটিয়ায়-গোয়েন্দা-সংস্থার-সদস্য-পরিচয়",
       "title": "লালমাটিয়ায় গোয়েন্দা সংস্থার সদস্য পরিচয়ে টাকা দাবি, যুবক আটক",
@@ -89,7 +105,7 @@
       "title": "মিস ইউনিভার্সে মাহির দিনগুলো",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss653358be6bedee-1200x630.jpg",
       "publishedAt": "2026-11-20T23:27:32.888Z",
       "tags": [
         "বিডিনিউজ২৪"
@@ -169,7 +185,7 @@
       "title": "সকাল ৯টার মধ্যে ১২ জেলায় ঝড়ের শঙ্কা",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss88a16bc8503ffd-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.804Z",
       "tags": [
         "যুগান্তর"
@@ -185,7 +201,7 @@
       "title": "ওটিটিতে যা দেখবেন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss1b57ff32013dbc-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.396Z",
       "tags": [
         "যুগান্তর"
@@ -201,7 +217,7 @@
       "title": "ঘূর্ণিঝড়ের প্রভাবে কতদিন ঝরবে বৃষ্টি?",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss31abe294bcc864-1200x630.jpg",
       "publishedAt": "2026-11-20T22:57:33.387Z",
       "tags": [
         "যুগান্তর"
@@ -697,7 +713,7 @@
       "title": "রায় ঐতিহাসিক প্রভাব সুদূরপ্রসারী",
       "category": "জাতীয়",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rssa38cd99fe1a54e-1200x630.jpg",
       "publishedAt": "2026-11-20T20:27:32.648Z",
       "tags": [
         "যুগান্তর"
@@ -769,6 +785,22 @@
       "body": "<p>‘মৈমনসিংহ গীতিকা’র মহুয়া, মলুয়া আর গ্রামীণ প্রকৃতি ফুটে উঠেছে ৭৪টি কাজে। অ্যাক্রিলিক, জলরং ও মিশ্রমাধ্যমের এ আয়োজন খোলা থাকবে ২৫ নভেম্বর পর্যন্ত।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/163xjj2eqq\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "‘মৈমনসিংহ গীতিকা’র মহুয়া, মলুয়া আর গ্রামীণ প্রকৃতি ফুটে উঠেছে ৭৪টি কাজে। অ্যাক্রিলিক, জলরং ও মিশ্রমাধ্যমের এ আয়োজন খোলা থাকবে ২৫ নভেম্বর পর্যন্ত।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/163xjj2eqq",
+      "sourceName": "প্রথম আলো"
+    },
+    {
+      "id": "rss6200a927d755a2",
+      "slug": "হালুয়াঘাট-ধোবাউড়া-সীমান্তে-অনুপ্রবেশ-ও-ন",
+      "title": "হালুয়াঘাট-ধোবাউড়া সীমান্তে অনুপ্রবেশ ও নাশকতা প্রতিরোধের ঘোষণা এমরান সালেহর",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%98%E0%A6%BE%E0%A6%9F-%E0%A6%A7%E0%A7%8B%E0%A6%AC%E0%A6%BE%E0%A6%89%E0%A7%9C%E0%A6%BE-%E0%A6%B8%E0%A7%80%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%87-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B6-%E0%A6%93-%E0%A6%A8.avif",
+      "publishedAt": "2026-11-20T20:12:32.689Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ভারতে পালিয়ে থাকা আওয়ামী লীগ নেতা-কর্মীদের আটক করে ফেরত দেওয়ার দাবি তুলেছেন বিএনপির যুগ্ম মহাসচিব। সন্দেহজনক তৎপরতা দেখলে বিজিবি বা পুলিশকে জানাতে বলেন তিনি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/o7p5ckqh85\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ভারতে পালিয়ে থাকা আওয়ামী লীগ নেতা-কর্মীদের আটক করে ফেরত দেওয়ার দাবি তুলেছেন বিএনপির যুগ্ম মহাসচিব। সন্দেহজনক তৎপরতা দেখলে বিজিবি বা পুলিশকে জানাতে বলেন তিনি।",
+      "sourceUrl": "https://www.prothomalo.com/politics/o7p5ckqh85",
       "sourceName": "প্রথম আলো"
     },
     {
@@ -1057,6 +1089,22 @@
       "body": "<p>বাগেরহাটের মোংলায় গ্রামীণ ব্যাংকের একটি শাখায় পেট্রোল বোমা নিক্ষেপ করে আগুন দেওয়ার চেষ্টার ঘটনায় এক যুবককে আটক করেছে পুলিশ। ঘটনার তিন দিন পর শুক্রবার (২০ নভেম্বর) রাতে তাকে আটক করা হয়। আটক যুবকের নাম মো. রাকিব খান (২৬)। শুক্রবার রাত ৮টার দিকে উপজেলার জয়মনি সাইলো এলাকার নিজ বাড়ি থেকে আটক করা হয়। পুলি</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আর্থিক প্রতিষ্ঠানের নিরাপত্তা বিঘ্নিত হওয়ার এ ঘটনা স্থানীয় জনমনে উদ্বেগ বাড়াবে। জননিরাপত্তা নিশ্চিত করতে এলাকায় নজরদারি বাড়ানো ও সন্দেহভাজনদের বিষয়ে দ্রুত প্রশাসনকে অবহিত করা এখন জরুরি। স্থানীয়দের সচেতনতাই ভবিষ্যতে এমন নাশকতামূলক কর্মকাণ্ড রোধে কার্যকর ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/khulna/982259/%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%A3-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "বাগেরহাটের মোংলায় গ্রামীণ ব্যাংকের একটি শাখায় পেট্রোল বোমা নিক্ষেপ করে আগুন দেওয়ার চেষ্টার ঘটনায় এক যুবককে আটক করেছে পুলিশ। ঘটনার তিন দিন পর শুক্রবার (২০ নভেম্বর) রাতে তাকে আটক করা হয়। আটক যুবকের নাম মো. রাকিব খান (২৬)। শুক্রবার রাত ৮টার দিকে উপজেলার জয়মনি সাইলো এলাকার নিজ বাড়ি থেকে আটক করা হয়। পুলি",
       "sourceUrl": "https://www.banglatribune.com/country/khulna/982259/%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%A3-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE",
+      "sourceName": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssd550b21a39d218",
+      "slug": "শেষ-ম্যাচে-হেরে-এশিয়ান-কাপের-স্বপ্ন-শেষ-ব",
+      "title": "শেষ ম্যাচে হেরে এশিয়ান কাপের স্বপ্ন শেষ বাংলাদেশের",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87-%E0%A6%B9%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AC.webp",
+      "publishedAt": "2026-11-20T18:42:32.580Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>এএফসি অনূর্ধ্ব-১৭ এশিয়ান কাপ ২০২৭-এর বাছাইপর্বের শেষ ম্যাচে স্বাগতিক সংযুক্ত আরব আমিরাতের কাছে ২-০ গোলে হেরেছে বাংলাদেশ। শুক্রবার (২০ নভেম্বর) রাস আল খাইমার এমিরেটস ক্লাব স্টেডিয়ামে অনুষ্ঠিত ম্যাচের প্রথমার্ধে কোনো দল গোল করতে পারেনি। বিরতির পর দুই গোল করে জয় নিশ্চিত করে স্বাগতিকরা। এই হারে ছয় পয়েন্ট নিয়ে গ্রুপ পর্ব শেষ করেছে বাংলাদেশ। পাঁচ দলের ‘সি’ গ্রুপে বাংলাদেশের শুরুটা হয়েছিল... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/982260/%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87-%E0%A6%B9%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "এএফসি অনূর্ধ্ব-১৭ এশিয়ান কাপ ২০২৭-এর বাছাইপর্বের শেষ ম্যাচে স্বাগতিক সংযুক্ত আরব আমিরাতের কাছে ২-০ গোলে হেরেছে বাংলাদেশ। শুক্রবার (২০ নভেম্বর) রাস আল খাইমার এমিরেটস ক্লাব স্টেডিয়ামে অনুষ্ঠিত ম্যাচের প্রথমার্ধে কোনো দল গোল করতে পারেনি। বিরতির পর দুই গোল করে জয় নিশ্চিত করে স্বাগতিকরা। এই হারে ছয় পয়েন্",
+      "sourceUrl": "https://www.banglatribune.com/sport/football/982260/%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87-%E0%A6%B9%E0%A7%87%E0%A6%B0%E0%A7%87-%E0%A6%8F%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন"
     },
     {
@@ -7969,54 +8017,6 @@
       "body": "<p>নওগাঁ বিসিক শিল্পনগরীতে বন্ধ ও রুগ্ন শিল্পকারখানা পুনরায় চালু এবং সচল শিল্পপ্রতিষ্ঠানগুলোর বিভিন্ন সমস্যা চিহ্নিত করে সমাধানের উদ্যোগ নেওয়া হয়েছে। এ লক্ষ্যে গঠি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বন্ধ ও রুগ্ন কারখানাগুলো সচল হলে স্থানীয় পর্যায়ে কর্মসংস্থানের সুযোগ বাড়বে এবং অর্থনৈতিক গতিশীলতা ফিরবে। শিল্পনগরীর উৎপাদনশীলতা বাড়লে পণ্যমূল্য স্থিতিশীল রাখতে তা সাধারণ মানুষের ক্রয়ক্ষমতার ওপর ইতিবাচক প্রভাব ফেলবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542308\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "নওগাঁ বিসিক শিল্পনগরীতে বন্ধ ও রুগ্ন শিল্পকারখানা পুনরায় চালু এবং সচল শিল্পপ্রতিষ্ঠানগুলোর বিভিন্ন সমস্যা চিহ্নিত করে সমাধানের উদ্যোগ নেওয়া হয়েছে। এ লক্ষ্যে গঠি...",
       "sourceUrl": "https://daily-bangladesh.com/country/542308",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss418009f535822c",
-      "slug": "কাদের-মোল্লার-রায়-লজ্জার-মন্তব্য-প্রধান",
-      "title": "কাদের মোল্লার রায় ‘লজ্জার’ মন্তব্য প্রধান বিচারপতির",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%8B%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%B2%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8.jpg",
-      "publishedAt": "2026-11-19T06:27:18.309Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>মানবতাবিরোধী অপরাধের মামলায় কাদের মোল্লাকে সংক্ষিপ্ত রায়ে ফাঁসি দেওয়ার ঘটনাকে ইতিহাসের নিকৃষ্টতম ঘটনা বলে মন্তব্য করেছেন প্রধান বিচারপতি জুবায়ের রহমান চৌধুরী।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিচারিক প্রক্রিয়ায় এমন ত্রুটি সাধারণ মানুষের মনে ন্যায়বিচারের নিশ্চয়তা নিয়ে গভীর সংশয় তৈরি করে। বিচারহীনতার সংস্কৃতি দূর করে স্বচ্ছতা নিশ্চিত করতে বিচারবিভাগের প্রতিটি স্তরে সর্বোচ্চ জবাবদিহি ও সতর্ক থাকা অপরিহার্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/542295\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "মানবতাবিরোধী অপরাধের মামলায় কাদের মোল্লাকে সংক্ষিপ্ত রায়ে ফাঁসি দেওয়ার ঘটনাকে ইতিহাসের নিকৃষ্টতম ঘটনা বলে মন্তব্য করেছেন প্রধান বিচারপতি জুবায়ের রহমান চৌধুরী।",
-      "sourceUrl": "https://daily-bangladesh.com/national/542295",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssc77e6a693f0f23",
-      "slug": "পুতিনের-সঙ্গে-বৈঠকে-ট্রাম্প-রুশ-প্রেসিডে",
-      "title": "পুতিনের সঙ্গে বৈঠকে ট্রাম্প, রুশ প্রেসিডেন্টের প্রশংসা",
-      "category": "প্রযুক্তি",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%B0%E0%A7%81%E0%A6%B6-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A6%BF%E0%A6%A1%E0%A7%87.jpg",
-      "publishedAt": "2026-11-19T06:27:18.307Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>অ্যাপেক সম্মেলনের ফাঁকে রাশিয়ার প্রেসিডেন্ট ভ্লাদিমির পুতিনের সঙ্গে দ্বিপক্ষীয় বৈঠক করেছেন যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। বৃহস্পতিবার (১৯ নভেম্বর)...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্বনেতাদের এই উচ্চপর্যায়ের কূটনৈতিক যোগাযোগ সাইবার নিরাপত্তা ও বৈশ্বিক প্রযুক্তি বাণিজ্যের গতিপ্রকৃতি নির্ধারণে গুরুত্বপূর্ণ ভূমিকা রাখবে। প্রযুক্তিনির্ভর আধুনিক বিশ্বে এমন রাজনৈতিক সমঝোতা ডিজিটাল অবকাঠামোর সুরক্ষায় নতুন সমীকরণ তৈরি করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/international/542296\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "অ্যাপেক সম্মেলনের ফাঁকে রাশিয়ার প্রেসিডেন্ট ভ্লাদিমির পুতিনের সঙ্গে দ্বিপক্ষীয় বৈঠক করেছেন যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। বৃহস্পতিবার (১৯ নভেম্বর)...",
-      "sourceUrl": "https://daily-bangladesh.com/international/542296",
-      "sourceName": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssee358637a0a604",
-      "slug": "জেনসেন-হুয়াংকে-নিয়োগ-দিতে-চান-ইলন-মাস্ক",
-      "title": "জেনসেন হুয়াংকে নিয়োগ দিতে চান ইলন মাস্ক",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A6%B8%E0%A7%87%E0%A6%A8-%E0%A6%B9%E0%A7%81%E0%A7%9F%E0%A6%BE%E0%A6%82%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%A8-%E0%A6%87%E0%A6%B2%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95.jpg",
-      "publishedAt": "2026-11-19T06:27:18.306Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>প্রয়োজনে চিপ নির্মাতা প্রতিষ্ঠান এনভিডিয়ার সাবেক প্রধান নির্বাহী কর্মকর্তা (সিইও) জেনসেন হুয়াংকে নিয়োগ দিতে চান টেসলা ও স্পেসএক্সের সিইও ইলন মাস্ক।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তি বিশ্বের দুই মহারথীর এমন সংযোগ কৃত্রিম বুদ্ধিমত্তার উৎকর্ষকে নতুন উচ্চতায় নিতে পারে। এর ফলে উদ্ভাবনী প্রযুক্তির সহজলভ্যতা বাড়বে, যা দীর্ঘমেয়াদে সাধারণ মানুষের দৈনন্দিন ডিজিটাল সেবা ও জীবনযাত্রার মানকে আরও উন্নত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/international/542297\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "প্রয়োজনে চিপ নির্মাতা প্রতিষ্ঠান এনভিডিয়ার সাবেক প্রধান নির্বাহী কর্মকর্তা (সিইও) জেনসেন হুয়াংকে নিয়োগ দিতে চান টেসলা ও স্পেসএক্সের সিইও ইলন মাস্ক।",
-      "sourceUrl": "https://daily-bangladesh.com/international/542297",
       "sourceName": "ডেইলি বাংলাদেশ"
     }
   ],
