@@ -1,6 +1,6 @@
 {
-  "version": 1496,
-  "updatedAt": "2026-11-21T05:57:49.352Z",
+  "version": 1497,
+  "updatedAt": "2026-11-21T06:09:17.183Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -50,6 +50,54 @@
       "summary": "চীন, লাওস, আলজেরিয়া ও ইরাকে আকর্ষনীয় বেতনে কর্মসংস্থানের সুবর্ণ সুযোগ নিয়ে এসেছে সরকারি অনুমোদিত বিশ্বস্ত রিক্রুটিং প্রতিষ্ঠান THY International AD International Ent.। 🇨🇳 ১. চীন (China) — গার্মেন",
       "sourceUrl": "",
       "sourceName": ""
+    },
+    {
+      "id": "rss1908229825ce89",
+      "slug": "শীতের-আগমনে-ব্যস্ত-গাছিরা-জয়পুরহাটে-জমেছ",
+      "title": "শীতের আগমনে ব্যস্ত গাছিরা, জয়পুরহাটে জমেছে খেজুরের গুড়ের মৌসুম",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%8D%E0%A6%A4-%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A6%BF%E0%A6%B0%E0%A6%BE-%E0%A6%9C%E0%A7%9F%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B9%E0%A6%BE%E0%A6%9F%E0%A7%87-%E0%A6%9C%E0%A6%AE%E0%A7%87%E0%A6%9B.jpg",
+      "publishedAt": "2026-11-21T05:57:48.588Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>শীতের আগমনে বদলে গেছে উত্তরাঞ্চলের গ্রামবাংলার চিত্র। নতুন ধানের ঘ্রাণের সঙ্গে গ্রামীণ জনপদে শুরু হয়েছে খেজুরের রস, গুড় ও পিঠা তৈরির উৎসব। খেজুরের রস আর নতুন ধা...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542495\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "শীতের আগমনে বদলে গেছে উত্তরাঞ্চলের গ্রামবাংলার চিত্র। নতুন ধানের ঘ্রাণের সঙ্গে গ্রামীণ জনপদে শুরু হয়েছে খেজুরের রস, গুড় ও পিঠা তৈরির উৎসব। খেজুরের রস আর নতুন ধা...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/542495",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssdf4d009c5e7332",
+      "slug": "জলবায়ু-ও-পরিবেশ-বিপর্যয়ে-হুমকির-মুখে-মৎস",
+      "title": "জলবায়ু ও পরিবেশ বিপর্যয়ে হুমকির মুখে মৎস্যসম্পদ",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A7%81-%E0%A6%93-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87-%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%AE%E0%A7%8E%E0%A6%B8.jpg",
+      "publishedAt": "2026-11-21T05:57:48.581Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>কিন্তু দুঃখজনক বাস্তবতা হচ্ছে, জলবায়ু পরিবর্তন, নদীদূষণ, জলাশয় ভরাট, অপরিকল্পিত অবকাঠামো নির্মাণ, অতিরিক্ত মাছ আহরণ এবং জীববৈচিত্র্য ধ্বংসের কারণে দেশের প্রাকৃত...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/opinion/542501\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "কিন্তু দুঃখজনক বাস্তবতা হচ্ছে, জলবায়ু পরিবর্তন, নদীদূষণ, জলাশয় ভরাট, অপরিকল্পিত অবকাঠামো নির্মাণ, অতিরিক্ত মাছ আহরণ এবং জীববৈচিত্র্য ধ্বংসের কারণে দেশের প্রাকৃত...",
+      "sourceUrl": "https://www.daily-bangladesh.com/opinion/542501",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsse87b8ac7e3b2c1",
+      "slug": "৭-জেলায়-৬০-কিমি-বেগে-ঝোড়ো-হাওয়াসহ-বজ্রবৃষ",
+      "title": "৭ জেলায় ৬০ কিমি বেগে ঝোড়ো হাওয়াসহ বজ্রবৃষ্টির আভাস",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A7%AD-%E0%A6%9C%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A7%AC%E0%A7%A6-%E0%A6%95%E0%A6%BF%E0%A6%AE%E0%A6%BF-%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A7%87-%E0%A6%9D%E0%A7%8B%E0%A7%9C%E0%A7%8B-%E0%A6%B9%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B8%E0%A6%B9-%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A7%83%E0%A6%B7.jpg",
+      "publishedAt": "2026-11-21T05:57:48.579Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>দেশের সাত জেলায় ঘণ্টায় ৪৫ থেকে ৬০ কিলোমিটার বেগে ঝোড়ো হাওয়াসহ বৃষ্টি অথবা বজ্রবৃষ্টি হতে পারে। এ কারণে সংশ্লিষ্ট এলাকার নদীবন্দরগুলোকে ১ নম্বর সতর্কসংকেত দেখাতে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/542502\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "দেশের সাত জেলায় ঘণ্টায় ৪৫ থেকে ৬০ কিলোমিটার বেগে ঝোড়ো হাওয়াসহ বৃষ্টি অথবা বজ্রবৃষ্টি হতে পারে। এ কারণে সংশ্লিষ্ট এলাকার নদীবন্দরগুলোকে ১ নম্বর সতর্কসংকেত দেখাতে...",
+      "sourceUrl": "https://www.daily-bangladesh.com/national/542502",
+      "sourceName": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rssec3a55da8e2f7b",
@@ -137,7 +185,7 @@
       "title": "গোপালগঞ্জে বাস-মোটরসাইকেল সংঘর্ষে নিহত ২",
       "category": "সারাদেশ",
       "lead": false,
-      "image": "images/national.jpg",
+      "image": "/img/rss13ea0f600117ef-1200x630.jpg",
       "publishedAt": "2026-11-21T05:27:45.295Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7970,54 +8018,6 @@
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiwwRBVV95cUxOS2RIWExxVmJqX3hyU0phdS1yaXM0U1FJM0ZVU1EySEdJendtZWpIaWxUaWdiZmQ3dUZyaGk4MkJWQTlCZFZ1czNuWGFBeE1QdTBkdjJvZFJXZHFLZ1d6QzlLbzVFcEdnQ2phTWNCSmtSQkU4QjVuYnAtQkphZ3lIdHVCZlFIT2U0cVJiM0dGNzZCT2xiMl9WT1RNVUpNV0RZRFM4MFVsMWVOZGE0bk9xUlR4U2twT1l",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxOS2RIWExxVmJqX3hyU0phdS1yaXM0U1FJM0ZVU1EySEdJendtZWpIaWxUaWdiZmQ3dUZyaGk4MkJWQTlCZFZ1czNuWGFBeE1QdTBkdjJvZFJXZHFLZ1d6QzlLbzVFcEdnQ2phTWNCSmtSQkU4QjVuYnAtQkphZ3lIdHVCZlFIT2U0cVJiM0dGNzZCT2xiMl9WT1RNVUpNV0RZRFM4MFVsMWVOZGE0bk9xUlR4U2twT1lvekh3alVtLWpUelRlMGFZMFNORkRVTGUxc3IyZVlEamtnMU9hZThsSkVUZGVjaU1jUzNCYmFZTENjSjZuNEw5ZGF6dGx0bTRtcE1YaUU5TnlMSGpuM09DcUFSVUlJdUtqcDBldVMyck5kekZ3MWtBUUJpS1NILWlUQUF5X1NCVkZQODF2X2F5djVLdEdsRVlUQlhXbDhIdm56d0xJZTlXZ0lCVzdFTkhyRWw5N3hXenJmRjV6MG1xeEZrRXFjR2JmRXBJN3hzWmlFOHhoR09kVlNaRGxlOE9XU19fYkE0NGFUQy1ZcGFuTGhtNmU2dFBtbGk5RU9XaVNlSEJLckFfQnFqdkFpMmprTjFVbi1oUi1uRm13eWhLanlORVJYRWVGbzBnMUdUYWpWSUx4czBLUTFKSzFObVI3eVZITnN3VURna0Y4bjZoczUxYlBHbGtudUVfNGVzZzJhTVJ2RTA4REJjUXNoeGZ5d2dObmpwR29Lb0Z5STJRY0QxUlQ0ejJFeHhuc2FjRkZyN1U?oc=5",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss1215d2ae95b7af",
-      "slug": "দায়িত্ব-নিলেন-বিটিআরসির-নতুন-চেয়ারম্যান",
-      "title": "দায়িত্ব নিলেন বিটিআরসির নতুন চেয়ারম্যান ওয়াহিদ-উজ-জামান",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%86%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8.webp",
-      "publishedAt": "2026-11-19T12:27:18.787Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বাংলাদেশ টেলিযোগাযোগ রেগুলেটরি কমিশনের (বিটিআরসি) নতুন চেয়ারম্যান হিসেবে দায়িত্ব নিয়েছেন মেজর জেনারেল মো. ওয়াহিদ-উজ-জামান (অব.)। ১৫ নভেম্বর সরকার তাকে এ পদে নিয়োগ দেয় এবং ১৮ নভেম্বর তিনি যোগদান করেন। ১৩৭ মিলিয়ন ভিউয়ে বদলে গেলো শিশুর জীবন বাংলাদেশ সেনাবাহিনীতে দীর্ঘ ৩৭ বছরের কর্মজীবনে নেতৃত্ব, প্রশাস</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">টেলিযোগাযোগ খাতের নীতিনির্ধারণী পর্যায়ে এই নতুন নেতৃত্বের পরিবর্তন খাতটিতে কর্মসংস্থানের সুযোগ ও প্রাতিষ্ঠানিক স্বচ্ছতা নিয়ে ইতিবাচক আলোচনার জন্ম দিতে পারে। চাকরিপ্রার্থীদের এখন এই খাতের নতুন নীতিমালা ও নিয়োগ প্রক্রিয়ার দিকে সতর্ক নজর রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/tech-news/981977/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%86%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বাংলাদেশ টেলিযোগাযোগ রেগুলেটরি কমিশনের (বিটিআরসি) নতুন চেয়ারম্যান হিসেবে দায়িত্ব নিয়েছেন মেজর জেনারেল মো. ওয়াহিদ-উজ-জামান (অব.)। ১৫ নভেম্বর সরকার তাকে এ পদে নিয়োগ দেয় এবং ১৮ নভেম্বর তিনি যোগদান করেন। ১৩৭ মিলিয়ন ভিউয়ে বদলে গেলো শিশুর জীবন বাংলাদেশ সেনাবাহিনীতে দীর্ঘ ৩৭ বছরের কর্মজীবনে নেতৃত্ব, প্রশাস",
-      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/tech-news/981977/%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%86%E0%A6%B0%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss9038a91565151d",
-      "slug": "অস্ট্রেলিয়ার-নাগরিক-রেহানাকে-হত্যার-পর-ম",
-      "title": "অস্ট্রেলিয়ার নাগরিক রেহানাকে ‘হত্যার পর মাটিচাপা’: পিবিআইকে অধিকতর তদন্তের নির্দেশ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE.webp",
-      "publishedAt": "2026-11-19T12:27:18.785Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>সম্পত্তি ও পারিবারিক বিরোধের জেরে বাংলাদেশি বংশোদ্ভূত অস্ট্রেলীয় নাগরিক রেহানা পারভীনকে হত্যার পর মাটিচাপা দেওয়ার মামলা পুলিশ ব্যুরো অব ইনভেস্টিগেশনকে (পিবিআই) অধিকতর তদন্তের নির্দেশ দিয়েছেন আদালত। বাদীপক্ষের নারাজির আবেদন মঞ্জুর করে ঢাকার সিনিয়র জুডিসিয়াল ম্যাজিস্ট্রেট তানভীর আহমেদের বুধবার এ আদেশ </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পারিবারিক ও সম্পত্তিগত বিরোধের জেরে এমন নৃশংসতা সামাজিক নিরাপত্তার জন্য অশনিসংকেত। ন্যায়বিচার নিশ্চিত করতে পিবিআইয়ের নিবিড় তদন্ত যেমন জরুরি, তেমনি সম্পদের বিরোধ নিষ্পত্তিতে স্থানীয় পর্যায়ে আইনি সচেতনতা বৃদ্ধি করা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/981978/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E2%80%98%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E2%80%99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "সম্পত্তি ও পারিবারিক বিরোধের জেরে বাংলাদেশি বংশোদ্ভূত অস্ট্রেলীয় নাগরিক রেহানা পারভীনকে হত্যার পর মাটিচাপা দেওয়ার মামলা পুলিশ ব্যুরো অব ইনভেস্টিগেশনকে (পিবিআই) অধিকতর তদন্তের নির্দেশ দিয়েছেন আদালত। বাদীপক্ষের নারাজির আবেদন মঞ্জুর করে ঢাকার সিনিয়র জুডিসিয়াল ম্যাজিস্ট্রেট তানভীর আহমেদের বুধবার এ আদেশ ",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/981978/%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95-%E0%A6%B0%E0%A7%87%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%87-%E2%80%98%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A6%BE%E2%80%99",
-      "sourceName": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss500953f4cf8b75",
-      "slug": "আইসিজের-রায়-রোহিঙ্গাদের-দুর্ভোগের-দীর্ঘ",
-      "title": "আইসিজের রায় রোহিঙ্গাদের দুর্ভোগের দীর্ঘ প্রতীক্ষিত স্বীকৃতি: এইচআরডব্লিউ",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A6%BF%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98.webp",
-      "publishedAt": "2026-11-19T12:27:18.782Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>২০১৭ সালে মিয়ানমার সেনাবাহিনীর পরিচালিত ‘শুদ্ধি অভিযানে’ রোহিঙ্গাদের বিরুদ্ধে গণহত্যার দায়ে দেশটিকে দায়ী করে চূড়ান্ত রায় দিয়েছেন আন্তর্জাতিক বিচার আদালত (আইসিজে)। রায়ের প্রতিক্রিয়ায় যুক্তরাষ্ট্রভিত্তিক আন্তর্জাতিক মানবাধিকার সংস্থা হিউম্যান রাইটস ওয়াচ (এইচআরডব্লিউ) বলেছে, এই রায় মিয়ানমারের সামরিক </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক আদালতের এই রায় রোহিঙ্গা প্রত্যাবাসনে মিয়ানমারের ওপর বৈশ্বিক চাপ বৃদ্ধির সুযোগ তৈরি করেছে। বাংলাদেশের উচিত এই আইনি স্বীকৃতিকে কাজে লাগিয়ে শক্তিশালী কূটনৈতিক তৎপরতা চালানো, যাতে বাস্তুচ্যুত মানুষের নিরাপদ ও মর্যাদাপূর্ণ ফেরা নিশ্চিত হয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/america/981979/%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A6%BF%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "২০১৭ সালে মিয়ানমার সেনাবাহিনীর পরিচালিত ‘শুদ্ধি অভিযানে’ রোহিঙ্গাদের বিরুদ্ধে গণহত্যার দায়ে দেশটিকে দায়ী করে চূড়ান্ত রায় দিয়েছেন আন্তর্জাতিক বিচার আদালত (আইসিজে)। রায়ের প্রতিক্রিয়ায় যুক্তরাষ্ট্রভিত্তিক আন্তর্জাতিক মানবাধিকার সংস্থা হিউম্যান রাইটস ওয়াচ (এইচআরডব্লিউ) বলেছে, এই রায় মিয়ানমারের সামরিক ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/america/981979/%E0%A6%86%E0%A6%87%E0%A6%B8%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A6%BF%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A4",
-      "sourceName": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
